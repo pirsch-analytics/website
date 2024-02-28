@@ -1,0 +1,11 @@
+{
+    "tpl": "head",
+    "data": {
+        "en": {
+            "title": "Pirsch"
+        },
+        "de": {
+            "title": "Pirsch"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+section.toc {
+    width: 768px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    strong {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--color-secondary);
+    }
+
+    ol {
+        list-style-type: decimal;
+        padding-left: 24px;
+
+        li {
+            margin: 12px 0;
+            font-weight: 500;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        padding-top: 64px;
+    }
+}

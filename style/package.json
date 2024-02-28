@@ -1,0 +1,16 @@
+{
+  "name": "pirschio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass -w style/main.scss ../static/css/main.css",
+    "build": "sass style/main.scss ../static/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

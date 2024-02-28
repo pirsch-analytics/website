@@ -1,0 +1,143 @@
+.technologies {  
+    position: relative;
+    width: 512px;
+    max-width: 512px;
+    height: 512px;
+    margin: 0 auto;
+
+    .logo {
+        position: absolute;
+        top: calc(50% - 64px);
+        left: calc(50% - 45px); 
+        height: 128px;
+        width: 90px;
+
+        svg g {
+            fill: var(--color-primary);
+        }
+    }
+    
+    .circle {
+        position: absolute;
+        top: 46px;
+        left: 46px;
+        width: 420px;
+        max-width: 420px;
+        height: 420px;
+        border: solid 2px var(--color-border);
+        border-radius: 50%;
+    }
+
+    .icons {
+        position: absolute;
+        width: inherit;
+        max-width: inherit;
+        height: inherit;
+        transform-origin: center;
+        animation: rotate-right 30s linear infinite;
+
+        .icon {
+            position: absolute;
+            height: 96px;
+            width: 96px;
+            background-color: var(--color-background-secondary);
+            border-radius: 48px;
+            animation: rotate-left 30s linear infinite;
+
+            &:nth-of-type(1) {
+                top: 208px;
+                left: 0;
+            }
+
+            &:nth-of-type(2) {
+                top: 61px;
+                left: 61px;
+            }
+
+            &:nth-of-type(3) {
+                top: 0;
+                left: 208px;
+            }
+
+            &:nth-of-type(4) {
+                top: 61px;
+                left: 355px;
+            }
+
+            &:nth-of-type(5) {
+                top: 208px;
+                left: 416px;
+            }
+
+            &:nth-of-type(6) {
+                top: 355px;
+                left: 355px;
+            }
+
+            &:nth-of-type(7) {
+                top: 416px;
+                left: 208px;
+            }
+
+            &:nth-of-type(8) {
+                top: 355px;
+                left: 61px;
+            }
+
+            svg {
+                fill: var(--color-primary);
+            }
+        }
+
+        @keyframes rotate-right {
+            0% {
+                transform: rotateZ(0);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+
+        @keyframes rotate-left {
+            0% {
+                transform: rotateZ(0);
+            }
+            100% {
+                transform: rotateZ(-360deg);
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+        .logo,
+        .circle {
+            display: none;
+        }
+
+        .icons {
+            position: relative;
+            display: grid;
+            grid-template-columns: 96px 96px 96px;
+            justify-content: center;
+            gap: 24px;
+            animation: none;
+
+            .icon {
+                position: relative;
+                top: auto !important;
+                left: auto !important;
+                animation: none;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 512px) {
+        .icons {
+            transform: scale(.8);
+        }
+    }
+}

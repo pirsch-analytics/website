@@ -1,0 +1,213 @@
+/* Fieldset setup */
+fieldset {
+    position: relative;
+    min-width: 32px;
+}
+
+/* Input, textarea and select */
+fieldset:not(.file) {
+    input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="color"]):not([type="range"]),
+    textarea,
+    select {
+        width: 100%;
+        display: block;
+        padding: 21px 12px 6px;
+        font-family: inherit;
+        font-size: 16px;
+        color: var(--color-primary);
+        background-color: var(--color-background-secondary);
+        border: none;
+        border-radius: calc(var(--border-radius-primary) / 2);
+        -webkit-appearance: none;
+    
+        &:focus:not(:disabled),
+        &:focus-within:not(:disabled) {
+            color: var(--color-primary);
+            box-shadow: 0 0 0 1px var(--color-secondary);
+            outline: none;
+            
+            /* Move label to top when input is focused */
+            & + label {
+                font-size: 13px;
+				transform: translateY(-10px);
+			}
+        }
+
+        /* Move label to top when input is not empty */
+        &:not(:placeholder-shown) + label,
+        &.placeholder + label {
+            font-size: 13px;
+            transform: translateY(-10px);
+        }
+
+        /* Disabled */
+        &:disabled {
+            color: var(--color-secondary);
+            opacity: .5;
+            cursor: default;
+
+            & ~ label,
+            & ~ small {
+                opacity: .5;
+                user-select: none;
+            }
+        }
+    }
+
+    textarea {
+        height: 96px;
+        max-height: 256px;
+        min-height: 48px;
+        resize: vertical;
+        overflow-y: auto;
+    }
+
+    select {
+        height: 48px;
+        padding: 20px 32px 4px 12px;
+        background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010%205%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M4.646+4.646a.5.5%200%200%200%20.707%200L9.146.854A.5.5%200%200%200%208.793+0H1.207a.5.5%200%200%200-.354.854l3.793%203.793z%22%20fill%3D%22%23797c80%22%2F%3E%3C%2Fsvg%3E');
+        background-repeat: no-repeat, repeat;
+        background-position: right 12px top 50%, 0 0;
+        background-size: 12px auto, 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        
+        /* Remove dotted line in Firefox */
+        &:-moz-focusring {
+            color: transparent;
+            text-shadow: 0 0 0 #000;
+        }
+    }
+
+    option {
+        background-color: var(--color-background-secondary);
+    }
+
+    input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="color"]):not([type="range"]) + label,
+    textarea + label,
+    select + label {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        max-width: calc(100% - 24px);
+        display: block;
+        line-height: 1.5;
+        color: var(--color-secondary);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        pointer-events: none;
+        user-select: none;
+        transition-property: font-size, color, transform;
+        transition-duration: .1s;
+        transition-timing-function: ease;
+    }
+
+    small {
+        display: block;
+        margin: 4px 8px 8px;
+        font-size: 13px;
+        line-height: 18px;
+
+        &.error {
+            color: var(--color-red);
+        }
+
+        .green {
+            color: var(--color-green);
+        }
+
+        .red {
+            color: var(--color-red);
+        }
+    }
+}
+
+/* Checkbox */
+fieldset:not(.toggle) {
+    /* Hide standard checkbox */
+    input[type="checkbox"] {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        margin: 4px 10px;
+        opacity: 0;
+        z-index: -1;
+        -webkit-appearance: none;
+        
+        & + label {
+            position: relative;
+            min-height: 16px;
+            display: inline-block;
+            padding-left: 32px;
+            line-height: 1.5;
+        }
+
+        /* Checkbox setup */
+        & + label::before {
+            content: "";
+            position: absolute;
+            left: -4px;
+            height: 16px;
+            width: 16px;
+            margin: 4px 10px;
+            display: block;
+            float: left;
+            background-color: var(--white);
+            border-radius: calc(var(--border-radius-primary) / 2 - 2px);
+            cursor: pointer;
+        }
+
+        /* Tick setup */
+        & + label::after {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: 12px;
+            height: 9px;
+            width: 4px;
+            box-shadow: 1.5px 1.5px 0 .5px var(--black);
+            opacity: 0;
+            pointer-events: none;
+            transform: rotate(45deg);
+        }
+
+        /* Disabled */
+        &:disabled {
+            opacity: .5;
+            cursor: default;
+
+            & + label {
+                color: var(--color-secondary);
+                opacity: .5;
+            }
+
+            &:checked + label::before {
+                background-color: var(--color-secondary);
+                cursor: default;
+            }
+        }
+    }
+
+    /* Checkbox focused and unchecked */
+    input[type="checkbox"]:focus + label::before {
+        box-shadow: 0 0 0 1px var(--color-secondary);
+    }
+
+    /* Checkbox focused and checked */
+    input[type="checkbox"]:checked:focus + label::before {
+        box-shadow: 0 0 0 1px var(--color-secondary);
+    }
+
+    /* Checkbox unfocused and checked */
+    input[type="checkbox"]:checked + label::before {
+        background-color: var(--color-accent);
+        box-shadow: none;
+    }
+
+    /* Show tick when checked */
+    input[type="checkbox"]:checked + label::after {
+        opacity: 1;
+    }
+}

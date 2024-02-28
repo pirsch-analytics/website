@@ -1,0 +1,9 @@
+{{if eq (get .Page .Content "headline_size") 2}}
+    <h2>{{get .Page .Content "headline"}}</h2>
+{{else}}
+    <h1>{{get .Page .Content "headline"}}</h1>
+{{end}}
+
+<p>{{html (get .Page .Content "text")}}</p>
+
+{{.CMS.Render .Page (index .Content.Content "children")}}
