@@ -21,6 +21,9 @@ The JSON structure for a content file is as follows:
         "en": "/",
         "de": "/de"
     },
+    "sitemap": {
+        "priority": "1.0" // default is 1.0
+    },
     "content": {
         "content": [
             {

@@ -3,6 +3,9 @@
         "en": "/",
         "de": "/de"
     },
+    "sitemap": {
+        "priority": "1.0"
+    },
     "content": {
         "content": [
             {"ref": "head"},
