@@ -24,6 +24,11 @@ The JSON structure for a content file is as follows:
     "sitemap": {
         "priority": "1.0" // default is 1.0
     },
+    "analytics": { // optional analytics meta data
+        "tags": {
+            "key": "value"
+        }
+    },
     "content": {
         "content": [
             {
