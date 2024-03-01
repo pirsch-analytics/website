@@ -1,8 +1,7 @@
-{{if eq (get .Page .Content "headline_size") 2}}
-    <h2>{{get .Page .Content "headline"}}</h2>
-{{else}}
-    <h1>{{get .Page .Content "headline"}}</h1>
-{{end}}
+{{$size := default (get .Page .Content "headline_size") "h1"}}
+{{html (fmt "<%s>" $size)}}
+    {{get .Page .Content "headline"}}
+{{html (fmt "</%s>" $size)}}
 
 <p>{{html (get .Page .Content "text")}}</p>
 

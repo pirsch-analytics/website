@@ -37,7 +37,7 @@
                             "tpl": "test",
                             "data": {
                                 "en": {
-                                    "headline_size": 2,
+                                    "headline_size": "h2",
                                     "headline": "Child 1",
                                     "text": "This is a child element!"
                                 }
@@ -47,7 +47,7 @@
                             "tpl": "test",
                             "data": {
                                 "en": {
-                                    "headline_size": 2,
+                                    "headline_size": "h2",
                                     "headline": "Child 2",
                                     "text": "This is a child element!"
                                 }
