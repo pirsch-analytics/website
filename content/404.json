@@ -1,0 +1,23 @@
+{
+    "path": {
+        "en": "/404"
+    },
+    "sitemap": {
+        "priority": "0.01"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {
+                "tpl": "test",
+                "data": {
+                    "en": {
+                        "headline": "#404 Page not found",
+                        "text": "The requested page was not found."
+                    }
+                }
+            },
+            {"ref": "end"}
+        ]
+    }
+}

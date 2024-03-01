@@ -1,0 +1,27 @@
+{
+    "path": {
+        "en": "/signup",
+        "de": "/de/signup"
+    },
+    "sitemap": {
+        "priority": "0.1"
+    },
+    "header": {
+        "X-Frame-Options": "deny"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {
+                "tpl": "test",
+                "data": {
+                    "en": {
+                        "headline": "Sign Up",
+                        "text": "..."
+                    }
+                }
+            },
+            {"ref": "end"}
+        ]
+    }
+}

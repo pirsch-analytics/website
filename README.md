@@ -18,11 +18,14 @@ The JSON structure for a content file is as follows:
 ```json
 {
     "path": {
-        "en": "/",
+        "en": "/", // /404 is a special case serving the 404 not found page
         "de": "/de"
     },
     "sitemap": {
         "priority": "1.0" // default is 1.0
+    },
+    "header": { // optional list of headers
+        "X-Frame-Options": "deny"
     },
     "analytics": { // optional analytics meta data
         "tags": {
