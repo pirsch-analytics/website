@@ -1,0 +1,18 @@
+{
+    "path": {
+        "en": "/blog/flexible-ab-testing-on-deno-using-the-fresh-framework-and-pirsch-analytics/"
+    },
+    "sitemap": {
+        "priority": "0.8"
+    },
+    "handler": "blog_article",
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {
+                "tpl": "blog_article"
+            },
+            {"ref": "end"}
+        ]
+    }
+}

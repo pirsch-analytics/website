@@ -1,0 +1,18 @@
+{
+    "path": {
+        "en": "/blog/how-we-use-caddy-to-provide-custom-domains-for-our-clients/"
+    },
+    "sitemap": {
+        "priority": "0.8"
+    },
+    "handler": "blog_article",
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {
+                "tpl": "blog_article"
+            },
+            {"ref": "end"}
+        ]
+    }
+}
