@@ -27,6 +27,7 @@ The JSON structure for a content file is as follows:
     "header": { // optional list of headers
         "X-Frame-Options": "deny"
     },
+    "handler": "custom_handler", // sets a custom handler defined on the backend
     "analytics": { // optional analytics meta data
         "tags": {
             "key": "value"

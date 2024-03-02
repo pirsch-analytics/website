@@ -1,0 +1,32 @@
+{
+    "path": {
+        "en": "/blog",
+        "de": "/de/blog"
+    },
+    "sitemap": {
+        "priority": "0.9"
+    },
+    "handler": "blog",
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {
+                "tpl": "test",
+                "data": {
+                    "en": {
+                        "headline": "Blog",
+                        "text": "We share our experiences, stories and tips about technology, design and everything in-between."
+                    },
+                    "de": {
+                        "headline": "Blog",
+                        "text": "Wir teilen unsere Erfahrungen, Geschichten und Tipps zu Technik, Design und allem, was dazwischen liegt."
+                    }
+                }
+            },
+            {
+                "tpl": "blog_overview"
+            },
+            {"ref": "end"}
+        ]
+    }
+}
