@@ -48,6 +48,10 @@
                                     "headline_size": "h2",
                                     "headline": "Child 1",
                                     "text": "This is a child element!"
+                                },
+                                "de": {
+                                    "headline": "Kind 1",
+                                    "text": "Bla bla..."
                                 }
                             }
                         },
