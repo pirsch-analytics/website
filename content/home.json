@@ -13,7 +13,93 @@
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "ref": "head",
+                "data": {
+                    "en": {
+                        "title": "Overwrite"
+                    }
+                }
+            },
+            {
+                "tpl": "testimonials",
+                "data": {
+                    "en": {
+                        "testimonials": [
+                            {
+                                "name": "Tory Howell",
+                                "picture": "toryhowell.jpg",
+                                "website": "https://toryhowell.com/",
+                                "website_label": "toryhowell.com",
+                                "text": "I'm obsessed with Pirsch! I use it on my personal website and recommend it to all of my website clients. It's honestly one of my favorite tools I use for my business."
+                            },
+                            {
+                                "name": "Dezeiraud Gaëtan",
+                                "picture": "dezeiraudgaetan.jpg",
+                                "website": "https://www.dezeiraud.com/",
+                                "website_label": "dezeiraud.com",
+                                "text": "We use Pirsch on our website or software (Electron-based and UWP) with privacy in mind. It's not just GDPR compliant, it's a real philosophy. Privacy is not optional, it's a right."
+                            },
+                            {
+                                "name": "Rishi Mohan",
+                                "picture": "rishimohan.jpg",
+                                "website": "https://kizie.co/",
+                                "website_label": "kizie.co",
+                                "text": "In my week’s usage of Pirsch on Kizie, I feel one of the best things about Pirsch is how well it displays the data I need to see with all the filters. You can setup custom events and goals too."
+                            },
+                            {
+                                "name": "Leander Lenzing",
+                                "picture": "leanderlenzing.jpg",
+                                "website": "https://www.studiolenzing.com/",
+                                "website_label": "studiolenzing.com",
+                                "text": "A fast and beautiful crafted analytics tool. The UI is lovely and the information is easy to grasp. Sounds cheesy but analytics are fun with Pirsch."
+                            },
+                            {
+                                "name": "Rafael Alex",
+                                "picture": "rafaelalex.jpg",
+                                "website": "https://rafaelalex.de/",
+                                "website_label": "rafaelalex.de",
+                                "text": "Beautifully designed. Easy to integrate and operate. Created and hosted in Germany. A lot of good reasons to give Pirsch a try — seriously do it. Today."
+                            },
+                            {
+                                "name": "Zep Fietje",
+                                "picture": "zepfietje.jpg",
+                                "website": "https://zepfietje.com/",
+                                "website_label": "zepfietje.com",
+                                "text": "After trying many analytics tools, only Pirsch met my needs. Pirsch is the most complete, beautiful and affordable analytics solution out there."
+                            },
+                            {
+                                "name": "Karr Fager",
+                                "picture": "karrfager.jpg",
+                                "website": "https://www.redpanther.io",
+                                "website_label": "redpanther.io",
+                                "text": "I only wish I would've found Pirsch sooner. It is simple, clean, and quick. I tried several other solutions to display website data on my clients' SEO dashboards, Pirsch is the winner."
+                            },
+                            {
+                                "name": "Vegard Flatoy",
+                                "picture": "vegardflatoy.jpg",
+                                "website": "https://lemot.fr",
+                                "website_label": "lemot.fr",
+                                "text": "I've tested many of the cookieless tracking alternatives and I just love the Pirsch dashboard. The graphs are unparalleled. I also love the custom stuff you can do with their events API."
+                            },
+                            {
+                                "name": "Bjarn Bronsveld",
+                                "picture": "bjarnbronsveld.jpg",
+                                "website": "https://spectate.net/",
+                                "website_label": "spectate.net",
+                                "text": "Been a Pirsch user since December 2022, and it's been a breath of fresh air compared to Google Analytics. Implementing in NextJS was done in minutes."
+                            },
+                            {
+                                "name": "Lorenso D'Agostino",
+                                "picture": "lorensodagostino.jpg",
+                                "website": "https://dagostino.digital/",
+                                "website_label": "dagostino.digital",
+                                "text": "Pirsch is a game changer. It combines speed, beautiful design and usability like no other analytics tool. Barely a day goes by that I don't use it."
+                            }
+                        ]
+                    }
+                }
+            },
             {
                 "tpl": "test",
                 "data": {
