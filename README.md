@@ -36,7 +36,12 @@ The JSON structure for a content file is as follows:
     "content": {
         "content": [
             {
-                "ref": "head" // references to a standalone element (JSON file without extension, always lowercase)
+                "ref": "head", // references to a standalone element (JSON file without extension, always lowercase)
+                "data": {
+                    "en": {
+                        "title": "Home" // overrides the variable "title" with the value "Home"
+                    }
+                }
             },
             {
                 "tpl": "test", // template file (without extension, always lowercase)
