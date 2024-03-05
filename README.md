@@ -79,3 +79,7 @@ Standalone elements are use the same structure as pages, but do not specify path
     }
 }
 ```
+
+## Building CSS
+
+The CSS is built by Sass in the `style` directory. Run `npm i` to install Sass and then `npm run watch` during development. The generated CSS files are stored in `static/css' and must be committed to the repository.
