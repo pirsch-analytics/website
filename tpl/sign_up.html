@@ -38,10 +38,9 @@
             <ul>
                 <li>
                     {{if not $signup.SignedUp}}
-                        {{/*}}
-                        TODO
-                        {{template "error.html" $signup.APIResponse}}
-                        {{*/}}
+                        {{range $e := error $signup.APIResponse}}
+                            <small>{{$e}}</small>
+                        {{end}}
 
                         <form method="post">
                             {{if $signup.Error}}
