@@ -1,0 +1,105 @@
+{
+    "path": {
+        "en": "/discourse/login"
+    },
+    "sitemap": {
+        "priority": "0.01"
+    },
+    "header": {
+        "X-Frame-Options": "deny"
+    },
+    "handler": "discourse",
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "data": {
+                    "en": {
+                        "title": "Sign In to Discourse"
+                    },
+                    "de": {
+                        "title": "Bei Discourse anmelden"
+                    }
+                }
+            },
+            {
+                "tpl": "discourse",
+                "data": {
+                    "en": {
+                        "headline": "Log In",
+                        "email_address": "Email Address",
+                        "password": "Password",
+                        "login": "Log In",
+                        "forgot_password": "Forgot your password?",
+                        "signature_error": "The signature is incorrect, please try logging in to Discourse again.",
+                        "to_forum": "Back to Discourse"
+                    },
+                    "de": {
+                        "title": "Anmelden",
+                        "email_address": "Email-Adresse",
+                        "password": "Passwort",
+                        "login": "Anmelden",
+                        "forgot_password": "Passwort vergessen?",
+                        "signature_error": "Die Signatur ist falsch, bitte versuchen Sie sich erneut bei Discourse anzumelden.",
+                        "to_forum": "Zurück zu Discourse"
+                    },
+                    "es": {
+                        "title": "Iniciar sesión",
+                        "email_address": "Dirección de correo electrónico",
+                        "password": "Contraseña",
+                        "login": "Iniciar sesión",
+                        "forgot_password": "¿Olvidaste tu contraseña?",
+                        "signature_error": "La firma es incorrecta, por favor intenta iniciar sesión en Discourse nuevamente.",
+                        "to_forum": "Volver a Discourse"
+                    },
+                    "fr": {
+                        "title": "Connexion",
+                        "email_address": "Adresse e-mail",
+                        "password": "Mot de passe",
+                        "login": "Connexion",
+                        "forgot_password": "Vous avez oublié votre mot de passe ?",
+                        "signature_error": "La signature est incorrecte, veuillez essayer de vous connecter à nouveau à Discourse.",
+                        "to_forum": "Retour à Discourse"
+                    },
+                    "nl": {
+                        "title": "Log In",
+                        "email_address": "E-mailadres",
+                        "password": "Wachtwoord",
+                        "login": "Inloggen",
+                        "forgot_password": "Wachtwoord vergeten?",
+                        "signature_error": "De handtekening is onjuist, probeer opnieuw in te loggen op Discourse.",
+                        "to_forum": "Terug naar Discourse"
+                    },
+                    "it": {
+                        "title": "Accedi",
+                        "email_address": "Indirizzo email",
+                        "password": "Password",
+                        "login": "Accedi",
+                        "forgot_password": "Hai dimenticato la password?",
+                        "signature_error": "La firma è errata, si prega di provare a effettuare nuovamente l'accesso a Discourse.",
+                        "to_forum": "Torna a Discourse"
+                    },
+                    "pt": {
+                        "title": "Entrar",
+                        "email_address": "Endereço de e-mail",
+                        "password": "Senha",
+                        "login": "Entrar",
+                        "forgot_password": "Esqueceu sua senha?",
+                        "signature_error": "A assinatura está incorreta, por favor tente fazer login no Discourse novamente.",
+                        "to_forum": "Voltar para o Discourse"
+                    },
+                    "ja": {
+                        "title": "ログイン",
+                        "email_address": "メールアドレス",
+                        "password": "パスワード",
+                        "login": "ログイン",
+                        "forgot_password": "パスワードを忘れましたか？",
+                        "signature_error": "署名が正しくありません。もう一度Discourseにログインしてみてください。",
+                        "to_forum": "Discourseに戻る"
+                    }
+                }
+            },
+            {"ref": "end"}
+        ]
+    }
+}

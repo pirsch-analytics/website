@@ -1,0 +1,34 @@
+{{$discourse := get .Page .Content "discourse"}}
+
+<section>
+    <div>
+        <h1>{{get .Page .Content "headline"}}</h1>
+
+        {{if $discourse.SignatureError}}
+            <small>{{get .Page .Content "signature_error"}}</small>
+            <small style="margin-top: 12px;">
+                <a href="{{$discourse.DiscourseURL}}">{{get .Page .Content "to_forum"}}</a>
+            </small>
+        {{else}}
+            <form method="post" action="{{.Page.CanonicalLink}}?sso={{$discourse.SSO}}&sig={{$discourse.Sig}}">
+                {{if $discourse.Error}}
+                    <small>{{$discourse.Error}}</small>
+                {{end}}
+
+                <fieldset>
+                    <input type="email" id="email" name="email" value="{{$discourse.Email}}" placeholder=" " autofocus required />
+                    <label for="email">{{get .Page .Content "email_address"}}</label>
+                    <small>{{validation $discourse.APIResponse "email"}}</small>
+                </fieldset>
+                <fieldset>
+                    <input type="password" id="password" name="password" placeholder=" " required />
+                    <label for="password">{{get .Page .Content "password"}}</label>
+                </fieldset>
+                <button type="submit">{{get .Page .Content "login"}}</button>
+            </form>
+            <small>
+                <a href="/password{{if $discourse.Email}}?email={{$discourse.Email}}{{end}}">{{get .Page .Content "forgot_password"}}</a>
+            </small>
+        {{end}}
+    </div>
+</section>
