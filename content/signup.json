@@ -9,6 +9,7 @@
     "header": {
         "X-Frame-Options": "deny"
     },
+    "handler": "sign_up",
     "content": {
         "content": [
             {
@@ -21,7 +22,7 @@
                 }
             },
             {
-                "tpl": "signup"
+                "tpl": "sign_up"
             },
             {"ref": "end"}
         ]
