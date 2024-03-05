@@ -1,10 +1,60 @@
+{{- $title := "Pirsch - Cookie-free and Privacy-friendly Web Analytics" -}}
+{{- if (get .Page .Content "title") -}}
+    {{$title = fmt "%s - %s" (get .Page .Content "title") pageTitle}}
+{{- end -}}
+{{- $metaDescription := "Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend." -}}
+{{- if (get .Page .Content "meta_description") -}}
+    {{- $metaDescription = (get .Page .Content "meta_description") -}}
+{{- end -}}
+{{- $previewImage := "https://pirsch.io/static/img/twitter-card.png" -}}
+{{- if (get .Page .Content "preview_img") -}}
+    {{- $previewImage = (get .Page .Content "preview_img") -}}
+{{- end -}}
 <!DOCTYPE html>
 <html lang="{{.Page.Language}}">
 <head>
     <base href="/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="copyright" content="Emvi Software GmbH" />
+    <meta name="author" content="Emvi Software GmbH" />
+    <meta name="title" content="{{$title}}" />
+    <meta name="description" content="{{$metaDescription}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@PirschAnalytics" />
+    <meta name="twitter:title" content="{{$title}}" />
+    <meta name="twitter:description" content="{{$metaDescription}}" />
+    <meta name="twitter:image" content="{{$previewImage}}" />
+    <meta property="og:url" content="https://pirsch.io/" />
+    <meta property="og:title" content="{{$title}}" />
+    <meta property="og:site_name" content="Pirsch Analytics" />
+    <meta property="og:description" content="{{$metaDescription}}" />
+    <meta property="og:image" content="{{$previewImage}}" />
+    {{- if (get .Page .Content "preview_img") -}}
+        <meta property="og:type" content="article" />
+    {{- end -}}
+    <meta name="msapplication-TileColor" content="#f8f5ed" />
+    <meta name="theme-color" content="#f8f5ed" />
+    {{- if (get .Page .Content "no_index") -}}
+        <meta name="robots" content="noindex, nofollow" />
+    {{- end -}}
+
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="mask-icon" href="static/img/favicon/safari-pinned-tab.svg" color="#0a0a0a" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="static/img/favicon/site.webmanifest" />
     <link rel="canonical" href="{{.Page.CanonicalLink}}" />
-    <title>{{get .Page .Content "title"}}</title>
+
+    {{range $language, $path := .Page.Path}}
+        <link rel="alternate" hreflang="{{if eq $language "en"}}x-default{{else}}{{$language}}{{end}}" href="{{fmt "%s%s" hostname $path}}" />
+    {{end}}
+    
+    <title>{{$title}}</title>
+
+    {{- if (get .Page .Content "hcaptcha") -}}
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    {{- end -}}
 </head>
 <body>

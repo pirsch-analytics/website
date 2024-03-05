@@ -11,15 +11,17 @@
     },
     "content": {
         "content": [
-            {"ref": "head"},
             {
-                "tpl": "test",
+                "ref": "head",
                 "data": {
                     "en": {
-                        "headline": "Sign Up",
-                        "text": "..."
+                        "title": "Sign Up",
+                        "hcaptcha": true
                     }
                 }
+            },
+            {
+                "tpl": "signup"
             },
             {"ref": "end"}
         ]
