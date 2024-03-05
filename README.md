@@ -44,7 +44,7 @@ The JSON structure for a content file is as follows:
                 }
             },
             {
-                "tpl": "test", // template file (without extension, always lowercase)
+                "tpl": "text", // template file (without extension, always lowercase)
                 "data": { // optional data used in the template
                     "en": {
                         "headline": "Welcome!",

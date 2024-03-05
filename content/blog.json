@@ -11,7 +11,7 @@
         "content": [
             {"ref": "head"},
             {
-                "tpl": "test",
+                "tpl": "text",
                 "data": {
                     "en": {
                         "headline": "Blog",
