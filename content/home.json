@@ -22,6 +22,60 @@
                 }
             },
             {
+                "tpl": "test",
+                "data": {
+                    "en": {
+                        "headline": "Welcome!",
+                        "text": "To pirsch.io."
+                    },
+                    "de": {
+                        "headline": "Willkommen!",
+                        "text": "Bei pirsch.io."
+                    }
+                }
+            },
+            {
+                "tpl": "test",
+                "data": {
+                    "en": {
+                        "headline": "Benefits",
+                        "text": "Pirsch is <strong>awesome</strong>!"
+                    },
+                    "de": {
+                        "headline": "Vorteile",
+                        "text": "Pirsch ist <strong>super</strong>!"
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "test",
+                            "data": {
+                                "en": {
+                                    "headline_size": "h2",
+                                    "headline": "Child 1",
+                                    "text": "This is a child element!"
+                                },
+                                "de": {
+                                    "headline": "Kind 1",
+                                    "text": "Bla bla..."
+                                }
+                            }
+                        },
+                        {
+                            "tpl": "test",
+                            "data": {
+                                "en": {
+                                    "headline_size": "h2",
+                                    "headline": "Child 2",
+                                    "text": "This is a child element!"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "tpl": "testimonials",
                 "data": {
                     "en": {
@@ -98,60 +152,6 @@
                             }
                         ]
                     }
-                }
-            },
-            {
-                "tpl": "test",
-                "data": {
-                    "en": {
-                        "headline": "Welcome!",
-                        "text": "To pirsch.io."
-                    },
-                    "de": {
-                        "headline": "Willkommen!",
-                        "text": "Bei pirsch.io."
-                    }
-                }
-            },
-            {
-                "tpl": "test",
-                "data": {
-                    "en": {
-                        "headline": "Benefits",
-                        "text": "Pirsch is <strong>awesome</strong>!"
-                    },
-                    "de": {
-                        "headline": "Vorteile",
-                        "text": "Pirsch ist <strong>super</strong>!"
-                    }
-                },
-                "content": {
-                    "children": [
-                        {
-                            "tpl": "test",
-                            "data": {
-                                "en": {
-                                    "headline_size": "h2",
-                                    "headline": "Child 1",
-                                    "text": "This is a child element!"
-                                },
-                                "de": {
-                                    "headline": "Kind 1",
-                                    "text": "Bla bla..."
-                                }
-                            }
-                        },
-                        {
-                            "tpl": "test",
-                            "data": {
-                                "en": {
-                                    "headline_size": "h2",
-                                    "headline": "Child 2",
-                                    "text": "This is a child element!"
-                                }
-                            }
-                        }
-                    ]
                 }
             },
             {"ref": "end"}
