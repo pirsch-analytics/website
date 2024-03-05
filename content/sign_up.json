@@ -1,0 +1,165 @@
+{
+    "path": {
+        "en": "/signup",
+        "de": "/de/signup"
+    },
+    "sitemap": {
+        "priority": "0.1"
+    },
+    "header": {
+        "X-Frame-Options": "deny"
+    },
+    "handler": "sign_up",
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "data": {
+                    "en": {
+                        "title": "Sign Up",
+                        "hcaptcha": true
+                    },
+                    "de": {
+                        "title": "Registrierung"
+                    },
+                    "es": {
+                        "title": "Registro"
+                    },
+                    "fr": {
+                        "title": "Inscription"
+                    },
+                    "nl": {
+                        "title": "Aanmelden"
+                    },
+                    "it": {
+                        "title": "Iscriviti"
+                    },
+                    "pt": {
+                        "title": "Cadastro"
+                    },
+                    "ja": {
+                        "title": "サインアップ"
+                    }
+                }
+            },
+            {
+                "tpl": "sign_up",
+                "data": {
+                    "en": {
+                        "got_account": "Already got an account?",
+                        "login": "Log In",
+                        "title_signed_up": "Thank You for Signing Up!",
+                        "title_free_trial": "Start Your 30-Day Free Trial",
+                        "success": "Please check your inbox to finish your registration.",
+                        "resend_registration_email": "Resend Email",
+                        "registration_email_resent": "The registration email has been resent.",
+                        "registration_email_error": "An error occurred while resending your registration email.",
+                        "text": "Try Pirsch for free, no credit card required.",
+                        "email_address": "Email Address",
+                        "continue": "Continue",
+                        "terms": "By using Pirsch, you agree to our <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacy policy</a>, and our <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">terms and conditions</a>."
+                    },
+                    "de": {
+                        "got_account": "Du hast bereits einen Account?",
+                        "login": "Anmelden",
+                        "title_signed_up": "Vielen Dank für deine Anmeldung!",
+                        "title_free_trial": "30 Tage kostenlos testen",
+                        "success": "Bitte überprüfe dein Email Postfach um deine Registrierung zu bestätigen.",
+                        "resend_registration_email": "Email erneut senden",
+                        "registration_email_resent": "Die Registrierungsemail wurde erneut versendet.",
+                        "registration_email_error": "Bei der Anfrage ist ein Fehler aufgetreten.",
+                        "text": "Teste Pirsch kostenlos, ohne Kreditkarte.",
+                        "email_address": "Email-Adresse",
+                        "continue": "Weiter",
+                        "terms": "Durch die Nutzung von Pirsch stimmst du unserer <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">Datenschutzerklärung</a> und unseren <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">AGB</a> zu."
+                    },
+                    "es": {
+                        "got_account": "¿Ya tienes una cuenta?",
+                        "login": "Iniciar sesión",
+                        "title_signed_up": "¡Gracias por registrarte!",
+                        "title_free_trial": "Comienza tu prueba gratuita de 30 días",
+                        "success": "Por favor, verifica tu bandeja de entrada para completar tu registro.",
+                        "resend_registration_email": "Reenviar correo electrónico",
+                        "registration_email_resent": "El correo electrónico de registro ha sido reenviado.",
+                        "registration_email_error": "Se produjo un error al reenviar tu correo electrónico de registro.",
+                        "text": "Prueba Pirsch de forma gratuita, no se requiere tarjeta de crédito.",
+                        "email_address": "Dirección de correo electrónico",
+                        "continue": "Continuar",
+                        "terms": "Al usar Pirsch, aceptas nuestra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidad</a> y nuestros <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">términos y condiciones</a>."
+                    },
+                    "fr": {
+                        "got_account": "Vous avez déjà un compte ?",
+                        "login": "Connexion",
+                        "title_signed_up": "Merci de vous être inscrit !",
+                        "title_free_trial": "Commencez votre essai gratuit de 30 jours",
+                        "success": "Veuillez vérifier votre boîte de réception pour finaliser votre inscription.",
+                        "resend_registration_email": "Renvoyer l'e-mail",
+                        "registration_email_resent": "L'e-mail d'inscription a été renvoyé.",
+                        "registration_email_error": "Une erreur s'est produite lors de la réexpédition de votre e-mail d'inscription.",
+                        "text": "Essayez Pirsch gratuitement, aucune carte de crédit n'est requise.",
+                        "email_address": "Adresse e-mail",
+                        "continue": "Continuer",
+                        "terms": "En utilisant Pirsch, vous acceptez notre <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">politique de confidentialité</a> et nos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">conditions générales</a>."
+                    },
+                    "nl": {
+                        "got_account": "Heb je al een account?",
+                        "login": "Log In",
+                        "title_signed_up": "Bedankt voor je aanmelding!",
+                        "title_free_trial": "Start uw 30-daagse gratis proefperiode",
+                        "success": "Controleer uw inbox om uw registratie te voltooien.",
+                        "resend_registration_email": "E-mail opnieuw verzenden",
+                        "registration_email_resent": "De registratie-e-mail is opnieuw verzonden.",
+                        "registration_email_error": "Er is een fout opgetreden bij het opnieuw verzenden van uw registratie-e-mail.",
+                        "text": "Probeer Pirsch gratis, geen creditcard nodig.",
+                        "email_address": "E-mailadres",
+                        "continue": "Doorgaan",
+                        "terms": "Door Pirsch te gebruiken, ga je akkoord met ons <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacybeleid</a> en onze <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">algemene voorwaarden</a>."
+                    },
+                    "it": {
+                        "got_account": "Hai già un account?",
+                        "login": "Accedi",
+                        "title_signed_up": "Grazie per esserti registrato!",
+                        "title_free_trial": "Inizia il tuo periodo di prova gratuito di 30 giorni",
+                        "success": "Controlla la tua casella di posta per completare la registrazione.",
+                        "resend_registration_email": "Rispedisci email",
+                        "registration_email_resent": "L'email di registrazione è stata rispedita.",
+                        "registration_email_error": "Si è verificato un errore durante la rispedizione dell'email di registrazione.",
+                        "text": "Prova Pirsch gratuitamente, senza carta di credito richiesta.",
+                        "email_address": "Indirizzo email",
+                        "continue": "Continua",
+                        "terms": "Utilizzando Pirsch, accetti la nostra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">informativa sulla privacy</a> e i nostri <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termini e condizioni</a>."
+                    },
+                    "pt": {
+                        "got_account": "Já tem uma conta?",
+                        "login": "Entrar",
+                        "title_signed_up": "Obrigado por se cadastrar!",
+                        "title_free_trial": "Inicie seu teste gratuito de 30 dias",
+                        "success": "Por favor, verifique sua caixa de entrada para concluir seu cadastro.",
+                        "resend_registration_email": "Reenviar e-mail",
+                        "registration_email_resent": "O e-mail de registro foi reenviado.",
+                        "registration_email_error": "Ocorreu um erro ao reenviar seu e-mail de registro.",
+                        "text": "Experimente o Pirsch gratuitamente, sem a necessidade de cartão de crédito.",
+                        "email_address": "Endereço de e-mail",
+                        "continue": "Continuar",
+                        "terms": "Ao usar o Pirsch, você concorda com nossa <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidade</a> e nossos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termos e condições</a>."
+                    },
+                    "ja": {
+                        "got_account": "すでにアカウントをお持ちですか？",
+                        "login": "ログイン",
+                        "title_signed_up": "登録いただきありがとうございます！",
+                        "title_free_trial": "30日間の無料トライアルを開始",
+                        "success": "登録を完了するために受信トレイをご確認ください。",
+                        "resend_registration_email": "メールを再送",
+                        "registration_email_resent": "登録用のメールが再送されました。",
+                        "registration_email_error": "登録用のメールの再送中にエラーが発生しました。",
+                        "text": "Pirschを無料でお試しください、クレジットカードは不要です。",
+                        "email_address": "メールアドレス",
+                        "continue": "続行",
+                        "terms": "ピルシュを利用することにより、<a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">プライバシーポリシー</a>、<a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">利用規約</a>に同意したものとみなされます。"
+                    }
+                }
+            },
+            {"ref": "end"}
+        ]
+    }
+}

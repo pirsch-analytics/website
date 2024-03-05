@@ -1,0 +1,85 @@
+{{$signup := get .Page .Content "sign_up"}}
+
+<section>
+    <small>{{get .Page .Content "got_account"}}</small>
+    <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/login">{{get .Page .Content "login"}}</a>
+</section>
+<section>
+    <div>
+        {{if $signup.HCaptchaSiteKey}}
+            <h1>
+                {{if $signup.SignedUp}}
+                    {{get .Page .Content "title_signed_up"}}
+                {{else}}
+                    {{get .Page .Content "title_free_trial"}}
+                {{end}}
+            </h1>
+
+            {{if $signup.SignedUp}}
+                <p>
+                    <strong>{{get .Page .Content "success"}}</strong>
+                </p>
+
+                {{if $signup.EmailResendError}}
+                    <p style="margin-top: 24px">{{get .Page .Content "registration_email_error"}}</p>
+                {{else}}
+                    {{if $signup.EmailResend}}
+                        <p style="margin-top: 24px">{{get .Page .Content "registration_email_resent"}}</p>
+                    {{else}}
+                        <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/signup?resend={{$signup.Email}}" style="margin-top: 24px">
+                            {{get .Page .Content "resend_registration_email"}}
+                        </a>
+                    {{end}}
+                {{end}}
+            {{else}}
+                <small>{{get .Page .Content "text"}}</small>
+            {{end}}
+
+            <ul>
+                <li>
+                    {{if not $signup.SignedUp}}
+                        {{/*}}
+                        TODO
+                        {{template "error.html" $signup.APIResponse}}
+                        {{*/}}
+
+                        <form method="post">
+                            {{if $signup.Error}}
+                                <small>{{$signup.Error}}</small>
+                            {{end}}
+
+                            <fieldset>
+                                <input type="email" id="email" name="email" autocomplete="email" value="{{$signup.Email}}" placeholder=" " required autofocus />
+                                <label for="email">{{get .Page .Content "email_address"}}</label>
+                                <small>{{validation $signup.APIResponse "email"}}</small>
+                            </fieldset>
+                            <div class="h-captcha" data-sitekey="{{$signup.HCaptchaSiteKey}}" data-theme="dark" style="display: flex; justify-content: center; margin-bottom: 12px;"></div>
+                            <button type="submit">{{get .Page .Content "continue"}}</button>
+                        </form>
+                        <small>{{html (get .Page .Content "terms")}}</small>
+                    {{end}}
+                </li>
+
+                {{if not $signup.SignedUp}}
+                    <li>
+                        <ul>
+                            <li>
+                                <span>{{get .Page .Content "insights"}}</span>
+                            </li>
+                            <li>
+                                <span>{{get .Page .Content "conversions"}}</span>
+                            </li>
+                            <li>
+                                <span>{{get .Page .Content "data"}}</span>
+                            </li>
+                        </ul>
+                    </li>
+                {{end}}
+            </ul>
+        {{else}}
+            <h1>Sign Up Disabled</h1>
+            <small>The sign up is disabled.</small>
+            <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/login">{{get .Page .Content "login"}}</a>
+        {{end}}
+    </div>
+</section>
