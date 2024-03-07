@@ -1,0 +1,11 @@
+<section id="summary" class="summary">
+    <ul class="news">
+        {{range $news := news}}
+            <li>
+                <h2 class="h3">{{$news.Headline}}</h2>
+                <small>{{formatDate $news.Date "02. January 2006"}}</small>
+                {{html $news.Content}}
+            </li>
+        {{end}}
+    </ul>
+</section>

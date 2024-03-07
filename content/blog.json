@@ -23,9 +23,7 @@
                     }
                 }
             },
-            {
-                "tpl": "blog_overview"
-            },
+            {"tpl": "blog_overview"},
             {"ref": "end"}
         ]
     }

@@ -9,9 +9,7 @@
     "content": {
         "content": [
             {"ref": "head"},
-            {
-                "tpl": "blog_article"
-            },
+            {"tpl": "blog_article"},
             {"ref": "end"}
         ]
     }
