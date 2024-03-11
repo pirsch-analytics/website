@@ -1,0 +1,31 @@
+button, .button {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 36px;
+    padding: 0 12px;
+    background-color: var(--green);
+    color: var(--black);
+    font-weight: 500;
+    transition: opacity .1s ease;
+
+    @media only screen and (min-width: 513px) {
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+    &.large {
+        height: 48px;
+        padding: 0 24px;
+        border-radius: var(--border-radius-medium);
+        font-size: 18px;
+    }
+
+    &.secondary {
+        background-color: var(--color-background-elevation);
+        color: var(--white);
+    }
+}

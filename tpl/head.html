@@ -53,6 +53,8 @@
     
     <title>{{$title}}</title>
 
+    <script src="/static/js/luge.js"></script>
+
     {{- if (get .Page .Content "hcaptcha") -}}
         <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     {{- end -}}

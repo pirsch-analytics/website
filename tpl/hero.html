@@ -1,0 +1,9 @@
+<section class="hero">
+    <div data-lg-reveal="fade"class="gradient white"></div>
+    <h1 data-lg-reveal="fade">{{html (get .Page .Content "headline")}}</h1>
+    <p data-lg-reveal="fade">{{html (get .Page .Content "text")}}</p>
+    <div class="actions" data-lg-reveal="fade">
+        <a href="#" class="button large">{{html (get .Page .Content "action_primary")}}</a>
+        <a href="#" class="button large secondary">{{html (get .Page .Content "action_secondary")}}</a>
+    </div>
+</section>

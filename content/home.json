@@ -22,6 +22,21 @@
                 }
             },
             {
+                "tpl": "hero",
+                "data": {
+                    "en": {
+                        "headline": "See Beyond Clicks",
+                        "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo"
+                    },
+                    "de": {
+                        "headline": "Willkommen!",
+                        "text": "Bei pirsch.io."
+                    }
+                }
+            },
+            {
                 "tpl": "text",
                 "data": {
                     "en": {

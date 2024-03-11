@@ -1,23 +1,7 @@
-@import "reset";
 @import "font";
+@import "reset";
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-}
-
-html {
-    color: var(--color-primary);
-    background-color: var(--color-background-primary);
-    font-family: "DM Sans", "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-feature-settings: "ss03" 1, "ss04" 1;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-    /* Pirsch Colors */
+:root {
     --black: #000;
     --white: #fff;
     --beige: #f8f5ed;
@@ -26,437 +10,75 @@ html {
     --orange: #f7a66b;
     --red: #e87b7b;
 
-    /* Theme Light */
-    --theme-light-color-primary: var(--black);
-    --theme-light-color-background-primary: var(--beige);
-    --theme-light-color-secondary: #707070;
-    --theme-light-color-background-secondary: var(--white);
-    --theme-light-color-button: var(--black);
-    --theme-light-color-background-button: var(--green);
-    --theme-light-color-accent: var(--green);
-    --theme-light-color-green: var(--green);
-    --theme-light-color-yellow: var(--yellow);
-    --theme-light-color-orange: var(--orange);
-    --theme-light-color-red: var(--red);
-    --theme-light-color-background-elevation: rgba(0,0,0,.04);
-    --theme-light-color-border: rgb(112,112,112,.2);
+    --color-primary: var(--white);
+    --color-secondary: #adadad;
+    --color-background-primary: #0a0a0a;
+    --color-background-secondary: #141414;
+    --color-background-elevation: rgba(255,255,255,.04);
 
-    --theme-light-box-shadow-primary: 0px 4px 16px rgba(0,0,0,.1);
-    --theme-light-box-shadow-secondary: none;
+    --padding-extra-large: 256px;
+    --padding-large: 128px;
+    --padding-medium: 64px;
+    --padding-small: 32px;
 
-    /* Theme Dark */ 
-    --theme-dark-color-primary: var(--white);
-    --theme-dark-color-background-primary: #0a0a0a;
-    --theme-dark-color-secondary: #adadad;
-    --theme-dark-color-background-secondary: #141414;
-    --theme-dark-color-button: var(--black);
-    --theme-dark-color-background-button: var(--green);
-    --theme-dark-color-accent: var(--green);
-    --theme-dark-color-green: var(--green);
-    --theme-dark-color-yellow: var(--yellow);
-    --theme-dark-color-orange: var(--orange);
-    --theme-dark-color-red: var(--red);
-    --theme-dark-color-background-elevation: rgba(255,255,255,.04);
-    --theme-dark-color-border: rgb(173,173,173,.2);
-
-    --theme-dark-box-shadow-primary: 0px 4px 16px rgba(0,0,0,.8);
-    --theme-dark-box-shadow-secondary: none;
-
-    /* Misc */
-    --theme-border-radius-primary: 12px;
+    --border-radius-large: 24px;
+    --border-radius-medium: 12px;
+    --border-radius-small: 6px;
 }
 
-.theme-light {
-    color-scheme: light;
-
-    --color-primary: var(--theme-light-color-primary);
-    --color-background-primary: var(--theme-light-color-background-primary);
-    --color-secondary: var(--theme-light-color-secondary);
-    --color-background-secondary: var(--theme-light-color-background-secondary);
-    --color-button: var(--theme-light-color-button);
-    --color-background-button: var(--theme-light-color-background-button);
-    --color-accent: var(--theme-light-color-accent);
-    --color-green: var(--theme-light-color-green);
-    --color-yellow: var(--theme-light-color-yellow);
-    --color-orange: var(--theme-light-color-orange);
-    --color-red: var(--theme-light-color-red);
-    --color-background-elevation: var(--theme-light-color-background-elevation); /* not part of themes */
-    --color-border: var(--theme-light-color-border);
-
-    --box-shadow-primary: var(--theme-light-box-shadow-primary);
-    --box-shadow-secondary: var(--theme-light-box-shadow-secondary);
-
-    --border-radius-primary: var(--theme-border-radius-primary);
-
-    --gradient-left: linear-gradient(90deg, rgba(248,245,237,1) 0%, rgba(248,245,237,0) 100%);
-    --gradient-right: linear-gradient(270deg, rgba(248,245,237,1) 0%, rgba(248,245,237,0) 100%);
-
-    .show-dark {
-        display: none !important;
-    }
-}
-
-.theme-dark {
-    color-scheme: dark;
-
-    --color-primary: var(--theme-dark-color-primary);
-    --color-background-primary: var(--theme-dark-color-background-primary);
-    --color-secondary: var(--theme-dark-color-secondary);
-    --color-background-secondary: var(--theme-dark-color-background-secondary);
-    --color-button: var(--theme-dark-color-button);
-    --color-background-button: var(--theme-dark-color-background-button);
-    --color-accent: var(--theme-dark-color-accent);
-    --color-green: var(--theme-dark-color-green);
-    --color-yellow: var(--theme-dark-color-yellow);
-    --color-orange: var(--theme-dark-color-orange);
-    --color-red: var(--theme-dark-color-red);
-    --color-background-elevation: var(--theme-dark-color-background-elevation); /* not part of themes */
-    --color-border: var(--theme-dark-color-border);
-
-    --box-shadow-primary: var(--theme-dark-box-shadow-primary);
-    --box-shadow-secondary: var(--theme-dark-box-shadow-secondary);
-
-    --border-radius-primary: var(--theme-border-radius-primary);
-
-    --gradient-left: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
-    --gradient-right: linear-gradient(270deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
-
-    .show-light {
-        display: none !important;
-    }
+html {
+    font-feature-settings: "ss03" 1, "ss04" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-background-primary);
+    color: var(--color-primary);
+    font-family: "DM Sans", "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-rendering: optimizeLegibility;
 }
 
 body {
-    min-width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: calc(-100vw + 100%); /* Fix for scroll-bar jump */
-    color: var(--color-primary);
-    background-color: var(--color-background-primary);
+    display: grid;
+    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+    width: 100%;
+    margin-right: calc(-100vw + 100%);
     overflow-x: hidden;
-}
 
-main {
-    position: relative;
-    min-height: 100vh;
-    width: 1200px;
-    max-width: calc(100% - 32px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-	margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-h1,
-.h1 {
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 1.4;
-
-
-}
-
-h2,
-.h2 {
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 1.4;
-    text-align: center;
-}
-
-h3,
-.h3 {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.4;
-    text-align: left;
-}
-
-h4,
-.h4 {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.4;
-    text-align: left;
-}
-
-h5,
-.h5 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.4;
-    text-align: left;
-}
-
-h2[id]::before,
-h3[id]::before {
-    content: '';
-    height: 64px;
-    display: block;
-    margin-top: -64px;
-    visibility: hidden;
-}
-
-p,
-.p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-secondary);
-}
-
-small {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--color-secondary);
-}
-
-b {
-    font-weight: 500;
-}
-
-a:not(.button) {
-    font-size: inherit;
-    font-weight: 500;
-    color: var(--color-primary);
-    transition: opacity .1s ease;
-
-    &:hover,
-    &:focus {
-        opacity: .8;
-    }
-}
-
-button:not(.accordion),
-.button {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 15px 24px;
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--black);
-    background-color: var(--color-green);
-    border-radius: 6px;
-    white-space: nowrap;
-    cursor: pointer;
-    transition: opacity .1s ease;
-
-    &:hover,
-    &:focus {
-        opacity: .8;
-        text-decoration: none;
-
-        i {
-            transform: translateX(4px);
-        }
-    }
-
-    &.secondary {
-        color: var(--color-primary);
-        background-color: var(--color-background-elevation);
-    }
-
-    &.white {
-        color: var(--black);
-        background-color: var(--white);
-    }
-
-    i {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        height: 18px;
-        width: 18px;
-        margin-left: 12px;
-        transition: transform .1s ease;
+    & > * {
+        grid-column: 2;
     }
 }
 
 section {
-    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--padding-small);
 }
 
-figure.slideshow {
-    img {
-        position:absolute; 
-        right:0; 
-        left:0; 
-        opacity:0; 
-        animation-name: fade; 
-        animation-duration: 12s; 
-        animation-iteration-count: infinite; 
-    }
-
-    .slide-1 {
-        animation-delay: 0s;
-    }
-
-    .slide-2 {
-        animation-delay: 3s;
-    }
-
-    .slide-3 {
-        animation-delay: 6s;
-    }
-
-    .slide-4 {
-        animation-delay: 9s;
-    }
-
-    @keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        2% {
-            opacity: 1;
-        }
-        26% {
-            opacity: 1;
-        }
-        28% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
+h1, .h1 {
+    font-size: 96px;
+    letter-spacing: -2px;
 }
 
-.theme-switch {
-    position: fixed !important;
-    right: 24px;
-    bottom: 24px;
-    height: 48px;
-    width: 48px;
-    border-radius: 50% !important;
-    box-shadow: var(--box-shadow-primary);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    z-index: 10;
-
-    svg {
-        height: 24px;
-        min-width: 24px;
-        width: 24px;
-        stroke: var(--black);
-    }
+h2, .h2 {
+    font-size: 64px;
 }
 
-@media only screen and (max-width: 1024px) {
-    h1,
-    .h1 {
-        font-size: 56px;
-    }
-
-    h2,
-    .h2 {
-        font-size: 48px;
-        text-align: left;
-    }
-
-    h3,
-    .h3 {
-        font-size: 24px;
-    }
-
-    h4,
-    .h4 {
-        font-size: 20px;
-    }
-
-    h5,
-    .h5 {
-        font-size: 18px;
-    }
-
-    p,
-    .p {
-        font-size: 18px;
-    }
+h3, .h3 {
+    font-size: 28px;
 }
 
-@media only screen and (max-width: 512px) {
-    h1,
-    .h1 {
-        font-size: 40px;
-        text-align: left;
-    }
-
-    h2,
-    .h2 {
-        width: 100%;
-        font-size: 32px;
-    }
-
-    p,
-    .p {
-        text-align: left;
-    }
-
-    fieldset {
-        input {
-            width: 100%
-        }
-    }
+p, .p {
+    color: var(--color-secondary);
+    font-size: 18px
 }
 
-@media only screen and (min-width: 513px) {
-    body {
-        *::-webkit-scrollbar {
-            width: 16px;
-            height: 16px;
-        }
-    
-        *::-webkit-scrollbar-thumb {
-            height: 64px;
-            width: 64px;
-            border: 5px solid rgba(0,0,0,0);
-            background-clip: padding-box;
-            -webkit-border-radius: 8px;
-            background-color: rgba(127,127, 127,.4);
-        }
-        
-        *::-webkit-scrollbar-button {
-            width: 0;
-            height: 0;
-            display: none;
-        }
-        *::-webkit-scrollbar-corner {
-            background-color: transparent;
-        }
-    }
+strong {
+    font-weight: 500;
 }
 
-@import "input";
-@import "text";
-@import "form";
-@import "code";
-@import "header";
-@import "start";
+@import "animation";
+@import "button";
+@import "gradient";
 @import "hero";
-@import "summary";
-@import "features";
-@import "technologies";
-@import "product";
-@import "testimonials";
-@import "toc";
-@import "pricing";
-@import "faq";
-@import "blog";
-@import "subject";
-@import "utm";
-@import "cta";
-@import "footer";

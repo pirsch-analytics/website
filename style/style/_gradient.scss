@@ -1,0 +1,12 @@
+.gradient {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    width: 1920px;
+    height: 1440px;
+    transform: translate(-50%, 0);
+
+    &.white {
+        background: radial-gradient(circle closest-side, rgba(255,255,255,.15) 0%, rgba(255,255,255,0) 100%);
+    }
+}
