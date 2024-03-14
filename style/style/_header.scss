@@ -1,180 +1,50 @@
 header {
+    display: grid;
+    z-index: 10;
+    position: fixed;
+    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+    width: 100vw;
     height: 88px;
-    width: 1200px;
-    max-width: calc(100vw - 32px);
-    min-width: 320px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-background-primary);
-    z-index: 100;
-    transition: height .2s ease;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    padding-right: var(--padding-small);
+    padding-left: var(--padding-small);
+    backdrop-filter: var(--backdrop-filter-glass);
+    background-color: var(--color-background-primary-glass);
+    transition: height .1s ease;
 
-    &.fixed {
-        position: fixed;
-        top: 0px;
-    }
-
-    &.height {
+    &.small {
         height: 64px;
     }
 
-    nav {
+    .header-content {
         display: flex;
-        justify-content: flex-end;
-        flex: 1;
-        gap: 24px;
-
-        ul:nth-of-type(1) {
-            gap: 24px;
-        }
-
-        ul:nth-of-type(2) {
-            gap: 12px;
-        }
-    }
-
-    .logo {
-        height: 28px;
-        display: flex;
+        grid-column: 2;
         align-items: center;
-        margin-right: 12px;
-        font-size: 24px;
-        font-weight: 500;
-        letter-spacing: -1px;
-        color: var(--color-primary);
-        fill: var(--color-primary);
-        cursor: pointer;
-        transition: opacity .1s ease;
-
-        &:hover,
-        &:focus {
-            opacity: .8;
-            text-decoration: none;
-        }
-
-        svg {
-            height: 28px;
-            width: 20px;
-            margin-right: 6px;
-        }
-    }
-
-    svg.menu {
-        margin: 0 4px;
-        stroke: var(--color-primary);
-        cursor: pointer;
-    }
-
-    ul {
-        display: flex;
-        align-items: center;
-
-        &.center {
-            justify-content: center;
-            flex: 1;
-
-            li:first-child {
-                margin-left: 0;
-            }
-        }
-
-        li {
-            font-size: inherit;
-            font-weight: 500;
-            white-space: nowrap;
-        }
-    }
-
-    button,
-    .button {
-        height: 36px;
-        padding: 0 12px;
-        font-size: 16px;
-
-        & + button,
-        & + .button {
-            margin-left: 16px;
-        }
-    }
-
-    small {
-        margin-right: 12px;
-        white-space: nowrap;
-
-        @media only screen and (max-width: 512px) {
-            display: none;
-        }
-    }
-
-    @media only screen and (max-width: 768px) {
-        position: sticky;
-        top: 0;
-        height: 64px;
         justify-content: space-between;
 
-        nav {
-            position: fixed;
-            top: 64px;
-            left: 0;
-            width: 100vw;
-            display: none;
-            padding-bottom: 24px;
-            flex-direction: column;
-            gap: 0;
-            background-color: var(--color-background-primary);
-            z-index: 1;
-            backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
-
-            &::after {
-                content: "";
-                position: absolute;
-                top: 100%;
-                right: 0;
-                left: 0;
-                height: 100vh;
-                background-color: rgba(0,0,0,.5);
-                backdrop-filter: blur(8px);
-                pointer-events: none;
+        .logo {
+            @include hover;
+    
+            display: flex;
+            align-items: center;
+            height: 28px;
+            gap: 6px;
+    
+            svg {
+                fill: var(--color-primary);
+                width: 20px;
             }
-
-            ul {
-                flex-direction: column;
-                gap: 0 !important;
-                
-                li {
-                    width: calc(100% - 32px);
-                    margin: 0;
-                    font-size: 18px;
-
-                    a {
-                        width: 100%;
-                        display: block;
-                        padding: 24px 0 24px 12px;
-                    }
-
-                    &:not(:first-of-type) a:not(.button) {
-                        border-top: 2px solid var(--color-border);
-                    }
-
-                    .button {
-                        height: 48px;
-                        font-size: 18px;
-                        margin-top: 12px;
-                        padding: 0 24px;
-                    }
-                }
+    
+            span {
+                font-weight: 500;
+                font-size: 24px;
+                letter-spacing: -1px;
             }
         }
-    }
-
-    @media only screen and (min-width: 769px) {
-        svg.menu,
-        .show-mobile {
-            display: none;
+    
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
         }
     }
 }

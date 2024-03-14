@@ -1,5 +1,18 @@
 section.hero {
-    padding: calc(var(--padding-extra-large) - var(--padding-medium)) 0 var(--padding-extra-large);
+    position: relative;
+    padding-top: calc(var(--padding-extra-large) - var(--padding-medium));
+    overflow: hidden;
+
+    &:before {
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: var(--padding-large);
+        background: var(--color-gradient-bottom);
+        content: "";
+    }
 
     h1 {
         text-align: center;
@@ -13,5 +26,27 @@ section.hero {
     .actions {
         display: flex;
         gap: 16px;
+    }
+
+    .customers {
+        display: flex;
+        gap: 12px;
+
+        img {
+            height: 40px;
+        }
+
+        .customers-content {
+            display: flex;
+            flex-direction: column;
+            padding-top: 2px;
+            gap: 4px;
+        }
+    }
+
+    figure {
+        overflow: hidden;
+        border-top-right-radius: var(--border-radius-large);
+        border-top-left-radius: var(--border-radius-large);
     }
 }

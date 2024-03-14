@@ -1,4 +1,5 @@
 @import "font";
+@import "mixins";
 @import "reset";
 
 :root {
@@ -13,8 +14,10 @@
     --color-primary: var(--white);
     --color-secondary: #adadad;
     --color-background-primary: #0a0a0a;
+    --color-background-primary-glass: rgba(10,10,10,.4);
     --color-background-secondary: #141414;
     --color-background-elevation: rgba(255,255,255,.04);
+    --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
 
     --padding-extra-large: 256px;
     --padding-large: 128px;
@@ -24,36 +27,44 @@
     --border-radius-large: 24px;
     --border-radius-medium: 12px;
     --border-radius-small: 6px;
+
+    --header-height: 88px;
+
+    --backdrop-filter-glass: blur(24px);
 }
 
 html {
     font-feature-settings: "ss03" 1, "ss04" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
     background-color: var(--color-background-primary);
     color: var(--color-primary);
+    color-scheme: dark;
     font-family: "DM Sans", "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-rendering: optimizeLegibility;
 }
 
 body {
-    display: grid;
-    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
-    width: 100%;
+    width: 100vw;
     margin-right: calc(-100vw + 100%);
     overflow-x: hidden;
-
-    & > * {
-        grid-column: 2;
-    }
 }
 
 section {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--padding-small);
+    display: grid;
+    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+    padding-right: var(--padding-small);
+    padding-left: var(--padding-small);
+
+    .section-content {
+        display: flex;
+        position: relative;
+        grid-column: 2;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--padding-small);
+    }
 }
 
 h1, .h1 {
@@ -71,14 +82,30 @@ h3, .h3 {
 
 p, .p {
     color: var(--color-secondary);
-    font-size: 18px
+    font-size: 18px;
+}
+
+small {
+    color: var(--color-secondary);
+    font-size: 14px;
 }
 
 strong {
     font-weight: 500;
 }
 
-@import "animation";
+a {
+    @include hover;
+
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+}
+
 @import "button";
 @import "gradient";
+@import "header";
 @import "hero";
