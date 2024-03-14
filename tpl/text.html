@@ -1,3 +1,4 @@
+<!--
 {{$size := default (get .Page .Content "headline_size") "h1"}}
 {{html (fmt "<%s>" $size)}}
     {{get .Page .Content "headline"}}
@@ -6,3 +7,4 @@
 <p>{{html (get .Page .Content "text")}}</p>
 
 {{.CMS.Render .Page (index .Content.Content "children")}}
+-->

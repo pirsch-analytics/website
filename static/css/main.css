@@ -243,9 +243,22 @@ button.secondary, .button.secondary {
   width: 1920px;
   height: 1440px;
   transform: translate(-50%, 0);
+  opacity: 0.15;
+}
+.gradient-container .gradient.right {
+  transform: translate(-25%, 0);
+}
+.gradient-container .gradient.left {
+  transform: translate(-75%, 0);
 }
 .gradient-container .gradient.white {
-  background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(ellipse closest-side, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.gradient-container .gradient.green {
+  background: radial-gradient(ellipse closest-side, rgb(110, 206, 157) 0%, rgba(110, 206, 157, 0) 100%);
+}
+.gradient-container .gradient.yellow {
+  background: radial-gradient(ellipse closest-side, rgb(254, 217, 110) 0%, rgba(254, 217, 110, 0) 100%);
 }
 
 header {
@@ -301,6 +314,7 @@ header .header-content nav {
 
 section.hero {
   position: relative;
+  margin-bottom: var(--padding-extra-large);
   padding-top: calc(var(--padding-extra-large) - var(--padding-medium));
   overflow: hidden;
 }
@@ -323,6 +337,7 @@ section.hero p {
 }
 section.hero .actions {
   display: flex;
+  margin-top: calc(var(--padding-small) / 2);
   gap: 16px;
 }
 section.hero .customers {
@@ -342,6 +357,48 @@ section.hero figure {
   overflow: hidden;
   border-top-right-radius: var(--border-radius-large);
   border-top-left-radius: var(--border-radius-large);
+}
+
+section.step {
+  margin-bottom: var(--padding-extra-large);
+}
+section.step .nummeration {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--color-background-elevation);
+}
+section.step .nummeration .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--color-background-elevation);
+}
+section.step .nummeration .text {
+  padding: 0 24px 0 16px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+section.step h1 {
+  text-align: center;
+}
+section.step p {
+  max-width: 768px;
+  text-align: center;
+}
+section.step .card {
+  width: 100%;
+  height: 512px;
+  margin-top: var(--padding-small);
+  border-radius: var(--border-radius-large);
+  backdrop-filter: var(--backdrop-filter-glass);
+  background-color: var(--color-background-elevation);
 }
 
 /*# sourceMappingURL=main.css.map */

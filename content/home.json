@@ -31,14 +31,71 @@
                         "headline": "See Beyond Clicks",
                         "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
                         "action_primary": "Start Your Free Trial",
-                        "action_secondary": "View Live Demo"
-                    },
-                    "de": {
-                        "headline": "Willkommen!",
-                        "text": "Bei pirsch.io."
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
                     }
                 }
             },
+            {
+                "tpl": "step",
+                "data": {
+                    "en": {
+                        "gradient_color": "yellow",
+                        "gradient_position": "left",
+                        "nummeration_number": "1",
+                        "nummeration_text": "Easy Start",
+                        "headline": "Set Up in Minutes",
+                        "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. The plug-and-play Google Analytics Alternative."
+                    }
+                }
+            },
+            {
+                "tpl": "step",
+                "data": {
+                    "en": {
+                        "gradient_color": "green",
+                        "gradient_position": "right",
+                        "nummeration_number": "2",
+                        "nummeration_text": "Instant Output",
+                        "headline": "Unlock Key Insights",
+                        "text": "With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions."
+                    }
+                }
+            },
+            {
+                "tpl": "step",
+                "data": {
+                    "en": {
+                        "gradient_position": "left",
+                        "nummeration_number": "3",
+                        "nummeration_text": "Advanced Analytics",
+                        "headline": "Dive Into the Details",
+                        "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation. Easily track your perfomance with flexible conversion goals."
+                    }
+                }
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {
                 "tpl": "text",
                 "data": {

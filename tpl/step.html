@@ -1,0 +1,17 @@
+{{$gradientColor := default (get .Page .Content "gradient_color") "white"}}
+{{$gradientPosition := default (get .Page .Content "gradient_position") ""}}
+
+<section class="step">
+    <div class="section-content">
+        <div class="gradient-container" data-sal="slide-up" style="--sal-duration: .8s;">
+            <div class="gradient {{html (fmt "%s " $gradientColor) (fmt "%s" $gradientPosition)}}"></div>
+        </div>
+        <div class="nummeration" data-sal="slide-up">
+            <div class="number">{{html (get .Page .Content "nummeration_number")}}</div>
+            <div class="text">{{html (get .Page .Content "nummeration_text")}}</div>
+        </div>
+        <h2 data-sal="slide-up" data-sal-delay="100">{{html (get .Page .Content "headline")}}</h2>
+        <p data-sal="slide-up" data-sal-delay="200">{{html (get .Page .Content "text")}}</p>
+        <div class="card" data-sal="slide-up" data-sal-delay="300"></div>
+    </div>
+</section>

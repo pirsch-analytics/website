@@ -13,9 +13,26 @@
         width: 1920px;
         height: 1440px;
         transform: translate(-50%, 0);
+        opacity: .15;
+
+        &.right {
+            transform: translate(-25%, 0);
+        }
+        
+        &.left {
+            transform: translate(-75%, 0);
+        }
 
         &.white {
-            background: radial-gradient(ellipse closest-side, rgba(255,255,255,.15) 0%, rgba(255,255,255,0) 100%);
+            background: radial-gradient(ellipse closest-side, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+        }
+
+        &.green {
+            background: radial-gradient(ellipse closest-side, rgba(110,206,157,1) 0%, rgba(110,206,157,0) 100%);
+        }
+
+        &.yellow {
+            background: radial-gradient(ellipse closest-side, rgba(254,217,110,1) 0%, rgba(254,217,110,0) 100%);
         }
     } 
 }

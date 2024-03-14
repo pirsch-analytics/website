@@ -1,0 +1,47 @@
+section.step {
+    margin-bottom: var(--padding-extra-large);
+
+    .nummeration {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        border-radius: 20px;
+        background-color: var(--color-background-elevation);
+
+        .number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: var(--color-background-elevation);
+        }
+
+        .text {
+            padding: 0 24px 0 16px;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        max-width: 768px;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        height: 512px;
+        margin-top: var(--padding-small);
+        border-radius: var(--border-radius-large);
+        backdrop-filter: var(--backdrop-filter-glass);
+        background-color: var(--color-background-elevation);
+    }
+}

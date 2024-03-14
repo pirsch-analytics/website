@@ -1,6 +1,6 @@
 <section id="hero" class="hero">
     <div class="section-content">
-        <div class="gradient-container" data-sal="slide-up" style="margin-top: var(--header-height); --sal-duration: .8s;">
+        <div class="gradient-container" data-sal="slide-up" style="--sal-duration: .8s;">
             <div class="gradient white"></div>
         </div>
         <h1 data-sal="slide-up">{{html (get .Page .Content "headline")}}</h1>
@@ -13,7 +13,7 @@
             <img src="static/img/customers.png" alt="Customers of Pirsch Analytics">
             <div class="customers-content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="97" height="16" fill="#ffda6e"><path d="M9.803.88l1.927 3.911 4.32.629a1 1 0 0 1 .553 1.705l-3.125 3.043.737 4.3a1 1 0 0 1-1.451 1.054l-3.861-2.029-3.863 2.031a1 1 0 0 1-1.451-1.054l.737-4.3-3.123-3.045a1 1 0 0 1 .556-1.706l4.317-.627L8.003.88a1.04 1.04 0 0 1 1.8 0zm20.004 0l1.927 3.911 4.32.629a1 1 0 0 1 .553 1.705l-3.125 3.043.737 4.3a1 1 0 0 1-1.451 1.054l-3.861-2.029-3.863 2.031a1 1 0 0 1-1.451-1.054l.737-4.3-3.123-3.045a1 1 0 0 1 .556-1.706l4.317-.627L28.007.88a1.04 1.04 0 0 1 1.8 0zm20.004 0l1.927 3.911 4.32.629a1 1 0 0 1 .553 1.705l-3.125 3.043.737 4.3a1 1 0 0 1-1.451 1.054l-3.861-2.029-3.863 2.031a1 1 0 0 1-1.451-1.054l.737-4.3-3.123-3.045a1 1 0 0 1 .556-1.706l4.317-.627L48.011.88a1.04 1.04 0 0 1 1.8 0zm20.004 0l1.927 3.911 4.32.629a1 1 0 0 1 .553 1.705l-3.125 3.043.737 4.3a1 1 0 0 1-1.451 1.054l-3.861-2.029-3.863 2.031a1 1 0 0 1-1.451-1.054l.737-4.3-3.123-3.045a1 1 0 0 1 .556-1.706l4.317-.627L68.015.88a1.04 1.04 0 0 1 1.8 0zm20.004 0l1.927 3.911 4.32.629a1 1 0 0 1 .553 1.705l-3.125 3.043.737 4.3a1 1 0 0 1-1.451 1.054l-3.861-2.029-3.863 2.031a1 1 0 0 1-1.451-1.054l.737-4.3-3.123-3.045a1 1 0 0 1 .556-1.706l4.317-.627L88.019.88a1.04 1.04 0 0 1 1.8 0z"/></svg>
-                <small>Trusted by 500+ Customers</small>
+                <small>{{html (get .Page .Content "customers_text")}}</small>
             </div>
         </div>
         <figure style="margin-top: var(--padding-small);" data-sal="slide-up" data-sal-delay="400">
