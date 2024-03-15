@@ -4,7 +4,7 @@ header {
     position: fixed;
     grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
     width: 100vw;
-    height: 88px;
+    height: var(--header-height);
     padding-right: var(--padding-small);
     padding-left: var(--padding-small);
     backdrop-filter: var(--backdrop-filter-glass);
