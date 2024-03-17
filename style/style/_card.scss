@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 256px;
+    padding: var(--padding-small);
+    gap: var(--padding-extra-small);
+    border-radius: var(--border-radius-large);
+    backdrop-filter: var(--backdrop-filter-glass);
+    background-color: var(--color-background-elevation);
+}

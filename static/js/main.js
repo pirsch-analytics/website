@@ -40,4 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    // Dev
+
+    history.scrollRestoration = "manual";
 });

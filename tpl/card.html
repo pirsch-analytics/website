@@ -1,0 +1,5 @@
+<div class="card">
+    <h3>{{html (get .Page .Content "headline")}}</h2>
+    <p>{{html (get .Page .Content "text")}}</p>
+    {{.CMS.Render .Page (index .Content.Content "children")}}
+</div>

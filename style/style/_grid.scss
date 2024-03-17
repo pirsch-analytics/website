@@ -1,0 +1,21 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: var(--padding-small);
+    gap: var(--padding-small);
+
+    .row {
+        gap: var(--padding-small);
+
+        &.two-one {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        &.one-two {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+    }
+}

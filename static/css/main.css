@@ -107,6 +107,7 @@ img[src$=".svg"] {
   --padding-large: 128px;
   --padding-medium: 64px;
   --padding-small: 32px;
+  --padding-extra-small: 16px;
   --border-radius-large: 24px;
   --border-radius-medium: 12px;
   --border-radius-small: 6px;
@@ -228,6 +229,18 @@ button.secondary, .button.secondary {
   color: var(--white);
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 256px;
+  padding: var(--padding-small);
+  gap: var(--padding-extra-small);
+  border-radius: var(--border-radius-large);
+  backdrop-filter: var(--backdrop-filter-glass);
+  background-color: var(--color-background-elevation);
+}
+
 .gradient-container {
   z-index: -1;
   position: absolute;
@@ -258,6 +271,25 @@ button.secondary, .button.secondary {
 }
 .gradient-container .gradient.yellow {
   background: radial-gradient(ellipse closest-side, hsla(45, 99%, 71%, 0.15) 0%, hsla(45, 99%, 71%, 0.148) 8.1%, hsla(45, 99%, 71%, 0.143) 15.5%, hsla(45, 99%, 71%, 0.134) 22.5%, hsla(45, 99%, 71%, 0.124) 29%, hsla(45, 99%, 71%, 0.111) 35.3%, hsla(45, 99%, 71%, 0.097) 41.2%, hsla(45, 99%, 71%, 0.082) 47.1%, hsla(45, 99%, 71%, 0.068) 52.9%, hsla(45, 99%, 71%, 0.053) 58.8%, hsla(45, 99%, 71%, 0.039) 64.7%, hsla(45, 99%, 71%, 0.026) 71%, hsla(45, 99%, 71%, 0.016) 77.5%, hsla(45, 99%, 71%, 0.007) 84.5%, hsla(45, 99%, 71%, 0.002) 91.9%, hsla(45, 99%, 71%, 0) 100%);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: var(--padding-small);
+  gap: var(--padding-small);
+}
+.grid .row {
+  gap: var(--padding-small);
+}
+.grid .row.two-one {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.grid .row.one-two {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 header {
@@ -384,20 +416,12 @@ section.step .nummeration .text {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-section.step h1 {
+section.step .section-content > h1 {
   text-align: center;
 }
-section.step p {
+section.step .section-content > p {
   max-width: 768px;
   text-align: center;
-}
-section.step .card {
-  width: 100%;
-  height: 512px;
-  margin-top: var(--padding-small);
-  border-radius: var(--border-radius-large);
-  backdrop-filter: var(--backdrop-filter-glass);
-  background-color: var(--color-background-elevation);
 }
 
 /*# sourceMappingURL=main.css.map */

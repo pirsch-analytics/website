@@ -23,6 +23,7 @@
     --padding-large: 128px;
     --padding-medium: 64px;
     --padding-small: 32px;
+    --padding-extra-small: 16px;
 
     --border-radius-large: 24px;
     --border-radius-medium: 12px;
@@ -106,7 +107,9 @@ img {
 }
 
 @import "button";
+@import "card";
 @import "gradient";
+@import "grid";
 @import "header";
 @import "hero";
 @import "step";

@@ -47,6 +47,82 @@
                         "headline": "Set Up in Minutes",
                         "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. The plug-and-play Google Analytics Alternative."
                     }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "en": {
+                                    "delay": 300
+                                }
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "en": {
+                                                "type": "two-one"
+                                            }
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "data": {
+                                                        "en": {
+                                                            "headline": "Integrates With Your Stack",
+                                                            "text": "Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "data": {
+                                                        "en": {
+                                                            "headline": "Seamless Switch",
+                                                            "text": "Are you migrating from other web anyltics solutions? Import your data from Google Analytics or Fathom Analytics with just a few clicks."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "en": {
+                                                "type": "one-two"
+                                            }
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "data": {
+                                                        "en": {
+                                                            "headline": "No Cookie Banner",
+                                                            "text": "Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors' personal identifiable information."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "data": {
+                                                        "en": {
+                                                            "headline": "Privacy-friendly by Design",
+                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
