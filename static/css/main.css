@@ -412,9 +412,87 @@ section.hero figure {
 
 .gdpr-logo {
   display: flex;
+  position: relative;
   flex-shrink: 0;
   align-items: center;
+  justify-content: center;
   width: 164px;
+  height: 164px;
+  transform-origin: center;
+  animation: rotate-right 20s linear infinite;
+}
+.gdpr-logo span {
+  font-weight: 500;
+  font-size: 36px;
+  animation: rotate-left 20s linear infinite;
+}
+.gdpr-logo svg {
+  position: absolute;
+  animation: rotate-left 20s linear infinite;
+}
+.gdpr-logo svg:nth-of-type(1) {
+  top: 2px;
+  left: 71px;
+}
+.gdpr-logo svg:nth-of-type(2) {
+  top: 11.25px;
+  left: 105.75px;
+}
+.gdpr-logo svg:nth-of-type(3) {
+  top: 36.75px;
+  left: 131.25px;
+}
+.gdpr-logo svg:nth-of-type(4) {
+  top: 71.5px;
+  left: 140.5px;
+}
+.gdpr-logo svg:nth-of-type(5) {
+  top: 106.25px;
+  left: 131.25px;
+}
+.gdpr-logo svg:nth-of-type(6) {
+  top: 131.75px;
+  left: 105.75px;
+}
+.gdpr-logo svg:nth-of-type(7) {
+  top: 141px;
+  left: 71px;
+}
+.gdpr-logo svg:nth-of-type(8) {
+  top: 131.75px;
+  left: 36.25px;
+}
+.gdpr-logo svg:nth-of-type(9) {
+  top: 106.25px;
+  left: 10.75px;
+}
+.gdpr-logo svg:nth-of-type(10) {
+  top: 71.5px;
+  left: 1.5px;
+}
+.gdpr-logo svg:nth-of-type(11) {
+  top: 36.75px;
+  left: 10.75px;
+}
+.gdpr-logo svg:nth-of-type(12) {
+  top: 11.25px;
+  left: 36.25px;
+}
+@keyframes rotate-right {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes rotate-left {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
 }
 
 section.step {
