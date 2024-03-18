@@ -38,14 +38,20 @@ The JSON structure for a content file is as follows:
             {
                 "ref": "head", // references to a standalone element (JSON file without extension, always lowercase)
                 "data": {
+                    // overwrites whatever is set in head.json
+                },
+                "copy": {
                     "en": {
-                        "title": "Home" // overrides the variable "title" with the value "Home"
+                        "title": "Home" // overrides the copy "title" with the value "Home"
                     }
                 }
             },
             {
                 "tpl": "text", // template file (without extension, always lowercase)
-                "data": { // optional data used in the template
+                "data": { // optional generic data object
+                    "numbers": [1, 2, 3]
+                },
+                "copy": { // optional data used in the template
                     "en": {
                         "headline": "Welcome!",
                         "text": "To pirsch.io."
@@ -70,6 +76,9 @@ Standalone elements are use the same structure as pages, but do not specify path
 {
     "tpl": "head",
     "data": {
+        // ...
+    },
+    "copy": {
         "en": {
             "title": "Welcome to Pirsch"
         },
