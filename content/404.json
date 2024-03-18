@@ -10,7 +10,7 @@
             {"ref": "head"},
             {
                 "tpl": "text",
-                "data": {
+                "copy": {
                     "en": {
                         "headline": "#404 Page not found",
                         "text": "The requested page was not found."

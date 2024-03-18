@@ -13,7 +13,7 @@
         "content": [
             {
                 "ref": "head",
-                "data": {
+                "copy": {
                     "en": {
                         "title": "Sign In to Discourse"
                     },
@@ -24,7 +24,7 @@
             },
             {
                 "tpl": "discourse",
-                "data": {
+                "copy": {
                     "en": {
                         "headline": "Log In",
                         "email_address": "Email Address",

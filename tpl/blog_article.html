@@ -1,6 +1,6 @@
-{{$article := get .Page .Content "article"}}
-{{$previous := get .Page .Content "previous"}}
-{{$next := get .Page .Content "next"}}
+{{$article := get .Content "article"}}
+{{$previous := get .Content "previous"}}
+{{$next := get .Content "next"}}
 
 <h1>{{$article.Title}}</h1>
 <div>

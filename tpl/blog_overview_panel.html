@@ -1,6 +1,6 @@
-<a href="/blog/{{get .Content "slug"}}/" style="display: block;max-width: 400px;padding: 20px;">
-    <img src="/blog/static/{{get .Content "img"}}" alt="{{get .Content "headline"}}" style="display: inline-block; max-width: 400px;" />
-    <h2>{{get .Content "headline"}}</h2>
-    <p>{{get .Content "summary"}}</p>
-    <p>{{formatDate (get .Page .Content "date") "January 2, 2006"}}</p>
+<a href="/blog/{{copy .Page .Content "slug"}}/" style="display: block;max-width: 400px;padding: 20px;">
+    <img src="/blog/static/{{copy .Page .Content "img"}}" alt="{{copy .Page .Content "headline"}}" style="display: inline-block; max-width: 400px;" />
+    <h2>{{copy .Page .Content "headline"}}</h2>
+    <p>{{copy .Page .Content "summary"}}</p>
+    <p>{{formatDate (copy .Page .Content "date") "January 2, 2006"}}</p>
 </a>

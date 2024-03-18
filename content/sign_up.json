@@ -15,9 +15,11 @@
             {
                 "ref": "head",
                 "data": {
+                    "hcaptcha": true
+                },
+                "copy": {
                     "en": {
-                        "title": "Sign Up",
-                        "hcaptcha": true
+                        "title": "Sign Up"
                     },
                     "de": {
                         "title": "Registrierung"
@@ -44,7 +46,7 @@
             },
             {
                 "tpl": "sign_up",
-                "data": {
+                "copy": {
                     "en": {
                         "got_account": "Already got an account?",
                         "login": "Log In",

@@ -1,4 +1,4 @@
-{{$signup := get .Page .Content "sign_up"}}
+{{$signup := get .Content "sign_up"}}
 
 <section>
     <small>{{copy .Page .Content "got_account"}}</small>
@@ -55,7 +55,7 @@
                             <div class="h-captcha" data-sitekey="{{$signup.HCaptchaSiteKey}}" data-theme="dark" style="display: flex; justify-content: center; margin-bottom: 12px;"></div>
                             <button type="submit">{{copy .Page .Content "continue"}}</button>
                         </form>
-                        <small>{{html (get .Page .Content "terms")}}</small>
+                        <small>{{html (copy .Page .Content "terms")}}</small>
                     {{end}}
                 </li>
 

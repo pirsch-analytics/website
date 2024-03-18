@@ -12,7 +12,7 @@
             {"ref": "head"},
             {
                 "tpl": "text",
-                "data": {
+                "copy": {
                     "en": {
                         "headline": "Blog",
                         "text": "We share our experiences, stories and tips about technology, design and everything in-between."

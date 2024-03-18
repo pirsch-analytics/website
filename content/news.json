@@ -10,7 +10,7 @@
         "content": [
             {
                 "ref": "head",
-                "data": {
+                "copy": {
                     "en": {
                         "title": "News"
                     }
@@ -18,7 +18,7 @@
             },
             {
                 "tpl": "text",
-                "data": {
+                "copy": {
                     "en": {
                         "headline": "News",
                         "text": "Get the latest news and updates on Pirsch Analytics."
