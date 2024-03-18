@@ -1,0 +1,10 @@
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    mask: var(--mask);
+
+    .marquee-content {
+        display: flex;
+        gap: 24px;
+    }
+}

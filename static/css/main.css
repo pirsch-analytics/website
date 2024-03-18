@@ -111,6 +111,7 @@ img[src$=".svg"] {
   --border-radius-large: 24px;
   --border-radius-medium: 12px;
   --border-radius-small: 6px;
+  --mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 10%, rgba(0,0,0, 1) 90%, rgba(0,0,0, 0) 100%);
   --header-height: 88px;
   --backdrop-filter-glass: blur(24px);
 }
@@ -233,12 +234,21 @@ button.secondary, .button.secondary {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 256px;
+  min-height: 128px;
   padding: var(--padding-small);
-  gap: var(--padding-extra-small);
+  gap: var(--padding-small);
   border-radius: var(--border-radius-large);
   backdrop-filter: var(--backdrop-filter-glass);
   background-color: var(--color-background-elevation);
+}
+.card.columns {
+  flex-direction: row;
+  align-items: stretch;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-extra-small);
 }
 
 .gradient-container {
@@ -388,6 +398,23 @@ section.hero figure {
   overflow: hidden;
   border-top-right-radius: var(--border-radius-large);
   border-top-left-radius: var(--border-radius-large);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  mask: var(--mask);
+}
+.marquee .marquee-content {
+  display: flex;
+  gap: 24px;
+}
+
+.gdpr-logo {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: 164px;
 }
 
 section.step {

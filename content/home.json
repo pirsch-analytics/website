@@ -75,6 +75,55 @@
                                                             "headline": "Integrates With Your Stack",
                                                             "text": "Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time."
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "marquee",
+                                                                "data": {
+                                                                    "en": {
+                                                                        "images": [
+                                                                            {
+                                                                                "url": "go.svg",
+                                                                                "alt": "Go"
+                                                                            },
+                                                                            {
+                                                                                "url": "vue.svg",
+                                                                                "alt": "Vue"
+                                                                            },
+                                                                            {
+                                                                                "url": "angular.svg",
+                                                                                "alt": "Angular"
+                                                                            },
+                                                                            {
+                                                                                "url": "react.svg",
+                                                                                "alt": "React"
+                                                                            },
+                                                                            {
+                                                                                "url": "wordpress.svg",
+                                                                                "alt": "Wordpress"
+                                                                            },
+                                                                            {
+                                                                                "url": "framer.svg",
+                                                                                "alt": "Framer"
+                                                                            },
+                                                                            {
+                                                                                "url": "webflow.svg",
+                                                                                "alt": "Webflow"
+                                                                            },
+                                                                            {
+                                                                                "url": "laravel.svg",
+                                                                                "alt": "Laravel"
+                                                                            },
+                                                                            {
+                                                                                "url": "drupal.svg",
+                                                                                "alt": "Drupal"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 {
@@ -82,7 +131,7 @@
                                                     "data": {
                                                         "en": {
                                                             "headline": "Seamless Switch",
-                                                            "text": "Are you migrating from other web anyltics solutions? Import your data from Google Analytics or Fathom Analytics with just a few clicks."
+                                                            "text": "Migrating from other web analytics solutions? Import your data from Google Analytics or Fathom Analytics in just a few clicks and easily continue where you left off."
                                                         }
                                                     }
                                                 }
@@ -111,9 +160,17 @@
                                                     "tpl": "card",
                                                     "data": {
                                                         "en": {
+                                                            "class": "columns",
                                                             "headline": "Privacy-friendly by Design",
                                                             "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "gdpr_logo"
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]

@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Dev
 
-    history.scrollRestoration = "manual";
+    //history.scrollRestoration = "manual";
 });

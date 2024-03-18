@@ -29,6 +29,8 @@
     --border-radius-medium: 12px;
     --border-radius-small: 6px;
 
+    --mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 10%, rgba(0,0,0, 1) 90%, rgba(0,0,0, 0) 100%);
+
     --header-height: 88px;
 
     --backdrop-filter-glass: blur(24px);
@@ -112,4 +114,6 @@ img {
 @import "grid";
 @import "header";
 @import "hero";
+@import "marquee";
+@import "misc";
 @import "step";
