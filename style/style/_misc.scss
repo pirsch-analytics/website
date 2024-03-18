@@ -1,3 +1,7 @@
+.no-select {
+    user-select: none;
+}
+
 .marquee {
     width: 100%;
     overflow: hidden;
@@ -26,8 +30,10 @@
         animation: rotate-left 20s linear infinite;
     }
 
-    svg {
+    img {
         position: absolute;
+        width: 24px;
+        height: 21px;
         animation: rotate-left 20s linear infinite;
 
         &:nth-of-type(1) {
