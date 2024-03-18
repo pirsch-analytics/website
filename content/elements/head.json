@@ -1,6 +1,6 @@
 {
     "tpl": "head",
-    "data": {
+    "copy": {
         "en": {
             "title": "Pirsch"
         },

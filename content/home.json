@@ -26,7 +26,7 @@
             },
             {
                 "tpl": "hero",
-                "data": {
+                "copy": {
                     "en": {
                         "headline": "See Beyond Clicks",
                         "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
@@ -39,9 +39,11 @@
             {
                 "tpl": "step",
                 "data": {
+                    "gradient_color": "yellow",
+                    "gradient_position": "left"
+                },
+                "copy": {
                     "en": {
-                        "gradient_color": "yellow",
-                        "gradient_position": "left",
                         "nummeration_number": "1",
                         "nummeration_text": "Easy Start",
                         "headline": "Set Up in Minutes",
@@ -53,24 +55,20 @@
                         {
                             "tpl": "grid",
                             "data": {
-                                "en": {
-                                    "delay": 300
-                                }
+                                "delay": 300
                             },
                             "content": {
                                 "children": [
                                     {
                                         "tpl": "row",
                                         "data": {
-                                            "en": {
-                                                "type": "two-one"
-                                            }
+                                            "type": "two-one"
                                         },
                                         "content": {
                                             "children": [
                                                 {
                                                     "tpl": "card",
-                                                    "data": {
+                                                    "copy": {
                                                         "en": {
                                                             "headline": "Integrates With Your Stack",
                                                             "text": "Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time."
@@ -81,46 +79,44 @@
                                                             {
                                                                 "tpl": "marquee",
                                                                 "data": {
-                                                                    "en": {
-                                                                        "images": [
-                                                                            {
-                                                                                "url": "go.svg",
-                                                                                "alt": "Go"
-                                                                            },
-                                                                            {
-                                                                                "url": "vue.svg",
-                                                                                "alt": "Vue"
-                                                                            },
-                                                                            {
-                                                                                "url": "angular.svg",
-                                                                                "alt": "Angular"
-                                                                            },
-                                                                            {
-                                                                                "url": "react.svg",
-                                                                                "alt": "React"
-                                                                            },
-                                                                            {
-                                                                                "url": "wordpress.svg",
-                                                                                "alt": "Wordpress"
-                                                                            },
-                                                                            {
-                                                                                "url": "framer.svg",
-                                                                                "alt": "Framer"
-                                                                            },
-                                                                            {
-                                                                                "url": "webflow.svg",
-                                                                                "alt": "Webflow"
-                                                                            },
-                                                                            {
-                                                                                "url": "laravel.svg",
-                                                                                "alt": "Laravel"
-                                                                            },
-                                                                            {
-                                                                                "url": "drupal.svg",
-                                                                                "alt": "Drupal"
-                                                                            }
-                                                                        ]
-                                                                    }
+                                                                    "images": [
+                                                                        {
+                                                                            "url": "go.svg",
+                                                                            "alt": "Go"
+                                                                        },
+                                                                        {
+                                                                            "url": "vue.svg",
+                                                                            "alt": "Vue"
+                                                                        },
+                                                                        {
+                                                                            "url": "angular.svg",
+                                                                            "alt": "Angular"
+                                                                        },
+                                                                        {
+                                                                            "url": "react.svg",
+                                                                            "alt": "React"
+                                                                        },
+                                                                        {
+                                                                            "url": "wordpress.svg",
+                                                                            "alt": "Wordpress"
+                                                                        },
+                                                                        {
+                                                                            "url": "framer.svg",
+                                                                            "alt": "Framer"
+                                                                        },
+                                                                        {
+                                                                            "url": "webflow.svg",
+                                                                            "alt": "Webflow"
+                                                                        },
+                                                                        {
+                                                                            "url": "laravel.svg",
+                                                                            "alt": "Laravel"
+                                                                        },
+                                                                        {
+                                                                            "url": "drupal.svg",
+                                                                            "alt": "Drupal"
+                                                                        }
+                                                                    ]
                                                                 }
                                                             }
                                                         ]
@@ -128,7 +124,7 @@
                                                 },
                                                 {
                                                     "tpl": "card",
-                                                    "data": {
+                                                    "copy": {
                                                         "en": {
                                                             "headline": "Seamless Switch",
                                                             "text": "Migrating from other web analytics solutions? Import your data from Google Analytics or Fathom Analytics in just a few clicks and easily continue where you left off."
@@ -141,15 +137,13 @@
                                     {
                                         "tpl": "row",
                                         "data": {
-                                            "en": {
-                                                "type": "one-two"
-                                            }
+                                            "type": "one-two"
                                         },
                                         "content": {
                                             "children": [
                                                 {
                                                     "tpl": "card",
-                                                    "data": {
+                                                    "copy": {
                                                         "en": {
                                                             "headline": "No Cookie Banner",
                                                             "text": "Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors' personal identifiable information."
@@ -158,7 +152,7 @@
                                                 },
                                                 {
                                                     "tpl": "card",
-                                                    "data": {
+                                                    "copy": {
                                                         "en": {
                                                             "class": "columns",
                                                             "headline": "Privacy-friendly by Design",
@@ -185,9 +179,11 @@
             {
                 "tpl": "step",
                 "data": {
+                    "gradient_color": "green",
+                    "gradient_position": "right"
+                },
+                "copy": {
                     "en": {
-                        "gradient_color": "green",
-                        "gradient_position": "right",
                         "nummeration_number": "2",
                         "nummeration_text": "Instant Output",
                         "headline": "Unlock Key Insights",
@@ -198,8 +194,10 @@
             {
                 "tpl": "step",
                 "data": {
+                    "gradient_position": "left"
+                },
+                "copy": {
                     "en": {
-                        "gradient_position": "left",
                         "nummeration_number": "3",
                         "nummeration_text": "Advanced Analytics",
                         "headline": "Dive Into the Details",

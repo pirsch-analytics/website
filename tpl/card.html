@@ -1,7 +1,7 @@
-<div class="card {{html (get .Page .Content "class")}}">
+<div class="card {{html (get .Content "class")}}">
     <div class="card-content">
-        <h3>{{html (get .Page .Content "headline")}}</h2>
-        <p>{{html (get .Page .Content "text")}}</p>
+        <h3>{{html (copy .Page .Content "headline")}}</h2>
+        <p>{{html (copy .Page .Content "text")}}</p>
     </div>
     {{.CMS.Render .Page (index .Content.Content "children")}}
 </div>
