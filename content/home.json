@@ -14,12 +14,7 @@
     "content": {
         "content": [
             {
-                "ref": "head",
-                "data": {
-                    "en": {
-                        "title": "Overwrite"
-                    }
-                }
+                "ref": "head"
             },
             {
                 "ref": "header"
