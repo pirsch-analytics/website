@@ -235,7 +235,7 @@ button.secondary, .button.secondary {
   flex-direction: column;
   width: 100%;
   min-height: 128px;
-  padding: var(--padding-small);
+  padding: calc(var(--padding-small) * 1.5);
   gap: var(--padding-small);
   border-radius: var(--border-radius-large);
   backdrop-filter: var(--backdrop-filter-glass);
@@ -291,6 +291,7 @@ button.secondary, .button.secondary {
   gap: var(--padding-small);
 }
 .grid .row {
+  display: flex;
   gap: var(--padding-small);
 }
 .grid .row.two-one {
@@ -351,6 +352,9 @@ header .header-content nav {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+header .header-content nav a {
+  white-space: nowrap;
 }
 
 section.hero {
@@ -423,6 +427,7 @@ section.hero figure {
   width: 164px;
   height: 164px;
   transform-origin: center;
+  background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   animation: rotate-right 20s linear infinite;
 }
 .gdpr-logo span {
@@ -499,6 +504,14 @@ section.hero figure {
   100% {
     transform: rotateZ(-360deg);
   }
+}
+
+.mask-bottom {
+  mask: linear-gradient(to bottom, rgb(0, 0, 0) 0, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+.mask-radial {
+  mask: radial-gradient(ellipse closest-side, rgb(0, 0, 0) 0, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 section.step {

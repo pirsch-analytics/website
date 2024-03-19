@@ -3,7 +3,7 @@
 <div id="marquee" class="marquee">
     <div class="marquee-content">
         {{range $images}}
-            <img src="../static/img/{{index . "url"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" loading="lazy">
+            <img src="../static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" loading="lazy">
         {{end}}
     </div>
 </div>

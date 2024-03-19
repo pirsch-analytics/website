@@ -6,6 +6,7 @@
     gap: var(--padding-small);
 
     .row {
+        display: flex;
         gap: var(--padding-small);
 
         &.two-one {

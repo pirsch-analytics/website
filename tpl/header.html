@@ -1,3 +1,5 @@
+{{$links := copy .Page .Content "links"}}
+
 <header id="header">
     <div class="header-content">
         <a href="/" id="headerLogoLink" class="logo">
@@ -5,11 +7,9 @@
             <span>Pirsch</span>
         </a>
         <nav>
-            <a href="#">Product</a>
-            <a href="#">Resources</a>
-            <a href="#">Pricing</a>
-            <a href="#">Log In</a>
-            <a href="#" class="button small">Try It for Free</a>
+            {{range $links}}
+                <a href="{{index . "href"}}" class="{{index . "class"}}">{{index . "label"}}</a>
+            {{end}}
         </nav>
     </div>
 </header>

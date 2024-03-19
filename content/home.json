@@ -76,39 +76,39 @@
                                                                 "data": {
                                                                     "images": [
                                                                         {
-                                                                            "url": "go.svg",
+                                                                            "src": "go.svg",
                                                                             "alt": "Go"
                                                                         },
                                                                         {
-                                                                            "url": "vue.svg",
+                                                                            "src": "vue.svg",
                                                                             "alt": "Vue"
                                                                         },
                                                                         {
-                                                                            "url": "angular.svg",
+                                                                            "src": "angular.svg",
                                                                             "alt": "Angular"
                                                                         },
                                                                         {
-                                                                            "url": "react.svg",
+                                                                            "src": "react.svg",
                                                                             "alt": "React"
                                                                         },
                                                                         {
-                                                                            "url": "wordpress.svg",
+                                                                            "src": "wordpress.svg",
                                                                             "alt": "Wordpress"
                                                                         },
                                                                         {
-                                                                            "url": "framer.svg",
+                                                                            "src": "framer.svg",
                                                                             "alt": "Framer"
                                                                         },
                                                                         {
-                                                                            "url": "webflow.svg",
+                                                                            "src": "webflow.svg",
                                                                             "alt": "Webflow"
                                                                         },
                                                                         {
-                                                                            "url": "laravel.svg",
+                                                                            "src": "laravel.svg",
                                                                             "alt": "Laravel"
                                                                         },
                                                                         {
-                                                                            "url": "drupal.svg",
+                                                                            "src": "drupal.svg",
                                                                             "alt": "Drupal"
                                                                         }
                                                                     ]
@@ -147,11 +147,13 @@
                                                 },
                                                 {
                                                     "tpl": "card",
+                                                    "data": {
+                                                        "class": "columns"
+                                                    },
                                                     "copy": {
                                                         "en": {
-                                                            "class": "columns",
                                                             "headline": "Privacy-friendly by Design",
-                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."
+                                                            "text": "Built from the ground up with privacy at its core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
                                                         }
                                                     },
                                                     "content": {
@@ -184,6 +186,71 @@
                         "headline": "Unlock Key Insights",
                         "text": "With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions."
                     }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "columns"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Track Everything You Need",
+                                                            "text": "With a wide range of data points, you get an in-depth understanding of your visitors and target audience."
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "data.svg",
+                                                                    "alt": "data"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Filter With One Click",
+                                                            "text": "Pirsch makes it effortless to explore your stats through intuitive filtering on a super-fast, highly visual dashboard."
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "filter.svg",
+                                                                    "alt": "Filter",
+                                                                    "class": "mask-bottom"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {

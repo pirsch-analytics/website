@@ -1,3 +1,42 @@
 {
-    "tpl": "header"
+    "tpl": "header",
+    "copy": {
+        "en": {
+            "links": [
+                {
+                    "label": "For Agencies",
+                    "href": "/for-agencies"
+                },
+                {
+                    "label": "For Developers",
+                    "href": "/for-developers"
+                },
+                {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                },
+                {
+                    "label": "Blog",
+                    "href": "/blog"
+                },
+                {
+                    "label": "Log In",
+                    "href": "/login"
+                },
+                {
+                    "label": "Try It for Free",
+                    "href": "/signup",
+                    "class": "button small"
+                }
+            ]
+        },
+        "de": {
+            "links": [
+                {
+                    "label": "Preise",
+                    "href": "/de/pricing"
+                }
+            ]
+        }
+    }
 }
