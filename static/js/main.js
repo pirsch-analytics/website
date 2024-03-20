@@ -41,6 +41,47 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // Marquee
+
+    const marquee = document.getElementsByClassName("marquee-content");
+    const speed = 0.05;
+    const columnGap = 24;
+
+    Array.from(marquee).forEach(image => {
+        moveElement(image);
+    })
+
+    function moveElement(el) {
+        let start, previousTimeStamp = 0;
+        let transitionX = 0;
+
+        function step(timestamp) {
+            if (start === undefined) start = timestamp;
+            const frameElapsed = timestamp - previousTimeStamp;
+        
+            if (previousTimeStamp !== timestamp) {
+                if (!marquee[0].matches(":hover")) {
+                    transitionX = transitionX + (speed * frameElapsed);
+                    let imageWidth = el.firstElementChild.offsetWidth;
+
+                    if (transitionX > (imageWidth + columnGap)) {
+                        el.appendChild(el.firstElementChild);
+                        transitionX = 0;
+                    }
+
+                    el.style.transform = "translateX(-" + transitionX + "px)";
+                }
+            } else {
+                el.style.transform = "translateX(0)";
+            }
+
+            previousTimeStamp = timestamp;
+            window.requestAnimationFrame(step);
+        }
+
+        window.requestAnimationFrame(step);
+    }
+
     // Dev
 
     //history.scrollRestoration = "manual";

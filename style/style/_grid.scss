@@ -5,6 +5,11 @@
     margin-top: var(--padding-small);
     gap: var(--padding-small);
 
+    &.one-one-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .row {
         display: flex;
         gap: var(--padding-small);
@@ -17,6 +22,17 @@
         &.one-two {
             display: grid;
             grid-template-columns: 1fr 2fr;
+        }
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--padding-small);
+
+        .card {
+            flex: 1;
         }
     }
 }

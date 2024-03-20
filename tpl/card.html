@@ -1,7 +1,12 @@
+{{$headline := copy .Page .Content "headline"}}
+{{$text := copy .Page .Content "text"}}
+
 <div class="card {{html (get .Content "class")}}">
-    <div class="card-content">
-        <h3>{{html (copy .Page .Content "headline")}}</h2>
-        <p>{{html (copy .Page .Content "text")}}</p>
-    </div>
+    {{if or $headline $text}}
+        <div class="card-content">
+            <h3>{{$headline}}</h2>
+            <p>{{$text}}</p>
+        </div>
+    {{end}}
     {{.CMS.Render .Page (index .Content.Content "children")}}
 </div>

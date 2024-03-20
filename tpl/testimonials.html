@@ -1,11 +1,16 @@
-<!--
-{{$testimonials := shuffle (get .Content "testimonials") 9}}
+{{$testimonials := shuffle (copy .Page .Content "testimonials") 9}}
+
 {{range $testimonials}}
-    <div>
-        <img src="/static/img/social-proof/{{index . "picture"}}" alt="{{index . "name"}}" style="max-width: 48px;" />
-        <strong>{{index . "name"}}</strong>
-        <a href="{{index . "website"}}" target="_blank">{{index . "website_label"}}</a>
+    <div class="card testimonial">
+        <div class="headline">
+            <img src="/static/img/social-proof/{{index . "picture"}}" alt="{{index . "name"}}" style="max-width: 48px;" />
+            <div class="text">
+                <strong>{{index . "name"}}</strong>
+                <small>
+                    <a href="{{index . "website"}}" target="_blank">{{index . "website_label"}}</a>
+                </small>
+            </div>
+        </div>
         <p>{{index . "text"}}</p>
     </div>
 {{end}}
--->

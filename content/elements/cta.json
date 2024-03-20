@@ -1,0 +1,10 @@
+{
+    "tpl": "cta",
+    "copy": {
+        "en": {
+            "headline": "Ready to Get Started?",
+            "text": "Try Pirsch Analytics free of charge for 30 days with no credit card required. Setting up your first website only takes a few minutes.",
+            "cta": "Get Started For Free" 
+        }
+    }
+}

@@ -57,7 +57,7 @@
                                     {
                                         "tpl": "row",
                                         "data": {
-                                            "type": "two-one"
+                                            "class": "two-one"
                                         },
                                         "content": {
                                             "children": [
@@ -132,7 +132,7 @@
                                     {
                                         "tpl": "row",
                                         "data": {
-                                            "type": "one-two"
+                                            "class": "one-two"
                                         },
                                         "content": {
                                             "children": [
@@ -263,165 +263,304 @@
                         "nummeration_number": "3",
                         "nummeration_text": "Advanced Analytics",
                         "headline": "Dive Into the Details",
-                        "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation. Easily track your perfomance with flexible conversion goals."
-                    }
-                }
-            },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            {
-                "tpl": "text",
-                "data": {
-                    "en": {
-                        "headline": "Welcome!",
-                        "text": "To pirsch.io."
-                    },
-                    "de": {
-                        "headline": "Willkommen!",
-                        "text": "Bei pirsch.io."
-                    }
-                }
-            },
-            {
-                "tpl": "text",
-                "data": {
-                    "en": {
-                        "headline": "Benefits",
-                        "text": "Pirsch is <strong>awesome</strong>!"
-                    },
-                    "de": {
-                        "headline": "Vorteile",
-                        "text": "Pirsch ist <strong>super</strong>!"
+                        "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into specific sessions, or track your performance with flexible conversion goals."
                     }
                 },
                 "content": {
                     "children": [
                         {
-                            "tpl": "text",
+                            "tpl": "grid",
                             "data": {
-                                "en": {
-                                    "headline_size": "h2",
-                                    "headline": "Child 1",
-                                    "text": "This is a child element!"
-                                },
-                                "de": {
-                                    "headline": "Kind 1",
-                                    "text": "Bla bla..."
-                                }
-                            }
-                        },
-                        {
-                            "tpl": "text",
-                            "data": {
-                                "en": {
-                                    "headline_size": "h2",
-                                    "headline": "Child 2",
-                                    "text": "This is a child element!"
-                                }
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Create Custom Events",
+                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Discover Individual Sessions",
+                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "row",
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Segment Visitors by Tags",
+                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Monitor Your Conversion Goals",
+                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             }
                         }
                     ]
                 }
             },
             {
-                "tpl": "testimonials",
+                "tpl": "step",
                 "data": {
+                    "gradient_color": "green",
+                    "gradient_position": "right"
+                },
+                "copy": {
                     "en": {
-                        "testimonials": [
-                            {
-                                "name": "Tory Howell",
-                                "picture": "toryhowell.jpg",
-                                "website": "https://toryhowell.com/",
-                                "website_label": "toryhowell.com",
-                                "text": "I'm obsessed with Pirsch! I use it on my personal website and recommend it to all of my website clients. It's honestly one of my favorite tools I use for my business."
-                            },
-                            {
-                                "name": "Dezeiraud Gaëtan",
-                                "picture": "dezeiraudgaetan.jpg",
-                                "website": "https://www.dezeiraud.com/",
-                                "website_label": "dezeiraud.com",
-                                "text": "We use Pirsch on our website or software (Electron-based and UWP) with privacy in mind. It's not just GDPR compliant, it's a real philosophy. Privacy is not optional, it's a right."
-                            },
-                            {
-                                "name": "Rishi Mohan",
-                                "picture": "rishimohan.jpg",
-                                "website": "https://kizie.co/",
-                                "website_label": "kizie.co",
-                                "text": "In my week’s usage of Pirsch on Kizie, I feel one of the best things about Pirsch is how well it displays the data I need to see with all the filters. You can setup custom events and goals too."
-                            },
-                            {
-                                "name": "Leander Lenzing",
-                                "picture": "leanderlenzing.jpg",
-                                "website": "https://www.studiolenzing.com/",
-                                "website_label": "studiolenzing.com",
-                                "text": "A fast and beautiful crafted analytics tool. The UI is lovely and the information is easy to grasp. Sounds cheesy but analytics are fun with Pirsch."
-                            },
-                            {
-                                "name": "Rafael Alex",
-                                "picture": "rafaelalex.jpg",
-                                "website": "https://rafaelalex.de/",
-                                "website_label": "rafaelalex.de",
-                                "text": "Beautifully designed. Easy to integrate and operate. Created and hosted in Germany. A lot of good reasons to give Pirsch a try — seriously do it. Today."
-                            },
-                            {
-                                "name": "Zep Fietje",
-                                "picture": "zepfietje.jpg",
-                                "website": "https://zepfietje.com/",
-                                "website_label": "zepfietje.com",
-                                "text": "After trying many analytics tools, only Pirsch met my needs. Pirsch is the most complete, beautiful and affordable analytics solution out there."
-                            },
-                            {
-                                "name": "Karr Fager",
-                                "picture": "karrfager.jpg",
-                                "website": "https://www.redpanther.io",
-                                "website_label": "redpanther.io",
-                                "text": "I only wish I would've found Pirsch sooner. It is simple, clean, and quick. I tried several other solutions to display website data on my clients' SEO dashboards, Pirsch is the winner."
-                            },
-                            {
-                                "name": "Vegard Flatoy",
-                                "picture": "vegardflatoy.jpg",
-                                "website": "https://lemot.fr",
-                                "website_label": "lemot.fr",
-                                "text": "I've tested many of the cookieless tracking alternatives and I just love the Pirsch dashboard. The graphs are unparalleled. I also love the custom stuff you can do with their events API."
-                            },
-                            {
-                                "name": "Bjarn Bronsveld",
-                                "picture": "bjarnbronsveld.jpg",
-                                "website": "https://spectate.net/",
-                                "website_label": "spectate.net",
-                                "text": "Been a Pirsch user since December 2022, and it's been a breath of fresh air compared to Google Analytics. Implementing in NextJS was done in minutes."
-                            },
-                            {
-                                "name": "Lorenso D'Agostino",
-                                "picture": "lorensodagostino.jpg",
-                                "website": "https://dagostino.digital/",
-                                "website_label": "dagostino.digital",
-                                "text": "Pirsch is a game changer. It combines speed, beautiful design and usability like no other analytics tool. Barely a day goes by that I don't use it."
-                            }
-                        ]
+                        "nummeration_number": "4",
+                        "nummeration_text": "Smart Teamwork",
+                        "headline": "Empower People With Data",
+                        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
                     }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "card"
+                        }
+                    ]
                 }
             },
+            {
+                "tpl": "step",
+                "data": {
+                    "gradient_color": "yellow",
+                    "gradient_position": "left"
+                },
+                "copy": {
+                    "en": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Creative Freedom",
+                        "headline": "Make It Your Own",
+                        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "one-two"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "column",
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "card",
+                                                                "copy": {
+                                                                    "en": {
+                                                                        "headline": "Custom Themes"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "card",
+                                                                "copy": {
+                                                                    "en": {
+                                                                        "headline": "Custom Domains"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "card",
+                                                                "copy": {
+                                                                    "en": {
+                                                                        "headline": "White Labeling"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "marquee",
+                                                                "data": {
+                                                                    "images": [
+                                                                        {
+                                                                            "src": "dashboard.svg",
+                                                                            "alt": "Dashboard",
+                                                                            "class": "border-radius-medium"
+                                                                        },
+                                                                        {
+                                                                            "src": "dashboard.svg",
+                                                                            "alt": "Dashboard",
+                                                                            "class": "border-radius-medium"
+                                                                        },
+                                                                        {
+                                                                            "src": "dashboard.svg",
+                                                                            "alt": "Dashboard",
+                                                                            "class": "border-radius-medium"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "tpl": "step",
+                "data": {
+                    "gradient_position": "right"
+                },
+                "copy": {
+                    "en": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Good Company",
+                        "headline": "Join Happy Customers",
+                        "text": "Pirsch collects hundreds of millions of page views for thousands of sites each month — see what our customers have to say about us."
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "class": "one-one-one",
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "testimonials",
+                                        "copy": {
+                                            "en": {
+                                                "testimonials": [
+                                                    {
+                                                        "name": "Tory Howell",
+                                                        "picture": "toryhowell.jpg",
+                                                        "website": "https://toryhowell.com/",
+                                                        "website_label": "toryhowell.com",
+                                                        "text": "I'm obsessed with Pirsch! I use it on my personal website and recommend it to all of my website clients. It's honestly one of my favorite tools I use for my business."
+                                                    },
+                                                    {
+                                                        "name": "Dezeiraud Gaëtan",
+                                                        "picture": "dezeiraudgaetan.jpg",
+                                                        "website": "https://www.dezeiraud.com/",
+                                                        "website_label": "dezeiraud.com",
+                                                        "text": "We use Pirsch on our website or software (Electron-based and UWP) with privacy in mind. It's not just GDPR compliant, it's a real philosophy. Privacy is not optional, it's a right."
+                                                    },
+                                                    {
+                                                        "name": "Rishi Mohan",
+                                                        "picture": "rishimohan.jpg",
+                                                        "website": "https://kizie.co/",
+                                                        "website_label": "kizie.co",
+                                                        "text": "In my week’s usage of Pirsch on Kizie, I feel one of the best things about Pirsch is how well it displays the data I need to see with all the filters. You can setup custom events and goals too."
+                                                    },
+                                                    {
+                                                        "name": "Leander Lenzing",
+                                                        "picture": "leanderlenzing.jpg",
+                                                        "website": "https://www.studiolenzing.com/",
+                                                        "website_label": "studiolenzing.com",
+                                                        "text": "A fast and beautiful crafted analytics tool. The UI is lovely and the information is easy to grasp. Sounds cheesy but analytics are fun with Pirsch."
+                                                    },
+                                                    {
+                                                        "name": "Rafael Alex",
+                                                        "picture": "rafaelalex.jpg",
+                                                        "website": "https://rafaelalex.de/",
+                                                        "website_label": "rafaelalex.de",
+                                                        "text": "Beautifully designed. Easy to integrate and operate. Created and hosted in Germany. A lot of good reasons to give Pirsch a try — seriously do it. Today."
+                                                    },
+                                                    {
+                                                        "name": "Zep Fietje",
+                                                        "picture": "zepfietje.jpg",
+                                                        "website": "https://zepfietje.com/",
+                                                        "website_label": "zepfietje.com",
+                                                        "text": "After trying many analytics tools, only Pirsch met my needs. Pirsch is the most complete, beautiful and affordable analytics solution out there."
+                                                    },
+                                                    {
+                                                        "name": "Karr Fager",
+                                                        "picture": "karrfager.jpg",
+                                                        "website": "https://www.redpanther.io",
+                                                        "website_label": "redpanther.io",
+                                                        "text": "I only wish I would've found Pirsch sooner. It is simple, clean, and quick. I tried several other solutions to display website data on my clients' SEO dashboards, Pirsch is the winner."
+                                                    },
+                                                    {
+                                                        "name": "Vegard Flatoy",
+                                                        "picture": "vegardflatoy.jpg",
+                                                        "website": "https://lemot.fr",
+                                                        "website_label": "lemot.fr",
+                                                        "text": "I've tested many of the cookieless tracking alternatives and I just love the Pirsch dashboard. The graphs are unparalleled. I also love the custom stuff you can do with their events API."
+                                                    },
+                                                    {
+                                                        "name": "Bjarn Bronsveld",
+                                                        "picture": "bjarnbronsveld.jpg",
+                                                        "website": "https://spectate.net/",
+                                                        "website_label": "spectate.net",
+                                                        "text": "Been a Pirsch user since December 2022, and it's been a breath of fresh air compared to Google Analytics. Implementing in NextJS was done in minutes."
+                                                    },
+                                                    {
+                                                        "name": "Lorenso D'Agostino",
+                                                        "picture": "lorensodagostino.jpg",
+                                                        "website": "https://dagostino.digital/",
+                                                        "website_label": "dagostino.digital",
+                                                        "text": "Pirsch is a game changer. It combines speed, beautiful design and usability like no other analytics tool. Barely a day goes by that I don't use it."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {"ref": "cta"},
             {"ref": "end"}
         ]
     }

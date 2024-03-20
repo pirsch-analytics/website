@@ -117,6 +117,51 @@
     }
 }
 
+.testimonial {
+    padding: var(--padding-small);
+    gap: var(--padding-extra-small);
+
+    .headline {
+        display: flex;
+        gap: 16px;
+
+        img {
+            width: 64px;
+            min-width: 64px;
+            height: 64px;
+            border-radius: 100%;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0;
+
+            strong {
+                display: block;
+                font-size: 20px;
+            }
+
+            small {
+                font-size: 16px;
+
+                a {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.border-radius-medium {
+    border-radius: var(--border-radius-medium);
+}
+
 .mask-bottom {
     mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
 }
