@@ -276,11 +276,13 @@ button, .button {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  height: 36px;
-  padding: 0 12px;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: var(--border-radius-medium);
   background-color: var(--green);
   color: var(--black);
   font-weight: 500;
+  font-size: 18px;
   white-space: nowrap;
 }
 @media only screen and (min-width: 513px) {
@@ -291,15 +293,9 @@ button, .button {
     opacity: 0.8;
   }
 }
-button.large, .button.large {
-  height: 48px;
-  padding: 0 24px;
-  border-radius: var(--border-radius-medium);
-  font-size: 18px;
-}
 button.small, .button.small {
   height: 36px;
-  padding: 0 12px;
+  padding: 0 16px;
   border-radius: var(--border-radius-small);
   font-size: 16px;
 }
@@ -328,6 +324,9 @@ button.secondary, .button.secondary {
   display: flex;
   flex-direction: column;
   gap: var(--padding-extra-small);
+}
+.card .card-content .button {
+  margin-top: auto;
 }
 @media only screen and (max-width: 1024px) and (max-width: 1024px) {
   .card {
@@ -396,7 +395,6 @@ section.cta .section-content > p {
 .grid {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   margin-top: var(--padding-small);
   gap: var(--padding-small);
@@ -423,6 +421,9 @@ section.cta .section-content > p {
   gap: var(--padding-small);
 }
 @media only screen and (max-width: 1024px) {
+  .grid {
+    align-items: center;
+  }
   .grid.one-one-one {
     display: flex;
     flex-direction: column;

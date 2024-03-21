@@ -153,7 +153,7 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Privacy-friendly by Design",
-                                                            "text": "Built from the ground up with privacy at its core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
+                                                            "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
                                                         }
                                                     },
                                                     "content": {
@@ -357,7 +357,62 @@
                 "content": {
                     "children": [
                         {
-                            "tpl": "card"
+                            "tpl": "grid",
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "card",
+                                        "data": {
+                                            "class": "columns"
+                                        },
+                                        "copy": {
+                                            "en": {
+                                                "headline": "Easily Manage Teams and Sites",
+                                                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Start 30-day Free Trial"
+                                            }
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "image",
+                                                    "data": {
+                                                        "src": "data.svg",
+                                                        "alt": "data"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "row",
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Receive Automatic Email Reports",
+                                                            "text": "Keep colleagues, customers, or partners in the loop with automatic email reports. Regularly receive a concise summary of the latest activities with just one click."
+                                                        }
+                                                    }
+
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Share Dashboards With Anybody",
+                                                            "text": "Working with external partners? Create unique access links to securely grant access to dashboards or make them public on your personal subdomain."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }

@@ -1,14 +1,19 @@
 {{$headline := copy .Page .Content "headline"}}
 {{$text := copy .Page .Content "text"}}
+{{$ctaLink := copy .Page .Content "cta_link"}}
+{{$ctaLabel := copy .Page .Content "cta_label"}}
 
 <div class="card {{html (get .Content "class")}}">
-    {{if or $headline $text}}
+    {{if or $headline $text $ctaLabel}}
         <div class="card-content">
             {{if $headline}}
-                <h3>{{$headline}}</h2>
+                <h3>{{html $headline}}</h2>
             {{end}}
             {{if $text}}
-                <p>{{$text}}</p>
+                <p>{{html $text}}</p>
+            {{end}}
+            {{if $ctaLabel}}
+                <a href="{{$ctaLink}}" class="button">{{html $ctaLabel}}</a>
             {{end}}
         </div>
     {{end}}
