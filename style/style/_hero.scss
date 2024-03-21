@@ -1,7 +1,7 @@
 section.hero {
     position: relative;
     margin-bottom: var(--padding-extra-large);
-    padding-top: calc(var(--padding-extra-large) - var(--padding-medium));
+    padding-top: calc(var(--padding-extra-large) - var(--header-height));
     overflow: hidden;
 
     &:before {
@@ -20,7 +20,7 @@ section.hero {
     }
 
     p {
-        max-width: 620px;
+        max-width: 640px;
         text-align: center;
     }
 
@@ -32,6 +32,8 @@ section.hero {
 
     .customers {
         display: flex;
+        justify-content: center;
+        width: 100%;
         gap: 12px;
 
         img {
@@ -50,5 +52,28 @@ section.hero {
         overflow: hidden;
         border-top-right-radius: var(--border-radius-large);
         border-top-left-radius: var(--border-radius-large);
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .actions {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            .button {
+                width: 100%;
+                max-width: 384px;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 512px) {
+        .customers {
+            align-items: center;
+
+            .customers-content {
+                max-width: 112px;
+            }
+        }
     }
 }

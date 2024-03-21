@@ -16,6 +16,7 @@ section.step {
             height: 40px;
             border-radius: 20px;
             background-color: var(--color-background-elevation);
+            font-weight: 500;
         }
 
         .text {
@@ -28,13 +29,30 @@ section.step {
     }
 
     .section-content {
-        & > h1 {
+        & > h2 {
             text-align: center;
         }
     
         & > p {
             max-width: 768px;
             text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .nummeration {
+            height: 32px;
+
+            .number {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+            }
+
+            .text {
+                padding: 0 16px 0 12px;
+                font-size: 12px;
+            }
         }
     }
 }

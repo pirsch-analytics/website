@@ -57,8 +57,8 @@ body {
 section {
     display: grid;
     grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
-    padding-right: var(--padding-small);
-    padding-left: var(--padding-small);
+    padding-right: 16px;
+    padding-left: 16px;
 
     .section-content {
         display: flex;
@@ -66,6 +66,11 @@ section {
         grid-column: 2;
         flex-direction: column;
         align-items: center;
+        margin-right: -720px;
+        margin-bottom: -720px;
+        margin-left: -720px;
+        padding: 0 720px 720px;
+        overflow: hidden;
         gap: var(--padding-small);
     }
 }
@@ -107,6 +112,93 @@ a {
 img {
     display: block;
     object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+    :root {
+        --padding-extra-large: 192px;
+        --padding-large: 96px;
+        --padding-medium: 48px;
+        --padding-small: 24px;
+        --padding-extra-small: 12px;
+    }
+
+    section {
+        grid-template-columns: 1fr minmax(320px, 768px) 1fr;
+    }
+
+    h1, .h1 {
+        font-size: 64px;
+        letter-spacing: -1px;
+    }
+
+    h2, .h2 {
+        font-size: 48px;
+    }
+
+    h3, .h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --header-height: 64px;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    :root {
+        --border-radius-large: 12px;
+        --border-radius-medium: 8px;
+        --border-radius-small: 4px;
+    }
+
+    h1, .h1 {
+        font-size: 40px;
+        letter-spacing: 0;
+    }
+
+    h2, .h2 {
+        font-size: 32px;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .show-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 513px) {
+    body {
+        *::-webkit-scrollbar {
+            width: 16px;
+            height: 16px;
+        }
+    
+        *::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 8px;
+            width: 64px;
+            height: 64px;
+            border: 5px solid rgba(0,0,0,0);
+            background-clip: padding-box;
+            background-color: rgba(127,127, 127,.4);
+        }
+        
+        *::-webkit-scrollbar-button {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+        *::-webkit-scrollbar-corner {
+            background-color: transparent;
+        }
+    }
 }
 
 @import "button";

@@ -1,11 +1,14 @@
 section.cta {
     .section-content {
+    margin-top: -1920px;
+    padding-top: 1920px;
+
         img {
             width: 192px;
             height: 192px;
         }
 
-        & > h1 {
+        & > h2 {
             text-align: center;
         }
     

@@ -11,6 +11,7 @@ button, .button {
     background-color: var(--green);
     color: var(--black);
     font-weight: 500;
+    white-space: nowrap;
 
     &.large {
         height: 48px;

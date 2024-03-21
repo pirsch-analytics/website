@@ -4,6 +4,7 @@
 
 .marquee {
     width: 100%;
+    margin: auto;
     overflow: hidden;
     mask: var(--mask);
 
@@ -14,6 +15,7 @@
 }
 
 .gdpr-logo {
+    --animation-delay: .2s;
     display: flex;
     position: relative;
     flex-shrink: 0;
@@ -21,21 +23,17 @@
     justify-content: center;
     width: 164px;
     height: 164px;
-    transform-origin: center;
-    background: radial-gradient(ellipse closest-side, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
-    animation: rotate-right 20s linear infinite;
+    margin: auto;
 
     span {
         font-weight: 500;
         font-size: 36px;
-        animation: rotate-left 20s linear infinite;
     }
 
     img {
         position: absolute;
         width: 24px;
         height: 21px;
-        animation: rotate-left 20s linear infinite;
 
         &:nth-of-type(1) {
             top: 2px;
@@ -64,7 +62,7 @@
 
         &:nth-of-type(6) {
             top: 131.75px;
-            left: 105.75px
+            left: 105.75px;
         }
 
         &:nth-of-type(7) {
@@ -74,7 +72,7 @@
         
         &:nth-of-type(8) {
             top: 131.75px;
-            left: 36.25px
+            left: 36.25px;
         }
 
         &:nth-of-type(9) {
@@ -98,22 +96,15 @@
         }
     }
 
-    @keyframes rotate-right {
-        0% {
-            transform: rotateZ(0);
-        }
-        100% {
-            transform: rotateZ(360deg);
-        }
-    }
-
-    @keyframes rotate-left {
-        0% {
-            transform: rotateZ(0);
-        }
-        100% {
-            transform: rotateZ(-360deg);
-        }
+    .background {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        background: radial-gradient(ellipse closest-side, rgba(255,255,255,.1) 0%,rgba(255,255,255,0) 100%);
     }
 }
 
@@ -156,6 +147,10 @@
     p {
         font-size: 16px;
     }
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 .border-radius-medium {

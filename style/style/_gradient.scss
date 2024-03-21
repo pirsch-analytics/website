@@ -14,10 +14,6 @@
         height: 1440px;
         transform: translate(-50%, 0);
 
-        &.top {
-            transform: translate(-50%, calc(var(--padding-extra-large) * -1));
-        }
-
         &.right {
             transform: translate(-25%, 0);
         }

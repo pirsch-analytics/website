@@ -4,6 +4,11 @@
         "en": {
             "links": [
                 {
+                    "label": "Live Demo",
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
+                },
+                {
                     "label": "For Agencies",
                     "href": "/for-agencies"
                 },

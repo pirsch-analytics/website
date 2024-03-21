@@ -4,8 +4,12 @@
 <div class="card {{html (get .Content "class")}}">
     {{if or $headline $text}}
         <div class="card-content">
-            <h3>{{$headline}}</h2>
-            <p>{{$text}}</p>
+            {{if $headline}}
+                <h3>{{$headline}}</h2>
+            {{end}}
+            {{if $text}}
+                <p>{{$text}}</p>
+            {{end}}
         </div>
     {{end}}
     {{.CMS.Render .Page (index .Content.Content "children")}}

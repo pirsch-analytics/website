@@ -42,7 +42,7 @@
                         "nummeration_number": "1",
                         "nummeration_text": "Easy Start",
                         "headline": "Set Up in Minutes",
-                        "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. The plug-and-play Google Analytics Alternative."
+                        "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative."
                     }
                 },
                 "content": {
@@ -208,7 +208,7 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Track Everything You Need",
-                                                            "text": "With a wide range of data points, you get an in-depth understanding of your visitors and target audience."
+                                                            "text": "With a wide range of data points, you get a detailed understanding of your visitors and target audience."
                                                         }
                                                     },
                                                     "content": {
@@ -263,7 +263,7 @@
                         "nummeration_number": "3",
                         "nummeration_text": "Advanced Analytics",
                         "headline": "Dive Into the Details",
-                        "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into specific sessions, or track your performance with flexible conversion goals."
+                        "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into single sessions, or track your performance with flexible conversion goals."
                     }
                 },
                 "content": {
@@ -283,8 +283,8 @@
                                                     "tpl": "card",
                                                     "copy": {
                                                         "en": {
-                                                            "headline": "Create Custom Events",
-                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                            "headline": "Explore Sessions",
+                                                            "text": "Learn more about individual user journeys with in-depth session summaries."
                                                         }
                                                     }
                                                 },
@@ -292,8 +292,17 @@
                                                     "tpl": "card",
                                                     "copy": {
                                                         "en": {
-                                                            "headline": "Discover Individual Sessions",
-                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                            "headline": "Segment Visitors",
+                                                            "text": "Tags help you leverage your data, whether it's for A/B testing or segmentation."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Utilize Webhooks",
+                                                            "text": "Stay up to date in the applications you already use with native webhooks."
                                                         }
                                                     }
                                                 }
@@ -308,7 +317,7 @@
                                                     "tpl": "card",
                                                     "copy": {
                                                         "en": {
-                                                            "headline": "Segment Visitors by Tags",
+                                                            "headline": "Create Custom Events",
                                                             "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
                                                         }
                                                     }
@@ -317,7 +326,7 @@
                                                     "tpl": "card",
                                                     "copy": {
                                                         "en": {
-                                                            "headline": "Monitor Your Conversion Goals",
+                                                            "headline": "Monitor Conversion Goals",
                                                             "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
                                                         }
                                                     }
@@ -391,7 +400,8 @@
                                                                 "tpl": "card",
                                                                 "copy": {
                                                                     "en": {
-                                                                        "headline": "Custom Themes"
+                                                                        "headline": "Custom Themes",
+                                                                        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
                                                                     }
                                                                 }
                                                             },
@@ -399,15 +409,8 @@
                                                                 "tpl": "card",
                                                                 "copy": {
                                                                     "en": {
-                                                                        "headline": "Custom Domains"
-                                                                    }
-                                                                }
-                                                            },
-                                                            {
-                                                                "tpl": "card",
-                                                                "copy": {
-                                                                    "en": {
-                                                                        "headline": "White Labeling"
+                                                                        "headline": "White Labeling",
+                                                                        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
                                                                     }
                                                                 }
                                                             }
@@ -425,17 +428,17 @@
                                                                         {
                                                                             "src": "dashboard.svg",
                                                                             "alt": "Dashboard",
-                                                                            "class": "border-radius-medium"
+                                                                            "class": "border-radius-medium mask-bottom"
                                                                         },
                                                                         {
                                                                             "src": "dashboard.svg",
                                                                             "alt": "Dashboard",
-                                                                            "class": "border-radius-medium"
+                                                                            "class": "border-radius-medium mask-bottom"
                                                                         },
                                                                         {
                                                                             "src": "dashboard.svg",
                                                                             "alt": "Dashboard",
-                                                                            "class": "border-radius-medium"
+                                                                            "class": "border-radius-medium mask-bottom"
                                                                         }
                                                                     ]
                                                                 }

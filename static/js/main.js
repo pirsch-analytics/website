@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Scroll animation
     
     sal({
-        threshold: .2,
+        threshold: .1,
     });
 
     // Header
@@ -40,6 +40,48 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    let headerNav = document.getElementById("headerNav");
+    let headerNavOpen = document.getElementById("headerNavOpen");
+    let headerNavClose = document.getElementById("headerNavClose");
+
+    if(headerNavClose) {
+        headerNavClose.style.display = "none";
+    }
+
+    function toggleMobileMenu(ignoreIfClosed) {
+        let visible = headerNav.style.display;
+
+        if(ignoreIfClosed && !visible) {
+            return;
+        }
+
+        headerNavOpen.style.display = visible ? "" : "none";
+        headerNavClose.style.display = visible ? "none" : "";
+        headerNav.style.display = visible ? "" : "flex";
+    }
+
+    if(headerNavOpen) {
+        headerNavOpen.addEventListener("click", e => {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleMobileMenu();
+        });
+    }
+
+    if(headerNavClose) {
+        headerNavClose.addEventListener("click", e => {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleMobileMenu();
+        });
+    }
+
+    document.addEventListener("click", e => {
+        if(headerNav && !headerNav.contains(e.target)) {
+            toggleMobileMenu(true);
+        }
+    });
 
     // Marquee
 
