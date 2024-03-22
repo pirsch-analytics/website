@@ -1,0 +1,27 @@
+{
+    "path": {
+        "en": "/pricing",
+        "de": "/de/pricing"
+    },
+    "sitemap": {
+        "priority": "0.7"
+    },
+    "analytics": {
+        "tags": {
+            "key": "value"
+        }
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head"
+            },
+            {
+                "ref": "header"
+            },
+            {
+                "ref": "pricing"
+            }
+        ]
+    }
+}

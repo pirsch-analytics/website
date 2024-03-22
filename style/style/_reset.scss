@@ -40,7 +40,10 @@ a {
     text-decoration-skip-ink: auto;
 }
 
-input, button, textarea, select {
+fieldset, input, button, textarea, select {
+    margin: 0;
+    border: none;
+    outline: none;
     font: inherit;
 }
 

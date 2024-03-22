@@ -58,7 +58,10 @@ a {
   text-decoration-skip-ink: auto;
 }
 
-input, button, textarea, select {
+fieldset, input, button, textarea, select {
+  margin: 0;
+  border: none;
+  outline: none;
   font: inherit;
 }
 
@@ -155,16 +158,23 @@ section .section-content {
 }
 
 h1, .h1 {
+  font-weight: 500;
   font-size: 96px;
+  line-height: 1.25;
   letter-spacing: -2px;
 }
 
 h2, .h2 {
+  font-weight: 500;
   font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: -1px;
 }
 
 h3, .h3 {
+  font-weight: 500;
   font-size: 28px;
+  line-height: 1.25;
 }
 
 p, .p {
@@ -178,7 +188,7 @@ small {
   font-size: 14px;
 }
 
-strong {
+strong, .strong {
   font-weight: 500;
 }
 
@@ -197,6 +207,14 @@ a {
 img {
   display: block;
   object-fit: contain;
+}
+
+hr {
+  height: 2px;
+  margin: 12px 0;
+  border: none;
+  background-color: var(--color-secondary);
+  opacity: 0.2;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -279,6 +297,7 @@ button, .button {
   height: 48px;
   padding: 0 24px;
   border-radius: var(--border-radius-medium);
+  outline: none;
   background-color: var(--green);
   color: var(--black);
   font-weight: 500;
@@ -302,6 +321,12 @@ button.small, .button.small {
 button.secondary, .button.secondary {
   background-color: var(--color-background-elevation);
   color: var(--white);
+}
+button.yellow, .button.yellow {
+  background-color: var(--yellow);
+}
+button.grey, .button.grey {
+  background-color: var(--color-secondary);
 }
 
 .card {
@@ -749,6 +774,195 @@ section.hero figure {
 
 .mask-radial {
   mask: radial-gradient(ellipse closest-side, rgb(0, 0, 0) 0, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+section.pricing {
+  margin-bottom: var(--padding-extra-large);
+  padding-top: calc(var(--padding-extra-large) - var(--header-height));
+}
+section.pricing .section-content > h2 {
+  text-align: center;
+}
+section.pricing .section-content > p {
+  max-width: 640px;
+  text-align: center;
+}
+section.pricing .section-content .pricing-slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 768px;
+  margin-top: var(--padding-small);
+  gap: var(--padding-small);
+}
+section.pricing .section-content .pricing-slider .pricing-slider-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+section.pricing .section-content .pricing-slider .billing-switch {
+  display: flex;
+  height: 48px;
+  padding: 0;
+  gap: 6px;
+  border-radius: 12px;
+  background-color: var(--color-background-elevation);
+  cursor: default;
+}
+section.pricing .section-content .pricing-slider .billing-switch:hover, section.pricing .section-content .pricing-slider .billing-switch:focus {
+  opacity: 1;
+}
+section.pricing .section-content .pricing-slider .billing-switch fieldset {
+  display: flex;
+  padding: 0 6px;
+}
+section.pricing .section-content .pricing-slider .billing-switch input[type=radio] {
+  position: absolute;
+  width: 0 !important;
+  opacity: 0;
+}
+section.pricing .section-content .pricing-slider .billing-switch label {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: var(--color-primary);
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+}
+@media only screen and (min-width: 513px) {
+  section.pricing .section-content .pricing-slider .billing-switch label {
+    transition: opacity 0.1s ease;
+  }
+  section.pricing .section-content .pricing-slider .billing-switch label:hover {
+    opacity: 0.8;
+  }
+}
+section.pricing .section-content .pricing-slider .billing-switch input[type=radio]:checked + label {
+  background-color: var(--green);
+  color: var(--black);
+}
+section.pricing .section-content .pricing-slider input[type=range] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  margin: 16px 0;
+  border-radius: 4px;
+  outline: none;
+  background-color: var(--color-background-elevation);
+}
+section.pricing .section-content .pricing-slider input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23000%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--green);
+  cursor: grab;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-moz-range-thumb {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border: none;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23000%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--green);
+  cursor: grab;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-moz-range-thumb:active {
+  cursor: grabbing;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-ms-thumb {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23000%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--green);
+  cursor: grab;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-ms-thumb:active {
+  cursor: grabbing;
+}
+section.pricing .section-content .pricing-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+section.pricing .section-content .pricing-tiers {
+  margin-top: var(--padding-small);
+  gap: var(--padding-small);
+}
+section.pricing .section-content .pricing-tiers .pricing-tier {
+  gap: 0;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier.yellow .pricing-tier-features-list li::before {
+  border-color: var(--yellow);
+}
+section.pricing .section-content .pricing-tiers .pricing-tier.grey .pricing-tier-features-list li::before {
+  border-color: var(--color-secondary);
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-title {
+  font-weight: 500;
+  font-size: 32px;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price {
+  display: inline-flex;
+  align-items: center;
+  font-size: 48px;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-currency, section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-amount, section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-custom {
+  font-weight: 500;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-after {
+  margin-left: 12px;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-features-list {
+  padding: 12px 0;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-features-list li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 12px 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-features-list li::before {
+  width: 8px;
+  height: 16px;
+  margin: 0 16px 6px 6px;
+  transform: rotate(45deg);
+  border-right: solid var(--green) 2px;
+  border-bottom: solid var(--green) 2px;
+  border-radius: 0;
+  background-color: transparent;
+  content: "";
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-features-list li.bold {
+  font-weight: 500;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-features-list li span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section.pricing .section-content .pricing-tiers .pricing-tier .button {
+  width: 100%;
+  margin-top: var(--padding-extra-small);
 }
 
 section.step {

@@ -1,0 +1,239 @@
+<section class="pricing">
+    <div class="section-content">
+        <div class="gradient-container" data-sal="slide-up" data-sal-duration="800" style="top: calc((var(--padding-extra-large) - var(--padding-medium) - var(--header-height)) * -1);">
+            <div class="gradient white"></div>
+        </div>
+        <h1 class="h2" data-sal="slide-up">Simple Pricing</h1>
+        <p data-sal="slide-up" data-sal-delay="100">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet.</p>
+        <div class="pricing-slider" data-sal="slide-up" data-sal-delay="200">
+            <div class="pricing-slider-row">
+                <div class="left">
+                    <div class="pricing-slider-value h3">10,000</div>
+                    <p>Monthly Page Views</p>
+                </div>
+                <div class="right">
+                    <button class="billing-switch" tabindex="-1">
+                        <fieldset id="toggleBillingCycle">
+                            <input type="radio" name="billing" value="monthly" id="monthly" tabindex="-1" checked="">
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" name="billing" value="annually" id="annually" tabindex="-1">
+                            <label for="annually">Annually</label>
+                        </fieldset>
+                    </button>
+                </div>
+            </div>
+            <label class="form-slider">
+                <input type="range" min="0" max="10" value="0">
+            </label>
+        </div>
+        <div class="pricing-tiers grid one-one-one">
+            <div class="pricing-tier card" data-sal="slide-up" data-sal-delay="300">
+                <div class="pricing-tier-title">Standard</div>
+                <div class="pricing-tier-price">
+                    <span class="pricing-tier-currency">$</span>
+                    <span class="pricing-tier-amount">6</span>
+                    <p class="pricing-tier-after">/month</p>
+                </div>
+                <hr>
+                <div class="pricing-tier-features">
+                    <ul class="pricing-tier-features-list">
+                        <li>
+                            <span>50 Websites</span>
+                        </li>
+                        <li>
+                            <span>Unlimited Members</span>
+                        </li>
+                        <li>
+                            <span>Unlimited Data Retention</span>
+                        </li>
+                        <li>
+                            <span>GDPR Compliance</span>
+                        </li>
+                        <li>
+                            <span>100% Data Ownership</span>
+                        </li>
+                        <li>
+                            <span>Events &amp; Conversion Goals</span>
+                        </li>
+                        <li>
+                            <span>RESTful API &amp; SDKs</span>
+                        </li>
+                        <li>
+                            <span>Google Analytics Import</span>
+                        </li>
+                    </ul>
+                </div>
+                <a href="/signup" class="button">Start Your Free Trial</a>
+            </div>
+            <div class="pricing-tier card yellow" data-sal="slide-up" data-sal-delay="350">
+                <div class="pricing-tier-title">Plus</div>
+                <div class="pricing-tier-price">
+                    <span class="pricing-tier-currency">$</span>
+                    <span class="pricing-tier-amount">12</span>
+                    <p class="pricing-tier-after">/month</p>
+                </div>
+                <hr>
+                <div class="pricing-tier-features">
+                    <ul class="pricing-tier-features-list">
+                        <li class="strong">
+                            <span>Everything in Standard, and:</span>
+                        </li>
+                        <li>
+                            <span>Unlimited Websites</span>
+                        </li>
+                        <li>
+                            <span>Custom Domains</span>
+                        </li>
+                        <li>
+                            <span>Custom Themes</span>
+                        </li>
+                        <li>
+                            <span>Extensive White Labeling</span>
+                        </li>
+                        <li>
+                            <span>A/B Testing &amp; Segmentation</span>
+                        </li>
+                        <li>
+                            <span>Organizations</span>
+                        </li>
+                        <li>
+                            <span>Priority Support</span>
+                        </li>
+                    </ul>
+                </div>
+                <a href="/signup" class="button yellow">Start Your Free Trial</a>
+            </div>
+            <div class="pricing-tier card grey" data-sal="slide-up" data-sal-delay="400">
+                <div class="pricing-tier-title">Enterprise</div>
+                <div class="pricing-tier-price">
+                    <span class="pricing-tier-custom">Custom</span>
+                </div>
+                <hr>
+                <div class="pricing-tier-features">
+                    <ul class="pricing-tier-features-list">
+                        <li class="strong">
+                            <span>Everything in Plus, and:</span>
+                        </li>
+                        <li>
+                            <span>Managed Cloud Setup</span>
+                        </li>
+                        <li>
+                            <span>On-premise Installation</span>
+                        </li>
+                        <li>
+                            <span>SAML-based Single Sign-On</span>
+                        </li>
+                        <li>
+                            <span>Personal Onboarding</span>
+                        </li>
+                        <li>
+                            <span>Online User Training</span>
+                        </li>
+                        <li>
+                            <span>Custom Features Upon Request</span>
+                        </li>
+                        <li>
+                            <span>Dedicated Support</span>
+                        </li>
+                    </ul>
+                </div>
+                <a href="mailto:support@pirsch.io" class="button grey">Request a Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function pricing() {
+            const pricingSliders = document.querySelectorAll(".pricing-slider");
+
+            if(pricingSliders && pricingSliders.length > 0) {
+                for (let i = 0; i < pricingSliders.length; i++) {
+                    const pricingSlider = pricingSliders[i];
+
+                    
+                    const pricingInput = {el: pricingSlider.querySelector("input[type=range]")};
+
+                    pricingInput.data = {
+                        0: "10,000",
+                        1: "100,000",
+                        2: "200,000",
+                        3: "500,000",
+                        4: "1 Million",
+                        5: "5 Million",
+                        6: "10 Million",
+                        7: "20 Million",
+                        8: "50 Million",
+                        9: "100 Million",
+                        10: "100 Million +"
+                    };
+                    pricingInput.currentValEl = pricingSlider.querySelector(".pricing-slider-value");
+                    pricingInput.thumbSize = parseInt(window.getComputedStyle(pricingInput.currentValEl).getPropertyValue("--thumb-size"), 10);
+
+                    
+                    const pricingOutputEls = document.querySelectorAll(".pricing-tier-price");
+                    const pricingOutput = [];
+                    const perMonth = '\/month';
+                    const perYear = '\/year';
+
+                    for (let i = 0; i < pricingOutputEls.length; i++) {
+                        const pricingOutputEl = pricingOutputEls[i];
+                        const pricingOutputObj = {};
+                        pricingOutputObj.currency = pricingOutputEl.querySelector(".pricing-tier-currency");
+                        pricingOutputObj.amount = pricingOutputEl.querySelector(".pricing-tier-amount");
+                        pricingOutputObj.after = pricingOutputEl.querySelector(".pricing-tier-after");
+                        pricingOutputObj.savings = pricingOutputEl.parentNode.querySelector(".pricing-tier-savings-amount");
+                        pricingOutputObj.data = {
+                            0: ["$", 6, 12, 60, 120, perMonth, perYear],
+                            1: ["$", 12, 27, 120, 270, perMonth, perYear],
+                            2: ["$", 18, 45, 180, 450, perMonth, perYear],
+                            3: ["$", 36, 99, 360, 990, perMonth, perYear],
+                            4: ["$", 54, 159, 540, 1590, perMonth, perYear],
+                            5: ["$", 99, 299, 990, 2990, perMonth, perYear],
+                            6: ["$", 159, 479, 1590, 4790, perMonth, perYear],
+                            7: ["$", 249, 749, 2490, 7490, perMonth, perYear],
+                            8: ["$", 499, 1499, 4990, 14990, perMonth, perYear],
+                            9: ["$", 799, 2399, 7990, 23990, perMonth, perYear],
+                            10: ["Custom", "", "", "", "", "", ""]
+                        };
+                        pricingOutput.push(pricingOutputObj);
+                    }
+
+                    pricingInput.el.setAttribute("min", 0);
+                    pricingInput.el.setAttribute("max", Object.keys(pricingInput.data).length - 1);
+                    !pricingInput.el.getAttribute("value") && pricingInput.el.setAttribute("value", 0);
+
+                    handlePricingSlider(pricingInput, pricingOutput);
+                    window.addEventListener("input", function() {
+                        handlePricingSlider(pricingInput, pricingOutput);
+                    });
+                }
+            }
+
+            function handlePricingSlider(input, output) {
+                
+                if (input.currentValEl)
+                    input.currentValEl.innerHTML = input.data[input.el.value];
+                
+                const billingCycle = document.getElementById("monthly").checked;
+                
+                for (let i = 0; i < output.length; i++) {
+                    const outputObj = output[i];
+
+                    if (outputObj.currency)
+                        outputObj.currency.innerHTML = outputObj.data[input.el.value][0];
+                    if (outputObj.amount)
+                        outputObj.amount.innerHTML = outputObj.data[input.el.value][billingCycle ? 1 + i : 3 + i].toLocaleString("en-US");
+                    if (outputObj.after)
+                        outputObj.after.innerHTML = outputObj.data[input.el.value][billingCycle ? 5 : 6];
+                    if (outputObj.savings) {
+                        outputObj.savings.innerHTML = outputObj.data[input.el.value][0]
+                        outputObj.savings.innerHTML += (12 * outputObj.data[input.el.value][1 + i] - outputObj.data[input.el.value][3 + i]).toLocaleString("en-US");
+                        outputObj.savings.parentNode.style.display = billingCycle || input.el.value == 10 ? "none" : "block";
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("DOMContentLoaded", pricing);
+    </script>
+</section>

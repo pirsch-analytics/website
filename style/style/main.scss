@@ -76,16 +76,23 @@ section {
 }
 
 h1, .h1 {
+    font-weight: 500;
     font-size: 96px;
+    line-height: 1.25;
     letter-spacing: -2px;
 }
 
 h2, .h2 {
+    font-weight: 500;
     font-size: 64px;
+    line-height: 1.25;
+    letter-spacing: -1px;
 }
 
 h3, .h3 {
+    font-weight: 500;
     font-size: 28px;
+    line-height: 1.25;
 }
 
 p, .p {
@@ -99,7 +106,7 @@ small {
     font-size: 14px;
 }
 
-strong {
+strong, .strong {
     font-weight: 500;
 }
 
@@ -112,6 +119,14 @@ a {
 img {
     display: block;
     object-fit: contain;
+}
+
+hr {
+    height: 2px;
+    margin: 12px 0;
+    border: none;
+    background-color: var(--color-secondary);
+    opacity: .2;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -209,4 +224,5 @@ img {
 @import "header";
 @import "hero";
 @import "misc";
+@import "pricing";
 @import "step";
