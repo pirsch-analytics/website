@@ -8,15 +8,8 @@
     "content": {
         "content": [
             {"ref": "head"},
-            {
-                "tpl": "text",
-                "copy": {
-                    "en": {
-                        "headline": "#404 Page not found",
-                        "text": "The requested page was not found."
-                    }
-                }
-            },
+            {"ref": "header"},
+            {"ref": "notfound"},
             {"ref": "end"}
         ]
     }

@@ -1,0 +1,143 @@
+<section class="notfound">
+    <div class="section-content">
+        <div class="gradient-container"  data-sal="slide-up" data-sal-duration="800" style="top: calc((var(--padding-medium) * -1));">
+            <div class="gradient white"></div>
+        </div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" class="filter-wrapper">
+            <defs>
+                <svg id="glitchmask-r" width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+                    <line class="top-r" x1="0" y1="0" x2="100%" y2="0"> </line>
+                    <line class="bot-r" x1="0" y1="100%" x2="100%" y2="100%"></line>
+                </svg>
+                <svg id="glitchmask-g" width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+                    <line class="top-g" x1="0" y1="0" x2="100%" y2="0"></line>
+                    <line class="bot-g" x1="0" y1="100%" x2="100%" y2="100%"></line>
+                </svg>
+        
+                <filter color-interpolation-filters="sRGB" id="filter" width="100%" height="100%" x="0" y="0">
+                    <!-- red text start -->
+                    <feFlood flood-color="red" result="REDTXT_FLOOD_10" />
+                    <feComposite operator="in" in="REDTXT_FLOOD_10" in2="SourceAlpha" result="REDTXT_COMP_20" />
+                    <feOffset in="SourceGraphic" dx="-2" dy="0" result="REDTXT_OFFSET_30" />
+                    <feMerge result="REDTXT_MERGE_40">
+                        <feMergeNode in="SourceGraphic" />
+                        <feMergeNode in="REDTXT_COMP_20" />
+                        <feMergeNode in="REDTXT_OFFSET_30" />
+                    </feMerge>
+                    <feImage preserveAspectRatio="none" id="mask-r" result="REDTXT_IMG_50" xlink:href="#glitchmask-r" />
+                    <feComposite in2="REDTXT_IMG_50" in="REDTXT_MERGE_40" operator="out" result="REDTXT_COMP_60" />
+                    <!-- red text end -->
+        
+                    <!-- green text start -->
+                    <feFlood flood-color="limegreen" result="GREENTXT_FLOOD_10" />
+                    <feComposite operator="in" in="GREENTXT_FLOOD_10" in2="SourceAlpha" result="GREENTXT_COMP_20" />
+                    <feOffset in="SourceGraphic" dx="2" dy="0" result="GREENTXT_OFFSET_30" />
+                    <feMerge result="GREENTXT_MERGE_40">
+                        <feMergeNode in="SourceGraphic" />
+                        <feMergeNode in="GREENTXT_COMP_20" />
+                        <feMergeNode in="GREENTXT_OFFSET_30" />
+                    </feMerge>
+                    <feImage preserveAspectRatio="none" id="mask-g" result="GREENTXT_IMG_50" xlink:href="#glitchmask-g" />
+                    <feComposite in2="GREENTXT_IMG_50" in="GREENTXT_MERGE_40" operator="out" result="GREENTXT_COMP_60" />
+                    <!-- green text end -->
+        
+                    <feMerge result="MERGE_10">
+                        <feMergeNode in="SourceGraphic" />
+                        <feMergeNode in="REDTXT_COMP_60" />
+                        <feMergeNode in="GREENTXT_COMP_60" />
+                    </feMerge>
+                </filter>
+            </defs>
+        </svg>
+        <div class="portal no-select" data-sal="slide-up">
+            <div class="marquee">
+                <div class="marquee-content">
+                   <img src="../static/img/404.svg" alt="404">
+                   <img src="../static/img/404.svg" alt="404">
+                   <img src="../static/img/404.svg" alt="404">
+                   <img src="../static/img/404.svg" alt="404">
+                   <img src="../static/img/404.svg" alt="404">
+                </div>
+            </div>
+        </div>
+        <h1 class="h3" data-sal="slide-up" data-sal-delay="100">This Portal Is Not Going Anywhere</h1>
+        <div class="action" data-sal="slide-up" data-sal-delay="200">
+            <a href="/" class="button">Back to Homepage</a>
+        </div>
+    </div>
+
+    <script>
+        // Firefox fix
+
+        (function(){
+            var ua = navigator.userAgent;
+
+            if(!/firefox/gi.test(ua)){return;}
+
+            var fragmentID;
+            var feImgs = document.querySelectorAll("feImage");
+            var cssList = document.styleSheets;
+            var cssAnimations = {};
+
+            for (var i = 0; i < cssList.length; i++){
+                var css = cssList[i];
+
+                for (var j = 0; j < css.cssRules.length; j++){
+                    var rule = css.cssRules[j];
+
+                    if (rule.type === 7){
+                        cssAnimations[rule.name] = rule.cssText;
+                    }
+                }
+            }
+                    
+            for (var i=0, j=feImgs.length; i<j; i++) {
+                fragmentID = feImgs[i].getAttribute("xlink:href") || feImgs[i].getAttribute("xlink");
+
+                if(/#/.test(fragmentID) && !/data\:image\/svg\+xml/.test(fragmentID)){
+                    fragmentAsURIintoFilter(fragmentID, feImgs[i]);
+                };
+            }
+
+            function fragmentAsURIintoFilter(identifier, fePrimitive){
+                var el = document.querySelector(identifier);
+                var styledEl = inlineStyles(el);
+                var nsAttr = "http://www.w3.org/2000/svg";
+                if ( !styledEl.getAttribute("xmlns" )){
+                    styledEl.setAttribute("xmlns", nsAttr);
+                }
+                var text = encodeURIComponent(styledEl.outerHTML.replace(/100%/g, "256")).replace("\"", "\'");
+                var target = fePrimitive;
+
+                target.setAttribute("xlink:href", "data:image/svg+xml;charset=utf-8," + text);
+            }
+            function inlineStyles (element) {
+                var children = element.querySelectorAll("*");
+                var animations = [];
+
+                [].forEach.call(children, function(child){
+                    var style = getComputedStyle(child);
+                    child.cssText = style;
+                    for (var i = 0; i < style.length; i++) {
+                        var prop = style.item(i);
+                        var rule = style.getPropertyValue(prop);
+
+                        if( /animation\-name/.test(prop) && rule !=="none") {
+                            if(animations.toString().indexOf(rule) < 0) {
+                                var svgStyle = document.createElement( 'style' );
+
+                                svgStyle.innerHTML = cssAnimations[rule];
+                                element.appendChild(svgStyle);
+                                animations.push(rule);
+                            }
+                        }
+
+                        child.style[prop] = rule;			
+                    }
+                });
+
+                return element;
+            }
+        })();
+    </script>
+</section>
