@@ -20,7 +20,10 @@
                 "ref": "header"
             },
             {
-                "ref": "pricing"
+                "ref": "pricing_tiers"
+            },
+            {
+                "tpl": "faq"
             }
         ]
     }

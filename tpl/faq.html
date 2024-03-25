@@ -1,0 +1,38 @@
+<section id="faq" class="faq">
+    <div class="section-content">
+        <div class="gradient-container" data-sal="slide-up" data-sal-duration="800" style="top: calc((var(--padding-medium) * -1));">
+            <div class="gradient yellow"></div>
+        </div>
+        <h2 data-sal="slide-up">Frequently Asked Questions</h2>
+        <p data-sal="slide-up" data-sal-delay="100">In case you don't find an answer here, write to us at support@pirsch.io.</p>
+        <div class="grid">
+            <div class="accordion card cursor-pointer" data-sal="slide-up" data-sal-delay="200">
+                <div class="accordion-headline no-select">
+                    <h3>How does Pirsch anonymize visitor data?</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M17 7L7 17m10 0L7 7" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+                <div class="accordion-content">
+                    <span class="no-select"><br></span>
+                    <p>Pirsch is privacy-friendly. To achieve this, it uses the HTTP protocol to recognise users. It generates a hash for each visitor, calculated from the visitor's IP address, User-Agent and other data points, to ensure that statistics are anonymized.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const accordions = document.getElementsByClassName("accordion");
+
+    for (let i = 0; i < accordions.length; i++) {
+        accordions[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = this.getElementsByTagName("div")[1];
+
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>

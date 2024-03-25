@@ -1,17 +1,40 @@
-.no-select {
-    user-select: none;
+.accordion {
+    display: block;
+    padding: var(--padding-small);
+
+    &.active .accordion-headline svg {
+        transform: rotate(0);
+    }
+
+    .accordion-headline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+        color: var(--color-primary);
+
+        svg {
+            stroke: var(--color-primary);
+            min-width: 24px;
+            margin: 4px;
+            transform: rotate(135deg);
+            transition: transform 0.3s ease;
+        }
+    }
+    
+    .accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
 }
 
-.marquee {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    mask: var(--mask);
+.border-radius-medium {
+    border-radius: var(--border-radius-medium);
+}
 
-    .marquee-content {
-        display: flex;
-        gap: 24px;
-    }
+.cursor-pointer {
+    cursor: pointer;
 }
 
 .gdpr-logo {
@@ -108,6 +131,30 @@
     }
 }
 
+.no-select {
+    user-select: none;
+}
+
+.marquee {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    mask: var(--mask);
+
+    .marquee-content {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+.mask-bottom {
+    mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
+}
+
+.mask-radial {
+    mask: radial-gradient(ellipse closest-side, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0, .5) 100%);
+}
+
 .testimonial {
     padding: var(--padding-small);
     gap: var(--padding-extra-small);
@@ -147,20 +194,4 @@
     p {
         font-size: 16px;
     }
-}
-
-.cursor-pointer {
-    cursor: pointer;
-}
-
-.border-radius-medium {
-    border-radius: var(--border-radius-medium);
-}
-
-.mask-bottom {
-    mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
-}
-
-.mask-radial {
-    mask: radial-gradient(ellipse closest-side, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0, .5) 100%);
 }

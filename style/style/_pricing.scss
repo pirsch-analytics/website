@@ -12,6 +12,12 @@ section.pricing {
             text-align: center;
         }
 
+        & > small {
+            max-width: 640px;
+            margin-top: var(--padding-extra-small);
+            text-align: center;
+        }
+
         .pricing-slider {
             display: flex;
             flex-direction: column;
@@ -158,22 +164,45 @@ section.pricing {
                 }
 
                 .pricing-tier-title {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
                     font-weight: 500;
                     font-size: 32px;
+
+                    .pricing-tier-title-tag {
+                        padding: 4px 6px;
+                        border-radius: 4px;
+                        background-color: var(--yellow);
+                        color: var(--black);
+                        font-size: 16px;
+                        line-height: 1;
+                    }
                 }
 
                 .pricing-tier-price {
                     display: inline-flex;
                     align-items: center;
-                    font-size: 48px;
+                    margin-bottom: 12px;
+                    font-size: 56px;
 
-                    .pricing-tier-currency, .pricing-tier-amount, .pricing-tier-custom {
+                    .pricing-tier-price-currency, .pricing-tier-price-amount, .pricing-tier-price-custom {
                         font-weight: 500;
                     }
 
-                    .pricing-tier-after {
+                    .pricing-tier-price-after {
                         margin-left: 12px;
                     }
+                }
+
+                .pricing-tier-savings {
+                    margin: -12px 0 12px;
+                    color: var(--green);
+                    font-weight: 500;
+                }
+
+                hr {
+                    margin: auto 0 12px;
                 }
 
                 .pricing-tier-features-list {

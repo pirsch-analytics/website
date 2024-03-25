@@ -1,3 +1,9 @@
 {
-    "tpl": "notfound"
+    "tpl": "notfound",
+    "copy": {
+        "en": {
+            "headline": "This portal is not going anywhere.",
+            "cta": "Back to Homepage"
+        }
+    }
 }

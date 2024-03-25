@@ -1,0 +1,104 @@
+{
+    "tpl": "pricing_tiers",
+    "copy": {
+        "en": {
+            "headline": "Simple Pricing",
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet.",
+            "monthly_page_views": "Monthly Page Views",
+            "monthly": "Monthly",
+            "annually": "Annually",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "best_value": "Best Value",
+            "month": "month",
+            "year": "year",
+            "you_save": "You save",
+            "per_year": "per year",
+            "custom": "Custom",
+            "standard_features": [
+                {
+                    "label": "50 Websites"
+                },
+                {
+                    "label": "Unlimited Members"
+                },
+                {
+                    "label": "Unlimited Data Retention"
+                },
+                {
+                    "label": "GDPR Compliance"
+                },
+                {
+                    "label": "100% Data Ownership"
+                },
+                {
+                    "label": "Events & Conversion Goals"
+                },
+                {
+                    "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "Google Analytics Import"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Everything in Standard, and:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Unlimited Websites"
+                },
+                {
+                    "label": "Organizations"
+                },
+                {
+                    "label": "A/B Testing & Segmentation"
+                },
+                {
+                    "label": "Custom Domains"
+                },
+                {
+                    "label": "Custom Themes"
+                },
+                {
+                    "label": "Extensive White Labeling"
+                },
+                {
+                    "label": "Priority Support"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Everything in Plus, and:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Managed Cloud Setup"
+                },
+                {
+                    "label": "On-premise Installation"
+                },
+                {
+                    "label": "SAML-based Single Sign-On"
+                },
+                {
+                    "label": "Personal Onboarding"
+                },
+                {
+                    "label": "Online User Training"
+                },
+                {
+                    "label": "Custom Features"
+                },
+                {
+                    "label": "Dedicated Support"
+                }
+            ],
+            "start_free_trial": "Start Your Free Trial",
+            "request_quote": "Request a Quote",
+            "disclaimer": "Available payment methods are credit card, PayPal or SEPA direct debit (EUR only). All prices are exclusive of any applicable sales taxes such as VAT. Custom events and 10% of events for session extensions count towards your monthly page view limit."
+        }
+    }
+}

@@ -7,103 +7,52 @@ section.notfound {
         margin-bottom: 0;
         padding-top: var(--padding-extra-large);
         padding-bottom: 0;
-    }
 
-    .filter-wrapper {
-        z-index: -1;
-        position: absolute;
-        opacity: 0;
-        pointer-events: none;
-    }
+        .portal {
+            position: relative;
+            max-width: 768px;
+            padding: 0 48px;
+    
+            &:before {
+                z-index: -1;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 96px;
+                height: 256px;
+                transform: translate(0,-50%);
+                border-radius: 100%;
+                background-color: var(--color-background-primary);
+                box-shadow: 0 0 11px 12px var(--green);
+                content: "";
+            }
+    
+            &:after {
+                z-index: -1;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                width: 96px;
+                height: 256px;
+                transform: translate(0,-50%);
+                border-radius: 100%;
+                background-color: var(--color-background-primary);
+                box-shadow: 0 0 11px 12px var(--red);
+                content: "";
+            }
+    
+            .marquee {
+                min-height: 256px;
+                mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 5%, rgba(0,0,0, 1) 95%, rgba(0,0,0, 0) 100%);
 
-    .portal {
-        position: relative;
-        max-width: 768px;
-        padding: 0 48px;
-
-        &:before {
-            z-index: -1;
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 96px;
-            height: 256px;
-            transform: translate(0,-50%);
-            border-radius: 100%;
-            background-color: var(--color-background-primary);
-            box-shadow: 0 0 11px 12px var(--green);
-            content: "";
-        }
-
-        &:after {
-            z-index: -1;
-            position: absolute;
-            top: 50%;
-            right: 0;
-            width: 96px;
-            height: 256px;
-            transform: translate(0,-50%);
-            border-radius: 100%;
-            background-color: var(--color-background-primary);
-            box-shadow: 0 0 11px 12px var(--red);
-            content: "";
-        }
-
-        .marquee {
-            min-height: 256px;
-            mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 5%, rgba(0,0,0, 1) 95%, rgba(0,0,0, 0) 100%);
-        }
-    }
-
-    img {
-        height: 256px;
-        filter: url(#filter);
-    }
-
-    .top-r, .bot-r, .top-g, .bot-g {
-        stroke: #ffffff;
-    }
-
-    .top-r {
-        stroke-width: 100px;
-        animation: topani 3.5s linear infinite;
-    }
-
-    .bot-r {
-        stroke-width: 100px;
-        animation: botani 4s linear infinite;
-    }
-
-    .top-g {
-        stroke-width: 50px;
-        animation: topani 4s linear reverse infinite;
-    }
-
-    .bot-g {
-        stroke-width: 50%;
-        animation: botani 3.5s linear reverse infinite;
-    }
-
-    @mixin createRandomKeyframes( $numberOfKeys ) {
-        $delta: round(100/$numberOfKeys);
-        
-        @for $i from 1 through $numberOfKeys {
-            $time: ($i*$delta - random($delta)) +'%';
-            #{$time} {
-                stroke-width: random(200) + px;
+                img {
+                    height: 256px;
+                }
             }
         }
-    }
-
-    @keyframes topani {
-        @include createRandomKeyframes( 10 + random(10) );
-    }
-
-    @keyframes botani {
-        @include createRandomKeyframes( 10 + random(10) );
-    }
-
-    h1 {
-        text-align: center;
+    
+        h1 {
+            text-align: center;
+        }
     }
 }
