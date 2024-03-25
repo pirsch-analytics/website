@@ -1,0 +1,39 @@
+{
+    "tpl": "faq",
+    "copy": {
+        "en": {
+            "headline": "Frequently Asked Questions",
+            "text": "If you can't find an answer here, check out the <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>community forum</a>, reach out on <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a>, or write to <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "How does Pirsch anonymize visitor data?",
+                    "answer": "Pirsch is <a href='/privacy-friendly-analytics' rel='noreferrer'>privacy-friendly</a> by design. To achieve this, it uses the HTTP protocol to recognise users. It generates a hash for each visitor, calculated from the visitor's IP address, User-Agent and other data points, to ensure that statistics are anonymized."
+                },
+                {
+                    "question": "Can I export my data?",
+                    "answer": "Yes, you can download all your statistics into <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV files</a> from the settings page. We also provide an API to work with the data in your tools."
+                },
+                {
+                    "question": "How is the monthly limit calculated?",
+                    "answer": "The monthly limit is based on the number of page views, events, and 10% of session extensions since the start of your billing cycle. Deleted domains also count towards your limit until it is reset."
+                },
+                {
+                    "question": "What happens when I reach my monthly page view limit?",
+                    "answer": "If you reach the usage limit before the end of your billing period, your access will be limited to the day you reached the limit. We will continue to collect data for your sites for a further five days. To regain access to your statistics and avoid gaps, you must upgrade your plan within those five days or wait until your usage limit is reset."
+                },
+                {
+                    "question": "Which payment options are available?",
+                    "answer": "We offer payment by credit card and PayPal. If you choose Euro as your currency on the billing page, you will also have the option to pay via SEPA Direct Debit."
+                },
+                {
+                    "question": "Can I upgrade or downgrade my plan?",
+                    "answer": "Yes, you can change your plan at any time. If you downgrade, the difference will be added to your balance for the remainder of your billing cycle. If you upgrade at a later date, your balance will be used first."
+                },
+                {
+                    "question": "Do you have an affiliate program?",
+                    "answer": "Yes, the affiliate program allows you to earn rewards for referring new customers to Pirsch. You can simply copy your personal affiliate link and every time someone signs up for a subscription, a reward is added to your account balance.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Learn More</a>"
+                }
+            ]
+        }
+    }
+}

@@ -124,6 +124,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  overflow-x: hidden;
   background-color: var(--color-background-primary);
   color: var(--color-primary);
   color-scheme: dark;
@@ -134,7 +135,7 @@ html {
 body {
   width: 100vw;
   margin-right: calc(-100vw + 100%);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 section {
@@ -149,11 +150,6 @@ section .section-content {
   grid-column: 2;
   flex-direction: column;
   align-items: center;
-  margin-right: -720px;
-  margin-bottom: -720px;
-  margin-left: -720px;
-  padding: 0 720px 720px;
-  overflow: hidden;
   gap: var(--padding-small);
 }
 
@@ -181,6 +177,9 @@ h3, .h3 {
 p, .p {
   color: var(--color-secondary);
   font-size: 18px;
+}
+p a, .p a {
+  color: var(--color-primary);
 }
 
 small {
@@ -247,6 +246,7 @@ hr {
 }
 @media only screen and (max-width: 512px) {
   :root {
+    --padding-extra-large: 160px;
     --border-radius-large: 12px;
     --border-radius-medium: 8px;
     --border-radius-small: 4px;
@@ -370,9 +370,8 @@ button.grey, .button.grey {
   }
 }
 
-section.cta .section-content {
-  margin-top: -1920px;
-  padding-top: 1920px;
+section.cta {
+  margin-bottom: var(--padding-extra-large);
 }
 section.cta .section-content img {
   width: 192px;
@@ -386,6 +385,9 @@ section.cta .section-content > p {
   text-align: center;
 }
 
+section.faq {
+  margin-bottom: var(--padding-extra-large);
+}
 section.faq .section-content > h2 {
   text-align: center;
 }
@@ -614,7 +616,10 @@ section.hero .customers .customers-content {
   display: flex;
   flex-direction: column;
   padding-top: 2px;
-  gap: 4px;
+  gap: 6px;
+}
+section.hero .customers .customers-content small {
+  line-height: 1.25;
 }
 section.hero figure {
   overflow: hidden;
@@ -825,6 +830,7 @@ section.notfound .section-content {
 section.notfound .section-content .portal {
   position: relative;
   max-width: 768px;
+  margin-bottom: var(--padding-small);
   padding: 0 48px;
 }
 section.notfound .section-content .portal:before {
@@ -893,6 +899,12 @@ section.pricing .section-content .pricing-slider .pricing-slider-row {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 12px;
+}
+section.pricing .section-content .pricing-slider .pricing-slider-row .pricing-slider-value {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
 }
 section.pricing .section-content .pricing-slider .billing-switch {
   display: flex;
@@ -1076,6 +1088,20 @@ section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-feat
 section.pricing .section-content .pricing-tiers .pricing-tier .button {
   width: 100%;
   margin-top: var(--padding-extra-small);
+}
+@media only screen and (max-width: 512px) {
+  section.pricing .section-content .pricing-slider .pricing-slider-row .pricing-slider-value {
+    font-size: 24px;
+  }
+  section.pricing .section-content .pricing-slider .pricing-slider-row p {
+    font-size: 16px;
+  }
+  section.pricing .section-content .pricing-tier .pricing-tier-title {
+    font-size: 28px !important;
+  }
+  section.pricing .section-content .pricing-tier .pricing-tier-price .pricing-tier-price-currency, section.pricing .section-content .pricing-tier .pricing-tier-price .pricing-tier-price-amount, section.pricing .section-content .pricing-tier .pricing-tier-price .pricing-tier-price-custom {
+    font-size: 40px;
+  }
 }
 
 section.step {

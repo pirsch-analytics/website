@@ -41,6 +41,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
+    overflow-x: hidden;
     background-color: var(--color-background-primary);
     color: var(--color-primary);
     color-scheme: dark;
@@ -51,7 +52,7 @@ html {
 body {
     width: 100vw;
     margin-right: calc(-100vw + 100%);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 section {
@@ -66,11 +67,6 @@ section {
         grid-column: 2;
         flex-direction: column;
         align-items: center;
-        margin-right: -720px;
-        margin-bottom: -720px;
-        margin-left: -720px;
-        padding: 0 720px 720px;
-        overflow: hidden;
         gap: var(--padding-small);
     }
 }
@@ -99,6 +95,10 @@ h3, .h3 {
 p, .p {
     color: var(--color-secondary);
     font-size: 18px;
+
+    a {
+        color: var(--color-primary);
+    }
 }
 
 small {
@@ -165,6 +165,8 @@ hr {
 
 @media only screen and (max-width: 512px) {
     :root {
+        --padding-extra-large: 160px;
+
         --border-radius-large: 12px;
         --border-radius-medium: 8px;
         --border-radius-small: 4px;

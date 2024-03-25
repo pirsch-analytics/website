@@ -31,6 +31,13 @@ section.pricing {
                 align-items: center;
                 justify-content: space-between;
                 width: 100%;
+                gap: 12px;
+
+                .pricing-slider-value {
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 1.25;
+                }
             }
 
             .billing-switch {
@@ -245,6 +252,29 @@ section.pricing {
                     width: 100%;
                     margin-top: var(--padding-extra-small);
                 }
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 512px) {
+        .section-content {
+            .pricing-slider .pricing-slider-row {
+                .pricing-slider-value {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .pricing-tier .pricing-tier-title {
+                font-size: 28px !important;
+            }
+    
+            .pricing-tier .pricing-tier-price .pricing-tier-price-currency, .pricing-tier .pricing-tier-price .pricing-tier-price-amount, .pricing-tier .pricing-tier-price .pricing-tier-price-custom {
+                font-size: 40px;
             }
         }
     }

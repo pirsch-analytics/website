@@ -8,7 +8,7 @@
         <div class="pricing-slider" data-sal="slide-up" data-sal-delay="200">
             <div class="pricing-slider-row">
                 <div class="left">
-                    <div class="pricing-slider-value h3">10,000</div>
+                    <div class="pricing-slider-value">10,000</div>
                     <p>{{html (copy .Page .Content "monthly_page_views")}}</p>
                 </div>
                 <div class="right">
@@ -101,7 +101,7 @@
                 <a href="mailto:support@pirsch.io" class="button grey">{{html (copy .Page .Content "request_quote")}}</a>
             </div>
         </div>
-        <small data-sal="slide-up" data-sal-delay="500">{{html (copy .Page .Content "disclaimer")}}</small>
+        <small data-sal="slide-up">{{html (copy .Page .Content "disclaimer")}}</small>
     </div>
 
     <script>

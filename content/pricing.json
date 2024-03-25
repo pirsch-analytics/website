@@ -23,7 +23,7 @@
                 "ref": "pricing_tiers"
             },
             {
-                "tpl": "faq"
+                "ref": "faq"
             }
         ]
     }

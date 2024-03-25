@@ -358,6 +358,9 @@
                     "children": [
                         {
                             "tpl": "grid",
+                            "data": {
+                                "delay": 300
+                            },
                             "content": {
                                 "children": [
                                     {

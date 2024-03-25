@@ -11,6 +11,7 @@ section.notfound {
         .portal {
             position: relative;
             max-width: 768px;
+            margin-bottom: var(--padding-small);
             padding: 0 48px;
     
             &:before {
