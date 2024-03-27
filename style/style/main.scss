@@ -19,7 +19,7 @@
     --color-background-elevation: rgba(255,255,255,.04);
     --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
 
-    --padding-extra-large: 256px;
+    --padding-extra-large: 192px;
     --padding-large: 128px;
     --padding-medium: 64px;
     --padding-small: 32px;
@@ -141,7 +141,6 @@ hr {
 
 @media only screen and (max-width: 1024px) {
     :root {
-        --padding-extra-large: 192px;
         --padding-large: 96px;
         --padding-medium: 48px;
         --padding-small: 24px;
@@ -174,7 +173,7 @@ hr {
 
 @media only screen and (max-width: 512px) {
     :root {
-        --padding-extra-large: 160px;
+        --padding-extra-large: 128px;
 
         --border-radius-large: 12px;
         --border-radius-medium: 8px;

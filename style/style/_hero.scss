@@ -1,7 +1,7 @@
 section.hero {
     position: relative;
     margin-bottom: var(--padding-extra-large);
-    padding-top: calc(var(--padding-extra-large) - var(--header-height));
+    padding-top: var(--padding-extra-large);
     overflow: hidden;
 
     &:before {
