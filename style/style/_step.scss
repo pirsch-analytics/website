@@ -28,17 +28,6 @@ section.step {
         }
     }
 
-    .section-content {
-        & > h2 {
-            text-align: center;
-        }
-    
-        & > p {
-            max-width: 768px;
-            text-align: center;
-        }
-    }
-
     @media only screen and (max-width: 1024px) {
         .nummeration {
             height: 32px;

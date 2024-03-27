@@ -68,6 +68,15 @@ section {
         flex-direction: column;
         align-items: center;
         gap: var(--padding-small);
+
+        & > h1, & > h2 {
+            text-align: center;
+        }
+    
+        & > p {
+            max-width: 768px;
+            text-align: center;
+        }
     }
 }
 
@@ -219,6 +228,7 @@ hr {
     }
 }
 
+@import "blog";
 @import "button";
 @import "card";
 @import "cta";

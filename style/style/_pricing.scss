@@ -3,15 +3,6 @@ section.pricing {
     padding-top: calc(var(--padding-extra-large) - var(--header-height));
 
     .section-content {
-        & > h2 {
-            text-align: center;
-        }
-    
-        & > p {
-            max-width: 640px;
-            text-align: center;
-        }
-
         & > small {
             max-width: 640px;
             margin-top: var(--padding-extra-small);
@@ -275,6 +266,218 @@ section.pricing {
     
             .pricing-tier .pricing-tier-price .pricing-tier-price-currency, .pricing-tier .pricing-tier-price .pricing-tier-price-amount, .pricing-tier .pricing-tier-price .pricing-tier-price-custom {
                 font-size: 40px;
+            }
+        }
+    }
+}
+
+section.feature-comparison {
+    margin-bottom: var(--padding-extra-large);
+
+    table {
+        width: 960px;
+        max-width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    tr {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        gap: 24px;
+        color: var(--color-secondary);
+        font-size: 16px;
+        mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 2%, rgba(0,0,0, 1) 98%, rgba(0,0,0, 0) 100%);
+
+        @media only screen and (min-width: 513px) {
+            &:hover:not(.title):not(.table-header):not(:last-of-type) {
+                background-color: var(--color-background-elevation);
+            }
+        }
+
+        &:last-of-type td {
+            border-bottom-right-radius: var(--border-radius-large);
+            border-bottom-left-radius: var(--border-radius-large);
+        }
+
+        &.title {
+            background-color: var(--color-background-elevation);
+            color: var(--color-primary);
+            font-weight: 500;
+            font-size: 22px;
+
+            & + tr td {
+                border: none;
+            }
+
+            td {
+                border: none;
+            }
+        }
+    }
+    
+    th {
+        padding: 24px 16px 12px;
+        border-top-right-radius: var(--border-radius-large);
+        border-top-left-radius: var(--border-radius-large);
+        font-weight: 500;
+        font-size: 28px;
+        text-align: center;
+
+        &:nth-of-type(3) {
+            background-color: var(--color-background-elevation);
+        }
+
+        .table-header-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-primary);
+            user-select: none;
+
+            svg {
+                @include hover;
+
+                display: none;
+                cursor: pointer;
+                transition: opacity .1s ease;
+
+                path {
+                    stroke: var(--color-secondary);
+                }
+            }
+
+            span {
+                flex: 1;
+            }
+        }
+
+        .button {
+            height: 36px;
+            margin-top: 16px;
+            padding: 0 12px;
+            font-size: 16px;
+        }
+    }
+
+    td {
+        display: flex;
+        align-items: center;
+        height: 56px;
+        padding: 16px 24px;
+        border-top: solid 2px var(--color-background-elevation);
+        line-height: 1.2;
+
+        &:first-of-type {
+            text-align: left;
+        }
+
+        &:not(:first-of-type) {
+            justify-content: center;
+        }
+
+        &:nth-of-type(3) {
+            background-color: var(--color-background-elevation);
+
+            &.checked:before {
+                border-color: var(--yellow);
+            }
+        }
+
+        &:nth-of-type(4).checked:before {
+            border-color: var(--color-secondary);
+        }
+
+        &.checked {
+            position: relative;
+
+            &::before {
+                width: 8px;
+                height: 16px;
+                margin: 0 0 6px;
+                transform: rotate(45deg);
+                border-right: solid var(--green) 2px;
+                border-bottom: solid var(--green) 2px;
+                border-radius: 0;
+                background-color: transparent;
+                content: "";
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        table {
+            width: 512px;
+
+            tbody {
+                &.column-1 {
+                    tr th,
+                    tr td {
+                        &:nth-of-type(3),
+                        &:nth-of-type(4) {
+                            display: none;
+                        }
+                    }
+                }
+        
+                &.column-2 {
+                    tr th,
+                    tr td {
+                        &:nth-of-type(2),
+                        &:nth-of-type(4) {
+                            display: none;
+                        }
+                    }
+                }
+        
+                &.column-3 {
+                    tr th,
+                    tr td {
+                        &:nth-of-type(2),
+                        &:nth-of-type(3) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            tr {
+                grid-template-columns: 1.5fr minmax(224px, 1fr);
+                mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 2%, rgba(0,0,0, 1) 100%);
+            }
+
+            th,
+            td {
+                &:not(:first-of-type) {
+                    background-color: var(--color-background-elevation);
+                }
+            }
+
+            th .table-header-title svg {
+                display: block;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 512px) {
+        table {
+            tr {
+                grid-template-columns: 1.5fr minmax(192px, 1fr);
+                gap: 6px;
+                font-size: 14px;
+    
+                &.title {
+                    top: 164px;
+                    font-size: 20px;
+                }
+            }
+
+            th .table-header-title {
+                font-size: 22px;
+            }
+
+            td {
+                height: 48px;
             }
         }
     }

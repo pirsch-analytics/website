@@ -1,0 +1,308 @@
+{
+    "tpl": "feature_comparison",
+    "copy": {
+        "en": {
+            "headline": "Compare All Features",
+            "text": "Get an overview of what is included. There are regular updates with new features, let us know if you are missing anything.",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "get_started": "Get Started",
+            "contact_us": "Contact Us",
+            "table": [
+                {
+                "cell1": "Usage",
+                "class": "title"
+                },
+                {
+                    "cell1": "Monthly Page Views",
+                    "cell2": "Variable",
+                    "cell3": "Variable",
+                    "cell4": "Variable"
+                },
+                {
+                    "cell1": "Websites",
+                    "cell2": "50",
+                    "cell3": "Unlimited",
+                    "cell4": "Unlimited"
+                },
+                {
+                    "cell1": "Members",
+                    "cell2": "Unlimited",
+                    "cell3": "Unlimited",
+                    "cell4": "Unlimited"
+                },
+                {
+                    "cell1": "Data Retention",
+                    "cell2": "Unlimited",
+                    "cell3": "Unlimited",
+                    "cell4": "Unlimited"
+                },
+                {
+                    "cell1": "Features",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Powerful Filters",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Time Period Comparison",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Saveable Filters (Views)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Event Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Conversion Goal Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Outbound Link Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "File Download Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "404 Page Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Automatic Email Reports",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Search Console Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "A/B Testing",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentation",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Event Metrics",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "E-commerce Revenue Tracking",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integration",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Website Integration",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Server-side Integration",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "RESTful API & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Script Proxies",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Wordpress Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Community Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Access",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Public Dashboards",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Unique Access Links",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Member Roles",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organizations",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "SAML-based Single Sign-On",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Customization",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Custom Domains",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Themes",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Logos",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Extensive White Labeling",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Data",
+                    "class": "title"
+                },
+                {
+                    "cell1": "GDPR Compliance",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% Data Ownership",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Fathom Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "CSV Export",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Hosting",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Germany)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "On-premise (Self-hosted)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Cloud (Managed)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Email Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Community Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Priority Support",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Dedicated Support",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Personal Onboarding",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Online User Training",
+                    "class4": "checked"
+                }
+            ]
+        }
+    }
+}

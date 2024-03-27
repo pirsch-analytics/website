@@ -5,6 +5,11 @@
     margin-top: var(--padding-small);
     gap: var(--padding-small);
 
+    &.one-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     &.one-one-one {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -34,7 +39,7 @@
     @media only screen and (max-width: 1024px) {
         align-items: center;
 
-        &.one-one-one { 
+        &.one-one, &.one-one-one { 
             display: flex;
             flex-direction: column;
         }

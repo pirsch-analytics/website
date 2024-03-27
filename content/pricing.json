@@ -23,6 +23,9 @@
                 "ref": "pricing_tiers"
             },
             {
+                "ref": "feature_comparison"
+            },
+            {
                 "ref": "faq"
             }
         ]

@@ -15,15 +15,6 @@ section.hero {
         content: "";
     }
 
-    h1 {
-        text-align: center;
-    }
-
-    p {
-        max-width: 640px;
-        text-align: center;
-    }
-
     .actions {
         display: flex;
         margin-top: calc(var(--padding-small) / 2);

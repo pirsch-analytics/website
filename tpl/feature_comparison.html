@@ -1,0 +1,95 @@
+{{$table := copy .Page .Content "table"}}
+
+<section class="feature-comparison">
+    <div class="section-content">
+        <div class="gradient-container" data-sal="slide-up" data-sal-duration="800">
+            <div class="gradient yellow right"></div>
+        </div>
+        <h2 data-sal="slide-up">{{html (copy .Page .Content "headline")}}</h2>
+        <p data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "text")}}</p>
+        <table data-sal="slide-up" data-sal-delay="200">
+            <tbody class="column-1">
+                <tr class="table-header">
+                    <th></th>
+                    <th>
+                        <div class="table-header-title">
+                            <svg class="back-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M14 6l-6 6 6 6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <span>{{html (copy .Page .Content "standard")}}</span>
+                            <svg class="forward-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M10 18l6-6-6-6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <a class="button small" href="/signup">{{html (copy .Page .Content "get_started")}}</a>
+                    </th>
+                    <th>
+                        <div class="table-header-title">
+                            <svg class="back-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M14 6l-6 6 6 6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <span>{{html (copy .Page .Content "plus")}}</span>
+                            <svg class="forward-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M10 18l6-6-6-6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <a class="button small yellow" href="/signup">{{html (copy .Page .Content "get_started")}}</a>
+                    </th>
+                    <th>
+                        <div class="table-header-title">
+                            <svg class="back-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M14 6l-6 6 6 6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <span>{{html (copy .Page .Content "enterprise")}}</span>
+                            <svg class="forward-button" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M10 18l6-6-6-6" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <a class="button small grey" href="mailto:support@pirsch.io">{{html (copy .Page .Content "contact_us")}}</a>
+                    </th>
+                </tr>
+                {{range $table}}
+                    <tr class="{{index . "class"}}">
+                        <td>{{html (index . "cell1")}}</td>
+                        <td class="{{index . "class2"}}">{{html (index . "cell2")}}</td>
+                        <td class="{{index . "class3"}}">{{html (index . "cell3")}}</td>
+                        <td class="{{index . "class4"}}">{{html (index . "cell4")}}</td>
+                    </tr>
+                {{end}}
+        </table> 
+    </div>
+
+    <script>
+        function table() {
+            const table = document.getElementsByTagName("tbody");
+            let column = 1;
+
+            if (table) {
+                let backButtons = document.getElementsByClassName("back-button");
+                let forwardButtons = document.getElementsByClassName("forward-button");
+
+                for (let i = 0; i < backButtons.length; i++) {
+                    backButtons[i].addEventListener("click", back);
+                }
+
+                for (let i = 0; i < forwardButtons.length; i++) {
+                    forwardButtons[i].addEventListener("click", forward);
+                }
+            }
+
+            function back() {
+                if(column > 1) {
+                    column--;
+                } else {
+                    column = 3;
+                }
+
+                setColumn();
+            }
+
+            function forward() {
+                if(column < 3) {
+                    column++;
+                } else {
+                    column = 1;
+                }
+
+                setColumn();
+            }
+
+            function setColumn() {
+                table[0].className = "column-" + column;
+            }
+        }
+
+        window.addEventListener("DOMContentLoaded", table);
+    </script>
+</section>
