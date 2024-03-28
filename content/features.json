@@ -1,10 +1,10 @@
 {
     "path": {
-        "en": "/pricing",
-        "de": "/de/pricing"
+        "en": "/features",
+        "de": "/de/features"
     },
     "sitemap": {
-        "priority": "0.7"
+        "priority": "0.5"
     },
     "analytics": {
         "tags": {
@@ -15,9 +15,8 @@
         "content": [
             {"ref": "head"},
             {"ref": "header"},
-            {"ref": "pricing_tiers"},
-            {"ref": "tier_comparison"},
-            {"ref": "faq"}
+            {"ref": "feature_overview"},
+            {"ref": "cta"}
         ]
     }
 }

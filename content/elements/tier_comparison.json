@@ -1,5 +1,5 @@
 {
-    "tpl": "feature_comparison",
+    "tpl": "tier_comparison",
     "copy": {
         "en": {
             "headline": "Compare All Features",
@@ -39,7 +39,7 @@
                     "cell4": "Unlimited"
                 },
                 {
-                    "cell1": "Features",
+                    "cell1": "Dashboard",
                     "class": "title"
                 },
                 {
@@ -275,12 +275,6 @@
                 },
                 {
                     "cell1": "Email Support",
-                    "class2": "checked",
-                    "class3": "checked",
-                    "class4": "checked"
-                },
-                {
-                    "cell1": "Community Support",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"

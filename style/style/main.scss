@@ -101,6 +101,13 @@ h3, .h3 {
     letter-spacing: 0;
 }
 
+h4, .h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0;
+}
+
 p, .p {
     color: var(--color-secondary);
     font-size: 18px;
@@ -163,6 +170,10 @@ hr {
     h3, .h3 {
         font-size: 24px;
     }
+
+    h4, .h4 {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -195,6 +206,10 @@ hr {
 
     h3, .h3 {
         font-size: 20px;
+    }
+
+    h4, .h4 {
+        font-size: 18px;
     }
 }
 
@@ -236,6 +251,7 @@ hr {
 @import "card";
 @import "cta";
 @import "faq";
+@import "features";
 @import "gradient";
 @import "grid";
 @import "header";

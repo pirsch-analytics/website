@@ -118,6 +118,11 @@ header {
                         &:last-of-type {
                             margin-bottom: 20px;
                         }
+
+                        svg {
+                            width: 24px;
+                            height: 24px;
+                        }
                     }
                 }
             }

@@ -181,6 +181,13 @@ h3, .h3 {
   letter-spacing: 0;
 }
 
+h4, .h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
 p, .p {
   color: var(--color-secondary);
   font-size: 18px;
@@ -244,6 +251,9 @@ hr {
   h3, .h3 {
     font-size: 24px;
   }
+  h4, .h4 {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   :root {
@@ -269,6 +279,9 @@ hr {
   }
   h3, .h3 {
     font-size: 20px;
+  }
+  h4, .h4 {
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -650,6 +663,25 @@ section.faq .section-content .grid {
   max-width: 100%;
 }
 
+section.features {
+  margin-bottom: var(--padding-extra-large);
+  padding-top: var(--padding-extra-large);
+}
+section.features h2 {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin: var(--padding-small) 0 calc(var(--padding-small) * -1);
+  padding: 0 var(--padding-small);
+  border-radius: 32px;
+  backdrop-filter: var(--backdrop-filter-glass);
+  background-color: var(--color-background-elevation);
+}
+section.features .card {
+  padding: var(--padding-small);
+  gap: var(--padding-extra-small);
+}
+
 .gradient-container {
   z-index: -1;
   position: absolute;
@@ -843,6 +875,10 @@ header .header-content nav .dropdown .dropdown-content a:first-of-type {
 }
 header .header-content nav .dropdown .dropdown-content a:last-of-type {
   margin-bottom: 20px;
+}
+header .header-content nav .dropdown .dropdown-content a svg {
+  width: 24px;
+  height: 24px;
 }
 header .header-content nav a:not(.button) {
   margin: 0 -12px;
@@ -1441,16 +1477,16 @@ section.pricing .section-content .pricing-tiers .pricing-tier .button {
   }
 }
 
-section.feature-comparison {
+section.tier-comparison {
   margin-bottom: var(--padding-extra-large);
 }
-section.feature-comparison table {
+section.tier-comparison table {
   width: 960px;
   max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
 }
-section.feature-comparison tr {
+section.tier-comparison tr {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 24px;
@@ -1459,27 +1495,27 @@ section.feature-comparison tr {
   mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgb(0, 0, 0) 2%, rgb(0, 0, 0) 98%, rgba(0, 0, 0, 0) 100%);
 }
 @media only screen and (min-width: 513px) {
-  section.feature-comparison tr:hover:not(.title):not(.table-header):not(:last-of-type) {
+  section.tier-comparison tr:hover:not(.title):not(.table-header):not(:last-of-type) {
     background-color: var(--color-background-elevation);
   }
 }
-section.feature-comparison tr:last-of-type td {
+section.tier-comparison tr:last-of-type td {
   border-bottom-right-radius: var(--border-radius-large);
   border-bottom-left-radius: var(--border-radius-large);
 }
-section.feature-comparison tr.title {
+section.tier-comparison tr.title {
   background-color: var(--color-background-elevation);
   color: var(--color-primary);
   font-weight: 500;
   font-size: 22px;
 }
-section.feature-comparison tr.title + tr td {
+section.tier-comparison tr.title + tr td {
   border: none;
 }
-section.feature-comparison tr.title td {
+section.tier-comparison tr.title td {
   border: none;
 }
-section.feature-comparison th {
+section.tier-comparison th {
   padding: 24px 16px 12px;
   border-top-right-radius: var(--border-radius-large);
   border-top-left-radius: var(--border-radius-large);
@@ -1487,42 +1523,42 @@ section.feature-comparison th {
   font-size: 28px;
   text-align: center;
 }
-section.feature-comparison th:nth-of-type(3) {
+section.tier-comparison th:nth-of-type(3) {
   background-color: var(--color-background-elevation);
 }
-section.feature-comparison th .table-header-title {
+section.tier-comparison th .table-header-title {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-primary);
   user-select: none;
 }
-section.feature-comparison th .table-header-title svg {
+section.tier-comparison th .table-header-title svg {
   display: none;
   cursor: pointer;
   transition: opacity 0.1s ease;
 }
 @media only screen and (min-width: 513px) {
-  section.feature-comparison th .table-header-title svg {
+  section.tier-comparison th .table-header-title svg {
     transition: opacity 0.1s ease;
   }
-  section.feature-comparison th .table-header-title svg:hover {
+  section.tier-comparison th .table-header-title svg:hover {
     opacity: 0.8;
   }
 }
-section.feature-comparison th .table-header-title svg path {
+section.tier-comparison th .table-header-title svg path {
   stroke: var(--color-secondary);
 }
-section.feature-comparison th .table-header-title span {
+section.tier-comparison th .table-header-title span {
   flex: 1;
 }
-section.feature-comparison th .button {
+section.tier-comparison th .button {
   height: 36px;
   margin-top: 16px;
   padding: 0 12px;
   font-size: 16px;
 }
-section.feature-comparison td {
+section.tier-comparison td {
   display: flex;
   align-items: center;
   height: 56px;
@@ -1530,25 +1566,25 @@ section.feature-comparison td {
   border-top: solid 2px var(--color-background-elevation);
   line-height: 1.2;
 }
-section.feature-comparison td:first-of-type {
+section.tier-comparison td:first-of-type {
   text-align: left;
 }
-section.feature-comparison td:not(:first-of-type) {
+section.tier-comparison td:not(:first-of-type) {
   justify-content: center;
 }
-section.feature-comparison td:nth-of-type(3) {
+section.tier-comparison td:nth-of-type(3) {
   background-color: var(--color-background-elevation);
 }
-section.feature-comparison td:nth-of-type(3).checked:before {
+section.tier-comparison td:nth-of-type(3).checked:before {
   border-color: var(--yellow);
 }
-section.feature-comparison td:nth-of-type(4).checked:before {
+section.tier-comparison td:nth-of-type(4).checked:before {
   border-color: var(--color-secondary);
 }
-section.feature-comparison td.checked {
+section.tier-comparison td.checked {
   position: relative;
 }
-section.feature-comparison td.checked::before {
+section.tier-comparison td.checked::before {
   width: 8px;
   height: 16px;
   margin: 0 0 6px;
@@ -1560,50 +1596,50 @@ section.feature-comparison td.checked::before {
   content: "";
 }
 @media only screen and (max-width: 1024px) {
-  section.feature-comparison table {
+  section.tier-comparison table {
     width: 512px;
   }
-  section.feature-comparison table tbody.column-1 tr th:nth-of-type(3), section.feature-comparison table tbody.column-1 tr th:nth-of-type(4),
-  section.feature-comparison table tbody.column-1 tr td:nth-of-type(3),
-  section.feature-comparison table tbody.column-1 tr td:nth-of-type(4) {
+  section.tier-comparison table tbody.column-1 tr th:nth-of-type(3), section.tier-comparison table tbody.column-1 tr th:nth-of-type(4),
+  section.tier-comparison table tbody.column-1 tr td:nth-of-type(3),
+  section.tier-comparison table tbody.column-1 tr td:nth-of-type(4) {
     display: none;
   }
-  section.feature-comparison table tbody.column-2 tr th:nth-of-type(2), section.feature-comparison table tbody.column-2 tr th:nth-of-type(4),
-  section.feature-comparison table tbody.column-2 tr td:nth-of-type(2),
-  section.feature-comparison table tbody.column-2 tr td:nth-of-type(4) {
+  section.tier-comparison table tbody.column-2 tr th:nth-of-type(2), section.tier-comparison table tbody.column-2 tr th:nth-of-type(4),
+  section.tier-comparison table tbody.column-2 tr td:nth-of-type(2),
+  section.tier-comparison table tbody.column-2 tr td:nth-of-type(4) {
     display: none;
   }
-  section.feature-comparison table tbody.column-3 tr th:nth-of-type(2), section.feature-comparison table tbody.column-3 tr th:nth-of-type(3),
-  section.feature-comparison table tbody.column-3 tr td:nth-of-type(2),
-  section.feature-comparison table tbody.column-3 tr td:nth-of-type(3) {
+  section.tier-comparison table tbody.column-3 tr th:nth-of-type(2), section.tier-comparison table tbody.column-3 tr th:nth-of-type(3),
+  section.tier-comparison table tbody.column-3 tr td:nth-of-type(2),
+  section.tier-comparison table tbody.column-3 tr td:nth-of-type(3) {
     display: none;
   }
-  section.feature-comparison table tr {
+  section.tier-comparison table tr {
     grid-template-columns: 1.5fr minmax(224px, 1fr);
     mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgb(0, 0, 0) 2%, rgb(0, 0, 0) 100%);
   }
-  section.feature-comparison table th:not(:first-of-type),
-  section.feature-comparison table td:not(:first-of-type) {
+  section.tier-comparison table th:not(:first-of-type),
+  section.tier-comparison table td:not(:first-of-type) {
     background-color: var(--color-background-elevation);
   }
-  section.feature-comparison table th .table-header-title svg {
+  section.tier-comparison table th .table-header-title svg {
     display: block;
   }
 }
 @media only screen and (max-width: 512px) {
-  section.feature-comparison table tr {
+  section.tier-comparison table tr {
     grid-template-columns: 1.5fr minmax(192px, 1fr);
     gap: 6px;
     font-size: 14px;
   }
-  section.feature-comparison table tr.title {
+  section.tier-comparison table tr.title {
     top: 164px;
     font-size: 20px;
   }
-  section.feature-comparison table th .table-header-title {
+  section.tier-comparison table th .table-header-title {
     font-size: 22px;
   }
-  section.feature-comparison table td {
+  section.tier-comparison table td {
     height: 48px;
   }
 }
@@ -1616,6 +1652,7 @@ section.step .nummeration {
   align-items: center;
   height: 40px;
   border-radius: 20px;
+  backdrop-filter: var(--backdrop-filter-glass);
   background-color: var(--color-background-elevation);
 }
 section.step .nummeration .number {

@@ -13,12 +13,8 @@
     },
     "content": {
         "content": [
-            {
-                "ref": "head"
-            },
-            {
-                "ref": "header"
-            },
+            {"ref": "head"},
+            {"ref": "header"},
             {
                 "tpl": "hero",
                 "copy": {

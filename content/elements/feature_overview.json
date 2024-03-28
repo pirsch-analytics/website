@@ -1,0 +1,188 @@
+{
+    "tpl": "feature_overview",
+    "copy": {
+        "en": {
+            "headline": "Powerful Features",
+            "text": "Pirsch Analytics provides a comprehensive range of powerful features, enabling users to gain deep insights and optimize website performance with ease.",
+            "dashboard": "Dashboard",
+            "dashboard_features": [
+                {
+                "headline": "Powerful Filters",
+                "text": "Easily filter your data to extract valuable insights."
+                },
+                {
+                "headline": "Time Period Comparison",
+                "text": "Compare data across different time periods for trend analysis."
+                },
+                {
+                "headline": "Saveable Filters (Views)",
+                "text": "Save and reuse custom filters for efficient data analysis."
+                },
+                {
+                "headline": "Custom Event Tracking",
+                "text": "Track and analyze custom events tailored to your website's needs."
+                },
+                {
+                "headline": "Conversion Goal Tracking",
+                "text": "Monitor and optimize conversion goals to improve performance."
+                },
+                {
+                "headline": "Outbound Link Tracking",
+                "text": "Track clicks on outbound links to measure engagement."
+                },
+                {
+                "headline": "File Download Tracking",
+                "text": "Monitor downloads of files hosted on your website."
+                },
+                {
+                "headline": "404 Page Tracking",
+                "text": "Identify and address broken links with 404 page tracking."
+                },
+                {
+                "headline": "Automatic Email Reports",
+                "text": "Receive automated reports via email for easy monitoring."
+                },
+                {
+                "headline": "Google Search Console Plugin",
+                "text": "Integrate data from Google Search Console for comprehensive analysis."
+                },
+                {
+                "headline": "A/B Testing",
+                "text": "Conduct A/B tests to optimize website performance and user experience using tags."
+                },
+                {
+                "headline": "Segmentation",
+                "text": "Segment your audience for targeted analysis and personalized insights with tags."
+                },
+                {
+                "headline": "Custom Event Metrics",
+                "text": "Define custom metrics for in-depth event tracking and analysis."
+                },
+                {
+                "headline": "E-commerce Revenue Tracking",
+                "text": "Track and analyze revenue generated from e-commerce activities."
+                }
+            ],
+            "integration_features": [
+                {
+                "headline": "Website Integration",
+                "text": "Seamlessly integrate Pirsch Analytics with your website for streamlined data collection."
+                },
+                {
+                "headline": "Server-side Integration",
+                "text": "Integrate analytics tracking directly into your server-side applications."
+                },
+                {
+                "headline": "RESTful API & SDKs",
+                "text": "Access Pirsch Analytics data and functionality through RESTful APIs and software development kits."
+                },
+                {
+                "headline": "Script Proxies",
+                "text": "Use script proxies for secure and efficient data collection."
+                },
+                {
+                "headline": "Wordpress Plugin",
+                "text": "Easily integrate Pirsch Analytics with your WordPress website."
+                }
+            ],
+            "access_features": [
+                {
+                "headline": "Public Dashboards",
+                "text": "Share dashboards publicly for transparent data access and collaboration."
+                },
+                {
+                "headline": "Unique Access Links",
+                "text": "Generate unique access links for controlled data sharing."
+                },
+                {
+                "headline": "Member Roles",
+                "text": "Assign different roles to members for customized access and permissions."
+                },
+                {
+                "headline": "Organizations",
+                "text": "Organize and manage multiple websites or projects within Pirsch Analytics."
+                },
+                {
+                "headline": "SAML-based Single Sign-On",
+                "text": "Implement single sign-on for enhanced security and convenience."
+                }
+            ],
+            "customization_features": [
+                {
+                "headline": "Custom Domains",
+                "text": "Use custom domains for branding and personalized user experiences."
+                },
+                {
+                "headline": "Custom Themes",
+                "text": "Customize the appearance of your analytics dashboards with custom themes."
+                },
+                {
+                "headline": "Custom Logos",
+                "text": "Brand your analytics dashboards with custom logos for a professional look."
+                },
+                {
+                "headline": "Extensive White Labeling",
+                "text": "White-label Pirsch Analytics to match your brand identity and seamlessly integrate with your offerings."
+                }
+            ],
+            "data_features": [
+                {
+                "headline": "GDPR Compliance",
+                "text": "Ensure compliance with the General Data Protection Regulation for data privacy and security."
+                },
+                {
+                "headline": "100% Data Ownership",
+                "text": "Retain full ownership and control of your analytics data at all times."
+                },
+                {
+                "headline": "Google Analytics Import",
+                "text": "Easily import existing data from Google Analytics for seamless transition."
+                },
+                {
+                "headline": "Fathom Analytics Import",
+                "text": "Import data from Fathom Analytics to consolidate your analytics efforts."
+                },
+                {
+                "headline": "CSV Export",
+                "text": "Export data to CSV format for further analysis and reporting."
+                }
+            ],
+            "hosting_features": [
+                {
+                "headline": "Cloud (Germany)",
+                "text": "Host your analytics data on secure and reliable cloud servers in Germany."
+                },
+                {
+                "headline": "On-premise (Self-hosted)",
+                "text": "Opt for self-hosted deployment for complete control and privacy."
+                },
+                {
+                "headline": "Custom Cloud (Managed)",
+                "text": "Choose managed cloud services tailored to your specific requirements."
+                }
+            ],
+            "support_features": [
+                {
+                "headline": "Email Support",
+                "text": "Get assistance and guidance via email for prompt issue resolution."
+                },
+                {
+                "headline": "Priority Support",
+                "text": "Receive priority assistance from the Pirsch Analytics support team for critical issues."
+                },
+                {
+                "headline": "Dedicated Support",
+                "text": "Access dedicated support resources for personalized help, such as a personal Slack channel."
+                },
+                {
+                "headline": "Personal Onboarding",
+                "text": "Receive one-on-one onboarding assistance for a smooth transition."
+                },
+                {
+                "headline": "Online User Training",
+                "text": "Book online training sessions to maximize your team's proficiency."
+                }
+            ]
+        }
+    }
+}

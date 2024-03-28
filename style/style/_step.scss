@@ -6,6 +6,7 @@ section.step {
         align-items: center;
         height: 40px;
         border-radius: 20px;
+        backdrop-filter: var(--backdrop-filter-glass);
         background-color: var(--color-background-elevation);
 
         .number {
