@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Scroll animation
     
     sal({
-        threshold: .1,
+        threshold: .1
     });
 
     // Header

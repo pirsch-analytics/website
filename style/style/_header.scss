@@ -7,9 +7,19 @@ header {
     height: var(--header-height);
     padding-right: 16px;
     padding-left: 16px;
-    backdrop-filter: var(--backdrop-filter-glass);
-    background-color: var(--color-background-primary-glass);
     transition: height .1s ease;
+
+    &:before {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        backdrop-filter: var(--backdrop-filter-glass);
+        background-color: var(--color-background-primary-glass);
+        content: "";
+    } 
 
     &.small {
         height: 64px;
@@ -49,7 +59,72 @@ header {
             align-items: center;
             gap: 24px;
 
-            a {
+            .dropdown {
+                position: relative;
+                margin: 0 -12px;
+                padding: 4px 12px;
+
+                &:hover {
+                    .dropdown-button {
+                        opacity: 1;
+
+                        svg {
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+
+                .dropdown-button {
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+                    gap: 6px;
+                    background-color: transparent;
+                    color: var(--color-primary);
+                    
+                    svg {
+                        transition: transform .1s ease;
+                    }
+                }
+
+                .dropdown-content {
+                    display: flex;
+                    position: absolute;
+                    top: 100%;
+                    left: -48px;
+                    flex-direction: column;
+                    max-height: 0;
+                    padding: 0 24px;
+                    overflow: hidden;
+                    gap: 20px;
+                    border-radius: var(--border-radius-medium);
+                    backdrop-filter: var(--backdrop-filter-glass);
+                    background-color: var(--color-background-elevation);
+                    opacity: 0;
+                    transition: max-height .2s ease, opacity .2s ease;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+                        gap: 12px;
+                        font-size: 16px;
+
+                        &:first-of-type {
+                            margin-top: 20px;
+                        }
+    
+                        &:last-of-type {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+
+            a:not(.button) {
+                margin: 0 -12px;
+                padding: 4px 12px;
                 white-space: nowrap;
             }
         }
@@ -85,7 +160,44 @@ header {
                 width: 100%;
                 padding-bottom: 24px;
 
-                a {
+                .dropdown {
+                    margin: 0;
+                    padding: 0;
+
+                    .dropdown-button {
+                        display: none;
+                    }
+
+                    .dropdown-content {
+                        position: initial;
+                        align-items: center;
+                        max-height: none;
+                        padding: 0;
+                        gap: 24px;
+                        backdrop-filter: none;
+                        background-color: transparent;
+                        opacity: 1;
+
+                        a {
+                            font-size: 18px;
+
+                            &:first-of-type {
+                                margin-top: 0;
+                            }
+        
+                            &:last-of-type {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        svg {
+                            display: none;
+                        }
+                    }
+                }
+
+                a:not(.button) {
+                    padding: 0;
                     font-size: 18px;
                 }
 

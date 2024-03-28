@@ -2,6 +2,70 @@
     "tpl": "header",
     "copy": {
         "en": {
+            "label1": "Product",
+            "dropdown1": [
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'><path d='M16 11V7a4 4 0 1 0-8 0v4M7 21h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2z' stroke='#adadad' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+                    "label": "Privacy-friendly Analytics",
+                    "href": "/privacy-friendly-analytics"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 19V9m6 10V5M6 19v-5'/></svg>",
+                    "label": "Google Analytics Alternative",
+                    "href": "/google-analytics-alternative"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'><path d='M5 14.143s.875-.857 3.5-.857S12.875 15 15.5 15s3.5-.857 3.5-.857V3.857s-.875.857-3.5.857S11.125 3 8.5 3 5 3.857 5 3.857v10.286zm0 0V21' stroke='#adadad' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+                    "label": "Complete Feature List",
+                    "href": "/features"
+                }
+            ],
+            "label2": "Solution",
+            "dropdown2": [
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'><path d='M17 8l4 4-4 4m-7 4l4-16M7 8l-4 4 4 4'/></svg>",
+                    "label": "For Developers",
+                    "href": "/for-developers"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'><path d='M7.371 8.894l1.694-1.706c.946-.942 2.394-.942 3.34 0l.605.603L17.8 3 21 6.2l-4.782 4.782.639.637a2.3 2.3 0 0 1 0 3.324L10.712 21l-3.856-3.852v-2.201H4.652L3 13.296l4.371-4.402zm0 0l7.748 7.704' stroke='#adadad' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+                    "label": "For Agencies",
+                    "href": "/for-agencies"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'><path d='M16 16h1m0-4h-1m0-4h1M7 16h1'/><path d='M7 12H8'/><path d='M12 5V3l9 2v15h-6M3 20V8h9v12H3z'/></svg>",
+                    "label": "For Enterprises",
+                    "href": "/for-enterprises"
+                }
+            ],
+            "label3": "Resources",
+            "dropdown3": [
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-miterlimit='10'><path d='M9 16h3m-3-4h6M9 8h6' stroke-linecap='round' stroke-linejoin='round'/><path d='M17 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z' stroke-linejoin='round'/></svg>",
+                    "label": "Blog",
+                    "href": "/blog"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke-linejoin='round' stroke-width='2' stroke='#adadad'><path transform='rotate(350 13 7)' d='M13 7h5v14h-5z'/><path d='M5 3h5v18H5z'/></svg>",
+                    "label": "Documentation",
+                    "href": "https://docs.pirsch.io/"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-linejoin='round'><path d='M5 21v-2c0-2.209 2.089-4 4.667-4h4.667C16.911 15 19 16.791 19 19v2' stroke-linecap='round'/><path d='M12 11a4 4 0 1 0 0-8 4 4 0 1 0 0 8z' stroke-miterlimit='10'/></svg>",
+                    "label": "Support Forum",
+                    "href": "https://forum.pirsch.io"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='#adadad' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'><path d='M17 8l4 4-4 4m-7 4l4-16M7 8l-4 4 4 4'/></svg>",
+                    "label": "GitHub",
+                    "href": "https://github.com/pirsch-analytics"
+                },
+                {
+                    "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'><path d='M16.643 20.153c-2.054.786-8.32 2.07-11.719-1.845-3.293-3.794-1.864-9.535.601-12.405C7.753 3.309 12.359 2.11 16.394 3.75c1.481.607 2.726 1.677 3.549 3.05a7.43 7.43 0 0 1 1.018 4.57c-.141 2.187-.817 4.545-3.01 4.716s-2.549-1.878-2.694-2.871m0 0c.021-1.749.151-3.495.39-5.228-4.815-1.473-6.515 1.094-7.045 2.666s-.708 4.033 1.275 5.092 4.605-.309 5.381-2.529z' stroke='#adadad' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+                    "label": "Twitter",
+                    "href": "https://twitter.com/PirschAnalytics"
+                }
+            ],
             "links": [
                 {
                     "label": "Live Demo",
@@ -9,20 +73,8 @@
                     "class": "show-mobile"
                 },
                 {
-                    "label": "For Agencies",
-                    "href": "/for-agencies"
-                },
-                {
-                    "label": "For Developers",
-                    "href": "/for-developers"
-                },
-                {
                     "label": "Pricing",
                     "href": "/pricing"
-                },
-                {
-                    "label": "Blog",
-                    "href": "/blog"
                 },
                 {
                     "label": "Log In",

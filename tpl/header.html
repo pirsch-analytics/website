@@ -1,3 +1,6 @@
+{{$dropdown1 := copy .Page .Content "dropdown1"}}
+{{$dropdown2 := copy .Page .Content "dropdown2"}}
+{{$dropdown3 := copy .Page .Content "dropdown3"}}
 {{$links := copy .Page .Content "links"}}
 
 <header id="header" class="no-select">
@@ -7,11 +10,93 @@
             <span>Pirsch</span>
         </a>
         <nav id="headerNav">
+            <div class="dropdown">
+                <button class="dropdown-button small">
+                    <span>{{copy .Page .Content "label1"}}</span>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                </button>
+                <div class="dropdown-content">
+                    {{range $dropdown1}}
+                        <a href="{{index . "href"}}" class="{{index . "class"}}">
+                            {{html (index . "svg")}}
+                            <span>{{index . "label"}}</span>
+                        </a>
+                    {{end}}
+                </div>
+            </div>
+            <div class="dropdown show-desktop">
+                <button class="dropdown-button small">
+                    <span>{{copy .Page .Content "label2"}}</span>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                </button>
+                <div class="dropdown-content">
+                    {{range $dropdown2}}
+                        <a href="{{index . "href"}}" class="{{index . "class"}}">
+                            {{html (index . "svg")}}
+                            <span>{{index . "label"}}</span>
+                        </a>
+                    {{end}}
+                </div>
+            </div>
+            <div class="dropdown show-desktop">
+                <button class="dropdown-button small">
+                    <span>{{copy .Page .Content "label3"}}</span>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                </button>
+                <div class="dropdown-content">
+                    {{range $dropdown3}}
+                        <a href="{{index . "href"}}" class="{{index . "class"}}" target="_blank">
+                            {{html (index . "svg")}}
+                            <span>{{index . "label"}}</span>
+                        </a>
+                    {{end}}
+                </div>
+            </div>
             {{range $links}}
-            <a href="{{index . "href"}}" class="{{index . "class"}}">{{index . "label"}}</a>
+                <a href="{{index . "href"}}" class="{{index . "class"}}">{{index . "label"}}</a>
             {{end}}
         </nav>
         <svg id="headerNavOpen" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18h7m-7-6h14M5 6h14"></path></svg>
         <svg id="headerNavClose" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" style="display: none;"><path d="M17 7L7 17m10 0L7 7" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
     </div>
+
+    <script>
+        const dropdowns = document.getElementsByClassName("dropdown");
+
+        function handleDropdown() {
+            for (let i = 0; i < dropdowns.length; i++) {
+                let content = dropdowns[i].getElementsByTagName("div")[0];
+                if (window.innerWidth <= 768) {
+                    content.style.opacity = 1;
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.opacity = 0;
+                }
+            }
+        }
+
+        window.addEventListener("resize", handleDropdown);
+
+        for (let i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].addEventListener("mouseenter", function() {
+                let content = this.getElementsByTagName("div")[0];
+                if (window.innerWidth > 768) {
+                    content.style.opacity = 1;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                }
+            });
+
+            dropdowns[i].addEventListener("mouseleave", function() {
+                let content = this.getElementsByTagName("div")[0];
+                if (window.innerWidth > 768) {
+                    content.style.opacity = 0;
+                    content.style.maxHeight = null;
+                }
+            });
+        }
+    </script>
 </header>
