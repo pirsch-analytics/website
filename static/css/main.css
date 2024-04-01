@@ -648,6 +648,33 @@ section.cta .section-content > p {
   text-align: center;
 }
 
+section.customers {
+  margin-bottom: var(--padding-extra-large);
+}
+section.customers .grid {
+  gap: var(--padding-medium);
+  margin: 0;
+}
+section.customers .row {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-medium);
+  opacity: 0.65;
+}
+@media only screen and (max-width: 1024px) {
+  section.customers .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 0;
+    gap: var(--padding-medium) var(--padding-extra-small);
+  }
+  section.customers .row img {
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+}
+
 section.faq {
   margin-bottom: var(--padding-extra-large);
 }
@@ -964,7 +991,7 @@ header .header-content .icon {
 
 section.hero {
   position: relative;
-  margin-bottom: var(--padding-extra-large);
+  margin-bottom: var(--padding-large);
   padding-top: var(--padding-extra-large);
   overflow: hidden;
 }

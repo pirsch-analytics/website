@@ -2,8 +2,8 @@
     "tpl": "feature_overview",
     "copy": {
         "en": {
-            "headline": "Powerful Features",
-            "text": "Pirsch Analytics provides a comprehensive range of powerful features, enabling users to gain deep insights and optimize website performance with ease.",
+            "headline": "All Features",
+            "text": "Pirsch provides a comprehensive range of powerful features, enabling users to gain deep insights and optimize website performance with ease.",
             "dashboard": "Dashboard",
             "dashboard_features": [
                 {
@@ -63,6 +63,7 @@
                 "text": "Track and analyze revenue generated from e-commerce activities."
                 }
             ],
+            "integration": "Integration",
             "integration_features": [
                 {
                 "headline": "Website Integration",
@@ -74,7 +75,7 @@
                 },
                 {
                 "headline": "RESTful API & SDKs",
-                "text": "Access Pirsch Analytics data and functionality through RESTful APIs and software development kits."
+                "text": "Access Pirsch data and functionality through RESTful APIs and software development kits."
                 },
                 {
                 "headline": "Script Proxies",
@@ -85,6 +86,7 @@
                 "text": "Easily integrate Pirsch Analytics with your WordPress website."
                 }
             ],
+            "access": "Access",
             "access_features": [
                 {
                 "headline": "Public Dashboards",
@@ -100,13 +102,14 @@
                 },
                 {
                 "headline": "Organizations",
-                "text": "Organize and manage multiple websites or projects within Pirsch Analytics."
+                "text": "Organize and manage multiple websites or projects within Pirsch."
                 },
                 {
                 "headline": "SAML-based Single Sign-On",
                 "text": "Implement single sign-on for enhanced security and convenience."
                 }
             ],
+            "customization": "Customization",
             "customization_features": [
                 {
                 "headline": "Custom Domains",
@@ -125,6 +128,7 @@
                 "text": "White-label Pirsch Analytics to match your brand identity and seamlessly integrate with your offerings."
                 }
             ],
+            "data": "Data",
             "data_features": [
                 {
                 "headline": "GDPR Compliance",
@@ -147,6 +151,7 @@
                 "text": "Export data to CSV format for further analysis and reporting."
                 }
             ],
+            "hosting": "Hosting",
             "hosting_features": [
                 {
                 "headline": "Cloud (Germany)",
@@ -161,6 +166,7 @@
                 "text": "Choose managed cloud services tailored to your specific requirements."
                 }
             ],
+            "support": "Support",
             "support_features": [
                 {
                 "headline": "Email Support",
@@ -172,7 +178,7 @@
                 },
                 {
                 "headline": "Dedicated Support",
-                "text": "Access dedicated support resources for personalized help, such as a personal Slack channel."
+                "text": "Access dedicated support resources for personalized help, including a private Slack channel."
                 },
                 {
                 "headline": "Personal Onboarding",

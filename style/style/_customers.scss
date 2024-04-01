@@ -1,0 +1,30 @@
+section.customers {
+    margin-bottom: var(--padding-extra-large);
+
+    .grid {
+        gap: var(--padding-medium);
+        margin: 0;
+    }
+
+    .row {
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 var(--padding-medium);
+        opacity: .65;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            padding: 0;
+            gap: var(--padding-medium) var(--padding-extra-small);
+
+            img {
+                margin: 0 auto;
+                transform: scale(.8);
+            }
+        }
+    }
+}

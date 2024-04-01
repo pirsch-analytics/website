@@ -13,25 +13,25 @@
         </div>
         <h1 class="h2" data-sal="slide-up">{{html (copy .Page .Content "headline")}}</h1>
         <p data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "text")}}</p>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Dashboard</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "dashboard")}}</h2>
         <div class="grid one-one-one">
             {{range $dashboardFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Integration</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "integration")}}</h2>
         <div class="grid one-one-one">
             {{range $integrationFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Access</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "access")}}</h2>
         <div class="grid one-one-one">
             {{range $accessFeatures}}
                 <div class="card" data-sal="slide-up" data-sal-delay="200">
@@ -40,37 +40,37 @@
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Customization</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "customization")}}</h2>
         <div class="grid one-one-one">
             {{range $customizationFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Data</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "data")}}</h2>
         <div class="grid one-one-one">
             {{range $dataFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Hosting</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "hosting")}}</h2>
         <div class="grid one-one-one">
             {{range $hostingFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">Support</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "support")}}</h2>
         <div class="grid one-one-one">
             {{range $supportFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
                 </div>

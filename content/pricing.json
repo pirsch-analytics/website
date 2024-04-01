@@ -16,6 +16,7 @@
             {"ref": "head"},
             {"ref": "header"},
             {"ref": "pricing_tiers"},
+            {"ref": "customers"},
             {"ref": "tier_comparison"},
             {"ref": "faq"}
         ]

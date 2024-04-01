@@ -27,6 +27,7 @@
                     }
                 }
             },
+            {"ref": "customers"},
             {
                 "tpl": "step",
                 "data": {

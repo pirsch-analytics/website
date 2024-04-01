@@ -1,0 +1,49 @@
+{
+    "tpl": "customers",
+    "data": {
+        "line1": [
+            {
+                "src": "globalx.png",
+                "alt": "Global X",
+                "height": "22px"
+            },
+            {
+                "src": "maglr.png",
+                "alt": "Maglr",
+                "height": "32px"
+            },
+            {
+                "src": "superblog.png",
+                "alt": "Superblog",
+                "height": "38px"
+            },
+            {
+                "src": "stillalive.png",
+                "alt": "Stillalive Studios",
+                "height": "36px"
+            }
+        ],
+        "line2": [
+            {
+                "src": "toffolo.png",
+                "alt": "Toffolo",
+                "height": "32px"
+            },
+            {
+                "src": "studiolenzing.png",
+                "alt": "Studio Lenzing",
+                "height": "22px"
+            },
+            {
+                "src": "senja.png",
+                "alt": "Senja",
+                "height": "30px"
+            },
+            {
+                "src": "spectate.png",
+                "alt": "Spectate",
+                "height": "26px"
+            }
+        ]
+    }
+}

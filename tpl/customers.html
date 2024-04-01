@@ -1,0 +1,19 @@
+{{$line1 := get .Content "line1"}}
+{{$line2 := get .Content "line2"}}
+
+<section class="customers">
+    <div class="section-content">
+        <div class="grid" data-sal="slide-up">
+            <div class="row">
+                {{range $line1}}
+                    <img src="../static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" style="max-height: {{index . "height"}};" loading="lazy">
+                {{end}}
+            </div>
+            <div class="row">
+                {{range $line2}}
+                    <img src="../static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" style="max-height: {{index . "height"}};" loading="lazy">
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
