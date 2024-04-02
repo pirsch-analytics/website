@@ -9,70 +9,151 @@
 <section class="features">
     <div class="section-content">
         <div class="gradient-container" data-sal="slide-up" style="top: calc(var(--padding-extra-large) * -1); --sal-duration: .8s;">
-            <div class="gradient yellow"></div>
+            <div class="gradient green"></div>
         </div>
         <h1 class="h2" data-sal="slide-up">{{html (copy .Page .Content "headline")}}</h1>
         <p data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "text")}}</p>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "dashboard")}}</h2>
+        <div class="actions" data-sal="slide-up" data-sal-delay="200">
+            <a href="/signup" class="button">{{html (copy .Page .Content "action_primary")}}</a>
+            <a href="#" class="button secondary">{{html (copy .Page .Content "action_secondary")}}</a>
+        </div>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "dashboard")}}</h2>
         <div class="grid one-one-one">
             {{range $dashboardFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "integration")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "integration")}}</h2>
         <div class="grid one-one-one">
             {{range $integrationFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "access")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "access")}}</h2>
         <div class="grid one-one-one">
             {{range $accessFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="200">
+                <div class="card" data-sal="slide-up" data-sal-delay="300">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "customization")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "customization")}}</h2>
         <div class="grid one-one-one">
             {{range $customizationFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "data")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "data")}}</h2>
         <div class="grid one-one-one">
             {{range $dataFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "hosting")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "hosting")}}</h2>
         <div class="grid one-one-one">
             {{range $hostingFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>
-        <h2 class="h3" data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "support")}}</h2>
+        <h2 class="h3" data-sal="slide-up" data-sal-delay="300">{{html (copy .Page .Content "support")}}</h2>
         <div class="grid one-one-one">
             {{range $supportFeatures}}
-                <div class="card" data-sal="slide-up" data-sal-delay="300">
+                <div class="card" data-sal="slide-up" data-sal-delay="400">
                     <h3 class="h4">{{html (index . "headline")}}</h3>
                     <p>{{html (index . "text")}}</p>
+                    <div class="tags">
+                        {{if index . "standard"}}
+                            <div class="tag green">Standard</div>
+                        {{end}}
+                        {{if index . "plus"}}
+                            <div class="tag yellow">Plus</div>
+                        {{end}}
+                        {{if index . "enterprise"}}
+                            <div class="tag grey">Enterprise</div>
+                        {{end}}
+                    </div>
                 </div>
             {{end}}
         </div>

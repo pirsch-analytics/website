@@ -155,14 +155,14 @@ section.blog-article {
             display: block;
             max-width: 100%;
             margin: 32px auto;
-            border-radius: var(--border-radius-large);
+            border-radius: var(--border-radius-medium);
             cursor: zoom-in;
         }
 
         video {
             max-width: 100%;
             margin: 32px auto;
-            border-radius: var(--border-radius-large);
+            border-radius: var(--border-radius-medium);
         }
         
         a {
@@ -193,9 +193,9 @@ section.blog-article {
             width: 100%;
             max-width: 100%;
             margin: 32px 0;
-            padding: 12px;
+            padding: 24px;
             overflow-x: auto;
-            border-radius: var(--border-radius-large);
+            border-radius: var(--border-radius-medium);
             background-color: var(--color-background-elevation);
         
             code {

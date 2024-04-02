@@ -3,7 +3,7 @@
         <div class="gradient-container" data-sal="slide-up" data-sal-duration="800" style="top: calc((var(--padding-extra-large) - var(--padding-medium) - var(--header-height)) * -1);">
             <div class="gradient white"></div>
         </div>
-        <h1 data-sal="slide-up">{{html (copy .Page .Content "headline")}}</h1>
+        <h1 class="{{copy .Page .Content "headline_class"}}" data-sal="slide-up">{{html (copy .Page .Content "headline")}}</h1>
         <p data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "text")}}</p>
         <div class="actions" data-sal="slide-up" data-sal-delay="200">
             <a href="/signup" class="button">{{html (copy .Page .Content "action_primary")}}</a>

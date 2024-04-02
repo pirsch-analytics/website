@@ -155,6 +155,34 @@
     mask: radial-gradient(ellipse closest-side, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0, .5) 100%);
 }
 
+.tags {
+    display: flex;
+    margin-top: auto;
+    padding-top: var(--padding-extra-small);
+    gap: 8px;
+
+    .tag {
+        padding: 6px 8px;
+        border-radius: 6px;
+        color: var(--black);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+
+        &.green {
+            background-color: var(--green);
+        }
+    
+        &.yellow {
+            background-color: var(--yellow);
+        }
+    
+        &.grey {
+            background-color: var(--color-secondary);
+        }
+    }
+}
+
 .testimonial {
     padding: var(--padding-small);
     gap: var(--padding-extra-small);

@@ -18,7 +18,8 @@
             {"ref": "pricing_tiers"},
             {"ref": "customers"},
             {"ref": "tier_comparison"},
-            {"ref": "faq"}
+            {"ref": "faq"},
+            {"ref": "cta"}
         ]
     }
 }

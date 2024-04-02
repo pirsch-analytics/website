@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: stretch;
     width: 100%;
+    min-width: 0;
+    max-width: 100%;
     min-height: 64px;
     padding: calc(var(--padding-small) * 1.5);
     gap: var(--padding-small);
@@ -32,6 +34,10 @@
 
         &.columns {
             flex-direction: column;
+        }
+
+        .card-content .button {
+            margin-top: var(--padding-small);;
         }
     }
 

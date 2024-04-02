@@ -5,7 +5,7 @@ section.notfound {
     .section-content {
         height: 100%;
         margin-bottom: 0;
-        padding-top: var(--padding-extra-large);
+        padding-top: calc(var(--padding-extra-large) + var(--padding-medium));
         padding-bottom: 0;
 
         .portal {

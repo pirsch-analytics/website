@@ -1,0 +1,23 @@
+{{$gradientColor := default (get .Content "gradient_color") "white"}}
+{{$nummerationNumber := copy .Page .Content "nummeration_number"}}
+{{$nummerationText := copy .Page .Content "nummeration_text"}}
+{{$text := copy .Page .Content "text"}}
+
+<section class="content">
+    <div class="section-content">
+        <div class="gradient-container" data-sal="slide-up" data-sal-duration="800">
+            <div class="gradient {{html (fmt "%s " $gradientColor) (get .Content "gradient_position")}}"></div>
+        </div>
+        {{if or $nummerationNumber $nummerationText}}
+            <div class="nummeration" data-sal="slide-up">
+                <div class="number">{{html $nummerationNumber}}</div>
+                <div class="text">{{html $nummerationText}}</div>
+            </div>
+        {{end}}
+        <h2 data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "headline")}}</h2>
+        {{if $text}}
+            <p data-sal="slide-up" data-sal-delay="200">{{html $text}}</p>
+        {{end}}
+        {{.CMS.Render .Page (index .Content.Content "children")}}
+    </div>
+</section>

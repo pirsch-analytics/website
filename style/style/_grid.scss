@@ -17,6 +17,7 @@
 
     .row {
         display: flex;
+        max-width: 100%;
         gap: var(--padding-small);
 
         &.two-one {
@@ -27,6 +28,11 @@
         &.one-two {
             display: grid;
             grid-template-columns: 1fr 2fr;
+        }
+
+        &.one-one-one {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
         }
     }
 
@@ -47,7 +53,7 @@
         .row {
             flex-direction: column;
 
-            &.two-one, &.one-two {
+            &.two-one, &.one-two, &.one-one-one {
                 grid-template-columns: 1fr;
             }
         }

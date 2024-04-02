@@ -16,7 +16,7 @@
                 },
                 {
                     "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 24 24' fill='none'><path d='M5 14.143s.875-.857 3.5-.857S12.875 15 15.5 15s3.5-.857 3.5-.857V3.857s-.875.857-3.5.857S11.125 3 8.5 3 5 3.857 5 3.857v10.286zm0 0V21' stroke='#adadad' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
-                    "label": "Feature Overview",
+                    "label": "All Features",
                     "href": "/features"
                 }
             ],

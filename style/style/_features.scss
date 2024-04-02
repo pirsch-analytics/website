@@ -13,8 +13,27 @@ section.features {
         background-color: var(--color-background-elevation);
     }
 
+    .actions {
+        display: flex;
+        margin-top: calc(var(--padding-small) / 2);
+        gap: 16px;
+    }
+
     .card {
         padding: var(--padding-small);
         gap: var(--padding-extra-small);
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .actions {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            .button {
+                width: 100%;
+                max-width: 384px;
+            }
+        }
     }
 }

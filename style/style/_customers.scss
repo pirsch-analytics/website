@@ -2,14 +2,14 @@ section.customers {
     margin-bottom: var(--padding-extra-large);
 
     .grid {
-        gap: var(--padding-medium);
         margin: 0;
+        gap: var(--padding-medium);
     }
 
     .row {
         align-items: center;
         justify-content: space-between;
-        padding: 0 var(--padding-medium);
+        padding: 0 var(--padding-large);
         opacity: .65;
     }
 
@@ -19,7 +19,7 @@ section.customers {
             grid-template-columns: 1fr 1fr;
             width: 100%;
             padding: 0;
-            gap: var(--padding-medium) var(--padding-extra-small);
+            gap: var(--padding-medium) 0;
 
             img {
                 margin: 0 auto;

@@ -1,0 +1,156 @@
+{
+    "path": {
+        "en": "/for-developers",
+        "de": "/de/for-developers"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {"ref": "header"},
+            {
+                "tpl": "hero",
+                "copy": {
+                    "en": {
+                        "headline": "Capable Web Analytics for Developers",
+                        "headline_class": "h2",
+                        "text": "Pirsch is a web analytics tool designed for developers. A powerful RESTful API, SDKs, scripts, and server-side integration allow you to fit it in your website or app with ease.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
+                    }
+                }
+            },
+            {"ref": "customers"},
+            {
+                "tpl": "content",
+                "data": {
+                    "gradient_color": "green",
+                    "gradient_position": "right"
+                },
+                "copy": {
+                    "en": {
+                        "headline": "Integrate It Your Way"
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 200
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "one-one"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Easy-to-use Snippet",
+                                                            "text": "Pirsch provides a lightweight, drop-in JavaScript snippet that is compatible with most frameworks, website builders, and content management systems."
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {"tpl": "snippet"}
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Flexible Plugins and Guides",
+                                                            "text": "Easily integrate Pirsch into your website using one of the available plugins or simple tutorials. Integrations for WordPress, Laravel, Caddy, Gatsby and more are readily available and a community of developers helps keep them up to date and constantly adding more."
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "marquee",
+                                                                "data": {
+                                                                    "images": [
+                                                                        {
+                                                                            "src": "go.svg",
+                                                                            "alt": "Go"
+                                                                        },
+                                                                        {
+                                                                            "src": "vue.svg",
+                                                                            "alt": "Vue"
+                                                                        },
+                                                                        {
+                                                                            "src": "angular.svg",
+                                                                            "alt": "Angular"
+                                                                        },
+                                                                        {
+                                                                            "src": "react.svg",
+                                                                            "alt": "React"
+                                                                        },
+                                                                        {
+                                                                            "src": "wordpress.svg",
+                                                                            "alt": "Wordpress"
+                                                                        },
+                                                                        {
+                                                                            "src": "framer.svg",
+                                                                            "alt": "Framer"
+                                                                        },
+                                                                        {
+                                                                            "src": "webflow.svg",
+                                                                            "alt": "Webflow"
+                                                                        },
+                                                                        {
+                                                                            "src": "laravel.svg",
+                                                                            "alt": "Laravel"
+                                                                        },
+                                                                        {
+                                                                            "src": "drupal.svg",
+                                                                            "alt": "Drupal"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "card",
+                                        "data": {
+                                            "class": "columns"
+                                        },
+                                        "copy": {
+                                            "en": {
+                                                "headline": "Utilize a Powerful API",
+                                                "text": "Pirsch was built from the ground up with automation in mind. Use the REST API to create dashboards, manage permissions, send traffic, and read statistics.<br><br>Fine-grained permission management makes it possible to work with a single dashboard or on an account basis, managing as many sites as you want. Whatever your use case, Pirsch integrates seamlessly into your application.",
+                                                "cta_label": "Read the Docs",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            }
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {"tpl": "code_tabs"}
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "end"}
+        ]
+    }
+}
