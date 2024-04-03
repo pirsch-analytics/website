@@ -1,3 +1,7 @@
+{{$standardFeatures := copy .Page .Content "standard_features"}}
+{{$plusFeatures := copy .Page .Content "plus_features"}}
+{{$enterpriseFeatures := copy .Page .Content "enterprise_features"}}
+
 <section class="pricing">
     <div class="section-content">
         <div class="gradient-container" data-sal="slide-up" data-sal-duration="800" style="top: calc((var(--padding-extra-large) - var(--padding-medium) - var(--header-height)) * -1);">
@@ -43,7 +47,6 @@
                 <hr>
                 <div class="pricing-tier-features">
                     <ul class="pricing-tier-features-list">
-                        {{$standardFeatures := copy .Page .Content "standard_features"}}
                         {{range $standardFeatures}}
                             <li>
                                 <span class="{{index . "class"}}">{{index . "label"}}</span>
@@ -72,7 +75,6 @@
                 <hr>
                 <div class="pricing-tier-features">
                     <ul class="pricing-tier-features-list">
-                        {{$plusFeatures := copy .Page .Content "plus_features"}}
                         {{range $plusFeatures}}
                             <li>
                                 <span class="{{index . "class"}}">{{index . "label"}}</span>
@@ -90,7 +92,6 @@
                 <hr>
                 <div class="pricing-tier-features">
                     <ul class="pricing-tier-features-list">
-                        {{$enterpriseFeatures := copy .Page .Content "enterprise_features"}}
                         {{range $enterpriseFeatures}}
                             <li>
                                 <span class="{{index . "class"}}">{{index . "label"}}</span>

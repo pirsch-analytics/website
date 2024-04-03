@@ -283,6 +283,18 @@
                                                             "headline": "Explore Sessions",
                                                             "text": "Learn more about individual user journeys with in-depth session summaries."
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "ab.svg",
+                                                                    "alt": "AB Testing with Pirsch Analytics",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 {
@@ -292,6 +304,18 @@
                                                             "headline": "Segment Visitors",
                                                             "text": "Tags help you leverage your data, whether it's for A/B testing or segmentation."
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "ab.svg",
+                                                                    "alt": "AB Testing with Pirsch Analytics",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 {
@@ -299,8 +323,20 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Utilize Webhooks",
-                                                            "text": "Stay up to date in the applications you already use with native webhooks."
+                                                            "text": "Stay up-to-date or trigger actions in the applications you already use with native webhooks."
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "webhooks.svg",
+                                                                    "alt": "Native Webhooks of Pirsch Analytics",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -315,7 +351,7 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Create Custom Events",
-                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                            "text": "Button clicks, checkouts, signups, and more. Quickly highlight important user activities in your funnel."
                                                         }
                                                     }
                                                 },
@@ -324,7 +360,7 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Monitor Conversion Goals",
-                                                            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."
+                                                            "text": "Keep an eye on your site's performance and track conversion goals with precision to optimize performance."
                                                         }
                                                     }
                                                 }
@@ -609,6 +645,7 @@
                 }
             },
             {"ref": "cta"},
+            {"ref": "footer"},
             {"ref": "end"}
         ]
     }

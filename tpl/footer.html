@@ -1,0 +1,121 @@
+{{$productLinks := copy .Page .Content "product_links"}}
+{{$resourcesLinks := copy .Page .Content "resources_links"}}
+{{$socialLinks := copy .Page .Content "social_links"}}
+{{$companyLinks := copy .Page .Content "company_links"}}
+
+<footer>
+    <div class="footer-content">
+        <ul>
+            <li>
+                <h2 class="h4">Pirsch Analytics</h2>
+                <small>{{copy .Page .Content "made_in"}}</small>
+                <small>© 2024 <a href="https://emvi.com" target="_blank" style="display: inline;">Emvi Software GmbH</a>. {{copy .Page .Content "all_rights"}}</small>
+                    <select id="language" class="language">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="it">Italiano</option>
+                        <option value="pt">Português</option>
+                        <option value="ja">日本語</option>
+                    </select>
+    
+                    <script>
+                        const translations = new Map;
+    
+                        
+                            translations.set("de", "https:\/\/pirsch.io\/de");
+                        
+                            translations.set("es", "https:\/\/pirsch.io\/es");
+                        
+                            translations.set("fr", "https:\/\/pirsch.io\/fr");
+                        
+                            translations.set("nl", "https:\/\/pirsch.io\/nl");
+                        
+                            translations.set("it", "https:\/\/pirsch.io\/it");
+                        
+                            translations.set("pt", "https:\/\/pirsch.io\/pt");
+                        
+                            translations.set("ja", "https:\/\/pirsch.io\/ja");
+                        
+                            translations.set("en", "https:\/\/pirsch.io\/");
+                        
+                            translations.set("x-default", "https:\/\/pirsch.io");
+                        
+    
+                        const langSelect = document.getElementById("language");
+    
+                        function getCookie(cookie) {
+                            const name = cookie + "=";
+                            const ca = document.cookie.split(';');
+    
+                            for(let i = 0; i < ca.length; i++) {
+                                const c = ca[i].trim();
+    
+                                if(c.indexOf(name) === 0) {
+                                    return c.substring(name.length);
+                                }
+                            }
+    
+                            return undefined;
+                        }
+    
+                        function setCookie(name, value) {
+                            const now = new Date();
+                            const time = now.getTime();
+                            const expire = time + 365 * 24 * 60 * 60 * 1000; 
+                            now.setTime(expire)
+                            document.cookie = `${name}=${value};SameSite=Strict;path=/;expires=${now.toUTCString()}`;
+                        }
+    
+                        document.addEventListener("DOMContentLoaded", () => {
+                            langSelect.value = getCookie("language") || document.documentElement.lang;
+    
+                            if(langSelect.value !== "en" && !location.pathname.startsWith("/"+langSelect.value)) {
+                                location = translations.get(langSelect.value);
+                                return;
+                            }
+    
+                            langSelect.addEventListener("change", e => {
+                                const current = getCookie("language");
+                                const value = e.target.value;
+    
+                                if(value !== current) {
+                                    setCookie("language", value);
+                                    location = translations.get(value);
+                                }
+                            });
+                        });
+                    </script>
+
+                <img src="static/img/gdpr-dark.svg" alt="GDPR compliance managed by valvisio consulting" loading="lazy">
+            </li>
+            <li style="grid-column: 4;">
+                <h2 class="h4">{{copy .Page .Content "product"}}</h2>
+                {{range $productLinks}}
+                    <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
+                {{end}}
+            </li>
+            <li style="grid-column: 5;">
+                <h2 class="h4">{{copy .Page .Content "resources"}}</h2>
+                {{range $resourcesLinks}}
+                    <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
+                {{end}}
+            </li>
+            <li style="grid-column: 4;">
+                <h2 class="h4">{{copy .Page .Content "social"}}</h2>
+                {{range $socialLinks}}
+                    <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
+                {{end}}
+            </li>
+            <li style="grid-column: 5;">
+                <h2 class="h4">{{copy .Page .Content "company"}}</h2>
+                {{range $companyLinks}}
+                    <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
+                    </a>
+                {{end}}
+            </li>
+        </ul>
+    </div>
+</footer>

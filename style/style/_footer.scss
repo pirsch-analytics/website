@@ -1,81 +1,89 @@
 footer {
-    width: 100%;
-    padding: 96px 0 64px;
+    display: grid;
+    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+    width: 100vw;
+    padding: var(--padding-medium) 16px;
 
-    & > small {
-        font-size: 12px;
-    }
+    .footer-content {
+        grid-column: 2;
 
-    ul {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 48px;
-
-        li {
-            &:first-of-type {
-                display: flex;
-                flex-direction: column;
-                flex: 1;
-                grid-column-start: span 2;
-                grid-row-start: span 2;
-            }
-
-            .h5 {
-                margin-bottom: 12px;
-            }
-
-            a {
-                display: block;
-                margin: 8px 0;
-                line-height: 1.5;
-                font-weight: 400 !important;
-                color: var(--color-secondary) !important;
-                white-space: nowrap;
-            }
-
-            small {
-                display: block;
-            }
-
-            select {
-                width: 120px;
-                margin: 32px 0 auto;
-                padding: 10px 24px 10px 12px;
-                font-family: inherit;
-                font-size: 16px;
-                font-weight: 500;
-                color: var(--color-primary);
-                background-color: var(--color-background-secondary);
-                border: none;
-                border-radius: 6px;
-                background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2014%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%3Cpath%20d%3D%22M1%201L7%207L13%201%22%20stroke%3D%22%23797c80%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0D%0A%3C%2Fsvg%3E');
-                background-repeat: no-repeat, repeat;
-                background-position: right 12px top 50%, 0 0;
-                background-size: 12px auto, 100%;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                user-select: none;
-        
-                /* Remove dotted line in Firefox */
-                &:-moz-focusring {
-                    color: transparent;
-                    text-shadow: 0 0 0 #000;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            width: 100%;
+            padding-inline-start: 0;
+            gap: 48px;
+            list-style: none;
+    
+            li {
+                &:first-of-type {
+                    display: flex;
+                    grid-row-start: span 2;
+                    grid-column-start: span 2;
+                    flex: 1;
+                    flex-direction: column;
                 }
-            }
-
-            img {
-                max-width: 384px;
-                margin: 32px 0 12px;
+    
+                .h4 {
+                    margin-bottom: 12px;
+                }
+    
+                a {
+                    display: block;
+                    margin: 8px 0;
+                    color: var(--color-secondary);
+                    font-weight: 400;
+                    white-space: nowrap;
+                }
+    
+                small {
+                    display: block;
+                }
+    
+                select {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    width: 144px;
+                    margin: 32px 0 auto;
+                    padding: 10px 24px 10px 12px;
+                    border: none;
+                    border-radius: 6px;
+                    background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2014%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%3Cpath%20d%3D%22M1%201L7%207L13%201%22%20stroke%3D%22%23797c80%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+                    background-position: right 12px top 50%, 0 0;
+                    background-size: 12px auto, 100%;
+                    background-repeat: no-repeat, repeat;
+                    background-color: var(--color-background-elevation);
+                    color: var(--color-primary);
+                    font-weight: 500;
+                    font-size: 16px;
+                    font-family: inherit;
+                    user-select: none;
+            
+                    /* Remove dotted line in Firefox */
+                    &:-moz-focusring {
+                        color: transparent;
+                        text-shadow: 0 0 0 #000;
+                    }
+    
+                    option {
+                        color: var(--black);
+                    }
+                }
+    
+                img {
+                    max-width: 384px;
+                    margin: 32px 0 12px;
+                }
             }
         }
     }
 
-    @media only screen and (max-width: 1024px) {
-        padding: 64px 0 32px;
-        
-        ul {
+
+    @media only screen and (max-width: 1024px) {        
+        grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+
+        .footer-content ul {
             display: flex;
             flex-direction: column;
             gap: 24px;

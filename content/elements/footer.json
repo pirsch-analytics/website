@@ -1,0 +1,149 @@
+{
+    "tpl": "footer",
+    "copy": {
+        "en": {
+            "made_in": "Made and hosted in Germany.",
+            "all_rights": "All rights reserved.",
+            "product": "Product",
+            "product_links": [
+                {
+                    "label": "Home",
+                    "href": "/"
+                },
+                {
+                    "label": "Live Demo",
+                    "href": "https://pirsch.pirsch.io/",
+                    "target": "_blank"
+                },
+                {
+                    "label": "Pricing",
+                    "href": "/pricing"
+                },
+                {
+                    "label": "Features",
+                    "href": "/features"
+                },
+                {
+                    "label": "Privacy-friendly Analytics",
+                    "href": "/privacy-friendly-analytics"
+                },
+                {
+                    "label": "Google Analytics Alternative",
+                    "href": "/google-analytics-alternative"
+                },
+                {
+                    "label": "White Label Web Analytics",
+                    "href": "/white-label-analytics"
+                },
+                {
+                    "label": "For Developers",
+                    "href": "/for-developers"
+                },
+                {
+                    "label": "For Agencies",
+                    "href": "/for-agencies"
+                },
+                {
+                    "label": "For Enterprises",
+                    "href": "/for-enterprises"
+                }
+            ],
+            "resources": "Resources",
+            "resources_links": [
+                {
+                    "label": "Blog",
+                    "href": "/blog"
+                },
+                {
+                    "label": "Documentation",
+                    "href": "https://docs.pirsch.io/",
+                    "target": "_blank"
+                },
+                {
+                    "label": "API & SDKs",
+                    "href": "https://docs.pirsch.io/api-sdks/api",
+                    "target": "_blank"
+                },
+                {
+                    "label": "Changelog",
+                    "href": "https://docs.pirsch.io/changelog",
+                    "target": "_blank"
+                },
+                {
+                    "label": "News",
+                    "href": "/news"
+                },
+                {
+                    "label": "UTM Generator",
+                    "href": "/utm-generator"
+                },
+                {
+                    "label": "Terms and Conditions",
+                    "href": "/terms"
+                },
+                {
+                    "label": "Privacy Policy",
+                    "href": "/privacy"
+                },
+                {
+                    "label": "DPA (English)",
+                    "href": "https://pirsch.io/static/files/Data%20Processing%20Agreement%20-%20Pirsch%20Analytics.pdf",
+                    "target": "_blank"
+                },
+                {
+                    "label": "DPA (German)",
+                    "href": "https://pirsch.io/static/files/Vertrag%20zur%20Auftragsverarbeitung%20-%20Pirsch%20Analytics.pdf",
+                    "target": "_blank"
+                }
+            ],
+            "social": "Social",
+            "social_links": [
+                {
+                    "label": "Forum",
+                    "href": "https://forum.pirsch.io/",
+                    "target": "_blank"
+                },
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/pirsch-analytics",
+                    "target": "_blank"
+                },
+                {
+                    "label": "Twitter",
+                    "href": "https://twitter.com/PirschAnalytics",
+                    "target": "_blank"
+                },
+                {
+                    "label": "Mastodon",
+                    "href": "https://social.anoxinon.de/@pirsch",
+                    "target": "_blank"
+                },
+                {
+                    "label": "ProductHunt",
+                    "href": "https://www.producthunt.com/products/pirsch-analytics",
+                    "target": "_blank"
+                },
+                {
+                    "label": "Indie Hackers",
+                    "href": "https://www.indiehackers.com/product/pirsch-analytics",
+                    "target": "_blank"
+                }
+            ],
+            "company": "Company",
+            "company_links": [
+                {
+                    "label": "Contact Us",
+                    "href": "mailto:support@pirsch.io"
+                },
+                {
+                    "label": "About Us",
+                    "href": "/about-us"
+                },
+                {
+                    "label": "Legal Notice",
+                    "href": "/legal"
+                }
+            ]
+        }
+    }
+}

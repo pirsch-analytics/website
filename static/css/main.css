@@ -619,6 +619,9 @@ button.grey, .button.grey {
 .card .card-content .button {
   margin-top: auto;
 }
+.card > img {
+  margin: 0 auto;
+}
 @media only screen and (max-width: 1024px) and (max-width: 1024px) {
   .card {
     max-width: 512px;
@@ -981,6 +984,86 @@ section.features .card {
   section.features .actions .button {
     width: 100%;
     max-width: 384px;
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+  width: 100vw;
+  padding: var(--padding-medium) 16px;
+}
+footer .footer-content {
+  grid-column: 2;
+}
+footer .footer-content ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  padding-inline-start: 0;
+  gap: 48px;
+  list-style: none;
+}
+footer .footer-content ul li:first-of-type {
+  display: flex;
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+  flex: 1;
+  flex-direction: column;
+}
+footer .footer-content ul li .h4 {
+  margin-bottom: 12px;
+}
+footer .footer-content ul li a {
+  display: block;
+  margin: 8px 0;
+  color: var(--color-secondary);
+  font-weight: 400;
+  white-space: nowrap;
+}
+footer .footer-content ul li small {
+  display: block;
+}
+footer .footer-content ul li select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 144px;
+  margin: 32px 0 auto;
+  padding: 10px 24px 10px 12px;
+  border: none;
+  border-radius: 6px;
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2014%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%3Cpath%20d%3D%22M1%201L7%207L13%201%22%20stroke%3D%22%23797c80%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0D%0A%3C%2Fsvg%3E");
+  background-position: right 12px top 50%, 0 0;
+  background-size: 12px auto, 100%;
+  background-repeat: no-repeat, repeat;
+  background-color: var(--color-background-elevation);
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  user-select: none;
+  /* Remove dotted line in Firefox */
+}
+footer .footer-content ul li select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+footer .footer-content ul li select option {
+  color: var(--black);
+}
+footer .footer-content ul li img {
+  max-width: 384px;
+  margin: 32px 0 12px;
+}
+@media only screen and (max-width: 1024px) {
+  footer {
+    grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+  }
+  footer .footer-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 }
 
@@ -1817,6 +1900,7 @@ section.tier-comparison {
 section.tier-comparison table {
   width: 960px;
   max-width: 100%;
+  margin-top: var(--padding-medium);
   border-collapse: collapse;
   border-spacing: 0;
 }

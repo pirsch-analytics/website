@@ -131,7 +131,7 @@
                                         },
                                         "copy": {
                                             "en": {
-                                                "headline": "Utilize a Powerful API",
+                                                "headline": "Powerful REST API",
                                                 "text": "Pirsch was built from the ground up with automation in mind. Use the REST API to create dashboards, manage permissions, send traffic, and read statistics.<br><br>Fine-grained permission management makes it possible to work with a single dashboard or on an account basis, managing as many sites as you want. Whatever your use case, Pirsch integrates seamlessly into your application.",
                                                 "cta_label": "Read the Docs",
                                                 "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
