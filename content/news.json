@@ -1,7 +1,6 @@
 {
     "path": {
-        "en": "/news",
-        "de": "/de/news"
+        "en": "/news"
     },
     "sitemap": {
         "priority": "0.1"
@@ -16,20 +15,16 @@
                     }
                 }
             },
+            {"ref": "header"},
             {
-                "tpl": "text",
+                "tpl": "news",
                 "copy": {
                     "en": {
-                        "headline": "News",
-                        "text": "Get the latest news and updates on Pirsch Analytics."
-                    },
-                    "de": {
-                        "headline": "News",
-                        "text": "Nachrichten und Updates über Pirsch Analytics."
+                        "headline": "News"
                     }
                 }
             },
-            {"tpl": "news"},
+            {"ref": "footer"},
             {"ref": "end"}
         ]
     }

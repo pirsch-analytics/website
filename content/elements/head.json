@@ -1,11 +1,3 @@
 {
-    "tpl": "head",
-    "copy": {
-        "en": {
-            "title": "Pirsch"
-        },
-        "de": {
-            "title": "Pirsch"
-        }
-    }
+    "tpl": "head"
 }

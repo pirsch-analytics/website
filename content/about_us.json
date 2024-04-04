@@ -1,0 +1,26 @@
+{
+    "path": {
+        "en": "/about-us",
+        "de": "/de/about-us"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {"ref": "header"},
+            {
+                "tpl": "text",
+                "copy": {
+                    "en": {
+                        "headline": "About Us",
+                        "text": "<h2>Who We Are</h2><p>Emvi Software GmbH was initially founded in 2019 for our first product <a href='https://emvi.com' target='_blank'>Emvi</a> by Marvin Blum and Daniel Schramm.</p><p>Marvin has a degree in computer science and basically been programming for his whole life. He is responsible for the technical bits and pieces, like the backend, server infrastructure, and documentation.</p><p>Daniel has a background in product design and mechanical engineering and is responsible for UI and UX. Most of what you see on the dashboard has been designed and implemented by him.</p><img src='static/img/team.jpg' alt='Marvin Blum &amp; Daniel Schramm' loading='lazy'><h2>How It Started</h2><p>When Marvin started rebuilding his personal website, he got curious about how well his blog posts perform. While adding Google Analytics has become standard, he wanted to try implementing something simple.</p><p>That was when he started working on an open-source library that could be integrated into Go applications. The reason for this decision was to analyze traffic on the server-side instead of embedding a JavaScript snippet. People with ad blockers made the information provided by Google Analytics unreliable.</p><h2>Building Pirsch Analytics</h2><p>The success of the library led us to the idea of building a SaaS with a sleek dashboard. We leverage the experience gained from building Emvi and poured all of it into what has now become Pirsch Analytics.</p><p>To this day, the core of Pirsch is <a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer'>open-source</a>. This means the way we collect data is fully transparent and anyone can implement their own dashboard for a website or app for free.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"}
+        ]
+    }
+}

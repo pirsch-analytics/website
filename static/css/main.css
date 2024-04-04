@@ -223,6 +223,10 @@ img {
   object-fit: contain;
 }
 
+ul, ol, li {
+  font-size: 18px;
+}
+
 hr {
   height: 2px;
   margin: 12px 0;
@@ -336,30 +340,30 @@ section.blog .article-card small {
   }
 }
 
-section.blog-article {
+section.text {
   margin-bottom: var(--padding-extra-large);
   padding-top: var(--padding-extra-large);
 }
-section.blog-article h1 {
+section.text h1 {
   font-size: 48px;
 }
-section.blog-article .article-info {
+section.text .article-info {
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 768px;
   margin: var(--padding-small) 0 0;
 }
-section.blog-article .article-info + div {
+section.text .article-info + div {
   width: 100%;
 }
-section.blog-article .article-info .article-author {
+section.text .article-info .article-author {
   display: flex;
   flex: 1;
   align-items: center;
   gap: 12px;
 }
-section.blog-article .article-info .article-author img {
+section.text .article-info .article-author img {
   width: 48px;
   min-width: 48px;
   height: 48px;
@@ -367,110 +371,113 @@ section.blog-article .article-info .article-author img {
   border-radius: 50%;
   cursor: default;
 }
-section.blog-article .article-info .article-author .article-author-name {
+section.text .article-info .article-author .article-author-name {
   display: block;
   margin-bottom: 4px;
 }
-section.blog-article .article-info .article-author .article-author-icons {
+section.text .article-info .article-author .article-author-icons {
   display: flex;
   gap: 6px;
 }
-section.blog-article .article-info .article-author .article-author-icons a {
+section.text .article-info .article-author .article-author-icons a {
   display: block;
   height: 18px;
 }
-section.blog-article article {
+section.text article {
   width: 768px;
   max-width: 100%;
   margin: 0 auto;
 }
-section.blog-article article h2 {
+section.text article + article {
+  border-top: solid 2px var(--color-secondary);
+}
+section.text article h2 {
   align-self: flex-start;
   margin: 32px 0 8px;
   font-size: 28px;
   letter-spacing: 0;
   text-align: left;
 }
-section.blog-article article h3 {
+section.text article h3 {
   align-self: flex-start;
   font-size: 20px;
   text-align: left;
 }
-section.blog-article article h4, section.blog-article article h5, section.blog-article article h6 {
+section.text article h4, section.text article h5, section.text article h6 {
   align-self: flex-start;
   font-size: 18px;
   text-align: left;
 }
-section.blog-article article h3, section.blog-article article h4, section.blog-article article h5, section.blog-article article h6 {
+section.text article h3, section.text article h4, section.text article h5, section.text article h6 {
   margin: -12px 0;
   padding: 24px 0 12px;
 }
-section.blog-article article p {
+section.text article p {
   width: 100%;
   margin: 16px 0;
   text-align: left;
 }
-section.blog-article article p a {
+section.text article p a {
   color: var(--white);
 }
-section.blog-article article small {
+section.text article small {
   display: block;
   padding-bottom: 12px;
   color: var(--color-secondary);
 }
-section.blog-article article li {
+section.text article li {
   margin: 8px 0;
   color: var(--color-secondary);
   font-size: inherit;
 }
-section.blog-article article ol {
+section.text article ol {
   margin: 8px 0;
-  padding-left: 16px;
+  padding-left: 24px;
   list-style-type: decimal;
 }
-section.blog-article article ul {
+section.text article ul {
   margin: 8px 0;
-  padding-left: 16px;
+  padding-left: 24px;
   list-style-type: disc;
 }
-section.blog-article article em {
+section.text article em {
   font-style: italic;
 }
-section.blog-article article strong {
+section.text article strong {
   font-weight: 500;
 }
-section.blog-article article img {
+section.text article img {
   display: block;
   max-width: 100%;
   margin: 32px auto;
   border-radius: var(--border-radius-medium);
   cursor: zoom-in;
 }
-section.blog-article article video {
+section.text article video {
   max-width: 100%;
   margin: 32px auto;
   border-radius: var(--border-radius-medium);
 }
-section.blog-article article a {
+section.text article a {
   color: var(--color-primary);
   font-weight: 500;
   font-size: inherit;
   transition: opacity 0.1s ease;
 }
-section.blog-article article a:hover, section.blog-article article a:focus {
+section.text article a:hover, section.text article a:focus {
   opacity: 0.8;
 }
-section.blog-article article a img {
+section.text article a img {
   width: auto;
   margin: 0;
   cursor: pointer;
 }
-section.blog-article article blockquote {
+section.text article blockquote {
   max-width: 100%;
   padding-left: 12px;
   border-left: 2px solid var(--color-secondary);
 }
-section.blog-article article pre {
+section.text article pre {
   width: 100%;
   max-width: 100%;
   margin: 32px 0;
@@ -479,11 +486,11 @@ section.blog-article article pre {
   border-radius: var(--border-radius-medium);
   background-color: var(--color-background-elevation);
 }
-section.blog-article article pre code {
+section.text article pre code {
   padding: 0 !important;
   background-color: transparent;
 }
-section.blog-article article code {
+section.text article code {
   padding: 0 4px;
   border-radius: 4px;
   background-color: var(--color-background-elevation);
@@ -491,45 +498,45 @@ section.blog-article article code {
   line-height: 1.5;
   font-family: "DM Mono", monospace;
 }
-section.blog-article article table {
+section.text article table {
   margin: 0 auto !important;
   border: 1px solid var(--color-secondary);
   border-collapse: separate;
   border-spacing: 0;
   table-layout: fixed;
 }
-section.blog-article article table td, section.blog-article article table th {
+section.text article table td, section.text article table th {
   padding: 8px 12px;
   border: 1px solid var(--color-secondary);
 }
-section.blog-article article table th {
+section.text article table th {
   background-color: var(--color-secondary);
 }
-section.blog-article article sub {
+section.text article sub {
   font-size: small;
   vertical-align: sub;
 }
-section.blog-article article sup {
+section.text article sup {
   font-size: small;
   vertical-align: super;
 }
-section.blog-article article abbr {
+section.text article abbr {
   border-bottom: 1px dotted;
   cursor: help;
 }
-section.blog-article article kbd {
+section.text article kbd {
   padding: 2px 3px;
   border-radius: 4px;
   background-color: var(--color-background-elevation);
   font-weight: 500;
   font-size: small;
 }
-section.blog-article article mark {
+section.text article mark {
   padding: 0 4px;
   border-radius: 4px;
   background-color: var(--color-primary);
 }
-section.blog-article article hr {
+section.text article hr {
   height: 2px;
   margin: 24px 0;
   border: none;
@@ -537,17 +544,17 @@ section.blog-article article hr {
   opacity: 0.2;
 }
 @media only screen and (max-width: 1024px) {
-  section.blog-article h1 {
+  section.text h1 {
     font-size: 32px;
   }
-  section.blog-article article {
+  section.text article {
     width: 512px;
     max-width: calc(100vw - 32px);
   }
-  section.blog-article article h2 {
+  section.text article h2 {
     font-size: 22px;
   }
-  section.blog-article article h3 {
+  section.text article h3 {
     font-size: 18px;
   }
 }

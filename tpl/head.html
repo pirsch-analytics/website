@@ -1,6 +1,6 @@
-{{- $title := "Pirsch - Cookie-free and Privacy-friendly Web Analytics" -}}
+{{- $title := "Pirsch – Cookie-free and Privacy-friendly Web Analytics" -}}
 {{- if (copy .Page .Content "title") -}}
-    {{$title = fmt "%s - %s" (copy .Page .Content "title") pageTitle}}
+    {{$title = fmt "%s – %s" (copy .Page .Content "title") pageTitle}}
 {{- end -}}
 {{- $metaDescription := "Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend." -}}
 {{- if (copy .Page .Content "meta_description") -}}

@@ -1,12 +1,12 @@
 <section id="cta" class="cta">
     <div class="section-content">
-        <div class="gradient-container" data-sal="slide-up" style="top: calc(var(--padding-extra-large) * -1); --sal-duration: .8s;">
+        <div class="gradient-container" style="top: calc(var(--padding-extra-large) * -1); --sal-duration: .8s;">
             <div class="gradient green"></div>
         </div>
-        <img src="../static/img/cta.svg" alt="Pirsch Analytics Icon" loading="lazy" data-sal="slide-up">
-        <h2 data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "headline")}}</h2>
-        <p data-sal="slide-up" data-sal-delay="200">{{html (copy .Page .Content "text")}}</p>
-        <div class="actions" data-sal="slide-up" data-sal-delay="300">
+        <img src="../static/img/cta.svg" alt="Pirsch Analytics Icon" loading="lazy">
+        <h2>{{html (copy .Page .Content "headline")}}</h2>
+        <p>{{html (copy .Page .Content "text")}}</p>
+        <div class="actions">
             <a href="/signup" class="button">{{html (copy .Page .Content "cta")}}</a>
         </div>
     </div>

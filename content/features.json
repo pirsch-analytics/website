@@ -6,17 +6,14 @@
     "sitemap": {
         "priority": "0.5"
     },
-    "analytics": {
-        "tags": {
-            "key": "value"
-        }
-    },
     "content": {
         "content": [
             {"ref": "head"},
             {"ref": "header"},
             {"ref": "feature_overview"},
-            {"ref": "cta"}
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
         ]
     }
 }

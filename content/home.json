@@ -6,11 +6,6 @@
     "sitemap": {
         "priority": "1.0"
     },
-    "analytics": {
-        "tags": {
-            "key": "value"
-        }
-    },
     "content": {
         "content": [
             {"ref": "head"},

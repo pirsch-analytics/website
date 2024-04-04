@@ -1,11 +1,15 @@
-<section id="summary" class="summary">
-    <ul class="news">
+<section class="text">
+    <div class="section-content">
+        <div class="gradient-container" style="top: calc((var(--padding-extra-large) - var(--header-height)) * -1);">
+            <div class="gradient white"></div>
+        </div>
+        <h1 class="h2">{{html (copy .Page .Content "headline")}}</h1>
         {{range $news := news}}
-            <li>
+            <article>
                 <h2 class="h3">{{$news.Headline}}</h2>
                 <small>{{formatDate $news.Date "02. January 2006"}}</small>
                 {{html $news.Content}}
-            </li>
+            </article>
         {{end}}
-    </ul>
+    </div>
 </section>

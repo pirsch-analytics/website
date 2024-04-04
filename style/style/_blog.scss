@@ -28,7 +28,7 @@ section.blog {
     }
 }
 
-section.blog-article {
+section.text {
     margin-bottom: var(--padding-extra-large);
     padding-top: var(--padding-extra-large);
 
@@ -83,6 +83,10 @@ section.blog-article {
         width: 768px;
         max-width: 100%;
         margin: 0 auto;
+
+        & + article {
+            border-top: solid 2px var(--color-secondary);
+        }
         
         h2 {
             align-self: flex-start;
@@ -133,13 +137,13 @@ section.blog-article {
         
         ol {
             margin: 8px 0;
-            padding-left: 16px;
+            padding-left: 24px;
             list-style-type: decimal;
         }
         
         ul {
             margin: 8px 0;
-            padding-left: 16px;
+            padding-left: 24px;
             list-style-type: disc;
         }
         
