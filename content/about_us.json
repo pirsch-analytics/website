@@ -20,7 +20,8 @@
                 }
             },
             {"ref": "cta"},
-            {"ref": "footer"}
+            {"ref": "footer"},
+            {"ref": "end"}
         ]
     }
 }

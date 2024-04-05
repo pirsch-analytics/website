@@ -6,20 +6,24 @@
     "sitemap": {
         "priority": "0.7"
     },
-    "analytics": {
-        "tags": {
-            "key": "value"
-        }
-    },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "Simple Pricing"
+                    }
+                }
+            },
             {"ref": "header"},
             {"ref": "pricing_tiers"},
             {"ref": "customers"},
             {"ref": "tier_comparison"},
             {"ref": "faq"},
-            {"ref": "cta"}
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
         ]
     }
 }

@@ -12,6 +12,7 @@
             {"ref": "head"},
             {"ref": "header"},
             {"tpl": "blog_overview"},
+            {"ref": "footer"},
             {"ref": "end"}
         ]
     }

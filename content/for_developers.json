@@ -150,6 +150,7 @@
                 }
             },
             {"ref": "cta"},
+            {"ref": "footer"},
             {"ref": "end"}
         ]
     }

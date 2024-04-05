@@ -12,6 +12,7 @@
             {"ref": "header"},
             {"tpl": "blog_article"},
             {"ref": "cta"},
+            {"ref": "footer"},
             {"ref": "end"}
         ]
     }
