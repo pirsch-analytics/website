@@ -1,5 +1,6 @@
 @mixin hover {
     @media only screen and (min-width: 513px) {
+        cursor: pointer;
         transition: opacity .1s ease;
 
         &:hover {

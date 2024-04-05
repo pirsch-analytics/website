@@ -4,6 +4,34 @@
         "en": {
             "headline": "This portal is not going anywhere.",
             "cta": "Back to Homepage"
+        },
+        "de": {
+            "headline": "Dieses Portal geht nirgendwo hin.",
+            "cta": "Zurück zur Startseite"
+        },
+        "es": {
+            "headline": "Este portal no va a ninguna parte.",
+            "cta": "Volver a la página de inicio"
+        },
+        "fr": {
+            "headline": "Ce portail ne va nulle part.",
+            "cta": "Retour à la page d'accueil"
+        },
+        "nl": {
+            "headline": "Dit portaal gaat nergens heen.",
+            "cta": "Terug naar Homepage"
+        },
+        "it": {
+            "headline": "Questo portale non va da nessuna parte.",
+            "cta": "Torna alla Homepage"
+        },
+        "pt": {
+            "headline": "Este portal não está indo a lugar nenhum.",
+            "cta": "Voltar à Página Inicial"
+        },
+        "ja": {
+            "headline": "このポータルはどこにも行きません。",
+            "cta": "ホームページに戻る"
         }
     }
 }

@@ -2,9 +2,44 @@
     "tpl": "cta",
     "copy": {
         "en": {
-            "headline": "Ready to Get Started?",
-            "text": "Try Pirsch Analytics free of charge for 30 days with no credit card required. Setting up your first website only takes a few minutes.",
+            "headline": "Ready to level up your analytics?",
+            "text": "Try Pirsch Analytics free of charge for 30 days with no credit card required. Pick the best Google Analytics alternative, setting up your first website only takes a few minutes.",
             "cta": "Get Started For Free" 
+        },
+        "de": {
+            "headline": "Bereit, deine Analysen auf das nächste Level zu bringen?",
+            "text": "Probiere Pirsch Analytics 30 Tage lang kostenlos ohne Kreditkarte aus. Wähle die beste Alternative zu Google Analytics, die Einrichtung deiner ersten Website dauert nur wenige Minuten.",
+            "cta": "Kostenlos Starten"
+        },
+        "es": {
+            "headline": "¿Listo para llevar tus análisis al siguiente nivel?",
+            "text": "Prueba Pirsch Analytics gratis durante 30 días sin necesidad de tarjeta de crédito. Elige la mejor alternativa a Google Analytics, configurar tu primer sitio web solo toma unos minutos.",
+            "cta": "Comenzar Gratis"
+        },
+        "fr": {
+            "headline": "Prêt à améliorer vos analyses ?",
+            "text": "Essayez Pirsch Analytics gratuitement pendant 30 jours sans carte de crédit requise. Choisissez la meilleure alternative à Google Analytics, configurer votre premier site web ne prend que quelques minutes.",
+            "cta": "Commencer Gratuitement"
+        },
+        "nl": {
+            "headline": "Klaar om je analyses naar een hoger niveau te tillen?",
+            "text": "Probeer Pirsch Analytics 30 dagen lang gratis, zonder dat een creditcard nodig is. Kies het beste alternatief voor Google Analytics, het opzetten van je eerste website duurt slechts enkele minuten.",
+            "cta": "Gratis Beginnen"
+        },
+        "it": {
+            "headline": "Pronto a migliorare le tue analisi?",
+            "text": "Prova Pirsch Analytics gratuitamente per 30 giorni senza bisogno di carta di credito. Scegli la migliore alternativa a Google Analytics, impostare il tuo primo sito web richiede solo pochi minuti.",
+            "cta": "Inizia Gratuitamente"
+        },
+        "pt": {
+            "headline": "Pronto para elevar suas análises?",
+            "text": "Experimente o Pirsch Analytics gratuitamente por 30 dias sem necessidade de cartão de crédito. Escolha a melhor alternativa ao Google Analytics, configurar seu primeiro site leva apenas alguns minutos.",
+            "cta": "Comece Grátis"
+        },
+        "ja": {
+            "headline": "分析を次のレベルに引き上げますか？",
+            "text": "クレジットカード不要でPirsch Analyticsを30日間無料でお試しいただけます。Google Analyticsの最良の代替を選択し、最初のウェブサイトの設定には数分しかかかりません。",
+            "cta": "無料で始める"
         }
     }
 }

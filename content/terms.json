@@ -1,7 +1,6 @@
 {
     "path": {
-        "en": "/terms",
-        "de": "/de/terms"
+        "en": "/terms"
     },
     "sitemap": {
         "priority": "0.1"

@@ -9,42 +9,42 @@ fieldset:not(.file) {
     input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="color"]):not([type="range"]),
     textarea,
     select {
-        width: 100%;
-        display: block;
-        padding: 21px 12px 6px;
-        font-family: inherit;
-        font-size: 16px;
-        color: var(--color-primary);
-        background-color: var(--color-background-secondary);
-        border: none;
-        border-radius: calc(var(--border-radius-primary) / 2);
         -webkit-appearance: none;
+        display: block;
+        width: 100%;
+        padding: 21px 12px 6px;
+        border: none;
+        border-radius: 6px;
+        background-color: var(--color-background-elevation);
+        color: var(--color-primary);
+        font-size: 16px;
+        font-family: inherit;
     
         &:focus:not(:disabled),
         &:focus-within:not(:disabled) {
-            color: var(--color-primary);
-            box-shadow: 0 0 0 1px var(--color-secondary);
             outline: none;
+            box-shadow: 0 0 0 1px var(--color-secondary);
+            color: var(--color-primary);
             
             /* Move label to top when input is focused */
             & + label {
-                font-size: 13px;
 				transform: translateY(-10px);
+                font-size: 13px;
 			}
         }
 
         /* Move label to top when input is not empty */
         &:not(:placeholder-shown) + label,
         &.placeholder + label {
-            font-size: 13px;
             transform: translateY(-10px);
+            font-size: 13px;
         }
 
         /* Disabled */
         &:disabled {
             color: var(--color-secondary);
-            opacity: .5;
             cursor: default;
+            opacity: .5;
 
             & ~ label,
             & ~ small {
@@ -56,22 +56,22 @@ fieldset:not(.file) {
 
     textarea {
         height: 96px;
-        max-height: 256px;
         min-height: 48px;
-        resize: vertical;
+        max-height: 256px;
         overflow-y: auto;
+        resize: vertical;
     }
 
     select {
-        height: 48px;
-        padding: 20px 32px 4px 12px;
-        background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010%205%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M4.646+4.646a.5.5%200%200%200%20.707%200L9.146.854A.5.5%200%200%200%208.793+0H1.207a.5.5%200%200%200-.354.854l3.793%203.793z%22%20fill%3D%22%23797c80%22%2F%3E%3C%2Fsvg%3E');
-        background-repeat: no-repeat, repeat;
-        background-position: right 12px top 50%, 0 0;
-        background-size: 12px auto, 100%;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        height: 48px;
+        padding: 20px 32px 4px 12px;
+        background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010%205%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M4.646+4.646a.5.5%200%200%200%20.707%200L9.146.854A.5.5%200%200%200%208.793+0H1.207a.5.5%200%200%200-.354.854l3.793%203.793z%22%20fill%3D%22%23797c80%22%2F%3E%3C%2Fsvg%3E');
+        background-position: right 12px top 50%, 0 0;
+        background-size: 12px auto, 100%;
+        background-repeat: no-repeat, repeat;
         
         /* Remove dotted line in Firefox */
         &:-moz-focusring {
@@ -87,21 +87,21 @@ fieldset:not(.file) {
     input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="color"]):not([type="range"]) + label,
     textarea + label,
     select + label {
+        display: block;
         position: absolute;
         top: 14px;
         left: 12px;
         max-width: calc(100% - 24px);
-        display: block;
-        line-height: 1.5;
-        color: var(--color-secondary);
-        white-space: nowrap;
         overflow: hidden;
+        color: var(--color-secondary);
+        line-height: 1.5;
         text-overflow: ellipsis;
+        white-space: nowrap;
         pointer-events: none;
-        user-select: none;
-        transition-property: font-size, color, transform;
         transition-duration: .1s;
+        transition-property: font-size, color, transform;
         transition-timing-function: ease;
+        user-select: none;
     }
 
     small {
@@ -111,15 +111,15 @@ fieldset:not(.file) {
         line-height: 18px;
 
         &.error {
-            color: var(--color-red);
+            color: var(--red);
         }
 
         .green {
-            color: var(--color-green);
+            color: var(--green);
         }
 
         .red {
-            color: var(--color-red);
+            color: var(--red);
         }
     }
 }
@@ -128,55 +128,55 @@ fieldset:not(.file) {
 fieldset:not(.toggle) {
     /* Hide standard checkbox */
     input[type="checkbox"] {
+        -webkit-appearance: none;
+        z-index: -1;
         position: absolute;
-        height: 16px;
         width: 16px;
+        height: 16px;
         margin: 4px 10px;
         opacity: 0;
-        z-index: -1;
-        -webkit-appearance: none;
         
         & + label {
+            display: inline-block;
             position: relative;
             min-height: 16px;
-            display: inline-block;
             padding-left: 32px;
             line-height: 1.5;
         }
 
         /* Checkbox setup */
         & + label::before {
-            content: "";
+            display: block;
             position: absolute;
             left: -4px;
-            height: 16px;
             width: 16px;
+            height: 16px;
             margin: 4px 10px;
-            display: block;
             float: left;
+            border-radius: 12px;
             background-color: var(--white);
-            border-radius: calc(var(--border-radius-primary) / 2 - 2px);
+            content: "";
             cursor: pointer;
         }
 
         /* Tick setup */
         & + label::after {
-            content: "";
             position: absolute;
             top: 4px;
             left: 12px;
-            height: 9px;
             width: 4px;
+            height: 9px;
+            transform: rotate(45deg);
             box-shadow: 1.5px 1.5px 0 .5px var(--black);
+            content: "";
             opacity: 0;
             pointer-events: none;
-            transform: rotate(45deg);
         }
 
         /* Disabled */
         &:disabled {
-            opacity: .5;
             cursor: default;
+            opacity: .5;
 
             & + label {
                 color: var(--color-secondary);

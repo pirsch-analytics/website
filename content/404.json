@@ -1,13 +1,27 @@
 {
     "path": {
-        "en": "/404"
+        "en": "/404",
+        "de": "/de/404",
+        "es": "/es/404",
+        "fr": "/fr/404",
+        "nl": "/nl/404",
+        "it": "/it/404",
+        "pt": "/pt/404",
+        "jp": "/jp/404"
     },
     "sitemap": {
         "priority": "0.01"
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "404"
+                    }
+                }
+            },
             {"ref": "header"},
             {"ref": "notfound"},
             {"ref": "end"}

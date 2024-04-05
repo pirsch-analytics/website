@@ -60,6 +60,7 @@ a {
 
 fieldset, input, button, textarea, select {
   margin: 0;
+  padding: 0;
   border: none;
   outline: none;
   font: inherit;
@@ -211,6 +212,7 @@ a {
 }
 @media only screen and (min-width: 513px) {
   a {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   a:hover {
@@ -225,6 +227,12 @@ img {
 
 ul, ol, li {
   font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 hr {
@@ -345,6 +353,7 @@ section.text {
   padding-top: var(--padding-extra-large);
 }
 section.text h1 {
+  max-width: 768px;
   font-size: 48px;
 }
 section.text .article-info {
@@ -577,6 +586,7 @@ button, .button {
 }
 @media only screen and (min-width: 513px) {
   button, .button {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   button:hover, .button:hover {
@@ -675,6 +685,7 @@ button.grey, .button.grey {
 }
 @media only screen and (min-width: 513px) {
   .code-tabs span {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   .code-tabs span:hover {
@@ -1202,6 +1213,7 @@ header .header-content .logo {
 }
 @media only screen and (min-width: 513px) {
   header .header-content .logo {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   header .header-content .logo:hover {
@@ -1292,6 +1304,7 @@ header .header-content .icon {
 }
 @media only screen and (min-width: 513px) {
   header .header-content .icon {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   header .header-content .icon:hover {
@@ -1425,6 +1438,209 @@ section.hero figure {
   section.hero .customers .customers-content {
     max-width: 112px;
   }
+}
+
+/* Fieldset setup */
+fieldset {
+  position: relative;
+  min-width: 32px;
+}
+
+/* Input, textarea and select */
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]),
+fieldset:not(.file) textarea,
+fieldset:not(.file) select {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: 21px 12px 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--color-background-elevation);
+  color: var(--color-primary);
+  font-size: 16px;
+  font-family: inherit;
+  /* Move label to top when input is not empty */
+  /* Disabled */
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):focus:not(:disabled), fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):focus-within:not(:disabled),
+fieldset:not(.file) textarea:focus:not(:disabled),
+fieldset:not(.file) textarea:focus-within:not(:disabled),
+fieldset:not(.file) select:focus:not(:disabled),
+fieldset:not(.file) select:focus-within:not(:disabled) {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--color-secondary);
+  color: var(--color-primary);
+  /* Move label to top when input is focused */
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):focus:not(:disabled) + label, fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):focus-within:not(:disabled) + label,
+fieldset:not(.file) textarea:focus:not(:disabled) + label,
+fieldset:not(.file) textarea:focus-within:not(:disabled) + label,
+fieldset:not(.file) select:focus:not(:disabled) + label,
+fieldset:not(.file) select:focus-within:not(:disabled) + label {
+  transform: translateY(-10px);
+  font-size: 13px;
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):not(:placeholder-shown) + label, fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]).placeholder + label,
+fieldset:not(.file) textarea:not(:placeholder-shown) + label,
+fieldset:not(.file) textarea.placeholder + label,
+fieldset:not(.file) select:not(:placeholder-shown) + label,
+fieldset:not(.file) select.placeholder + label {
+  transform: translateY(-10px);
+  font-size: 13px;
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):disabled,
+fieldset:not(.file) textarea:disabled,
+fieldset:not(.file) select:disabled {
+  color: var(--color-secondary);
+  cursor: default;
+  opacity: 0.5;
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):disabled ~ label, fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]):disabled ~ small,
+fieldset:not(.file) textarea:disabled ~ label,
+fieldset:not(.file) textarea:disabled ~ small,
+fieldset:not(.file) select:disabled ~ label,
+fieldset:not(.file) select:disabled ~ small {
+  opacity: 0.5;
+  user-select: none;
+}
+fieldset:not(.file) textarea {
+  height: 96px;
+  min-height: 48px;
+  max-height: 256px;
+  overflow-y: auto;
+  resize: vertical;
+}
+fieldset:not(.file) select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 48px;
+  padding: 20px 32px 4px 12px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010%205%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M4.646+4.646a.5.5%200%200%200%20.707%200L9.146.854A.5.5%200%200%200%208.793+0H1.207a.5.5%200%200%200-.354.854l3.793%203.793z%22%20fill%3D%22%23797c80%22%2F%3E%3C%2Fsvg%3E");
+  background-position: right 12px top 50%, 0 0;
+  background-size: 12px auto, 100%;
+  background-repeat: no-repeat, repeat;
+  /* Remove dotted line in Firefox */
+}
+fieldset:not(.file) select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+fieldset:not(.file) option {
+  background-color: var(--color-background-secondary);
+}
+fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]) + label,
+fieldset:not(.file) textarea + label,
+fieldset:not(.file) select + label {
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  max-width: calc(100% - 24px);
+  overflow: hidden;
+  color: var(--color-secondary);
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+  transition-duration: 0.1s;
+  transition-property: font-size, color, transform;
+  transition-timing-function: ease;
+  user-select: none;
+}
+fieldset:not(.file) small {
+  display: block;
+  margin: 4px 8px 8px;
+  font-size: 13px;
+  line-height: 18px;
+}
+fieldset:not(.file) small.error {
+  color: var(--red);
+}
+fieldset:not(.file) small .green {
+  color: var(--green);
+}
+fieldset:not(.file) small .red {
+  color: var(--red);
+}
+
+/* Checkbox */
+fieldset:not(.toggle) {
+  /* Hide standard checkbox */
+  /* Checkbox focused and unchecked */
+  /* Checkbox focused and checked */
+  /* Checkbox unfocused and checked */
+  /* Show tick when checked */
+}
+fieldset:not(.toggle) input[type=checkbox] {
+  -webkit-appearance: none;
+  z-index: -1;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin: 4px 10px;
+  opacity: 0;
+  /* Checkbox setup */
+  /* Tick setup */
+  /* Disabled */
+}
+fieldset:not(.toggle) input[type=checkbox] + label {
+  display: inline-block;
+  position: relative;
+  min-height: 16px;
+  padding-left: 32px;
+  line-height: 1.5;
+}
+fieldset:not(.toggle) input[type=checkbox] + label::before {
+  display: block;
+  position: absolute;
+  left: -4px;
+  width: 16px;
+  height: 16px;
+  margin: 4px 10px;
+  float: left;
+  border-radius: 12px;
+  background-color: var(--white);
+  content: "";
+  cursor: pointer;
+}
+fieldset:not(.toggle) input[type=checkbox] + label::after {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  width: 4px;
+  height: 9px;
+  transform: rotate(45deg);
+  box-shadow: 1.5px 1.5px 0 0.5px var(--black);
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+}
+fieldset:not(.toggle) input[type=checkbox]:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+fieldset:not(.toggle) input[type=checkbox]:disabled + label {
+  color: var(--color-secondary);
+  opacity: 0.5;
+}
+fieldset:not(.toggle) input[type=checkbox]:disabled:checked + label::before {
+  background-color: var(--color-secondary);
+  cursor: default;
+}
+fieldset:not(.toggle) input[type=checkbox]:focus + label::before {
+  box-shadow: 0 0 0 1px var(--color-secondary);
+}
+fieldset:not(.toggle) input[type=checkbox]:checked:focus + label::before {
+  box-shadow: 0 0 0 1px var(--color-secondary);
+}
+fieldset:not(.toggle) input[type=checkbox]:checked + label::before {
+  background-color: var(--color-accent);
+  box-shadow: none;
+}
+fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
+  opacity: 1;
 }
 
 .accordion {
@@ -1736,6 +1952,7 @@ section.pricing .section-content .pricing-slider .billing-switch label {
 }
 @media only screen and (min-width: 513px) {
   section.pricing .section-content .pricing-slider .billing-switch label {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   section.pricing .section-content .pricing-slider .billing-switch label:hover {
@@ -1966,6 +2183,7 @@ section.tier-comparison th .table-header-title svg {
 }
 @media only screen and (min-width: 513px) {
   section.tier-comparison th .table-header-title svg {
+    cursor: pointer;
     transition: opacity 0.1s ease;
   }
   section.tier-comparison th .table-header-title svg:hover {

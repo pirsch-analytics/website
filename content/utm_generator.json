@@ -1,0 +1,473 @@
+{
+    "path": {
+        "en": "/utm-generator",
+        "de": "/de/utm-generator",
+        "es": "/es/utm-generator",
+        "fr": "/fr/utm-generator",
+        "nl": "/nl/utm-generator",
+        "it": "/it/utm-generator",
+        "pt": "/pt/utm-generator",
+        "jp": "/jp/utm-generator"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "UTM Generator for Campaign Tracking"
+                    },
+                    "de": {
+                        "title": "UTM-Generator für Kampagnen-Tracking"
+                    },
+                    "es": {
+                        "title": "Generador de UTM para el Seguimiento de Campañas"
+                    },
+                    "fr": {
+                        "title": "Générateur UTM pour le Suivi de Campagnes"
+                    },
+                    "nl": {
+                        "title": "UTM Generator voor Campagne Tracking"
+                    },
+                    "it": {
+                        "title": "Generatore UTM per il Tracciamento delle Campagne"
+                    },
+                    "pt": {
+                        "title": "Gerador UTM para Rastreamento de Campanhas"
+                    },
+                    "ja": {
+                        "title": "キャンペーン追跡のためのUTMジェネレーター"
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "utm_generator",
+                "copy": {
+                    "en": {
+                        "headline": "UTM Generator for Campaign Tracking",
+                        "text": "Improve the quality of your web analytics data by adding UTM parameters to inbound links with this free campaign URL builder available here.",
+                        "url": "URL",
+                        "url_hint": "Full URL of the page to which the traffic is sent, including the protocol (https)",
+                        "source": "Source",
+                        "source_hint": "Source for the campaign, such as social media or search engines",
+                        "medium": "Medium",
+                        "medium_hint": "Medium of the campaign, such as email or mobile",
+                        "campaign": "Campaign",
+                        "campaign_hint": "Name of the campaign, such as 'Summer Sale' or 'Promo Code'",
+                        "content": "Content",
+                        "content_hint": "For more accurate tracking or A/B testing, such as header or footer",
+                        "term": "Term",
+                        "term_hint": "For (paid) search terms, such as shoe store or privacy analytics",
+                        "your_url": "Your URL",
+                        "copy": "Copy to Clipboard",
+                        "confirmation": "Copied to clipboard!",
+                        "please_enter": "Please enter a URL.",
+                        "valid_url": "Please enter a valid URL.",
+                        "copy_error": "Copying to clipboard is not supported by your browser.",
+                        "questions": [
+                            {
+                                "question": "What are UTM parameters?",
+                                "answer": "Urchin Tracking Module (UTM) parameters were first introduced by Google Analytics' predecessor Urchin and are a widely accepted tool to track the effectiveness of online marketing campaigns. With Pirsch, you can use UTM parameters to break down how many people visited your website and compare the results of your campaigns."
+                            },
+                            {
+                                "question": "How does a UTM campaign work?",
+                                "answer": "A UTM campaign works by appending specific tags to your URLs, which can then be tracked by analytics platforms like Google Analytics. These tags help you understand where your website traffic is coming from and which marketing campaigns are driving the most engagement and conversions."
+                            },
+                            {
+                                "question": "Why should I use UTM parameters?",
+                                "answer": "UTM parameters allow you to take a closer look at the origin of your website visitors. Pirsch shows where a visitor comes from by the referrer, but this information is not always passed on by the browser. In addition, only the origin website is listed, but not, for example, on which link on a page was clicked. With the help of UTM parameters, you get precise information about which links were clicked on which page and at the same time improve the reliability of your statistics."
+                            },
+                            {
+                                "question": "What are the UTM parameters and how do I use them?",
+                                "answer": "There are five UTM parameters in total. Namely utm_source, utm_medium, utm_campaign, utm_content and utm_term. Typically, the first three parameters are set, and optionally utm_content and utm_term.<br><br>utm_source specifies the source, such as a website or newsletter.<br><br>utm_medium contains the medium used for the campaign, such as social media.<br><br>utm_campaign, as the name suggests, identifies the campaign. Each campaign is usually given a name, such as Summer Sale.<br><br>utm_content and utm_term are used less frequently, but can be very useful for finding out what link a visitor followed and what keywords were used. utm_content indicates what part of a page or email was viewed. This can be e.g. the header or footer to identify the area where the link is placed. utm_term is used for search terms. For example, if links are displayed as the result of a search, the search terms can be sent with the campaign.<br><br>In general, the values for the parameters can be freely chosen. However, they are case sensitive and no spaces can be used. Alternatively, plus signs can be used, which are automatically converted into spaces by Pirsch. UTM parameters should be used only for inbound links, not for links that link to pages on the same website."
+                            },
+                            {
+                                "question": "Can I manually create UTM tags?",
+                                "answer": "Yes, you can manually create UTM tags by adding parameters to your URLs. However, this process can be time-consuming and prone to errors. Using a UTM campaign generator tool can streamline this process and ensure consistency in your tagging."
+                            },
+                            {
+                                "question": "Are UTM tags case sensitive?",
+                                "answer": "No, UTM tags are not case sensitive. However, it's a good practice to maintain consistency in your tagging to avoid any discrepancies in your analytics data."
+                            },
+                            {
+                                "question": "Where can I view campaigns in Pirsch?",
+                                "answer": "Campaigns can be viewed on the dashboard next to the referrers. The various parameters are divided into tabs and can be linked to each other by clicking on the filters. For example, you can find out which search terms were used to find a campaign by filtering for the campaign and then looking at the UTM Terms. UTM Terms and Content are only displayed when filtering for a campaign, source, or medium."
+                            }
+                        ]
+                    },
+                    "de": {
+                        "headline": "UTM-Generator für Kampagnen-Tracking",
+                        "text": "Verbessere die Qualität deiner Webanalyse-Daten, indem du UTM-Parameter zu eingehenden Links mit diesem kostenlosen URL-Builder für Kampagnen hinzufügst.",
+                        "url": "URL",
+                        "url_hint": "Vollständige URL der Seite, zu der der Traffic gesendet wird, einschließlich des Protokolls (https)",
+                        "source": "Quelle",
+                        "source_hint": "Quelle der Kampagne, wie soziale Medien oder Suchmaschinen",
+                        "medium": "Medium",
+                        "medium_hint": "Medium der Kampagne, wie E-Mail oder Mobil",
+                        "campaign": "Kampagne",
+                        "campaign_hint": "Name der Kampagne, wie 'Sommerschlussverkauf' oder 'Promo-Code'",
+                        "content": "Inhalt",
+                        "content_hint": "Für genaueres Tracking oder A/B-Tests, wie Kopf- oder Fußzeile",
+                        "term": "Begriff",
+                        "term_hint": "Für (bezahlte) Suchbegriffe, wie Schuhgeschäft oder Datenschutzanalytik",
+                        "your_url": "Deine URL",
+                        "copy": "In die Zwischenablage kopieren",
+                        "confirmation": "In die Zwischenablage kopiert!",
+                        "please_enter": "Bitte gib eine URL ein.",
+                        "valid_url": "Bitte gib eine gültige URL ein.",
+                        "copy_error": "Das Kopieren in die Zwischenablage wird von deinem Browser nicht unterstützt.",
+                        "questions": [
+                            {
+                                "question": "Was sind UTM-Parameter?",
+                                "answer": "Urchin Tracking Module (UTM) Parameter wurden erstmals von dem Vorgänger von Google Analytics, Urchin, eingeführt und sind ein weit verbreitetes Werkzeug, um die Wirksamkeit von Online-Marketingkampagnen zu verfolgen. Mit Pirsch kannst du UTM-Parameter verwenden, um zu analysieren, wie viele Personen deine Website besucht haben und die Ergebnisse deiner Kampagnen zu vergleichen."
+                            },
+                            {
+                                "question": "Wie funktioniert eine UTM-Kampagne?",
+                                "answer": "Eine UTM-Kampagne funktioniert, indem spezifische Tags zu deinen URLs hinzugefügt werden, die dann von Analyseplattformen wie Google Analytics verfolgt werden können. Diese Tags helfen dir zu verstehen, woher dein Website-Traffic kommt und welche Marketingkampagnen die meiste Beteiligung und Konversionen antreiben."
+                            },
+                            {
+                                "question": "Warum sollte ich UTM-Parameter verwenden?",
+                                "answer": "UTM-Parameter ermöglichen es dir, einen genaueren Blick auf die Herkunft deiner Website-Besucher zu werfen. Pirsch zeigt, woher ein Besucher kommt, durch den Verweisenden, aber diese Information wird nicht immer vom Browser weitergegeben. Zudem wird nur die Herkunftswebsite aufgeführt, aber nicht, auf welchem Link auf einer Seite geklickt wurde. Mit Hilfe von UTM-Parametern erhältst du genaue Informationen darüber, auf welche Links auf welcher Seite geklickt wurde und verbesserst gleichzeitig die Zuverlässigkeit deiner Statistiken."
+                            },
+                            {
+                                "question": "Was sind die UTM-Parameter und wie verwende ich sie?",
+                                "answer": "Es gibt insgesamt fünf UTM-Parameter. Nämlich utm_source, utm_medium, utm_campaign, utm_content und utm_term. Typischerweise werden die ersten drei Parameter gesetzt und optional utm_content und utm_term.<br><br>utm_source spezifiziert die Quelle, wie eine Website oder ein Newsletter.<br><br>utm_medium enthält das Medium, das für die Kampagne verwendet wird, wie soziale Medien.<br><br>utm_campaign identifiziert, wie der Name schon sagt, die Kampagne. Jeder Kampagne wird in der Regel ein Name gegeben, wie Sommerschlussverkauf.<br><br>utm_content und utm_term werden weniger häufig verwendet, können aber sehr nützlich sein, um herauszufinden, welchem Link ein Besucher gefolgt ist und welche Schlüsselwörter verwendet wurden. utm_content gibt an, welcher Teil einer Seite oder E-Mail angesehen wurde. Dies kann z.B. der Kopf- oder Fußbereich sein, um den Bereich zu identifizieren, wo der Link platziert ist. utm_term wird für Suchbegriffe verwendet. Zum Beispiel, wenn Links als Ergebnis einer Suche angezeigt werden, können die Suchbegriffe mit der Kampagne gesendet werden.<br><br>Im Allgemeinen können die Werte für die Parameter frei gewählt werden. Sie sind jedoch groß- und kleinschreibungsempfindlich und es können keine Leerzeichen verwendet werden. Alternativ können Pluszeichen verwendet werden, die von Pirsch automatisch in Leerzeichen umgewandelt werden. UTM-Parameter sollten nur für eingehende Links verwendet werden, nicht für Links, die auf Seiten auf derselben Website verlinken."
+                            },
+                            {
+                                "question": "Kann ich UTM-Tags manuell erstellen?",
+                                "answer": "Ja, du kannst UTM-Tags manuell erstellen, indem du Parameter zu deinen URLs hinzufügst. Dieser Prozess kann jedoch zeitaufwändig und anfällig für Fehler sein. Die Verwendung eines UTM-Kampagnengenerator-Tools kann diesen Prozess vereinfachen und die Konsistenz deiner Kennzeichnung sicherstellen."
+                            },
+                            {
+                                "question": "Sind UTM-Tags groß- und kleinschreibungsempfindlich?",
+                                "answer": "Nein, UTM-Tags sind nicht groß- und kleinschreibungsempfindlich. Es ist jedoch eine gute Praxis, die Konsistenz in deiner Kennzeichnung zu wahren, um Diskrepanzen in deinen Analyse-Daten zu vermeiden."
+                            },
+                            {
+                                "question": "Wo kann ich Kampagnen in Pirsch anzeigen?",
+                                "answer": "Kampagnen können auf dem Dashboard neben den Verweisenden angezeigt werden. Die verschiedenen Parameter sind in Tabs unterteilt und können durch Klicken auf die Filter miteinander verknüpft werden. Zum Beispiel kannst du herausfinden, welche Suchbegriffe verwendet wurden, um eine Kampagne zu finden, indem du nach der Kampagne filterst und dann die UTM-Begriffe ansiehst. UTM-Begriffe und Inhalte werden nur angezeigt, wenn nach einer Kampagne, Quelle oder einem Medium gefiltert wird."
+                            }
+                        ]
+                    },
+                    "es": {
+                        "headline": "Generador de UTM para el Seguimiento de Campañas",
+                        "text": "Mejora la calidad de tus datos de análisis web añadiendo parámetros UTM a enlaces entrantes con este constructor de URL de campaña gratuito disponible aquí.",
+                        "url": "URL",
+                        "url_hint": "URL completa de la página a la cual se envía el tráfico, incluyendo el protocolo (https)",
+                        "source": "Fuente",
+                        "source_hint": "Fuente de la campaña, como redes sociales o motores de búsqueda",
+                        "medium": "Medio",
+                        "medium_hint": "Medio de la campaña, como correo electrónico o móvil",
+                        "campaign": "Campaña",
+                        "campaign_hint": "Nombre de la campaña, como 'Venta de Verano' o 'Código Promocional'",
+                        "content": "Contenido",
+                        "content_hint": "Para un seguimiento más preciso o pruebas A/B, como encabezado o pie de página",
+                        "term": "Término",
+                        "term_hint": "Para términos de búsqueda (pagados), como tienda de zapatos o análisis de privacidad",
+                        "your_url": "Tu URL",
+                        "copy": "Copiar al Portapapeles",
+                        "confirmation": "¡Copiado al portapapeles!",
+                        "please_enter": "Por favor, introduce una URL.",
+                        "valid_url": "Por favor, introduce una URL válida.",
+                        "copy_error": "Tu navegador no admite copiar al portapapeles.",
+                        "questions": [
+                            {
+                                "question": "¿Qué son los parámetros UTM?",
+                                "answer": "Los parámetros del Módulo de Seguimiento Urchin (UTM) fueron introducidos por primera vez por el predecesor de Google Analytics, Urchin, y son una herramienta ampliamente aceptada para rastrear la efectividad de las campañas de marketing en línea. Con Pirsch, puedes usar parámetros UTM para desglosar cuántas personas visitaron tu sitio web y comparar los resultados de tus campañas."
+                            },
+                            {
+                                "question": "¿Cómo funciona una campaña UTM?",
+                                "answer": "Una campaña UTM funciona añadiendo etiquetas específicas a tus URL, que luego pueden ser rastreadas por plataformas de análisis como Google Analytics. Estas etiquetas te ayudan a entender de dónde viene tu tráfico web y qué campañas de marketing están impulsando más compromiso y conversiones."
+                            },
+                            {
+                                "question": "¿Por qué debería usar parámetros UTM?",
+                                "answer": "Los parámetros UTM te permiten examinar más de cerca el origen de tus visitantes web. Pirsch muestra de dónde viene un visitante por el referente, pero esta información no siempre es transmitida por el navegador. Además, solo se lista el sitio web de origen, pero no, por ejemplo, en qué enlace de una página se hizo clic. Con la ayuda de los parámetros UTM, obtienes información precisa sobre qué enlaces fueron clicados en qué página y al mismo tiempo mejoras la fiabilidad de tus estadísticas."
+                            },
+                            {
+                                "question": "¿Cuáles son los parámetros UTM y cómo los uso?",
+                                "answer": "Hay un total de cinco parámetros UTM. A saber, utm_source, utm_medium, utm_campaign, utm_content y utm_term. Típicamente, se establecen los tres primeros parámetros y, opcionalmente, utm_content y utm_term.<br><br>utm_source especifica la fuente, como un sitio web o boletín informativo.<br><br>utm_medium contiene el medio utilizado para la campaña, como redes sociales.<br><br>utm_campaign, como sugiere el nombre, identifica la campaña. Cada campaña suele tener un nombre, como Venta de Verano.<br><br>utm_content y utm_term se usan con menos frecuencia, pero pueden ser muy útiles para averiguar qué enlace siguió un visitante y qué palabras clave se utilizaron. utm_content indica qué parte de una página o correo electrónico fue vista. Esto puede ser, por ejemplo, el encabezado o pie de página para identificar el área donde se colocó el enlace. utm_term se utiliza para términos de búsqueda. Por ejemplo, si los enlaces se muestran como resultado de una búsqueda, los términos de búsqueda pueden enviarse con la campaña.<br><br>En general, los valores para los parámetros pueden ser elegidos libremente. Sin embargo, son sensibles a mayúsculas y minúsculas y no se pueden usar espacios. Alternativamente, se pueden usar signos más, que Pirsch convierte automáticamente en espacios. Los parámetros UTM deben usarse solo para enlaces entrantes, no para enlaces que enlazan a páginas en el mismo sitio web."
+                            },
+                            {
+                                "question": "¿Puedo crear etiquetas UTM manualmente?",
+                                "answer": "Sí, puedes crear etiquetas UTM manualmente añadiendo parámetros a tus URL. Sin embargo, este proceso puede ser tedioso y propenso a errores. Usar una herramienta generadora de campañas UTM puede simplificar este proceso y asegurar la consistencia en tu etiquetado."
+                            },
+                            {
+                                "question": "¿Las etiquetas UTM son sensibles a mayúsculas y minúsculas?",
+                                "answer": "No, las etiquetas UTM no son sensibles a mayúsculas y minúsculas. Sin embargo, es una buena práctica mantener la consistencia en tu etiquetado para evitar discrepancias en tus datos de análisis."
+                            },
+                            {
+                                "question": "¿Dónde puedo ver las campañas en Pirsch?",
+                                "answer": "Las campañas se pueden ver en el tablero junto a los referentes. Los diversos parámetros se dividen en pestañas y se pueden vincular entre sí haciendo clic en los filtros. Por ejemplo, puedes averiguar qué términos de búsqueda se utilizaron para encontrar una campaña filtrando por la campaña y luego mirando los Términos UTM. Los Términos UTM y el Contenido solo se muestran al filtrar por una campaña, fuente o medio."
+                            }
+                        ]
+                    },
+                    "fr": {
+                        "headline": "Générateur UTM pour le Suivi de Campagnes",
+                        "text": "Améliorez la qualité de vos données d'analyse web en ajoutant des paramètres UTM aux liens entrants avec ce constructeur d'URL de campagne gratuit disponible ici.",
+                        "url": "URL",
+                        "url_hint": "URL complète de la page vers laquelle le trafic est envoyé, y compris le protocole (https)",
+                        "source": "Source",
+                        "source_hint": "Source de la campagne, comme les médias sociaux ou les moteurs de recherche",
+                        "medium": "Moyen",
+                        "medium_hint": "Moyen de la campagne, comme l'email ou mobile",
+                        "campaign": "Campagne",
+                        "campaign_hint": "Nom de la campagne, comme 'Vente d'Été' ou 'Code Promo'",
+                        "content": "Contenu",
+                        "content_hint": "Pour un suivi plus précis ou des tests A/B, comme l'en-tête ou le pied de page",
+                        "term": "Terme",
+                        "term_hint": "Pour les termes de recherche (payants), comme magasin de chaussures ou analyse de la vie privée",
+                        "your_url": "Votre URL",
+                        "copy": "Copier dans le Presse-papiers",
+                        "confirmation": "Copié dans le presse-papiers !",
+                        "please_enter": "Veuillez entrer une URL.",
+                        "valid_url": "Veuillez entrer une URL valide.",
+                        "copy_error": "La copie dans le presse-papiers n'est pas prise en charge par votre navigateur.",
+                        "questions": [
+                            {
+                                "question": "Que sont les paramètres UTM ?",
+                                "answer": "Les paramètres du Module de Suivi Urchin (UTM) ont été introduits pour la première fois par le prédécesseur de Google Analytics, Urchin, et sont un outil largement accepté pour suivre l'efficacité des campagnes de marketing en ligne. Avec Pirsch, vous pouvez utiliser les paramètres UTM pour décomposer combien de personnes ont visité votre site web et comparer les résultats de vos campagnes."
+                            },
+                            {
+                                "question": "Comment fonctionne une campagne UTM ?",
+                                "answer": "Une campagne UTM fonctionne en ajoutant des tags spécifiques à vos URL, qui peuvent ensuite être suivis par des plateformes d'analyse comme Google Analytics. Ces tags vous aident à comprendre d'où vient votre trafic web et quelles campagnes de marketing génèrent le plus d'engagement et de conversions."
+                            },
+                            {
+                                "question": "Pourquoi devrais-je utiliser les paramètres UTM ?",
+                                "answer": "Les paramètres UTM vous permettent de regarder de plus près l'origine de vos visiteurs sur le site web. Pirsch montre d'où vient un visiteur par le référent, mais cette information n'est pas toujours transmise par le navigateur. En outre, seul le site web d'origine est listé, mais pas, par exemple, sur quel lien d'une page a été cliqué. Avec l'aide des paramètres UTM, vous obtenez des informations précises sur quels liens ont été cliqués sur quelle page et améliorez en même temps la fiabilité de vos statistiques."
+                            },
+                            {
+                                "question": "Quels sont les paramètres UTM et comment les utiliser ?",
+                                "answer": "Il y a au total cinq paramètres UTM. À savoir utm_source, utm_medium, utm_campaign, utm_content et utm_term. Typiquement, les trois premiers paramètres sont définis, et éventuellement utm_content et utm_term.<br><br>utm_source spécifie la source, comme un site web ou une newsletter.<br><br>utm_medium contient le moyen utilisé pour la campagne, comme les médias sociaux.<br><br>utm_campaign, comme le suggère le nom, identifie la campagne. Chaque campagne se voit généralement attribuer un nom, comme Vente d'Été.<br><br>utm_content et utm_term sont utilisés moins fréquemment, mais peuvent être très utiles pour découvrir quel lien un visiteur a suivi et quels mots-clés ont été utilisés. utm_content indique quelle partie d'une page ou d'un email a été vue. Cela peut être, par exemple, l'en-tête ou le pied de page pour identifier la zone où le lien est placé. utm_term est utilisé pour les termes de recherche. Par exemple, si des liens sont affichés comme résultat d'une recherche, les termes de recherche peuvent être envoyés avec la campagne.<br><br>En général, les valeurs pour les paramètres peuvent être librement choisies. Cependant, elles sont sensibles à la casse et aucun espace ne peut être utilisé. Alternativement, des signes plus peuvent être utilisés, qui sont automatiquement convertis en espaces par Pirsch. Les paramètres UTM doivent être utilisés uniquement pour les liens entrants, pas pour les liens qui lient à des pages sur le même site web."
+                            },
+                            {
+                                "question": "Puis-je créer manuellement des tags UTM ?",
+                                "answer": "Oui, vous pouvez créer manuellement des tags UTM en ajoutant des paramètres à vos URL. Cependant, ce processus peut être fastidieux et sujet à des erreurs. L'utilisation d'un outil générateur de campagne UTM peut simplifier ce processus et assurer la cohérence dans votre étiquetage."
+                            },
+                            {
+                                "question": "Les tags UTM sont-ils sensibles à la casse ?",
+                                "answer": "Non, les tags UTM ne sont pas sensibles à la casse. Cependant, il est de bonne pratique de maintenir la cohérence dans votre étiquetage pour éviter toute discordance dans vos données d'analyse."
+                            },
+                            {
+                                "question": "Où puis-je voir les campagnes dans Pirsch ?",
+                                "answer": "Les campagnes peuvent être consultées sur le tableau de bord à côté des référents. Les différents paramètres sont divisés en onglets et peuvent être liés entre eux en cliquant sur les filtres. Par exemple, vous pouvez découvrir quels termes de recherche ont été utilisés pour trouver une campagne en filtrant par la campagne, puis en regardant les Termes UTM. Les Termes UTM et le Contenu ne sont affichés que lors du filtrage par une campagne, source ou moyen."
+                            }
+                        ]
+                    },
+                    "nl": {
+                        "headline": "UTM Generator voor Campagne Tracking",
+                        "text": "Verbeter de kwaliteit van je webanalysegegevens door UTM parameters toe te voegen aan inkomende links met deze gratis campagne URL-bouwer hier beschikbaar.",
+                        "url": "URL",
+                        "url_hint": "Volledige URL van de pagina waar het verkeer naartoe wordt gestuurd, inclusief het protocol (https)",
+                        "source": "Bron",
+                        "source_hint": "Bron voor de campagne, zoals sociale media of zoekmachines",
+                        "medium": "Medium",
+                        "medium_hint": "Medium van de campagne, zoals e-mail of mobiel",
+                        "campaign": "Campagne",
+                        "campaign_hint": "Naam van de campagne, zoals 'Zomeruitverkoop' of 'Promotiecode'",
+                        "content": "Inhoud",
+                        "content_hint": "Voor nauwkeurigere tracking of A/B-testen, zoals koptekst of voettekst",
+                        "term": "Term",
+                        "term_hint": "Voor (betaalde) zoektermen, zoals schoenenwinkel of privacy-analyse",
+                        "your_url": "Jouw URL",
+                        "copy": "Kopiëren naar klembord",
+                        "confirmation": "Gekopieerd naar klembord!",
+                        "please_enter": "Voer een URL in.",
+                        "valid_url": "Voer een geldige URL in.",
+                        "copy_error": "Kopiëren naar het klembord wordt niet ondersteund door je browser.",
+                        "questions": [
+                            {
+                                "question": "Wat zijn UTM parameters?",
+                                "answer": "Urchin Tracking Module (UTM) parameters werden voor het eerst geïntroduceerd door de voorganger van Google Analytics, Urchin, en zijn een breed geaccepteerd middel om de effectiviteit van online marketingcampagnes te volgen. Met Pirsch kun je UTM parameters gebruiken om te analyseren hoeveel mensen je website hebben bezocht en de resultaten van je campagnes vergelijken."
+                            },
+                            {
+                                "question": "Hoe werkt een UTM-campagne?",
+                                "answer": "Een UTM-campagne werkt door specifieke tags aan je URL's toe te voegen, die vervolgens kunnen worden gevolgd door analyseplatforms zoals Google Analytics. Deze tags helpen je te begrijpen waar je websiteverkeer vandaan komt en welke marketingcampagnes de meeste betrokkenheid en conversies stimuleren."
+                            },
+                            {
+                                "question": "Waarom zou ik UTM parameters gebruiken?",
+                                "answer": "UTM parameters stellen je in staat om nauwkeuriger te kijken naar de oorsprong van je websitebezoekers. Pirsch toont waar een bezoeker vandaan komt via de verwijzer, maar deze informatie wordt niet altijd doorgegeven door de browser. Bovendien wordt alleen de oorspronkelijke website vermeld, maar niet op welke link op een pagina is geklikt. Met behulp van UTM parameters krijg je precieze informatie over welke links op welke pagina zijn aangeklikt en verbeter je tegelijkertijd de betrouwbaarheid van je statistieken."
+                            },
+                            {
+                                "question": "Wat zijn de UTM parameters en hoe gebruik ik ze?",
+                                "answer": "Er zijn in totaal vijf UTM parameters. Namelijk utm_source, utm_medium, utm_campaign, utm_content en utm_term. Meestal worden de eerste drie parameters ingesteld, en optioneel utm_content en utm_term.<br><br>utm_source specificeert de bron, zoals een website of nieuwsbrief.<br><br>utm_medium bevat het medium dat voor de campagne wordt gebruikt, zoals sociale media.<br><br>utm_campaign identificeert, zoals de naam al doet vermoeden, de campagne. Elke campagne krijgt meestal een naam, zoals Zomeruitverkoop.<br><br>utm_content en utm_term worden minder vaak gebruikt, maar kunnen zeer nuttig zijn om uit te vinden welke link een bezoeker heeft gevolgd en welke zoekwoorden zijn gebruikt. utm_content geeft aan welk deel van een pagina of e-mail is bekeken. Dit kan bijvoorbeeld de kop of voet zijn om het gebied te identificeren waar de link is geplaatst. utm_term wordt gebruikt voor zoektermen. Bijvoorbeeld, als links worden weergegeven als resultaat van een zoekopdracht, kunnen de zoektermen worden verzonden met de campagne.<br><br>Over het algemeen kunnen de waarden voor de parameters vrij worden gekozen. Ze zijn echter hoofdlettergevoelig en er kunnen geen spaties worden gebruikt. Als alternatief kunnen plustekens worden gebruikt, die automatisch worden omgezet in spaties door Pirsch. UTM parameters moeten alleen worden gebruikt voor inkomende links, niet voor links die naar pagina's op dezelfde website linken."
+                            },
+                            {
+                                "question": "Kan ik handmatig UTM-tags maken?",
+                                "answer": "Ja, je kunt handmatig UTM-tags maken door parameters aan je URL's toe te voegen. Dit proces kan echter tijdrovend zijn en vatbaar voor fouten. Het gebruik van een UTM-campagnegenerator tool kan dit proces stroomlijnen en zorgen voor consistentie in je tagging."
+                            },
+                            {
+                                "question": "Zijn UTM-tags hoofdlettergevoelig?",
+                                "answer": "Nee, UTM-tags zijn niet hoofdlettergevoelig. Het is echter een goede praktijk om consistentie in je tagging te behouden om discrepanties in je analytische gegevens te voorkomen."
+                            },
+                            {
+                                "question": "Waar kan ik campagnes in Pirsch bekijken?",
+                                "answer": "Campagnes kunnen worden bekeken op het dashboard naast de verwijzers. De verschillende parameters zijn verdeeld in tabbladen en kunnen aan elkaar worden gekoppeld door op de filters te klikken. Je kunt bijvoorbeeld ontdekken welke zoektermen zijn gebruikt om een campagne te vinden door te filteren op de campagne en vervolgens naar de UTM-termen te kijken. UTM-termen en inhoud worden alleen weergegeven bij het filteren op een campagne, bron of medium."
+                            }
+                        ]
+                    },
+                    "it": {
+                        "headline": "Generatore UTM per il Tracciamento delle Campagne",
+                        "text": "Migliora la qualità dei tuoi dati analitici web aggiungendo parametri UTM ai link in entrata con questo costruttore di URL di campagna gratuito disponibile qui.",
+                        "url": "URL",
+                        "url_hint": "URL completo della pagina a cui viene inviato il traffico, inclusivo del protocollo (https)",
+                        "source": "Fonte",
+                        "source_hint": "Fonte della campagna, come i social media o i motori di ricerca",
+                        "medium": "Mezzo",
+                        "medium_hint": "Mezzo della campagna, come email o mobile",
+                        "campaign": "Campagna",
+                        "campaign_hint": "Nome della campagna, come 'Saldi Estivi' o 'Codice Promozionale'",
+                        "content": "Contenuto",
+                        "content_hint": "Per un tracciamento più accurato o test A/B, come header o footer",
+                        "term": "Termine",
+                        "term_hint": "Per termini di ricerca (a pagamento), come negozio di scarpe o analisi sulla privacy",
+                        "your_url": "Il Tuo URL",
+                        "copy": "Copia negli Appunti",
+                        "confirmation": "Copiato negli appunti!",
+                        "please_enter": "Inserisci un URL.",
+                        "valid_url": "Inserisci un URL valido.",
+                        "copy_error": "La copia negli appunti non è supportata dal tuo browser.",
+                        "questions": [
+                            {
+                                "question": "Cosa sono i parametri UTM?",
+                                "answer": "I parametri Urchin Tracking Module (UTM) sono stati introdotti per la prima volta da Urchin, predecessore di Google Analytics, e sono uno strumento ampiamente accettato per tracciare l'efficacia delle campagne di marketing online. Con Pirsch, puoi utilizzare i parametri UTM per analizzare quante persone hanno visitato il tuo sito web e confrontare i risultati delle tue campagne."
+                            },
+                            {
+                                "question": "Come funziona una campagna UTM?",
+                                "answer": "Una campagna UTM funziona aggiungendo tag specifici alle tue URL, che possono poi essere tracciati da piattaforme analitiche come Google Analytics. Questi tag ti aiutano a comprendere da dove proviene il tuo traffico web e quali campagne di marketing stanno generando il maggior coinvolgimento e conversioni."
+                            },
+                            {
+                                "question": "Perché dovrei usare i parametri UTM?",
+                                "answer": "I parametri UTM ti permettono di esaminare più da vicino l'origine dei tuoi visitatori sul sito web. Pirsch mostra da dove proviene un visitatore tramite il referrer, ma queste informazioni non vengono sempre passate dal browser. Inoltre, viene elencato solo il sito web di origine, ma non, ad esempio, su quale link di una pagina è stato cliccato. Con l'aiuto dei parametri UTM, ottieni informazioni precise su quali link sono stati cliccati su quale pagina e allo stesso tempo migliora l'affidabilità delle tue statistiche."
+                            },
+                            {
+                                "question": "Quali sono i parametri UTM e come li uso?",
+                                "answer": "Ci sono cinque parametri UTM in totale. Nello specifico, utm_source, utm_medium, utm_campaign, utm_content e utm_term. Tipicamente, vengono impostati i primi tre parametri, e opzionalmente utm_content e utm_term.<br><br>utm_source specifica la fonte, come un sito web o una newsletter.<br><br>utm_medium contiene il mezzo utilizzato per la campagna, come i social media.<br><br>utm_campaign, come suggerisce il nome, identifica la campagna. Ogni campagna di solito viene data un nome, come Saldi Estivi.<br><br>utm_content e utm_term vengono utilizzati meno frequentemente, ma possono essere molto utili per scoprire quale link un visitatore ha seguito e quali parole chiave sono state utilizzate. utm_content indica quale parte di una pagina o email è stata visualizzata. Questo può essere, ad esempio, l'header o il footer per identificare l'area in cui è collocato il link. utm_term viene utilizzato per i termini di ricerca. Ad esempio, se i link vengono visualizzati come risultato di una ricerca, i termini di ricerca possono essere inviati con la campagna.<br><br>In generale, i valori per i parametri possono essere liberamente scelti. Tuttavia, sono sensibili al caso e non possono essere utilizzati spazi. Alternativamente, possono essere utilizzati segni più, che vengono automaticamente convertiti in spazi da Pirsch. I parametri UTM dovrebbero essere utilizzati solo per link in entrata, non per link che collegano a pagine sullo stesso sito web."
+                            },
+                            {
+                                "question": "Posso creare manualmente i tag UTM?",
+                                "answer": "Sì, puoi creare manualmente i tag UTM aggiungendo parametri alle tue URL. Tuttavia, questo processo può essere lungo e soggetto a errori. L'uso di uno strumento generatore di campagne UTM può semplificare questo processo e garantire la coerenza nel tuo tagging."
+                            },
+                            {
+                                "question": "I tag UTM sono sensibili al caso?",
+                                "answer": "No, i tag UTM non sono sensibili al caso. Tuttavia, è buona pratica mantenere la coerenza nel tuo tagging per evitare discrepanze nei tuoi dati analitici."
+                            },
+                            {
+                                "question": "Dove posso visualizzare le campagne in Pirsch?",
+                                "answer": "Le campagne possono essere visualizzate nel dashboard accanto ai referenti. I vari parametri sono divisi in schede e possono essere collegati tra loro cliccando sui filtri. Ad esempio, puoi scoprire quali termini di ricerca sono stati utilizzati per trovare una campagna filtrando per la campagna e poi guardando i Termini UTM. I Termini UTM e il Contenuto vengono visualizzati solo quando si filtra per una campagna, fonte o mezzo."
+                            }
+                        ]
+                    },
+                    "pt": {
+                        "headline": "Gerador UTM para Rastreamento de Campanhas",
+                        "text": "Melhore a qualidade dos seus dados de análise web adicionando parâmetros UTM a links de entrada com este construtor de URL de campanha gratuito disponível aqui.",
+                        "url": "URL",
+                        "url_hint": "URL completa da página para a qual o tráfego é enviado, incluindo o protocolo (https)",
+                        "source": "Fonte",
+                        "source_hint": "Fonte da campanha, como mídias sociais ou motores de busca",
+                        "medium": "Meio",
+                        "medium_hint": "Meio da campanha, como e-mail ou móvel",
+                        "campaign": "Campanha",
+                        "campaign_hint": "Nome da campanha, como 'Venda de Verão' ou 'Código Promocional'",
+                        "content": "Conteúdo",
+                        "content_hint": "Para rastreamento mais preciso ou testes A/B, como cabeçalho ou rodapé",
+                        "term": "Termo",
+                        "term_hint": "Para termos de pesquisa (pagos), como loja de sapatos ou análise de privacidade",
+                        "your_url": "Sua URL",
+                        "copy": "Copiar para Área de Transferência",
+                        "confirmation": "Copiado para a área de transferência!",
+                        "please_enter": "Por favor, insira uma URL.",
+                        "valid_url": "Por favor, insira uma URL válida.",
+                        "copy_error": "Copiar para a área de transferência não é suportado pelo seu navegador.",
+                        "questions": [
+                            {
+                                "question": "O que são parâmetros UTM?",
+                                "answer": "Parâmetros Urchin Tracking Module (UTM) foram introduzidos pela primeira vez pelo predecessor do Google Analytics, Urchin, e são uma ferramenta amplamente aceita para rastrear a eficácia de campanhas de marketing online. Com Pirsch, você pode usar parâmetros UTM para detalhar quantas pessoas visitaram seu site e comparar os resultados das suas campanhas."
+                            },
+                            {
+                                "question": "Como funciona uma campanha UTM?",
+                                "answer": "Uma campanha UTM funciona adicionando tags específicas às suas URLs, que podem então ser rastreadas por plataformas analíticas como o Google Analytics. Essas tags ajudam a entender de onde vem o seu tráfego web e quais campanhas de marketing estão gerando mais engajamento e conversões."
+                            },
+                            {
+                                "question": "Por que devo usar parâmetros UTM?",
+                                "answer": "Os parâmetros UTM permitem que você examine mais de perto a origem dos visitantes do seu site. Pirsch mostra de onde vem um visitante pelo referenciador, mas essa informação nem sempre é passada pelo navegador. Além disso, apenas o site de origem é listado, mas não, por exemplo, em qual link de uma página foi clicado. Com a ajuda de parâmetros UTM, você obtém informações precisas sobre quais links foram clicados em qual página e, ao mesmo tempo, melhora a confiabilidade das suas estatísticas."
+                            },
+                            {
+                                "question": "Quais são os parâmetros UTM e como eu os uso?",
+                                "answer": "Existem cinco parâmetros UTM no total. São eles: utm_source, utm_medium, utm_campaign, utm_content e utm_term. Geralmente, os três primeiros parâmetros são definidos e, opcionalmente, utm_content e utm_term. <br><br>utm_source especifica a fonte, como um site ou newsletter. <br><br>utm_medium contém o meio usado para a campanha, como mídia social. <br><br>utm_campaign, como o nome sugere, identifica a campanha. Cada campanha geralmente recebe um nome, como 'Venda de Verão'. <br><br>utm_content e utm_term são usados menos frequentemente, mas podem ser muito úteis para descobrir qual link um visitante seguiu e quais palavras-chave foram usadas. utm_content indica qual parte de uma página ou e-mail foi visualizada. Isso pode ser, por exemplo, o cabeçalho ou rodapé para identificar a área onde o link é colocado. utm_term é usado para termos de pesquisa. Por exemplo, se links são exibidos como resultado de uma pesquisa, os termos de pesquisa podem ser enviados com a campanha. <br><br>Em geral, os valores para os parâmetros podem ser livremente escolhidos. No entanto, eles são sensíveis a maiúsculas e minúsculas e não podem usar espaços. Como alternativa, sinais de mais podem ser usados, que são automaticamente convertidos em espaços pelo Pirsch. Os parâmetros UTM devem ser usados apenas para links de entrada, não para links que apontam para páginas no mesmo site."
+                            },
+                            {
+                                "question": "Posso criar tags UTM manualmente?",
+                                "answer": "Sim, você pode criar tags UTM manualmente adicionando parâmetros às suas URLs. No entanto, esse processo pode ser demorado e propenso a erros. Usar uma ferramenta geradora de campanhas UTM pode simplificar esse processo e garantir consistência na sua etiquetagem."
+                            },
+                            {
+                                "question": "As tags UTM são sensíveis a maiúsculas e minúsculas?",
+                                "answer": "Não, as tags UTM não são sensíveis a maiúsculas e minúsculas. No entanto, é uma boa prática manter consistência na sua etiquetagem para evitar discrepâncias nos seus dados analíticos."
+                            },
+                            {
+                                "question": "Onde posso ver campanhas no Pirsch?",
+                                "answer": "Campanhas podem ser visualizadas no painel ao lado dos referenciadores. Os vários parâmetros são divididos em abas e podem ser interligados clicando nos filtros. Por exemplo, você pode descobrir quais termos de pesquisa foram usados para encontrar uma campanha filtrando pela campanha e então olhando para os Termos UTM. Termos UTM e Conteúdo só são exibidos ao filtrar por uma campanha, fonte ou meio."
+                            }
+                        ]
+                    },
+                    "ja": {
+                        "headline": "キャンペーン追跡のためのUTMジェネレーター",
+                        "text": "この無料のキャンペーンURLビルダーを使用して、UTMパラメータを受信リンクに追加することで、Web分析データの品質を向上させます。",
+                        "url": "URL",
+                        "url_hint": "トラフィックが送信されるページの完全なURL（プロトコルhttpsを含む）",
+                        "source": "ソース",
+                        "source_hint": "キャンペーンのソース、例えばソーシャルメディアや検索エンジンなど",
+                        "medium": "媒体",
+                        "medium_hint": "キャンペーンの媒体、例えばメールやモバイルなど",
+                        "campaign": "キャンペーン",
+                        "campaign_hint": "キャンペーンの名前、例えば「サマーセール」や「プロモコード」など",
+                        "content": "コンテンツ",
+                        "content_hint": "より正確な追跡やA/Bテストのために、例えばヘッダーやフッターなど",
+                        "term": "用語",
+                        "term_hint": "（有料の）検索用語について、例えば「靴店」や「プライバシー分析」など",
+                        "your_url": "あなたのURL",
+                        "copy": "クリップボードにコピー",
+                        "confirmation": "クリップボードにコピーされました！",
+                        "please_enter": "URLを入力してください。",
+                        "valid_url": "有効なURLを入力してください。",
+                        "copy_error": "お使いのブラウザではクリップボードへのコピーがサポートされていません。",
+                        "questions": [
+                            {
+                                "question": "UTMパラメータとは何ですか？",
+                                "answer": "Urchin Tracking Module (UTM) パラメータは、Google Analyticsの前身であるUrchinによって最初に導入され、オンラインマーケティングキャンペーンの有効性を追跡するための広く受け入れられたツールです。Pirschを使用すると、ウェブサイトを訪れた人々を分析し、キャンペーンの結果を比較するためにUTMパラメータを使用できます。"
+                            },
+                            {
+                                "question": "UTMキャンペーンはどのように機能しますか？",
+                                "answer": "UTMキャンペーンは、URLに特定のタグを追加することで機能し、それらはGoogle Analyticsのような分析プラットフォームによって追跡されます。これらのタグは、ウェブサイトのトラフィックがどこから来ているのか、どのマーケティングキャンペーンが最もエンゲージメントとコンバージョンを駆動しているのかを理解するのに役立ちます。"
+                            },
+                            {
+                                "question": "なぜUTMパラメータを使用すべきですか？",
+                                "answer": "UTMパラメータを使用すると、ウェブサイト訪問者の起源をより詳しく見ることができます。Pirschは訪問者がどこから来たのかをリファラーで示しますが、この情報は常にブラウザによって伝えられるわけではありません。さらに、元のウェブサイトのみがリストされ、たとえばページ上のどのリンクがクリックされたかなどの情報は示されません。UTMパラメータの助けを借りて、どのページのどのリンクがクリックされたかについての正確な情報を得ることができ、同時に統計の信頼性を向上させることができます。"
+                            },
+                            {
+                                "question": "UTMパラメータとは何か、そしてそれらをどのように使用しますか？",
+                                "answer": "合計で五つのUTMパラメータがあります。具体的には、utm_source、utm_medium、utm_campaign、utm_content、およびutm_termです。通常、最初の三つのパラメータが設定され、オプションとしてutm_contentおよびutm_termがあります。<br><br>utm_sourceはソースを指定します、例えばウェブサイトやニュースレターなど。<br><br>utm_mediumはキャンペーンのために使用される媒体を含みます、例えばソーシャルメディアなど。<br><br>utm_campaignは名前が示すように、キャンペーンを特定します。各キャンペーンは通常、サマーセールのような名前が付けられます。<br><br>utm_contentおよびutm_termはあまり頻繁には使用されませんが、訪問者がどのリンクをたどったか、どのキーワードが使用されたかを発見するのに非常に役立ちます。utm_contentはページまたはメールのどの部分が表示されたかを示します。これは、リンクが配置された領域を特定するために、たとえばヘッダーまたはフッターが表示されます。utm_termは検索用語に使用されます。例えば、リンクが検索結果として表示される場合、検索用語はキャンペーンと共に送信されることがあります。<br><br>一般的に、パラメータの値は自由に選択できます。ただし、大文字と小文字が区別され、スペースは使用できません。代わりにプラス記号を使用することができ、これはPirschによって自動的にスペースに変換されます。UTMパラメータは受信リンクにのみ使用されるべきであり、同じウェブサイト上のページへのリンクには使用されるべきではありません。"
+                            },
+                            {
+                                "question": "UTMタグを手動で作成できますか？",
+                                "answer": "はい、URLにパラメータを追加することによってUTMタグを手動で作成することができます。しかし、このプロセスは時間がかかる可能性があり、エラーが発生しやすいです。UTMキャンペーンジェネレーターツールを使用すると、このプロセスを簡素化し、タグ付けの一貫性を確保することができます。"
+                            },
+                            {
+                                "question": "UTMタグは大文字と小文字を区別しますか？",
+                                "answer": "いいえ、UTMタグは大文字と小文字を区別しません。しかし、分析データの不一致を避けるために、タグ付けにおいて一貫性を保つことが良い習慣です。"
+                            },
+                            {
+                                "question": "Pirschでキャンペーンをどこで見ることができますか？",
+                                "answer": "キャンペーンはダッシュボードのリファラーの隣で見ることができます。様々なパラメータはタブに分けられ、フィルタをクリックすることで相互にリンクすることができます。例えば、キャンペーンでフィルタリングしてからUTM用語を見ることによって、キャンペーンを見つけるために使用された検索用語を発見することができます。UTM用語とコンテンツは、キャンペーン、ソース、または媒体でフィルタリングしたときのみ表示されます。"
+                            }
+                        ]
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}
