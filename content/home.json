@@ -512,18 +512,33 @@
                                                                 "data": {
                                                                     "images": [
                                                                         {
-                                                                            "src": "dashboard.svg",
-                                                                            "alt": "Dashboard",
+                                                                            "src": "dashboard-dark.svg",
+                                                                            "alt": "Dashboard Dark",
                                                                             "class": "border-radius-medium mask-bottom"
                                                                         },
                                                                         {
-                                                                            "src": "dashboard.svg",
-                                                                            "alt": "Dashboard",
+                                                                            "src": "dashboard-light.svg",
+                                                                            "alt": "Dashboard Light",
                                                                             "class": "border-radius-medium mask-bottom"
                                                                         },
                                                                         {
-                                                                            "src": "dashboard.svg",
-                                                                            "alt": "Dashboard",
+                                                                            "src": "dashboard-green-dark.svg",
+                                                                            "alt": "Dashboard Green",
+                                                                            "class": "border-radius-medium mask-bottom"
+                                                                        },
+                                                                        {
+                                                                            "src": "dashboard-blue-light.svg",
+                                                                            "alt": "Dashboard Blue",
+                                                                            "class": "border-radius-medium mask-bottom"
+                                                                        },
+                                                                        {
+                                                                            "src": "dashboard-retro-dark.svg",
+                                                                            "alt": "Dashboard Retro",
+                                                                            "class": "border-radius-medium mask-bottom"
+                                                                        },
+                                                                        {
+                                                                            "src": "dashboard-contrast-light.svg",
+                                                                            "alt": "Dashboard Contrast",
                                                                             "class": "border-radius-medium mask-bottom"
                                                                         }
                                                                     ]
