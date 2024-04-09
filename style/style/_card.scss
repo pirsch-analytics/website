@@ -32,16 +32,16 @@
     }
 
     @media only screen and (max-width: 1024px) {
-        @media only screen and (max-width: 1024px) {
-            max-width: 512px;
-        }
+        max-width: 512px;
 
         &.columns {
             flex-direction: column;
         }
 
         .card-content .button {
-            margin-top: var(--padding-small);;
+            width: 100%;
+            max-width: 384px;
+            margin-top: var(--padding-small);
         }
     }
 

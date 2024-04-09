@@ -16,4 +16,15 @@ section.cta {
             text-align: center;
         }
     }
+
+    @media only screen and (max-width: 1024px) {
+        .actions {
+            width: 100%;
+
+            .button {
+                width: 100%;
+                max-width: 384px;
+            }
+        }
+    }
 }

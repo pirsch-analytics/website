@@ -284,8 +284,8 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "ab.svg",
-                                                                    "alt": "AB Testing with Pirsch Analytics",
+                                                                    "src": "session.svg",
+                                                                    "alt": "Session Analysis with Pirsch Analytics",
                                                                     "max_width": "282px"
                                                                 }
                                                             }
@@ -371,7 +371,7 @@
             {
                 "tpl": "content",
                 "data": {
-                    "gradient_color": "green",
+                    "gradient_color": "yellow",
                     "gradient_position": "right"
                 },
                 "copy": {
@@ -379,7 +379,7 @@
                         "nummeration_number": "4",
                         "nummeration_text": "Smart Teamwork",
                         "headline": "Empower People With Data",
-                        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                        "text": "Reduce friction and enhance productivity by getting the right information to the right people with minimal effort, enabling them to thrive and excel."
                     }
                 },
                 "content": {
@@ -399,20 +399,14 @@
                                         "copy": {
                                             "en": {
                                                 "headline": "Easily Manage Teams and Sites",
-                                                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+                                                "text": "Work happens in teams. That's why Pirsch enables collaboration right from the start: Simply invite team members or clients via email, assign them roles, and give them access to the dashboards they need to excel. All people, sites and custom themes in one place.",
                                                 "cta_link": "/signup",
                                                 "cta_label": "Start 30-day Free Trial"
                                             }
                                         },
                                         "content": {
                                             "children": [
-                                                {
-                                                    "tpl": "image",
-                                                    "data": {
-                                                        "src": "data.svg",
-                                                        "alt": "data"
-                                                    }
-                                                }
+                                                {"tpl": "orga"}
                                             ]
                                         }
                                     },
@@ -451,7 +445,7 @@
             {
                 "tpl": "content",
                 "data": {
-                    "gradient_color": "yellow",
+                    "gradient_color": "green",
                     "gradient_position": "left"
                 },
                 "copy": {
@@ -514,32 +508,32 @@
                                                                         {
                                                                             "src": "dashboard-dark.svg",
                                                                             "alt": "Dashboard Dark",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-light.svg",
                                                                             "alt": "Dashboard Light",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-green-dark.svg",
                                                                             "alt": "Dashboard Green",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-blue-light.svg",
                                                                             "alt": "Dashboard Blue",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-retro-dark.svg",
                                                                             "alt": "Dashboard Retro",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-contrast-light.svg",
                                                                             "alt": "Dashboard Contrast",
-                                                                            "class": "border-radius-medium mask-bottom"
+                                                                            "class": "border-radius-medium"
                                                                         }
                                                                     ]
                                                                 }
