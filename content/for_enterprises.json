@@ -1,0 +1,40 @@
+{
+    "path": {
+        "en": "/for-enterprises",
+        "de": "/de/for-enterprises"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {"ref": "header"},
+            {
+                "tpl": "hero",
+                "copy": {
+                    "en": {
+                        "headline": "Privacy-friendly Web Analytics for Enterprises",
+                        "headline_class": "h2",
+                        "text": "Navigate the digital landscape with Pirsch, the robust enterprise analytics platform that ensures compliance, simplicity, and powerful data insights.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
+                    }
+                }
+            },
+            {"ref": "customers"},
+            {
+                "tpl": "extract",
+                "copy": {
+                    "en": {
+                        "text": "<h2>Say Farewell to Analytical Complexities</h2><p>In the enterprise world, data is abundant but making sense of it shouldn't be a hurdle. Traditional analytics tools often present a maze of data, making it a challenge to extract actionable insights.</p><p>Pirsch brings you a solution that transforms complex data into comprehensible, actionable insights, ensuring your enterprise navigates the digital realm with precision and ease.</p><h2>A Tailored Dashboard for Your Enterprise Needs</h2><p>Pirsch presents an intuitive dashboard that has been carefully designed to meet the diverse needs of organizations. With a single-page layout, your team can easily navigate through key metrics, create and save custom views, and drill down on data with a single click, ensuring that strategic decisions are backed by clear and concise data.</p><a class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' href='https://pirsch.pirsch.io' target='_blank'>View Live Demo</a><h3>Share Insights Securely at Scale</h3><p>In an enterprise, secure and scalable data sharing is paramount. Pirsch ensures that your data can be shared securely, whether publicly on your domain, privately through access links, or within your team. Easily manage access and ensure the right data reaches the right people, securely and efficiently.</p><h2>Self-Hosting or Managed Cloud</h2><p>Opt for self-hosting to keep all data in-house for maximum control and security over your analytics. Alternatively, choose a custom managed cloud setup to leverage our robust analytics solution with the hosting provider of your choice. Whether it's maintaining data sovereignty or ensuring optimal performance, Pirsch adapts to your organization's unique hosting needs to deliver a truly customized analytics experience.</p><h2>Automated, White-Labeled Reporting</h2><p>Stay on top of your key performance indicators with Pirsch's automated email reports. Customize them with your corporate branding to ensure a consistent communication experience. Deliver concise, insightful data directly to your stakeholders' inboxes to keep them informed and engaged.</p><h2>Your Analytics, Your Branding</h2><p>Pirsch extends its white-labeling capabilities to all analytics interfaces, ensuring that your brand is consistently represented. From login pages to emails, every touchpoint is an extension of your organization's branding, providing a seamless experience for your team and stakeholders.</p><a class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' href='/white-label-analytics'>Learn More</a><h2>Effortless Migration from Google Analytics</h2><p>Switching from Google Analytics? Pirsch ensures that your historical data is preserved and easily imported, providing a seamless migration path. Begin your journey with Pirsch without losing sight of your past performance and continue to build data-rich, insightful narratives for your enterprise.</p><h2>Full Ownership and Control Over Your Data</h2><p>Pirsch puts you in the driver's seat when it comes to data ownership and control. You can easily transfer site ownership and manage billing within the enterprise, ensuring you have complete autonomy over your data and analytics.</p><h2>Enhance Performance While Ensuring Compliance</h2><p>Pirsch not only optimizes the performance of your website with a lightweight script, but also ensures that your company adheres to global compliance standards such as GDPR, CCPA, PECR, and Schrems II, securing your operations in the global digital landscape.</p><a class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' href='https://docs.pirsch.io/privacy' target='_blank'>Learn More</a><h2>Transparent and Flexible Pricing</h2><p>Pirsch offers transparent, flexible pricing models designed with enterprise scalability in mind. Navigate through our plans, upgrade or downgrade as needed, and ensure your analytics solution scales seamlessly as your enterprise grows.</p><a class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' class='button secondary' href='/pricing'>Compare Plans</a>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

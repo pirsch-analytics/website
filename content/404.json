@@ -18,7 +18,36 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "404"
+                        "title": "Page Not Found",
+                        "meta_description": "This portal is not going anywhere."
+                    },
+                    "de": {
+                        "title": "Seite nicht gefunden",
+                        "meta_description": "Dieses Portal führt nirgendwohin."
+                    },
+                    "es": {
+                        "title": "Página no encontrada",
+                        "meta_description": "Este portal no lleva a ninguna parte."
+                    },
+                    "fr": {
+                        "title": "Page non trouvée",
+                        "meta_description": "Ce portail ne mène nulle part."
+                    },
+                    "nl": {
+                        "title": "Pagina niet gevonden",
+                        "meta_description": "Dit portaal gaat nergens naartoe."
+                    },
+                    "it": {
+                        "title": "Pagina non trovata",
+                        "meta_description": "Questo portale non porta da nessuna parte."
+                    },
+                    "pt": {
+                        "title": "Página não encontrada",
+                        "meta_description": "Este portal não está indo a lugar nenhum."
+                    },
+                    "ja": {
+                        "title": "ページが見つかりません",
+                        "meta_description": "このポータルはどこにも行きません。"
                     }
                 }
             },

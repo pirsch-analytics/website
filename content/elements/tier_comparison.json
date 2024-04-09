@@ -61,6 +61,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Session Analysis",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Custom Event Tracking",
                     "class2": "checked",
                     "class3": "checked",
@@ -103,6 +109,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Client Hints",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "A/B Testing",
                     "class3": "checked",
                     "class4": "checked"
@@ -140,6 +152,12 @@
                 },
                 {
                     "cell1": "RESTful API & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Native Webhooks",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"

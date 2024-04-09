@@ -460,26 +460,28 @@ section.text article img {
   max-width: 100%;
   margin: 32px auto;
   border-radius: var(--border-radius-medium);
-  cursor: zoom-in;
 }
 section.text article video {
   max-width: 100%;
   margin: 32px auto;
   border-radius: var(--border-radius-medium);
 }
-section.text article a {
+section.text article a:not(.button) {
   color: var(--color-primary);
   font-weight: 500;
   font-size: inherit;
   transition: opacity 0.1s ease;
 }
-section.text article a:hover, section.text article a:focus {
+section.text article a:not(.button):hover, section.text article a:not(.button):focus {
   opacity: 0.8;
 }
-section.text article a img {
+section.text article a:not(.button) img {
   width: auto;
   margin: 0;
   cursor: pointer;
+}
+section.text article .button {
+  margin: 16px 0;
 }
 section.text article blockquote {
   max-width: 100%;
@@ -565,6 +567,12 @@ section.text article hr {
   }
   section.text article h3 {
     font-size: 18px;
+  }
+  section.text article .button {
+    display: flex;
+    width: 100%;
+    max-width: 384px;
+    margin: 48px auto 48px;
   }
 }
 
@@ -1032,7 +1040,7 @@ footer .footer-content ul li:first-of-type {
 footer .footer-content ul li .h4 {
   margin-bottom: 12px;
 }
-footer .footer-content ul li a {
+footer .footer-content ul li > a {
   display: block;
   margin: 8px 0;
   color: var(--color-secondary);

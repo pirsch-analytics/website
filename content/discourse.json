@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/discourse/login"
+        "en": "/discourse/login",
+        "de": "/de/discourse/login",
+        "es": "/es/discourse/login",
+        "fr": "/fr/discourse/login",
+        "nl": "/nl/discourse/login",
+        "it": "/it/discourse/login",
+        "pt": "/pt/discourse/login",
+        "jp": "/jp/discourse/login"
     },
     "sitemap": {
         "priority": "0.01"

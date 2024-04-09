@@ -161,7 +161,7 @@ section.text {
             max-width: 100%;
             margin: 32px auto;
             border-radius: var(--border-radius-medium);
-            cursor: zoom-in;
+            //cursor: zoom-in;
         }
 
         video {
@@ -170,7 +170,7 @@ section.text {
             border-radius: var(--border-radius-medium);
         }
         
-        a {
+        a:not(.button) {
             color: var(--color-primary);
             font-weight: 500;
             font-size: inherit;
@@ -186,6 +186,10 @@ section.text {
                 margin: 0;
                 cursor: pointer;
             }
+        }
+
+        .button {
+            margin: 16px 0;
         }
         
         blockquote {
@@ -288,6 +292,13 @@ section.text {
 
             h3 {
                 font-size: 18px;
+            }
+
+            .button {
+                display: flex;
+                width: 100%;
+                max-width: 384px;
+                margin: 48px auto 48px;
             }
         }
     }

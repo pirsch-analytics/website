@@ -8,7 +8,17 @@
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Legal Notice"
+                    },
+                    "de": {
+                        "title": "Impressum"
+                    }
+                }
+            },
             {"ref": "header"},
             {
                 "tpl": "text",

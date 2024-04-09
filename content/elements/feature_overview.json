@@ -9,227 +9,1971 @@
             "dashboard": "Dashboard",
             "dashboard_features": [
                 {
-                "headline": "Powerful Filters",
-                "text": "Easily filter your data to extract valuable insights.",
-                "standard": true
+                    "headline": "Powerful Filters",
+                    "text": "Easily filter your data to extract valuable insights.",
+                    "standard": true
                 },
                 {
-                "headline": "Time Period Comparison",
-                "text": "Compare data across different time periods for trend analysis.",
-                "standard": true
+                    "headline": "Time Period Comparison",
+                    "text": "Compare data across different time periods for trend analysis.",
+                    "standard": true
                 },
                 {
-                "headline": "Saveable Filters (Views)",
-                "text": "Save and reuse custom filters for efficient data analysis.",
-                "standard": true
+                    "headline": "Saveable Filters (Views)",
+                    "text": "Save and reuse custom filters for efficient data analysis.",
+                    "standard": true
                 },
                 {
-                "headline": "Custom Event Tracking",
-                "text": "Track and analyze custom events tailored to your website's needs.",
-                "standard": true
+                    "headline": "Session Analysis",
+                    "text": "Learn more about individual user journeys with in-depth session summaries.",
+                    "standard": true
                 },
                 {
-                "headline": "Conversion Goal Tracking",
-                "text": "Monitor and optimize conversion goals to improve performance.",
-                "standard": true
+                    "headline": "Custom Event Tracking",
+                    "text": "Track and analyze custom events tailored to your website's needs.",
+                    "standard": true
                 },
                 {
-                "headline": "Outbound Link Tracking",
-                "text": "Track clicks on outbound links to measure engagement.",
-                "standard": true
+                    "headline": "Conversion Goal Tracking",
+                    "text": "Monitor and optimize conversion goals to improve performance.",
+                    "standard": true
                 },
                 {
-                "headline": "File Download Tracking",
-                "text": "Monitor downloads of files hosted on your website.",
-                "standard": true
+                    "headline": "Outbound Link Tracking",
+                    "text": "Track clicks on outbound links to measure engagement.",
+                    "standard": true
                 },
                 {
-                "headline": "404 Page Tracking",
-                "text": "Identify and address broken links with 404 page tracking.",
-                "standard": true
+                    "headline": "File Download Tracking",
+                    "text": "Monitor downloads of files hosted on your website.",
+                    "standard": true
                 },
                 {
-                "headline": "Automatic Email Reports",
-                "text": "Receive automated reports via email for easy monitoring.",
-                "standard": true
+                    "headline": "404 Page Tracking",
+                    "text": "Identify and address broken links with 404 page tracking.",
+                    "standard": true
                 },
                 {
-                "headline": "Google Search Console Plugin",
-                "text": "Integrate data from Google Search Console for comprehensive analysis.",
-                "standard": true
+                    "headline": "Automatic Email Reports",
+                    "text": "Receive automated reports via email for easy monitoring.",
+                    "standard": true
                 },
                 {
-                "headline": "A/B Testing",
-                "text": "Conduct A/B tests to optimize website performance and user experience using tags.",
-                "plus": true
+                    "headline": "Google Search Console Plugin",
+                    "text": "Integrate data from Google Search Console for comprehensive analysis.",
+                    "standard": true
                 },
                 {
-                "headline": "Segmentation",
-                "text": "Segment your audience for targeted analysis and personalized insights with tags.",
-                "plus": true
+                    "headline": "Client Hints",
+                    "text": "Receive more accurate information about browsers and operating systems.",
+                    "standard": true
                 },
                 {
-                "headline": "Custom Event Metrics",
-                "text": "Define custom metrics for in-depth event tracking and analysis.",
-                "plus": true
+                    "headline": "A/B Testing",
+                    "text": "Conduct A/B tests to optimize website performance and user experience using tags.",
+                    "plus": true
                 },
                 {
-                "headline": "E-commerce Revenue Tracking",
-                "text": "Track and analyze revenue generated from e-commerce activities.",
-                "plus": true
+                    "headline": "Segmentation",
+                    "text": "Segment your audience for targeted analysis and personalized insights with tags.",
+                    "plus": true
+                },
+                {
+                    "headline": "Custom Event Metrics",
+                    "text": "Define custom metrics for in-depth event tracking and analysis.",
+                    "plus": true
+                },
+                {
+                    "headline": "E-commerce Revenue Tracking",
+                    "text": "Track and analyze revenue generated from e-commerce activities.",
+                    "plus": true
                 }
             ],
             "integration": "Integration",
             "integration_features": [
                 {
-                "headline": "Website Integration",
-                "text": "Seamlessly integrate Pirsch Analytics with your website for streamlined data collection.",
-                "standard": true
+                    "headline": "Website Integration",
+                    "text": "Seamlessly integrate Pirsch Analytics with your website for streamlined data collection.",
+                    "standard": true
                 },
                 {
-                "headline": "Server-side Integration",
-                "text": "Integrate analytics tracking directly into your server-side applications.",
-                "standard": true
+                    "headline": "Server-side Integration",
+                    "text": "Integrate analytics tracking directly into your server-side applications.",
+                    "standard": true
                 },
                 {
-                "headline": "RESTful API & SDKs",
-                "text": "Access Pirsch data and functionality through RESTful APIs and software development kits.",
-                "standard": true
+                    "headline": "RESTful API & SDKs",
+                    "text": "Access Pirsch data and functionality through RESTful APIs and software development kits.",
+                    "standard": true
                 },
                 {
-                "headline": "Script Proxies",
-                "text": "Use script proxies for secure and efficient data collection.",
-                "standard": true
+                    "headline": "Native Webhooks",
+                    "text": "Stay up-to-date or trigger actions in the applications you already use.",
+                    "standard": true
                 },
                 {
-                "headline": "Wordpress Plugin",
-                "text": "Easily integrate Pirsch Analytics with your WordPress website.",
-                "standard": true
+                    "headline": "Script Proxies",
+                    "text": "Use script proxies for secure and efficient data collection.",
+                    "standard": true
+                },
+                {
+                    "headline": "Wordpress Plugin",
+                    "text": "Easily integrate Pirsch Analytics with your WordPress website.",
+                    "standard": true
                 }
             ],
             "access": "Access",
             "access_features": [
                 {
-                "headline": "Public Dashboards",
-                "text": "Share dashboards publicly for transparent data access and collaboration.",
-                "standard": true
+                    "headline": "Public Dashboards",
+                    "text": "Share dashboards publicly for transparent data access and collaboration.",
+                    "standard": true
                 },
                 {
-                "headline": "Unique Access Links",
-                "text": "Generate unique access links for controlled data sharing.",
-                "standard": true
+                    "headline": "Unique Access Links",
+                    "text": "Generate unique access links for controlled data sharing.",
+                    "standard": true
                 },
                 {
-                "headline": "Member Roles",
-                "text": "Assign different roles to members for customized access and permissions.",
-                "standard": true
+                    "headline": "Member Roles",
+                    "text": "Assign different roles to members for customized access and permissions.",
+                    "standard": true
                 },
                 {
-                "headline": "Organizations",
-                "text": "Organize and manage multiple websites and people within Pirsch.",
-                "plus": true
+                    "headline": "Organizations",
+                    "text": "Organize and manage multiple websites and people within Pirsch.",
+                    "plus": true
                 },
                 {
-                "headline": "SAML-based Single Sign-On",
-                "text": "Implement single sign-on for enhanced security and convenience.",
-                "plus": true
+                    "headline": "SAML-based Single Sign-On",
+                    "text": "Implement single sign-on for enhanced security and convenience.",
+                    "plus": true
                 }
             ],
             "customization": "Customization",
             "customization_features": [
                 {
-                "headline": "Custom Domains",
-                "text": "Use custom domains for branding and personalized user experiences.",
-                "plus": true
+                    "headline": "Custom Domains",
+                    "text": "Use custom domains for branding and personalized user experiences.",
+                    "plus": true
                 },
                 {
-                "headline": "Custom Themes",
-                "text": "Customize the appearance of your analytics dashboards with custom themes.",
-                "plus": true
+                    "headline": "Custom Themes",
+                    "text": "Customize the appearance of your analytics dashboards with custom themes.",
+                    "plus": true
                 },
                 {
-                "headline": "Custom Logos",
-                "text": "Brand your analytics dashboards with custom logos for a professional look.",
-                "plus": true
+                    "headline": "Custom Logos",
+                    "text": "Brand your analytics dashboards with custom logos for a professional look.",
+                    "plus": true
                 },
                 {
-                "headline": "Extensive White Labeling",
-                "text": "White-label Pirsch Analytics to match your brand identity and seamlessly integrate with your offerings.",
-                "plus": true
+                    "headline": "Extensive White Labeling",
+                    "text": "White-label Pirsch Analytics to match your brand identity and seamlessly integrate with your offerings.",
+                    "plus": true
                 }
             ],
             "data": "Data",
             "data_features": [
                 {
-                "headline": "GDPR Compliance",
-                "text": "Ensure compliance with the General Data Protection Regulation for data privacy and security.",
-                "standard": true
+                    "headline": "GDPR Compliance",
+                    "text": "Ensure compliance with the General Data Protection Regulation for data privacy and security.",
+                    "standard": true
                 },
                 {
-                "headline": "100% Data Ownership",
-                "text": "Retain full ownership and control of your analytics data at all times.",
-                "standard": true
+                    "headline": "100% Data Ownership",
+                    "text": "Retain full ownership and control of your analytics data at all times.",
+                    "standard": true
                 },
                 {
-                "headline": "Google Analytics Import",
-                "text": "Easily import existing data from Google Universal Analytics for seamless transition.",
-                "standard": true
+                    "headline": "Google Analytics Import",
+                    "text": "Easily import existing data from Google Universal Analytics for seamless transition.",
+                    "standard": true
                 },
                 {
-                "headline": "Fathom Analytics Import",
-                "text": "Import data from Fathom Analytics to consolidate your analytics efforts.",
-                "standard": true
+                    "headline": "Fathom Analytics Import",
+                    "text": "Import data from Fathom Analytics to consolidate your analytics efforts.",
+                    "standard": true
                 },
                 {
-                "headline": "CSV Export",
-                "text": "Export data to CSV format for further analysis and reporting.",
-                "standard": true
+                    "headline": "CSV Export",
+                    "text": "Export data to CSV format for further analysis and reporting.",
+                    "standard": true
                 }
             ],
             "hosting": "Hosting",
             "hosting_features": [
                 {
-                "headline": "Cloud (Germany)",
-                "text": "Host your analytics data on secure and reliable cloud servers in Germany.",
-                "standard": true
+                    "headline": "Cloud (Germany)",
+                    "text": "Host your analytics data on secure and reliable cloud servers in Germany.",
+                    "standard": true
                 },
                 {
-                "headline": "On-premise (Self-hosted)",
-                "text": "Opt for self-hosted deployment for complete control and privacy.",
-                "enterprise": true
+                    "headline": "On-premise (Self-hosted)",
+                    "text": "Opt for self-hosted deployment for complete control and privacy.",
+                    "enterprise": true
                 },
                 {
-                "headline": "Custom Cloud (Managed)",
-                "text": "Choose managed cloud services tailored to your specific requirements.",
-                "enterprise": true
+                    "headline": "Custom Cloud (Managed)",
+                    "text": "Choose managed cloud services tailored to your specific requirements.",
+                    "enterprise": true
                 }
             ],
             "support": "Support",
             "support_features": [
                 {
-                "headline": "Email Support",
-                "text": "Get assistance and guidance via email for prompt issue resolution.",
-                "standard": true
+                    "headline": "Email Support",
+                    "text": "Get assistance and guidance via email for prompt issue resolution.",
+                    "standard": true
                 },
                 {
-                "headline": "Priority Support",
-                "text": "Receive priority assistance from the Pirsch Analytics support team for critical issues.",
-                "plus": true
+                    "headline": "Priority Support",
+                    "text": "Receive priority assistance from the Pirsch Analytics support team for critical issues.",
+                    "plus": true
                 },
                 {
-                "headline": "Dedicated Support",
-                "text": "Access dedicated support resources for personalized help, including a private Slack channel.",
-                "enterprise": true
+                    "headline": "Dedicated Support",
+                    "text": "Access dedicated support resources for personalized help, including a private Slack channel.",
+                    "enterprise": true
                 },
                 {
-                "headline": "Personal Onboarding",
-                "text": "Receive one-on-one onboarding assistance for a smooth transition.",
-                "enterprise": true
+                    "headline": "Personal Onboarding",
+                    "text": "Receive one-on-one onboarding assistance for a smooth transition.",
+                    "enterprise": true
                 },
                 {
-                "headline": "Online User Training",
-                "text": "Book online training sessions to maximize your team's proficiency.",
-                "enterprise": true
+                    "headline": "Online User Training",
+                    "text": "Book online training sessions to maximize your team's proficiency.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "de": {
+            "headline": "Alle Funktionen",
+            "text": "Pirsch bietet eine umfassende Palette leistungsstarker Funktionen, die es dir ermöglichen, tiefe Einblicke zu gewinnen und die Leistung der Website mühelos zu optimieren.",
+            "action_primary": "Starte deine kostenlose Testversion",
+            "action_secondary": "Live-Demo ansehen",
+            "dashboard": "Dashboard",
+            "dashboard_features": [
+                {
+                    "headline": "Leistungsstarke Filter",
+                    "text": "Filtere deine Daten problemlos, um wertvolle Erkenntnisse zu gewinnen.",
+                    "standard": true
+                },
+                {
+                    "headline": "Zeitraumvergleich",
+                    "text": "Vergleiche Daten über verschiedene Zeiträume hinweg für Trendanalysen.",
+                    "standard": true
+                },
+                {
+                    "headline": "Speicherbare Filter (Ansichten)",
+                    "text": "Speichere und verwende benutzerdefinierte Filter für eine effiziente Datenanalyse.",
+                    "standard": true
+                },
+                {
+                    "headline": "Sitzungsanalyse",
+                    "text": "Erfahre mehr über individuelle Benutzerreisen mit ausführlichen Sitzungszusammenfassungen.",
+                    "standard": true
+                },
+                {
+                    "headline": "Benutzerdefiniertes Ereignis-Tracking",
+                    "text": "Verfolge und analysiere benutzerdefinierte Ereignisse, die auf die Bedürfnisse deiner Website zugeschnitten sind.",
+                    "standard": true
+                },
+                {
+                    "headline": "Konversionsziel-Tracking",
+                    "text": "Überwache und optimiere Konversionsziele, um die Leistung zu verbessern.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracking von ausgehenden Links",
+                    "text": "Verfolge Klicks auf ausgehende Links, um das Engagement zu messen.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracking von Dateidownloads",
+                    "text": "Überwache Downloads von auf deiner Website gehosteten Dateien.",
+                    "standard": true
+                },
+                {
+                    "headline": "404-Seiten-Tracking",
+                    "text": "Identifiziere und behebe defekte Links mit dem 404-Seiten-Tracking.",
+                    "standard": true
+                },
+                {
+                    "headline": "Automatische E-Mail-Berichte",
+                    "text": "Erhalte automatisierte Berichte per E-Mail zur einfachen Überwachung.",
+                    "standard": true
+                },
+                {
+                    "headline": "Google Search Console Plugin",
+                    "text": "Integriere Daten aus der Google Search Console für eine umfassende Analyse.",
+                    "standard": true
+                },
+                {
+                    "headline": "Client-Hinweise",
+                    "text": "Erhalte genauere Informationen zu Browsern und Betriebssystemen.",
+                    "standard": true
+                },
+                {
+                    "headline": "A/B-Tests",
+                    "text": "Führe A/B-Tests durch, um die Leistung der Website und die Benutzererfahrung mithilfe von Tags zu optimieren.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentierung",
+                    "text": "Segmentiere dein Publikum für zielgerichtete Analysen und personalisierte Einblicke mit Tags.",
+                    "plus": true
+                },
+                {
+                    "headline": "Benutzerdefinierte Ereignismetriken",
+                    "text": "Definiere benutzerdefinierte Metriken für eine eingehende Ereignisverfolgung und -analyse.",
+                    "plus": true
+                },
+                {
+                    "headline": "E-Commerce-Umsatzverfolgung",
+                    "text": "Verfolge und analysiere den Umsatz, der aus E-Commerce-Aktivitäten generiert wird.",
+                    "plus": true
+                }
+            ],
+            "integration": "Integration",
+            "integration_features": [
+                {
+                    "headline": "Website-Integration",
+                    "text": "Integriere Pirsch Analytics nahtlos in deine Website für eine reibungslose Datensammlung.",
+                    "standard": true
+                },
+                {
+                    "headline": "Integration auf Serverseite",
+                    "text": "Integriere die Analysetracking direkt in deine serverseitigen Anwendungen.",
+                    "standard": true
+                },
+                {
+                    "headline": "RESTful API & SDKs",
+                    "text": "Greife auf Pirsch-Daten und -Funktionalitäten über RESTful APIs und Software Development Kits zu.",
+                    "standard": true
+                },
+                {
+                    "headline": "Native Webhooks",
+                    "text": "Bleibe auf dem neuesten Stand oder löse Aktionen in den Anwendungen aus, die du bereits verwendest.",
+                    "standard": true
+                },
+                {
+                    "headline": "Skript-Proxys",
+                    "text": "Verwende Skript-Proxys für eine sichere und effiziente Datensammlung.",
+                    "standard": true
+                },
+                {
+                    "headline": "WordPress-Plugin",
+                    "text": "Integriere Pirsch Analytics problemlos in deine WordPress-Website.",
+                    "standard": true
+                }
+            ],
+            "access": "Zugang",
+            "access_features": [
+                {
+                    "headline": "Öffentliche Dashboards",
+                    "text": "Teile Dashboards öffentlich für transparenten Datenzugriff und Zusammenarbeit.",
+                    "standard": true
+                },
+                {
+                    "headline": "Einmalige Zugriffslinks",
+                    "text": "Generiere einzigartige Zugriffslinks für kontrollierten Datenaustausch.",
+                    "standard": true
+                },
+                {
+                    "headline": "Mitgliederrollen",
+                    "text": "Weise verschiedenen Mitgliedern Rollen für individuellen Zugriff und Berechtigungen zu.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organisationen",
+                    "text": "Organisiere und verwalte mehrere Websites und Personen innerhalb von Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "SAML-basierte Single Sign-On",
+                    "text": "Implementiere Single Sign-On für erhöhte Sicherheit und Bequemlichkeit.",
+                    "plus": true
+                }
+            ],
+            "customization": "Anpassung",
+            "customization_features": [
+                {
+                    "headline": "Benutzerdefinierte Domains",
+                    "text": "Verwende benutzerdefinierte Domains für Branding und personalisierte Benutzererfahrungen.",
+                    "plus": true
+                },
+                {
+                    "headline": "Benutzerdefinierte Themen",
+                    "text": "Passe das Erscheinungsbild deiner Analyse-Dashboards mit benutzerdefinierten Themen an.",
+                    "plus": true
+                },
+                {
+                    "headline": "Benutzerdefinierte Logos",
+                    "text": "Brande deine Analyse-Dashboards mit benutzerdefinierten Logos für einen professionellen Look.",
+                    "plus": true
+                },
+                {
+                    "headline": "Umfangreiches White-Labeling",
+                    "text": "White-Label Pirsch Analytics, um deine Markenidentität anzupassen und nahtlos in deine Angebote zu integrieren.",
+                    "plus": true
+                }
+            ],
+            "data": "Daten",
+            "data_features": [
+                {
+                    "headline": "DSGVO-Konformität",
+                    "text": "Stelle die Einhaltung der Datenschutz-Grundverordnung für Datenschutz und -sicherheit sicher.",
+                    "standard": true
+                },
+                {
+                    "headline": "100% Datenbesitz",
+                    "text": "Behalte jederzeit den vollen Besitz und die Kontrolle über deine Analyse-Daten.",
+                    "standard": true
+                },
+                {
+                    "headline": "Import von Google Analytics",
+                    "text": "Importiere vorhandene Daten aus Google Universal Analytics für einen nahtlosen Übergang.",
+                    "standard": true
+                },
+                {
+                    "headline": "Import von Fathom Analytics",
+                    "text": "Importiere Daten von Fathom Analytics, um deine Analysebemühungen zu konsolidieren.",
+                    "standard": true
+                },
+                {
+                    "headline": "CSV-Export",
+                    "text": "Exportiere Daten im CSV-Format für weitere Analyse und Berichterstattung.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hosting",
+            "hosting_features": [
+                {
+                    "headline": "Cloud (Deutschland)",
+                    "text": "Hoste deine Analyse-Daten auf sicheren und zuverlässigen Cloud-Servern in Deutschland.",
+                    "standard": true
+                },
+                {
+                    "headline": "On-Premise (Selbstgehostet)",
+                    "text": "Wähle die selbstgehostete Bereitstellung für volle Kontrolle und Privatsphäre.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Benutzerdefinierte Cloud (Managed)",
+                    "text": "Wähle gemanagte Cloud-Services, die auf deine spezifischen Anforderungen zugeschnitten sind.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Support",
+            "support_features": [
+                {
+                    "headline": "E-Mail-Support",
+                    "text": "Erhalte Unterstützung und Anleitung per E-Mail für eine schnelle Problembehebung.",
+                    "standard": true
+                },
+                {
+                    "headline": "Priorisierter Support",
+                    "text": "Erhalte priorisierte Unterstützung vom Pirsch Analytics-Supportteam für kritische Probleme.",
+                    "plus": true
+                },
+                {
+                    "headline": "Dedizierter Support",
+                    "text": "Zugriff auf dedizierte Support-Ressourcen für individuelle Hilfe, einschließlich eines privaten Slack-Kanals.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Persönliches Onboarding",
+                    "text": "Erhalte persönliche Einführungshilfe für einen reibungslosen Übergang.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Online-Benutzerschulung",
+                    "text": "Buche Online-Schulungssitzungen, um die Effizienz deines Teams zu maximieren.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "es": {
+            "headline": "Todas las Funciones",
+            "text": "Pirsch ofrece una amplia gama de funciones potentes que permiten a los usuarios obtener ideas profundas y optimizar el rendimiento del sitio web con facilidad.",
+            "action_primary": "Comienza tu prueba gratuita",
+            "action_secondary": "Ver demostración en vivo",
+            "dashboard": "Tablero",
+            "dashboard_features": [
+                {
+                    "headline": "Filtros Potentes",
+                    "text": "Filtra fácilmente tus datos para extraer ideas valiosas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Comparación de Períodos de Tiempo",
+                    "text": "Compara datos a lo largo de diferentes períodos de tiempo para análisis de tendencias.",
+                    "standard": true
+                },
+                {
+                    "headline": "Filtros Guardables (Vistas)",
+                    "text": "Guarda y reutiliza filtros personalizados para un análisis de datos eficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Análisis de Sesiones",
+                    "text": "Obtén más información sobre los viajes individuales de los usuarios con resúmenes de sesión detallados.",
+                    "standard": true
+                },
+                {
+                    "headline": "Seguimiento de Eventos Personalizados",
+                    "text": "Realiza un seguimiento y análisis de eventos personalizados adaptados a las necesidades de tu sitio web.",
+                    "standard": true
+                },
+                {
+                    "headline": "Seguimiento de Objetivos de Conversión",
+                    "text": "Supervisa y optimiza los objetivos de conversión para mejorar el rendimiento.",
+                    "standard": true
+                },
+                {
+                    "headline": "Seguimiento de Enlaces Salientes",
+                    "text": "Realiza un seguimiento de los clics en enlaces salientes para medir el compromiso.",
+                    "standard": true
+                },
+                {
+                    "headline": "Seguimiento de Descargas de Archivos",
+                    "text": "Supervisa las descargas de archivos alojados en tu sitio web.",
+                    "standard": true
+                },
+                {
+                    "headline": "Seguimiento de Páginas 404",
+                    "text": "Identifica y soluciona enlaces rotos con el seguimiento de páginas 404.",
+                    "standard": true
+                },
+                {
+                    "headline": "Informes de Correo Electrónico Automáticos",
+                    "text": "Recibe informes automatizados por correo electrónico para una supervisión fácil.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin de Consola de Búsqueda de Google",
+                    "text": "Integra datos de la Consola de Búsqueda de Google para un análisis integral.",
+                    "standard": true
+                },
+                {
+                    "headline": "Indicios del Cliente",
+                    "text": "Recibe información más precisa sobre navegadores y sistemas operativos.",
+                    "standard": true
+                },
+                {
+                    "headline": "Pruebas A/B",
+                    "text": "Realiza pruebas A/B para optimizar el rendimiento del sitio web y la experiencia del usuario utilizando etiquetas.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentación",
+                    "text": "Segmenta tu audiencia para análisis dirigidos e ideas personalizadas con etiquetas.",
+                    "plus": true
+                },
+                {
+                    "headline": "Métricas de Eventos Personalizados",
+                    "text": "Define métricas personalizadas para un seguimiento y análisis de eventos más profundo.",
+                    "plus": true
+                },
+                {
+                    "headline": "Seguimiento de Ingresos de Comercio Electrónico",
+                    "text": "Supervisa y analiza los ingresos generados por actividades de comercio electrónico.",
+                    "plus": true
+                }
+            ],
+            "integration": "Integración",
+            "integration_features": [
+                {
+                    "headline": "Integración en el Sitio Web",
+                    "text": "Integra Pirsch Analytics fácilmente con tu sitio web para una recopilación de datos simplificada.",
+                    "standard": true
+                },
+                {
+                    "headline": "Integración en el Servidor",
+                    "text": "Integra el seguimiento de análisis directamente en tus aplicaciones del lado del servidor.",
+                    "standard": true
+                },
+                {
+                    "headline": "API RESTful y SDKs",
+                    "text": "Accede a los datos y la funcionalidad de Pirsch a través de APIs RESTful y kits de desarrollo de software.",
+                    "standard": true
+                },
+                {
+                    "headline": "Ganchos Web Nativos",
+                    "text": "Mantente actualizado o activa acciones en las aplicaciones que ya utilizas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Proxies de Script",
+                    "text": "Utiliza proxies de script para una recopilación de datos segura y eficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin de Wordpress",
+                    "text": "Integra fácilmente Pirsch Analytics con tu sitio web de WordPress.",
+                    "standard": true
+                }
+            ],
+            "access": "Acceso",
+            "access_features": [
+                {
+                    "headline": "Paneles Públicos",
+                    "text": "Comparte paneles públicamente para un acceso transparente a los datos y la colaboración.",
+                    "standard": true
+                },
+                {
+                    "headline": "Enlaces de Acceso Únicos",
+                    "text": "Genera enlaces de acceso únicos para compartir datos de forma controlada.",
+                    "standard": true
+                },
+                {
+                    "headline": "Roles de Miembros",
+                    "text": "Asigna diferentes roles a los miembros para un acceso y permisos personalizados.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organizaciones",
+                    "text": "Organiza y gestiona múltiples sitios web y personas dentro de Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "Inicio de Sesión Único basado en SAML",
+                    "text": "Implementa el inicio de sesión único para una seguridad y comodidad mejoradas.",
+                    "plus": true
+                }
+            ],
+            "customization": "Personalización",
+            "customization_features": [
+                {
+                    "headline": "Dominios Personalizados",
+                    "text": "Utiliza dominios personalizados para la marca y experiencias de usuario personalizadas.",
+                    "plus": true
+                },
+                {
+                    "headline": "Temas Personalizados",
+                    "text": "Personaliza la apariencia de tus paneles de análisis con temas personalizados.",
+                    "plus": true
+                },
+                {
+                    "headline": "Logotipos Personalizados",
+                    "text": "Marca tus paneles de análisis con logotipos personalizados para un aspecto profesional.",
+                    "plus": true
+                },
+                {
+                    "headline": "Etiquetado Blanco Extensivo",
+                    "text": "Etiqueta blanca Pirsch Analytics para que coincida con la identidad de tu marca e integra perfectamente con tus ofertas.",
+                    "plus": true
+                }
+            ],
+            "data": "Datos",
+            "data_features": [
+                {
+                    "headline": "Cumplimiento de GDPR",
+                    "text": "Asegura el cumplimiento del Reglamento General de Protección de Datos para la privacidad y seguridad de los datos.",
+                    "standard": true
+                },
+                {
+                    "headline": "Propiedad del 100% de los Datos",
+                    "text": "Mantén la propiedad total y el control de tus datos de análisis en todo momento.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importación de Google Analytics",
+                    "text": "Importa fácilmente datos existentes de Google Universal Analytics para una transición sin problemas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importación de Fathom Analytics",
+                    "text": "Importa datos de Fathom Analytics para consolidar tus esfuerzos de análisis.",
+                    "standard": true
+                },
+                {
+                    "headline": "Exportación a CSV",
+                    "text": "Exporta datos a formato CSV para un análisis y presentación adicionales.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hospedaje",
+            "hosting_features": [
+                {
+                    "headline": "Nube (Alemania)",
+                    "text": "Aloja tus datos de análisis en servidores en la nube seguros y confiables en Alemania.",
+                    "standard": true
+                },
+                {
+                    "headline": "Local (Autohospedado)",
+                    "text": "Opta por la implementación autohospedada para un control completo y privacidad.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Nube Personalizada (Gestionada)",
+                    "text": "Elige servicios de nube gestionados adaptados a tus requisitos específicos.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Soporte",
+            "support_features": [
+                {
+                    "headline": "Soporte por Correo Electrónico",
+                    "text": "Obtén asistencia y orientación por correo electrónico para una resolución rápida de problemas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Soporte Prioritario",
+                    "text": "Recibe asistencia prioritaria del equipo de soporte de Pirsch Analytics para problemas críticos.",
+                    "plus": true
+                },
+                {
+                    "headline": "Soporte Dedicado",
+                    "text": "Accede a recursos de soporte dedicados para ayuda personalizada, incluido un canal privado de Slack.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Introducción Personalizada",
+                    "text": "Recibe asistencia personalizada para una transición sin problemas.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Formación de Usuarios en Línea",
+                    "text": "Reserva sesiones de formación en línea para maximizar la competencia de tu equipo.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "fr": {
+            "headline": "Toutes les fonctionnalités",
+            "text": "Pirsch offre une gamme complète de fonctionnalités puissantes, permettant aux utilisateurs d'obtenir des insights approfondis et d'optimiser la performance de leur site web facilement.",
+            "action_primary": "Commencez votre essai gratuit",
+            "action_secondary": "Voir la démo en direct",
+            "dashboard": "Tableau de bord",
+            "dashboard_features": [
+                {
+                    "headline": "Filtres puissants",
+                    "text": "Filtrez facilement vos données pour extraire des insights précieux.",
+                    "standard": true
+                },
+                {
+                    "headline": "Comparaison de périodes",
+                    "text": "Comparez les données sur différentes périodes pour analyser les tendances.",
+                    "standard": true
+                },
+                {
+                    "headline": "Filtres enregistrables (vues)",
+                    "text": "Enregistrez et réutilisez les filtres personnalisés pour une analyse efficace.",
+                    "standard": true
+                },
+                {
+                    "headline": "Analyse des sessions",
+                    "text": "Approfondissez la compréhension des parcours utilisateurs grâce à des résumés détaillés des sessions.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suivi des événements personnalisés",
+                    "text": "Suivez et analysez les événements personnalisés adaptés aux besoins de votre site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suivi des objectifs de conversion",
+                    "text": "Surveillez et optimisez les objectifs de conversion pour améliorer les performances.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suivi des liens sortants",
+                    "text": "Suivez les clics sur les liens sortants pour mesurer l'engagement.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suivi des téléchargements de fichiers",
+                    "text": "Surveillez les téléchargements de fichiers hébergés sur votre site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suivi des pages 404",
+                    "text": "Identifiez et résolvez les liens brisés avec le suivi des pages 404.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rapports automatiques par email",
+                    "text": "Recevez des rapports automatiques par email pour un suivi facile.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin Google Search Console",
+                    "text": "Intégrez les données de Google Search Console pour une analyse complète.",
+                    "standard": true
+                },
+                {
+                    "headline": "Indications clients",
+                    "text": "Recevez des informations plus précises sur les navigateurs et les systèmes d'exploitation.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tests A/B",
+                    "text": "Réalisez des tests A/B pour optimiser la performance et l'expérience utilisateur de votre site.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentation",
+                    "text": "Segmentez votre audience pour une analyse ciblée et des insights personnalisés.",
+                    "plus": true
+                },
+                {
+                    "headline": "Métriques d'événements personnalisés",
+                    "text": "Définissez des métriques personnalisées pour un suivi approfondi des événements.",
+                    "plus": true
+                },
+                {
+                    "headline": "Suivi des revenus e-commerce",
+                    "text": "Suivez et analysez les revenus générés par les activités e-commerce.",
+                    "plus": true
+                }
+            ],
+            "integration": "Intégration",
+            "integration_features": [
+                {
+                    "headline": "Intégration sur le site web",
+                    "text": "Intégrez de manière transparente Pirsch Analytics à votre site web pour une collecte de données simplifiée.",
+                    "standard": true
+                },
+                {
+                    "headline": "Intégration côté serveur",
+                    "text": "Intégrez le suivi analytique directement dans vos applications côté serveur.",
+                    "standard": true
+                },
+                {
+                    "headline": "API REST & SDK",
+                    "text": "Accédez aux données et fonctionnalités de Pirsch par des API REST et des kits de développement logiciel.",
+                    "standard": true
+                },
+                {
+                    "headline": "Webhooks natifs",
+                    "text": "Restez à jour ou déclenchez des actions dans les applications que vous utilisez déjà.",
+                    "standard": true
+                },
+                {
+                    "headline": "Proxies de script",
+                    "text": "Utilisez des proxies de script pour une collecte de données sécurisée et efficace.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin WordPress",
+                    "text": "Intégrez facilement Pirsch Analytics à votre site WordPress.",
+                    "standard": true
+                }
+            ],
+            "access": "Accès",
+            "access_features": [
+                {
+                    "headline": "Tableaux de bord publics",
+                    "text": "Partagez des tableaux de bord publiquement pour un accès et une collaboration transparents.",
+                    "standard": true
+                },
+                {
+                    "headline": "Liens d'accès uniques",
+                    "text": "Générez des liens d'accès uniques pour un partage contrôlé des données.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rôles des membres",
+                    "text": "Attribuez différents rôles aux membres pour un accès et des permissions personnalisés.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organisations",
+                    "text": "Organisez et gérez plusieurs sites web et personnes au sein de Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "Authentification unique basée sur SAML",
+                    "text": "Mettez en place une authentification unique pour plus de sécurité et de commodité.",
+                    "plus": true
+                }
+            ],
+            "customization": "Personnalisation",
+            "customization_features": [
+                {
+                    "headline": "Noms de domaine personnalisés",
+                    "text": "Utilisez des noms de domaine personnalisés pour une expérience utilisateur personnalisée.",
+                    "plus": true
+                },
+                {
+                    "headline": "Thèmes personnalisés",
+                    "text": "Personnalisez l'apparence de vos tableaux de bord analytiques avec des thèmes sur mesure.",
+                    "plus": true
+                },
+                {
+                    "headline": "Logos personnalisés",
+                    "text": "Marquez vos tableaux de bord analytiques avec des logos personnalisés pour un aspect professionnel.",
+                    "plus": true
+                },
+                {
+                    "headline": "Étiquetage blanc étendu",
+                    "text": "Marquez Pirsch Analytics à l'image de votre marque pour une intégration transparente.",
+                    "plus": true
+                }
+            ],
+            "data": "Données",
+            "data_features": [
+                {
+                    "headline": "Conformité au RGPD",
+                    "text": "Assurez la conformité au Règlement général sur la protection des données pour la confidentialité et la sécurité des données.",
+                    "standard": true
+                },
+                {
+                    "headline": "Propriété des données à 100%",
+                    "text": "Conservez la propriété et le contrôle complets de vos données analytiques en tout temps.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importation de Google Analytics",
+                    "text": "Importez facilement des données existantes de Google Universal Analytics pour une transition sans heurt.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importation de Fathom Analytics",
+                    "text": "Importez des données de Fathom Analytics pour consolider vos efforts analytiques.",
+                    "standard": true
+                },
+                {
+                    "headline": "Export CSV",
+                    "text": "Exportez des données au format CSV pour des analyses et des rapports supplémentaires.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hébergement",
+            "hosting_features": [
+                {
+                    "headline": "Cloud (Allemagne)",
+                    "text": "Hébergez vos données analytiques sur des serveurs cloud sécurisés et fiables en Allemagne.",
+                    "standard": true
+                },
+                {
+                    "headline": "Auto-hébergement (sur site)",
+                    "text": "Optez pour un déploiement auto-hébergé pour un contrôle complet et une confidentialité accrue.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Cloud personnalisé (géré)",
+                    "text": "Choisissez des services cloud gérés adaptés à vos besoins spécifiques.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Support",
+            "support_features": [
+                {
+                    "headline": "Support par email",
+                    "text": "Obtenez de l'aide et des conseils par email pour une résolution rapide des problèmes.",
+                    "standard": true
+                },
+                {
+                    "headline": "Support prioritaire",
+                    "text": "Recevez une assistance prioritaire de l'équipe de support de Pirsch Analytics pour les problèmes critiques.",
+                    "plus": true
+                },
+                {
+                    "headline": "Support dédié",
+                    "text": "Accédez à des ressources de support dédiées pour une aide personnalisée, y compris un canal Slack privé.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Onboarding personnalisé",
+                    "text": "Bénéficiez d'une assistance personnalisée pour un onboarding en douceur.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Formation des utilisateurs en ligne",
+                    "text": "Réservez des sessions de formation en ligne pour maximiser la compétence de votre équipe.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "nl": {
+            "headline": "Alle functies",
+            "text": "Pirsch biedt een uitgebreide reeks krachtige functies, waarmee gebruikers diepgaande inzichten kunnen verkrijgen en de prestaties van hun website gemakkelijk kunnen optimaliseren.",
+            "action_primary": "Start uw gratis proefperiode",
+            "action_secondary": "Bekijk de live demo",
+            "dashboard": "Dashboard",
+            "dashboard_features": [
+                {
+                    "headline": "Krachtige filters",
+                    "text": "Filter uw gegevens gemakkelijk om waardevolle inzichten te extraheren.",
+                    "standard": true
+                },
+                {
+                    "headline": "Vergelijking van tijdperken",
+                    "text": "Vergelijk gegevens over verschillende tijdperken om trends te analyseren.",
+                    "standard": true
+                },
+                {
+                    "headline": "Bewaarbare filters (weergaven)",
+                    "text": "Sla aangepaste filters op en gebruik ze opnieuw voor efficiënte gegevensanalyse.",
+                    "standard": true
+                },
+                {
+                    "headline": "Sessieanalyse",
+                    "text": "Leer meer over individuele gebruikersreizen met uitgebreide sessiesamenvattingen.",
+                    "standard": true
+                },
+                {
+                    "headline": "Aangepaste gebeurtenistracering",
+                    "text": "Volg en analyseer aangepaste gebeurtenissen die zijn afgestemd op de behoeften van uw website.",
+                    "standard": true
+                },
+                {
+                    "headline": "Doeltracering van conversies",
+                    "text": "Bewaak en optimaliseer conversiedoelen om de prestaties te verbeteren.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracering van uitgaande links",
+                    "text": "Volg klikken op uitgaande links om betrokkenheid te meten.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracering van bestandsdownloads",
+                    "text": "Bewaak downloads van bestanden die op uw website worden gehost.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracering van 404-pagina's",
+                    "text": "Identificeer en adresseer gebroken links met tracering van 404-pagina's.",
+                    "standard": true
+                },
+                {
+                    "headline": "Automatische e-mailrapporten",
+                    "text": "Ontvang automatische rapporten via e-mail voor eenvoudige monitoring.",
+                    "standard": true
+                },
+                {
+                    "headline": "Google Search Console-plug-in",
+                    "text": "Integreer gegevens van Google Search Console voor een uitgebreide analyse.",
+                    "standard": true
+                },
+                {
+                    "headline": "Client hints",
+                    "text": "Ontvang nauwkeurigere informatie over browsers en besturingssystemen.",
+                    "standard": true
+                },
+                {
+                    "headline": "A/B-testen",
+                    "text": "Voer A/B-tests uit om de prestaties en gebruikerservaring van uw website te optimaliseren.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentatie",
+                    "text": "Segmenteer uw publiek voor gerichte analyse en gepersonaliseerde inzichten.",
+                    "plus": true
+                },
+                {
+                    "headline": "Aangepaste gebeurtenismetrieken",
+                    "text": "Definieer aangepaste metrieken voor diepgaande tracering en analyse van gebeurtenissen.",
+                    "plus": true
+                },
+                {
+                    "headline": "E-commerce-omzettracering",
+                    "text": "Volg en analyseer inkomsten gegenereerd uit e-commerce-activiteiten.",
+                    "plus": true
+                }
+            ],
+            "integration": "Integratie",
+            "integration_features": [
+                {
+                    "headline": "Website-integratie",
+                    "text": "Integreer Pirsch Analytics naadloos met uw website voor gestroomlijnde gegevensverzameling.",
+                    "standard": true
+                },
+                {
+                    "headline": "Serverzijde integratie",
+                    "text": "Integreer analysetracking rechtstreeks in uw servertoepassingen.",
+                    "standard": true
+                },
+                {
+                    "headline": "RESTful API & SDK's",
+                    "text": "Toegang tot Pirsch-gegevens en functionaliteit via RESTful API's en softwareontwikkelingskits.",
+                    "standard": true
+                },
+                {
+                    "headline": "Inheemse webhooks",
+                    "text": "Blijf up-to-date of activeer acties in de applicaties die u al gebruikt.",
+                    "standard": true
+                },
+                {
+                    "headline": "Scriptproxies",
+                    "text": "Gebruik scriptproxies voor veilige en efficiënte gegevensverzameling.",
+                    "standard": true
+                },
+                {
+                    "headline": "WordPress-plug-in",
+                    "text": "Integreer Pirsch Analytics eenvoudig met uw WordPress-website.",
+                    "standard": true
+                }
+            ],
+            "access": "Toegang",
+            "access_features": [
+                {
+                    "headline": "Openbare dashboards",
+                    "text": "Deel dashboards openbaar voor transparante gegevenstoegang en samenwerking.",
+                    "standard": true
+                },
+                {
+                    "headline": "Unieke toegangslinks",
+                    "text": "Genereer unieke toegangslinks voor gecontroleerde gegevensdeling.",
+                    "standard": true
+                },
+                {
+                    "headline": "Ledenrollen",
+                    "text": "Wijs verschillende rollen toe aan leden voor aangepaste toegang en rechten.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organisaties",
+                    "text": "Organiseer en beheer meerdere websites en personen binnen Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "SAML-gebaseerde Single Sign-On",
+                    "text": "Implementeer single sign-on voor verbeterde beveiliging en gemak.",
+                    "plus": true
+                }
+            ],
+            "customization": "Aanpassing",
+            "customization_features": [
+                {
+                    "headline": "Aangepaste domeinen",
+                    "text": "Gebruik aangepaste domeinen voor branding en gepersonaliseerde gebruikerservaringen.",
+                    "plus": true
+                },
+                {
+                    "headline": "Aangepaste thema's",
+                    "text": "Pas het uiterlijk van uw analytische dashboards aan met aangepaste thema's.",
+                    "plus": true
+                },
+                {
+                    "headline": "Aangepaste logo's",
+                    "text": "Merk uw analytische dashboards met aangepaste logo's voor een professionele uitstraling.",
+                    "plus": true
+                },
+                {
+                    "headline": "Uitgebreide white labeling",
+                    "text": "Merk Pirsch Analytics naar uw merkidentiteit voor naadloze integratie.",
+                    "plus": true
+                }
+            ],
+            "data": "Gegevens",
+            "data_features": [
+                {
+                    "headline": "GDPR-naleving",
+                    "text": "Zorg voor naleving van de Algemene verordening gegevensbescherming voor gegevensprivacy en -beveiliging.",
+                    "standard": true
+                },
+                {
+                    "headline": "100% gegevensbezit",
+                    "text": "Behoud volledige eigendom en controle over uw analytische gegevens te allen tijde.",
+                    "standard": true
+                },
+                {
+                    "headline": "Google Analytics-import",
+                    "text": "Importeer eenvoudig bestaande gegevens van Google Universal Analytics voor een naadloze overgang.",
+                    "standard": true
+                },
+                {
+                    "headline": "Fathom Analytics-import",
+                    "text": "Importeer gegevens van Fathom Analytics om uw analytische inspanningen te consolideren.",
+                    "standard": true
+                },
+                {
+                    "headline": "CSV-export",
+                    "text": "Exporteer gegevens naar CSV-formaat voor verdere analyse en rapportage.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hosting",
+            "hosting_features": [
+                {
+                    "headline": "Cloud (Duitsland)",
+                    "text": "Host uw analytische gegevens op veilige en betrouwbare cloudservers in Duitsland.",
+                    "standard": true
+                },
+                {
+                    "headline": "On-premise (zelf gehost)",
+                    "text": "Kies voor zelfhosting voor volledige controle en privacy.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Aangepaste cloud (beheerd)",
+                    "text": "Kies voor beheerde cloudservices die zijn afgestemd op uw specifieke behoeften.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Ondersteuning",
+            "support_features": [
+                {
+                    "headline": "E-mailondersteuning",
+                    "text": "Ontvang hulp en advies via e-mail voor snelle probleemoplossing.",
+                    "standard": true
+                },
+                {
+                    "headline": "Prioritaire ondersteuning",
+                    "text": "Ontvang prioritaire hulp van het Pirsch Analytics ondersteuningsteam voor kritieke problemen.",
+                    "plus": true
+                },
+                {
+                    "headline": "Toegewijde ondersteuning",
+                    "text": "Toegang tot toegewijde ondersteuningsbronnen voor gepersonaliseerde hulp, inclusief een privé Slack-kanaal.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Persoonlijke onboarding",
+                    "text": "Ontvang persoonlijke onboardinghulp voor een soepele overgang.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Online gebruikerstraining",
+                    "text": "Boek online trainingssessies om de vaardigheden van uw team te maximaliseren.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "it": {
+            "headline": "Tutte le funzionalità",
+            "text": "Pirsch offre una gamma completa di funzioni potenti, consentendo agli utenti di ottenere approfondimenti dettagliati e ottimizzare le prestazioni del sito web con facilità.",
+            "action_primary": "Inizia il tuo periodo di prova gratuito",
+            "action_secondary": "Visualizza la demo dal vivo",
+            "dashboard": "Cruscotto",
+            "dashboard_features": [
+                {
+                    "headline": "Filtri potenti",
+                    "text": "Filtra facilmente i tuoi dati per estrarre intuizioni preziose.",
+                    "standard": true
+                },
+                {
+                    "headline": "Confronto tra periodi",
+                    "text": "Confronta dati di diversi periodi per analizzare le tendenze.",
+                    "standard": true
+                },
+                {
+                    "headline": "Filtri salvabili (viste)",
+                    "text": "Salva e riutilizza filtri personalizzati per un'analisi efficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Analisi delle sessioni",
+                    "text": "Scopri di più sui percorsi degli utenti individuali con sommari dettagliati delle sessioni.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracciamento eventi personalizzati",
+                    "text": "Traccia e analizza eventi personalizzati adatti alle esigenze del tuo sito.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracciamento degli obiettivi di conversione",
+                    "text": "Monitora e ottimizza gli obiettivi di conversione per migliorare le prestazioni.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracciamento dei link in uscita",
+                    "text": "Traccia i clic sui link in uscita per misurare l'engagement.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracciamento download di file",
+                    "text": "Monitora i download di file ospitati sul tuo sito.",
+                    "standard": true
+                },
+                {
+                    "headline": "Tracciamento delle pagine 404",
+                    "text": "Identifica e affronta i collegamenti interrotti con il tracciamento delle pagine 404.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rapporti email automatici",
+                    "text": "Ricevi rapporti automatizzati via email per un monitoraggio facile.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin Google Search Console",
+                    "text": "Integra i dati della Google Search Console per un'analisi completa.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suggerimenti per i clienti",
+                    "text": "Ricevi informazioni più accurate su browser e sistemi operativi.",
+                    "standard": true
+                },
+                {
+                    "headline": "Test A/B",
+                    "text": "Conduci test A/B per ottimizzare le prestazioni e l'esperienza utente del tuo sito.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentazione",
+                    "text": "Segmenta il tuo pubblico per un'analisi mirata e insight personalizzati.",
+                    "plus": true
+                },
+                {
+                    "headline": "Metriche di eventi personalizzati",
+                    "text": "Definisci metriche personalizzate per un tracciamento approfondito degli eventi.",
+                    "plus": true
+                },
+                {
+                    "headline": "Tracciamento dei ricavi e-commerce",
+                    "text": "Traccia e analizza i ricavi generati dalle attività e-commerce.",
+                    "plus": true
+                }
+            ],
+            "integration": "Integrazione",
+            "integration_features": [
+                {
+                    "headline": "Integrazione sul sito web",
+                    "text": "Integra in modo trasparente Pirsch Analytics con il tuo sito web per una raccolta dati semplificata.",
+                    "standard": true
+                },
+                {
+                    "headline": "Integrazione lato server",
+                    "text": "Integra il tracciamento analitico direttamente nelle tue applicazioni lato server.",
+                    "standard": true
+                },
+                {
+                    "headline": "API REST & SDK",
+                    "text": "Accedi ai dati e alle funzionalità di Pirsch tramite API REST e kit di sviluppo software.",
+                    "standard": true
+                },
+                {
+                    "headline": "Webhook nativi",
+                    "text": "Rimani aggiornato o attiva azioni nelle applicazioni che già utilizzi.",
+                    "standard": true
+                },
+                {
+                    "headline": "Proxy di script",
+                    "text": "Utilizza proxy di script per una raccolta dati sicura ed efficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin WordPress",
+                    "text": "Integra facilmente Pirsch Analytics con il tuo sito WordPress.",
+                    "standard": true
+                }
+            ],
+            "access": "Accesso",
+            "access_features": [
+                {
+                    "headline": "Cruscotti pubblici",
+                    "text": "Condividi cruscotti pubblicamente per un accesso trasparente ai dati e collaborazione.",
+                    "standard": true
+                },
+                {
+                    "headline": "Link di accesso unici",
+                    "text": "Genera link di accesso unici per una condivisione controllata dei dati.",
+                    "standard": true
+                },
+                {
+                    "headline": "Ruoli dei membri",
+                    "text": "Assegna diversi ruoli ai membri per un accesso e permessi personalizzati.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organizzazioni",
+                    "text": "Organizza e gestisci più siti web e persone all'interno di Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "Single Sign-On basato su SAML",
+                    "text": "Implementa il single sign-on per una maggiore sicurezza e comodità.",
+                    "plus": true
+                }
+            ],
+            "customization": "Personalizzazione",
+            "customization_features": [
+                {
+                    "headline": "Domini personalizzati",
+                    "text": "Usa domini personalizzati per il branding e esperienze utente personalizzate.",
+                    "plus": true
+                },
+                {
+                    "headline": "Temi personalizzati",
+                    "text": "Personalizza l'aspetto dei tuoi cruscotti analitici con temi su misura.",
+                    "plus": true
+                },
+                {
+                    "headline": "Loghi personalizzati",
+                    "text": "Marca i tuoi cruscotti analitici con loghi personalizzati per un aspetto professionale.",
+                    "plus": true
+                },
+                {
+                    "headline": "Etichettatura bianca estesa",
+                    "text": "Etichetta Pirsch Analytics secondo la tua identità di marca per una integrazione senza soluzione di continuità.",
+                    "plus": true
+                }
+            ],
+            "data": "Dati",
+            "data_features": [
+                {
+                    "headline": "Conformità GDPR",
+                    "text": "Assicura la conformità al Regolamento generale sulla protezione dei dati per la privacy e la sicurezza dei dati.",
+                    "standard": true
+                },
+                {
+                    "headline": "Proprietà dei dati al 100%",
+                    "text": "Mantieni la piena proprietà e il controllo dei tuoi dati analitici in ogni momento.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importazione da Google Analytics",
+                    "text": "Importa facilmente dati esistenti da Google Universal Analytics per una transizione senza interruzioni.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importazione da Fathom Analytics",
+                    "text": "Importa dati da Fathom Analytics per consolidare i tuoi sforzi analitici.",
+                    "standard": true
+                },
+                {
+                    "headline": "Esportazione CSV",
+                    "text": "Esporta dati in formato CSV per ulteriori analisi e report.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hosting",
+            "hosting_features": [
+                {
+                    "headline": "Cloud (Germania)",
+                    "text": "Ospita i tuoi dati analitici su server cloud sicuri e affidabili in Germania.",
+                    "standard": true
+                },
+                {
+                    "headline": "On-premise (auto-ospitato)",
+                    "text": "Opta per un'implementazione auto-ospitata per il pieno controllo e la privacy.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Cloud personalizzato (gestito)",
+                    "text": "Scegli servizi cloud gestiti adattati alle tue esigenze specifiche.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Supporto",
+            "support_features": [
+                {
+                    "headline": "Supporto via email",
+                    "text": "Ottieni assistenza e guida via email per una risoluzione rapida dei problemi.",
+                    "standard": true
+                },
+                {
+                    "headline": "Supporto prioritario",
+                    "text": "Ricevi assistenza prioritaria dal team di supporto di Pirsch Analytics per questioni critiche.",
+                    "plus": true
+                },
+                {
+                    "headline": "Supporto dedicato",
+                    "text": "Accedi a risorse di supporto dedicate per aiuto personalizzato, incluso un canale Slack privato.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Onboarding personale",
+                    "text": "Ricevi assistenza personalizzata per un'onboarding senza problemi.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Formazione utente online",
+                    "text": "Prenota sessioni di formazione online per massimizzare la competenza del tuo team.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "pt": {
+            "headline": "Todas as Características",
+            "text": "Pirsch oferece uma gama abrangente de funcionalidades poderosas, permitindo que os usuários obtenham insights profundos e otimizem o desempenho do site com facilidade.",
+            "action_primary": "Inicie seu Teste Gratuito",
+            "action_secondary": "Ver Demonstração ao Vivo",
+            "dashboard": "Painel",
+            "dashboard_features": [
+                {
+                    "headline": "Filtros Poderosos",
+                    "text": "Filtre seus dados facilmente para extrair insights valiosos.",
+                    "standard": true
+                },
+                {
+                    "headline": "Comparação de Períodos",
+                    "text": "Compare dados de diferentes períodos para análise de tendências.",
+                    "standard": true
+                },
+                {
+                    "headline": "Filtros Salváveis (Visões)",
+                    "text": "Salve e reutilize filtros personalizados para análise eficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Análise de Sessões",
+                    "text": "Aprenda mais sobre as jornadas individuais dos usuários com resumos detalhados das sessões.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rastreamento de Eventos Personalizados",
+                    "text": "Rastreie e analise eventos personalizados adequados às necessidades do seu site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rastreamento de Metas de Conversão",
+                    "text": "Monitore e otimize metas de conversão para melhorar o desempenho.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rastreamento de Links Externos",
+                    "text": "Rastreie cliques em links externos para medir o engajamento.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rastreamento de Downloads de Arquivos",
+                    "text": "Monitore os downloads de arquivos hospedados no seu site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Rastreamento de Páginas 404",
+                    "text": "Identifique e resolva links quebrados com o rastreamento de páginas 404.",
+                    "standard": true
+                },
+                {
+                    "headline": "Relatórios Automáticos por E-mail",
+                    "text": "Receba relatórios automáticos por e-mail para monitoramento fácil.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin do Google Search Console",
+                    "text": "Integre dados do Google Search Console para uma análise abrangente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Dicas para Clientes",
+                    "text": "Receba informações mais precisas sobre navegadores e sistemas operacionais.",
+                    "standard": true
+                },
+                {
+                    "headline": "Testes A/B",
+                    "text": "Conduza testes A/B para otimizar o desempenho e a experiência do usuário no seu site.",
+                    "plus": true
+                },
+                {
+                    "headline": "Segmentação",
+                    "text": "Segmente seu público para análise direcionada e insights personalizados.",
+                    "plus": true
+                },
+                {
+                    "headline": "Métricas de Eventos Personalizados",
+                    "text": "Defina métricas personalizadas para rastreamento e análise aprofundada de eventos.",
+                    "plus": true
+                },
+                {
+                    "headline": "Rastreamento de Receitas de E-commerce",
+                    "text": "Rastreie e analise receitas geradas por atividades de e-commerce.",
+                    "plus": true
+                }
+            ],
+            "integration": "Integração",
+            "integration_features": [
+                {
+                    "headline": "Integração com Site",
+                    "text": "Integre o Pirsch Analytics ao seu site de maneira transparente para uma coleta de dados simplificada.",
+                    "standard": true
+                },
+                {
+                    "headline": "Integração no Lado do Servidor",
+                    "text": "Integre o rastreamento analítico diretamente em suas aplicações do lado do servidor.",
+                    "standard": true
+                },
+                {
+                    "headline": "API RESTful & SDKs",
+                    "text": "Acesse os dados e funcionalidades do Pirsch através de APIs RESTful e kits de desenvolvimento de software.",
+                    "standard": true
+                },
+                {
+                    "headline": "Webhooks Nativos",
+                    "text": "Mantenha-se atualizado ou acione ações nas aplicações que você já utiliza.",
+                    "standard": true
+                },
+                {
+                    "headline": "Proxies de Script",
+                    "text": "Utilize proxies de script para coleta de dados segura e eficiente.",
+                    "standard": true
+                },
+                {
+                    "headline": "Plugin WordPress",
+                    "text": "Integre facilmente o Pirsch Analytics ao seu site WordPress.",
+                    "standard": true
+                }
+            ],
+            "access": "Acesso",
+            "access_features": [
+                {
+                    "headline": "Painéis Públicos",
+                    "text": "Compartilhe painéis publicamente para acesso transparente aos dados e colaboração.",
+                    "standard": true
+                },
+                {
+                    "headline": "Links de Acesso Únicos",
+                    "text": "Gere links de acesso únicos para compartilhamento controlado de dados.",
+                    "standard": true
+                },
+                {
+                    "headline": "Funções de Membros",
+                    "text": "Atribua diferentes funções aos membros para acesso e permissões personalizadas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Organizações",
+                    "text": "Organize e gerencie múltiplos sites e pessoas dentro do Pirsch.",
+                    "plus": true
+                },
+                {
+                    "headline": "Autenticação Única Baseada em SAML",
+                    "text": "Implemente autenticação única para maior segurança e conveniência.",
+                    "plus": true
+                }
+            ],
+            "customization": "Personalização",
+            "customization_features": [
+                {
+                    "headline": "Domínios Personalizados",
+                    "text": "Use domínios personalizados para branding e experiências personalizadas do usuário.",
+                    "plus": true
+                },
+                {
+                    "headline": "Temas Personalizados",
+                    "text": "Personalize a aparência de seus painéis analíticos com temas personalizados.",
+                    "plus": true
+                },
+                {
+                    "headline": "Logos Personalizados",
+                    "text": "Marque seus painéis analíticos com logos personalizados para um visual profissional.",
+                    "plus": true
+                },
+                {
+                    "headline": "Rotulagem Branca Extensiva",
+                    "text": "Rotule o Pirsch Analytics de acordo com a identidade da sua marca para uma integração perfeita.",
+                    "plus": true
+                }
+            ],
+            "data": "Dados",
+            "data_features": [
+                {
+                    "headline": "Conformidade com GDPR",
+                    "text": "Garanta conformidade com o Regulamento Geral sobre a Proteção de Dados para privacidade e segurança de dados.",
+                    "standard": true
+                },
+                {
+                    "headline": "Propriedade Completa dos Dados",
+                    "text": "Mantenha total propriedade e controle dos seus dados analíticos a todo momento.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importação do Google Analytics",
+                    "text": "Importe dados existentes do Google Universal Analytics para uma transição sem interrupções.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importação do Fathom Analytics",
+                    "text": "Importe dados do Fathom Analytics para consolidar seus esforços analíticos.",
+                    "standard": true
+                },
+                {
+                    "headline": "Exportação para CSV",
+                    "text": "Exporte dados para o formato CSV para análises e relatórios adicionais.",
+                    "standard": true
+                }
+            ],
+            "hosting": "Hospedagem",
+            "hosting_features": [
+                {
+                    "headline": "Nuvem (Alemanha)",
+                    "text": "Hospede seus dados analíticos em servidores de nuvem seguros e confiáveis na Alemanha.",
+                    "standard": true
+                },
+                {
+                    "headline": "On-premise (Auto-hospedado)",
+                    "text": "Opte por uma implantação auto-hospedada para controle total e privacidade.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Nuvem Personalizada (Gerenciada)",
+                    "text": "Escolha serviços de nuvem gerenciados adaptados às suas necessidades específicas.",
+                    "enterprise": true
+                }
+            ],
+            "support": "Suporte",
+            "support_features": [
+                {
+                    "headline": "Suporte por Email",
+                    "text": "Obtenha assistência e orientação por e-mail para resolução rápida de problemas.",
+                    "standard": true
+                },
+                {
+                    "headline": "Suporte Prioritário",
+                    "text": "Receba assistência prioritária da equipe de suporte da Pirsch Analytics para questões críticas.",
+                    "plus": true
+                },
+                {
+                    "headline": "Suporte Dedicado",
+                    "text": "Acesse recursos de suporte dedicados para ajuda personalizada, incluindo um canal privado no Slack.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Onboarding Pessoal",
+                    "text": "Receba assistência personalizada para uma integração sem problemas.",
+                    "enterprise": true
+                },
+                {
+                    "headline": "Treinamento de Usuários Online",
+                    "text": "Agende sessões de treinamento online para maximizar a competência da sua equipe.",
+                    "enterprise": true
+                }
+            ]
+        },
+        "ja": {
+            "headline": "すべての機能",
+            "text": "Pirschは幅広い強力な機能を提供し、ユーザーが深い洞察を得て、簡単にウェブサイトのパフォーマンスを最適化できるようにします。",
+            "action_primary": "無料トライアルを始める",
+            "action_secondary": "ライブデモを見る",
+            "dashboard": "ダッシュボード",
+            "dashboard_features": [
+                {
+                    "headline": "強力なフィルター",
+                    "text": "データを簡単にフィルタリングして、貴重な洞察を抽出します。",
+                    "standard": true
+                },
+                {
+                    "headline": "期間比較",
+                    "text": "異なる期間のデータを比較して、トレンド分析を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "保存可能なフィルター（ビュー）",
+                    "text": "カスタムフィルターを保存して、効率的なデータ分析を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "セッション分析",
+                    "text": "詳細なセッション要約を通じて、個々のユーザージャーニーについてより深く学びます。",
+                    "standard": true
+                },
+                {
+                    "headline": "カスタムイベントトラッキング",
+                    "text": "ウェブサイトのニーズに合わせたカスタムイベントを追跡し分析します。",
+                    "standard": true
+                },
+                {
+                    "headline": "コンバージョンゴールトラッキング",
+                    "text": "コンバージョン目標を監視して最適化し、パフォーマンスを向上させます。",
+                    "standard": true
+                },
+                {
+                    "headline": "外部リンクトラッキング",
+                    "text": "外部リンクのクリックを追跡してエンゲージメントを測定します。",
+                    "standard": true
+                },
+                {
+                    "headline": "ファイルダウンロードトラッキング",
+                    "text": "ウェブサイト上でホストされているファイルのダウンロードを監視します。",
+                    "standard": true
+                },
+                {
+                    "headline": "404ページトラッキング",
+                    "text": "404ページトラッキングを利用して壊れたリンクを特定し対処します。",
+                    "standard": true
+                },
+                {
+                    "headline": "自動メールレポート",
+                    "text": "簡単な監視のために自動メールレポートを受け取ります。",
+                    "standard": true
+                },
+                {
+                    "headline": "Google Search Consoleプラグイン",
+                    "text": "Google Search Consoleのデータを統合して包括的な分析を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "クライアントヒント",
+                    "text": "ブラウザやオペレーティングシステムに関するより正確な情報を受け取ります。",
+                    "standard": true
+                },
+                {
+                    "headline": "A/Bテスティング",
+                    "text": "A/Bテストを実施して、ウェブサイトのパフォーマンスとユーザーエクスペリエンスを最適化します。",
+                    "plus": true
+                },
+                {
+                    "headline": "セグメンテーション",
+                    "text": "ターゲット分析とパーソナライズされたインサイトのために、オーディエンスをセグメント化します。",
+                    "plus": true
+                },
+                {
+                    "headline": "カスタムイベントメトリクス",
+                    "text": "イベント追跡と分析を深めるためにカスタムメトリクスを定義します。",
+                    "plus": true
+                },
+                {
+                    "headline": "Eコマース収益トラッキング",
+                    "text": "Eコマース活動から生成された収益を追跡し分析します。",
+                    "plus": true
+                }
+            ],
+            "integration": "統合",
+            "integration_features": [
+                {
+                    "headline": "ウェブサイト統合",
+                    "text": "データ収集を簡素化するために、Pirsch Analyticsをウェブサイトにシームレスに統合します。",
+                    "standard": true
+                },
+                {
+                    "headline": "サーバーサイド統合",
+                    "text": "サーバーサイドアプリケーションに直接アナリティクストラッキングを統合します。",
+                    "standard": true
+                },
+                {
+                    "headline": "RESTful API & SDK",
+                    "text": "RESTful APIとソフトウェア開発キットを通じてPirschデータと機能にアクセスします。",
+                    "standard": true
+                },
+                {
+                    "headline": "ネイティブWebhooks",
+                    "text": "既に使用しているアプリケーションでアップデートを受け取ったり、アクションをトリガーします。",
+                    "standard": true
+                },
+                {
+                    "headline": "スクリプトプロキシ",
+                    "text": "データ収集を安全かつ効率的に行うためにスクリプトプロキシを使用します。",
+                    "standard": true
+                },
+                {
+                    "headline": "WordPressプラグイン",
+                    "text": "WordPressサイトにPirsch Analyticsを簡単に統合します。",
+                    "standard": true
+                }
+            ],
+            "access": "アクセス",
+            "access_features": [
+                {
+                    "headline": "パブリックダッシュボード",
+                    "text": "データアクセスとコラボレーションを透明にするためにダッシュボードを公開します。",
+                    "standard": true
+                },
+                {
+                    "headline": "ユニークアクセスリンク",
+                    "text": "データ共有をコントロールするためにユニークなアクセスリンクを生成します。",
+                    "standard": true
+                },
+                {
+                    "headline": "メンバーロール",
+                    "text": "アクセスと権限をカスタマイズするために、メンバーに異なるロールを割り当てます。",
+                    "standard": true
+                },
+                {
+                    "headline": "組織",
+                    "text": "Pirsch内で複数のウェブサイトと人々を管理し整理します。",
+                    "plus": true
+                },
+                {
+                    "headline": "SAMLベースのシングルサインオン",
+                    "text": "セキュリティと利便性を向上させるためにシングルサインオンを実装します。",
+                    "plus": true
+                }
+            ],
+            "customization": "カスタマイズ",
+            "customization_features": [
+                {
+                    "headline": "カスタムドメイン",
+                    "text": "ブランディングとユーザーエクスペリエンスをカスタマイズするためにカスタムドメインを使用します。",
+                    "plus": true
+                },
+                {
+                    "headline": "カスタムテーマ",
+                    "text": "カスタムテーマを使用して分析ダッシュボードの外観をカスタマイズします。",
+                    "plus": true
+                },
+                {
+                    "headline": "カスタムロゴ",
+                    "text": "プロフェッショナルな外観のために分析ダッシュボードにカスタムロゴを使用します。",
+                    "plus": true
+                },
+                {
+                    "headline": "広範なホワイトラベリング",
+                    "text": "ブランドアイデンティティに合わせてPirsch Analyticsをホワイトラベル化し、シームレスに統合します。",
+                    "plus": true
+                }
+            ],
+            "data": "データ",
+            "data_features": [
+                {
+                    "headline": "GDPR準拠",
+                    "text": "データのプライバシーとセキュリティを保護するために一般データ保護規則（GDPR）に準拠します。",
+                    "standard": true
+                },
+                {
+                    "headline": "データの完全所有",
+                    "text": "いつでも分析データの完全な所有権と制御を維持します。",
+                    "standard": true
+                },
+                {
+                    "headline": "Google Analyticsからのインポート",
+                    "text": "Google Universal Analyticsからの既存のデータを簡単にインポートして、スムーズな移行を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "Fathom Analyticsからのインポート",
+                    "text": "Fathom Analyticsからデータをインポートして分析努力を統合します。",
+                    "standard": true
+                },
+                {
+                    "headline": "CSVエクスポート",
+                    "text": "さらなる分析とレポーティングのためにデータをCSV形式でエクスポートします。",
+                    "standard": true
+                }
+            ],
+            "hosting": "ホスティング",
+            "hosting_features": [
+                {
+                    "headline": "クラウド（ドイツ）",
+                    "text": "ドイツの安全で信頼性の高いクラウドサーバーで分析データをホストします。",
+                    "standard": true
+                },
+                {
+                    "headline": "オンプレミス（自己ホスティング）",
+                    "text": "完全なコントロールとプライバシーのために自己ホスティングの展開を選択します。",
+                    "enterprise": true
+                },
+                {
+                    "headline": "カスタムクラウド（管理された）",
+                    "text": "特定の要件に合わせてカスタマイズされた管理されたクラウドサービスを選択します。",
+                    "enterprise": true
+                }
+            ],
+            "support": "サポート",
+            "support_features": [
+                {
+                    "headline": "メールサポート",
+                    "text": "迅速な問題解決のためにメールで支援とガイダンスを受け取ります。",
+                    "standard": true
+                },
+                {
+                    "headline": "優先サポート",
+                    "text": "重要な問題に対してPirsch Analyticsのサポートチームから優先的な支援を受けます。",
+                    "plus": true
+                },
+                {
+                    "headline": "専用サポート",
+                    "text": "個別のSlackチャンネルを含むパーソナライズされた支援のために専用のサポートリソースにアクセスします。",
+                    "enterprise": true
+                },
+                {
+                    "headline": "個人オンボーディング",
+                    "text": "問題ない統合のために個人的なオンボーディング支援を受けます。",
+                    "enterprise": true
+                },
+                {
+                    "headline": "オンラインユーザートレーニング",
+                    "text": "チームの熟練度を最大化するためにオンライントレーニングセッションを予約します。",
+                    "enterprise": true
                 }
             ]
         }

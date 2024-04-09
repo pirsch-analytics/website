@@ -34,6 +34,210 @@
                     "answer": "Yes, the affiliate program allows you to earn rewards for referring new customers to Pirsch. You can simply copy your personal affiliate link and every time someone signs up for a subscription, a reward is added to your account balance.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Learn More</a>"
                 }
             ]
+        },
+        "de": {
+            "headline": "Häufig gestellte Fragen",
+            "text": "Wenn du hier keine Antwort findest, schau im <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>Community-Forum</a> vorbei, kontaktiere uns auf <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a> oder schreib uns an <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "Wie anonymisiert Pirsch Besucherdaten?",
+                    "answer": "Pirsch ist standardmäßig <a href='/privacy-friendly-analytics' rel='noreferrer'>datenschutzfreundlich</a>. Zur Erreichung dieses Ziels verwenden wir das HTTP-Protokoll, um Benutzer zu erkennen. Wir generieren einen Hash für jeden Besucher, der aus der IP-Adresse des Besuchers, dem User-Agent und anderen Datenpunkten berechnet wird, um sicherzustellen, dass die Statistiken anonymisiert sind."
+                },
+                {
+                    "question": "Kann ich meine Daten exportieren?",
+                    "answer": "Ja, du kannst alle deine Statistiken als <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV-Dateien</a> von der Einstellungsseite herunterladen. Wir bieten auch eine API an, um mit den Daten in deinen Tools zu arbeiten."
+                },
+                {
+                    "question": "Wie wird das monatliche Limit berechnet?",
+                    "answer": "Das monatliche Limit basiert auf der Anzahl der Seitenaufrufe, Ereignisse und 10% der Sitzungsverlängerungen seit Beginn deines Abrechnungszyklus. Gelöschte Domains zählen ebenfalls zu deinem Limit, bis es zurückgesetzt wird."
+                },
+                {
+                    "question": "Was passiert, wenn ich mein monatliches Seitenaufrufe-Limit erreiche?",
+                    "answer": "Wenn du das Nutzungs-Limit vor dem Ende deines Abrechnungszeitraums erreichst, wird dein Zugriff auf den Tag beschränkt, an dem du das Limit erreicht hast. Wir sammeln weiterhin Daten für deine Websites für weitere fünf Tage. Um wieder Zugriff auf deine Statistiken zu erhalten und Lücken zu vermeiden, musst du innerhalb dieser fünf Tage dein Abonnement aktualisieren oder bis zur Rücksetzung deines Nutzungslimits warten."
+                },
+                {
+                    "question": "Welche Zahlungsoptionen stehen zur Verfügung?",
+                    "answer": "Wir bieten Zahlungen per Kreditkarte und PayPal an. Wenn du auf der Abrechnungsseite Euro als deine Währung wählst, hast du auch die Möglichkeit, per SEPA-Lastschrift zu bezahlen."
+                },
+                {
+                    "question": "Kann ich mein Abonnement upgraden oder downgraden?",
+                    "answer": "Ja, du kannst dein Abonnement jederzeit ändern. Wenn du ein Downgrade durchführst, wird der Unterschied für den Rest deines Abrechnungszyklus zu deinem Guthaben hinzugefügt. Wenn du zu einem späteren Zeitpunkt ein Upgrade durchführst, wird zuerst dein Guthaben verwendet."
+                },
+                {
+                    "question": "Habt ihr ein Partnerprogramm?",
+                    "answer": "Ja, das Partnerprogramm ermöglicht es dir, Belohnungen für die Vermittlung neuer Kunden an Pirsch zu verdienen. Du kannst einfach deinen persönlichen Partner-Link kopieren, und jedes Mal, wenn sich jemand für ein Abonnement anmeldet, wird deinem Kontostand eine Belohnung hinzugefügt.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Erfahre mehr</a>"
+                }
+            ]
+        },
+        "es": {
+            "headline": "Preguntas frecuentes",
+            "text": "Si no encuentras una respuesta aquí, consulta el <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>foro comunitario</a>, contáctanos en <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a> o escríbenos a <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "¿Cómo anonimiza Pirsch los datos de los visitantes?",
+                    "answer": "Pirsch es <a href='/privacy-friendly-analytics' rel='noreferrer'>amigable con la privacidad</a> por diseño. Para lograr esto, utiliza el protocolo HTTP para reconocer a los usuarios. Genera un hash para cada visitante, calculado a partir de la dirección IP del visitante, el User-Agent y otros puntos de datos, para garantizar que las estadísticas estén anonimizadas."
+                },
+                {
+                    "question": "¿Puedo exportar mis datos?",
+                    "answer": "Sí, puedes descargar todas tus estadísticas en archivos <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV</a> desde la página de configuración. También ofrecemos una API para trabajar con los datos en tus herramientas."
+                },
+                {
+                    "question": "¿Cómo se calcula el límite mensual?",
+                    "answer": "El límite mensual se basa en el número de visitas a la página, eventos y el 10% de las extensiones de sesión desde el inicio de tu ciclo de facturación. Los dominios eliminados también cuentan para tu límite hasta que se restablezca."
+                },
+                {
+                    "question": "¿Qué sucede cuando alcanzo mi límite mensual de visitas a la página?",
+                    "answer": "Si alcanzas el límite de uso antes del final de tu período de facturación, tu acceso se limitará al día en que alcanzaste el límite. Continuaremos recopilando datos para tus sitios durante otros cinco días. Para recuperar el acceso a tus estadísticas y evitar lagunas, debes actualizar tu plan dentro de esos cinco días o esperar hasta que se restablezca tu límite de uso."
+                },
+                {
+                    "question": "¿Qué opciones de pago están disponibles?",
+                    "answer": "Ofrecemos pago con tarjeta de crédito y PayPal. Si eliges el euro como tu moneda en la página de facturación, también tendrás la opción de pagar mediante domiciliación bancaria SEPA."
+                },
+                {
+                    "question": "¿Puedo actualizar o degradar mi plan?",
+                    "answer": "Sí, puedes cambiar tu plan en cualquier momento. Si degradas, la diferencia se agregará a tu saldo por el resto de tu ciclo de facturación. Si realizas una actualización en una fecha posterior, tu saldo se utilizará primero."
+                },
+                {
+                    "question": "¿Tienen un programa de afiliados?",
+                    "answer": "Sí, el programa de afiliados te permite obtener recompensas por referir nuevos clientes a Pirsch. Simplemente copia tu enlace de afiliado personal y cada vez que alguien se registre para una suscripción, se agregará una recompensa a tu saldo de cuenta.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Más información</a>"
+                }
+            ]
+        },
+        "fr": {
+            "headline": "Questions fréquemment posées",
+            "text": "Si vous ne trouvez pas de réponse ici, consultez le <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>forum communautaire</a>, contactez-nous sur <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a> ou écrivez à <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "Comment Pirsch anonymise-t-il les données des visiteurs ?",
+                    "answer": "Pirsch est <a href='/privacy-friendly-analytics' rel='noreferrer'>respectueux de la vie privée</a> par conception. Pour ce faire, il utilise le protocole HTTP pour reconnaître les utilisateurs. Il génère un hachage pour chaque visiteur, calculé à partir de l'adresse IP du visiteur, de l'User-Agent et d'autres points de données, afin de garantir que les statistiques sont anonymisées."
+                },
+                {
+                    "question": "Puis-je exporter mes données ?",
+                    "answer": "Oui, vous pouvez télécharger toutes vos statistiques dans des fichiers <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV</a> depuis la page des paramètres. Nous proposons également une API pour travailler avec les données dans vos outils."
+                },
+                {
+                    "question": "Comment le limite mensuel est-il calculé ?",
+                    "answer": "La limite mensuelle est basée sur le nombre de visites de page, d'événements et de 10 % des extensions de session depuis le début de votre cycle de facturation. Les domaines supprimés comptent également pour votre limite jusqu'à ce qu'elle soit réinitialisée."
+                },
+                {
+                    "question": "Que se passe-t-il lorsque j'atteins ma limite mensuelle de visites de page ?",
+                    "answer": "Si vous atteignez la limite d'utilisation avant la fin de votre période de facturation, votre accès sera limité au jour où vous avez atteint la limite. Nous continuerons à collecter des données pour vos sites pendant cinq jours supplémentaires. Pour regagner l'accès à vos statistiques et éviter les lacunes, vous devez mettre à niveau votre plan dans ces cinq jours ou attendre que votre limite d'utilisation soit réinitialisée."
+                },
+                {
+                    "question": "Quelles options de paiement sont disponibles ?",
+                    "answer": "Nous proposons le paiement par carte de crédit et PayPal. Si vous choisissez l'euro comme devise sur la page de facturation, vous aurez également la possibilité de payer par prélèvement SEPA."
+                },
+                {
+                    "question": "Puis-je mettre à niveau ou rétrograder mon plan ?",
+                    "answer": "Oui, vous pouvez changer votre plan à tout moment. Si vous rétrogradez, la différence sera ajoutée à votre solde pour le reste de votre cycle de facturation. Si vous effectuez une mise à niveau ultérieurement, votre solde sera utilisé en premier."
+                },
+                {
+                    "question": "Avez-vous un programme d'affiliation ?",
+                    "answer": "Oui, le programme d'affiliation vous permet de gagner des récompenses en référençant de nouveaux clients vers Pirsch. Il vous suffit de copier votre lien d'affiliation personnel et à chaque fois que quelqu'un s'inscrit à un abonnement, une récompense est ajoutée à votre solde de compte.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>En savoir plus</a>"
+                }
+            ]
+        },
+        "nl": {
+            "headline": "Veelgestelde vragen",
+            "text": "Als je hier geen antwoord kunt vinden, bekijk dan het <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>communityforum</a>, neem contact op via <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a> of schrijf naar <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "Hoe anonimiseert Pirsch bezoekersgegevens?",
+                    "answer": "Pirsch is <a href='/privacy-friendly-analytics' rel='noreferrer'>privacyvriendelijk</a> ontworpen. Hiervoor maakt het gebruik van het HTTP-protocol om gebruikers te herkennen. Het genereert een hash voor elke bezoeker, berekend uit het IP-adres van de bezoeker, User-Agent en andere gegevenspunten, om ervoor te zorgen dat de statistieken geanonimiseerd zijn."
+                },
+                {
+                    "question": "Kan ik mijn gegevens exporteren?",
+                    "answer": "Ja, je kunt al je statistieken downloaden naar <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV-bestanden</a> vanaf de instellingenpagina. We bieden ook een API om met de gegevens in je tools te werken."
+                },
+                {
+                    "question": "Hoe wordt de maandelijkse limiet berekend?",
+                    "answer": "De maandelijkse limiet is gebaseerd op het aantal paginaweergaven, gebeurtenissen en 10% van de sessie-uitbreidingen sinds het begin van je factureringscyclus. Verwijderde domeinen tellen ook mee voor je limiet totdat deze wordt gereset."
+                },
+                {
+                    "question": "Wat gebeurt er als ik mijn maandelijkse paginaweergave limiet bereik?",
+                    "answer": "Als je de gebruikerslimiet bereikt vóór het einde van je factureringsperiode, wordt je toegang beperkt tot de dag waarop je de limiet hebt bereikt. We blijven gegevens verzamelen voor je sites gedurende nog eens vijf dagen. Om weer toegang te krijgen tot je statistieken en hiaten te voorkomen, moet je je plan binnen die vijf dagen upgraden of wachten tot je gebruikerslimiet wordt gereset."
+                },
+                {
+                    "question": "Welke betalingsmogelijkheden zijn er?",
+                    "answer": "We bieden betaling via creditcard en PayPal aan. Als je euro als valuta kiest op de factureringspagina, heb je ook de mogelijkheid om te betalen via SEPA Direct Debit."
+                },
+                {
+                    "question": "Kan ik mijn plan upgraden of downgraden?",
+                    "answer": "Ja, je kunt op elk moment je plan wijzigen. Als je degradeert, wordt het verschil toegevoegd aan je saldo voor de rest van je factureringscyclus. Als je op een later tijdstip upgrade, wordt je saldo eerst gebruikt."
+                },
+                {
+                    "question": "Heb je een partnerprogramma?",
+                    "answer": "Ja, het partnerprogramma stelt je in staat beloningen te verdienen door nieuwe klanten naar Pirsch te verwijzen. Je kunt eenvoudig je persoonlijke partnerlink kopiëren en telkens wanneer iemand zich aanmeldt voor een abonnement, wordt er een beloning toegevoegd aan je accountsaldo.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Lees meer</a>"
+                }
+            ]
+        },
+        "pt": {
+            "headline": "Perguntas Frequentes",
+            "text": "Se você não encontrar uma resposta aqui, confira o <a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>fórum da comunidade</a>, entre em contato no <a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a> ou escreva para <a href='mailto:support@pirsch.io'>support@pirsch.io</a>.",
+            "questions": [
+                {
+                    "question": "Como o Pirsch anonimiza os dados do visitante?",
+                    "answer": "O Pirsch é <a href='/privacy-friendly-analytics' rel='noreferrer'>amigável à privacidade</a> por design. Para isso, ele utiliza o protocolo HTTP para reconhecer os usuários. Gera um hash para cada visitante, calculado a partir do endereço IP, User-Agent e outros pontos de dados do visitante, garantindo que as estatísticas sejam anonimizadas."
+                },
+                {
+                    "question": "Posso exportar meus dados?",
+                    "answer": "Sim, você pode baixar todas as suas estatísticas em arquivos <a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSV</a> na página de configurações. Também fornecemos uma API para trabalhar com os dados em suas ferramentas."
+                },
+                {
+                    "question": "Como o limite mensal é calculado?",
+                    "answer": "O limite mensal é baseado no número de visualizações de página, eventos e 10% das extensões de sessão desde o início do seu ciclo de faturamento. Os domínios excluídos também contam para o seu limite até que seja redefinido."
+                },
+                {
+                    "question": "O que acontece quando alcanço meu limite mensal de visualizações de página?",
+                    "answer": "Se você alcançar o limite de uso antes do final do seu período de faturamento, seu acesso será limitado ao dia em que alcançou o limite. Continuaremos a coletar dados para seus sites por mais cinco dias. Para recuperar o acesso às suas estatísticas e evitar lacunas, você deve atualizar seu plano dentro desses cinco dias ou aguardar até que seu limite de uso seja redefinido."
+                },
+                {
+                    "question": "Quais opções de pagamento estão disponíveis?",
+                    "answer": "Oferecemos pagamento com cartão de crédito e PayPal. Se você escolher o euro como sua moeda na página de faturamento, também terá a opção de pagar via débito direto SEPA."
+                },
+                {
+                    "question": "Posso atualizar ou reduzir meu plano?",
+                    "answer": "Sim, você pode alterar seu plano a qualquer momento. Se você reduzir, a diferença será adicionada ao seu saldo pelo resto do seu ciclo de faturamento. Se você atualizar em uma data posterior, seu saldo será usado primeiro."
+                },
+                {
+                    "question": "Vocês têm um programa de afiliados?",
+                    "answer": "Sim, o programa de afiliados permite que você ganhe recompensas ao indicar novos clientes para o Pirsch. Basta copiar seu link de afiliado pessoal e cada vez que alguém se inscrever em uma assinatura, uma recompensa será adicionada ao saldo da sua conta.<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>Saiba mais</a>"
+                }
+            ]
+        },
+        "ja": {
+            "headline": "よくある質問",
+            "text": "ここで回答が見つからない場合は、<a href='https://forum.pirsch.io/' target='_blank' rel='noreferrer'>コミュニティフォーラム</a>を参照するか、<a href='https://twitter.com/PirschAnalytics' target='_blank' rel='noreferrer'>Twitter</a>で連絡するか、<a href='mailto:support@pirsch.io'>support@pirsch.io</a>にメールしてください。",
+            "questions": [
+                {
+                    "question": "Pirschは訪問者データをどのように匿名化していますか？",
+                    "answer": "Pirschは設計上<a href='/privacy-friendly-analytics' rel='noreferrer'>プライバシーに配慮</a>しています。これを実現するために、HTTPプロトコルを使用してユーザーを識別します。各訪問者に対してIPアドレス、User-Agent、およびその他のデータポイントから計算されたハッシュを生成し、統計が匿名化されるようにします。"
+                },
+                {
+                    "question": "データをエクスポートできますか？",
+                    "answer": "はい、設定ページからすべての統計データを<a href='https://docs.pirsch.io/dashboard/settings/#export-to-csv' target='_blank' rel='noreferrer'>CSVファイル</a>としてダウンロードできます。また、データをツールで使用するためのAPIも提供しています。"
+                },
+                {
+                    "question": "月間制限はどのように計算されますか？",
+                    "answer": "月間制限は、請求サイクルの開始以来のページビュー数、イベント数、およびセッションの延長の10％に基づいています。削除されたドメインも、リセットされるまで制限にカウントされます。"
+                },
+                {
+                    "question": "月間のページビュー制限に達した場合の処理は？",
+                    "answer": "請求期間の終了前に使用制限に達した場合、アクセスが制限されます。データの収集はさらに5日間継続されます。統計へのアクセスを回復し、ギャップを回避するには、これらの5日以内にプランをアップグレードするか、使用制限がリセットされるのを待つ必要があります。"
+                },
+                {
+                    "question": "利用可能な支払いオプションは？",
+                    "answer": "クレジットカードとPayPalで支払いを提供しています。支払いページでユーロを通貨として選択すると、SEPAダイレクトデビットで支払うオプションもあります。"
+                },
+                {
+                    "question": "プランのアップグレードまたはダウングレードは可能ですか？",
+                    "answer": "はい、いつでもプランを変更できます。ダウングレードする場合、差額が請求サイクルの残りに追加されます。後でアップグレードすると、まず残高が使用されます。"
+                },
+                {
+                    "question": "アフィリエイトプログラムはありますか？",
+                    "answer": "はい、アフィリエイトプログラムでは、新しい顧客をPirschに紹介することで報酬を獲得できます。個人のアフィリエイトリンクをコピーするだけで、誰かが購読を申し込むたびに報酬がアカウント残高に追加されます。<br><br><a href='https://docs.pirsch.io/affiliate/' class='button small' target='_blank'>詳細を見る</a>"
+                }
+            ]
         }
     }
 }

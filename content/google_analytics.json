@@ -1,0 +1,40 @@
+{
+    "path": {
+        "en": "/google-analytics-alternative",
+        "de": "/de/google-analytics-alternative"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {"ref": "header"},
+            {
+                "tpl": "hero",
+                "copy": {
+                    "en": {
+                        "headline": "More Than A Google Analytics Alternative",
+                        "headline_class": "h2",
+                        "text": "Online marketing and ad-tech is a privacy nightmare. Switch to Pirsch Analytics for a powerful, easy-to-use, and privacy-friendly alternative.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
+                    }
+                }
+            },
+            {"ref": "customers"},
+            {
+                "tpl": "extract",
+                "copy": {
+                    "en": {
+                        "text": "<h2>Ad-tech is Fundamentally Broken</h2><p>Google Analytics is <a href='https://w3techs.com/technologies/history_overview/traffic_analysis' target='_blank' rel='noreferrer'>installed on 85% of all websites</a>, collecting everything users do online. This comes at a cost. Using it on your website means you’re paying big-tech with the personal information of your visitors.</p><p>A growing number of people with ad blockers and not accounted for by GA and make the data unreliable. Cookie-consent banners increase the loading time of your website and annoy visitors.</p><p>The dashboard is unintuitive, slow, and frustrating to use. We set out to solve these problems with a cookie-free, open-source, and easy-to-integrate solution.</p><h2>Privacy First</h2><p>Pirsch respects the privacy of your visitors. It never tracks them across websites nor collects uniquely identifiable information, making it GDPR-, CCPA-, PECR-, and Schrems II-compliant. You no longer need a cookie-consent banner.</p><h2>An Ergonomic Dashboard</h2><p>Our single-page dashboard provides actionable statistics. Dive deeper into what is going on with stackable filters. Switching between as many websites as you want makes Pirsch a good choice for web agencies and freelancers.</p><h2>Import Your Data</h2><p>Google Universal Analytics (GA3) will be shut down on July 1st, 2023. GA4 is a much more complex and even harder to use analytics tool, not suitable for the average page owner. We've made it easy for you to switch to Pirsch by allowing you to import existing GA3 data into Pirsch.</p><h3>Avoid Ad Blockers</h3><p>By integrating Pirsch into your backend using our <a href='https://docs.pirsch.io/api-sdks/' target='_blank' rel='noreferrer'>API or SDKs</a>, you avoid adblockers without sacrificing privacy.</p><h3>Faster Page Load</h3><p>Google Analytics paired with the Google Tag Manager easily adds up to 50 kB to your website while our script is about 1 kB in size.</p><h3>Open-Source Core</h3><p>Our aspiration is to enable full transparency on how data is collected. To support this, the core of Pirsch is <a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer'>fully open-source</a>, so you can see for yourself how data is processed.</p><h3>Made in Germany</h3><p>Pirsch is independent, self-funded, and hosted in Germany under strict European privacy laws. No data is sold or used for other purposes than providing you with the statistics you need.</p><h3>Fair Pricing</h3><p>Pirsch has a <a href='https://pirsch.io/pricing' rel='noreferrer'>fair pricing-model</a>. Plans can be up- or downgraded at any time.</p><h3>WordPress Analytics</h3><p>For a no-code analytics tool for your WordPress website, check out our <a href='https://wordpress.org/plugins/pirsch-analytics/' target='_blank' rel='noreferrer'>open-source plugin</a>.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

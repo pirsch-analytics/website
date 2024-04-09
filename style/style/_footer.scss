@@ -28,7 +28,7 @@ footer {
                     margin-bottom: 12px;
                 }
     
-                a {
+                & > a {
                     display: block;
                     margin: 8px 0;
                     color: var(--color-secondary);

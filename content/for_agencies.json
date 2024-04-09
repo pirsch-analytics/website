@@ -1,0 +1,40 @@
+{
+    "path": {
+        "en": "/for-agencies",
+        "de": "/de/for-agencies"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {"ref": "head"},
+            {"ref": "header"},
+            {
+                "tpl": "hero",
+                "copy": {
+                    "en": {
+                        "headline": "The One-Stop Analytics Platform for Agencies and Freelancers",
+                        "headline_class": "h2",
+                        "text": "Pirsch is a privacy-friendly web analytics tool designed for agencies and freelancers. It's your one-stop platform to communicate analytics to your team and clients.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
+                    }
+                }
+            },
+            {"ref": "customers"},
+            {
+                "tpl": "extract",
+                "copy": {
+                    "en": {
+                        "text": "<h2>Say Goodbye to Google Analytics</h2><p>Google Analytics is a complex and difficult tool to use. It collects a lot more data than most need, presented on a hard-to-read dashboard. It's nearly impossible for the majority of non-technical users to understand the key metrics.</p><p>It can be cumbersome to extract value from the statistics for your clients. Training and support take a lot of time, making the experience frustrating for both sides.</p><p>With Pirsch, we've taken a different approach to help you onboard your customers with ease and enable them to understand what's happening on their website.</p><h2>A Simple Dashboard — No Training Required</h2><p>Your clients will intuitively understand the Pirsch dashboard, no training required. All statistics are presented on a single page, so they don't have to click through menus to find what they're looking for.</p><p>Drilling down on statistics can be done by clicking anything on the dashboard. Clicking on a page will filter all panels and charts to show only information related to that page. It's possible to combine filters of the same type, such as showing all social media traffic, and save them as views for later. Views can be shared with others.</p><a class='button secondary' href='https://pirsch.pirsch.io' target='_blank'>View Live Demo</a><h3>Share Dashboards Publicly or Privately</h3><p>Pirsch makes it easy to share dashboards with clients, team members, and collaborators.</p><p>They are private by default, but can be made public on your own Pirsch subdomain, your own domain, or shared through private access links. Private access links don't require your clients to create an account and can be easily bookmarked. If you want to keep it private, you can invite viewers and administrators to a dashboard.</p><p>Another option is to add team members and clients to a team, giving them access to multiple dashboards without the need for micro-management. Team members can create and modify dashboards and themes on your behalf, making it easy to work with many clients from a single paid account.</p><h2>Regular Email Reports</h2><p>Keep your customers informed with weekly or monthly automated email reports. Give them a quick overview of key performance indicators without having to visit the dashboard. Email reports can be fully white-labeled with logos and colors.</p><h2>Integrates With Your Favorite Tools</h2><p>Pirsch integrates with your favorite tools, including Wordpress, Framer, Webflow, Laravel, and more. Learn more about integrating Pirsch with your favorite tool by reading one of our guides.</p><a class='button secondary' href='https://docs.pirsch.io' target='_blank'>Read the Docs</a><img src='static/img/tools-dark.svg' alt='Web Analytics for Wordpress, Framer, Webflow, Laravel, and More' title='Web Analytics for Wordpress, Framer, Webflow, Laravel, and More' loading='lazy'><h2>White Label Analytics Powered by Pirsch</h2><p>Pirsch is the only analytics tool with full white-labeling capabilities. Upload logos, customize colors, and bring your own domain to provide or resell a seamless experience. We made sure all pages are branded, including the login, sign-up, and emails, so Pirsch truly becomes your personal analytics.</p><a class='button secondary' href='/white-label-analytics'>Learn More</a><h2>Google Analytics Import</h2><p>Google doesn't provide an easy migration path from Google Universal Analytics (GA3) to Google Analytics 4. With Pirsch, you can keep your historical statistics by importing your data and start collecting new traffic in a privacy-friendly way.</p><p>In addition to importing from Google Analytics, we also make it easy to transition from Fathom Analytics by allowing you to import your historical data via a CSV upload.</p><h2>Transfer the Ownership of a Site to Your Client</h2><p>We've made it easy to transfer ownership of a site. Your clients are never locked in and are responsible for billing once you've transferred ownership to them, if needed.</p><h2>Build Faster Websites</h2><p>Pirsch offers a lightweight script that is about 30 times smaller than Google Analytics, reducing the size of your website, increasing performance and improving SEO. In addition, Pirsch has a server-side integration that reduces the load to zero and improves the reliability of the statistics by bypassing ad blockers. Many pre-built integrations are available.</p><p>In addition to the standard script integration, you can also add a full-featured marketing script that automatically tracks outbound link clicks, file downloads, 404 error pages and more through custom events.</p><h2>GDPR-, CCPA-, PECR-, and Schrems II-Compliant</h2><p>Unlike Google Analytics, Pirsch is GDPR-, CCPA-, PECR-, and Schrems II-compliant. Built and hosted in Germany, we operate under strict European privacy laws — any data collected belongs to you and will never be shared or sold.</p><p>Our open-source core ensures full transparency. Stop worrying about cookie-banners and invading the privacy of your visitors.</p><a class='button secondary' href='https://docs.pirsch.io/privacy' target='_blank'>Learn More</a><h2>Fair Pricing</h2><p>Pirsch has a fair pricing-model. Plans can be up- or downgraded at any time. Start a free-trial before signing up for a subscription — no credit card required.</p><a class='button secondary' href='/pricing'>Compare Plans</a>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

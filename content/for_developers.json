@@ -149,6 +149,14 @@
                     ]
                 }
             },
+            {
+                "tpl": "extract",
+                "copy": {
+                    "en": {
+                        "text": "<h2>Use it as a Platform</h2><p>Use Pirsch as a platform and offer embedded analytics to your customers, directly in your own application or SaaS. We'll make sure everything runs smoothly and your subscription plan scales with your needs. All without the worries that come with privacy-invasive technologies.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Read Case Study</a><h2>Custom Reports</h2><p>Create custom reports by accessing your data through the API. Filters allow you to get exactly what you want. Data can be aggregated for different time periods or you can get a list of custom events.</p><h2>Uncompromised Performance</h2><p>Our service is fast. Modern hardware and a scalable infrastructure ensure fast response times and stability. If you have ever worked with sluggish tools like Google Analytics, using Pirsch will feel like a breeze of fresh air.</p><h2>Advanced SDKs</h2><p>Use our Go (Golang), JavaScript, or PHP SDK, or one provided by the community to get started quickly. All SDKs are open-source and co-developed by the community.</p><h2>Server-side Integration</h2><p>Call our API from your backend for a non-blockable approach to web analytics. Instead of relying on JavaScript running in the visitor's browser, keep your site lean and improve page speed.</p><h2>Open-Source on GitHub</h2><p>A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>See All Demos</a><h2>Detailed Documentation</h2><p>Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Read the Docs</a><h2>Personal Support</h2><p>We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face.</p>"
+                    }
+                }
+            },
             {"ref": "cta"},
             {"ref": "footer"},
             {"ref": "end"}
