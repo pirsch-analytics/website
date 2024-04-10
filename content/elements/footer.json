@@ -4,6 +4,7 @@
         "en": {
             "made_in": "Made and hosted in Germany.",
             "all_rights": "All rights reserved.",
+            "language": "Language",
             "product": "Product",
             "product_links": [
                 {
@@ -53,11 +54,6 @@
                 {
                     "label": "Blog",
                     "href": "/blog"
-                },
-                {
-                    "label": "Documentation",
-                    "href": "https://docs.pirsch.io/",
-                    "target": "_blank"
                 },
                 {
                     "label": "API & SDKs",
@@ -148,6 +144,7 @@
         "de": {
             "made_in": "Entwickelt und gehostet in Deutschland.",
             "all_rights": "Alle Rechte vorbehalten.",
+            "language": "Sprache",
             "product": "Produkt",
             "product_links": [
                 {
@@ -292,6 +289,7 @@
         "es": {
             "made_in": "Desarrollado y alojado en Alemania.",
             "all_rights": "Todos los derechos reservados.",
+            "language": "Idioma",
             "product": "Producto",
             "product_links": [
                 {
@@ -436,6 +434,7 @@
         "fr": {
             "made_in": "Développé et hébergé en Allemagne.",
             "all_rights": "Tous droits réservés.",
+            "language": "Langue",
             "product": "Produit",
             "product_links": [
                 {
@@ -580,6 +579,7 @@
         "nl": {
             "made_in": "Ontwikkeld en gehost in Duitsland.",
             "all_rights": "Alle rechten voorbehouden.",
+            "language": "Taal",
             "product": "Product",
             "product_links": [
                 {
@@ -724,6 +724,7 @@
         "it": {
             "made_in": "Sviluppato e ospitato in Germania.",
             "all_rights": "Tutti i diritti riservati.",
+            "language": "Lingua",
             "product": "Prodotto",
             "product_links": [
                 {
@@ -868,6 +869,7 @@
         "pt": {
             "made_in": "Desenvolvido e hospedado na Alemanha.",
             "all_rights": "Todos os direitos reservados.",
+            "language": "Língua",
             "product": "Produto",
             "product_links": [
                 {
@@ -1012,6 +1014,7 @@
         "ja": {
             "made_in": "ドイツで開発・ホスティングされています。",
             "all_rights": "全著作権所有。",
+            "language": "言語",
             "product": "製品",
             "product_links": [
                 {

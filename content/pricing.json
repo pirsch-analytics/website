@@ -1,7 +1,13 @@
 {
     "path": {
         "en": "/pricing",
-        "de": "/de/pricing"
+        "de": "/de/pricing",
+        "es": "/es/pricing",
+        "fr": "/fr/pricing",
+        "nl": "/nl/pricing",
+        "it": "/it/pricing",
+        "pt": "/pt/pricing",
+        "ja": "/ja/pricing"
     },
     "sitemap": {
         "priority": "0.7"

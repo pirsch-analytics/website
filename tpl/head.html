@@ -1,12 +1,12 @@
-{{- $title := "Pirsch – Cookie-free and Privacy-friendly Web Analytics" -}}
+{{- $title := copy .Page .Content "title" -}}
 {{- if (copy .Page .Content "title") -}}
     {{$title = fmt "%s – %s" (copy .Page .Content "title") pageTitle}}
 {{- end -}}
-{{- $metaDescription := "Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend." -}}
+{{- $metaDescription := copy .Page .Content "meta_description" -}}
 {{- if (copy .Page .Content "meta_description") -}}
     {{- $metaDescription = (copy .Page .Content "meta_description") -}}
 {{- end -}}
-{{- $previewImage := "https://pirsch.io/static/img/twitter-card.png" -}}
+{{- $previewImage := "https://pirsch.io/static/img/og-image.png" -}}
 {{- if (get .Content "preview_img") -}}
     {{- $previewImage = (get .Content "preview_img") -}}
 {{- end -}}

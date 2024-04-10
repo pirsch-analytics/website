@@ -1172,6 +1172,9 @@ footer .footer-content ul li img {
   flex-direction: column;
   gap: var(--padding-small);
 }
+.grid .column .card {
+  flex: 1;
+}
 @media only screen and (max-width: 1024px) {
   .grid {
     align-items: center;
@@ -1453,7 +1456,7 @@ section.hero figure {
     align-items: center;
   }
   section.hero .customers .customers-content {
-    max-width: 112px;
+    max-width: 114px;
   }
 }
 
@@ -2241,7 +2244,10 @@ section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-pric
   font-size: 56px;
 }
 section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-price-currency, section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-price-amount, section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-price-custom {
+  overflow: hidden;
   font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-price .pricing-tier-price-after {
   margin-left: 12px;

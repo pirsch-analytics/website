@@ -315,6 +315,321 @@
                     "class4": "checked"
                 }
             ]
+        },
+        "de": {
+            "headline": "Vergleiche alle Funktionen",
+            "text": "Erhalte einen Überblick darüber, was enthalten ist. Wir aktualisieren regelmäßig mit neuen Funktionen – lass uns wissen, wenn dir etwas fehlt.",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "get_started": "Jetzt starten",
+            "contact_us": "Kontaktiere uns",
+            "table": [
+                {
+                    "cell1": "Nutzung",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Monatliche Seitenaufrufe",
+                    "cell2": "Variabel",
+                    "cell3": "Variabel",
+                    "cell4": "Variabel"
+                },
+                {
+                    "cell1": "Websites",
+                    "cell2": "50",
+                    "cell3": "Unbegrenzt",
+                    "cell4": "Unbegrenzt"
+                },
+                {
+                    "cell1": "Mitglieder",
+                    "cell2": "Unbegrenzt",
+                    "cell3": "Unbegrenzt",
+                    "cell4": "Unbegrenzt"
+                },
+                {
+                    "cell1": "Datenspeicherung",
+                    "cell2": "Unbegrenzt",
+                    "cell3": "Unbegrenzt",
+                    "cell4": "Unbegrenzt"
+                },
+                {
+                    "cell1": "Dashboard",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Leistungsstarke Filter",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Zeitraumvergleich",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Speicherbare Filter (Ansichten)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Sitzungsanalyse",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benutzerdefinierte Ereignisverfolgung",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Konversionszielverfolgung",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Verfolgung ausgehender Links",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Download-Verfolgung",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "404-Seiten-Verfolgung",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Automatische E-Mail-Berichte",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Search Console-Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Client-Hinweise",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "A/B-Tests",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentierung",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benutzerdefinierte Eventmetriken",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "E-Commerce-Umsatzverfolgung",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integration",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Website-Integration",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Serverseitige Integration",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "RESTful API & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Native Webhooks",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Skript-Proxies",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "WordPress Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Community-Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Zugang",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Öffentliche Dashboards",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Einzigartige Zugangslinks",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Mitgliederrollen",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organisationen",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "SAML-basiertes Single Sign-On",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Anpassung",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Benutzerdefinierte Domains",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benutzerdefinierte Themes",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benutzerdefinierte Logos",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Umfangreiches White Labeling",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Daten",
+                    "class": "title"
+                },
+                {
+                    "cell1": "DSGVO-Konformität",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% Datenbesitz",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Fathom Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "CSV-Export",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Hosting",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Deutschland)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Vor Ort (Selbstgehostet)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Custom Cloud (Managed)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support",
+                    "class": "title"
+                },
+                {
+                    "cell1": "E-Mail-Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Priorisierter Support",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Dedizierter Support",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Persönliches Onboarding",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Online-Nutzerschulung",
+                    "class4": "checked"
+                }
+            ]
         }
     }
 }

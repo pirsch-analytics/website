@@ -185,7 +185,10 @@ section.pricing {
                     font-size: 56px;
 
                     .pricing-tier-price-currency, .pricing-tier-price-amount, .pricing-tier-price-custom {
+                        overflow: hidden;
                         font-weight: 500;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
                     }
 
                     .pricing-tier-price-after {

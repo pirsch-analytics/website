@@ -1,7 +1,13 @@
 {
     "path": {
         "en": "/",
-        "de": "/de"
+        "de": "/de",
+        "es": "/es",
+        "fr": "/fr",
+        "nl": "/nl",
+        "it": "/it",
+        "pt": "/pt",
+        "ja": "/ja"
     },
     "sitemap": {
         "priority": "1.0"
@@ -19,6 +25,55 @@
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
                         "customers_text": "Trusted by 500+ Customers"
+                    },
+                    "de": {
+                        "headline": "Sieh über Klicks hinaus",
+                        "text": "Datenschutzfreundliche Web Analytics, entwickelt und gehostet in Deutschland – leistungsstark, ohne Cookies und vollständig konform mit DSGVO, CCPA und PECR.",
+                        "action_primary": "30 Tage kostenlos testen",
+                        "action_secondary": "Live-Demo ansehen",
+                        "customers_text": "Vertraut von über 500 Kunden"
+                    },
+                    "es": {
+                        "headline": "Ver más allá de los clics",
+                        "text": "Analítica web amigable con la privacidad, creada y alojada en Alemania — potente, sin cookies y totalmente conforme con GDPR, CCPA y PECR.",
+                        "action_primary": "Inicia tu prueba gratuita",
+                        "action_secondary": "Ver demostración en vivo",
+                        "customers_text": "Confiado por más de 500 clientes"
+                    },
+                    "fr": {
+                        "headline": "Voyez au-delà des clics",
+                        "text": "Analytique web respectueuse de la vie privée, développée et hébergée en Allemagne – puissante, sans cookies et totalement conforme au RGPD, CCPA et PECR.",
+                        "action_primary": "Commencez votre essai gratuit",
+                        "action_secondary": "Voir la démo en direct",
+                        "customers_text": "Fait confiance par plus de 500 clients"
+                    },
+                    "nl": {
+                        "headline": "Zie verder dan klikken",
+                        "text": "Privacyvriendelijke webanalyse, gemaakt en gehost in Duitsland — krachtig, cookievrij en volledig conform GDPR, CCPA en PECR.",
+                        "action_primary": "Start je gratis proefperiode",
+                        "action_secondary": "Bekijk de live demo",
+                        "customers_text": "Vertrouwd door meer dan 500 klanten"
+                    },
+                    "it": {
+                        "headline": "Vedi oltre i clic",
+                        "text": "Analisi web rispettosa della privacy, realizzata e ospitata in Germania — potente, senza cookie e completamente conforme a GDPR, CCPA e PECR.",
+                        "action_primary": "Inizia la tua prova gratuita",
+                        "action_secondary": "Guarda la demo dal vivo",
+                        "customers_text": "Fidato da oltre 500 clienti"
+                    },
+                    "pt": {
+                        "headline": "Veja além dos cliques",
+                        "text": "Análise web amigável à privacidade, feita e hospedada na Alemanha — poderosa, sem cookies e totalmente conforme com GDPR, CCPA e PECR.",
+                        "action_primary": "Comece seu teste gratuito",
+                        "action_secondary": "Veja a demonstração ao vivo",
+                        "customers_text": "Confiado por mais de 500 clientes"
+                    },
+                    "ja": {
+                        "headline": "クリックを超えて見る",
+                        "text": "ドイツ製およびドイツホストのプライバシーに優しいWeb分析 — 強力で、クッキー不使用、GDPR、CCPA、およびPECRと完全に準拠。",
+                        "action_primary": "無料トライアルを開始",
+                        "action_secondary": "ライブデモを見る",
+                        "customers_text": "500人以上の顧客に信頼されています"
                     }
                 }
             },
@@ -35,6 +90,48 @@
                         "nummeration_text": "Easy Start",
                         "headline": "Set Up in Minutes",
                         "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative."
+                    },
+                    "de": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Einfacher Start",
+                        "headline": "In Minuten einrichten",
+                        "text": "Füge einfach das Skript zu deiner Seite hinzu, wähle aus einer Vielzahl von Plugins, oder nutze die API-Backend-Integration. Pirsch ist die Plug-and-Play-Alternative zu Google Analytics."
+                    },
+                    "es": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Inicio Fácil",
+                        "headline": "Configurado en Minutos",
+                        "text": "Simplemente añade el script a tu sitio, elige entre una variedad de plugins o opta por la integración con el backend de la API. Pirsch es la alternativa plug-and-play a Google Analytics."
+                    },
+                    "fr": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Démarrage Facile",
+                        "headline": "Configuration en quelques minutes",
+                        "text": "Ajoutez simplement le script à votre site, choisissez parmi une variété de plugins, ou optez pour l'intégration backend API. Pirsch est l'alternative plug-and-play à Google Analytics."
+                    },
+                    "nl": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Gemakkelijke Start",
+                        "headline": "Instellen in Minuten",
+                        "text": "Voeg gewoon het script toe aan je site, kies uit een verscheidenheid van plugins, of ga voor de API backend integratie. Pirsch is het plug-and-play alternatief voor Google Analytics."
+                    },
+                    "it": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Avvio Facile",
+                        "headline": "Configurazione in Minuti",
+                        "text": "Aggiungi semplicemente lo script al tuo sito, scegli tra una varietà di plugin, o opta per l'integrazione backend API. Pirsch è l'alternativa plug-and-play a Google Analytics."
+                    },
+                    "pt": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "Início Fácil",
+                        "headline": "Configuração em Minutos",
+                        "text": "Basta adicionar o script ao seu site, escolher entre uma variedade de plugins, ou optar pela integração backend da API. Pirsch é a alternativa plug-and-play ao Google Analytics."
+                    },
+                    "ja": {
+                        "nummeration_number": "1",
+                        "nummeration_text": "簡単スタート",
+                        "headline": "数分で設定完了",
+                        "text": "サイトにスクリプトを追加するだけで、さまざまなプラグインから選択するか、APIバックエンド統合に進むことができます。Pirschはプラグアンドプレイで利用できるGoogle Analyticsの代替品です。"
                     }
                 },
                 "content": {
@@ -59,6 +156,34 @@
                                                         "en": {
                                                             "headline": "Integrates With Your Stack",
                                                             "text": "Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Integriert sich in deinen Stack",
+                                                            "text": "Pirsch bietet Plugins, Bibliotheken und Tutorials für die beliebtesten CMS, Website-Builder und Programmiersprachen, um dich in kürzester Zeit startklar zu machen."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Se integra con tu stack",
+                                                            "text": "Pirsch ofrece plugins, bibliotecas y tutoriales para los CMS más populares, constructores de sitios web y lenguajes de programación para que puedas empezar en poco tiempo."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "S'intègre avec votre pile",
+                                                            "text": "Pirsch propose des plugins, des bibliothèques et des tutoriels pour les CMS les plus populaires, les constructeurs de sites web et les langues de programmation pour vous mettre en route rapidement."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Integreert met je stack",
+                                                            "text": "Pirsch biedt plugins, bibliotheken en tutorials voor de populairste CMS'en, websitebouwers en programmeertalen om je snel op weg te helpen."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Si integra con il tuo stack",
+                                                            "text": "Pirsch offre plugin, librerie e tutorial per i CMS più popolari, costruttori di siti web e linguaggi di programmazione per farti partire in breve tempo."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Integra-se ao seu stack",
+                                                            "text": "Pirsch oferece plugins, bibliotecas e tutoriais para os CMS mais populares, construtores de sites e linguagens de programação para te colocar em funcionamento rapidamente."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "スタックとの統合",
+                                                            "text": "Pirschは、最も人気のあるCMS、ウェブサイトビルダー、プログラミング言語用のプラグイン、ライブラリ、チュートリアルを提供しており、あなたをすぐに起動させることができます。"
                                                         }
                                                     },
                                                     "content": {
@@ -115,6 +240,34 @@
                                                         "en": {
                                                             "headline": "Seamless Switch",
                                                             "text": "Migrating from other web analytics solutions? Import your data from Google Analytics or Fathom Analytics in just a few clicks and easily continue where you left off."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Nahtloser Wechsel",
+                                                            "text": "Wechselst du von anderen Webanalyse-Lösungen? Importiere deine Daten von Google Analytics oder Fathom Analytics mit nur wenigen Klicks und setze einfach dort fort, wo du aufgehört hast."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Cambio sin interrupciones",
+                                                            "text": "¿Migrando de otras soluciones de análisis web? Importa tus datos de Google Analytics o Fathom Analytics en solo unos clics y continúa fácilmente donde lo dejaste."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Changement fluide",
+                                                            "text": "Vous migrez d'autres solutions d'analyse web ? Importez vos données depuis Google Analytics ou Fathom Analytics en quelques clics et continuez facilement là où vous vous êtes arrêté."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Naadloze Overstap",
+                                                            "text": "Overstappen van andere webanalyseoplossingen? Importeer je gegevens van Google Analytics of Fathom Analytics met slechts een paar klikken en ga gemakkelijk verder waar je gebleven was."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Passaggio Senza Interruzioni",
+                                                            "text": "Stai migrando da altre soluzioni di analisi web? Importa i tuoi dati da Google Analytics o Fathom Analytics in pochi clic e continua facilmente da dove avevi lasciato."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Transição Suave",
+                                                            "text": "Migrando de outras soluções de análise web? Importe seus dados do Google Analytics ou do Fathom Analytics em apenas alguns cliques e continue facilmente de onde parou."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "シームレスな切り替え",
+                                                            "text": "他のウェブ分析ソリューションからの移行ですか？Google AnalyticsまたはFathom Analyticsからデータを数クリックでインポートし、簡単に前回の続きから始めましょう。"
                                                         }
                                                     }
                                                 }
@@ -134,6 +287,34 @@
                                                         "en": {
                                                             "headline": "No Cookie Banner",
                                                             "text": "Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors' personal identifiable information."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Kein Cookie-Banner",
+                                                            "text": "Sag auf Wiedersehen zu Zustimmungsbannern: Pirsch funktioniert ohne Cookies und speichert niemals persönlich identifizierbare Informationen deiner Besucher."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Sin banner de cookies",
+                                                            "text": "Di adiós a los banners de consentimiento: Pirsch funciona sin cookies y nunca almacena información personal identificable de tus visitantes."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Pas de bannière de cookies",
+                                                            "text": "Dites adieu aux bannières de consentement : Pirsch fonctionne sans cookies et ne stocke jamais les informations personnelles identifiables de vos visiteurs."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Geen cookiebanner",
+                                                            "text": "Zeg vaarwel tegen toestemmingsbanners: Pirsch werkt zonder cookies en slaat nooit persoonlijk identificeerbare informatie van je bezoekers op."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Nessun banner dei cookie",
+                                                            "text": "Dì addio ai banner di consenso: Pirsch funziona senza cookie e non memorizza mai le informazioni personali identificabili dei tuoi visitatori."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Sem banner de cookies",
+                                                            "text": "Diga adeus aos banners de consentimento: Pirsch funciona sem cookies e nunca armazena informações pessoais identificáveis dos seus visitantes."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "クッキーバナーなし",
+                                                            "text": "同意バナーにさよならを言いましょう：Pirschはクッキーを使用せず、訪問者の個人識別情報を決して保存しません。"
                                                         }
                                                     }
                                                 },
@@ -146,6 +327,34 @@
                                                         "en": {
                                                             "headline": "Privacy-friendly by Design",
                                                             "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Datenschutzfreundliches Design",
+                                                            "text": "Von Grund auf mit Datenschutz entwickelt und mit einem Open-Source-Kern bietet Pirsch kompromisslosen Datenschutz, der DSGVO, CCPA, PECR und Schrems II entspricht. Alle Daten werden auf einem sicheren Servercluster in Deutschland gehostet."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Diseño amigable con la privacidad",
+                                                            "text": "Construido desde cero con la privacidad en mente y con un núcleo de código abierto, Pirsch ofrece protección de datos sin concesiones cumpliendo con GDPR, CCPA, PECR y Schrems II. Todos los datos se alojan en un clúster de servidores seguros en Alemania."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Respectueux de la vie privée par conception",
+                                                            "text": "Construit dès le départ avec la vie privée en tête et un noyau open-source, Pirsch offre une protection des données sans compromis conforme au RGPD, CCPA, PECR et Schrems II. Toutes les données sont hébergées sur un cluster de serveurs sécurisés en Allemagne."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Privacyvriendelijk door ontwerp",
+                                                            "text": "Vanaf de grond opgebouwd met privacy in gedachten en een open-source kern, biedt Pirsch compromisloze gegevensbescherming conform GDPR, CCPA, PECR en Schrems II. Alle gegevens worden gehost op een veilige servercluster in Duitsland."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Progettato per la privacy",
+                                                            "text": "Costruito da zero con la privacy in mente e con un nucleo open-source, Pirsch offre una protezione dei dati senza compromessi conforme a GDPR, CCPA, PECR e Schrems II. Tutti i dati sono ospitati su un cluster di server sicuri in Germania."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Amigável à privacidade por design",
+                                                            "text": "Construído desde o início com a privacidade em mente e com um núcleo de código aberto, a Pirsch oferece proteção de dados sem concessões, compatível com GDPR, CCPA, PECR e Schrems II. Todos os dados são hospedados em um cluster de servidores seguros na Alemanha."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "プライバシーに配慮した設計",
+                                                            "text": "プライバシーを念頭に置いて一から構築され、オープンソースのコアを持つPirschは、GDPR、CCPA、PECR、およびSchrems IIに完全に準拠したデータ保護を妥協なく提供します。すべてのデータはドイツの安全なサーバークラスターにホストされています。"
                                                         }
                                                     },
                                                     "content": {
@@ -177,6 +386,48 @@
                         "nummeration_text": "Instant Output",
                         "headline": "Unlock Key Insights",
                         "text": "With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions."
+                    },
+                    "de": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Sofortiges Ergebnis",
+                        "headline": "Wichtige Einblicke aufdecken",
+                        "text": "Mit einem leistungsstarken, aber benutzerfreundlichen Dashboard kannst du auf die relevantesten Daten zugreifen, die notwendig sind, um deine Kunden zu verstehen und die richtigen Entscheidungen zu treffen."
+                    },
+                    "es": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Resultado Instantáneo",
+                        "headline": "Desbloquea conocimientos clave",
+                        "text": "Con un panel de control potente pero fácil de usar, puedes acceder a los datos más relevantes necesarios para entender a tus clientes y tomar las decisiones correctas."
+                    },
+                    "fr": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Résultat Instantané",
+                        "headline": "Débloquer les insights clés",
+                        "text": "Avec un tableau de bord puissant mais facile à utiliser, vous pouvez accéder aux données les plus pertinentes nécessaires pour comprendre vos clients et prendre les bonnes décisions."
+                    },
+                    "nl": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Direct Resultaat",
+                        "headline": "Belangrijke Inzichten Ontgrendelen",
+                        "text": "Met een krachtig maar gebruiksvriendelijk dashboard kun je toegang krijgen tot de meest relevante gegevens die nodig zijn om je klanten te begrijpen en de juiste beslissingen te nemen."
+                    },
+                    "it": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Risultato Istantaneo",
+                        "headline": "Sblocca le intuizioni chiave",
+                        "text": "Con un cruscotto potente ma facile da usare, puoi accedere ai dati più rilevanti necessari per comprendere i tuoi clienti e prendere le decisioni giuste."
+                    },
+                    "pt": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "Resultado Imediato",
+                        "headline": "Desbloqueie insights chave",
+                        "text": "Com um painel de controle poderoso, porém fácil de usar, você pode acessar os dados mais relevantes necessários para entender seus clientes e tomar as decisões corretas."
+                    },
+                    "ja": {
+                        "nummeration_number": "2",
+                        "nummeration_text": "即時出力",
+                        "headline": "重要な洞察を解き明かす",
+                        "text": "強力でありながら使いやすいダッシュボードを使用することで、顧客を理解し、正しい決定を下すために必要な最も関連性の高いデータにアクセスできます。"
                     }
                 },
                 "content": {
@@ -201,6 +452,34 @@
                                                         "en": {
                                                             "headline": "Track Everything You Need",
                                                             "text": "With a wide range of data points, you get a detailed understanding of your visitors and target audience."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Verfolge alles, was du brauchst",
+                                                            "text": "Mit einer breiten Palette an Datenpunkten erhältst du ein detailliertes Verständnis deiner Besucher und Zielgruppe."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Rastrea todo lo que necesitas",
+                                                            "text": "Con una amplia gama de puntos de datos, obtienes una comprensión detallada de tus visitantes y público objetivo."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Suivez tout ce dont vous avez besoin",
+                                                            "text": "Avec un large éventail de points de données, vous obtenez une compréhension détaillée de vos visiteurs et de votre public cible."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Volg alles wat je nodig hebt",
+                                                            "text": "Met een breed scala aan datapunten krijg je een gedetailleerd inzicht in je bezoekers en doelgroep."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Traccia tutto ciò di cui hai bisogno",
+                                                            "text": "Con un'ampia gamma di punti dati, ottieni una comprensione dettagliata dei tuoi visitatori e del tuo pubblico di riferimento."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Rastreie tudo o que você precisa",
+                                                            "text": "Com uma ampla gama de pontos de dados, você obtém um entendimento detalhado de seus visitantes e público-alvo."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "必要なすべてを追跡",
+                                                            "text": "多岐にわたるデータポイントを用いて、訪問者やターゲットオーディエンスを詳細に理解できます。"
                                                         }
                                                     },
                                                     "content": {
@@ -221,6 +500,34 @@
                                                         "en": {
                                                             "headline": "Filter With One Click",
                                                             "text": "Pirsch makes it effortless to explore your stats through intuitive filtering on a super-fast, highly visual dashboard."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Mit einem Klick filtern",
+                                                            "text": "Pirsch macht es mühelos, deine Statistiken durch intuitive Filterung auf einem superschnellen, sehr visuellen Dashboard zu erkunden."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Filtrar con un clic",
+                                                            "text": "Pirsch hace que sea fácil explorar tus estadísticas mediante un filtrado intuitivo en un panel de control súper rápido y altamente visual."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Filtrer en un clic",
+                                                            "text": "Pirsch rend l'exploration de vos statistiques sans effort grâce à un filtrage intuitif sur un tableau de bord super rapide et hautement visuel."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Filteren met één klik",
+                                                            "text": "Pirsch maakt het moeiteloos om je statistieken te verkennen via intuïtieve filtering op een supersnel, zeer visueel dashboard."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Filtra con un clic",
+                                                            "text": "Pirsch rende facile esplorare le tue statistiche attraverso un filtraggio intuitivo su un cruscotto super veloce e altamente visivo."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Filtrar com um clique",
+                                                            "text": "Pirsch torna fácil explorar suas estatísticas através de um filtro intuitivo em um painel super rápido e altamente visual."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "ワンクリックでフィルター",
+                                                            "text": "Pirschは直感的なフィルタリングを通じて、超高速で非常に視覚的なダッシュボード上で統計を簡単に探索できます。"
                                                         }
                                                     },
                                                     "content": {
@@ -256,6 +563,48 @@
                         "nummeration_text": "Advanced Analytics",
                         "headline": "Dive Into the Details",
                         "text": "See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into single sessions, or track your performance with flexible conversion goals."
+                    },
+                    "de": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Erweiterte Web Analytics",
+                        "headline": "Tauche in die Details ein",
+                        "text": "Sieh über Klicks hinaus mit Events, A/B-Tests und tag-basierter Segmentierung, analysiere einzelne Sitzungen genauer oder verfolge deine Leistung mit flexiblen Konversionszielen."
+                    },
+                    "es": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Analítica Avanzada",
+                        "headline": "Sumérgete en los detalles",
+                        "text": "Ve más allá de los clics con el poder de los eventos, pruebas A/B y segmentación basada en etiquetas, profundiza en sesiones individuales, o rastrea tu rendimiento con objetivos de conversión flexibles."
+                    },
+                    "fr": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Analytique Avancée",
+                        "headline": "Plongez dans les détails",
+                        "text": "Voyez au-delà des clics avec le pouvoir des événements, des tests A/B et de la segmentation basée sur les tags, analysez en détail les sessions individuelles, ou suivez votre performance avec des objectifs de conversion flexibles."
+                    },
+                    "nl": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Geavanceerde Analyse",
+                        "headline": "Duik in de details",
+                        "text": "Kijk verder dan klikken met de kracht van gebeurtenissen, A/B-testen en tag-gebaseerde segmentatie, analyseer individuele sessies diepgaand, of volg je prestaties met flexibele conversiedoelen."
+                    },
+                    "it": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Analisi Avanzate",
+                        "headline": "Immergiti nei dettagli",
+                        "text": "Vai oltre i clic con il potere degli eventi, test A/B e segmentazione basata su tag, analizza in dettaglio singole sessioni o traccia le tue prestazioni con obiettivi di conversione flessibili."
+                    },
+                    "pt": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "Análise Avançada",
+                        "headline": "Mergulhe nos Detalhes",
+                        "text": "Veja além dos cliques com o poder de eventos, testes A/B e segmentação baseada em tags, analise sessões individuais em detalhes, ou acompanhe seu desempenho com metas de conversão flexíveis."
+                    },
+                    "ja": {
+                        "nummeration_number": "3",
+                        "nummeration_text": "高度な分析",
+                        "headline": "詳細にダイブ",
+                        "text": "イベント、A/Bテスト、タグベースのセグメンテーションの力を利用してクリックを超えて見て、個々のセッションを詳細に分析するか、柔軟なコンバージョン目標でパフォーマンスを追跡します。"
                     }
                 },
                 "content": {
@@ -277,6 +626,34 @@
                                                         "en": {
                                                             "headline": "Explore Sessions",
                                                             "text": "Learn more about individual user journeys with in-depth session summaries."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Sessions erkunden",
+                                                            "text": "Erfahre mehr über die individuellen User Journeys mit detaillierten Sitzungszusammenfassungen."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Explorar sesiones",
+                                                            "text": "Aprende más sobre los recorridos individuales de los usuarios con resúmenes de sesiones detallados."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Explorer les sessions",
+                                                            "text": "En savoir plus sur les parcours individuels des utilisateurs grâce à des résumés de session approfondis."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Sessies verkennen",
+                                                            "text": "Leer meer over individuele gebruikersreizen met diepgaande sessiesamenvattingen."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Esplora le sessioni",
+                                                            "text": "Scopri di più sui percorsi individuali degli utenti con riassunti di sessione approfonditi."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Explorar sessões",
+                                                            "text": "Saiba mais sobre as jornadas individuais dos usuários com resumos detalhados de sessões."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "セッションの探索",
+                                                            "text": "セッションの詳細な要約で個々のユーザージャーニーについて詳しく学びます。"
                                                         }
                                                     },
                                                     "content": {
@@ -298,6 +675,34 @@
                                                         "en": {
                                                             "headline": "Segment Visitors",
                                                             "text": "Tags help you leverage your data, whether it's for A/B testing or segmentation."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Besucher segmentieren",
+                                                            "text": "Tags helfen dir, mehr aus deinen Daten zu machen, egal ob für A/B-Tests oder Segmentierung."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Segmentar visitantes",
+                                                            "text": "Las etiquetas te ayudan a aprovechar tus datos, ya sea para pruebas A/B o segmentación."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Segmenter les visiteurs",
+                                                            "text": "Les tags vous aident à exploiter vos données, que ce soit pour des tests A/B ou pour la segmentation."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Bezoekers segmenteren",
+                                                            "text": "Tags helpen je om je gegevens te benutten, of het nu voor A/B-testen of segmentatie is."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Segmentare i visitatori",
+                                                            "text": "I tag ti aiutano a sfruttare i tuoi dati, sia per i test A/B che per la segmentazione."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Segmentar visitantes",
+                                                            "text": "As tags ajudam você a aproveitar seus dados, seja para testes A/B ou segmentação."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "訪問者をセグメント化",
+                                                            "text": "タグは、A/Bテストやセグメンテーションのためにデータを活用するのに役立ちます。"
                                                         }
                                                     },
                                                     "content": {
@@ -319,6 +724,34 @@
                                                         "en": {
                                                             "headline": "Utilize Webhooks",
                                                             "text": "Stay up-to-date or trigger actions in the applications you already use with native webhooks."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Webhooks nutzen",
+                                                            "text": "Bleib auf dem neuesten Stand oder löse Aktionen in den Anwendungen aus, die du bereits verwendest, mit nativen Webhooks."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Utilizar Webhooks",
+                                                            "text": "Mantente actualizado o activa acciones en las aplicaciones que ya usas con webhooks nativos."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Utiliser les Webhooks",
+                                                            "text": "Restez à jour ou déclenchez des actions dans les applications que vous utilisez déjà avec des webhooks natifs."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Gebruik Webhooks",
+                                                            "text": "Blijf up-to-date of activeer acties in de applicaties die je al gebruikt met native webhooks."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Utilizzare i Webhook",
+                                                            "text": "Rimani aggiornato o attiva azioni nelle applicazioni che già utilizzi con webhook nativi."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Utilizar Webhooks",
+                                                            "text": "Mantenha-se atualizado ou acione ações nos aplicativos que você já usa com webhooks nativos."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "ウェブフックを活用する",
+                                                            "text": "既に使用しているアプリケーションで最新の状態を保つか、ネイティブのウェブフックを使用してアクションをトリガーします。"
                                                         }
                                                     },
                                                     "content": {
@@ -347,6 +780,34 @@
                                                         "en": {
                                                             "headline": "Create Custom Events",
                                                             "text": "Button clicks, checkouts, signups, and more. Quickly highlight important user activities in your funnel."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Eigene Events erstellen",
+                                                            "text": "Button-Klicks, Checkouts, Anmeldungen und mehr. Hebe schnell wichtige Benutzeraktivitäten in deinem Funnel hervor."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Crear eventos personalizados",
+                                                            "text": "Clics en botones, procesos de pago, registros y más. Destaca rápidamente las actividades importantes de los usuarios en tu embudo."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Créer des événements personnalisés",
+                                                            "text": "Clics sur les boutons, achats, inscriptions, et plus encore. Mettez rapidement en évidence les activités importantes des utilisateurs dans votre entonnoir."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Aangepaste gebeurtenissen creëren",
+                                                            "text": "Klikken op knoppen, checkouts, aanmeldingen en meer. Benadruk snel belangrijke gebruikersactiviteiten in je trechter."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Creare eventi personalizzati",
+                                                            "text": "Click sui pulsanti, checkout, registrazioni e altro ancora. Evidenzia rapidamente le attività utente importanti nel tuo funnel."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Criar eventos personalizados",
+                                                            "text": "Cliques em botões, checkouts, inscrições e mais. Destaque rapidamente as atividades importantes dos usuários no seu funil."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "カスタムイベントを作成",
+                                                            "text": "ボタンクリック、チェックアウト、サインアップなど。あなたのファネルで重要なユーザーアクティビティをすばやく強調表示します。"
                                                         }
                                                     }
                                                 },
@@ -356,6 +817,34 @@
                                                         "en": {
                                                             "headline": "Monitor Conversion Goals",
                                                             "text": "Keep an eye on your site's performance and track conversion goals with precision to optimize performance."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Konversionsziele überwachen",
+                                                            "text": "Behalte die Leistung deiner Website im Auge und verfolge Konversionsziele mit Präzision, um die Leistung zu optimieren."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Monitorear objetivos de conversión",
+                                                            "text": "Vigila el rendimiento de tu sitio y rastrea los objetivos de conversión con precisión para optimizar el rendimiento."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Surveiller les objectifs de conversion",
+                                                            "text": "Gardez un œil sur la performance de votre site et suivez les objectifs de conversion avec précision pour optimiser les performances."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Conversiedoelen monitoren",
+                                                            "text": "Houd de prestaties van je site in de gaten en volg conversiedoelen nauwkeurig om de prestaties te optimaliseren."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Monitorare gli obiettivi di conversione",
+                                                            "text": "Tieni d'occhio le prestazioni del tuo sito e traccia gli obiettivi di conversione con precisione per ottimizzare le prestazioni."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Monitorar metas de conversão",
+                                                            "text": "Fique de olho no desempenho do seu site e acompanhe as metas de conversão com precisão para otimizar o desempenho."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "コンバージョン目標を監視",
+                                                            "text": "サイトのパフォーマンスを監視し、コンバージョン目標を精確に追跡してパフォーマンスを最適化します。"
                                                         }
                                                     }
                                                 }
@@ -380,6 +869,48 @@
                         "nummeration_text": "Smart Teamwork",
                         "headline": "Empower People With Data",
                         "text": "Reduce friction and enhance productivity by getting the right information to the right people with minimal effort, enabling them to thrive and excel."
+                    },
+                    "de": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Intelligente Teamarbeit",
+                        "headline": "Mitarbeiter mit Daten ermächtigen",
+                        "text": "Reduziere Reibungsverluste und steigere die Produktivität, indem du die richtigen Informationen mit minimalem Aufwand an die richtigen Personen weitergibst, sodass sie ihre Aufgaben erledigen können."
+                    },
+                    "es": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Trabajo en equipo inteligente",
+                        "headline": "Empoderar a las personas con datos",
+                        "text": "Reduce la fricción y mejora la productividad proporcionando la información correcta a las personas adecuadas con el mínimo esfuerzo, permitiéndoles prosperar y destacar."
+                    },
+                    "fr": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Travail d'équipe intelligent",
+                        "headline": "Donner du pouvoir aux personnes avec des données",
+                        "text": "Réduisez les frictions et améliorez la productivité en fournissant les bonnes informations aux bonnes personnes avec un effort minimal, leur permettant de s'épanouir et d'exceller."
+                    },
+                    "nl": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Slim teamwork",
+                        "headline": "Mensen machtigen met data",
+                        "text": "Verminder wrijving en verhoog de productiviteit door de juiste informatie met minimale inspanning aan de juiste mensen te geven, zodat ze kunnen bloeien en uitblinken."
+                    },
+                    "it": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Lavoro di squadra intelligente",
+                        "headline": "Dare potere alle persone con i dati",
+                        "text": "Riduci l'attrito e aumenta la produttività fornendo le informazioni giuste alle persone giuste con il minimo sforzo, permettendo loro di prosperare ed eccellere."
+                    },
+                    "pt": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "Trabalho em equipe inteligente",
+                        "headline": "Empoderar pessoas com dados",
+                        "text": "Reduza o atrito e aumente a produtividade fornecendo as informações corretas às pessoas certas com o mínimo esforço, permitindo que elas prosperem e se destaquem."
+                    },
+                    "ja": {
+                        "nummeration_number": "4",
+                        "nummeration_text": "スマートなチームワーク",
+                        "headline": "データで人々を力づける",
+                        "text": "最小の労力で正しい情報を適切な人々に提供することで摩擦を減らし、生産性を向上させ、彼らが成長し優れた成果を上げるのを助けます。"
                     }
                 },
                 "content": {
@@ -402,6 +933,48 @@
                                                 "text": "Work happens in teams. That's why Pirsch enables collaboration right from the start: Simply invite team members or clients via email, assign them roles, and give them access to the dashboards they need to excel. All people, sites and custom themes in one place.",
                                                 "cta_link": "/signup",
                                                 "cta_label": "Start 30-day Free Trial"
+                                            },
+                                            "de": {
+                                                "headline": "Teams und Websites einfach verwalten",
+                                                "text": "Arbeit geschieht in Teams. Deshalb ermöglicht Pirsch von Anfang an die Zusammenarbeit: Lade einfach Teammitglieder oder Kunden per E-Mail ein, weise ihnen Rollen zu und gib ihnen Zugang zu den Dashboards, die sie benötigen, um hervorragend zu arbeiten. Alle Personen, Websites und benutzerdefinierten Themen an einem Ort.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Starte 30-Tage kostenlosen Test"
+                                            },
+                                            "es": {
+                                                "headline": "Gestiona fácilmente equipos y sitios",
+                                                "text": "El trabajo ocurre en equipos. Por eso Pirsch facilita la colaboración desde el principio: simplemente invita a los miembros del equipo o clientes por correo electrónico, asígnales roles y dales acceso a los paneles que necesitan para sobresalir. Todas las personas, sitios y temas personalizados en un solo lugar.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Comienza tu prueba gratuita de 30 días"
+                                            },
+                                            "fr": {
+                                                "headline": "Gérer facilement les équipes et les sites",
+                                                "text": "Le travail se fait en équipe. C'est pourquoi Pirsch permet la collaboration dès le début : invitez simplement les membres de l'équipe ou les clients par e-mail, attribuez-leur des rôles et donnez-leur accès aux tableaux de bord dont ils ont besoin pour exceller. Toutes les personnes, les sites et les thèmes personnalisés en un seul endroit.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Commencez votre essai gratuit de 30 jours"
+                                            },
+                                            "nl": {
+                                                "headline": "Beheer teams en sites gemakkelijk",
+                                                "text": "Werk gebeurt in teams. Daarom maakt Pirsch samenwerking vanaf het begin mogelijk: nodig gewoon teamleden of klanten uit via e-mail, wijs ze rollen toe en geef ze toegang tot de dashboards die ze nodig hebben om uit te blinken. Alle mensen, sites en aangepaste thema's op één plek.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Start 30-dagen gratis proefperiode"
+                                            },
+                                            "it": {
+                                                "headline": "Gestisci facilmente team e siti",
+                                                "text": "Il lavoro avviene in team. Ecco perché Pirsch abilita la collaborazione fin dall'inizio: invita semplicemente i membri del team o i clienti via email, assegna loro dei ruoli e dà loro accesso ai dashboard di cui hanno bisogno per eccellere. Tutte le persone, i siti e i temi personalizzati in un unico posto.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Inizia la prova gratuita di 30 giorni"
+                                            },
+                                            "pt": {
+                                                "headline": "Gerencie equipes e sites facilmente",
+                                                "text": "O trabalho acontece em equipes. É por isso que a Pirsch facilita a colaboração desde o início: basta convidar membros da equipe ou clientes por e-mail, atribuir-lhes papéis e dar-lhes acesso aos painéis de que precisam para se destacar. Todas as pessoas, sites e temas personalizados em um único lugar.",
+                                                "cta_link": "/signup",
+                                                "cta_label": "Inicie o teste gratuito de 30 dias"
+                                            },
+                                            "ja": {
+                                                "headline": "チームとサイトを簡単に管理",
+                                                "text": "仕事はチームで行われます。そのためPirschは最初から協力を可能にします：メンバーやクライアントをメールで簡単に招待し、役割を割り当てて、彼らが優れたパフォーマンスを発揮するために必要なダッシュボードへのアクセスを与えます。すべての人、サイト、カスタムテーマを一か所で管理できます。",
+                                                "cta_link": "/signup",
+                                                "cta_label": "30日間の無料トライアルを開始"
                                             }
                                         },
                                         "content": {
@@ -420,9 +993,36 @@
                                                         "en": {
                                                             "headline": "Receive Automatic Email Reports",
                                                             "text": "Keep colleagues, customers, or partners in the loop with automatic email reports. Regularly receive a concise summary of the latest activities with just one click."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Automatische E-Mail-Berichte erhalten",
+                                                            "text": "Halte Kollegen, Kunden oder Partner mit automatischen E-Mail-Berichten auf dem Laufenden. Erhalte regelmäßig eine prägnante Zusammenfassung der neuesten Aktivitäten mit nur einem Klick."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Recibir informes automáticos por correo electrónico",
+                                                            "text": "Mantén a colegas, clientes o socios al tanto con informes automáticos por correo electrónico. Recibe regularmente un resumen conciso de las últimas actividades con solo un clic."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Recevoir des rapports automatiques par e-mail",
+                                                            "text": "Gardez vos collègues, clients ou partenaires informés avec des rapports automatiques par e-mail. Recevez régulièrement un résumé concis des dernières activités en un seul clic."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Automatische e-mailrapporten ontvangen",
+                                                            "text": "Houd collega's, klanten of partners op de hoogte met automatische e-mailrapporten. Ontvang regelmatig een beknopte samenvatting van de laatste activiteiten met slechts één klik."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Ricevi rapporti automatici via email",
+                                                            "text": "Tieni collegati, clienti o partner aggiornati con rapporti automatici via email. Ricevi regolarmente un riassunto conciso delle ultime attività con un solo clic."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Receber relatórios automáticos por e-mail",
+                                                            "text": "Mantenha colegas, clientes ou parceiros informados com relatórios automáticos por e-mail. Receba regularmente um resumo conciso das últimas atividades com apenas um clique."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "自動メールレポートを受け取る",
+                                                            "text": "自動メールレポートで同僚、顧客、またはパートナーを常に最新の状態に保ちます。ワンクリックで最新活動の簡潔なサマリーを定期的に受け取ります。"
                                                         }
                                                     }
-
                                                 },
                                                 {
                                                     "tpl": "card",
@@ -430,6 +1030,34 @@
                                                         "en": {
                                                             "headline": "Share Dashboards With Anybody",
                                                             "text": "Working with external partners? Create unique access links to securely grant access to dashboards or make them public on your personal subdomain."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Dashboards mit jedem teilen",
+                                                            "text": "Arbeitest du mit externen Partnern? Erstelle einzigartige Zugangslinks, um sicher Zugriff auf Dashboards zu gewähren oder mache sie auf deiner persönlichen Subdomain öffentlich."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Compartir tableros con cualquiera",
+                                                            "text": "¿Trabajas con socios externos? Crea enlaces de acceso únicos para otorgar acceso seguro a los tableros o hazlos públicos en tu subdominio personal."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Partager des tableaux de bord avec n'importe qui",
+                                                            "text": "Vous travaillez avec des partenaires externes ? Créez des liens d'accès uniques pour accorder un accès sécurisé aux tableaux de bord ou rendez-les publics sur votre sous-domaine personnel."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Deel dashboards met iedereen",
+                                                            "text": "Werk je met externe partners? Maak unieke toegangslinks om veilig toegang te verlenen tot dashboards of maak ze openbaar op je persoonlijke subdomein."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Condividi dashboard con chiunque",
+                                                            "text": "Lavori con partner esterni? Crea link di accesso unici per concedere l'accesso in modo sicuro ai dashboard o rendili pubblici sul tuo sottodominio personale."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Compartilhar painéis com qualquer pessoa",
+                                                            "text": "Trabalhando com parceiros externos? Crie links de acesso únicos para conceder acesso seguro aos painéis ou torne-os públicos em seu subdomínio pessoal."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "誰とでもダッシュボードを共有",
+                                                            "text": "外部パートナーと協力していますか？ ダッシュボードへの安全なアクセスを許可するためのユニークなアクセスリンクを作成するか、個人のサブドメインで公開します。"
                                                         }
                                                     }
                                                 }
@@ -454,6 +1082,48 @@
                         "nummeration_text": "Creative Freedom",
                         "headline": "Make It Your Own",
                         "text": "Pirsch offers the most extensive theming and white labeling options availabe in the industry. Sleek and modern or something playful and vibrant? The possibilities are endless."
+                    },
+                    "de": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Kreative Freiheit",
+                        "headline": "Mache es zu deinem Eigenen",
+                        "text": "Pirsch bietet die umfangreichsten Theming- und White-Labeling-Optionen, die in der Branche verfügbar sind. Schlicht und modern oder etwas verspielt und lebendig? Die Möglichkeiten sind endlos."
+                    },
+                    "es": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Libertad Creativa",
+                        "headline": "Hazlo tuyo",
+                        "text": "Pirsch ofrece las opciones de tematización y etiquetado blanco más extensas disponibles en la industria. ¿Elegante y moderno o algo juguetón y vibrante? Las posibilidades son infinitas."
+                    },
+                    "fr": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Liberté Créative",
+                        "headline": "Personnalisez-le",
+                        "text": "Pirsch offre les options de thématisation et de marque blanche les plus étendues disponibles dans l'industrie. Sobre et moderne ou quelque chose de ludique et vibrant ? Les possibilités sont infinies."
+                    },
+                    "nl": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Creatieve Vrijheid",
+                        "headline": "Maak het eigen",
+                        "text": "Pirsch biedt de meest uitgebreide thematisering- en white labeling-opties die in de industrie beschikbaar zijn. Strak en modern of iets speels en levendig? De mogelijkheden zijn eindeloos."
+                    },
+                    "it": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Libertà Creativa",
+                        "headline": "Rendilo tuo",
+                        "text": "Pirsch offre le opzioni di theming e white labeling più estese disponibili nel settore. Sobrio e moderno o qualcosa di giocoso e vibrante? Le possibilità sono infinite."
+                    },
+                    "pt": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "Liberdade Criativa",
+                        "headline": "Torne-o seu",
+                        "text": "Pirsch oferece as opções mais extensas de temas e etiquetagem branca disponíveis no setor. Elegante e moderno ou algo divertido e vibrante? As possibilidades são infinitas."
+                    },
+                    "ja": {
+                        "nummeration_number": "5",
+                        "nummeration_text": "創造的自由",
+                        "headline": "自分のものにする",
+                        "text": "Pirschは業界で利用可能な最も広範なテーマとホワイトラベリングオプションを提供します。スリークでモダン、または遊び心あふれる鮮やかなデザイン？可能性は無限大です。"
                     }
                 },
                 "content": {
@@ -482,6 +1152,34 @@
                                                                     "en": {
                                                                         "headline": "Custom Themes",
                                                                         "text": "Personalize your analytics experience with logos, colors or custom domains and stand out from the crowd."
+                                                                    },
+                                                                    "de": {
+                                                                        "headline": "Benutzerdefinierte Themen",
+                                                                        "text": "Personalisiere dein Analyseerlebnis mit Logos, Farben oder benutzerdefinierten Domains und hebe dich von der Masse ab."
+                                                                    },
+                                                                    "es": {
+                                                                        "headline": "Temas personalizados",
+                                                                        "text": "Personaliza tu experiencia de análisis con logotipos, colores o dominios personalizados y destácate de los demás."
+                                                                    },
+                                                                    "fr": {
+                                                                        "headline": "Thèmes personnalisés",
+                                                                        "text": "Personnalisez votre expérience d'analyse avec des logos, des couleurs ou des domaines personnalisés et distinguez-vous de la foule."
+                                                                    },
+                                                                    "nl": {
+                                                                        "headline": "Aangepaste thema's",
+                                                                        "text": "Personaliseer je analytische ervaring met logo's, kleuren of aangepaste domeinen en onderscheid je van de massa."
+                                                                    },
+                                                                    "it": {
+                                                                        "headline": "Temi personalizzati",
+                                                                        "text": "Personalizza la tua esperienza analitica con loghi, colori o domini personalizzati e distinguiti dalla massa."
+                                                                    },
+                                                                    "pt": {
+                                                                        "headline": "Temas personalizados",
+                                                                        "text": "Personalize sua experiência de análise com logotipos, cores ou domínios personalizados e destaque-se da multidão."
+                                                                    },
+                                                                    "ja": {
+                                                                        "headline": "カスタムテーマ",
+                                                                        "text": "ロゴ、色、カスタムドメインを使用して分析体験をパーソナライズし、群衆から際立たせましょう。"
                                                                     }
                                                                 }
                                                             },
@@ -491,6 +1189,34 @@
                                                                     "en": {
                                                                         "headline": "White Labeling",
                                                                         "text": "Whether you want to offer your clients a full web analytics solution or reflect your own brand and style, Pirsch has you covered."
+                                                                    },
+                                                                    "de": {
+                                                                        "headline": "White Labeling",
+                                                                        "text": "Ob du deinen Kunden eine vollständige Webanalyse-Lösung anbieten oder deine eigene Marke und deinen Stil widerspiegeln möchtest, Pirsch hat die passende Lösung für dich."
+                                                                    },
+                                                                    "es": {
+                                                                        "headline": "Etiquetado Blanco",
+                                                                        "text": "Ya sea que quieras ofrecer a tus clientes una solución completa de análisis web o reflejar tu propia marca y estilo, Pirsch te tiene cubierto."
+                                                                    },
+                                                                    "fr": {
+                                                                        "headline": "Marque blanche",
+                                                                        "text": "Que vous souhaitiez offrir à vos clients une solution complète d'analyse web ou refléter votre propre marque et style, Pirsch vous couvre."
+                                                                    },
+                                                                    "nl": {
+                                                                        "headline": "White Labeling",
+                                                                        "text": "Of je nu je klanten een volledige webanalyse-oplossing wilt bieden of je eigen merk en stijl wilt weerspiegelen, Pirsch heeft wat je nodig hebt."
+                                                                    },
+                                                                    "it": {
+                                                                        "headline": "White Labeling",
+                                                                        "text": "Che tu voglia offrire ai tuoi clienti una soluzione completa di analisi web o riflettere il tuo marchio e stile, Pirsch ti offre la copertura necessaria."
+                                                                    },
+                                                                    "pt": {
+                                                                        "headline": "Etiquetagem Branca",
+                                                                        "text": "Seja para oferecer aos seus clientes uma solução completa de análise web ou refletir sua própria marca e estilo, a Pirsch tem o que você precisa."
+                                                                    },
+                                                                    "ja": {
+                                                                        "headline": "ホワイトラベル",
+                                                                        "text": "お客様に完全なWeb分析ソリューションを提供するか、自社のブランドやスタイルを反映させたい場合でも、Pirschがサポートします。"
                                                                     }
                                                                 }
                                                             }
@@ -561,6 +1287,48 @@
                         "nummeration_text": "Good Company",
                         "headline": "Join Happy Customers",
                         "text": "Hundreds of millions of page views for thousands of sites are collected with Pirsch Analytics each month — see what our customers have to say."
+                    },
+                    "de": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Gute Gesellschaft",
+                        "headline": "Schließe dich glücklichen Kunden an",
+                        "text": "Hunderte von Millionen von Seitenaufrufen für Tausende von Websites werden jeden Monat mit Pirsch Analytics erfasst — siehe dir an, was unsere Kunden zu sagen haben."
+                    },
+                    "es": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Buena compañía",
+                        "headline": "Únete a los clientes satisfechos",
+                        "text": "Pirsch Analytics recopila cada mes cientos de millones de páginas vistas de miles de sitios web — vea lo que dicen nuestros clientes."
+                    },
+                    "fr": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Bonne société",
+                        "headline": "Rejoindre des clients satisfaits",
+                        "text": "Des centaines de millions de pages vues pour des milliers de sites sont collectées chaque mois avec Pirsch Analytics — voyez ce que nos clients en disent."
+                    },
+                    "nl": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Goed gezelschap",
+                        "headline": "Word lid van tevreden klanten",
+                        "text": "Honderden miljoenen pageviews voor duizenden sites worden elke maand verzameld met Pirsch Analytics — kijk wat onze klanten te zeggen hebben."
+                    },
+                    "it": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Buona compagnia",
+                        "headline": "Unisciti ai clienti felici",
+                        "text": "Ogni mese Pirsch Analytics raccoglie centinaia di milioni di pagine viste per migliaia di siti — scoprite cosa dicono i nostri clienti."
+                    },
+                    "pt": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "Boa companhia",
+                        "headline": "Junte-se a clientes satisfeitos",
+                        "text": "Centenas de milhões de visualizações de páginas de milhares de sítios são recolhidas todos os meses com o Pirsch Analytics — veja o que os nossos clientes têm a dizer."
+                    },
+                    "ja": {
+                        "nummeration_number": "6",
+                        "nummeration_text": "グッド・カンパニー",
+                        "headline": "ハッピー・カスタマーの仲間入り",
+                        "text": "Pirsch Analyticsでは、毎月何千ものサイトの何億ものページビューが収集されています。"
                     }
                 },
                 "content": {
@@ -594,7 +1362,7 @@
                                                         "name": "Rishi Mohan",
                                                         "picture": "rishimohan.jpg",
                                                         "website_label": "kizie.co",
-                                                        "text": "In my week’s usage of Pirsch on Kizie, I feel one of the best things about Pirsch is how well it displays the data I need to see with all the filters. You can setup custom events and goals too."
+                                                        "text": "In my week's usage of Pirsch on Kizie, I feel one of the best things about Pirsch is how well it displays the data I need to see with all the filters. You can setup custom events and goals too."
                                                     },
                                                     {
                                                         "name": "Leander Lenzing",

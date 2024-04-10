@@ -99,6 +99,699 @@
             "start_free_trial": "Start Your Free Trial",
             "request_quote": "Request a Quote",
             "disclaimer": "Available payment methods are credit card, PayPal or SEPA direct debit (EUR only). All prices are exclusive of any applicable sales taxes such as VAT. Custom events and 10% of events for session extensions count towards your monthly page view limit."
+        },
+        "de": {
+            "headline": "Einfache Preisgestaltung",
+            "text": "Entdecke die Vorteile von Pirsch Analytics mit einer 30-tägigen kostenlosen Testversion – keine Kreditkarte nötig. Melde dich an und erhalte Zugang zu leistungsstarken Tools ohne Verpflichtungen.",
+            "monthly_page_views": "Monatliche Seitenaufrufe",
+            "monthly": "Monatlich",
+            "annually": "Jährlich",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "best_value": "Bestes Angebot",
+            "month": "Monat",
+            "year": "Jahr",
+            "you_save": "Du sparst",
+            "per_year": "pro Jahr",
+            "custom": "Individuell",
+            "standard_features": [
+                {
+                    "label": "50 Websites"
+                },
+                {
+                    "label": "Unbegrenzte Mitglieder"
+                },
+                {
+                    "label": "Unbegrenzte Datenspeicherung"
+                },
+                {
+                    "label": "DSGVO-konform"
+                },
+                {
+                    "label": "100% Datenbesitz"
+                },
+                {
+                    "label": "Ereignisse & Konversionsziele"
+                },
+                {
+                    "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "Google Analytics Import"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Alles in Standard, und:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Unbegrenzte Websites"
+                },
+                {
+                    "label": "Organisationen"
+                },
+                {
+                    "label": "A/B-Tests & Segmentierung"
+                },
+                {
+                    "label": "Eigene Domains"
+                },
+                {
+                    "label": "Eigene Themes"
+                },
+                {
+                    "label": "Umfangreiches White Labeling"
+                },
+                {
+                    "label": "Priorisierter Support"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Alles in Plus, und:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Gemanagtes Cloud-Setup"
+                },
+                {
+                    "label": "Vor-Ort-Installation"
+                },
+                {
+                    "label": "SAML-basiertes Single Sign-On"
+                },
+                {
+                    "label": "Persönliches Onboarding"
+                },
+                {
+                    "label": "Online-Nutzerschulung"
+                },
+                {
+                    "label": "Angepasste Funktionen"
+                },
+                {
+                    "label": "Dedizierter Support"
+                }
+            ],
+            "start_free_trial": "Kostenlos testen",
+            "request_quote": "Angebot anfordern",
+            "disclaimer": "Verfügbare Zahlungsmethoden sind Kreditkarte, PayPal oder SEPA-Lastschrift (nur EUR). Alle Preise sind ohne anwendbare Umsatzsteuern wie MwSt. Angepasste Ereignisse und 10% der Ereignisse für Sitzungserweiterungen zählen zu Ihrem monatlichen Seitenaufruflimit."
+        },
+        "es": {
+            "headline": "Precios Simples",
+            "text": "Descubre las ventajas de Pirsch Analytics con una prueba gratuita de 30 días — no se necesita tarjeta de crédito. Regístrate y obtén acceso a herramientas poderosas sin ningún compromiso.",
+            "monthly_page_views": "Vistas de Página Mensuales",
+            "monthly": "Mensual",
+            "annually": "Anual",
+            "standard": "Estándar",
+            "plus": "Plus",
+            "enterprise": "Empresa",
+            "best_value": "Mejor Valor",
+            "month": "mes",
+            "year": "año",
+            "you_save": "Ahorras",
+            "per_year": "por año",
+            "custom": "Personalizado",
+            "standard_features": [
+                {
+                    "label": "50 Sitios Web"
+                },
+                {
+                    "label": "Miembros Ilimitados"
+                },
+                {
+                    "label": "Retención de Datos Ilimitada"
+                },
+                {
+                    "label": "Cumplimiento del GDPR"
+                },
+                {
+                    "label": "100% Propiedad de Datos"
+                },
+                {
+                    "label": "Eventos y Metas de Conversión"
+                },
+                {
+                    "label": "API RESTful y SDKs"
+                },
+                {
+                    "label": "Importación de Google Analytics"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Todo en Estándar, y:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Sitios Web Ilimitados"
+                },
+                {
+                    "label": "Organizaciones"
+                },
+                {
+                    "label": "Pruebas A/B y Segmentación"
+                },
+                {
+                    "label": "Dominios Personalizados"
+                },
+                {
+                    "label": "Temas Personalizados"
+                },
+                {
+                    "label": "Amplio White Labeling"
+                },
+                {
+                    "label": "Soporte Prioritario"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Todo en Plus, y:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Configuración de Nube Gestionada"
+                },
+                {
+                    "label": "Instalación Local"
+                },
+                {
+                    "label": "Inicio de Sesión Único basado en SAML"
+                },
+                {
+                    "label": "Onboarding Personal"
+                },
+                {
+                    "label": "Formación de Usuarios en Línea"
+                },
+                {
+                    "label": "Funciones Personalizadas"
+                },
+                {
+                    "label": "Soporte Dedicado"
+                }
+            ],
+            "start_free_trial": "Inicia tu prueba gratuita",
+            "request_quote": "Solicitar una cotización",
+            "disclaimer": "Los métodos de pago disponibles son tarjeta de crédito, PayPal o débito directo SEPA (solo EUR). Todos los precios son sin impuestos de venta aplicables como el IVA. Los eventos personalizados y el 10% de los eventos para extensiones de sesión cuentan hacia tu límite mensual de vistas de página."
+        },
+        "fr": {
+            "headline": "Tarification Simple",
+            "text": "Découvrez les avantages de Pirsch Analytics avec un essai gratuit de 30 jours — aucune carte de crédit nécessaire. Inscrivez-vous et accédez à des outils puissants sans aucun engagement.",
+            "monthly_page_views": "Vues de Page Mensuelles",
+            "monthly": "Mensuel",
+            "annually": "Annuel",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Entreprise",
+            "best_value": "Meilleure Offre",
+            "month": "mois",
+            "year": "année",
+            "you_save": "Vous économisez",
+            "per_year": "par an",
+            "custom": "Personnalisé",
+            "standard_features": [
+                {
+                    "label": "50 Sites Web"
+                },
+                {
+                    "label": "Membres Illimités"
+                },
+                {
+                    "label": "Conservation des Données Illimitée"
+                },
+                {
+                    "label": "Conformité au RGPD"
+                },
+                {
+                    "label": "100% Propriété des Données"
+                },
+                {
+                    "label": "Événements & Objectifs de Conversion"
+                },
+                {
+                    "label": "API RESTful & SDKs"
+                },
+                {
+                    "label": "Importation de Google Analytics"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Tout dans Standard, et:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Sites Web Illimités"
+                },
+                {
+                    "label": "Organisations"
+                },
+                {
+                    "label": "Tests A/B et Segmentation"
+                },
+                {
+                    "label": "Noms de Domaine Personnalisés"
+                },
+                {
+                    "label": "Thèmes Personnalisés"
+                },
+                {
+                    "label": "Étiquetage Blanc Étendu"
+                },
+                {
+                    "label": "Support Prioritaire"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Tout dans Plus, et:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Installation de Cloud Gérée"
+                },
+                {
+                    "label": "Installation sur Site"
+                },
+                {
+                    "label": "Authentification Unique basée sur SAML"
+                },
+                {
+                    "label": "Intégration Personnelle"
+                },
+                {
+                    "label": "Formation des Utilisateurs en Ligne"
+                },
+                {
+                    "label": "Fonctionnalités Personnalisées"
+                },
+                {
+                    "label": "Support Dédié"
+                }
+            ],
+            "start_free_trial": "Commencez votre essai gratuit",
+            "request_quote": "Demander un devis",
+            "disclaimer": "Les modes de paiement disponibles sont la carte de crédit, PayPal ou le prélèvement SEPA (en euros uniquement). Tous les prix s'entendent hors taxes de vente applicables telles que la TVA. Les événements personnalisés et 10 % des événements pour les extensions de session sont pris en compte dans votre limite mensuelle de pages vues."
+        },
+        "nl": {
+            "headline": "Eenvoudige Prijzen",
+            "text": "Ontdek de voordelen van Pirsch Analytics met een gratis proefperiode van 30 dagen — geen creditcard nodig. Schrijf je in en krijg toegang tot krachtige tools zonder enige verplichting.",
+            "monthly_page_views": "Maandelijkse Paginaweergaven",
+            "monthly": "Maandelijks",
+            "annually": "Jaarlijks",
+            "standard": "Standaard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "best_value": "Beste Waarde",
+            "month": "maand",
+            "year": "jaar",
+            "you_save": "Je bespaart",
+            "per_year": "per jaar",
+            "custom": "Aangepast",
+            "standard_features": [
+                {
+                    "label": "50 Websites"
+                },
+                {
+                    "label": "Onbeperkt Leden"
+                },
+                {
+                    "label": "Onbeperkte Gegevensbehoud"
+                },
+                {
+                    "label": "GDPR-naleving"
+                },
+                {
+                    "label": "100% Gegevenseigendom"
+                },
+                {
+                    "label": "Evenementen & Conversiedoelen"
+                },
+                {
+                    "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "Google Analytics Importeren"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Alles in Standaard, en:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Onbeperkt Websites"
+                },
+                {
+                    "label": "Organisaties"
+                },
+                {
+                    "label": "A/B Testen & Segmentatie"
+                },
+                {
+                    "label": "Aangepaste Domeinen"
+                },
+                {
+                    "label": "Aangepaste Thema's"
+                },
+                {
+                    "label": "Uitgebreide White Labeling"
+                },
+                {
+                    "label": "Voorrangsondersteuning"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Alles in Plus, en:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Beheerde Cloudopstelling"
+                },
+                {
+                    "label": "Installatie op Locatie"
+                },
+                {
+                    "label": "SAML-gebaseerde Single Sign-On"
+                },
+                {
+                    "label": "Persoonlijke Onboarding"
+                },
+                {
+                    "label": "Online Gebruikerstraining"
+                },
+                {
+                    "label": "Aangepaste Functies"
+                },
+                {
+                    "label": "Toegewijde Ondersteuning"
+                }
+            ],
+            "start_free_trial": "Start uw gratis proefperiode",
+            "request_quote": "Vraag een offerte aan",
+            "disclaimer": "Beschikbare betaalmethoden zijn creditcard, PayPal of SEPA-incasso (alleen EUR). Alle prijzen zijn exclusief eventueel van toepassing zijnde verkoopbelasting zoals BTW. Aangepaste evenementen en 10% van de evenementen voor sessie-uitbreidingen tellen mee voor uw maandelijkse paginaweergavelimiet."
+        },
+        "it": {
+            "headline": "Prezzi Semplici",
+            "text": "Scopri i vantaggi di Pirsch Analytics con una prova gratuita di 30 giorni — nessuna carta di credito necessaria. Iscriviti e ottieni accesso a strumenti potenti senza alcun impegno.",
+            "monthly_page_views": "Visualizzazioni Mensili della Pagina",
+            "monthly": "Mensile",
+            "annually": "Annuale",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "best_value": "Miglior Valore",
+            "month": "mese",
+            "year": "anno",
+            "you_save": "Risparmi",
+            "per_year": "all'anno",
+            "custom": "Personalizzato",
+            "standard_features": [
+                {
+                    "label": "50 Siti Web"
+                },
+                {
+                    "label": "Membri Illimitati"
+                },
+                {
+                    "label": "Conservazione Dati Illimitata"
+                },
+                {
+                    "label": "Conformità GDPR"
+                },
+                {
+                    "label": "100% Proprietà dei Dati"
+                },
+                {
+                    "label": "Eventi & Obiettivi di Conversione"
+                },
+                {
+                    "label": "API RESTful & SDK"
+                },
+                {
+                    "label": "Importazione Google Analytics"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Tutto in Standard, e:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Siti Web Illimitati"
+                },
+                {
+                    "label": "Organizzazioni"
+                },
+                {
+                    "label": "Test A/B & Segmentazione"
+                },
+                {
+                    "label": "Domini Personalizzati"
+                },
+                {
+                    "label": "Temi Personalizzati"
+                },
+                {
+                    "label": "White Labeling Esteso"
+                },
+                {
+                    "label": "Supporto Prioritario"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Tutto in Plus, e:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Configurazione Cloud Gestita"
+                },
+                {
+                    "label": "Installazione On-premise"
+                },
+                {
+                    "label": "Single Sign-On basato su SAML"
+                },
+                {
+                    "label": "Onboarding Personale"
+                },
+                {
+                    "label": "Formazione Utenti Online"
+                },
+                {
+                    "label": "Funzionalità Personalizzate"
+                },
+                {
+                    "label": "Supporto Dedicato"
+                }
+            ],
+            "start_free_trial": "Inizia la tua prova gratuita",
+            "request_quote": "Richiedi un preventivo",
+            "disclaimer": "I metodi di pagamento disponibili sono carta di credito, PayPal o addebito diretto SEPA (solo EUR). Tutti i prezzi sono esclusivi di eventuali tasse di vendita applicabili come l'IVA. Gli eventi personalizzati e il 10% degli eventi per le estensioni di sessione contano verso il tuo limite mensile di visualizzazioni di pagina."
+        },
+        "pt": {
+            "headline": "Preços Simples",
+            "text": "Descubra as vantagens do Pirsch Analytics com um teste gratuito de 30 dias — sem necessidade de cartão de crédito. Inscreva-se e ganhe acesso a ferramentas poderosas sem qualquer compromisso.",
+            "monthly_page_views": "Visualizações Mensais de Página",
+            "monthly": "Mensal",
+            "annually": "Anual",
+            "standard": "Padrão",
+            "plus": "Plus",
+            "enterprise": "Empresarial",
+            "best_value": "Melhor Valor",
+            "month": "mês",
+            "year": "ano",
+            "you_save": "Você economiza",
+            "per_year": "por ano",
+            "custom": "Personalizado",
+            "standard_features": [
+                {
+                    "label": "50 Sites"
+                },
+                {
+                    "label": "Membros Ilimitados"
+                },
+                {
+                    "label": "Retenção de Dados Ilimitada"
+                },
+                {
+                    "label": "Conformidade com o GDPR"
+                },
+                {
+                    "label": "100% de Propriedade dos Dados"
+                },
+                {
+                    "label": "Eventos & Metas de Conversão"
+                },
+                {
+                    "label": "API RESTful & SDKs"
+                },
+                {
+                    "label": "Importação do Google Analytics"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "Tudo em Padrão, e:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Sites Ilimitados"
+                },
+                {
+                    "label": "Organizações"
+                },
+                {
+                    "label": "Testes A/B & Segmentação"
+                },
+                {
+                    "label": "Domínios Personalizados"
+                },
+                {
+                    "label": "Temas Personalizados"
+                },
+                {
+                    "label": "White Labeling Extensivo"
+                },
+                {
+                    "label": "Suporte Prioritário"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "Tudo em Plus, e:",
+                    "class": "strong"
+                },
+                {
+                    "label": "Configuração de Nuvem Gerenciada"
+                },
+                {
+                    "label": "Instalação On-premise"
+                },
+                {
+                    "label": "Single Sign-On baseado em SAML"
+                },
+                {
+                    "label": "Onboarding Pessoal"
+                },
+                {
+                    "label": "Treinamento de Usuários Online"
+                },
+                {
+                    "label": "Funcionalidades Personalizadas"
+                },
+                {
+                    "label": "Suporte Dedicado"
+                }
+            ],
+            "start_free_trial": "Inicie seu teste gratuito",
+            "request_quote": "Solicite um orçamento",
+            "disclaimer": "Os métodos de pagamento disponíveis são cartão de crédito, PayPal ou débito direto SEPA (somente EUR). Todos os preços são exclusivos de quaisquer impostos de venda aplicáveis como o IVA. Eventos personalizados e 10% dos eventos para extensões de sessão contam para o seu limite mensal de visualizações de página."
+        },
+        "ja": {
+            "headline": "シンプルな価格設定",
+            "text": "30日間の無料トライアルでPirsch Analyticsの利点を発見してください — クレジットカードは不要です。サインアップして、何のコミットメントもなく強力なツールにアクセスしましょう。",
+            "monthly_page_views": "月間ページビュー",
+            "monthly": "月額",
+            "annually": "年額",
+            "standard": "スタンダード",
+            "plus": "プラス",
+            "enterprise": "エンタープライズ",
+            "best_value": "最良の価値",
+            "month": "月",
+            "year": "年",
+            "you_save": "節約できる額",
+            "per_year": "年間",
+            "custom": "カスタム",
+            "standard_features": [
+                {
+                    "label": "50ウェブサイト"
+                },
+                {
+                    "label": "無制限のメンバー"
+                },
+                {
+                    "label": "無制限のデータ保持"
+                },
+                {
+                    "label": "GDPR準拠"
+                },
+                {
+                    "label": "データの100%所有権"
+                },
+                {
+                    "label": "イベント＆コンバージョン目標"
+                },
+                {
+                    "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "Google Analyticsのインポート"
+                }
+            ],
+            "plus_features": [
+                {
+                    "label": "スタンダードのすべてに加えて:",
+                    "class": "strong"
+                },
+                {
+                    "label": "無制限のウェブサイト"
+                },
+                {
+                    "label": "組織"
+                },
+                {
+                    "label": "A/Bテスト＆セグメンテーション"
+                },
+                {
+                    "label": "カスタムドメイン"
+                },
+                {
+                    "label": "カスタムテーマ"
+                },
+                {
+                    "label": "広範なホワイトラベリング"
+                },
+                {
+                    "label": "優先サポート"
+                }
+            ],
+            "enterprise_features": [
+                {
+                    "label": "プラスのすべてに加えて:",
+                    "class": "strong"
+                },
+                {
+                    "label": "管理されたクラウドセットアップ"
+                },
+                {
+                    "label": "オンプレミスインストール"
+                },
+                {
+                    "label": "SAMLベースのシングルサインオン"
+                },
+                {
+                    "label": "パーソナルオンボーディング"
+                },
+                {
+                    "label": "オンラインユーザートレーニング"
+                },
+                {
+                    "label": "カスタム機能"
+                },
+                {
+                    "label": "専用サポート"
+                }
+            ],
+            "start_free_trial": "無料トライアルを開始",
+            "request_quote": "見積もりを依頼",
+            "disclaimer": "利用可能な支払い方法はクレジットカード、PayPal、またはSEPAダイレクトデビット（EURのみ）です。すべての価格は適用される販売税（VATなど）を除いています。カスタムイベントとセッション拡張のためのイベントの10％は、あなたの月間ページビューリミットにカウントされます。"
         }
     }
 }

@@ -1,3 +1,37 @@
 {
-    "tpl": "head"
+    "tpl": "head",
+    "copy": {
+        "en": {
+            "title": "Pirsch – Cookie-free and Privacy-friendly Web Analytics",
+            "meta_description": "Pirsch is a powerful, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or app."
+        },
+        "de": {
+            "title": "Pirsch – Cookie-freie und datenschutzfreundliche Web Analytics",
+            "meta_description": "Pirsch ist eine leistungsstarke, datenschutzfreundliche Open-Source-Alternative zu Google Analytics – leichtgewichtig, ohne Cookies und einfach in jede Website oder App zu integrieren."
+        },
+        "es": {
+            "title": "Pirsch – Analítica web sin cookies y respetuosa con la privacidad",
+            "meta_description": "Pirsch es una potente alternativa de código abierto a Google Analytics, respetuosa con la privacidad, ligera, sin cookies y fácil de integrar en cualquier sitio web o aplicación."
+        },
+        "fr": {
+            "title": "Pirsch – Analyse Web sans cookie et respectueuse de la vie privée",
+            "meta_description": "Pirsch est une alternative puissante, respectueuse de la vie privée et open-source à Google Analytics – légère, sans cookie et facilement intégrable dans n'importe quel site web ou application."
+        },
+        "nl": {
+            "title": "Pirsch – Cookie-vrije en privacy-vriendelijke Web Analytics",
+            "meta_description": "Pirsch is een krachtig, privacy-vriendelijk, open-source alternatief voor Google Analytics – lichtgewicht, cookie-vrij en eenvoudig te integreren in elke website of app."
+        },
+        "it": {
+            "title": "Pirsch – Analitica web senza cookie e rispettosa della privacy",
+            "meta_description": "Pirsch è un'alternativa potente, rispettosa della privacy e open-source a Google Analytics, leggera, priva di cookie e facilmente integrabile in qualsiasi sito web o app."
+        },
+        "pt": {
+            "title": "Pirsch – Análise da Web sem cookies e amiga da privacidade",
+            "meta_description": "O Pirsch é uma alternativa de código aberto poderosa e amiga da privacidade ao Google Analytics – leve, sem cookies e facilmente integrada em qualquer sítio Web ou aplicação."
+        },
+        "ja": {
+            "title": "Pirsch – クッキーフリーでプライバシーに配慮したウェブ解析",
+            "meta_description": "Pirschは、Google Analyticsに代わる、強力でプライバシーに配慮したオープンソースで、軽量、クッキーフリーで、あらゆるウェブサイトやバックエンドに簡単に統合できます。"
+        }
+    }
 }

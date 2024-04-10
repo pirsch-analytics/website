@@ -7,7 +7,7 @@
         "nl": "/nl/utm-generator",
         "it": "/it/utm-generator",
         "pt": "/pt/utm-generator",
-        "jp": "/jp/utm-generator"
+        "ja": "/ja/utm-generator"
     },
     "sitemap": {
         "priority": "0.5"
