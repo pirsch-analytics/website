@@ -1,83 +1,105 @@
 {{$signup := get .Content "sign_up"}}
 
-<section>
-    <small>{{copy .Page .Content "got_account"}}</small>
-    <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/login">{{copy .Page .Content "login"}}</a>
-</section>
-<section>
-    <div>
+<header id="header" class="no-select">
+    <div class="header-content" style="justify-content: space-between; align-items: center; flex-direction: row;">
+        <a href="/" id="headerLogoLink" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 26 38"><path d="M1 24c6.627 0 12-5.373 12-12S7.627 0 1 0v24zm24-10c-6.627 0-12 5.373-12 12s5.373 12 12 12V14z"></path><circle cx="21" cy="6" r="5"></circle><circle cx="5" cy="32" r="5"></circle></svg>
+            <span>Pirsch</span>
+        </a>
+        <div class="show-mobile" style="display: flex; align-items: center; gap: 12px;">
+            <small class="show-desktop" style="font-size: 16px;">{{copy .Page .Content "got_account"}}</small>
+            <a href="/login" class="button small" style="border-radius: 6px;">{{copy .Page .Content "login"}}</a>
+        </div>
+    </div>
+</header>
+<section class="form">
+    <div class="section-content">
+        <div class="gradient-container" style="top: calc(var(--padding-extra-large) * -1);">
+            <div class="gradient green"></div>
+        </div>
         {{if $signup.HCaptchaSiteKey}}
-            <h1>
-                {{if $signup.SignedUp}}
-                    {{copy .Page .Content "title_signed_up"}}
-                {{else}}
-                    {{copy .Page .Content "title_free_trial"}}
-                {{end}}
-            </h1>
-
-            {{if $signup.SignedUp}}
-                <p>
-                    <strong>{{copy .Page .Content "success"}}</strong>
-                </p>
-
-                {{if $signup.EmailResendError}}
-                    <p style="margin-top: 24px">{{copy .Page .Content "registration_email_error"}}</p>
-                {{else}}
-                    {{if $signup.EmailResend}}
-                        <p style="margin-top: 24px">{{copy .Page .Content "registration_email_resent"}}</p>
+            <div>
+                <h1 class="h3">
+                    {{if $signup.SignedUp}}
+                        {{copy .Page .Content "title_signed_up"}}
                     {{else}}
-                        <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/signup?resend={{$signup.Email}}" style="margin-top: 24px">
-                            {{copy .Page .Content "resend_registration_email"}}
-                        </a>
+                        {{copy .Page .Content "title_free_trial"}}
                     {{end}}
-                {{end}}
-            {{else}}
-                <small>{{copy .Page .Content "text"}}</small>
-            {{end}}
-
-            <ul>
-                <li>
-                    {{if not $signup.SignedUp}}
-                        {{range $e := error $signup.APIResponse}}
-                            <small>{{$e}}</small>
+                </h1>
+                {{if $signup.SignedUp}}
+                    <p>
+                        <strong style="color: var(--green)">{{copy .Page .Content "success"}}</strong>
+                    </p>
+                    {{if $signup.EmailResendError}}
+                        <p>{{copy .Page .Content "registration_email_error"}}</p>
+                    {{else}}
+                        {{if $signup.EmailResend}}
+                            <p>{{copy .Page .Content "registration_email_resent"}}</p>
+                        {{else}}
+                            <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/signup?resend={{$signup.Email}}" style="margin-top: 12px">
+                                {{copy .Page .Content "resend_registration_email"}}
+                            </a>
                         {{end}}
-
-                        <form method="post">
-                            {{if $signup.Error}}
-                                <small>{{$signup.Error}}</small>
-                            {{end}}
-
-                            <fieldset>
-                                <input type="email" id="email" name="email" autocomplete="email" value="{{$signup.Email}}" placeholder=" " required autofocus />
-                                <label for="email">{{copy .Page .Content "email_address"}}</label>
-                                <small>{{validation $signup.APIResponse "email"}}</small>
-                            </fieldset>
-                            <div class="h-captcha" data-sitekey="{{$signup.HCaptchaSiteKey}}" data-theme="dark" style="display: flex; justify-content: center; margin-bottom: 12px;"></div>
-                            <button type="submit">{{copy .Page .Content "continue"}}</button>
-                        </form>
-                        <small>{{html (copy .Page .Content "terms")}}</small>
                     {{end}}
-                </li>
-
-                {{if not $signup.SignedUp}}
-                    <li>
-                        <ul>
-                            <li>
-                                <span>{{copy .Page .Content "insights"}}</span>
-                            </li>
-                            <li>
-                                <span>{{copy .Page .Content "conversions"}}</span>
-                            </li>
-                            <li>
-                                <span>{{copy .Page .Content "data"}}</span>
-                            </li>
-                        </ul>
-                    </li>
+            </div>
+                {{else}}
+                <p>{{copy .Page .Content "text"}}</p>
+            </div>
                 {{end}}
-            </ul>
+            {{if not $signup.SignedUp}}
+                {{range $e := error $signup.APIResponse}}
+                    <small>{{$e}}</small>
+                {{end}}
+                <form method="post">
+                    {{if $signup.Error}}
+                        <small>{{$signup.Error}}</small>
+                    {{end}}
+                    <fieldset>
+                        <input type="email" id="email" name="email" autocomplete="email" value="{{$signup.Email}}" placeholder=" " required autofocus />
+                        <label for="email">{{copy .Page .Content "email_address"}}</label>
+                        {{if validation $signup.APIResponse "email"}}
+                            <small>{{validation $signup.APIResponse "email"}}</small>
+                        {{end}}
+                    </fieldset>
+                    <div class="h-captcha-container">
+                        <div class="h-captcha" data-sitekey="{{$signup.HCaptchaSiteKey}}" data-theme="dark"></div>
+                    </div>
+                    <button type="submit">{{copy .Page .Content "continue"}}</button>
+                    <small>{{html (copy .Page .Content "terms")}}</small>
+                </form>
+                <h2 class="h4" style="margin: 24px 0 -8px;">{{html (copy .Page .Content "join")}}</h2>
+                <div class="marquee" style="max-width: 512px; opacity: .65;">
+                    <div class="marquee-content">
+                        <div style="padding: 0 12px;">
+                            <img src="../static/img/globalx.png" title="Global X" alt="Global X" style="min-width: 158px; height: 36px; max-height: 36px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/maglr.png" title="Maglr" alt="Maglr" style="min-width: 79px; height: 30px; max-height: 30px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/superblog.png" title="Superblog" alt="Superblog" style="min-width: 149px; height: 36px; max-height: 36px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/stillalive.png" title="Stillalive Studios" alt="Stillalive Studios" style="min-width: 140px; height: 34px; max-height: 34px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/toffolo.png" title="Toffolo" alt="Toffolo" style="min-width: 75px; height: 30px; max-height: 30px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/studiolenzing.png" title="Studio Lenzing" alt="Studio Lenzing" style="min-width: 226px; height: 20px; max-height: 20px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/senja.png" title="Senja" alt="Senja" style="min-width: 110px; height: 28px; max-height: 28px;">
+                        </div>
+                        <div style="padding: 0 12px">
+                            <img src="../static/img/spectate.png" title="Spectate" alt="Spectate" style="min-width: 114px; height: 24px; max-height: 24px;">
+                        </div>
+                    </div>
+                </div>
+            {{end}}
         {{else}}
-            <h1>Sign Up Disabled</h1>
-            <small>The sign up is disabled.</small>
+            <h1 class="h3">Signup Disabled</h1>
+            <p>The sign up is currently disabled.</p>
             <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/login">{{copy .Page .Content "login"}}</a>
         {{end}}
     </div>

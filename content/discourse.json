@@ -22,10 +22,28 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "Sign In to Discourse"
+                        "title": "Log in to Discourse"
                     },
                     "de": {
                         "title": "Bei Discourse anmelden"
+                    },
+                    "es": {
+                        "title": "Iniciar sesión en Discourse"
+                    },
+                    "fr": {
+                        "title": "Se connecter à Discourse"
+                    },
+                    "nl": {
+                        "title": "Aanmelden bij Discourse"
+                    },
+                    "it": {
+                        "title": "Accedi a Discourse"
+                    },
+                    "pt": {
+                        "title": "Iniciar sessão no Discourse"
+                    },
+                    "ja": {
+                        "title": "ディスコースにログイン"
                     }
                 }
             },
@@ -33,7 +51,7 @@
                 "tpl": "discourse",
                 "copy": {
                     "en": {
-                        "headline": "Log In",
+                        "headline": "Log in to Discourse",
                         "email_address": "Email Address",
                         "password": "Password",
                         "login": "Log In",
@@ -42,7 +60,7 @@
                         "to_forum": "Back to Discourse"
                     },
                     "de": {
-                        "title": "Anmelden",
+                        "headline": "Bei Discourse anmelden",
                         "email_address": "Email-Adresse",
                         "password": "Passwort",
                         "login": "Anmelden",
@@ -51,7 +69,7 @@
                         "to_forum": "Zurück zu Discourse"
                     },
                     "es": {
-                        "title": "Iniciar sesión",
+                        "headline": "Iniciar sesión en Discourse",
                         "email_address": "Dirección de correo electrónico",
                         "password": "Contraseña",
                         "login": "Iniciar sesión",
@@ -60,7 +78,7 @@
                         "to_forum": "Volver a Discourse"
                     },
                     "fr": {
-                        "title": "Connexion",
+                        "headline": "Se connecter à Discourse",
                         "email_address": "Adresse e-mail",
                         "password": "Mot de passe",
                         "login": "Connexion",
@@ -69,7 +87,7 @@
                         "to_forum": "Retour à Discourse"
                     },
                     "nl": {
-                        "title": "Log In",
+                        "headline": "Aanmelden bij Discourse",
                         "email_address": "E-mailadres",
                         "password": "Wachtwoord",
                         "login": "Inloggen",
@@ -78,7 +96,7 @@
                         "to_forum": "Terug naar Discourse"
                     },
                     "it": {
-                        "title": "Accedi",
+                        "headline": "Accedi a Discourse",
                         "email_address": "Indirizzo email",
                         "password": "Password",
                         "login": "Accedi",
@@ -87,7 +105,7 @@
                         "to_forum": "Torna a Discourse"
                     },
                     "pt": {
-                        "title": "Entrar",
+                        "headline": "Iniciar sessão no Discourse",
                         "email_address": "Endereço de e-mail",
                         "password": "Senha",
                         "login": "Entrar",
@@ -96,7 +114,7 @@
                         "to_forum": "Voltar para o Discourse"
                     },
                     "ja": {
-                        "title": "ログイン",
+                        "headline": "ディスコースにログイン",
                         "email_address": "メールアドレス",
                         "password": "パスワード",
                         "login": "ログイン",

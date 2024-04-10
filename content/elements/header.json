@@ -78,14 +78,18 @@
                 },
                 {
                     "label": "Log In",
-                    "href": "/login"
+                    "href": "/login",
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Try It for Free",
                     "href": "/signup",
-                    "class": "button small"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "de": {
             "label1": "Produkt",

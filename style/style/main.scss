@@ -108,6 +108,13 @@ h4, .h4 {
     letter-spacing: 0;
 }
 
+h5, .h5 {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
 p, .p {
     color: var(--color-secondary);
     font-size: 18px;
@@ -266,6 +273,7 @@ hr {
 @import "faq";
 @import "features";
 @import "footer";
+@import "form";
 @import "gradient";
 @import "grid";
 @import "header";

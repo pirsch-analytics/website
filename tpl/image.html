@@ -1,1 +1,1 @@
-<img src="../static/img/{{html (get .Content "src")}}" title="{{html (get .Content "alt")}}" alt="{{html (get .Content "alt")}}" class="{{html (get .Content "class")}}" style="max-width: {{html (get .Content "max_width")}}" loading="lazy">
+<img src='../static/img/{{html (get .Content "src")}}' title='{{html (get .Content "alt")}}' alt='{{html (get .Content "alt")}}' class='{{html (get .Content "class")}}' style='max-width: {{default (get .Content "max_width") "none"}}' loading='lazy'>

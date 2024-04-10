@@ -630,6 +630,1896 @@
                     "class4": "checked"
                 }
             ]
+        },
+        "es": {
+            "headline": "Comparar Todas las Funciones",
+            "text": "Obtén una visión general de lo que está incluido. Hay actualizaciones regulares con nuevas funciones, avísanos si falta algo.",
+            "standard": "Estándar",
+            "plus": "Plus",
+            "enterprise": "Empresa",
+            "get_started": "Comenzar",
+            "contact_us": "Contáctanos",
+            "table": [
+                {
+                    "cell1": "Uso",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Vistas de Página Mensuales",
+                    "cell2": "Variable",
+                    "cell3": "Variable",
+                    "cell4": "Variable"
+                },
+                {
+                    "cell1": "Sitios Web",
+                    "cell2": "50",
+                    "cell3": "Ilimitados",
+                    "cell4": "Ilimitados"
+                },
+                {
+                    "cell1": "Miembros",
+                    "cell2": "Ilimitados",
+                    "cell3": "Ilimitados",
+                    "cell4": "Ilimitados"
+                },
+                {
+                    "cell1": "Retención de Datos",
+                    "cell2": "Ilimitada",
+                    "cell3": "Ilimitada",
+                    "cell4": "Ilimitada"
+                },
+                {
+                    "cell1": "Tablero de Control",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Filtros Poderosos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Comparación de Períodos de Tiempo",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Filtros Guardables (Vistas)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Análisis de Sesiones",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Eventos Personalizados",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Metas de Conversión",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Enlaces Salientes",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Descargas de Archivos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Páginas 404",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Informes de Correo Electrónico Automáticos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin de Google Search Console",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Pistas del Cliente",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Pruebas A/B",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentación",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Métricas de Eventos Personalizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimiento de Ingresos de E-commerce",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integración",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Integración de Sitios Web",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integración del Lado del Servidor",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "API RESTful & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Webhooks Nativos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Proxies de Scripts",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin de WordPress",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Soporte Comunitario",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Acceso",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Tableros Públicos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Enlaces de Acceso Únicos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Roles de Miembros",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organizaciones",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Single Sign-On Basado en SAML",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Personalización",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Dominios Personalizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Temas Personalizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Logos Personalizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Etiquetado Blanco Extensivo",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Datos",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cumplimiento de GDPR",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% Propiedad de Datos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importación de Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importación de Fathom Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Exportación CSV",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Alojamiento",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Alemania)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "En las Instalaciones (Autoalojado)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Cloud Personalizado (Gestionado)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Soporte",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Soporte por Email",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Soporte Prioritario",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Soporte Dedicado",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Onboarding Personal",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Formación de Usuarios en Línea",
+                    "class4": "checked"
+                }
+            ]
+        },
+        "fr": {
+            "headline": "Comparer Toutes les Fonctionnalités",
+            "text": "Obtenez un aperçu de ce qui est inclus. Il y a des mises à jour régulières avec de nouvelles fonctionnalités, faites-nous savoir si quelque chose vous manque.",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Entreprise",
+            "get_started": "Commencer",
+            "contact_us": "Contactez-nous",
+            "table": [
+                {
+                    "cell1": "Utilisation",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Vues de Page Mensuelles",
+                    "cell2": "Variable",
+                    "cell3": "Variable",
+                    "cell4": "Variable"
+                },
+                {
+                    "cell1": "Sites Web",
+                    "cell2": "50",
+                    "cell3": "Illimités",
+                    "cell4": "Illimités"
+                },
+                {
+                    "cell1": "Membres",
+                    "cell2": "Illimités",
+                    "cell3": "Illimités",
+                    "cell4": "Illimités"
+                },
+                {
+                    "cell1": "Conservation des Données",
+                    "cell2": "Illimitée",
+                    "cell3": "Illimitée",
+                    "cell4": "Illimitée"
+                },
+                {
+                    "cell1": "Tableau de bord",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Filtres Puissants",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Comparaison de Périodes",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Filtres Sauvegardables (Vues)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Analyse des Sessions",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi d'Événements Personnalisés",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi des Objectifs de Conversion",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi des Liens Sortants",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi des Téléchargements de Fichiers",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi des Pages 404",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Rapports Automatiques par Email",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin Google Search Console",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Indications Clients",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tests A/B",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentation",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Métriques d'Événements Personnalisés",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suivi des Revenus E-commerce",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Intégration",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Intégration de Site Web",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Intégration Côté Serveur",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "API RESTful & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Webhooks Natifs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Proxies de Scripts",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin WordPress",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support Communautaire",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Accès",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Tableaux de Bord Publics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Liens d'Accès Uniques",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Rôles des Membres",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organisations",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Single Sign-On Basé sur SAML",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Personnalisation",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Domaines Personnalisés",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Thèmes Personnalisés",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Logos Personnalisés",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Marquage Blanc Étendu",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Données",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Conformité GDPR",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% Propriété des Données",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importation de Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importation de Fathom Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Export CSV",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Hébergement",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Allemagne)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Sur Site (Auto-hébergé)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Cloud Personnalisé (Géré)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Support par Email",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support Prioritaire",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support Dédié",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Onboarding Personnel",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Formation des Utilisateurs en Ligne",
+                    "class4": "checked"
+                }
+            ]
+        },
+        "nl": {
+            "headline": "Vergelijk Alle Functies",
+            "text": "Krijg een overzicht van wat is inbegrepen. Er zijn regelmatig updates met nieuwe functies, laat het ons weten als je iets mist.",
+            "standard": "Standaard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "get_started": "Beginnen",
+            "contact_us": "Neem Contact Op",
+            "table": [
+                {
+                    "cell1": "Gebruik",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Maandelijkse Paginaweergaven",
+                    "cell2": "Variabel",
+                    "cell3": "Variabel",
+                    "cell4": "Variabel"
+                },
+                {
+                    "cell1": "Websites",
+                    "cell2": "50",
+                    "cell3": "Onbeperkt",
+                    "cell4": "Onbeperkt"
+                },
+                {
+                    "cell1": "Leden",
+                    "cell2": "Onbeperkt",
+                    "cell3": "Onbeperkt",
+                    "cell4": "Onbeperkt"
+                },
+                {
+                    "cell1": "Dataretentie",
+                    "cell2": "Onbeperkt",
+                    "cell3": "Onbeperkt",
+                    "cell4": "Onbeperkt"
+                },
+                {
+                    "cell1": "Dashboard",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Krachtige Filters",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Vergelijking van Tijdsperioden",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Opslaanbare Filters (Weergaven)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Sessieanalyse",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Volgen van Aangepaste Gebeurtenissen",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Volgen van Conversiedoelen",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Volgen van Uitgaande Links",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Volgen van Bestandsdownloads",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "404 Pagina Tracking",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Automatische E-mailrapporten",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Search Console Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Client Hints",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "A/B Testen",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentatie",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Aangepaste Gebeurtenismetriek",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "E-commerce Omzet Tracking",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integratie",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Website Integratie",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Serverzijde Integratie",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "RESTful API & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Native Webhooks",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Script Proxies",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "WordPress Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Community Support",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Toegang",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Openbare Dashboards",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Unieke Toegangslinks",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Ledenrollen",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organisaties",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "SAML-gebaseerd Single Sign-On",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Aanpassing",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Aangepaste Domeinen",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Aangepaste Thema's",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Aangepaste Logo's",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Uitgebreide White Labeling",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Gegevens",
+                    "class": "title"
+                },
+                {
+                    "cell1": "GDPR-naleving",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% Gegevensbezit",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Google Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Fathom Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "CSV Export",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Hosting",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Duitsland)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Op Locatie (Zelfgehost)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Aangepaste Cloud (Beheerd)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Support",
+                    "class": "title"
+                },
+                {
+                    "cell1": "E-mailondersteuning",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Prioritaire Ondersteuning",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Toegewijde Ondersteuning",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Persoonlijke Onboarding",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Online Gebruikerstraining",
+                    "class4": "checked"
+                }
+            ]
+        },
+        "it": {
+            "headline": "Confronta Tutte le Funzionalità",
+            "text": "Ottieni una panoramica di ciò che è incluso. Ci sono aggiornamenti regolari con nuove funzionalità, facci sapere se manca qualcosa.",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
+            "get_started": "Inizia Ora",
+            "contact_us": "Contattaci",
+            "table": [
+                {
+                    "cell1": "Uso",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Visualizzazioni Mensili della Pagina",
+                    "cell2": "Variabile",
+                    "cell3": "Variabile",
+                    "cell4": "Variabile"
+                },
+                {
+                    "cell1": "Siti Web",
+                    "cell2": "50",
+                    "cell3": "Illimitati",
+                    "cell4": "Illimitati"
+                },
+                {
+                    "cell1": "Membri",
+                    "cell2": "Illimitati",
+                    "cell3": "Illimitati",
+                    "cell4": "Illimitati"
+                },
+                {
+                    "cell1": "Conservazione dei Dati",
+                    "cell2": "Illimitata",
+                    "cell3": "Illimitata",
+                    "cell4": "Illimitata"
+                },
+                {
+                    "cell1": "Dashboard",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Filtri Potenti",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Confronto tra Periodi",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Filtri Salvabili (Viste)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Analisi delle Sessioni",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Eventi Personalizzati",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Obiettivi di Conversione",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Link in Uscita",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Download File",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Pagine 404",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Rapporti Email Automatici",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin Google Search Console",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suggerimenti Clienti",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Test A/B",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentazione",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Metriche Eventi Personalizzati",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Tracciamento Entrate E-commerce",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integrazione",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Integrazione Sito Web",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integrazione Lato Server",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "API RESTful & SDK",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Webhooks Nativi",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Proxy degli Script",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin WordPress",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Supporto Comunitario",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Accesso",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Dashboard Pubblici",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Link di Accesso Unici",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Ruoli dei Membri",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organizzazioni",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Single Sign-On Basato su SAML",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Personalizzazione",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Domini Personalizzati",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Temi Personalizzati",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Loghi Personalizzati",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "White Label Esteso",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Dati",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Conformità GDPR",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Proprietà dei Dati al 100%",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importazione Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importazione Fathom Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Esportazione CSV",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Hosting",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Cloud (Germania)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "On-premise (Auto-ospitato)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Cloud Personalizzato (Gestito)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Supporto",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Supporto via Email",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Supporto Prioritario",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Supporto Dedicato",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Onboarding Personale",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Formazione Utenti Online",
+                    "class4": "checked"
+                }
+            ]
+        },
+        "pt": {
+            "headline": "Comparar todas as funcionalidades",
+            "text": "Obtenha uma visão geral do que está incluído. São efectuadas actualizações regulares com novas funcionalidades. Informe-nos se estiver a faltar alguma coisa.",
+            "standard": "Padrão",
+            "plus": "Plus",
+            "enterprise": "Empresa",
+            "get_started": "Começar a trabalhar",
+            "contact_us": "Contactar-nos",
+            "table": [
+                {
+                "cell1": "Utilização",
+                "class": "title"
+                },
+                {
+                    "cell1": "Visualizações mensais de páginas",
+                    "cell2": "Variável",
+                    "cell3": "Variável",
+                    "cell4": "Variável"
+                },
+                {
+                    "cell1": "Sítios Web",
+                    "cell2": "50",
+                    "cell3": "Ilimitado",
+                    "cell4": "Ilimitado"
+                },
+                {
+                    "cell1": "Membros",
+                    "cell2": "Ilimitado",
+                    "cell3": "Ilimitado",
+                    "cell4": "Ilimitado"
+                },
+                {
+                    "cell1": "Conservação de dados",
+                    "cell2": "Ilimitado",
+                    "cell3": "Ilimitado",
+                    "cell4": "Ilimitado"
+                },
+                {
+                    "cell1": "Painel de controlo",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Filtros potentes",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Comparação de períodos de tempo",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Filtros guardáveis (vistas)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Análise da sessão",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Acompanhamento de eventos personalizados",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Seguimento dos objectivos de conversão",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Monitorização de ligações de saída",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Monitorização de transferências de ficheiros",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Monitorização da página 404",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Relatórios automáticos por correio eletrónico",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plug-in da Consola de Pesquisa do Google",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Dicas para clientes",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Teste A/B",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Segmentação",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Métricas personalizadas de eventos",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Acompanhamento das receitas do comércio eletrónico",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integração",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Integração do sítio Web",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integração do lado do servidor",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "API RESTful e SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Webhooks nativos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Proxies de scripts",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plugin do Wordpress",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Apoio comunitário",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Acesso",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Painéis de controlo públicos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Unique Access Links",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Ligações de acesso únicos",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Organizações",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Início de sessão único baseado em SAML",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Customização",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Domínios customizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Temas customizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Logótipos personalizados",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Etiquetagem branca extensiva",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Dados",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Conformidade com o RGPD",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100% de propriedade dos dados",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importação do Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importação do Fathom Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Exportação CSV",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Alojamento",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Nuvem (Alemanha)",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "No local (auto-hospedado)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Nuvem personalizada (gerenciada)",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suporte",
+                    "class": "title"
+                },
+                {
+                    "cell1": "Suporte por correio eletrónico",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suporte prioritário",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Suporte Dedicado",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Integração pessoal",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Formação de utilizadores online",
+                    "class4": "checked"
+                }
+            ]
+        },
+        "ja": {
+            "headline": "すべての機能を比較",
+            "text": "含まれている内容の概要を確認してください。新機能の定期的な更新がありますので、何か不足しているものがあればお知らせください。",
+            "standard": "スタンダード",
+            "plus": "プラス",
+            "enterprise": "エンタープライズ",
+            "get_started": "始める",
+            "contact_us": "お問い合わせ",
+            "table": [
+                {
+                    "cell1": "利用状況",
+                    "class": "title"
+                },
+                {
+                    "cell1": "月間ページビュー",
+                    "cell2": "可変",
+                    "cell3": "可変",
+                    "cell4": "可変"
+                },
+                {
+                    "cell1": "ウェブサイト",
+                    "cell2": "50",
+                    "cell3": "無制限",
+                    "cell4": "無制限"
+                },
+                {
+                    "cell1": "メンバー",
+                    "cell2": "無制限",
+                    "cell3": "無制限",
+                    "cell4": "無制限"
+                },
+                {
+                    "cell1": "データ保持",
+                    "cell2": "無制限",
+                    "cell3": "無制限",
+                    "cell4": "無制限"
+                },
+                {
+                    "cell1": "ダッシュボード",
+                    "class": "title"
+                },
+                {
+                    "cell1": "強力なフィルター",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "期間比較",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "保存可能なフィルター（ビュー）",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "セッション分析",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタムイベント追跡",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "コンバージョンゴール追跡",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "アウトバウンドリンク追跡",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "ファイルダウンロード追跡",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "404ページ追跡",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "自動メールレポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Googleサーチコンソールプラグイン",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "クライアントヒント",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "A/Bテスト",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "セグメンテーション",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタムイベントメトリクス",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Eコマース収益追跡",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "統合",
+                    "class": "title"
+                },
+                {
+                    "cell1": "ウェブサイト統合",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "サーバーサイド統合",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "RESTful API & SDKs",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "ネイティブWebhooks",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "スクリプトプロキシ",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Wordpressプラグイン",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "コミュニティサポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "アクセス",
+                    "class": "title"
+                },
+                {
+                    "cell1": "パブリックダッシュボード",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "ユニークアクセスリンク",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "メンバーロール",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "組織",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "SAMLベースのシングルサインオン",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタマイズ",
+                    "class": "title"
+                },
+                {
+                    "cell1": "カスタムドメイン",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタムテーマ",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタムロゴ",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "広範囲のホワイトラベリング",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "データ",
+                    "class": "title"
+                },
+                {
+                    "cell1": "GDPR準拠",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "100%データ所有権",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Googleアナリティクスインポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Fathomアナリティクスインポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "CSVエクスポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "ホスティング",
+                    "class": "title"
+                },
+                {
+                    "cell1": "クラウド（ドイツ）",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "オンプレミス（セルフホスト）",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "カスタムクラウド（マネージド）",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "サポート",
+                    "class": "title"
+                },
+                {
+                    "cell1": "メールサポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "優先サポート",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "専用サポート",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "個別オンボーディング",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "オンラインユーザートレーニング",
+                    "class4": "checked"
+                }
+            ]
         }
     }
 }

@@ -33,15 +33,15 @@ body {
   line-height: 1.5;
 }
 
-body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+body, h1, h2, h3, h4, h5, p, figure, blockquote, dl, dd {
   margin: 0;
 }
 
-h1, h2, h3, h4, button, input, label {
+h1, h2, h3, h4, h5, button, input, label {
   line-height: 1.25;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   text-wrap: balance;
   font-weight: 500;
 }
@@ -187,6 +187,13 @@ h4, .h4 {
   font-size: 24px;
   line-height: 1.25;
   letter-spacing: 0;
+}
+
+h5, .h5 {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 p, .p {
@@ -1103,6 +1110,54 @@ footer .footer-content ul li img {
   }
 }
 
+section.form {
+  padding-top: var(--padding-extra-large);
+}
+section.form .h3 {
+  max-width: 512px;
+  margin-bottom: 8px;
+  font-size: 28px;
+  text-align: center;
+}
+section.form p {
+  max-width: 512px;
+  font-size: 16px;
+  text-align: center;
+}
+section.form small {
+  text-align: center;
+}
+section.form form {
+  width: 100%;
+  max-width: 320px;
+}
+section.form form button {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+section.form .h-captcha-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 6px;
+  background-color: var(--color-background-elevation);
+}
+section.form .h-captcha-container .h-captcha {
+  position: relative;
+  width: 300px;
+  height: 74px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+section.form .h-captcha-container .h-captcha iframe {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  opacity: 0.9;
+}
+
 .gradient-container {
   z-index: -1;
   position: absolute;
@@ -1789,6 +1844,7 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
 }
 .marquee .marquee-content {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 

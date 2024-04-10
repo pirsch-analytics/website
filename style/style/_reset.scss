@@ -15,15 +15,15 @@ body {
     line-height: 1.5;
 }
 
-body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+body, h1, h2, h3, h4, h5, p, figure, blockquote, dl, dd {
     margin: 0;
 }
 
-h1, h2, h3, h4, button, input, label {
+h1, h2, h3, h4, h5, button, input, label {
     line-height: 1.25;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     text-wrap: balance;
     font-weight: 500;
 }

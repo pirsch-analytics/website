@@ -20,7 +20,56 @@
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
                         "customers_text": "Trusted by 500+ Customers"
-                    }
+                    },
+                    "de": {
+                        "headline": "Die zentrale Analytics-Plattform für Agenturen und Freelancer",
+                        "text": "Pirsch ist ein datenschutzfreundliches Webanalyse-Tool für Agenturen und Freelancer. Es ist eure zentrale Plattform, um Analysen an euer Team und eure Kunden zu kommunizieren.",
+                        "action_primary": "30 Tage kostenlos testen",
+                        "action_secondary": "Live-Demo ansehen",
+                        "customers_text": "Vertraut von über 500 Kunden"
+                      },
+                      "es": {
+                        "headline": "La plataforma de análisis integral para agencias y freelancers",
+                        "text": "Pirsch es una herramienta de analítica web respetuosa con la privacidad diseñada para agencias y freelancers. Es tu plataforma integral para comunicar análisis a tu equipo y clientes.",
+                        "action_primary": "Comienza tu prueba gratuita",
+                        "action_secondary": "Ver demostración en vivo",
+                        "customers_text": "Con la confianza de más de 500 clientes"
+                      },
+                      "fr": {
+                        "headline": "La plateforme d'analyse unique pour les agences et les freelances",
+                        "text": "Pirsch est un outil d'analyse Web respectueux de la vie privée conçu pour les agences et les freelances. C'est votre plateforme unique pour communiquer les analyses à votre équipe et à vos clients.",
+                        "action_primary": "Démarrer votre essai gratuit",
+                        "action_secondary": "Voir la démo en direct",
+                        "customers_text": "Plus de 500 clients lui font confiance"
+                      },
+                      "nl": {
+                        "headline": "Het one-stop analytics platform voor bureaus en freelancers",
+                        "text": "Pirsch is een privacyvriendelijke webanalysetool ontworpen voor bureaus en freelancers. Het is je one-stop platform om analyses te communiceren naar je team en klanten.",
+                        "action_primary": "Start je gratis proefperiode",
+                        "action_secondary": "Live demo bekijken",
+                        "customers_text": "Vertrouwd door meer dan 500 klanten"
+                      },
+                      "it": {
+                        "headline": "La piattaforma di analisi completa per agenzie e freelance",
+                        "text": "Pirsch è uno strumento di analisi web rispettoso della privacy progettato per agenzie e freelance. È la tua piattaforma unica per comunicare le analisi al tuo team e ai tuoi clienti.",
+                        "action_primary": "Avvia la tua prova gratuita",
+                        "action_secondary": "Visualizza la demo live",
+                        "customers_text": "Oltre 500 clienti ci danno fiducia"
+                      },
+                      "pt": {
+                        "headline": "A plataforma de análise completa para agências e freelancers",
+                        "text": "Pirsch é uma ferramenta de análise da web amigável da privacidade, projetada para agências e freelancers. É a sua plataforma completa para comunicar análises à sua equipe e clientes.",
+                        "action_primary": "Comece o seu teste gratuito",
+                        "action_secondary": "Assistir demonstração ao vivo",
+                        "customers_text": "Confiável por mais de 500 clientes"
+                      },
+                      "ja": {
+                        "headline": "エージェンシーとフリーランサー向けのワンストップ分析プラットフォーム",
+                        "text": "Pirschは、プライバシーに配慮したWeb分析ツールで、エージェンシーやフリーランサー向けに設計されています。チームやクライアントと分析結果を共有するためのワンストッププラットフォームです。",
+                        "action_primary": "無料トライアルを開始",
+                        "action_secondary": "ライブデモを見る",
+                        "customers_text": "500以上の顧客から信頼されています"
+                      }
                 }
             },
             {"ref": "customers"},

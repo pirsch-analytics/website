@@ -1,6 +1,7 @@
 {{$headline := copy .Page .Content "headline"}}
 {{$text := copy .Page .Content "text"}}
 {{$ctaLink := copy .Page .Content "cta_link"}}
+{{$ctaClass := copy .Page .Content "cta_class"}}
 {{$ctaLabel := copy .Page .Content "cta_label"}}
 
 <div class="card {{html (get .Content "class")}}">
@@ -13,7 +14,7 @@
                 <p>{{html $text}}</p>
             {{end}}
             {{if $ctaLabel}}
-                <a href="{{$ctaLink}}" class="button">{{html $ctaLabel}}</a>
+                <a href="{{$ctaLink}}" class="button {{$ctaClass}}">{{html $ctaLabel}}</a>
             {{end}}
         </div>
     {{end}}

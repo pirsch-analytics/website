@@ -932,6 +932,7 @@
                                                 "headline": "Easily Manage Teams and Sites",
                                                 "text": "Work happens in teams. That's why Pirsch enables collaboration right from the start: Simply invite team members or clients via email, assign them roles, and give them access to the dashboards they need to excel. All people, sites and custom themes in one place.",
                                                 "cta_link": "/signup",
+                                                "cta_class": "yellow",
                                                 "cta_label": "Start 30-day Free Trial"
                                             },
                                             "de": {

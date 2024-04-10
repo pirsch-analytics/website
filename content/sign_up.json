@@ -1,7 +1,13 @@
 {
     "path": {
         "en": "/signup",
-        "de": "/de/signup"
+        "de": "/de/signup",
+        "es": "/es/signup",
+        "fr": "/fr/signup",
+        "nl": "/nl/signup",
+        "it": "/it/signup",
+        "pt": "/pt/signup",
+        "ja": "/ja/signup"
     },
     "sitemap": {
         "priority": "0.1"
@@ -19,28 +25,36 @@
                 },
                 "copy": {
                     "en": {
-                        "title": "Sign Up"
+                        "title": "Signup",
+                        "meta_description": "Pirsch allows you to track, analyze, and understand your website traffic without invading your users' privacy."
                     },
                     "de": {
-                        "title": "Registrierung"
+                        "title": "Registrierung",
+                        "meta_description": "Pirsch ermöglicht es dir, deinen Website-Traffic zu verfolgen, zu analysieren und zu verstehen, ohne die Privatsphäre deiner Nutzer zu verletzen."
                     },
                     "es": {
-                        "title": "Registro"
+                        "title": "Registrarse",
+                        "meta_description": "Pirsch te permite rastrear, analizar y entender el tráfico de tu sitio web sin invadir la privacidad de tus usuarios."
                     },
                     "fr": {
-                        "title": "Inscription"
+                        "title": "Inscription",
+                        "meta_description": "Pirsch vous permet de suivre, analyser et comprendre le trafic de votre site web sans envahir la vie privée de vos utilisateurs."
                     },
                     "nl": {
-                        "title": "Aanmelden"
+                        "title": "Aanmelden",
+                        "meta_description": "Pirsch stelt je in staat om je websiteverkeer te volgen, analyseren en begrijpen zonder de privacy van je gebruikers te schenden."
                     },
                     "it": {
-                        "title": "Iscriviti"
+                        "title": "Iscriviti",
+                        "meta_description": "Pirsch ti permette di monitorare, analizzare e comprendere il traffico del tuo sito web senza invadere la privacy dei tuoi utenti."
                     },
                     "pt": {
-                        "title": "Cadastro"
+                        "title": "Inscrever-se",
+                        "meta_description": "Pirsch permite que você acompanhe, analise e entenda o tráfego do seu site sem invadir a privacidade dos seus usuários."
                     },
                     "ja": {
-                        "title": "サインアップ"
+                        "title": "サインアップ",
+                        "meta_description": "Pirschは、ユーザーのプライバシーを侵害することなく、あなたのウェブサイトのトラフィックを追跡、分析、理解することを可能にします。"
                     }
                 }
             },
@@ -50,114 +64,122 @@
                     "en": {
                         "got_account": "Already got an account?",
                         "login": "Log In",
-                        "title_signed_up": "Thank You for Signing Up!",
-                        "title_free_trial": "Start Your 30-Day Free Trial",
+                        "title_signed_up": "Thank you for signing up!",
+                        "title_free_trial": "Welcome to Pirsch Analytics",
                         "success": "Please check your inbox to finish your registration.",
                         "resend_registration_email": "Resend Email",
                         "registration_email_resent": "The registration email has been resent.",
                         "registration_email_error": "An error occurred while resending your registration email.",
-                        "text": "Try Pirsch for free, no credit card required.",
+                        "text": "Pirsch allows you to track, analyze, and understand your website traffic without invading your users' privacy.",
                         "email_address": "Email Address",
-                        "continue": "Continue",
-                        "terms": "By using Pirsch, you agree to our <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacy policy</a>, and our <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">terms and conditions</a>."
+                        "continue": "Create Account",
+                        "terms": "By using Pirsch, you agree to our <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacy policy</a>, and our <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">terms and conditions</a>.",
+                        "join": "Join 500+ Happy Customers"
                     },
                     "de": {
-                        "got_account": "Du hast bereits einen Account?",
+                        "got_account": "Hast du bereits ein Konto?",
                         "login": "Anmelden",
-                        "title_signed_up": "Vielen Dank für deine Anmeldung!",
-                        "title_free_trial": "30 Tage kostenlos testen",
-                        "success": "Bitte überprüfe dein Email Postfach um deine Registrierung zu bestätigen.",
-                        "resend_registration_email": "Email erneut senden",
-                        "registration_email_resent": "Die Registrierungsemail wurde erneut versendet.",
-                        "registration_email_error": "Bei der Anfrage ist ein Fehler aufgetreten.",
-                        "text": "Teste Pirsch kostenlos, ohne Kreditkarte.",
-                        "email_address": "Email-Adresse",
-                        "continue": "Weiter",
-                        "terms": "Durch die Nutzung von Pirsch stimmst du unserer <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">Datenschutzerklärung</a> und unseren <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">AGB</a> zu."
+                        "title_signed_up": "Danke für deine Registrierung!",
+                        "title_free_trial": "Willkommen bei Pirsch Analytics",
+                        "success": "Bitte überprüfe dein Postfach, um deine Anmeldung abzuschließen.",
+                        "resend_registration_email": "E-Mail erneut senden",
+                        "registration_email_resent": "Die Registrierungs-E-Mail wurde erneut gesendet.",
+                        "registration_email_error": "Ein Fehler ist beim erneuten Senden deiner Registrierungs-E-Mail aufgetreten.",
+                        "text": "Pirsch ermöglicht es dir, deinen Website-Traffic zu verfolgen, zu analysieren und zu verstehen, ohne die Privatsphäre deiner Nutzer zu verletzen.",
+                        "email_address": "E-Mail-Adresse",
+                        "continue": "Konto erstellen",
+                        "terms": "Durch die Nutzung von Pirsch stimmst du unserer <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">Datenschutzerklärung</a> und unseren <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">Geschäftsbedingungen</a> zu.",
+                        "join": "Schließe dich über 500 zufriedenen Kunden an"
                     },
                     "es": {
                         "got_account": "¿Ya tienes una cuenta?",
                         "login": "Iniciar sesión",
                         "title_signed_up": "¡Gracias por registrarte!",
-                        "title_free_trial": "Comienza tu prueba gratuita de 30 días",
-                        "success": "Por favor, verifica tu bandeja de entrada para completar tu registro.",
-                        "resend_registration_email": "Reenviar correo electrónico",
+                        "title_free_trial": "Bienvenido a Pirsch Analytics",
+                        "success": "Por favor, revisa tu bandeja de entrada para completar tu registro.",
+                        "resend_registration_email": "Reenviar Email",
                         "registration_email_resent": "El correo electrónico de registro ha sido reenviado.",
-                        "registration_email_error": "Se produjo un error al reenviar tu correo electrónico de registro.",
-                        "text": "Prueba Pirsch de forma gratuita, no se requiere tarjeta de crédito.",
-                        "email_address": "Dirección de correo electrónico",
-                        "continue": "Continuar",
-                        "terms": "Al usar Pirsch, aceptas nuestra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidad</a> y nuestros <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">términos y condiciones</a>."
+                        "registration_email_error": "Ocurrió un error al reenviar tu correo electrónico de registro.",
+                        "text": "Pirsch te permite rastrear, analizar y entender el tráfico de tu sitio web sin invadir la privacidad de tus usuarios.",
+                        "email_address": "Dirección de Email",
+                        "continue": "Crear Cuenta",
+                        "terms": "Al usar Pirsch, aceptas nuestra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidad</a> y nuestros <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">términos y condiciones</a>.",
+                        "join": "Únete a más de 500 clientes felices"
                     },
                     "fr": {
                         "got_account": "Vous avez déjà un compte ?",
                         "login": "Connexion",
                         "title_signed_up": "Merci de vous être inscrit !",
-                        "title_free_trial": "Commencez votre essai gratuit de 30 jours",
-                        "success": "Veuillez vérifier votre boîte de réception pour finaliser votre inscription.",
-                        "resend_registration_email": "Renvoyer l'e-mail",
-                        "registration_email_resent": "L'e-mail d'inscription a été renvoyé.",
-                        "registration_email_error": "Une erreur s'est produite lors de la réexpédition de votre e-mail d'inscription.",
-                        "text": "Essayez Pirsch gratuitement, aucune carte de crédit n'est requise.",
-                        "email_address": "Adresse e-mail",
-                        "continue": "Continuer",
-                        "terms": "En utilisant Pirsch, vous acceptez notre <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">politique de confidentialité</a> et nos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">conditions générales</a>."
+                        "title_free_trial": "Bienvenue chez Pirsch Analytics",
+                        "success": "Veuillez vérifier votre boîte de réception pour terminer votre inscription.",
+                        "resend_registration_email": "Renvoyer l'Email",
+                        "registration_email_resent": "L'email de registration a été renvoyé.",
+                        "registration_email_error": "Une erreur s'est produite lors du renvoi de votre email de registration.",
+                        "text": "Pirsch vous permet de suivre, analyser et comprendre le trafic de votre site web sans envahir la vie privée de vos utilisateurs.",
+                        "email_address": "Adresse Email",
+                        "continue": "Créer un compte",
+                        "terms": "En utilisant Pirsch, vous acceptez notre <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">politique de confidentialité</a> et nos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">conditions générales</a>.",
+                        "join": "Rejoignez plus de 500 clients heureux"
                     },
                     "nl": {
                         "got_account": "Heb je al een account?",
-                        "login": "Log In",
+                        "login": "Inloggen",
                         "title_signed_up": "Bedankt voor je aanmelding!",
-                        "title_free_trial": "Start uw 30-daagse gratis proefperiode",
-                        "success": "Controleer uw inbox om uw registratie te voltooien.",
-                        "resend_registration_email": "E-mail opnieuw verzenden",
-                        "registration_email_resent": "De registratie-e-mail is opnieuw verzonden.",
-                        "registration_email_error": "Er is een fout opgetreden bij het opnieuw verzenden van uw registratie-e-mail.",
-                        "text": "Probeer Pirsch gratis, geen creditcard nodig.",
+                        "title_free_trial": "Welkom bij Pirsch Analytics",
+                        "success": "Controleer je inbox om je registratie te voltooien.",
+                        "resend_registration_email": "Email opnieuw verzenden",
+                        "registration_email_resent": "De registratie-email is opnieuw verzonden.",
+                        "registration_email_error": "Er is een fout opgetreden bij het opnieuw verzenden van je registratie-email.",
+                        "text": "Pirsch stelt je in staat om je websiteverkeer te volgen, analyseren en begrijpen zonder de privacy van je gebruikers te schenden.",
                         "email_address": "E-mailadres",
-                        "continue": "Doorgaan",
-                        "terms": "Door Pirsch te gebruiken, ga je akkoord met ons <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacybeleid</a> en onze <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">algemene voorwaarden</a>."
+                        "continue": "Account aanmaken",
+                        "terms": "Door gebruik te maken van Pirsch ga je akkoord met onze <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">privacybeleid</a> en onze <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">algemene voorwaarden</a>.",
+                        "join": "Sluit je aan bij meer dan 500 tevreden klanten"
                     },
                     "it": {
                         "got_account": "Hai già un account?",
                         "login": "Accedi",
                         "title_signed_up": "Grazie per esserti registrato!",
-                        "title_free_trial": "Inizia il tuo periodo di prova gratuito di 30 giorni",
+                        "title_free_trial": "Benvenuto in Pirsch Analytics",
                         "success": "Controlla la tua casella di posta per completare la registrazione.",
-                        "resend_registration_email": "Rispedisci email",
-                        "registration_email_resent": "L'email di registrazione è stata rispedita.",
-                        "registration_email_error": "Si è verificato un errore durante la rispedizione dell'email di registrazione.",
-                        "text": "Prova Pirsch gratuitamente, senza carta di credito richiesta.",
-                        "email_address": "Indirizzo email",
-                        "continue": "Continua",
-                        "terms": "Utilizzando Pirsch, accetti la nostra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">informativa sulla privacy</a> e i nostri <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termini e condizioni</a>."
+                        "resend_registration_email": "Invia di nuovo l'email",
+                        "registration_email_resent": "L'email di registrazione è stata inviata nuovamente.",
+                        "registration_email_error": "Si è verificato un errore nel reinviare l'email di registrazione.",
+                        "text": "Pirsch ti permette di monitorare, analizzare e comprendere il traffico del tuo sito web senza invadere la privacy dei tuoi utenti.",
+                        "email_address": "Indirizzo Email",
+                        "continue": "Crea Account",
+                        "terms": "Utilizzando Pirsch, accetti la nostra <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">politica sulla privacy</a> e i nostri <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termini e condizioni</a>.",
+                        "join": "Unisciti a oltre 500 clienti felici"
                     },
                     "pt": {
                         "got_account": "Já tem uma conta?",
                         "login": "Entrar",
-                        "title_signed_up": "Obrigado por se cadastrar!",
-                        "title_free_trial": "Inicie seu teste gratuito de 30 dias",
-                        "success": "Por favor, verifique sua caixa de entrada para concluir seu cadastro.",
-                        "resend_registration_email": "Reenviar e-mail",
-                        "registration_email_resent": "O e-mail de registro foi reenviado.",
-                        "registration_email_error": "Ocorreu um erro ao reenviar seu e-mail de registro.",
-                        "text": "Experimente o Pirsch gratuitamente, sem a necessidade de cartão de crédito.",
-                        "email_address": "Endereço de e-mail",
-                        "continue": "Continuar",
-                        "terms": "Ao usar o Pirsch, você concorda com nossa <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidade</a> e nossos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termos e condições</a>."
+                        "title_signed_up": "Obrigado por se inscrever!",
+                        "title_free_trial": "Bem-vindo à Pirsch Analytics",
+                        "success": "Por favor, verifique sua caixa de entrada para finalizar seu registro.",
+                        "resend_registration_email": "Reenviar Email",
+                        "registration_email_resent": "O email de registro foi reenviado.",
+                        "registration_email_error": "Ocorreu um erro ao reenviar seu email de registro.",
+                        "text": "Pirsch permite que você acompanhe, analise e entenda o tráfego do seu site sem invadir a privacidade dos seus usuários.",
+                        "email_address": "Endereço de Email",
+                        "continue": "Criar Conta",
+                        "terms": "Ao usar a Pirsch, você concorda com nossa <a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">política de privacidade</a> e nossos <a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">termos e condições</a>.",
+                        "join": "Junte-se a mais de 500 clientes felizes"
                     },
                     "ja": {
                         "got_account": "すでにアカウントをお持ちですか？",
                         "login": "ログイン",
-                        "title_signed_up": "登録いただきありがとうございます！",
-                        "title_free_trial": "30日間の無料トライアルを開始",
-                        "success": "登録を完了するために受信トレイをご確認ください。",
-                        "resend_registration_email": "メールを再送",
-                        "registration_email_resent": "登録用のメールが再送されました。",
-                        "registration_email_error": "登録用のメールの再送中にエラーが発生しました。",
-                        "text": "Pirschを無料でお試しください、クレジットカードは不要です。",
+                        "title_signed_up": "サインアップしていただきありがとうございます！",
+                        "title_free_trial": "Pirsch Analyticsへようこそ",
+                        "success": "登録を完了するために、受信トレイを確認してください。",
+                        "resend_registration_email": "メールを再送信",
+                        "registration_email_resent": "登録用メールが再送信されました。",
+                        "registration_email_error": "登録用メールの再送信中にエラーが発生しました。",
+                        "text": "Pirschは、ユーザーのプライバシーを侵害することなく、あなたのウェブサイトのトラフィックを追跡、分析、理解することを可能にします。",
                         "email_address": "メールアドレス",
-                        "continue": "続行",
-                        "terms": "ピルシュを利用することにより、<a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">プライバシーポリシー</a>、<a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">利用規約</a>に同意したものとみなされます。"
+                        "continue": "アカウントを作成",
+                        "terms": "Pirschを使用することで、<a href=\"/privacy\" target=\"_blank\" ref=\"noreferrer\">プライバシーポリシー</a>および<a href=\"/terms\" target=\"_blank\" ref=\"noreferrer\">利用規約</a>に同意したことになります。",
+                        "join": "500人以上のハッピー・カスタマーに加わろう"
                     }
                 }
             },

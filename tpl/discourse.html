@@ -1,14 +1,21 @@
 {{$discourse := get .Content "discourse"}}
 
-<section>
-    <div>
-        <h1>{{copy .Page .Content "headline"}}</h1>
-
+<header id="header" class="no-select">
+    <div class="header-content" style="justify-content: space-between; align-items: center; flex-direction: row;">
+        <a href="/" id="headerLogoLink" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 26 38"><path d="M1 24c6.627 0 12-5.373 12-12S7.627 0 1 0v24zm24-10c-6.627 0-12 5.373-12 12s5.373 12 12 12V14z"></path><circle cx="21" cy="6" r="5"></circle><circle cx="5" cy="32" r="5"></circle></svg>
+            <span>Pirsch</span>
+        </a>
+    </div>
+</header>
+<section class="form">
+    <div class="section-content">
+        <div>
+            <h1 class="h3">{{copy .Page .Content "headline"}}</h1>
         {{if $discourse.SignatureError}}
-            <small>{{copy .Page .Content "signature_error"}}</small>
-            <small style="margin-top: 12px;">
-                <a href="{{$discourse.DiscourseURL}}">{{copy .Page .Content "to_forum"}}</a>
-            </small>
+            <p>{{copy .Page .Content "signature_error"}}</p>
+            <a href="{{$discourse.DiscourseURL}}" class="button small" style="display: flex; margin: 24px auto 0;">{{copy .Page .Content "to_forum"}}</a>
+        </div>
         {{else}}
             <form method="post" action="{{.Page.CanonicalLink}}?sso={{$discourse.SSO}}&sig={{$discourse.Sig}}">
                 {{if $discourse.Error}}
@@ -18,17 +25,19 @@
                 <fieldset>
                     <input type="email" id="email" name="email" value="{{$discourse.Email}}" placeholder=" " autofocus required />
                     <label for="email">{{copy .Page .Content "email_address"}}</label>
-                    <small>{{validation $discourse.APIResponse "email"}}</small>
+                    {{if validation $discourse.APIResponse "email"}}
+                        <small>{{validation $discourse.APIResponse "email"}}</small>
+                    {{end}}
                 </fieldset>
                 <fieldset>
                     <input type="password" id="password" name="password" placeholder=" " required />
                     <label for="password">{{copy .Page .Content "password"}}</label>
                 </fieldset>
                 <button type="submit">{{copy .Page .Content "login"}}</button>
+                <small>
+                    <a href="/password{{if $discourse.Email}}?email={{$discourse.Email}}{{end}}">{{copy .Page .Content "forgot_password"}}</a>
+                </small>
             </form>
-            <small>
-                <a href="/password{{if $discourse.Email}}?email={{$discourse.Email}}{{end}}">{{copy .Page .Content "forgot_password"}}</a>
-            </small>
         {{end}}
     </div>
 </section>

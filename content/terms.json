@@ -7,7 +7,14 @@
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "Terms and Conditions"
+                    }
+                }
+            },
             {"ref": "header"},
             {
                 "tpl": "text",

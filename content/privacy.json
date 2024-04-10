@@ -8,7 +8,18 @@
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "Privacy Policy"
+                    },
+                    "de": {
+                        "title": "Datenschutzerklärung"
+                    }
+
+                }
+            },
             {"ref": "header"},
             {
                 "tpl": "text",

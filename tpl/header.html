@@ -53,8 +53,9 @@
                 </div>
             </div>
             {{range $links}}
-                <a href="{{index . "href"}}" class="{{index . "class"}}">{{index . "label"}}</a>
+                <a href="{{index . "href"}}" class="{{index . "class"}}" style='display: {{default (index . "display") ""}};'>{{index . "label"}}</a>
             {{end}}
+            <a href="{{hostnameDashboard}}" class="button small showLoggedIn" style="display: none;">{{copy .Page .Content "dashboard"}}</a>
         </nav>
         <svg id="headerNavOpen" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18h7m-7-6h14M5 6h14"></path></svg>
         <svg id="headerNavClose" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" style="display: none;"><path d="M17 7L7 17m10 0L7 7" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
