@@ -175,7 +175,8 @@
                     "href": "/de/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "es": {
             "label1": "Producto",
@@ -261,7 +262,8 @@
                     "href": "/es/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "fr": {
             "label1": "Produit",
@@ -347,7 +349,8 @@
                     "href": "/fr/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "nl": {
             "label1": "Product",
@@ -433,7 +436,8 @@
                     "href": "/nl/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "it": {
             "label1": "Prodotto",
@@ -519,7 +523,8 @@
                     "href": "/it/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "pt": {
             "label1": "Produto",
@@ -605,7 +610,8 @@
                     "href": "/pt/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         },
         "ja": {
             "label1": "製品",
@@ -691,7 +697,8 @@
                     "href": "/jp/signup",
                     "class": "button small"
                 }
-            ]
+            ],
+            "dashboard": "Dashboard"
         }
     }
 }

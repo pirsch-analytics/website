@@ -40,13 +40,13 @@
         <div class="grid one-one">
             {{if $previous.Slug}}
                 <a href="/blog/{{$previous.Slug}}/" class="card">
-                    <small>Previous Article</small>
+                    <p>Previous Article</p>
                     <h3>{{$previous.Title}}</h3>
                 </a>
             {{end}}
             {{if $next.Slug}}
                 <a href="/blog/{{$next.Slug}}/" class="card">
-                    <small>Next Article</small>
+                    <p>Next Article</p>
                     <h3>{{$next.Title}}</h3>
                 </a>
             {{end}}

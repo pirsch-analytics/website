@@ -18,7 +18,7 @@
             <div class="gradient green"></div>
         </div>
         {{if $signup.HCaptchaSiteKey}}
-            <div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
                 <h1 class="h3">
                     {{if $signup.SignedUp}}
                         {{copy .Page .Content "title_signed_up"}}
@@ -27,16 +27,14 @@
                     {{end}}
                 </h1>
                 {{if $signup.SignedUp}}
-                    <p>
-                        <strong style="color: var(--green)">{{copy .Page .Content "success"}}</strong>
-                    </p>
+                    <p>{{copy .Page .Content "success"}}</p>
                     {{if $signup.EmailResendError}}
-                        <p>{{copy .Page .Content "registration_email_error"}}</p>
+                        <p style="margin-top: 24px">{{copy .Page .Content "registration_email_error"}}</p>
                     {{else}}
                         {{if $signup.EmailResend}}
-                            <p>{{copy .Page .Content "registration_email_resent"}}</p>
+                            <p style="margin-top: 24px">{{copy .Page .Content "registration_email_resent"}}</p>
                         {{else}}
-                            <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/signup?resend={{$signup.Email}}" style="margin-top: 12px">
+                            <a href="{{if not (eq .Page.Language "en")}}/{{.Page.Language}}{{end}}/signup?resend={{$signup.Email}}" class="button small" style="margin-top: 24px">
                                 {{copy .Page .Content "resend_registration_email"}}
                             </a>
                         {{end}}
