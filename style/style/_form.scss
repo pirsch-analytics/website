@@ -34,6 +34,7 @@ section.form {
         justify-content: center;
         width: 100%;
         padding: 12px 0;
+        overflow: hidden;
         border-radius: 6px;
         background-color: var(--color-background-elevation);
     
@@ -43,8 +44,10 @@ section.form {
             height: 72px;
             overflow: hidden;
             border-radius: 4px;
+            background-color: var(--color-background-primary);
         
             iframe {
+                transform: translate3d(0,0,0);
                 position: absolute;
                 top: -2px;
                 left: -2px;
