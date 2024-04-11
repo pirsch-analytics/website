@@ -169,12 +169,14 @@
                 {
                     "label": "Anmelden",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Kostenlos testen",
                     "href": "/de/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -257,12 +259,14 @@
                 {
                     "label": "Iniciar Sesión",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Pruébalo Gratis",
                     "href": "/es/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -345,12 +349,14 @@
                 {
                     "label": "Connexion",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Essayez gratuitement",
                     "href": "/fr/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -433,12 +439,14 @@
                 {
                     "label": "Aanmelden",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Probeer het gratis",
                     "href": "/nl/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -521,12 +529,14 @@
                 {
                     "label": "Accedi",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Provatelo gratuitamente",
                     "href": "/it/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -609,12 +619,14 @@
                 {
                     "label": "Iniciar sessão",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "Experimente gratuitamente",
                     "href": "/pt/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
@@ -697,12 +709,14 @@
                 {
                     "label": "ログイン",
                     "href": "/login",
-                    "class": "hideLoggedIn"
+                    "class": "hideLoggedIn",
+                    "display": "none"
                 },
                 {
                     "label": "無料体験",
                     "href": "/ja/signup",
-                    "class": "button small hideLoggedIn"
+                    "class": "button small hideLoggedIn",
+                    "display": "none"
                 }
             ],
             "dashboard": "Dashboard"
