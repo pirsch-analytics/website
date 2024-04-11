@@ -212,7 +212,7 @@
                 },
                 {
                     "label": "Neuigkeiten",
-                    "href": "/de/news"
+                    "href": "/news"
                 },
                 {
                     "label": "UTM Generator",
@@ -357,7 +357,7 @@
                 },
                 {
                     "label": "Noticias",
-                    "href": "/es/news"
+                    "href": "/news"
                 },
                 {
                     "label": "Generador de UTM",
@@ -502,7 +502,7 @@
                 },
                 {
                     "label": "Nouvelles",
-                    "href": "/fr/news"
+                    "href": "/news"
                 },
                 {
                     "label": "Générateur UTM",
@@ -647,7 +647,7 @@
                 },
                 {
                     "label": "Nieuws",
-                    "href": "/nl/news"
+                    "href": "/news"
                 },
                 {
                     "label": "UTM Generator",
@@ -792,7 +792,7 @@
                 },
                 {
                     "label": "Notizie",
-                    "href": "/it/news"
+                    "href": "/news"
                 },
                 {
                     "label": "Generatore di UTM",
@@ -937,7 +937,7 @@
                 },
                 {
                     "label": "Notícias",
-                    "href": "/pt/news"
+                    "href": "/news"
                 },
                 {
                     "label": "Gerador de UTM",
@@ -1082,7 +1082,7 @@
                 },
                 {
                     "label": "ニュース",
-                    "href": "/ja/news"
+                    "href": "/news"
                 },
                 {
                     "label": "UTMジェネレータ",
