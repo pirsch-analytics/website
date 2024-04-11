@@ -1,11 +1,5 @@
 {{- $title := copy .Page .Content "title" -}}
-{{- if (copy .Page .Content "title") -}}
-    {{- $title = (copy .Page .Content "title") -}}
-{{- end -}}
 {{- $metaDescription := copy .Page .Content "meta_description" -}}
-{{- if (copy .Page .Content "meta_description") -}}
-    {{- $metaDescription = (copy .Page .Content "meta_description") -}}
-{{- end -}}
 {{- $previewImage := fmt "%s/static/img/og-image.png" hostname -}}
 {{- if (get .Page "preview_img") -}}
     {{- $previewImage = fmt "%s%s" hostname (get .Page "preview_img") -}}
