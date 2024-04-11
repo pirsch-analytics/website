@@ -12,10 +12,10 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "Privacy Policy"
+                        "title": "Privacy Policy – Pirsch Analytics"
                     },
                     "de": {
-                        "title": "Datenschutzerklärung"
+                        "title": "Datenschutzerklärung – Pirsch Analytics"
                     }
 
                 }

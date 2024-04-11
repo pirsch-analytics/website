@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "For Agencies",
+                        "title": "For Agencies – Pirsch Analytics",
                         "meta_description": "Pirsch is a privacy-friendly web analytics tool designed for agencies and freelancers. It's your one-stop platform to communicate website statistics and marketing efforts to your team and clients."
                     },
                     "de": {
-                        "title": "Für Agenturen",
+                        "title": "Für Agenturen – Pirsch Analytics",
                         "meta_description": "Pirsch ist ein datenschutzfreundliches Webanalyse-Tool, das für Agenturen und Freiberufler entwickelt wurde. Es ist deine zentrale Plattform, um Analysen mit deinem Team und deinen Kunden zu kommunizieren."
                     },
                     "es": {
-                        "title": "Para Agencias",
+                        "title": "Para Agencias – Pirsch Analytics",
                         "meta_description": "Pirsch es una herramienta de análisis web amigable con la privacidad, diseñada para agencias y freelancers. Es tu plataforma única para comunicar estadísticas de sitios web y esfuerzos de marketing a tu equipo y clientes."
                     },
                     "fr": {
-                        "title": "Pour les Agences",
+                        "title": "Pour les Agences – Pirsch Analytics",
                         "meta_description": "Pirsch est un outil d'analyse web respectueux de la vie privée, conçu pour les agences et les freelancers. C'est votre plateforme unique pour communiquer les statistiques de site web et les efforts de marketing à votre équipe et à vos clients."
                     },
                     "nl": {
-                        "title": "Voor Agentschappen",
+                        "title": "Voor Agentschappen – Pirsch Analytics",
                         "meta_description": "Pirsch is een privacyvriendelijke webanalysetool ontworpen voor agentschappen en freelancers. Het is jouw alles-in-één platform om website statistieken en marketinginspanningen te communiceren met je team en klanten."
                     },
                     "it": {
-                        "title": "Per le Agenzie",
+                        "title": "Per le Agenzie – Pirsch Analytics",
                         "meta_description": "Pirsch è uno strumento di analisi web rispettoso della privacy, progettato per agenzie e freelancer. È la tua piattaforma unica per comunicare statistiche del sito web e sforzi di marketing al tuo team e ai tuoi clienti."
                     },
                     "pt": {
-                        "title": "Para Agências",
+                        "title": "Para Agências – Pirsch Analytics",
                         "meta_description": "Pirsch é uma ferramenta de análise web amigável à privacidade, projetada para agências e freelancers. É sua plataforma única para comunicar estatísticas de sites e esforços de marketing à sua equipe e clientes."
                     },
                     "ja": {
-                        "title": "代理店向け",
+                        "title": "代理店向け – Pirsch Analytics",
                         "meta_description": "Pirschは、代理店およびフリーランサー向けに設計されたプライバシーに配慮したウェブ分析ツールです。ウェブサイトの統計とマーケティング努力をチームおよびクライアントに伝えるためのワンストッププラットフォームです。"
                     }
                 }

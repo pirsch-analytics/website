@@ -15,38 +15,38 @@
     "content": {
         "content": [
             {
-                "ref": "head",
+                "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "All Features",
+                        "title": "All Features – Pirsch Analytics",
                         "meta_description": "Pirsch provides a comprehensive range of powerful features, enabling users to gain deep insights and optimize website performance with ease."
                     },
                     "de": {
-                        "title": "Alle Funktionen",
+                        "title": "Alle Funktionen – Pirsch Analytics",
                         "meta_description": "Pirsch bietet eine umfassende Palette leistungsstarker Funktionen, die es Benutzern ermöglichen, tiefe Einblicke zu gewinnen und die Leistung der Website mit Leichtigkeit zu optimieren."
                     },
                     "es": {
-                        "title": "Todas las características",
+                        "title": "Todas las características – Pirsch Analytics",
                         "meta_description": "Pirsch ofrece una amplia gama de funciones potentes, lo que permite a los usuarios obtener información profunda y optimizar el rendimiento del sitio web con facilidad."
                     },
                     "fr": {
-                        "title": "Toutes les fonctionnalités",
+                        "title": "Toutes les fonctionnalités – Pirsch Analytics",
                         "meta_description": "Pirsch propose une gamme complète de fonctionnalités puissantes, permettant aux utilisateurs d'obtenir des informations approfondies et d'optimiser les performances du site Web avec facilité."
                     },
                     "nl": {
-                        "title": "Alle functies",
+                        "title": "Alle functies – Pirsch Analytics",
                         "meta_description": "Pirsch biedt een uitgebreid scala aan krachtige functies, waarmee gebruikers diepe inzichten kunnen krijgen en de prestaties van de website met gemak kunnen optimaliseren."
                     },
                     "it": {
-                        "title": "Tutte le funzionalità",
+                        "title": "Tutte le funzionalità – Pirsch Analytics",
                         "meta_description": "Pirsch offre una vasta gamma di potenti funzionalità, consentendo agli utenti di ottenere approfondimenti e ottimizzare le prestazioni del sito web con facilità."
                     },
                     "pt": {
-                        "title": "Todos os recursos",
+                        "title": "Todos os recursos – Pirsch Analytics",
                         "meta_description": "Pirsch oferece uma ampla gama de recursos poderosos, permitindo que os usuários obtenham insights profundos e otimizem o desempenho do site com facilidade."
                     },
                     "ja": {
-                        "title": "すべての機能",
+                        "title": "すべての機能 – Pirsch Analytics",
                         "meta_description": "Pirschは、幅広い強力な機能を提供し、ユーザーが深い洞察を得てウェブサイトのパフォーマンスを簡単に最適化できるようにします。"
                     }
                 }

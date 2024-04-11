@@ -18,35 +18,35 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "About Us",
+                        "title": "About Us – Pirsch Analytics",
                         "meta_description": "We are an independent two-person software company based in Germany and love to build fast and reliable software for the web."
                     },
                     "de": {
-                        "title": "Über uns",
+                        "title": "Über uns – Pirsch Analytics",
                         "meta_description": "Wir sind ein unabhängiges Zwei-Personen-Softwareunternehmen mit Sitz in Deutschland und lieben es, schnelle und zuverlässige Software für das Web zu entwickeln."
                     },
                     "es": {
-                        "title": "Sobre nosotros",
+                        "title": "Sobre nosotros – Pirsch Analytics",
                         "meta_description": "Somos una empresa de software independiente de dos personas con sede en Alemania y nos encanta construir software rápido y fiable para la web."
                     },
                     "fr": {
-                        "title": "À propos de nous",
+                        "title": "À propos de nous – Pirsch Analytics",
                         "meta_description": "Nous sommes une entreprise de logiciels indépendante de deux personnes basée en Allemagne et nous aimons construire des logiciels rapides et fiables pour le web."
                     },
                     "nl": {
-                        "title": "Over ons",
+                        "title": "Over ons – Pirsch Analytics",
                         "meta_description": "Wij zijn een onafhankelijk softwarebedrijf bestaande uit twee personen, gevestigd in Duitsland, en we houden ervan om snelle en betrouwbare software voor het web te bouwen."
                     },
                     "it": {
-                        "title": "Chi siamo",
+                        "title": "Chi siamo – Pirsch Analytics",
                         "meta_description": "Siamo una società di software indipendente composta da due persone con sede in Germania e amiamo sviluppare software veloce e affidabile per il web."
                     },
                     "pt": {
-                        "title": "Sobre nós",
+                        "title": "Sobre nós – Pirsch Analytics",
                         "meta_description": "Somos uma empresa de software independente de duas pessoas, com sede na Alemanha, e adoramos construir softwares rápidos e confiáveis para a web."
                     },
                     "ja": {
-                        "title": "私たちについて",
+                        "title": "私たちについて – Pirsch Analytics",
                         "meta_description": "私たちはドイツに拠点を置く独立した2人組のソフトウェア会社で、Web用の迅速かつ信頼性の高いソフトウェアを構築することを楽しんでいます。"
                     }
                 }

@@ -18,35 +18,35 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "UTM Generator for Campaign Tracking",
+                        "title": "UTM Generator for Campaign Tracking – Pirsch Analytics",
                         "meta_description": "Improve the quality of your web analytics data by adding UTM parameters to inbound links with this free campaign URL builder available here."
                     },
                     "de": {
-                        "title": "UTM-Generator für Kampagnen-Tracking",
+                        "title": "UTM-Generator für Kampagnen-Tracking – Pirsch Analytics",
                         "meta_description": "Verbessere die Qualität deiner Webanalyse-Daten, indem du UTM-Parameter zu eingehenden Links mit diesem kostenlosen URL-Builder für Kampagnen hinzufügst."
                     },
                     "es": {
-                        "title": "Generador de UTM para el Seguimiento de Campañas",
+                        "title": "Generador de UTM para el Seguimiento de Campañas – Pirsch Analytics",
                         "meta_description": "Mejora la calidad de tus datos de análisis web añadiendo parámetros UTM a enlaces entrantes con este constructor de URL de campaña gratuito disponible aquí."
                     },
                     "fr": {
-                        "title": "Générateur UTM pour le Suivi de Campagnes",
+                        "title": "Générateur UTM pour le Suivi de Campagnes – Pirsch Analytics",
                         "meta_description": "Améliorez la qualité de vos données d'analyse web en ajoutant des paramètres UTM aux liens entrants avec ce constructeur d'URL de campagne gratuit disponible ici."
                     },
                     "nl": {
-                        "title": "UTM Generator voor Campagne Tracking",
+                        "title": "UTM Generator voor Campagne Tracking – Pirsch Analytics",
                         "meta_description": "Verbeter de kwaliteit van je webanalysegegevens door UTM parameters toe te voegen aan inkomende links met deze gratis campagne URL-bouwer hier beschikbaar."
                     },
                     "it": {
-                        "title": "Generatore UTM per il Tracciamento delle Campagne",
+                        "title": "Generatore UTM per il Tracciamento delle Campagne – Pirsch Analytics",
                         "meta_description": "Migliora la qualità dei tuoi dati analitici web aggiungendo parametri UTM ai link in entrata con questo costruttore di URL di campagna gratuito disponibile qui."
                     },
                     "pt": {
-                        "title": "Gerador UTM para Rastreamento de Campanhas",
+                        "title": "Gerador UTM para Rastreamento de Campanhas – Pirsch Analytics",
                         "meta_description": "Melhore a qualidade dos seus dados de análise web adicionando parâmetros UTM a links de entrada com este construtor de URL de campanha gratuito disponível aqui."
                     },
                     "ja": {
-                        "title": "キャンペーン追跡のためのUTMジェネレーター",
+                        "title": "キャンペーン追跡のためのUTMジェネレーター – Pirsch Analytics",
                         "meta_description": "この無料のキャンペーンURLビルダーを使用して、UTMパラメータを受信リンクに追加することで、Web分析データの品質を向上させます。"
                     }
                 }

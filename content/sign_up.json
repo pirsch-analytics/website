@@ -25,35 +25,35 @@
                 },
                 "copy": {
                     "en": {
-                        "title": "Signup",
+                        "title": "Signup – Pirsch Analytics",
                         "meta_description": "Pirsch allows you to track, analyze, and understand your website traffic without invading your users' privacy."
                     },
                     "de": {
-                        "title": "Registrierung",
+                        "title": "Registrierung – Pirsch Analytics",
                         "meta_description": "Pirsch ermöglicht es dir, deinen Website-Traffic zu verfolgen, zu analysieren und zu verstehen, ohne die Privatsphäre deiner Nutzer zu verletzen."
                     },
                     "es": {
-                        "title": "Registrarse",
+                        "title": "Registrarse – Pirsch Analytics",
                         "meta_description": "Pirsch te permite rastrear, analizar y entender el tráfico de tu sitio web sin invadir la privacidad de tus usuarios."
                     },
                     "fr": {
-                        "title": "Inscription",
+                        "title": "Inscription – Pirsch Analytics",
                         "meta_description": "Pirsch vous permet de suivre, analyser et comprendre le trafic de votre site web sans envahir la vie privée de vos utilisateurs."
                     },
                     "nl": {
-                        "title": "Aanmelden",
+                        "title": "Aanmelden – Pirsch Analytics",
                         "meta_description": "Pirsch stelt je in staat om je websiteverkeer te volgen, analyseren en begrijpen zonder de privacy van je gebruikers te schenden."
                     },
                     "it": {
-                        "title": "Iscriviti",
+                        "title": "Iscriviti – Pirsch Analytics",
                         "meta_description": "Pirsch ti permette di monitorare, analizzare e comprendere il traffico del tuo sito web senza invadere la privacy dei tuoi utenti."
                     },
                     "pt": {
-                        "title": "Inscrever-se",
+                        "title": "Inscrever-se – Pirsch Analytics",
                         "meta_description": "Pirsch permite que você acompanhe, analise e entenda o tráfego do seu site sem invadir a privacidade dos seus usuários."
                     },
                     "ja": {
-                        "title": "サインアップ",
+                        "title": "サインアップ – Pirsch Analytics",
                         "meta_description": "Pirschは、ユーザーのプライバシーを侵害することなく、あなたのウェブサイトのトラフィックを追跡、分析、理解することを可能にします。"
                     }
                 }

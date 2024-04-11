@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "Privacy-friendly Web Analytics",
+                        "title": "Privacy-friendly Web Analytics – Pirsch Analytics",
                         "meta_description": "Pirsch has no-compromise, GDPR-, CCPA-, PECR-, and Schrems II-compliant privacy. Built and hosted in Germany, we operate under strict European privacy laws."
                     },
                     "de": {
-                        "title": "Datenschutzfreundliche Webanalyse",
+                        "title": "Datenschutzfreundliche Webanalyse – Pirsch Analytics",
                         "meta_description": "Pirsch bietet kompromisslose Privatsphäre, die GDPR-, CCPA-, PECR- und Schrems II-konform ist. Entwickelt und gehostet in Deutschland, arbeiten wir unter strengen europäischen Datenschutzgesetzen."
                     },
                     "es": {
-                        "title": "Analítica Web Amigable con la Privacidad",
+                        "title": "Analítica Web Amigable con la Privacidad – Pirsch Analytics",
                         "meta_description": "Pirsch tiene una privacidad sin compromisos, cumpliendo con GDPR, CCPA, PECR y Schrems II. Construido y alojado en Alemania, operamos bajo estrictas leyes europeas de privacidad."
                     },
                     "fr": {
-                        "title": "Analytique Web Respectueuse de la Vie Privée",
+                        "title": "Analytique Web Respectueuse de la Vie Privée – Pirsch Analytics",
                         "meta_description": "Pirsch offre une confidentialité sans compromis, conforme au GDPR, CCPA, PECR et Schrems II. Construit et hébergé en Allemagne, nous opérons sous des lois européennes strictes sur la vie privée."
                     },
                     "nl": {
-                        "title": "Privacyvriendelijke Webanalyse",
+                        "title": "Privacyvriendelijke Webanalyse – Pirsch Analytics",
                         "meta_description": "Pirsch heeft een compromisloze privacy, in overeenstemming met GDPR, CCPA, PECR en Schrems II. Gebouwd en gehost in Duitsland, werken we onder strikte Europese privacywetten."
                     },
                     "it": {
-                        "title": "Analisi Web Rispettosa della Privacy",
+                        "title": "Analisi Web Rispettosa della Privacy – Pirsch Analytics",
                         "meta_description": "Pirsch offre privacy senza compromessi, conforme a GDPR, CCPA, PECR e Schrems II. Costruito e ospitato in Germania, operiamo sotto rigide leggi europee sulla privacy."
                     },
                     "pt": {
-                        "title": "Análise Web Amigável à Privacidade",
+                        "title": "Análise Web Amigável à Privacidade – Pirsch Analytics",
                         "meta_description": "Pirsch possui privacidade sem compromissos, compatível com GDPR, CCPA, PECR e Schrems II. Construído e hospedado na Alemanha, operamos sob rígidas leis europeias de privacidade."
                     },
                     "ja": {
-                        "title": "プライバシーに配慮したウェブ分析",
+                        "title": "プライバシーに配慮したウェブ分析 – Pirsch Analytics",
                         "meta_description": "Pirschは妥協のないプライバシーを提供し、GDPR、CCPA、PECR、Schrems IIに準拠しています。ドイツで開発・ホスティングされ、厳格なヨーロッパのプライバシー法の下で運営されています。"
                     }
                 }

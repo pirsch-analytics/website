@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "The Best Google Analytics Alternative",
+                        "title": "The Best Google Analytics Alternative – Pirsch Analytics",
                         "meta_description": "Switch to Pirsch Analytics for a powerful, easy-to-use, and privacy-friendly alternative to Google Analytics."
                     },
                     "de": {
-                        "title": "Die beste Alternative zu Google Analytics",
+                        "title": "Die beste Alternative zu Google Analytics – Pirsch Analytics",
                         "meta_description": "Wechsle zu Pirsch Analytics für eine leistungsstarke, benutzerfreundliche und datenschutzfreundliche Alternative zu Google Analytics."
                     },
                     "es": {
-                        "title": "La mejor alternativa a Google Analytics",
+                        "title": "La mejor alternativa a Google Analytics – Pirsch Analytics",
                         "meta_description": "Cambia a Pirsch Analytics para una alternativa potente, fácil de usar y amigable con la privacidad a Google Analytics."
                     },
                     "fr": {
-                        "title": "La meilleure alternative à Google Analytics",
+                        "title": "La meilleure alternative à Google Analytics – Pirsch Analytics",
                         "meta_description": "Passez à Pirsch Analytics pour une alternative puissante, facile à utiliser et respectueuse de la vie privée à Google Analytics."
                     },
                     "nl": {
-                        "title": "De beste alternatief voor Google Analytics",
+                        "title": "De beste alternatief voor Google Analytics – Pirsch Analytics",
                         "meta_description": "Schakel over naar Pirsch Analytics voor een krachtig, gebruiksvriendelijk en privacyvriendelijk alternatief voor Google Analytics."
                     },
                     "it": {
-                        "title": "La migliore alternativa a Google Analytics",
+                        "title": "La migliore alternativa a Google Analytics – Pirsch Analytics",
                         "meta_description": "Passa a Pirsch Analytics per un'alternativa potente, facile da usare e rispettosa della privacy a Google Analytics."
                     },
                     "pt": {
-                        "title": "A melhor alternativa ao Google Analytics",
+                        "title": "A melhor alternativa ao Google Analytics – Pirsch Analytics",
                         "meta_description": "Mude para o Pirsch Analytics para uma alternativa poderosa, fácil de usar e amigável à privacidade ao Google Analytics."
                     },
                     "ja": {
-                        "title": "最良のGoogle Analytics代替品",
+                        "title": "最良のGoogle Analytics代替品 – Pirsch Analytics",
                         "meta_description": "プライバシーに優しい、強力で使いやすいGoogle Analyticsの代替品としてPirsch Analyticsに切り替えましょう。"
                     }
                 }

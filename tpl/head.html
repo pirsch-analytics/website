@@ -1,6 +1,6 @@
 {{- $title := pageTitle -}}
 {{- if (copy .Page .Content "title") -}}
-    {{$title = fmt "%s – %s" (copy .Page .Content "title") pageTitle}}
+    {{$title = copy .Page .Content "title"}}
 {{- end -}}
 {{- $metaDescription := copy .Page .Content "meta_description" -}}
 {{- if (copy .Page .Content "meta_description") -}}

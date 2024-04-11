@@ -19,35 +19,35 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Read about the experiences, stories, and tips on technology, design, and everything in between that we gathered while building the best Google Analytics alternative."
                     },
                     "de": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Lerne mehr über die Erfahrungen, Geschichten und Tipps zu Technologie, Design und allem dazwischen, die wir gesammelt haben, während wir die beste Alternative zu Google Analytics aufgebaut haben."
                         },
                     "es": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Lee sobre las experiencias, historias y consejos sobre tecnología, diseño y todo lo demás que hemos recopilado mientras construíamos la mejor alternativa a Google Analytics."
                     },
                     "fr": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Découvre les expériences, les histoires et les conseils sur la technologie, le design et tout ce qui se trouve entre les deux que nous avons rassemblés en construisant la meilleure alternative à Google Analytics."
                     },
                     "nl": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Lees over de ervaringen, verhalen en tips over technologie, ontwerp en alles daartussenin die we hebben verzameld tijdens het bouwen van de beste alternatief voor Google Analytics."
                     },
                     "it": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Scopri di più sulle esperienze, storie e suggerimenti su tecnologia, design e tutto ciò che sta in mezzo, che abbiamo raccolto mentre costruivamo la migliore alternativa a Google Analytics."
                     },
                     "pt": {
-                        "title": "Blog",
+                        "title": "Blog – Pirsch Analytics",
                         "meta_description": "Saiba mais sobre as experiências, histórias e dicas sobre tecnologia, design e tudo mais que reunimos enquanto construíamos a melhor alternativa ao Google Analytics."
                     },
                     "ja": {
-                        "title": "ブログ",
+                        "title": "ブログ – Pirsch Analytics",
                         "meta_description": "私たちがGoogle Analyticsの最良の代替手段を構築している間に集めた技術、デザイン、およびその間の経験、ストーリー、およびヒントについて読んでください。"
                     }
                 }

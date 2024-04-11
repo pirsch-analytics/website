@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "For Developers",
+                        "title": "For Developers – Pirsch Analytics",
                         "meta_description": "Pirsch is a web analytics tool designed for developers. A powerful RESTful API, SDKs, scripts, and server-side integration allow you to fit it in your website or app with ease."
                     },
                     "de": {
-                        "title": "Für Entwickler",
+                        "title": "Für Entwickler – Pirsch Analytics",
                         "meta_description": "Pirsch ist ein Webanalyse-Tool, das für Entwickler entwickelt wurde. Eine leistungsstarke RESTful API, SDKs, Skripte und serverseitige Integration ermöglichen es dir, es mühelos in deine Website oder App zu integrieren."
                     },
                     "es": {
-                        "title": "Para Desarrolladores",
+                        "title": "Para Desarrolladores – Pirsch Analytics",
                         "meta_description": "Pirsch es una herramienta de análisis web diseñada para desarrolladores. Una potente API RESTful, SDKs, scripts e integración del lado del servidor te permiten integrarla fácilmente en tu sitio web o aplicación."
                     },
                     "fr": {
-                        "title": "Pour les Développeurs",
+                        "title": "Pour les Développeurs – Pirsch Analytics",
                         "meta_description": "Pirsch est un outil d'analyse web conçu pour les développeurs. Une API RESTful puissante, des SDKs, des scripts et une intégration côté serveur vous permettent de l'intégrer facilement dans votre site web ou application."
                     },
                     "nl": {
-                        "title": "Voor Ontwikkelaars",
+                        "title": "Voor Ontwikkelaars – Pirsch Analytics",
                         "meta_description": "Pirsch is een webanalysetool ontworpen voor ontwikkelaars. Een krachtige RESTful API, SDKs, scripts en server-side integratie stellen je in staat om het gemakkelijk in je website of app te integreren."
                     },
                     "it": {
-                        "title": "Per Sviluppatori",
+                        "title": "Per Sviluppatori – Pirsch Analytics",
                         "meta_description": "Pirsch è uno strumento di analisi web progettato per gli sviluppatori. Una potente API RESTful, SDK, script e integrazione lato server ti permettono di integrarla facilmente nel tuo sito web o app."
                     },
                     "pt": {
-                        "title": "Para Desenvolvedores",
+                        "title": "Para Desenvolvedores – Pirsch Analytics",
                         "meta_description": "Pirsch é uma ferramenta de análise web projetada para desenvolvedores. Uma poderosa API RESTful, SDKs, scripts e integração do lado do servidor permitem que você a integre facilmente ao seu site ou aplicativo."
                     },
                     "ja": {
-                        "title": "開発者向け",
+                        "title": "開発者向け – Pirsch Analytics",
                         "meta_description": "Pirschは、開発者向けに設計されたWeb分析ツールです。強力なRESTful API、SDK、スクリプト、サーバーサイドの統合により、あなたのウェブサイトやアプリに簡単に組み込むことができます。"
                     }
                 }

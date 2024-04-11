@@ -12,10 +12,10 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "Legal Notice"
+                        "title": "Legal Notice – Pirsch Analytics"
                     },
                     "de": {
-                        "title": "Impressum"
+                        "title": "Impressum – Pirsch Analytics"
                     }
                 }
             },

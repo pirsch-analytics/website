@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "White Label Web Analytics",
+                        "title": "White Label Web Analytics – Pirsch Analytics",
                         "meta_description": "Pirsch is the only privacy-friendly web analytics tool with full white-labeling capabilities. Change colors, logos, and bring your own domain to provide or resell a customized experience."
                     },
                     "de": {
-                        "title": "White Label Webanalyse",
+                        "title": "White Label Webanalyse – Pirsch Analytics",
                         "meta_description": "Pirsch ist das einzige datenschutzfreundliche Webanalysetool mit vollständigen White-Label-Fähigkeiten. Ändere Farben, Logos und verwende deine eigene Domain, um ein angepasstes Erlebnis zu bieten oder weiterzuverkaufen."
                     },
                     "es": {
-                        "title": "Analítica Web de Marca Blanca",
+                        "title": "Analítica Web de Marca Blanca – Pirsch Analytics",
                         "meta_description": "Pirsch es la única herramienta de análisis web amigable con la privacidad con capacidades completas de marca blanca. Cambia colores, logotipos y trae tu propio dominio para proporcionar o revender una experiencia personalizada."
                     },
                     "fr": {
-                        "title": "Analytique Web en Marque Blanche",
+                        "title": "Analytique Web en Marque Blanche – Pirsch Analytics",
                         "meta_description": "Pirsch est le seul outil d'analytique web respectueux de la vie privée avec des capacités complètes de marque blanche. Modifiez les couleurs, les logos et utilisez votre propre domaine pour fournir ou revendre une expérience personnalisée."
                     },
                     "nl": {
-                        "title": "White Label Webanalyse",
+                        "title": "White Label Webanalyse – Pirsch Analytics",
                         "meta_description": "Pirsch is de enige privacyvriendelijke webanalysetool met volledige white-label-mogelijkheden. Verander kleuren, logo's en breng je eigen domein mee om een gepersonaliseerde ervaring te bieden of door te verkopen."
                     },
                     "it": {
-                        "title": "Analisi Web White Label",
+                        "title": "Analisi Web White Label – Pirsch Analytics",
                         "meta_description": "Pirsch è l'unico strumento di analisi web rispettoso della privacy con complete capacità di white labeling. Cambia colori, loghi e porta il tuo dominio per fornire o rivendere un'esperienza personalizzata."
                     },
                     "pt": {
-                        "title": "Análise Web White Label",
+                        "title": "Análise Web White Label – Pirsch Analytics",
                         "meta_description": "Pirsch é a única ferramenta de análise web amigável à privacidade com capacidades completas de marca branca. Altere cores, logotipos e traga seu próprio domínio para fornecer ou revender uma experiência personalizada."
                     },
                     "ja": {
-                        "title": "ホワイトラベルのウェブ分析",
+                        "title": "ホワイトラベルのウェブ分析 – Pirsch Analytics",
                         "meta_description": "Pirschは完全なホワイトラベル機能を備えた唯一のプライバシーに配慮したウェブ分析ツールです。色やロゴを変更し、独自のドメインを使用してカスタマイズされた体験を提供または販売します。"
                     }
                 }

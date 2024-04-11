@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "Simple Pricing",
+                        "title": "Simple Pricing – Pirsch Analytics",
                         "meta_description": "Discover the advantages of Pirsch Analytics with a 30-day free trial — no credit card needed. Sign up and gain access to powerful tools without any commitment."
                     },
                     "de": {
-                        "title": "Einfache Preisgestaltung",
+                        "title": "Einfache Preisgestaltung – Pirsch Analytics",
                         "meta_description": "Entdecke die Vorteile von Pirsch Analytics mit einer 30-tägigen kostenlosen Testversion – keine Kreditkarte nötig. Melde dich an und erhalte Zugang zu leistungsstarken Tools ohne Verpflichtungen."
                     },
                     "es": {
-                        "title": "Precios Simples",
+                        "title": "Precios Simples – Pirsch Analytics",
                         "meta_description": "Descubre las ventajas de Pirsch Analytics con una prueba gratuita de 30 días — no se necesita tarjeta de crédito. Regístrate y obtén acceso a herramientas poderosas sin ningún compromiso."
                     },
                     "fr": {
-                        "title": "Tarification Simple",
+                        "title": "Tarification Simple – Pirsch Analytics",
                         "meta_description": "Découvrez les avantages de Pirsch Analytics avec un essai gratuit de 30 jours — aucune carte de crédit nécessaire. Inscrivez-vous et accédez à des outils puissants sans aucun engagement."
                     },
                     "nl": {
-                        "title": "Eenvoudige Prijzen",
+                        "title": "Eenvoudige Prijzen – Pirsch Analytics",
                         "meta_description": "Ontdek de voordelen van Pirsch Analytics met een gratis proefperiode van 30 dagen — geen creditcard nodig. Schrijf je in en krijg toegang tot krachtige tools zonder enige verplichting."
                     },
                     "it": {
-                        "title": "Prezzi Semplici",
+                        "title": "Prezzi Semplici – Pirsch Analytics",
                         "meta_description": "Scopri i vantaggi di Pirsch Analytics con una prova gratuita di 30 giorni — nessuna carta di credito necessaria. Iscriviti e ottieni accesso a strumenti potenti senza alcun impegno."
                     },
                     "pt": {
-                        "title": "Preços Simples",
+                        "title": "Preços Simples – Pirsch Analytics",
                         "meta_description": "Descubra as vantagens do Pirsch Analytics com um teste gratuito de 30 dias — sem necessidade de cartão de crédito. Inscreva-se e ganhe acesso a ferramentas poderosas sem qualquer compromisso."
                     },
                     "ja": {
-                        "title": "シンプルな価格設定",
+                        "title": "シンプルな価格設定 – Pirsch Analytics",
                         "meta_description": "30日間の無料トライアルでPirsch Analyticsの利点を発見してください — クレジットカードは不要です。サインアップして、何のコミットメントもなく強力なツールにアクセスしましょう。"
                     }
                 }

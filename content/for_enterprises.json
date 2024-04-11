@@ -18,35 +18,35 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "For Enterprises",
+                        "title": "For Enterprises – Pirsch Analytics",
                         "meta_description": "Pirsch is the robust enterprise analytics platform that ensures compliance, simplicity, and powerful data insights, all with ease of use and accessibility."
                     },
                     "de": {
-                        "title": "Für Unternehmen",
+                        "title": "Für Unternehmen – Pirsch Analytics",
                         "meta_description": "Pirsch ist die robuste Analyseplattform für Unternehmen, die Konformität, Einfachheit und leistungsstarke Dateneinblicke gewährleistet, alles mit Benutzerfreundlichkeit und Zugänglichkeit."
                     },
                     "es": {
-                        "title": "Para Empresas",
+                        "title": "Para Empresas – Pirsch Analytics",
                         "meta_description": "Pirsch es la plataforma de análisis empresarial robusta que garantiza cumplimiento, simplicidad y potentes percepciones de datos, todo con facilidad de uso y accesibilidad."
                     },
                     "fr": {
-                        "title": "Pour les Entreprises",
+                        "title": "Pour les Entreprises – Pirsch Analytics",
                         "meta_description": "Pirsch est la plateforme d'analyse d'entreprise robuste qui assure la conformité, la simplicité et de puissantes perspectives de données, le tout avec facilité d'utilisation et accessibilité."
                     },
                     "nl": {
-                        "title": "Voor Bedrijven",
+                        "title": "Voor Bedrijven – Pirsch Analytics",
                         "meta_description": "Pirsch is het robuuste platform voor bedrijfsanalyse dat naleving, eenvoud en krachtige data-inzichten garandeert, allemaal met gebruiksgemak en toegankelijkheid."
                     },
                     "it": {
-                        "title": "Per le Imprese",
+                        "title": "Per le Imprese – Pirsch Analytics",
                         "meta_description": "Pirsch è la robusta piattaforma di analisi aziendale che garantisce conformità, semplicità e potenti intuizioni sui dati, tutto con facilità di uso e accessibilità."
                     },
                     "pt": {
-                        "title": "Para Empresas",
+                        "title": "Para Empresas – Pirsch Analytics",
                         "meta_description": "Pirsch é a robusta plataforma de análise empresarial que garante conformidade, simplicidade e insights poderosos de dados, tudo com facilidade de uso e acessibilidade."
                     },
                     "ja": {
-                        "title": "企業向け",
+                        "title": "企業向け – Pirsch Analytics",
                         "meta_description": "Pirschは、コンプライアンス、シンプルさ、強力なデータ洞察を保証する堅牢なエンタープライズ分析プラットフォームであり、使いやすさとアクセシビリティを備えています。"
                     }
                 }
