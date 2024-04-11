@@ -12,6 +12,7 @@ header {
     transition: height .1s ease;
 
     &:before {
+        -webkit-backdrop-filter: var(--backdrop-filter-glass);
         z-index: -1;
         position: absolute;
         top: 0;
@@ -90,6 +91,7 @@ header {
                 }
 
                 .dropdown-content {
+                    -webkit-backdrop-filter: var(--backdrop-filter-glass);
                     display: flex;
                     position: absolute;
                     top: 100%;
@@ -176,6 +178,7 @@ header {
                     }
 
                     .dropdown-content {
+                        -webkit-backdrop-filter: none;
                         position: initial;
                         align-items: center;
                         max-height: none;

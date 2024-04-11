@@ -1,4 +1,5 @@
 .card {
+    -webkit-backdrop-filter: var(--backdrop-filter-glass);
     display: flex;
     flex-direction: column;
     justify-content: stretch;

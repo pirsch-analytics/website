@@ -69,7 +69,5 @@ img[width][height] {
 }
   
 img[src$=".svg"] {
-    width: 100%;
-    max-width: none;
     height: auto;
 }

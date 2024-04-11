@@ -87,8 +87,6 @@ img[width][height] {
 }
 
 img[src$=".svg"] {
-  width: 100%;
-  max-width: none;
   height: auto;
 }
 
@@ -626,6 +624,7 @@ button.grey, .button.grey {
 }
 
 .card {
+  -webkit-backdrop-filter: var(--backdrop-filter-glass);
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -889,6 +888,7 @@ section.content {
   margin-bottom: var(--padding-extra-large);
 }
 section.content .nummeration {
+  -webkit-backdrop-filter: var(--backdrop-filter-glass);
   display: flex;
   align-items: center;
   height: 40px;
@@ -999,6 +999,7 @@ section.features {
   padding-top: var(--padding-extra-large);
 }
 section.features h2 {
+  -webkit-backdrop-filter: var(--backdrop-filter-glass);
   display: flex;
   align-items: center;
   height: 64px;
@@ -1181,12 +1182,15 @@ section.form .h-captcha-container .h-captcha iframe {
   transform: translate(-75%, 0);
 }
 .gradient-container .gradient.white {
+  background: -webkit-radial-gradient(ellipse closest-side, hsla(0, 0%, 100%, 0.15) 0%, hsla(0, 0%, 100%, 0.148) 8.1%, hsla(0, 0%, 100%, 0.143) 15.5%, hsla(0, 0%, 100%, 0.134) 22.5%, hsla(0, 0%, 100%, 0.124) 29%, hsla(0, 0%, 100%, 0.111) 35.3%, hsla(0, 0%, 100%, 0.097) 41.2%, hsla(0, 0%, 100%, 0.082) 47.1%, hsla(0, 0%, 100%, 0.068) 52.9%, hsla(0, 0%, 100%, 0.053) 58.8%, hsla(0, 0%, 100%, 0.039) 64.7%, hsla(0, 0%, 100%, 0.026) 71%, hsla(0, 0%, 100%, 0.016) 77.5%, hsla(0, 0%, 100%, 0.007) 84.5%, hsla(0, 0%, 100%, 0.002) 91.9%, hsla(0, 0%, 100%, 0) 100%);
   background: radial-gradient(ellipse closest-side, hsla(0, 0%, 100%, 0.15) 0%, hsla(0, 0%, 100%, 0.148) 8.1%, hsla(0, 0%, 100%, 0.143) 15.5%, hsla(0, 0%, 100%, 0.134) 22.5%, hsla(0, 0%, 100%, 0.124) 29%, hsla(0, 0%, 100%, 0.111) 35.3%, hsla(0, 0%, 100%, 0.097) 41.2%, hsla(0, 0%, 100%, 0.082) 47.1%, hsla(0, 0%, 100%, 0.068) 52.9%, hsla(0, 0%, 100%, 0.053) 58.8%, hsla(0, 0%, 100%, 0.039) 64.7%, hsla(0, 0%, 100%, 0.026) 71%, hsla(0, 0%, 100%, 0.016) 77.5%, hsla(0, 0%, 100%, 0.007) 84.5%, hsla(0, 0%, 100%, 0.002) 91.9%, hsla(0, 0%, 100%, 0) 100%);
 }
 .gradient-container .gradient.green {
+  background: -webkit-radial-gradient(ellipse closest-side, hsla(149, 49%, 62%, 0.15) 0%, hsla(149, 49%, 62%, 0.148) 8.1%, hsla(149, 49%, 62%, 0.143) 15.5%, hsla(149, 49%, 62%, 0.134) 22.5%, hsla(149, 49%, 62%, 0.124) 29%, hsla(149, 49%, 62%, 0.111) 35.3%, hsla(149, 49%, 62%, 0.097) 41.2%, hsla(149, 49%, 62%, 0.082) 47.1%, hsla(149, 49%, 62%, 0.068) 52.9%, hsla(149, 49%, 62%, 0.053) 58.8%, hsla(149, 49%, 62%, 0.039) 64.7%, hsla(149, 49%, 62%, 0.026) 71%, hsla(149, 49%, 62%, 0.016) 77.5%, hsla(149, 49%, 62%, 0.007) 84.5%, hsla(149, 49%, 62%, 0.002) 91.9%, hsla(149, 49%, 62%, 0) 100%);
   background: radial-gradient(ellipse closest-side, hsla(149, 49%, 62%, 0.15) 0%, hsla(149, 49%, 62%, 0.148) 8.1%, hsla(149, 49%, 62%, 0.143) 15.5%, hsla(149, 49%, 62%, 0.134) 22.5%, hsla(149, 49%, 62%, 0.124) 29%, hsla(149, 49%, 62%, 0.111) 35.3%, hsla(149, 49%, 62%, 0.097) 41.2%, hsla(149, 49%, 62%, 0.082) 47.1%, hsla(149, 49%, 62%, 0.068) 52.9%, hsla(149, 49%, 62%, 0.053) 58.8%, hsla(149, 49%, 62%, 0.039) 64.7%, hsla(149, 49%, 62%, 0.026) 71%, hsla(149, 49%, 62%, 0.016) 77.5%, hsla(149, 49%, 62%, 0.007) 84.5%, hsla(149, 49%, 62%, 0.002) 91.9%, hsla(149, 49%, 62%, 0) 100%);
 }
 .gradient-container .gradient.yellow {
+  background: -webkit-radial-gradient(ellipse closest-side, hsla(45, 99%, 71%, 0.15) 0%, hsla(45, 99%, 71%, 0.148) 8.1%, hsla(45, 99%, 71%, 0.143) 15.5%, hsla(45, 99%, 71%, 0.134) 22.5%, hsla(45, 99%, 71%, 0.124) 29%, hsla(45, 99%, 71%, 0.111) 35.3%, hsla(45, 99%, 71%, 0.097) 41.2%, hsla(45, 99%, 71%, 0.082) 47.1%, hsla(45, 99%, 71%, 0.068) 52.9%, hsla(45, 99%, 71%, 0.053) 58.8%, hsla(45, 99%, 71%, 0.039) 64.7%, hsla(45, 99%, 71%, 0.026) 71%, hsla(45, 99%, 71%, 0.016) 77.5%, hsla(45, 99%, 71%, 0.007) 84.5%, hsla(45, 99%, 71%, 0.002) 91.9%, hsla(45, 99%, 71%, 0) 100%);
   background: radial-gradient(ellipse closest-side, hsla(45, 99%, 71%, 0.15) 0%, hsla(45, 99%, 71%, 0.148) 8.1%, hsla(45, 99%, 71%, 0.143) 15.5%, hsla(45, 99%, 71%, 0.134) 22.5%, hsla(45, 99%, 71%, 0.124) 29%, hsla(45, 99%, 71%, 0.111) 35.3%, hsla(45, 99%, 71%, 0.097) 41.2%, hsla(45, 99%, 71%, 0.082) 47.1%, hsla(45, 99%, 71%, 0.068) 52.9%, hsla(45, 99%, 71%, 0.053) 58.8%, hsla(45, 99%, 71%, 0.039) 64.7%, hsla(45, 99%, 71%, 0.026) 71%, hsla(45, 99%, 71%, 0.016) 77.5%, hsla(45, 99%, 71%, 0.007) 84.5%, hsla(45, 99%, 71%, 0.002) 91.9%, hsla(45, 99%, 71%, 0) 100%);
 }
 
@@ -1260,6 +1264,7 @@ header {
   transition: height 0.1s ease;
 }
 header:before {
+  -webkit-backdrop-filter: var(--backdrop-filter-glass);
   z-index: -1;
   position: absolute;
   top: 0;
@@ -1334,6 +1339,7 @@ header .header-content nav .dropdown .dropdown-button svg {
   transition: transform 0.1s ease;
 }
 header .header-content nav .dropdown .dropdown-content {
+  -webkit-backdrop-filter: var(--backdrop-filter-glass);
   display: flex;
   position: absolute;
   top: 100%;
@@ -1416,6 +1422,7 @@ header .header-content .icon {
     display: none;
   }
   header .header-content nav .dropdown .dropdown-content {
+    -webkit-backdrop-filter: none;
     position: initial;
     align-items: center;
     max-height: none;
@@ -1831,6 +1838,7 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
   width: 100%;
   height: 100%;
   transform-origin: center;
+  background: -webkit-radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -1855,6 +1863,7 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
 }
 
 .mask-radial {
+  mask: -webkit-radial-gradient(ellipse closest-side, rgb(0, 0, 0) 0, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0.5) 100%);
   mask: radial-gradient(ellipse closest-side, rgb(0, 0, 0) 0, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0.5) 100%);
 }
 

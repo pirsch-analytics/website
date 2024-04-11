@@ -2,6 +2,7 @@ section.content {
     margin-bottom: var(--padding-extra-large);
 
     .nummeration {
+        -webkit-backdrop-filter: var(--backdrop-filter-glass);
         display: flex;
         align-items: center;
         height: 40px;

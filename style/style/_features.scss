@@ -3,6 +3,7 @@ section.features {
     padding-top: var(--padding-extra-large);
 
     h2 {
+        -webkit-backdrop-filter: var(--backdrop-filter-glass);
         display: flex;
         align-items: center;
         height: 64px;
