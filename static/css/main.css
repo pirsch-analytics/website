@@ -891,7 +891,9 @@ section.content .nummeration {
   -webkit-backdrop-filter: var(--backdrop-filter-glass);
   display: flex;
   align-items: center;
+  max-width: 100%;
   height: 40px;
+  overflow: hidden;
   border-radius: 20px;
   backdrop-filter: var(--backdrop-filter-glass);
   background-color: var(--color-background-elevation);
@@ -901,6 +903,7 @@ section.content .nummeration .number {
   align-items: center;
   justify-content: center;
   width: 40px;
+  min-width: 40px;
   height: 40px;
   border-radius: 20px;
   background-color: var(--color-background-elevation);
@@ -908,10 +911,13 @@ section.content .nummeration .number {
 }
 section.content .nummeration .text {
   padding: 0 24px 0 16px;
+  overflow: hidden;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 4px;
+  text-overflow: ellipsis;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 @media only screen and (max-width: 1024px) {
   section.content .nummeration {
@@ -919,6 +925,7 @@ section.content .nummeration .text {
   }
   section.content .nummeration .number {
     width: 32px;
+    min-width: 32px;
     height: 32px;
     font-size: 14px;
   }
