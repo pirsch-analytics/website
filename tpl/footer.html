@@ -24,27 +24,15 @@
 
                 <script>
                     const translations = new Map;
-
-                    
-                        translations.set("de", "https:\/\/pirsch.io\/de");
-                    
-                        translations.set("es", "https:\/\/pirsch.io\/es");
-                    
-                        translations.set("fr", "https:\/\/pirsch.io\/fr");
-                    
-                        translations.set("nl", "https:\/\/pirsch.io\/nl");
-                    
-                        translations.set("it", "https:\/\/pirsch.io\/it");
-                    
-                        translations.set("pt", "https:\/\/pirsch.io\/pt");
-                    
-                        translations.set("ja", "https:\/\/pirsch.io\/ja");
-                    
-                        translations.set("en", "https:\/\/pirsch.io\/");
-                    
-                        translations.set("x-default", "https:\/\/pirsch.io");
-                    
-
+                    translations.set("de", "/de");
+                    translations.set("es", "/es");
+                    translations.set("fr", "/fr");
+                    translations.set("nl", "/nl");
+                    translations.set("it", "/it");
+                    translations.set("pt", "/pt");
+                    translations.set("ja", "/ja");
+                    translations.set("en", "/");
+                    translations.set("x-default", "/");
                     const langSelect = document.getElementById("language");
 
                     function getCookie(cookie) {
@@ -74,7 +62,7 @@
                         langSelect.value = getCookie("language") || document.documentElement.lang;
 
                         if(langSelect.value !== "en" && !location.pathname.startsWith("/"+langSelect.value)) {
-                            location = translations.get(langSelect.value);
+                            location = `{{hostname}}${translations.get(langSelect.value)}`;
                             return;
                         }
 
@@ -84,7 +72,7 @@
 
                             if(value !== current) {
                                 setCookie("language", value);
-                                location = translations.get(value);
+                                location = `{{hostname}}${translations.get(value)}`;
                             }
                         });
                     });

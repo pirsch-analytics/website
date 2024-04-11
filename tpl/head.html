@@ -6,9 +6,9 @@
 {{- if (copy .Page .Content "meta_description") -}}
     {{- $metaDescription = (copy .Page .Content "meta_description") -}}
 {{- end -}}
-{{- $previewImage := "https://pirsch.io/static/img/og-image.png" -}}
+{{- $previewImage := fmt "%s/static/img/og-image.png" hostname -}}
 {{- if (get .Content "preview_img") -}}
-    {{- $previewImage = (get .Content "preview_img") -}}
+    {{- $previewImage = fmt "%s%s" hostname (get .Content "preview_img") -}}
 {{- end -}}
 <!DOCTYPE html>
 <html lang="{{.Page.Language}}">
@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="{{$title}}" />
     <meta name="twitter:description" content="{{$metaDescription}}" />
     <meta name="twitter:image" content="{{$previewImage}}" />
-    <meta property="og:url" content="https://pirsch.io/" />
+    <meta property="og:url" content="{{hostname}}" />
     <meta property="og:title" content="{{$title}}" />
     <meta property="og:site_name" content="Pirsch Analytics" />
     <meta property="og:description" content="{{$metaDescription}}" />
