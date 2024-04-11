@@ -3,8 +3,8 @@
         <div class="gradient-container" style="top: calc((var(--padding-extra-large) - var(--padding-medium) - var(--header-height)) * -1);">
             <div class="gradient green"></div>
         </div>
-        <h1 class="h2">Blog</h1>
-        <p>Read about the experiences, stories, and tips on technology, design, and everything in between that we gathered while building the best Google Analytics alternative.</p>
+        <h1 class="h2">{{html (copy .Page .Content "headline")}}</h1>
+        <p>{{html (copy .Page .Content "text")}}</p>
         <div class="grid one-one">
             {{.CMS.Render .Page (index .Content.Content "content")}}
         </div>
