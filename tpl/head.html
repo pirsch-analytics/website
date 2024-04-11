@@ -34,7 +34,7 @@
     <meta property="og:site_name" content="Pirsch Analytics" />
     <meta property="og:description" content="{{$metaDescription}}" />
     <meta property="og:image" content="{{$previewImage}}" />
-    {{- if (get .Content "preview_img") -}}
+    {{- if (get .Page "preview_img") -}}
         <meta property="og:type" content="article" />
     {{- end -}}
     <meta name="msapplication-TileColor" content="#f8f5ed" />
