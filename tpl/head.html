@@ -1,13 +1,9 @@
 {{- $title := pageTitle -}}
-{{- if (copy .Page .Page "title") -}}
-    {{$title = fmt "%s – %s" (copy .Page .Page "title") pageTitle}}
-{{- else if (copy .Page .Content "title") -}}
+{{- if (copy .Page .Content "title") -}}
     {{$title = fmt "%s – %s" (copy .Page .Content "title") pageTitle}}
 {{- end -}}
 {{- $metaDescription := copy .Page .Content "meta_description" -}}
-{{- if (copy .Page .Page "meta_description") -}}
-    {{- $metaDescription = (copy .Page .Page "meta_description") -}}
-{{- else if (copy .Page .Content "meta_description") -}}
+{{- if (copy .Page .Content "meta_description") -}}
     {{- $metaDescription = (copy .Page .Content "meta_description") -}}
 {{- end -}}
 {{- $previewImage := fmt "%s/static/img/og-image.png" hostname -}}
