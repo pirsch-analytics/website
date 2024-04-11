@@ -1,7 +1,13 @@
 {
     "path": {
         "en": "/for-agencies",
-        "de": "/de/for-agencies"
+        "de": "/de/for-agencies",
+        "es": "/es/for-agencies",
+        "fr": "/fr/for-agencies",
+        "nl": "/nl/for-agencies",
+        "it": "/it/for-agencies",
+        "pt": "/pt/for-agencies",
+        "ja": "/ja/for-agencies"
     },
     "sitemap": {
         "priority": "0.5"
@@ -14,6 +20,34 @@
                     "en": {
                         "title": "For Agencies",
                         "meta_description": "Pirsch is a privacy-friendly web analytics tool designed for agencies and freelancers. It's your one-stop platform to communicate website statistics and marketing efforts to your team and clients."
+                    },
+                    "de": {
+                        "title": "Für Agenturen",
+                        "meta_description": "Pirsch ist ein datenschutzfreundliches Webanalyse-Tool, das für Agenturen und Freiberufler entwickelt wurde. Es ist deine zentrale Plattform, um Analysen mit deinem Team und deinen Kunden zu kommunizieren."
+                    },
+                    "es": {
+                        "title": "Para Agencias",
+                        "meta_description": "Pirsch es una herramienta de análisis web amigable con la privacidad, diseñada para agencias y freelancers. Es tu plataforma única para comunicar estadísticas de sitios web y esfuerzos de marketing a tu equipo y clientes."
+                    },
+                    "fr": {
+                        "title": "Pour les Agences",
+                        "meta_description": "Pirsch est un outil d'analyse web respectueux de la vie privée, conçu pour les agences et les freelancers. C'est votre plateforme unique pour communiquer les statistiques de site web et les efforts de marketing à votre équipe et à vos clients."
+                    },
+                    "nl": {
+                        "title": "Voor Agentschappen",
+                        "meta_description": "Pirsch is een privacyvriendelijke webanalysetool ontworpen voor agentschappen en freelancers. Het is jouw alles-in-één platform om website statistieken en marketinginspanningen te communiceren met je team en klanten."
+                    },
+                    "it": {
+                        "title": "Per le Agenzie",
+                        "meta_description": "Pirsch è uno strumento di analisi web rispettoso della privacy, progettato per agenzie e freelancer. È la tua piattaforma unica per comunicare statistiche del sito web e sforzi di marketing al tuo team e ai tuoi clienti."
+                    },
+                    "pt": {
+                        "title": "Para Agências",
+                        "meta_description": "Pirsch é uma ferramenta de análise web amigável à privacidade, projetada para agências e freelancers. É sua plataforma única para comunicar estatísticas de sites e esforços de marketing à sua equipe e clientes."
+                    },
+                    "ja": {
+                        "title": "代理店向け",
+                        "meta_description": "Pirschは、代理店およびフリーランサー向けに設計されたプライバシーに配慮したウェブ分析ツールです。ウェブサイトの統計とマーケティング努力をチームおよびクライアントに伝えるためのワンストッププラットフォームです。"
                     }
                 }
             },
@@ -32,7 +66,7 @@
                     "de": {
                         "headline": "Die All-in-One Analyseplattform für Agenturen und Freiberufler",
                         "headline_class": "h2",
-                        "text": "Pirsch ist ein datenschutzfreundliches Webanalyse-Tool, das speziell für Agenturen und Freiberufler entwickelt wurde. Es ist deine zentrale Plattform, um Analysen mit deinem Team und deinen Kunden zu kommunizieren.",
+                        "text": "Pirsch ist ein datenschutzfreundliches Webanalyse-Tool, das für Agenturen und Freiberufler entwickelt wurde. Es ist deine zentrale Plattform, um Analysen mit deinem Team und deinen Kunden zu kommunizieren.",
                         "action_primary": "30 Tage kostenlos testen",
                         "action_secondary": "Live-Demo ansehen",
                         "customers_text": "Vertraut von über 500 Kunden"
@@ -48,7 +82,7 @@
                     "fr": {
                         "headline": "La plateforme d'analyse tout-en-un pour les agences et les freelancers",
                         "headline_class": "h2",
-                        "text": "Pirsch est un outil d'analyse web respectueux de la vie privée, conçu pour les agences et les freelancers. C'est votre plateforme unique pour communiquer les analyses à votre équipe et à vos clients.",
+                        "text": "Pirsch est un outil d'analyse web respectueux de la vie privée, conçu pour les agences et les freelancers. C'est votre plateforme unique pour communiquer les analyses à votre équipe et vos clients.",
                         "action_primary": "Commencez votre essai gratuit",
                         "action_secondary": "Voir la démo en direct",
                         "customers_text": "Fait confiance par plus de 500 clients"
@@ -56,7 +90,7 @@
                     "nl": {
                         "headline": "Het alles-in-één analyseplatform voor bureaus en freelancers",
                         "headline_class": "h2",
-                        "text": "Pirsch is een privacyvriendelijke webanalysetool, ontworpen voor bureaus en freelancers. Het is jouw one-stop platform om analyses te communiceren met je team en klanten.",
+                        "text": "Pirsch is een privacyvriendelijke webanalysetool ontworpen voor bureaus en freelancers. Het is jouw alles-in-één platform om analyses te communiceren met je team en klanten.",
                         "action_primary": "Start je gratis proefperiode",
                         "action_secondary": "Bekijk de live demo",
                         "customers_text": "Vertrouwd door meer dan 500 klanten"
@@ -64,15 +98,15 @@
                     "it": {
                         "headline": "La piattaforma di analisi all-in-one per agenzie e freelancer",
                         "headline_class": "h2",
-                        "text": "Pirsch è uno strumento di analisi web rispettoso della privacy, progettato per agenzie e freelancer. È la tua piattaforma unica per comunicare le analisi al tuo team e ai tuoi clienti.",
+                        "text": "Pirsch è uno strumento di analisi web rispettoso della privacy, progettato per agenzie e freelancer. È la tua piattaforma unica per comunicare analisi al tuo team e ai tuoi clienti.",
                         "action_primary": "Inizia la tua prova gratuita",
-                        "action_secondary": "Visualizza la demo dal vivo",
+                        "action_secondary": "Guarda la demo dal vivo",
                         "customers_text": "Fidato da oltre 500 clienti"
                     },
                     "pt": {
                         "headline": "A plataforma de análise tudo-em-um para agências e freelancers",
                         "headline_class": "h2",
-                        "text": "Pirsch é uma ferramenta de análise web amigável à privacidade, projetada para agências e freelancers. É a sua plataforma única para comunicar análises à sua equipe e clientes.",
+                        "text": "Pirsch é uma ferramenta de análise web amigável à privacidade, projetada para agências e freelancers. É sua plataforma única para comunicar análises à sua equipe e clientes.",
                         "action_primary": "Comece seu teste gratuito",
                         "action_secondary": "Ver demonstração ao vivo",
                         "customers_text": "Confiável por mais de 500 clientes"
@@ -80,7 +114,7 @@
                     "ja": {
                         "headline": "代理店とフリーランサーのためのワンストップアナリティクスプラットフォーム",
                         "headline_class": "h2",
-                        "text": "Pirschは、代理店とフリーランサー向けに設計されたプライバシーに配慮したウェブアナリティクスツールです。チームやクライアントにアナリティクスを伝えるためのワンストッププラットフォームです。",
+                        "text": "Pirschは、代理店とフリーランサー向けに設計されたプライバシーに配慮したウェブ分析ツールです。チームやクライアントに分析情報を伝えるためのワンストッププラットフォームです。",
                         "action_primary": "無料トライアルを始める",
                         "action_secondary": "ライブデモを見る",
                         "customers_text": "500人以上の顧客に信頼されています"

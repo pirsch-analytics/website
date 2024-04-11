@@ -19,7 +19,7 @@
                 "copy": {
                     "en": {
                         "title": "Simple Pricing",
-                        "meta_description": "iscover the advantages of Pirsch Analytics with a 30-day free trial — no credit card needed. Sign up and gain access to powerful tools without any commitment."
+                        "meta_description": "Discover the advantages of Pirsch Analytics with a 30-day free trial — no credit card needed. Sign up and gain access to powerful tools without any commitment."
                     },
                     "de": {
                         "title": "Einfache Preisgestaltung",
@@ -49,7 +49,6 @@
                         "title": "シンプルな価格設定",
                         "meta_description": "30日間の無料トライアルでPirsch Analyticsの利点を発見してください — クレジットカードは不要です。サインアップして、何のコミットメントもなく強力なツールにアクセスしましょう。"
                     }
-
                 }
             },
             {"ref": "header"},

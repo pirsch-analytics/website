@@ -1,14 +1,56 @@
 {
     "path": {
         "en": "/for-developers",
-        "de": "/de/for-developers"
+        "de": "/de/for-developers",
+        "es": "/es/for-developers",
+        "fr": "/fr/for-developers",
+        "nl": "/nl/for-developers",
+        "it": "/it/for-developers",
+        "pt": "/pt/for-developers",
+        "ja": "/ja/for-developers"
     },
     "sitemap": {
         "priority": "0.5"
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "For Developers",
+                        "meta_description": "Pirsch is a web analytics tool designed for developers. A powerful RESTful API, SDKs, scripts, and server-side integration allow you to fit it in your website or app with ease."
+                    },
+                    "de": {
+                        "title": "Für Entwickler",
+                        "meta_description": "Pirsch ist ein Webanalyse-Tool, das für Entwickler entwickelt wurde. Eine leistungsstarke RESTful API, SDKs, Skripte und serverseitige Integration ermöglichen es dir, es mühelos in deine Website oder App zu integrieren."
+                    },
+                    "es": {
+                        "title": "Para Desarrolladores",
+                        "meta_description": "Pirsch es una herramienta de análisis web diseñada para desarrolladores. Una potente API RESTful, SDKs, scripts e integración del lado del servidor te permiten integrarla fácilmente en tu sitio web o aplicación."
+                    },
+                    "fr": {
+                        "title": "Pour les Développeurs",
+                        "meta_description": "Pirsch est un outil d'analyse web conçu pour les développeurs. Une API RESTful puissante, des SDKs, des scripts et une intégration côté serveur vous permettent de l'intégrer facilement dans votre site web ou application."
+                    },
+                    "nl": {
+                        "title": "Voor Ontwikkelaars",
+                        "meta_description": "Pirsch is een webanalysetool ontworpen voor ontwikkelaars. Een krachtige RESTful API, SDKs, scripts en server-side integratie stellen je in staat om het gemakkelijk in je website of app te integreren."
+                    },
+                    "it": {
+                        "title": "Per Sviluppatori",
+                        "meta_description": "Pirsch è uno strumento di analisi web progettato per gli sviluppatori. Una potente API RESTful, SDK, script e integrazione lato server ti permettono di integrarla facilmente nel tuo sito web o app."
+                    },
+                    "pt": {
+                        "title": "Para Desenvolvedores",
+                        "meta_description": "Pirsch é uma ferramenta de análise web projetada para desenvolvedores. Uma poderosa API RESTful, SDKs, scripts e integração do lado do servidor permitem que você a integre facilmente ao seu site ou aplicativo."
+                    },
+                    "ja": {
+                        "title": "開発者向け",
+                        "meta_description": "Pirschは、開発者向けに設計されたWeb分析ツールです。強力なRESTful API、SDK、スクリプト、サーバーサイドの統合により、あなたのウェブサイトやアプリに簡単に組み込むことができます。"
+                    }
+                }
+            },
             {"ref": "header"},
             {
                 "tpl": "hero",
@@ -20,6 +62,62 @@
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
                         "customers_text": "Trusted by 500+ Customers"
+                    },
+                    "de": {
+                        "headline": "Leistungsfähige Webanalyse für Entwickler",
+                        "headline_class": "h2",
+                        "text": "Pirsch ist ein Webanalyse-Tool, das für Entwickler entwickelt wurde. Eine leistungsstarke RESTful API, SDKs, Skripte und serverseitige Integration ermöglichen es dir, es mühelos in deine Website oder App zu integrieren.",
+                        "action_primary": "30 Tage kostenlos testen",
+                        "action_secondary": "Live-Demo ansehen",
+                        "customers_text": "Vertraut von über 500 Kunden"
+                    },
+                    "es": {
+                        "headline": "Análisis web competente para desarrolladores",
+                        "headline_class": "h2",
+                        "text": "Pirsch es una herramienta de análisis web diseñada para desarrolladores. Una potente API RESTful, SDKs, scripts e integración del lado del servidor te permiten integrarla fácilmente en tu sitio web o aplicación.",
+                        "action_primary": "Comienza tu prueba gratuita",
+                        "action_secondary": "Ver demostración en vivo",
+                        "customers_text": "Confiado por más de 500 clientes"
+                    },
+                    "fr": {
+                        "headline": "Analytique web performante pour les développeurs",
+                        "headline_class": "h2",
+                        "text": "Pirsch est un outil d'analyse web conçu pour les développeurs. Une API RESTful puissante, des SDKs, des scripts et une intégration côté serveur vous permettent de l'intégrer facilement dans votre site web ou application.",
+                        "action_primary": "Commencez votre essai gratuit",
+                        "action_secondary": "Voir la démo en direct",
+                        "customers_text": "Fait confiance par plus de 500 clients"
+                    },
+                    "nl": {
+                        "headline": "Competente webanalyse voor ontwikkelaars",
+                        "headline_class": "h2",
+                        "text": "Pirsch is een webanalysetool ontworpen voor ontwikkelaars. Een krachtige RESTful API, SDKs, scripts en server-side integratie stellen je in staat om het gemakkelijk in je website of app te integreren.",
+                        "action_primary": "Start je gratis proefperiode",
+                        "action_secondary": "Bekijk de live demo",
+                        "customers_text": "Vertrouwd door meer dan 500 klanten"
+                    },
+                    "it": {
+                        "headline": "Analisi web efficace per sviluppatori",
+                        "headline_class": "h2",
+                        "text": "Pirsch è uno strumento di analisi web progettato per gli sviluppatori. Una potente API RESTful, SDK, script e integrazione lato server ti permettono di integrarla facilmente nel tuo sito web o app.",
+                        "action_primary": "Inizia la tua prova gratuita",
+                        "action_secondary": "Guarda la demo dal vivo",
+                        "customers_text": "Fidato da oltre 500 clienti"
+                    },
+                    "pt": {
+                        "headline": "Análise web capaz para desenvolvedores",
+                        "headline_class": "h2",
+                        "text": "Pirsch é uma ferramenta de análise web projetada para desenvolvedores. Uma poderosa API RESTful, SDKs, scripts e integração do lado do servidor permitem que você a integre facilmente ao seu site ou aplicativo.",
+                        "action_primary": "Comece seu teste gratuito",
+                        "action_secondary": "Ver demonstração ao vivo",
+                        "customers_text": "Confiável por mais de 500 clientes"
+                    },
+                    "ja": {
+                        "headline": "開発者のための優れたWeb分析",
+                        "headline_class": "h2",
+                        "text": "Pirschは、開発者向けに設計されたWeb分析ツールです。強力なRESTful API、SDK、スクリプト、サーバーサイドの統合により、あなたのウェブサイトやアプリに簡単に組み込むことができます。",
+                        "action_primary": "無料トライアルを始める",
+                        "action_secondary": "ライブデモを見る",
+                        "customers_text": "500人以上の顧客に信頼されています"
                     }
                 }
             },
@@ -33,6 +131,27 @@
                 "copy": {
                     "en": {
                         "headline": "Integrate It Your Way"
+                    },
+                    "de": {
+                        "headline": "Integriere es auf deine Weise"
+                    },
+                    "es": {
+                        "headline": "Intégralo a tu manera"
+                    },
+                    "fr": {
+                        "headline": "Intégrez-le à votre façon"
+                    },
+                    "nl": {
+                        "headline": "Integreer het op jouw manier"
+                    },
+                    "it": {
+                        "headline": "Integratelo a modo vostro"
+                    },
+                    "pt": {
+                        "headline": "Integre-o à sua maneira"
+                    },
+                    "ja": {
+                        "headline": "自分流に統合する"
                     }
                 },
                 "content": {
@@ -57,6 +176,34 @@
                                                         "en": {
                                                             "headline": "Easy-to-use Snippet",
                                                             "text": "Pirsch provides a lightweight, drop-in JavaScript snippet that is compatible with most frameworks, website builders, and content management systems."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Einfach zu verwendendes Snippet",
+                                                            "text": "Pirsch bietet ein leichtes, sofort einsetzbares JavaScript-Snippet, das mit den meisten Frameworks, Website-Baukästen und Content-Management-Systemen kompatibel ist."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Fragmento fácil de usar",
+                                                            "text": "Pirsch proporciona un fragmento de JavaScript ligero y fácil de integrar que es compatible con la mayoría de los frameworks, constructores de sitios web y sistemas de gestión de contenidos."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Extrait facile à utiliser",
+                                                            "text": "Pirsch fournit un extrait JavaScript léger et prêt à l'emploi compatible avec la plupart des frameworks, des constructeurs de sites web et des systèmes de gestion de contenu."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Gebruiksvriendelijk snippet",
+                                                            "text": "Pirsch biedt een lichtgewicht, direct inzetbaar JavaScript-snippet dat compatibel is met de meeste frameworks, websitebouwers en contentmanagementsystemen."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Snippet facile da usare",
+                                                            "text": "Pirsch fornisce uno snippet JavaScript leggero e pronto all'uso che è compatibile con la maggior parte dei framework, costruttori di siti web e sistemi di gestione dei contenuti."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Snippet fácil de usar",
+                                                            "text": "Pirsch oferece um snippet JavaScript leve e fácil de inserir, compatível com a maioria dos frameworks, construtores de sites e sistemas de gerenciamento de conteúdo."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "使いやすいスニペット",
+                                                            "text": "Pirschは、ほとんどのフレームワーク、ウェブサイトビルダー、コンテンツ管理システムと互換性のある軽量で組み込みやすいJavaScriptスニペットを提供します。"
                                                         }
                                                     },
                                                     "content": {
@@ -71,6 +218,34 @@
                                                         "en": {
                                                             "headline": "Flexible Plugins and Guides",
                                                             "text": "Easily integrate Pirsch into your website using one of the available plugins or simple tutorials. Integrations for WordPress, Laravel, Caddy, Gatsby and more are readily available and a community of developers helps keep them up to date and constantly adding more."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Flexible Plugins und Anleitungen",
+                                                            "text": "Integriere Pirsch mühelos in deine Website mit einem der verfügbaren Plugins oder einfachen Tutorials. Integrationen für WordPress, Laravel, Caddy, Gatsby und mehr sind sofort verfügbar, und eine Gemeinschaft von Entwicklern hilft dabei, sie aktuell zu halten und ständig zu erweitern."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Plugins flexibles y guías",
+                                                            "text": "Integra fácilmente Pirsch en tu sitio web utilizando uno de los plugins disponibles o tutoriales simples. Las integraciones para WordPress, Laravel, Caddy, Gatsby y más están disponibles de inmediato y una comunidad de desarrolladores ayuda a mantenerlas actualizadas y en constante expansión."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Plugins flexibles et guides",
+                                                            "text": "Intégrez facilement Pirsch à votre site web en utilisant l'un des plugins disponibles ou des tutoriels simples. Les intégrations pour WordPress, Laravel, Caddy, Gatsby et plus sont immédiatement disponibles et une communauté de développeurs aide à les maintenir à jour et à en ajouter constamment."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Flexibele plugins en handleidingen",
+                                                            "text": "Integreer Pirsch gemakkelijk in je website met een van de beschikbare plugins of eenvoudige tutorials. Integraties voor WordPress, Laravel, Caddy, Gatsby en meer zijn direct beschikbaar en een gemeenschap van ontwikkelaars helpt ze up-to-date te houden en voortdurend meer toe te voegen."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Plugin flessibili e guide",
+                                                            "text": "Integra facilmente Pirsch nel tuo sito web utilizzando uno dei plugin disponibili o semplici tutorial. Integrazioni per WordPress, Laravel, Caddy, Gatsby e altro sono prontamente disponibili e una comunità di sviluppatori aiuta a mantenerle aggiornate e ad aggiungerne di nuove costantemente."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Plugins flexíveis e guias",
+                                                            "text": "Integre facilmente o Pirsch em seu site usando um dos plugins disponíveis ou tutoriais simples. Integrações para WordPress, Laravel, Caddy, Gatsby e mais estão prontamente disponíveis e uma comunidade de desenvolvedores ajuda a mantê-las atualizadas e adicionando mais constantemente."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "柔軟なプラグインとガイド",
+                                                            "text": "利用可能なプラグインや簡単なチュートリアルを使用して、Pirschをあなたのウェブサイトに簡単に統合できます。WordPress、Laravel、Caddy、Gatsbyなどの統合はすぐに利用可能であり、開発者コミュニティがそれらを最新の状態に保ち、継続的に追加しています。"
                                                         }
                                                     },
                                                     "content": {
@@ -135,6 +310,48 @@
                                                 "text": "Pirsch was built from the ground up with automation in mind. Use the REST API to create dashboards, manage permissions, send traffic, and read statistics.<br><br>Fine-grained permission management makes it possible to work with a single dashboard or on an account basis, managing as many sites as you want. Whatever your use case, Pirsch integrates seamlessly into your application.",
                                                 "cta_label": "Read the Docs",
                                                 "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "de": {
+                                                "headline": "Leistungsstarke REST API",
+                                                "text": "Pirsch wurde von Grund auf mit Automatisierung im Sinn entwickelt. Verwende die REST API, um Dashboards zu erstellen, Berechtigungen zu verwalten, Traffic zu senden und Statistiken zu lesen.<br><br>Feingranulare Berechtigungsverwaltung ermöglicht es, mit einem einzelnen Dashboard oder auf Kontobasis zu arbeiten, so viele Websites zu verwalten, wie du möchtest. Egal, welches Anwendungsszenario du hast, Pirsch lässt sich nahtlos in deine Anwendung integrieren.",
+                                                "cta_label": "Dokumentation lesen",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "es": {
+                                                "headline": "Potente API REST",
+                                                "text": "Pirsch fue construido desde cero con la automatización en mente. Usa la API REST para crear tableros de mando, gestionar permisos, enviar tráfico y leer estadísticas.<br><br>La gestión de permisos detallada permite trabajar con un único tablero de control o en base a una cuenta, gestionando tantos sitios como desees. Sea cual sea tu caso de uso, Pirsch se integra a la perfección en tu aplicación.",
+                                                "cta_label": "Leer la documentación",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "fr": {
+                                                "headline": "API REST puissante",
+                                                "text": "Pirsch a été conçu dès le départ avec l'automatisation à l'esprit. Utilisez l'API REST pour créer des tableaux de bord, gérer les permissions, envoyer du trafic et lire des statistiques.<br><br>La gestion des permissions détaillée permet de travailler avec un seul tableau de bord ou sur une base de compte, gérant autant de sites que vous le souhaitez. Quel que soit votre cas d'utilisation, Pirsch s'intègre parfaitement dans votre application.",
+                                                "cta_label": "Lire la documentation",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "nl": {
+                                                "headline": "Krachtige REST API",
+                                                "text": "Pirsch is vanaf de grond opgebouwd met automatisering in gedachten. Gebruik de REST API om dashboards te creëren, permissies te beheren, verkeer te sturen en statistieken te lezen.<br><br>Gedetailleerd permissiebeheer maakt het mogelijk om te werken met een enkel dashboard of op basis van een account, waarbij je zoveel sites beheert als je wilt. Wat je gebruikssituatie ook is, Pirsch integreert naadloos in je applicatie.",
+                                                "cta_label": "Lees de documentatie",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "it": {
+                                                "headline": "Potente API REST",
+                                                "text": "Pirsch è stato sviluppato da zero con l'automazione in mente. Utilizza l'API REST per creare dashboard, gestire i permessi, inviare traffico e leggere le statistiche.<br><br>La gestione dettagliata dei permessi consente di lavorare con un singolo dashboard o su base account, gestendo quanti siti desideri. Qualunque sia il tuo caso d'uso, Pirsch si integra perfettamente nella tua applicazione.",
+                                                "cta_label": "Leggi la documentazione",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "pt": {
+                                                "headline": "API REST poderosa",
+                                                "text": "Pirsch foi construído do zero com a automação em mente. Use a API REST para criar painéis, gerenciar permissões, enviar tráfego e ler estatísticas.<br><br>O gerenciamento de permissões detalhado permite trabalhar com um único painel ou em uma base de conta, gerenciando quantos sites você desejar. Seja qual for o seu caso de uso, o Pirsch integra-se perfeitamente à sua aplicação.",
+                                                "cta_label": "Leia a documentação",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
+                                            },
+                                            "ja": {
+                                                "headline": "強力なREST API",
+                                                "text": "Pirschは、自動化を念頭に置いて一から構築されました。REST APIを使用してダッシュボードを作成し、権限を管理し、トラフィックを送信し、統計を読み取ります。<br><br>詳細な権限管理により、単一のダッシュボードまたはアカウントベースで作業を行い、好きなだけサイトを管理できます。使用シナリオに関わらず、Pirschはあなたのアプリケーションにシームレスに統合されます。",
+                                                "cta_label": "ドキュメントを読む",
+                                                "cta_link": "https://docs.pirsch.io/api-sdks/api-guide"
                                             }
                                         },
                                         "content": {
@@ -154,6 +371,24 @@
                 "copy": {
                     "en": {
                         "text": "<h2>Use it as a Platform</h2><p>Use Pirsch as a platform and offer embedded analytics to your customers, directly in your own application or SaaS. We'll make sure everything runs smoothly and your subscription plan scales with your needs. All without the worries that come with privacy-invasive technologies.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Read Case Study</a><h2>Custom Reports</h2><p>Create custom reports by accessing your data through the API. Filters allow you to get exactly what you want. Data can be aggregated for different time periods or you can get a list of custom events.</p><h2>Uncompromised Performance</h2><p>Our service is fast. Modern hardware and a scalable infrastructure ensure fast response times and stability. If you have ever worked with sluggish tools like Google Analytics, using Pirsch will feel like a breeze of fresh air.</p><h2>Advanced SDKs</h2><p>Use our Go (Golang), JavaScript, or PHP SDK, or one provided by the community to get started quickly. All SDKs are open-source and co-developed by the community.</p><h2>Server-side Integration</h2><p>Call our API from your backend for a non-blockable approach to web analytics. Instead of relying on JavaScript running in the visitor's browser, keep your site lean and improve page speed.</p><h2>Open-Source on GitHub</h2><p>A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>See All Demos</a><h2>Detailed Documentation</h2><p>Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Read the Docs</a><h2>Personal Support</h2><p>We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face.</p>"
+                    },
+                    "de": {
+                        "text": "<h2>Nutze es als Plattform</h2><p>Verwende Pirsch als Plattform und biete deinen Kunden eingebettete Analysen direkt in deiner eigenen Anwendung oder SaaS an. Wir sorgen dafür, dass alles reibungslos funktioniert und dein Abonnementplan mit deinen Bedürfnissen skaliert. Alles ohne die Sorgen, die mit datenschutzinvasiven Technologien einhergehen.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Fallstudie lesen</a><h2>Benutzerdefinierte Berichte</h2><p>Erstelle benutzerdefinierte Berichte, indem du auf deine Daten über die API zugreifst. Filter ermöglichen es dir, genau das zu bekommen, was du möchtest. Daten können für verschiedene Zeiträume aggregiert oder du kannst eine Liste von benutzerdefinierten Ereignissen erhalten.</p><h2>Kompromisslose Leistung</h2><p>Unser Service ist schnell. Moderne Hardware und eine skalierbare Infrastruktur sorgen für schnelle Antwortzeiten und Stabilität. Wenn du jemals mit trägen Tools wie Google Analytics gearbeitet hast, wird die Nutzung von Pirsch wie eine frische Brise wirken.</p><h2>Fortgeschrittene SDKs</h2><p>Verwende unser Go (Golang), JavaScript oder PHP SDK oder eines, das von der Community bereitgestellt wird, um schnell zu starten. Alle SDKs sind Open-Source und werden gemeinsam von der Community entwickelt.</p><h2>Serverseitige Integration</h2><p>Rufe unsere API von deinem Backend aus auf, um einen nicht blockierbaren Ansatz für Webanalysen zu nutzen. Anstatt auf JavaScript zu setzen, das im Browser des Besuchers läuft, halte deine Website schlank und verbessere die Seitenladezeit.</p><h2>Open-Source auf GitHub</h2><p>Vieles von Pirsch ist Open-Source, einschließlich des Kerns, der SDKs und der Bibliotheken, die wir für unseren Service erstellt haben. So kannst du selbst sehen, wie wir arbeiten und wie Pirsch funktioniert. Der Code ist auf GitHub verfügbar, einschließlich eines Demo-Repositorys mit Beispielanwendungen und mehr.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Alle Demos ansehen</a><h2>Detaillierte Dokumentation</h2><p>Pirsch ist gut dokumentiert. Wir aktualisieren unsere Dokumentation ständig, um sicherzustellen, dass du immer eine Antwort auf deine Fragen findest.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Dokumentation lesen</a><h2>Persönlicher Support</h2><p>Wir sind IT-Spezialisten, keine Verkäufer. Wenn du uns wegen Support kontaktierst, kannst du sicher sein, kompetente und professionelle Hilfe zu erhalten, egal ob du Fragen zu Integrationsdetails, Netzwerk oder Programmierung hast. Wir sind hier, um zu helfen, und wir sind hier, um Lösungen für die Herausforderungen zu finden, denen du gegenüberstehst.</p>"
+                    },
+                    "es": {
+                        "text": "<h2>Úsalo como una Plataforma</h2><p>Utiliza Pirsch como una plataforma y ofrece análisis integrados a tus clientes, directamente en tu propia aplicación o SaaS. Nos aseguraremos de que todo funcione sin problemas y que tu plan de suscripción escale con tus necesidades. Todo sin las preocupaciones que conllevan las tecnologías invasivas de la privacidad.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Leer estudio de caso</a><h2>Informes Personalizados</h2><p>Crea informes personalizados accediendo a tus datos a través de la API. Los filtros te permiten obtener exactamente lo que deseas. Los datos pueden ser agregados para diferentes períodos de tiempo o puedes obtener una lista de eventos personalizados.</p><h2>Rendimiento sin Compromisos</h2><p>Nuestro servicio es rápido. El hardware moderno y una infraestructura escalable aseguran tiempos de respuesta rápidos y estabilidad. Si alguna vez has trabajado con herramientas lentas como Google Analytics, usar Pirsch se sentirá como una bocanada de aire fresco.</p><h2>SDKs Avanzados</h2><p>Utiliza nuestro SDK de Go (Golang), JavaScript, o PHP, o uno proporcionado por la comunidad para empezar rápidamente. Todos los SDK son de código abierto y co-desarrollados por la comunidad.</p><h2>Integración del Lado del Servidor</h2><p>Llama a nuestra API desde tu backend para un enfoque no bloqueable de analítica web. En lugar de depender de JavaScript que se ejecute en el navegador del visitante, mantén tu sitio ágil y mejora la velocidad de la página.</p><h2>Código Abierto en GitHub</h2><p>Mucho de Pirsch es de código abierto, incluyendo el núcleo, los SDKs y las bibliotecas que hemos creado para nuestro servicio. Así que puedes ver por ti mismo cómo trabajamos y cómo funciona Pirsch. El código está disponible en GitHub, incluyendo un repositorio de demostración con aplicaciones de muestra y más.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Ver todas las demos</a><h2>Documentación Detallada</h2><p>Pirsch está bien documentado. Estamos constantemente actualizando nuestra documentación para asegurarnos de que siempre encuentres una respuesta a tus preguntas.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Leer la documentación</a><h2>Soporte Personal</h2><p>Somos especialistas en TI, no vendedores. Cuando nos contactes para obtener soporte, puedes estar seguro de recibir ayuda competente y profesional, ya sea que tengas preguntas sobre detalles de integración, redes o programación. Estamos aquí para ayudar, y estamos aquí para encontrar soluciones a los desafíos que enfrentas.</p>"
+                    },
+                    "fr": {
+                        "text": "<h2>Utilisez-le comme une Plateforme</h2><p>Utilisez Pirsch comme une plateforme et proposez des analyses intégrées à vos clients, directement dans votre propre application ou SaaS. Nous veillerons à ce que tout fonctionne sans heurts et que votre plan d'abonnement évolue selon vos besoins. Tout cela sans les soucis liés aux technologies invasives de la vie privée.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Lire l'étude de cas</a><h2>Rapports Personnalisés</h2><p>Créez des rapports personnalisés en accédant à vos données via l'API. Les filtres vous permettent d'obtenir exactement ce que vous voulez. Les données peuvent être agrégées pour différentes périodes de temps ou vous pouvez obtenir une liste d'événements personnalisés.</p><h2>Performance Inégalée</h2><p>Notre service est rapide. Un matériel moderne et une infrastructure évolutive assurent des temps de réponse rapides et une stabilité. Si vous avez déjà travaillé avec des outils lents comme Google Analytics, utiliser Pirsch sera comme une bouffée d'air frais.</p><h2>SDKs Avancés</h2><p>Utilisez notre SDK Go (Golang), JavaScript ou PHP, ou un SDK fourni par la communauté pour démarrer rapidement. Tous les SDK sont open-source et co-développés par la communauté.</p><h2>Intégration Côté Serveur</h2><p>Appelez notre API depuis votre backend pour une approche non bloquable de l'analytique web. Au lieu de compter sur le JavaScript exécuté dans le navigateur du visiteur, gardez votre site léger et améliorez la vitesse de page.</p><h2>Open-Source sur GitHub</h2><p>Une grande partie de Pirsch est open-source, y compris le cœur, les SDKs et les bibliothèques que nous avons créées pour notre service. Vous pouvez donc voir par vous-même comment nous travaillons et comment fonctionne Pirsch. Le code est disponible sur GitHub, y compris un dépôt de démo avec des applications d'exemple et plus encore.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Voir toutes les démos</a><h2>Documentation Détaillée</h2><p>Pirsch est bien documenté. Nous mettons constamment à jour notre documentation pour vous assurer de toujours trouver une réponse à vos questions.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Lire la documentation</a><h2>Support Personnel</h2><p>Nous sommes des spécialistes en informatique, pas des vendeurs. Lorsque vous nous contactez pour du support, vous pouvez être sûr de recevoir une aide compétente et professionnelle, que vous ayez des questions sur les détails de l'intégration, le réseau ou la programmation. Nous sommes là pour aider, et nous sommes là pour trouver des solutions aux défis que vous rencontrez.</p>"
+                    },
+                    "nl": {
+                        "text": "<h2>Gebruik het als een Platform</h2><p>Gebruik Pirsch als een platform en bied geïntegreerde analyses aan je klanten aan, direct in je eigen applicatie of SaaS. Wij zorgen ervoor dat alles soepel verloopt en dat je abonnementsplan meegroeit met je behoeften. Allemaal zonder de zorgen die gepaard gaan met privacy-invasieve technologieën.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Lees de casestudy</a><h2>Aangepaste Rapporten</h2><p>Maak aangepaste rapporten door toegang te krijgen tot je gegevens via de API. Filters stellen je in staat om precies te krijgen wat je nodig hebt. Gegevens kunnen worden geaggregeerd voor verschillende tijdperioden of je kunt een lijst van aangepaste evenementen krijgen.</p><h2>Ongeëvenaarde Prestaties</h2><p>Onze service is snel. Moderne hardware en een schaalbare infrastructuur zorgen voor snelle reactietijden en stabiliteit. Als je ooit hebt gewerkt met trage tools zoals Google Analytics, zal het gebruik van Pirsch aanvoelen als een frisse wind.</p><h2>Geavanceerde SDK's</h2><p>Gebruik onze Go (Golang), JavaScript, of PHP SDK, of een door de gemeenschap verstrekte SDK om snel te starten. Alle SDK's zijn open source en worden samen met de gemeenschap ontwikkeld.</p><h2>Server-side Integratie</h2><p>Roep onze API aan vanuit je backend voor een niet-blokkeerbare benadering van webanalyse. In plaats van te vertrouwen op JavaScript dat draait in de browser van de bezoeker, houd je site slank en verbeter je de paginasnelheid.</p><h2>Open Source op GitHub</h2><p>Veel van Pirsch is open source, inclusief de kern, de SDK's en de bibliotheken die we voor onze service hebben gecreëerd. Zo kun je zelf zien hoe we werken en hoe Pirsch functioneert. De code is beschikbaar op GitHub, inclusief een demorepository met voorbeeldtoepassingen en meer.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Bekijk alle demo's</a><h2>Gedetailleerde Documentatie</h2><p>Pirsch is goed gedocumenteerd. We werken onze documentatie voortdurend bij om ervoor te zorgen dat je altijd een antwoord vindt op je vragen.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Lees de documentatie</a><h2>Persoonlijke Ondersteuning</h2><p>Wij zijn IT-specialisten, geen verkopers. Wanneer je contact met ons opneemt voor ondersteuning, kun je er zeker van zijn dat je competente en professionele hulp krijgt, of je nu vragen hebt over integratiedetails, netwerken of programmeren. We zijn hier om te helpen, en we zijn hier om oplossingen te vinden voor de uitdagingen waarmee je wordt geconfronteerd.</p>"
+                    },
+                    "it": {
+                        "text": "<h2>Usalo come Piattaforma</h2><p>Utilizza Pirsch come piattaforma e offre analisi integrate ai tuoi clienti, direttamente nella tua applicazione o SaaS. Ci assicureremo che tutto funzioni senza intoppi e che il tuo piano di abbonamento si adatti alle tue esigenze. Tutto questo senza le preoccupazioni legate alle tecnologie invasive della privacy.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Leggi il caso di studio</a><h2>Rapporti Personalizzati</h2><p>Crea rapporti personalizzati accedendo ai tuoi dati tramite l'API. I filtri ti permettono di ottenere esattamente ciò che desideri. I dati possono essere aggregati per diversi periodi di tempo o puoi ottenere un elenco di eventi personalizzati.</p><h2>Prestazioni Incompromesse</h2><p>Il nostro servizio è veloce. Hardware moderno e un'infrastruttura scalabile garantiscono tempi di risposta rapidi e stabilità. Se hai mai lavorato con strumenti lenti come Google Analytics, usare Pirsch sarà come una boccata d'aria fresca.</p><h2>SDK Avanzati</h2><p>Usa il nostro SDK Go (Golang), JavaScript o PHP, o uno fornito dalla comunità per iniziare rapidamente. Tutti gli SDK sono open source e sviluppati in collaborazione con la comunità.</p><h2>Integrazione Lato Server</h2><p>Chiama la nostra API dal tuo backend per un approccio non bloccabile all'analisi web. Invece di fare affidamento su JavaScript eseguito nel browser del visitatore, mantieni il tuo sito snello e migliora la velocità di pagina.</p><h2>Open Source su GitHub</h2><p>Molto di Pirsch è open source, inclusi il core, gli SDK e le librerie che abbiamo creato per il nostro servizio. Così puoi vedere da solo come lavoriamo e come funziona Pirsch. Il codice è disponibile su GitHub, inclusi un repository di demo con applicazioni di esempio e altro ancora.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Vedi tutte le demo</a><h2>Documentazione Dettagliata</h2><p>Pirsch è ben documentato. Aggiorniamo costantemente la nostra documentazione per assicurarci che tu possa sempre trovare una risposta alle tue domande.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Leggi la documentazione</a><h2>Supporto Personale</h2><p>Siamo specialisti IT, non venditori. Quando ci contatti per supporto, puoi essere sicuro di ricevere aiuto competente e professionale, sia che tu abbia domande su dettagli di integrazione, networking o programmazione. Siamo qui per aiutare e per trovare soluzioni alle sfide che affronti.</p>"
+                    },
+                    "pt": {
+                        "text": "<h2>Use como uma Plataforma</h2><p>Use o Pirsch como uma plataforma e ofereça análises integradas aos seus clientes, diretamente no seu próprio aplicativo ou SaaS. Garantiremos que tudo funcione sem problemas e que seu plano de assinatura se adapte às suas necessidades. Tudo isso sem as preocupações associadas às tecnologias invasivas de privacidade.</p><a class='button secondary' href='https://pirsch.io/blog/famewall-pirsch-integration/' target='_blank' rel='noreferrer'>Leia o estudo de caso</a><h2>Relatórios Personalizados</h2><p>Crie relatórios personalizados acessando seus dados através da API. Filtros permitem que você obtenha exatamente o que deseja. Os dados podem ser agregados para diferentes períodos de tempo ou você pode obter uma lista de eventos personalizados.</p><h2>Desempenho Incomparável</h2><p>Nosso serviço é rápido. Hardware moderno e infraestrutura escalável garantem tempos de resposta rápidos e estabilidade. Se você já trabalhou com ferramentas lentas como o Google Analytics, usar o Pirsch será como um sopro de ar fresco.</p><h2>SDKs Avançados</h2><p>Use nosso SDK Go (Golang), JavaScript ou PHP, ou um fornecido pela comunidade para começar rapidamente. Todos os SDKs são open-source e desenvolvidos em colaboração com a comunidade.</p><h2>Integração no Lado do Servidor</h2><p>Chame nossa API do seu backend para uma abordagem não bloqueável de análise web. Em vez de depender do JavaScript executado no navegador do visitante, mantenha seu site enxuto e melhore a velocidade da página.</p><h2>Open Source no GitHub</h2><p>Muitos dos componentes do Pirsch são open source, incluindo o núcleo, os SDKs e as bibliotecas que criamos para nosso serviço. Assim, você pode ver por si mesmo como trabalhamos e como o Pirsch funciona. O código está disponível no GitHub, incluindo um repositório de demonstração com aplicativos de exemplo e mais.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>Veja todas as demos</a><h2>Documentação Detalhada</h2><p>O Pirsch é bem documentado. Estamos constantemente atualizando nossa documentação para garantir que você sempre encontre uma resposta para suas perguntas.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Leia a documentação</a><h2>Suporte Pessoal</h2><p>Somos especialistas em TI, não vendedores. Quando você nos contata para suporte, pode ter certeza de que receberá ajuda competente e profissional, seja para perguntas sobre detalhes de integração, redes ou programação. Estamos aqui para ajudar e para encontrar soluções para os desafios que você enfrenta.</p>"
                     }
                 }
             },

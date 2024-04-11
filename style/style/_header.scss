@@ -1,4 +1,5 @@
 header {
+    -webkit-backface-visibility: hidden;
     display: grid;
     z-index: 10;
     position: fixed;
@@ -7,6 +8,7 @@ header {
     height: var(--header-height);
     padding-right: 16px;
     padding-left: 16px;
+    backface-visibility: hidden;
     transition: height .1s ease;
 
     &:before {

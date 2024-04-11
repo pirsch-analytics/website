@@ -251,7 +251,7 @@
         "de": {
             "headline": "Alle Funktionen",
             "text": "Pirsch bietet eine umfassende Palette leistungsstarker Funktionen, die es dir ermöglichen, tiefe Einblicke zu gewinnen und die Leistung der Website mühelos zu optimieren.",
-            "action_primary": "Starte deine kostenlose Testversion",
+            "action_primary": "30 Tage kostenlos testen",
             "action_secondary": "Live-Demo ansehen",
             "dashboard": "Dashboard",
             "dashboard_features": [
@@ -276,8 +276,8 @@
                     "standard": true
                 },
                 {
-                    "headline": "Benutzerdefiniertes Ereignis-Tracking",
-                    "text": "Verfolge und analysiere benutzerdefinierte Ereignisse, die auf die Bedürfnisse deiner Website zugeschnitten sind.",
+                    "headline": "Benutzerdefiniertes Event-Tracking",
+                    "text": "Verfolge und analysiere benutzerdefinierte Events, die auf die Bedürfnisse deiner Website zugeschnitten sind.",
                     "standard": true
                 },
                 {
@@ -326,8 +326,8 @@
                     "plus": true
                 },
                 {
-                    "headline": "Benutzerdefinierte Ereignismetriken",
-                    "text": "Definiere benutzerdefinierte Metriken für eine eingehende Ereignisverfolgung und -analyse.",
+                    "headline": "Benutzerdefinierte Eventmetriken",
+                    "text": "Definiere benutzerdefinierte Metriken für eine eingehende Eventverfolgung und -analyse.",
                     "plus": true
                 },
                 {

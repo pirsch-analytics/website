@@ -634,9 +634,9 @@
         "es": {
             "headline": "Comparar Todas las Funciones",
             "text": "Obtén una visión general de lo que está incluido. Hay actualizaciones regulares con nuevas funciones, avísanos si falta algo.",
-            "standard": "Estándar",
+            "standard": "Standard",
             "plus": "Plus",
-            "enterprise": "Empresa",
+            "enterprise": "Enterprise",
             "get_started": "Comenzar",
             "contact_us": "Contáctanos",
             "table": [
@@ -951,7 +951,7 @@
             "text": "Obtenez un aperçu de ce qui est inclus. Il y a des mises à jour régulières avec de nouvelles fonctionnalités, faites-nous savoir si quelque chose vous manque.",
             "standard": "Standard",
             "plus": "Plus",
-            "enterprise": "Entreprise",
+            "enterprise": "Enterprise",
             "get_started": "Commencer",
             "contact_us": "Contactez-nous",
             "table": [
@@ -1264,7 +1264,7 @@
         "nl": {
             "headline": "Vergelijk Alle Functies",
             "text": "Krijg een overzicht van wat is inbegrepen. Er zijn regelmatig updates met nieuwe functies, laat het ons weten als je iets mist.",
-            "standard": "Standaard",
+            "standard": "Standard",
             "plus": "Plus",
             "enterprise": "Enterprise",
             "get_started": "Beginnen",
@@ -1894,9 +1894,9 @@
         "pt": {
             "headline": "Comparar todas as funcionalidades",
             "text": "Obtenha uma visão geral do que está incluído. São efectuadas actualizações regulares com novas funcionalidades. Informe-nos se estiver a faltar alguma coisa.",
-            "standard": "Padrão",
+            "standard": "Standard",
             "plus": "Plus",
-            "enterprise": "Empresa",
+            "enterprise": "Enterprise",
             "get_started": "Começar a trabalhar",
             "contact_us": "Contactar-nos",
             "table": [
@@ -2209,9 +2209,9 @@
         "ja": {
             "headline": "すべての機能を比較",
             "text": "含まれている内容の概要を確認してください。新機能の定期的な更新がありますので、何か不足しているものがあればお知らせください。",
-            "standard": "スタンダード",
-            "plus": "プラス",
-            "enterprise": "エンタープライズ",
+            "standard": "Standard",
+            "plus": "Plus",
+            "enterprise": "Enterprise",
             "get_started": "始める",
             "contact_us": "お問い合わせ",
             "table": [

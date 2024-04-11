@@ -1,14 +1,56 @@
 {
     "path": {
         "en": "/privacy-friendly-analytics",
-        "de": "/de/privacy-friendly-analytics"
+        "de": "/de/privacy-friendly-analytics",
+        "es": "/es/privacy-friendly-analytics",
+        "fr": "/fr/privacy-friendly-analytics",
+        "nl": "/nl/privacy-friendly-analytics",
+        "it": "/it/privacy-friendly-analytics",
+        "pt": "/pt/privacy-friendly-analytics",
+        "ja": "/ja/privacy-friendly-analytics"
     },
     "sitemap": {
         "priority": "0.5"
     },
     "content": {
         "content": [
-            {"ref": "head"},
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "Privacy-friendly Web Analytics",
+                        "meta_description": "Pirsch has no-compromise, GDPR-, CCPA-, PECR-, and Schrems II-compliant privacy. Built and hosted in Germany, we operate under strict European privacy laws."
+                    },
+                    "de": {
+                        "title": "Datenschutzfreundliche Webanalyse",
+                        "meta_description": "Pirsch bietet kompromisslose Privatsphäre, die GDPR-, CCPA-, PECR- und Schrems II-konform ist. Entwickelt und gehostet in Deutschland, arbeiten wir unter strengen europäischen Datenschutzgesetzen."
+                    },
+                    "es": {
+                        "title": "Analítica Web Amigable con la Privacidad",
+                        "meta_description": "Pirsch tiene una privacidad sin compromisos, cumpliendo con GDPR, CCPA, PECR y Schrems II. Construido y alojado en Alemania, operamos bajo estrictas leyes europeas de privacidad."
+                    },
+                    "fr": {
+                        "title": "Analytique Web Respectueuse de la Vie Privée",
+                        "meta_description": "Pirsch offre une confidentialité sans compromis, conforme au GDPR, CCPA, PECR et Schrems II. Construit et hébergé en Allemagne, nous opérons sous des lois européennes strictes sur la vie privée."
+                    },
+                    "nl": {
+                        "title": "Privacyvriendelijke Webanalyse",
+                        "meta_description": "Pirsch heeft een compromisloze privacy, in overeenstemming met GDPR, CCPA, PECR en Schrems II. Gebouwd en gehost in Duitsland, werken we onder strikte Europese privacywetten."
+                    },
+                    "it": {
+                        "title": "Analisi Web Rispettosa della Privacy",
+                        "meta_description": "Pirsch offre privacy senza compromessi, conforme a GDPR, CCPA, PECR e Schrems II. Costruito e ospitato in Germania, operiamo sotto rigide leggi europee sulla privacy."
+                    },
+                    "pt": {
+                        "title": "Análise Web Amigável à Privacidade",
+                        "meta_description": "Pirsch possui privacidade sem compromissos, compatível com GDPR, CCPA, PECR e Schrems II. Construído e hospedado na Alemanha, operamos sob rígidas leis europeias de privacidade."
+                    },
+                    "ja": {
+                        "title": "プライバシーに配慮したウェブ分析",
+                        "meta_description": "Pirschは妥協のないプライバシーを提供し、GDPR、CCPA、PECR、Schrems IIに準拠しています。ドイツで開発・ホスティングされ、厳格なヨーロッパのプライバシー法の下で運営されています。"
+                    }
+                }
+            },
             {"ref": "header"},
             {
                 "tpl": "hero",
@@ -20,6 +62,62 @@
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
                         "customers_text": "Trusted by 500+ Customers"
+                    },
+                    "de": {
+                        "headline": "Datenschutzfreundliche Webseitenanalyse für jeden",
+                        "headline_class": "h2",
+                        "text": "Pirsch bietet kompromisslose Privatsphäre, die GDPR-, CCPA-, PECR- und Schrems II-konform ist. Entwickelt und gehostet in Deutschland, arbeiten wir unter strengen europäischen Datenschutzgesetzen.",
+                        "action_primary": "30 Tage kostenlos testen",
+                        "action_secondary": "Live-Demo ansehen",
+                        "customers_text": "Vertraut von über 500 Kunden"
+                    },
+                    "es": {
+                        "headline": "Analítica de sitios web amigable con la privacidad para todos",
+                        "headline_class": "h2",
+                        "text": "Pirsch tiene una privacidad sin compromisos, cumpliendo con GDPR, CCPA, PECR y Schrems II. Construido y alojado en Alemania, operamos bajo estrictas leyes europeas de privacidad.",
+                        "action_primary": "Comienza tu prueba gratuita",
+                        "action_secondary": "Ver demostración en vivo",
+                        "customers_text": "Confiado por más de 500 clientes"
+                    },
+                    "fr": {
+                        "headline": "Analytique de site web respectueuse de la vie privée pour tous",
+                        "headline_class": "h2",
+                        "text": "Pirsch offre une confidentialité sans compromis, conforme au GDPR, CCPA, PECR et Schrems II. Construit et hébergé en Allemagne, nous opérons sous des lois européennes strictes sur la vie privée.",
+                        "action_primary": "Commencez votre essai gratuit",
+                        "action_secondary": "Voir la démo en direct",
+                        "customers_text": "Fait confiance par plus de 500 clients"
+                    },
+                    "nl": {
+                        "headline": "Privacyvriendelijke websiteanalyse voor iedereen",
+                        "headline_class": "h2",
+                        "text": "Pirsch heeft een compromisloze privacy, in overeenstemming met GDPR, CCPA, PECR en Schrems II. Gebouwd en gehost in Duitsland, werken we onder strikte Europese privacywetten.",
+                        "action_primary": "Start je gratis proefperiode",
+                        "action_secondary": "Bekijk de live demo",
+                        "customers_text": "Vertrouwd door meer dan 500 klanten"
+                    },
+                    "it": {
+                        "headline": "Analisi del sito web rispettosa della privacy per tutti",
+                        "headline_class": "h2",
+                        "text": "Pirsch offre privacy senza compromessi, conforme a GDPR, CCPA, PECR e Schrems II. Costruito e ospitato in Germania, operiamo sotto rigide leggi europee sulla privacy.",
+                        "action_primary": "Inizia la tua prova gratuita",
+                        "action_secondary": "Guarda la demo dal vivo",
+                        "customers_text": "Fidato da oltre 500 clienti"
+                    },
+                    "pt": {
+                        "headline": "Análise de sites amigável à privacidade para todos",
+                        "headline_class": "h2",
+                        "text": "Pirsch possui privacidade sem compromissos, compatível com GDPR, CCPA, PECR e Schrems II. Construído e hospedado na Alemanha, operamos sob rígidas leis europeias de privacidade.",
+                        "action_primary": "Comece seu teste gratuito",
+                        "action_secondary": "Ver demonstração ao vivo",
+                        "customers_text": "Confiável por mais de 500 clientes"
+                    },
+                    "ja": {
+                        "headline": "誰もが利用できるプライバシーに配慮したウェブサイト分析",
+                        "headline_class": "h2",
+                        "text": "Pirschは妥協のないプライバシーを提供し、GDPR、CCPA、PECR、Schrems IIに準拠しています。ドイツで開発・ホスティングされ、厳格なヨーロッパのプライバシー法の下で運営されています。",
+                        "action_primary": "無料トライアルを始める",
+                        "action_secondary": "ライブデモを見る",
+                        "customers_text": "500社以上の顧客に信頼されています"
                     }
                 }
             },
@@ -29,6 +127,27 @@
                 "copy": {
                     "en": {
                         "text": "<h2>We Do Not Track</h2><p>Pirsch does not track your visitors. Unlike Google Analytics, which identifies a person across websites to deliver targeted ads, we strictly separate the data for each website. No personal information is stored and we don't sell your data to third parties.</p><h2>Information Collected For You</h2><p>Pirsch collects and stores the following information for you which will never be shared or sold.</p><ul><li>Pages visited</li><li><a href='/utm-generator'>Referrer and UTM campaign parameters</a></li><li>Country of origin, city, and language</li><li>Operating system, browser, and screen resolution</li><li>Custom events</li><li>User-Agent separated from the page views</li></ul><div><a class='button' href='/signup' rel='noreferrer'>Start 30-day Free Trial</a></div><h2>How We Recognize Visitors</h2><p>Pirsch generates a unique number for each visitor calculated from the visitor's IP address, the User-Agent, and a random string that is set for each website. Combining these three data points ensures visitors can be uniquely identified without collecting personal data. The random string guarantees the number varies between websites, so they cannot be matched. To comply with the GDPR, sessions are recorded for a maximum of 24 hours. After that, the visitor is assigned a new unique number.</p><p>An advantage of this method is that we don't require cookies, and therefore no annoying cookie-consent banner has to be placed on your website.</p><h2>Open-Source Web Analytics</h2><p>For full transparency, the core of Pirsch is open-source and can be viewed on GitHub.</p><div><a class='button secondary' href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer'>View On GitHub</a></div>"
+                    },
+                    "de": {
+                        "text": "<h2>Wir tracken nicht</h2><p>Pirsch verfolgt deine Besucher nicht. Im Gegensatz zu Google Analytics, das eine Person über mehrere Websites hinweg identifiziert, um gezielte Werbung zu schalten, trennen wir die Daten strikt für jede Website. Es werden keine persönlichen Informationen gespeichert und wir verkaufen deine Daten nicht an Dritte.</p><h2>Für dich gesammelte Informationen</h2><p>Pirsch sammelt und speichert die folgenden Informationen für dich, die niemals weitergegeben oder verkauft werden.</p><ul><li class='p'>Seitenaufrufe</li><li class='p'><a href='/utm-generator'>Referrer und UTM Kampagnen Parameter</a></li><li class='p'>Herkunftsland, Stadt und Sprache</li><li class='p'>Betriebssystem, Browser und Auflösung</li><li class='p'>Eigene Events</li><li class='p'>der User-Agent wird separat von den Seitenaufrufen gespeichert</li></ul><div class='cta'><a href='/de/signup' rel='noreferrer' class='button'>30 Tage kostenlos testen</a></div><h2>Wie wir Besucher erkennen</h2><p>Pirsch generiert für jeden Besucher eine eindeutige Nummer, die aus der IP-Adresse des Besuchers, dem User-Agent und einer zufälligen Zeichenfolge, die für jede Website festgelegt wird, berechnet wird. Durch die Kombination dieser drei Datenpunkte wird sichergestellt, dass die Besucher eindeutig identifiziert werden können, ohne dass personenbezogene Daten erfasst werden. Die zufällige Zeichenkette garantiert, dass die Nummer von Website zu Website variiert, so dass sie nicht abgeglichen werden kann. Um die DSGVO einzuhalten, werden Sitzungen maximal 24 Stunden erfasst. Danach wird dem Besucher eine neue eindeutige Nummer zugewiesen.</p><p>Ein Vorteil dieser Methode ist, dass wir keine Cookies benötigen und daher kein lästiges Cookie-Zustimmungsbanner auf deiner Website platziert werden muss.</p><h2>Open-Source Web Analytics</h2><p>Um volle Transparenz zu gewährleisten, ist der Kern von Pirsch Open-Source und kann auf GitHub eingesehen werden.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Auf GitHub ansehen</a></div>"
+                    },
+                    "es": {
+                        "text": "<h2>No hacemos seguimiento</h2><p>Pirsch no realiza un seguimiento de tus visitantes. A diferencia de Google Analytics, que identifica a una persona en varios sitios web para ofrecer anuncios dirigidos, nosotros separamos estrictamente los datos para cada sitio web. No se almacena información personal y no vendemos tus datos a terceros.</p><h2>Información recopilada para ti</h2><p>Pirsch recopila y almacena la siguiente información para ti, que nunca se compartirá ni se venderá.</p><ul><li class='p'>Páginas visitadas</li><li class='p'><a href='/utm-generator'>Parámetros de referencia y campaña UTM</a></li><li class='p'>País de origen, ciudad y idioma</li><li class='p'>Sistema operativo, navegador y resolución de pantalla</li><li class='p'>Eventos personalizados</li><li class='p'>User-Agent separado de las vistas de página</li></ul><div class='cta'><a href='/es/signup' rel='noreferrer' class='button'>Comienza la prueba gratuita de 30 días</a></div><h2>Cómo reconocemos a los visitantes</h2><p>Pirsch genera un número único para cada visitante calculado a partir de la dirección IP del visitante, el User-Agent y una cadena aleatoria que se establece para cada sitio web. La combinación de estos tres puntos de datos garantiza que los visitantes puedan ser identificados de manera única sin recopilar datos personales. La cadena aleatoria garantiza que el número varíe entre los sitios web, por lo que no pueden coincidir. Para cumplir con el RGPD, las sesiones se registran durante un máximo de 24 horas. Después de eso, al visitante se le asigna un nuevo número único.</p><p>Una ventaja de este método es que no requerimos cookies, por lo que no es necesario colocar un molesto banner de consentimiento de cookies en tu sitio web.</p><h2>Analítica web de código abierto</h2><p>Para una transparencia total, el núcleo de Pirsch es de código abierto y se puede ver en GitHub.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Ver en GitHub</a></div>"
+                    },
+                    "fr": {
+                        "text": "<h2>Nous ne suivons pas</h2><p>Pirsch ne suit pas vos visiteurs. Contrairement à Google Analytics, qui identifie une personne sur plusieurs sites web pour diffuser des publicités ciblées, nous séparons strictement les données pour chaque site web. Aucune information personnelle n'est stockée et nous ne vendons pas vos données à des tiers.</p><h2>Informations collectées pour vous</h2><p>Pirsch collecte et stocke les informations suivantes pour vous, qui ne seront jamais partagées ni vendues.</p><ul><li class='p'>Pages visitées</li><li class='p'><a href='/utm-generator'>Référent et paramètres de campagne UTM</a></li><li class='p'>Pays d'origine, ville et langue</li><li class='p'>Système d'exploitation, navigateur et résolution d'écran</li><li class='p'>Événements personnalisés</li><li class='p'>User-Agent séparé des vues de page</li></ul><div class='cta'><a href='/fr/signup' rel='noreferrer' class='button'>Commencer l'essai gratuit de 30 jours</a></div><h2>Comment nous reconnaissons les visiteurs</h2><p>Pirsch génère un numéro unique pour chaque visiteur calculé à partir de l'adresse IP du visiteur, de l'User-Agent et d'une chaîne aléatoire définie pour chaque site web. La combinaison de ces trois points de données garantit que les visiteurs peuvent être identifiés de manière unique sans collecter de données personnelles. La chaîne aléatoire garantit que le numéro varie entre les sites web, de sorte qu'ils ne peuvent pas être appariés. Pour respecter le RGPD, les sessions sont enregistrées pendant un maximum de 24 heures. Après cela, le visiteur se voit attribuer un nouveau numéro unique.</p><p>Un avantage de cette méthode est que nous n'exigeons pas de cookies, et par conséquent, aucun bandeau d'acceptation des cookies ennuyeux ne doit être placé sur votre site web.</p><h2>Analyse Web Open Source</h2><p>Pour une transparence totale, le cœur de Pirsch est open source et peut être consulté sur GitHub.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Voir sur GitHub</a></div>"
+                    },
+                    "nl": {
+                        "text": "<h2>Wij Volgen Niet</h2><p>Pirsch volgt uw bezoekers niet. In tegenstelling tot Google Analytics, dat een persoon over verschillende websites identificeert om gerichte advertenties te leveren, scheiden we de gegevens strikt voor elke website. Er worden geen persoonlijke gegevens opgeslagen en we verkopen uw gegevens niet aan derden.</p><h2>Informatie Verzameld Voor Jou</h2><p>Pirsch verzamelt en slaat de volgende informatie voor jou op, die nooit zal worden gedeeld of verkocht.</p><ul><li class='p'>Bezochte pagina's</li><li class='p'><a href='/utm-generator'>Doorverwijzer en UTM-campagneparameters</a></li><li class='p'>Land van herkomst, stad en taal</li><li class='p'>Besturingssysteem, browser en schermresolutie</li><li class='p'>Aangepaste gebeurtenissen</li><li class='p'>User-Agent gescheiden van de paginaweergaven</li></ul><div class='cta'><a href='/nl/signup' rel='noreferrer' class='button'>Start gratis 30-daagse proefperiode</a></div><h2>Hoe we bezoekers herkennen</h2><p>Pirsch genereert een uniek nummer voor elke bezoeker, berekend op basis van het IP-adres van de bezoeker, de User-Agent en een willekeurige tekenreeks die is ingesteld voor elke website. Door deze drie gegevenspunten te combineren, kunnen bezoekers uniek worden geïdentificeerd zonder persoonlijke gegevens te verzamelen. De willekeurige tekenreeks garandeert dat het nummer varieert tussen websites, zodat ze niet kunnen worden gekoppeld. Om te voldoen aan de GDPR, worden sessies maximaal 24 uur geregistreerd. Daarna krijgt de bezoeker een nieuw uniek nummer toegewezen.</p><p>Een voordeel van deze methode is dat we geen cookies nodig hebben, en daarom hoeft er geen vervelende cookie-toestemmingsbanner op uw website te worden geplaatst.</p><h2>Open-source webanalyse</h2><p>Voor volledige transparantie is de kern van Pirsch open source en kan worden bekeken op GitHub.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Bekijken op GitHub</a></div>"
+                    },
+                    "it": {
+                        "text": "<h2>Non Tracciamo</h2><p>Pirsch non traccia i tuoi visitatori. A differenza di Google Analytics, che identifica una persona su diversi siti web per fornire annunci mirati, separiamo rigorosamente i dati per ciascun sito web. Nessuna informazione personale viene memorizzata e non vendiamo i tuoi dati a terzi.</p><h2>Informazioni Raccolte per Te</h2><p>Pirsch raccoglie e memorizza le seguenti informazioni per te, che non verranno mai condivise o vendute.</p><ul><li class='p'>Pagine visitate</li><li class='p'><a href='/utm-generator'>Referente e parametri della campagna UTM</a></li><li class='p'>Paese d'origine, città e lingua</li><li class='p'>Sistema operativo, browser e risoluzione dello schermo</li><li class='p'>Eventi personalizzati</li><li class='p'>User-Agent separato dalle visualizzazioni della pagina</li></ul><div class='cta'><a href='/it/signup' rel='noreferrer' class='button'>Inizia la prova gratuita di 30 giorni</a></div><h2>Come riconosciamo i visitatori</h2><p>Pirsch genera un numero univoco per ogni visitatore calcolato dall'indirizzo IP del visitatore, dall'User-Agent e da una stringa casuale impostata per ogni sito web. La combinazione di questi tre punti dati garantisce che i visitatori possano essere identificati in modo univoco senza raccogliere dati personali. La stringa casuale garantisce che il numero varia tra i siti web, quindi non possono essere abbinati. Per essere conformi al GDPR, le sessioni vengono registrate per un massimo di 24 ore. Dopo di che, al visitatore viene assegnato un nuovo numero univoco.</p><p>Un vantaggio di questo metodo è che non richiediamo cookie, quindi non è necessario inserire un fastidioso banner di consenso ai cookie sul tuo sito web.</p><h2>Analisi web open source</h2><p>Per una completa trasparenza, il cuore di Pirsch è open source e può essere visualizzato su GitHub.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Visualizza su GitHub</a></div>"
+                    },
+                    "pt": {
+                        "text": "<h2>Nós Não Rastreamos</h2><p>O Pirsch não rastreia seus visitantes. Ao contrário do Google Analytics, que identifica uma pessoa em vários sites para fornecer anúncios direcionados, nós separamos estritamente os dados para cada site. Nenhuma informação pessoal é armazenada e não vendemos seus dados para terceiros.</p><h2>Informações Coletadas Para Você</h2><p>A Pirsch coleta e armazena as seguintes informações para você, que nunca serão compartilhadas ou vendidas.</p><ul><li class='p'>Páginas visitadas</li><li class='p'><a href='/utm-generator'>Referenciador e parâmetros de campanha UTM</a></li><li class='p'>País de origem, cidade e idioma</li><li class='p'>Sistema operacional, navegador e resolução de tela</li><li class='p'>Eventos personalizados</li><li class='p'>User-Agent separado das visualizações de página</li></ul><div class='cta'><a href='/pt/signup' rel='noreferrer' class='button'>Iniciar teste gratuito de 30 dias</a></div><h2>Como reconhecemos os visitantes</h2><p>Pirsch gera um número único para cada visitante calculado a partir do endereço IP do visitante, do User-Agent e de uma sequência aleatória definida para cada site. A combinação desses três pontos de dados garante que os visitantes possam ser identificados de forma única sem coletar dados pessoais. A sequência aleatória garante que o número varie entre os sites, para que eles não possam ser correspondidos. Para cumprir o GDPR, as sessões são registradas por no máximo 24 horas. Depois disso, o visitante recebe um novo número único.</p><p>Uma vantagem deste método é que não exigimos cookies e, portanto, não é necessário colocar um banner de consentimento de cookies irritante no seu site.</p><h2>Análise da web de código aberto</h2><p>Para total transparência, o núcleo do Pirsch é de código aberto e pode ser visualizado no GitHub.</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>Ver no GitHub</a></div>"
+                    },
+                    "ja": {
+                        "text": "<h2>トラッキングは行いません</h2><p>Pirschはあなたの訪問者を追跡しません。Google Analyticsとは異なり、個別のウェブサイトごとにデータを厳密に分離し、広告ターゲットを提供するために複数のウェブサイトで個人を識別しません。個人情報は保存されず、データは第三者に販売されません。</p><h2>あなたのために収集された情報</h2><p>Pirschはあなたのために以下の情報を収集し、共有または販売することはありません。</p><ul><li class='p'>訪れたページ</li><li class='p'><a href='/utm-generator'>リファラーとUTMキャンペーンパラメータ</a></li><li class='p'>出身国、都市、言語</li><li class='p'>オペレーティングシステム、ブラウザ、画面解像度</li><li class='p'>カスタムイベント</li><li class='p'>ページビューから分離されたUser-Agent</li></ul><div class='cta'><a href='/ja/signup' rel='noreferrer' class='button'>30日間の無料トライアルを開始</a></div><h2>訪問者の認識方法</h2><p>Pirschは、各訪問者ごとに、訪問者のIPアドレス、ユーザーエージェント、および各ウェブサイトに設定されたランダムな文字列から計算される一意の番号を生成します。これらの3つのデータポイントを組み合わせることで、個人データを収集せずに訪問者を一意に識別できます。ランダムな文字列により、番号はウェブサイト間で異なるため、一致させることはできません。 GDPRを遵守するため、セッションは最大で24時間記録されます。その後、訪問者に新しい一意の番号が割り当てられます。</p><p>この方法の利点は、クッキーを必要としないことであり、そのためウェブサイトに迷惑なクッキーコンセントバナーを配置する必要がありません。</p><h2>オープンソースウェブ分析</h2><p>完全な透明性のために、Pirschのコアはオープンソースであり、GitHubで確認できます。</p><div class='cta'><a href='https://github.com/pirsch-analytics/pirsch' target='_blank' rel='noreferrer' class='button'>GitHubで表示</a></div>"
                     }
                 }
             },
