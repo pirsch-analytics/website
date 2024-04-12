@@ -488,7 +488,8 @@
                                                                 "tpl": "image",
                                                                 "data": {
                                                                     "src": "data.svg",
-                                                                    "alt": "data"
+                                                                    "alt": "Data",
+                                                                    "max-width": "100%"
                                                                 }
                                                             }
                                                         ]
@@ -537,7 +538,8 @@
                                                                 "data": {
                                                                     "src": "filter.svg",
                                                                     "alt": "Filter",
-                                                                    "class": "mask-bottom"
+                                                                    "class": "mask-bottom",
+                                                                    "max-width": "100%"
                                                                 }
                                                             }
                                                         ]
