@@ -69,7 +69,8 @@
             "links": [
                 {
                     "label": "Live Demo",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Pricing",
@@ -158,7 +159,8 @@
             "links": [
                 {
                     "label": "Live Demo",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Preise",
@@ -247,7 +249,8 @@
             "links": [
                 {
                     "label": "Demostración en Vivo",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Precios",
@@ -336,7 +339,8 @@
             "links": [
                 {
                     "label": "Démo en direct",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Tarification",
@@ -425,7 +429,8 @@
             "links": [
                 {
                     "label": "Live demo",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Prijzen",
@@ -514,7 +519,8 @@
             "links": [
                 {
                     "label": "Demo dal vivo",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Prezzi",
@@ -603,7 +609,8 @@
             "links": [
                 {
                     "label": "Demonstração em direto",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "Preços",
@@ -692,7 +699,8 @@
             "links": [
                 {
                     "label": "ライブデモ",
-                    "href": "https://pirsch.pirsch.io"
+                    "href": "https://pirsch.pirsch.io",
+                    "class": "show-mobile"
                 },
                 {
                     "label": "価格",
