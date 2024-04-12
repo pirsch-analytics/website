@@ -69,5 +69,6 @@ img[width][height] {
 }
   
 img[src$=".svg"] {
+    width: min-content;
     height: auto;
 }
