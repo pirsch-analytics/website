@@ -22,28 +22,28 @@
                 "ref": "head",
                 "copy": {
                     "en": {
-                        "title": "Log in to Discourse"
+                        "title": "Log in to Discourse – Pirsch Analytics"
                     },
                     "de": {
-                        "title": "Bei Discourse anmelden"
+                        "title": "Bei Discourse anmelden – Pirsch Analytics"
                     },
                     "es": {
-                        "title": "Iniciar sesión en Discourse"
+                        "title": "Iniciar sesión en Discourse – Pirsch Analytics"
                     },
                     "fr": {
-                        "title": "Se connecter à Discourse"
+                        "title": "Se connecter à Discourse – Pirsch Analytics"
                     },
                     "nl": {
-                        "title": "Aanmelden bij Discourse"
+                        "title": "Aanmelden bij Discourse – Pirsch Analytics"
                     },
                     "it": {
-                        "title": "Accedi a Discourse"
+                        "title": "Accedi a Discourse – Pirsch Analytics"
                     },
                     "pt": {
-                        "title": "Iniciar sessão no Discourse"
+                        "title": "Iniciar sessão no Discourse – Pirsch Analytics"
                     },
                     "ja": {
-                        "title": "ディスコースにログイン"
+                        "title": "ディスコースにログイン – Pirsch Analytics"
                     }
                 }
             },
