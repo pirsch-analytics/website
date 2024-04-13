@@ -1346,6 +1346,10 @@ header .header-content nav .dropdown:hover .dropdown-button {
 header .header-content nav .dropdown:hover .dropdown-button svg {
   transform: rotate(180deg);
 }
+header .header-content nav .dropdown:hover .dropdown-button .dropdown-content {
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}
 header .header-content nav .dropdown .dropdown-button {
   display: flex;
   align-items: center;
