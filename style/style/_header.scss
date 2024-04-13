@@ -12,14 +12,14 @@ header {
     transition: height .1s ease;
 
     &:before {
-        -webkit-backdrop-filter: var(--backdrop-filter-glass);
+        -webkit-backdrop-filter: blur(24px);
         z-index: -1;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        backdrop-filter: var(--backdrop-filter-glass);
+        backdrop-filter: blur(24px);
         background-color: var(--color-background-primary-glass);
         content: "";
     } 
@@ -91,7 +91,7 @@ header {
                 }
 
                 .dropdown-content {
-                    -webkit-backdrop-filter: var(--backdrop-filter-glass);
+                    -webkit-backdrop-filter: blur(24px);
                     display: flex;
                     position: absolute;
                     top: 100%;
@@ -102,7 +102,7 @@ header {
                     overflow: hidden;
                     gap: 20px;
                     border-radius: var(--border-radius-medium);
-                    backdrop-filter: var(--backdrop-filter-glass);
+                    backdrop-filter: blur(24px);
                     background-color: var(--color-background-elevation);
                     opacity: 0;
                     transition: max-height .2s ease, opacity .2s ease;

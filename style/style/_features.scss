@@ -3,14 +3,14 @@ section.features {
     padding-top: var(--padding-extra-large);
 
     h2 {
-        -webkit-backdrop-filter: var(--backdrop-filter-glass);
+        -webkit-backdrop-filter: blur(24px);
         display: flex;
         align-items: center;
         height: 64px;
         margin: var(--padding-small) 0 calc(var(--padding-small) * -1);
         padding: 0 var(--padding-small);
         border-radius: 32px;
-        backdrop-filter: var(--backdrop-filter-glass);
+        backdrop-filter: blur(24px);
         background-color: var(--color-background-elevation);
     }
 

@@ -33,6 +33,16 @@
     border-radius: var(--border-radius-medium);
 }
 
+.clipped {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

@@ -116,7 +116,6 @@ img[src$=".svg"] {
   --border-radius-small: 6px;
   --mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 10%, rgba(0,0,0, 1) 90%, rgba(0,0,0, 0) 100%);
   --header-height: 88px;
-  --backdrop-filter-glass: blur(24px);
 }
 
 html {
@@ -367,7 +366,7 @@ section.text .article-info {
   align-items: center;
   width: 100%;
   max-width: 768px;
-  margin: var(--padding-small) 0 0;
+  margin: var(--padding-small) 0;
 }
 section.text .article-info + div {
   width: 100%;
@@ -408,10 +407,13 @@ section.text article + article {
 }
 section.text article h2 {
   align-self: flex-start;
-  margin: 32px 0 8px;
+  margin: var(--padding-medium) 0 8px;
   font-size: 28px;
   letter-spacing: 0;
   text-align: left;
+}
+section.text article h2:first-of-type {
+  margin-top: 0;
 }
 section.text article h3 {
   align-self: flex-start;
@@ -425,7 +427,7 @@ section.text article h4, section.text article h5, section.text article h6 {
 }
 section.text article h3, section.text article h4, section.text article h5, section.text article h6 {
   margin: -12px 0;
-  padding: 24px 0 12px;
+  padding: var(--padding-small) 0 12px;
 }
 section.text article p {
   width: 100%;
@@ -625,7 +627,7 @@ button.grey, .button.grey {
 }
 
 .card {
-  -webkit-backdrop-filter: var(--backdrop-filter-glass);
+  -webkit-backdrop-filter: blur(24px);
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -636,7 +638,7 @@ button.grey, .button.grey {
   padding: calc(var(--padding-small) * 1.5);
   gap: var(--padding-small);
   border-radius: var(--border-radius-large);
-  backdrop-filter: var(--backdrop-filter-glass);
+  backdrop-filter: blur(24px);
   background-color: var(--color-background-elevation);
 }
 .card.columns {
@@ -889,14 +891,14 @@ section.content {
   margin-bottom: var(--padding-extra-large);
 }
 section.content .nummeration {
-  -webkit-backdrop-filter: var(--backdrop-filter-glass);
+  -webkit-backdrop-filter: blur(24px);
   display: flex;
   align-items: center;
   max-width: 100%;
   height: 40px;
   overflow: hidden;
   border-radius: 20px;
-  backdrop-filter: var(--backdrop-filter-glass);
+  backdrop-filter: blur(24px);
   background-color: var(--color-background-elevation);
 }
 section.content .nummeration .number {
@@ -919,6 +921,9 @@ section.content .nummeration .text {
   text-overflow: ellipsis;
   text-transform: uppercase;
   white-space: nowrap;
+}
+section.content p > strong {
+  font-weight: inherit;
 }
 @media only screen and (max-width: 1024px) {
   section.content .nummeration {
@@ -949,6 +954,9 @@ section.cta .section-content > h2 {
 section.cta .section-content > p {
   max-width: 768px;
   text-align: center;
+}
+section.cta .section-content > p > strong {
+  font-weight: inherit;
 }
 @media only screen and (max-width: 1024px) {
   section.cta .actions {
@@ -1007,14 +1015,14 @@ section.features {
   padding-top: var(--padding-extra-large);
 }
 section.features h2 {
-  -webkit-backdrop-filter: var(--backdrop-filter-glass);
+  -webkit-backdrop-filter: blur(24px);
   display: flex;
   align-items: center;
   height: 64px;
   margin: var(--padding-small) 0 calc(var(--padding-small) * -1);
   padding: 0 var(--padding-small);
   border-radius: 32px;
-  backdrop-filter: var(--backdrop-filter-glass);
+  backdrop-filter: blur(24px);
   background-color: var(--color-background-elevation);
 }
 section.features .actions {
@@ -1275,14 +1283,14 @@ header {
   transition: height 0.1s ease;
 }
 header:before {
-  -webkit-backdrop-filter: var(--backdrop-filter-glass);
+  -webkit-backdrop-filter: blur(24px);
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  backdrop-filter: var(--backdrop-filter-glass);
+  backdrop-filter: blur(24px);
   background-color: var(--color-background-primary-glass);
   content: "";
 }
@@ -1350,7 +1358,7 @@ header .header-content nav .dropdown .dropdown-button svg {
   transition: transform 0.1s ease;
 }
 header .header-content nav .dropdown .dropdown-content {
-  -webkit-backdrop-filter: var(--backdrop-filter-glass);
+  -webkit-backdrop-filter: blur(24px);
   display: flex;
   position: absolute;
   top: 100%;
@@ -1361,7 +1369,7 @@ header .header-content nav .dropdown .dropdown-content {
   overflow: hidden;
   gap: 20px;
   border-radius: var(--border-radius-medium);
-  backdrop-filter: var(--backdrop-filter-glass);
+  backdrop-filter: blur(24px);
   background-color: var(--color-background-elevation);
   opacity: 0;
   transition: max-height 0.2s ease, opacity 0.2s ease;
@@ -1767,6 +1775,16 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
 
 .border-radius-medium {
   border-radius: var(--border-radius-medium);
+}
+
+.clipped {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
 }
 
 .cursor-pointer {

@@ -42,7 +42,7 @@ section.text {
         align-items: center;
         width: 100%;
         max-width: 768px;
-        margin: var(--padding-small) 0 0;
+        margin: var(--padding-small) 0;
 
         & + div {
             width: 100%;
@@ -91,10 +91,14 @@ section.text {
         
         h2 {
             align-self: flex-start;
-            margin: 32px 0 8px;
+            margin: var(--padding-medium) 0 8px;
             font-size: 28px;
             letter-spacing: 0;
             text-align: left;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
         }
         
         h3 {
@@ -111,7 +115,7 @@ section.text {
 
         h3, h4, h5, h6 {
             margin: -12px 0;
-            padding: 24px 0 12px;
+            padding: var(--padding-small) 0 12px;
         }
 
         p {

@@ -14,6 +14,10 @@ section.cta {
         & > p {
             max-width: 768px;
             text-align: center;
+
+            & > strong {
+                font-weight: inherit;
+            }
         }
     }
 

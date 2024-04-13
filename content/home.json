@@ -21,6 +21,7 @@
                 "copy": {
                     "en": {
                         "headline": "See Beyond Clicks",
+                        "post_headline": "With the Best Google Analytics Alternative",
                         "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
@@ -28,6 +29,7 @@
                     },
                     "de": {
                         "headline": "Sieh über Klicks hinaus",
+                        "post_headline": "mit der besten Google Analytics Alternative",
                         "text": "Datenschutzfreundliche Web Analytics, entwickelt und gehostet in Deutschland – leistungsstark, ohne Cookies und vollständig konform mit DSGVO, CCPA und PECR.",
                         "action_primary": "30 Tage kostenlos testen",
                         "action_secondary": "Live-Demo ansehen",
@@ -35,6 +37,7 @@
                     },
                     "es": {
                         "headline": "Ver más allá de los clics",
+                        "post_headline": "con la mejor alternativa a Google Analytics",
                         "text": "Analítica web amigable con la privacidad, creada y alojada en Alemania — potente, sin cookies y totalmente conforme con GDPR, CCPA y PECR.",
                         "action_primary": "Inicia tu prueba gratuita",
                         "action_secondary": "Ver demostración en vivo",
@@ -42,6 +45,7 @@
                     },
                     "fr": {
                         "headline": "Voyez au-delà des clics",
+                        "post_headline": "avec la meilleure alternative à Google Analytics",
                         "text": "Analytique web respectueuse de la vie privée, développée et hébergée en Allemagne – puissante, sans cookies et totalement conforme au RGPD, CCPA et PECR.",
                         "action_primary": "Commencez votre essai gratuit",
                         "action_secondary": "Voir la démo en direct",
@@ -49,6 +53,7 @@
                     },
                     "nl": {
                         "headline": "Zie verder dan klikken",
+                        "post_headline": "met het beste Google Analytics-alternatief",
                         "text": "Privacyvriendelijke webanalyse, gemaakt en gehost in Duitsland — krachtig, cookievrij en volledig conform GDPR, CCPA en PECR.",
                         "action_primary": "Start je gratis proefperiode",
                         "action_secondary": "Bekijk de live demo",
@@ -56,6 +61,7 @@
                     },
                     "it": {
                         "headline": "Vedi oltre i clic",
+                        "post_headline": "con la migliore alternativa a Google Analytics",
                         "text": "Analisi web rispettosa della privacy, realizzata e ospitata in Germania — potente, senza cookie e completamente conforme a GDPR, CCPA e PECR.",
                         "action_primary": "Inizia la tua prova gratuita",
                         "action_secondary": "Guarda la demo dal vivo",
@@ -63,6 +69,7 @@
                     },
                     "pt": {
                         "headline": "Veja além dos cliques",
+                        "post_headline": "com a melhor alternativa ao Google Analytics",
                         "text": "Análise web amigável à privacidade, feita e hospedada na Alemanha — poderosa, sem cookies e totalmente conforme com GDPR, CCPA e PECR.",
                         "action_primary": "Comece seu teste gratuito",
                         "action_secondary": "Veja a demonstração ao vivo",
@@ -70,6 +77,7 @@
                     },
                     "ja": {
                         "headline": "クリックを超えて見る",
+                        "post_headline": "",
                         "text": "ドイツ製およびドイツホストのプライバシーに優しいWeb分析 — 強力で、クッキー不使用、GDPR、CCPA、およびPECRと完全に準拠。",
                         "action_primary": "無料トライアルを開始",
                         "action_secondary": "ライブデモを見る",
@@ -89,43 +97,43 @@
                         "nummeration_number": "1",
                         "nummeration_text": "Easy Start",
                         "headline": "Set Up in Minutes",
-                        "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative."
+                        "text": "Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the <strong>plug-and-play Google Analytics alternative</strong>."
                     },
                     "de": {
                         "nummeration_number": "1",
                         "nummeration_text": "Einfacher Start",
                         "headline": "In Minuten einrichten",
-                        "text": "Füge einfach das Skript zu deiner Seite hinzu, wähle aus einer Vielzahl von Plugins, oder nutze die API-Backend-Integration. Pirsch ist die Plug-and-Play-Alternative zu Google Analytics."
+                        "text": "Füge einfach das Skript zu deiner Seite hinzu, wähle aus einer Vielzahl von Plugins, oder nutze die API-Backend-Integration. Pirsch ist die <strong>Plug-and-Play-Alternative zu Google Analytics</strong>."
                     },
                     "es": {
                         "nummeration_number": "1",
                         "nummeration_text": "Inicio Fácil",
                         "headline": "Configurado en Minutos",
-                        "text": "Simplemente añade el script a tu sitio, elige entre una variedad de plugins o opta por la integración con el backend de la API. Pirsch es la alternativa plug-and-play a Google Analytics."
+                        "text": "Simplemente añade el script a tu sitio, elige entre una variedad de plugins o opta por la integración con el backend de la API. Pirsch es la alternativa <strong>plug-and-play a Google Analytics</strong>."
                     },
                     "fr": {
                         "nummeration_number": "1",
                         "nummeration_text": "Démarrage Facile",
                         "headline": "Configuration en quelques minutes",
-                        "text": "Ajoutez simplement le script à votre site, choisissez parmi une variété de plugins, ou optez pour l'intégration backend API. Pirsch est l'alternative plug-and-play à Google Analytics."
+                        "text": "Ajoutez simplement le script à votre site, choisissez parmi une variété de plugins, ou optez pour l'intégration backend API. Pirsch est <strong>l'alternative plug-and-play à Google Analytics</strong>."
                     },
                     "nl": {
                         "nummeration_number": "1",
                         "nummeration_text": "Gemakkelijke Start",
                         "headline": "Instellen in Minuten",
-                        "text": "Voeg gewoon het script toe aan je site, kies uit een verscheidenheid van plugins, of ga voor de API backend integratie. Pirsch is het plug-and-play alternatief voor Google Analytics."
+                        "text": "Voeg gewoon het script toe aan je site, kies uit een verscheidenheid van plugins, of ga voor de API backend integratie. Pirsch is het <strong>plug-and-play alternatief voor Google Analytics</strong>."
                     },
                     "it": {
                         "nummeration_number": "1",
                         "nummeration_text": "Avvio Facile",
                         "headline": "Configurazione in Minuti",
-                        "text": "Aggiungi semplicemente lo script al tuo sito, scegli tra una varietà di plugin, o opta per l'integrazione backend API. Pirsch è l'alternativa plug-and-play a Google Analytics."
+                        "text": "Aggiungi semplicemente lo script al tuo sito, scegli tra una varietà di plugin, o opta per l'integrazione backend API. Pirsch è <strong>l'alternativa plug-and-play a Google Analytics</strong>."
                     },
                     "pt": {
                         "nummeration_number": "1",
                         "nummeration_text": "Início Fácil",
                         "headline": "Configuração em Minutos",
-                        "text": "Basta adicionar o script ao seu site, escolher entre uma variedade de plugins, ou optar pela integração backend da API. Pirsch é a alternativa plug-and-play ao Google Analytics."
+                        "text": "Basta adicionar o script ao seu site, escolher entre uma variedade de plugins, ou optar pela integração backend da API. Pirsch é a <strong>alternativa plug-and-play ao Google Analytics</strong>."
                     },
                     "ja": {
                         "nummeration_number": "1",
