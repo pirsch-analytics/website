@@ -1346,7 +1346,7 @@ header .header-content nav .dropdown:hover .dropdown-button {
 header .header-content nav .dropdown:hover .dropdown-button svg {
   transform: rotate(180deg);
 }
-header .header-content nav .dropdown:hover .dropdown-button .dropdown-content {
+header .header-content nav .dropdown:hover .dropdown-content {
   -webkit-backdrop-filter: blur(24px);
   backdrop-filter: blur(24px);
 }
