@@ -5,7 +5,7 @@
         </div>
         <h1 class="{{copy .Page .Content "headline_class"}}" data-sal="slide-up">
             {{html (copy .Page .Content "headline")}}
-            <span class="clipped">{{html (copy .Page .Content "post_headline")}}</span>
+            <span class="clipped" style="position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden;">{{html (copy .Page .Content "post_headline")}}</span>
         </h1>
         <p data-sal="slide-up" data-sal-delay="100">{{html (copy .Page .Content "text")}}</p>
         <div class="actions" data-sal="slide-up" data-sal-delay="200">

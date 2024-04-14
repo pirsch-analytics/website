@@ -64,6 +64,16 @@
                     "standard": true
                 },
                 {
+                    "headline": "Traffic Spike Notifications",
+                    "text": "Get alerts when there is a spike in traffic to your site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Traffic Warning Notifications",
+                    "text": "Be notified when your site has had no traffic for a day.",
+                    "standard": true
+                },
+                {
                     "headline": "Client Hints",
                     "text": "Receive more accurate information about browsers and operating systems.",
                     "standard": true
@@ -308,6 +318,16 @@
                 {
                     "headline": "Google Search Console Plugin",
                     "text": "Integriere Daten aus der Google Search Console für eine umfassende Analyse.",
+                    "standard": true
+                },
+                {
+                    "headline": "Benachrichtigungen bei Traffic-Spitzen",
+                    "text": "Erhalte Warnungen, wenn es einen Anstieg des Traffics auf deiner Seite gibt.",
+                    "standard": true
+                },
+                {
+                    "headline": "Benachrichtigungen bei fehlendem Traffic",
+                    "text": "Erhalte eine Benachrichtigung, wenn deine Seite einen Tag lang keinen Traffic hatte.",
                     "standard": true
                 },
                 {
@@ -558,6 +578,16 @@
                     "standard": true
                 },
                 {
+                    "headline": "Notificaciones de Picos de Tráfico",
+                    "text": "Recibe alertas cuando haya un pico de tráfico en tu sitio.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notificaciones de Advertencia de Tráfico",
+                    "text": "Recibe notificaciones cuando tu sitio no haya tenido tráfico durante un día.",
+                    "standard": true
+                },
+                {
                     "headline": "Indicios del Cliente",
                     "text": "Recibe información más precisa sobre navegadores y sistemas operativos.",
                     "standard": true
@@ -802,6 +832,16 @@
                 {
                     "headline": "Plugin Google Search Console",
                     "text": "Intégrez les données de Google Search Console pour une analyse complète.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notifications de Pics de Trafic",
+                    "text": "Recevez des alertes lorsqu'il y a une augmentation du trafic sur votre site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notifications d'Avertissement de Trafic",
+                    "text": "Soyez notifié lorsque votre site n'a pas eu de trafic pendant une journée.",
                     "standard": true
                 },
                 {
@@ -1052,6 +1092,16 @@
                     "standard": true
                 },
                 {
+                    "headline": "Meldingen bij Verkeerspieken",
+                    "text": "Krijg een melding wanneer er een piek in verkeer naar je site is.",
+                    "standard": true
+                },
+                {
+                    "headline": "Waarschuwingsmeldingen voor Verkeer",
+                    "text": "Ontvang een melding wanneer je site een dag geen verkeer heeft gehad.",
+                    "standard": true
+                },
+                {
                     "headline": "Client hints",
                     "text": "Ontvang nauwkeurigere informatie over browsers en besturingssystemen.",
                     "standard": true
@@ -1296,6 +1346,16 @@
                 {
                     "headline": "Plugin Google Search Console",
                     "text": "Integra i dati della Google Search Console per un'analisi completa.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notifiche di Picchi di Traffico",
+                    "text": "Ricevi avvisi quando c'è un picco di traffico sul tuo sito.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notifiche di Avviso di Traffico",
+                    "text": "Ricevi notifiche quando il tuo sito non ha avuto traffico per un giorno.",
                     "standard": true
                 },
                 {
@@ -1546,6 +1606,16 @@
                     "standard": true
                 },
                 {
+                    "headline": "Notificações de Pico de Tráfego",
+                    "text": "Receba alertas quando houver um pico de tráfego no seu site.",
+                    "standard": true
+                },
+                {
+                    "headline": "Notificações de Aviso de Tráfego",
+                    "text": "Seja notificado quando seu site não tiver tráfego por um dia.",
+                    "standard": true
+                },
+                {
                     "headline": "Dicas para Clientes",
                     "text": "Receba informações mais precisas sobre navegadores e sistemas operacionais.",
                     "standard": true
@@ -1790,6 +1860,16 @@
                 {
                     "headline": "Google Search Consoleプラグイン",
                     "text": "Google Search Consoleのデータを統合して包括的な分析を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "トラフィック急増の通知",
+                    "text": "サイトへのトラフィックが急増したときにアラートを受け取ります。",
+                    "standard": true
+                },
+                {
+                    "headline": "トラフィック警告通知",
+                    "text": "サイトに1日間トラフィックがなかった場合に通知を受け取ります。",
                     "standard": true
                 },
                 {

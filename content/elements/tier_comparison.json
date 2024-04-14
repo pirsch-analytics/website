@@ -109,6 +109,18 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Traffic Spike Notifications",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Traffic Warning Notifications",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Client Hints",
                     "class2": "checked",
                     "class3": "checked",
@@ -419,6 +431,18 @@
                 },
                 {
                     "cell1": "Google Search Console-Plugin",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benachrichtigungen bei Traffic-Spitzen",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Benachrichtigungen bei fehlendem Traffic",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -739,6 +763,18 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Notificaciones de Picos de Tráfico",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notificaciones de Advertencia de Tráfico",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Pistas del Cliente",
                     "class2": "checked",
                     "class3": "checked",
@@ -1049,6 +1085,18 @@
                 },
                 {
                     "cell1": "Plugin Google Search Console",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notifications de Pics de Trafic",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notifications d'Avertissement de Trafic",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -1369,6 +1417,18 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Meldingen bij Verkeerspieken",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Waarschuwingsmeldingen voor Verkeer",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Client Hints",
                     "class2": "checked",
                     "class3": "checked",
@@ -1679,6 +1739,18 @@
                 },
                 {
                     "cell1": "Plugin Google Search Console",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notifiche di Picchi di Traffico",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notifiche di Avviso di Traffico",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -1999,6 +2071,18 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Notificações de Pico de Tráfego",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Notificações de Aviso de Tráfego",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Dicas para clientes",
                     "class2": "checked",
                     "class3": "checked",
@@ -2309,6 +2393,18 @@
                 },
                 {
                     "cell1": "Googleサーチコンソールプラグイン",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "トラフィック急増の通知",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "トラフィック警告通知",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"

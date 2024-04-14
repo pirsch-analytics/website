@@ -361,6 +361,9 @@ section.text h1 {
   max-width: 768px;
   font-size: 48px;
 }
+section.text h1 + article h2:first-of-type {
+  margin-top: var(--padding-medium);
+}
 section.text .article-info {
   display: flex;
   align-items: center;
@@ -407,13 +410,10 @@ section.text article + article {
 }
 section.text article h2 {
   align-self: flex-start;
-  margin: var(--padding-medium) 0 8px;
+  margin: 0 0 8px;
   font-size: 28px;
   letter-spacing: 0;
   text-align: left;
-}
-section.text article h2:first-of-type {
-  margin-top: 0;
 }
 section.text article h3 {
   align-self: flex-start;

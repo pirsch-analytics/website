@@ -35,6 +35,10 @@ section.text {
     h1 {
         max-width: 768px;
         font-size: 48px;
+
+        & + article h2:first-of-type {
+            margin-top: var(--padding-medium);
+        }
     }
 
     .article-info {
@@ -91,14 +95,10 @@ section.text {
         
         h2 {
             align-self: flex-start;
-            margin: var(--padding-medium) 0 8px;
+            margin: 0 0 8px;
             font-size: 28px;
             letter-spacing: 0;
             text-align: left;
-
-            &:first-of-type {
-                margin-top: 0;
-            }
         }
         
         h3 {
