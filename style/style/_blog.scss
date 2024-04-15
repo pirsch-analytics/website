@@ -99,6 +99,10 @@ section.text {
             font-size: 28px;
             letter-spacing: 0;
             text-align: left;
+
+            &:not(:first-of-type) {
+                margin-top: var(--padding-medium);
+            }
         }
         
         h3 {

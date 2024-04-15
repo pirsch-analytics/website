@@ -415,6 +415,9 @@ section.text article h2 {
   letter-spacing: 0;
   text-align: left;
 }
+section.text article h2:not(:first-of-type) {
+  margin-top: var(--padding-medium);
+}
 section.text article h3 {
   align-self: flex-start;
   font-size: 20px;
