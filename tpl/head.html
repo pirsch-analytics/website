@@ -33,8 +33,8 @@
         <meta name="robots" content="noindex, nofollow" />
     {{- end -}}
 
-    <link rel="stylesheet" type="text/css" href="static/css/main.css?v={{.CMS.LastUpdate}}" />
-    <link rel="stylesheet" type="text/css" href="static/css/scroll.css?v={{.CMS.LastUpdate}}" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/scroll.css" />
     <link rel="mask-icon" href="static/img/favicon/safari-pinned-tab.svg" color="#0a0a0a" />
     <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png" />
@@ -48,8 +48,8 @@
     
     <title>{{$title}}</title>
 
-    <script src="/static/js/main.js?v={{.CMS.LastUpdate}}"></script>
-    <script src="/static/js/scroll.js?v={{.CMS.LastUpdate}}"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/scroll.js"></script>
 
     {{- if (get .Content "hcaptcha") -}}
         <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
