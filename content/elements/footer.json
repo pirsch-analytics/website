@@ -149,7 +149,7 @@
             "product_links": [
                 {
                     "label": "Startseite",
-                    "href": "/de/"
+                    "href": "/de"
                 },
                 {
                     "label": "Live-Demo",
@@ -294,7 +294,7 @@
             "product_links": [
                 {
                     "label": "Inicio",
-                    "href": "/es/"
+                    "href": "/es"
                 },
                 {
                     "label": "Demostración en Vivo",
@@ -439,7 +439,7 @@
             "product_links": [
                 {
                     "label": "Accueil",
-                    "href": "/fr/"
+                    "href": "/fr"
                 },
                 {
                     "label": "Démo en Direct",
@@ -584,7 +584,7 @@
             "product_links": [
                 {
                     "label": "Home",
-                    "href": "/nl/"
+                    "href": "/nl"
                 },
                 {
                     "label": "Live Demo",
@@ -729,7 +729,7 @@
             "product_links": [
                 {
                     "label": "Home",
-                    "href": "/it/"
+                    "href": "/it"
                 },
                 {
                     "label": "Demo dal Vivo",
@@ -874,7 +874,7 @@
             "product_links": [
                 {
                     "label": "Início",
-                    "href": "/pt/"
+                    "href": "/pt"
                 },
                 {
                     "label": "Demonstração ao Vivo",
@@ -1019,7 +1019,7 @@
             "product_links": [
                 {
                     "label": "ホーム",
-                    "href": "/ja/"
+                    "href": "/ja"
                 },
                 {
                     "label": "ライブデモ",
