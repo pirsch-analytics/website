@@ -647,7 +647,7 @@
                 {
                     "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 24 24' fill='none' stroke='#adadad' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 19V9m6 10V5M6 19v-5'/></svg>",
                     "label": "Google Analyticsの代替",
-                    "href": "/jp/google-analytics-alternative"
+                    "href": "/ja/google-analytics-alternative"
                 }
             ],
             "label2": "ソリューション",
