@@ -1,13 +1,7 @@
 {
     "path": {
-        "en": "/",
-        "de": "/de",
-        "es": "/es",
-        "fr": "/fr",
-        "nl": "/nl",
-        "it": "/it",
-        "pt": "/pt",
-        "ja": "/ja"
+        "en": "/b",
+        "de": "/de/b"
     },
     "sitemap": {
         "priority": "1.0"
@@ -15,24 +9,18 @@
     "analytics": {
         "experiment": {
             "name": "landing",
-            "variant": "a"
+            "variant": "b"
         }
     },
     "content": {
         "content": [
             {"ref": "head"},
             {"ref": "header"},
-            {"ref": "hero"},
             {
-                "ref": "hero",
-                "analytics": {
-                    "experiment": {
-                        "variant": "b"
-                    }
-                },
+                "tpl": "hero",
                 "copy": {
                     "en": {
-                        "headline": "Privacy-friendly Web Analytics",
+                        "headline": "Site B",
                         "post_headline": "With the Best Google Analytics Alternative",
                         "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
                         "action_primary": "Start Your Free Trial",
