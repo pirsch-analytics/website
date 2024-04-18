@@ -17,82 +17,16 @@
             {"ref": "head"},
             {"ref": "header"},
             {
-                "tpl": "hero",
+                "ref": "hero",
                 "analytics": {
                     "experiment": {
                         "name": "hero",
                         "variant": "a"
                     }
-                },
-                "copy": {
-                    "en": {
-                        "headline": "See Beyond Clicks",
-                        "post_headline": "With the Best Google Analytics Alternative",
-                        "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
-                        "action_primary": "Start Your Free Trial",
-                        "action_secondary": "View Live Demo",
-                        "customers_text": "Trusted by 500+ Customers"
-                    },
-                    "de": {
-                        "headline": "Sieh über Klicks hinaus",
-                        "post_headline": "mit der besten Google Analytics Alternative",
-                        "text": "Datenschutzfreundliche Web Analytics, entwickelt und gehostet in Deutschland – leistungsstark, ohne Cookies und vollständig konform mit DSGVO, CCPA und PECR.",
-                        "action_primary": "30 Tage kostenlos testen",
-                        "action_secondary": "Live-Demo ansehen",
-                        "customers_text": "Vertraut von über 500 Kunden"
-                    },
-                    "es": {
-                        "headline": "Ver más allá de los clics",
-                        "post_headline": "con la mejor alternativa a Google Analytics",
-                        "text": "Analítica web amigable con la privacidad, creada y alojada en Alemania — potente, sin cookies y totalmente conforme con GDPR, CCPA y PECR.",
-                        "action_primary": "Inicia tu prueba gratuita",
-                        "action_secondary": "Ver demostración en vivo",
-                        "customers_text": "Confiado por más de 500 clientes"
-                    },
-                    "fr": {
-                        "headline": "Voyez au-delà des clics",
-                        "post_headline": "avec la meilleure alternative à Google Analytics",
-                        "text": "Analytique web respectueuse de la vie privée, développée et hébergée en Allemagne – puissante, sans cookies et totalement conforme au RGPD, CCPA et PECR.",
-                        "action_primary": "Commencez votre essai gratuit",
-                        "action_secondary": "Voir la démo en direct",
-                        "customers_text": "Fait confiance par plus de 500 clients"
-                    },
-                    "nl": {
-                        "headline": "Zie verder dan klikken",
-                        "post_headline": "met het beste Google Analytics-alternatief",
-                        "text": "Privacyvriendelijke webanalyse, gemaakt en gehost in Duitsland — krachtig, cookievrij en volledig conform GDPR, CCPA en PECR.",
-                        "action_primary": "Start je gratis proefperiode",
-                        "action_secondary": "Bekijk de live demo",
-                        "customers_text": "Vertrouwd door meer dan 500 klanten"
-                    },
-                    "it": {
-                        "headline": "Vedi oltre i clic",
-                        "post_headline": "con la migliore alternativa a Google Analytics",
-                        "text": "Analisi web rispettosa della privacy, realizzata e ospitata in Germania — potente, senza cookie e completamente conforme a GDPR, CCPA e PECR.",
-                        "action_primary": "Inizia la tua prova gratuita",
-                        "action_secondary": "Guarda la demo dal vivo",
-                        "customers_text": "Fidato da oltre 500 clienti"
-                    },
-                    "pt": {
-                        "headline": "Veja além dos cliques",
-                        "post_headline": "com a melhor alternativa ao Google Analytics",
-                        "text": "Análise web amigável à privacidade, feita e hospedada na Alemanha — poderosa, sem cookies e totalmente conforme com GDPR, CCPA e PECR.",
-                        "action_primary": "Comece seu teste gratuito",
-                        "action_secondary": "Veja a demonstração ao vivo",
-                        "customers_text": "Confiado por mais de 500 clientes"
-                    },
-                    "ja": {
-                        "headline": "クリックを超えて見る",
-                        "post_headline": "",
-                        "text": "ドイツ製およびドイツホストのプライバシーに優しいWeb分析 — 強力で、クッキー不使用、GDPR、CCPA、およびPECRと完全に準拠。",
-                        "action_primary": "無料トライアルを開始",
-                        "action_secondary": "ライブデモを見る",
-                        "customers_text": "500人以上の顧客に信頼されています"
-                    }
                 }
             },
             {
-                "tpl": "hero",
+                "ref": "hero",
                 "analytics": {
                     "experiment": {
                         "name": "hero",
