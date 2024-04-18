@@ -1,5 +1,11 @@
 {
     "tpl": "hero",
+    "analytics": {
+        "experiment": {
+            "name": "hero",
+            "variant": "a"
+        }
+    },
     "copy": {
         "en": {
             "headline": "See Beyond Clicks",

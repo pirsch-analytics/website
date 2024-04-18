@@ -16,15 +16,7 @@
         "content": [
             {"ref": "head"},
             {"ref": "header"},
-            {
-                "ref": "hero",
-                "analytics": {
-                    "experiment": {
-                        "name": "hero",
-                        "variant": "a"
-                    }
-                }
-            },
+            {"ref": "hero"},
             {
                 "ref": "hero",
                 "analytics": {
