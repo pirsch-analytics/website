@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/gdpr-consent"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "GDPR Consent – Pirsch Analytics",
+                        "meta_description": "Consent obtained from individuals in compliance with the General Data Protection Regulation (GDPR) for the processing of their personal data."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is GDPR Consent?",
+                        "text": "<p><a href=\"/glossary/gdpr\">GDPR</a> consent refers to the consent that companies must obtain from European Union citizens before collecting or using their personal data, as set out in the General Data Protection Regulation (GDPR). This consent must be voluntary, specific, informed and unambiguous. Silence, checked boxes or inactivity do not constitute consent.</p><p>For example, a website that wants to collect visitor data for analytics or marketing purposes must provide users with a clear and easy way to consent or opt-out of the use of their data. This is often done through a consent banner or pop-up window that details the type of data collected, the purpose of the collection, and who the data will be shared with or sold to, so that users can make an informed decision about their personal data.</p><p>Getting proper GDPR consent not only meets legal requirements, but also builds trust with users by respecting their privacy and giving them control over their personal data.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

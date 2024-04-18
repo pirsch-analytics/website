@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/user-agent"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "User Agent – Pirsch Analytics",
+                        "meta_description": ""
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a User Agent?",
+                        "text": "<p>A user agent is a string of characters that a browser or other application sends to a web server to identify itself and provide information about type, version, operating system, and other attributes. This string helps the server to deliver content in a format appropriate for the user's <a href=\"/glossary/device\">device</a>. User agents play a crucial role in the negotiation of content between clients and servers, as they allow servers to select the appropriate version of a resource based on the characteristics of the user agent.</p><p>A user agent can, for example, identify itself as a particular browser, such as Chrome on Windows, or as a bot, such as Googlebot, which crawls the web for the Google search engine. Based on this information, a Web site can decide whether to serve a page optimized for desktop browsers or a page optimized for mobile devices. It could also decide to present different information to a search engine crawler than to a normal user, such as content that is more focused on search engine optimization.</p><p>The understanding of user agents can be important for developers and webmasters to optimize the functionality of a website and the user experience in different browsers and on different devices.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

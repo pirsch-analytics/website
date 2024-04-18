@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/500-internal-server-error"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "500 Internal Server Error – Pirsch Analytics",
+                        "meta_description": "A status code indicating that the server encountered an unexpected condition that prevented it from fulfilling the request."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a 500 Internal Server Error?",
+                        "text": "<p>The 500 internal server error is a generic HTTP status code that indicates a problem with the website's server, but the server cannot be more specific about the exact problem. This error can occur for a variety of reasons, such as server misconfiguration, software conflicts, or resource exhaustion.</p><p>For example, if there is a syntax error in a script being executed when a page is requested, or if a database connection is not working properly, the server may not be able to complete the request and will return a 500 Internal Server Error. This tells the user that the server has encountered an unexpected condition that has prevented it from fulfilling the request.</p><p>It is important that web administrators investigate these errors as soon as they occur by checking server logs, reviewing recent updates or changes, and ensuring that all configurations are correct. This will help maintain the reliability and smooth operation of a website and improve the user experience by minimizing interruptions.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

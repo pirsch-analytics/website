@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/call-to-action"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Call to Action (CTA) – Pirsch Analytics",
+                        "meta_description": "A prompt to encourage a user to take a specific action, such as clicking a button or completing a form."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is Call to Action (CTA)?",
+                        "text": "<p>A call to action (CTA) is a request on a web page that asks the user to take a specific action. It is usually a button or link that prompts the user to take an action that benefits the company, such as \"Buy Now\", \"Sign Up\", \"Learn More\", or \"Contact Us\". CTAs are critical to converting visitors into leads or customers by showing them what to do next.</p><p>For example, on an e-commerce website, an \"Add to Cart\" button on a product page is a call to action that encourages the user to proceed with their purchase. Similarly, a \"Subscribe\" button on a blog encourages users to sign up for updates. The effectiveness of a CTA can depend on several factors, including design, placement, and wording. It should stand out visually, clearly state what will happen if it is clicked, and be placed in a <a href=\"/glossary/location\">location</a>  that is easy for users to find.</p><p>Well-designed CTAs are essential to website success and have a significant impact on conversion rates because they make it clear to users how to take the next step. They can also be tested and optimized through <a href=\"/glossary/ab-testing\">A/B testing</a> to determine which versions deliver the best results.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

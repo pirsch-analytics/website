@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/referrer"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Referrer – Pirsch Analytics",
+                        "meta_description": "The source through which a user arrived at a website, typically another website or search engine."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Referrer?",
+                        "text": "<p>A referrer in web analytics refers to the source from which a visitor came to your website. It identifies the last <a href=\"/glossary/uniform-resource-locator\">URL</a> a user visited before clicking on your site. This can be another website, a social media platform, a search engine, or direct input (such as typing the URL directly into the browser or using a bookmark).</p><p>Knowing where your traffic is coming from can help you evaluate the effectiveness of your marketing strategies, identify partnerships that drive traffic, and optimize your website's presence on different platforms. For example, if you use Pirsch Analytics, you may find that a large portion of your traffic is coming from a particular blog that has linked to one of your articles. This information can be invaluable for planning future content and collaborations.</p><p>Referrers are usually tracked automatically by web analytics tools. They categorize traffic sources in reports so you can see which marketing channels are most effective at attracting visitors. For example, you can compare the performance of traffic from search engines with that from social media or direct visits to understand which strategies are most effective for your site.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

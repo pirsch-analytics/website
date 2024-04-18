@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/unique-visitor"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Unique Visitor – Pirsch Analytics",
+                        "meta_description": "A single user who visits a website within a specified time period, regardless of how many times they visit."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Unique Visitor?",
+                        "text": "<p>A unique visitor is a single user who visits a website during a specific time period, such as a day, week, or month. Each unique visitor is counted only once during that period, regardless of how often they visit the site. This metric helps website owners understand the size of their audience.</p><p>For example, with Pirsch Analytics, a website visited multiple times in a day by the same user is still counted as a single visitor. This distinction is important to measure true reach, not just the level of activity reflected in metrics such as <a href=\"/glossary/page-view\">page views</a> or <a href=\"/glossary/session\">sessions</a>.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

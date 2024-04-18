@@ -1,0 +1,356 @@
+{
+    "path": {
+        "en": "/glossary"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Web Analytics Glossary – Pirsch Analytics",
+                        "meta_description": "Web analytics and online marketing are vast topics with a wide range of technical terms. Check out the glossary for the most important terminology and definitions."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_overview",
+                "copy": {
+                    "en": {
+                        "headline": "Web Analytics Glossary",
+                        "text": "Web analytics and online marketing are vast topics with a wide range of technical terms. Check out the glossary for the most important terminology and definitions.",
+                        "entries": [
+                            {
+                                "title": "403 Forbidden Error",
+                                "description": "A status code indicating that the server understood the request but refuses to authorize it.",
+                                "slug": "403-forbidden"
+                            },
+                            {
+                                "title": "404 Not Found Error",
+                                "description": "A status code indicating that the server cannot find the requested resource.",
+                                "slug": "404-not-found"
+                            },
+                            {
+                                "title": "500 Internal Server Error",
+                                "description": "A status code indicating that the server encountered an unexpected condition that prevented it from fulfilling the request.",
+                                "slug": "500-internal-server-error"
+                            },
+                            {
+                                "title": "A/B Testing",
+                                "description": "A method of comparing two versions of a webpage or app against each other to determine which one performs better.",
+                                "slug": "ab-testing"
+                            },
+                            {
+                                "title": "Accelerated Mobile Page (AMP)",
+                                "description": "A web page designed to load quickly and perform well on mobile devices.",
+                                "slug": "accelerated-mobile-page"
+                            },
+                            {
+                                "title": "Adblocker",
+                                "description": "Software designed to prevent advertisements from appearing on a webpage or in an app.",
+                                "slug": "adblocker"
+                            },
+                            {
+                                "title": "Assisted Conversion",
+                                "description": "A conversion that was influenced by multiple interactions with a website or advertising campaign.",
+                                "slug": "assisted-conversion"
+                            },
+                            {
+                                "title": "Attribution Model",
+                                "description": "A set of rules or methodologies used to determine how credit for conversions and sales is assigned to touchpoints in the conversion path.",
+                                "slug": "attribution-model"
+                            },
+                            {
+                                "title": "Average Session Duration",
+                                "description": "The average amount of time users spend on a website during a single session.",
+                                "slug": "session-duration"
+                            },
+                            {
+                                "title": "Bounce Rate",
+                                "description": "The percentage of visitors who navigate away from a website after viewing only one page.",
+                                "slug": "bounce-rate"
+                            },
+                            {
+                                "title": "Call to Action",
+                                "description": "A prompt to encourage a user to take a specific action, such as clicking a button or completing a form.",
+                                "slug": "call-to-action"
+                            },
+                            {
+                                "title": "CCPA",
+                                "description": "California Consumer Privacy Act, a state statute intended to enhance privacy rights and consumer protection for residents of California.",
+                                "slug": "ccpa"
+                            },
+                            {
+                                "title": "Click-through Rate",
+                                "description": "The percentage of users who click on a specific link out of the total number of users who view a page, email, or advertisement.",
+                                "slug": "click-through-rate"
+                            },
+                            {
+                                "title": "Conversion",
+                                "description": "The completion of a desired action by a user, such as making a purchase or filling out a form.",
+                                "slug": "conversion"
+                            },
+                            {
+                                "title": "Conversion Rate",
+                                "description": "The percentage of website visitors who complete a desired goal, such as making a purchase or filling out a form.",
+                                "slug": "conversion-rate"
+                            },                            
+                            {
+                                "title": "Conversion Rate Optimization (CRO)",
+                                "description": "The process of improving the percentage of website visitors who complete a desired goal.",
+                                "slug": "conversion-rate-optimization"
+                            },
+                            {
+                                "title": "Cookie",
+                                "description": "A small piece of data stored on a user's device by a website, typically used to remember preferences and track user behavior.",
+                                "slug": "cookie"
+                            },
+                            {
+                                "title": "Cookie Consent Banner",
+                                "description": "A banner or pop-up message displayed on a website informing users about the use of cookies and requesting their consent.",
+                                "slug": "cookie-consent-banner"
+                            },
+                            {
+                                "title": "Cost per Click (CPC)",
+                                "description": "The amount an advertiser pays for each click on their advertisement.",
+                                "slug": "cost-per-click"
+                            },
+                            {
+                                "title": "Data Processing Agreement (DPA)",
+                                "description": "A contract that outlines the responsibilities of a data controller and data processor regarding the processing of personal data.",
+                                "slug": "data-processing-agreement"
+                            },
+                            {
+                                "title": "Device",
+                                "description": "A physical or virtual device, such as a computer, smartphone, or tablet, used to access the internet.",
+                                "slug": "device"
+                            },
+                            {
+                                "title": "Direct Traffic",
+                                "description": "Visitors who arrive at a website by typing the URL directly into their browser or through a bookmark.",
+                                "slug": "direct-traffic"
+                            },
+                            {
+                                "title": "ePrivacy",
+                                "description": "A European Union directive that regulates the processing of personal data and the protection of privacy in electronic communications.",
+                                "slug": "e-privacy"
+                            },
+                            {
+                                "title": "Engagement Rate",
+                                "description": "A measure of how actively involved users are with a piece of content, typically expressed as a percentage of total interactions.",
+                                "slug": "engagement-rate"
+                            },
+                            {
+                                "title": "First Interaction Model",
+                                "description": "An attribution model that gives credit for conversions to the first touchpoint a user had with a website or advertising campaign.",
+                                "slug": "first-interaction-model"
+                            },
+                            {
+                                "title": "First Party Cookie",
+                                "description": "A cookie set by the domain of the website being visited, used to remember user preferences and track user behavior within that website.",
+                                "slug": "first-party-cookie"
+                            },
+                            {
+                                "title": "Funnel",
+                                "description": "A series of steps or stages that a user goes through before completing a desired action, such as making a purchase.",
+                                "slug": "funnel"
+                            },
+                            {
+                                "title": "GDPR",
+                                "description": "General Data Protection Regulation, a regulation in EU law on data protection and privacy for all individual citizens of the European Union and the European Economic Area.",
+                                "slug": "gdpr"
+                            },
+                            {
+                                "title": "GDPR Consent",
+                                "description": "Consent obtained from individuals in compliance with the General Data Protection Regulation (GDPR) for the processing of their personal data.",
+                                "slug": "gdpr-consent"
+                            },
+                            {
+                                "title": "IP Address",
+                                "description": "A numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+                                "slug": "ip-address"
+                            },
+                            {
+                                "title": "Keyword",
+                                "description": "A word or phrase that describes the content of a webpage and is used by search engines to match search queries to relevant pages.",
+                                "slug": "keyword"
+                            },
+                            {
+                                "title": "Landing Page",
+                                "description": "A webpage that users arrive at after clicking on a link in an advertisement, search engine results page, or other external source.",
+                                "slug": "landing-page"
+                            },
+                            {
+                                "title": "Live Visitor",
+                                "description": "A user who is currently active on a website.",
+                                "slug": "live-visitor"
+                            },
+                            {
+                                "title": "Location",
+                                "description": "The physical or geographic location of a user accessing a website or app, typically determined by their IP address or GPS coordinates.",
+                                "slug": "location"
+                            },
+                            {
+                                "title": "Operating System",
+                                "description": "Software that manages computer hardware and provides common services for computer programs, such as Windows, macOS, and Linux.",
+                                "slug": "operating-system"
+                            },
+                            {
+                                "title": "Organic Search",
+                                "description": "Traffic that comes to a website as a result of unpaid search results, also known as natural or organic search.",
+                                "slug": "organic-search"
+                            },
+                            {
+                                "title": "Page Speed",
+                                "description": "The time it takes for a webpage to load and become interactive for users.",
+                                "slug": "page-speed"
+                            },
+                            {
+                                "title": "Page Title",
+                                "description": "The title of a webpage that appears at the top of a browser window and is displayed in search engine results pages.",
+                                "slug": "page-title"
+                            },
+                            {
+                                "title": "Page View",
+                                "description": "A single instance of a user viewing a webpage on a website.",
+                                "slug": "page-view"
+                            },                            
+                            {
+                                "title": "PECR",
+                                "description": "Privacy and Electronic Communications Regulations, a set of regulations in the UK that govern the use of electronic communications.",
+                                "slug": "pecr"
+                            },
+                            {
+                                "title": "Personal Data",
+                                "description": "Any information that relates to an identified or identifiable individual, such as their name, email address, or IP address.",
+                                "slug": "personal-data"
+                            },
+                            {
+                                "title": "Personal Identifiable Information (PII)",
+                                "description": "Any information that can be used to identify an individual, such as their name, email address, or phone number.",
+                                "slug": "personal-identifiable-information"
+                            },
+                            {
+                                "title": "Privacy Shield",
+                                "description": "A framework for regulating transatlantic exchanges of personal data between the European Union and the United States.",
+                                "slug": "privacy-shield"
+                            },
+                            {
+                                "title": "Protected Health Information (PHI)",
+                                "description": "Any information about health status, provision of healthcare, or payment for healthcare that can be linked to an individual, as defined by HIPAA.",
+                                "slug": "protected-health-information"
+                            },
+                            {
+                                "title": "Referral Traffic",
+                                "description": "Visitors who arrive at a website by clicking on a link from another website.",
+                                "slug": "referral-traffic"
+                            },
+                            {
+                                "title": "Referrer",
+                                "description": "The source through which a user arrived at a website, typically another website or search engine.",
+                                "slug": "referrer"
+                            },                            
+                            {
+                                "title": "Return on Investment (ROI)",
+                                "description": "A measure of the profitability of an investment, typically calculated as the ratio of net profit to the initial investment.",
+                                "slug": "return-on-investment"
+                            },
+                            {
+                                "title": "Robots.txt",
+                                "description": "A text file placed in the root directory of a website to instruct web crawlers which pages or files they can or cannot request from the site.",
+                                "slug": "robots-txt"
+                            },
+                            {
+                                "title": "RSS Feed",
+                                "description": "A web feed that allows users to access updates to online content in a standardized, computer-readable format.",
+                                "slug": "rss-feed"
+                            },
+                            {
+                                "title": "Scrolled Percentage",
+                                "description": "The percentage of a webpage that a user has scrolled through.",
+                                "slug": "scrolled-percentage"
+                            },
+                            {
+                                "title": "Search Analytics",
+                                "description": "The analysis of search engine data to identify trends, patterns, and insights related to search queries and user behavior.",
+                                "slug": "search-analytics"
+                            },
+                            {
+                                "title": "Segmentation",
+                                "description": "The process of dividing a target audience into smaller, more homogeneous groups based on shared characteristics or behaviors.",
+                                "slug": "segmentation"
+                            },
+                            {
+                                "title": "Sensitive Data",
+                                "description": "Any data that, if compromised, could cause harm to an individual or organization, such as financial information or medical records.",
+                                "slug": "sensitive-data"
+                            },
+                            {
+                                "title": "Server Log Analysis",
+                                "description": "The process of analyzing server log files to gain insights into website traffic, user behavior, and system performance.",
+                                "slug": "server-log-analysis"
+                            },
+                            {
+                                "title": "Session",
+                                "description": "A period of time during which a user interacts with a website.",
+                                "slug": "session"
+                            },                            
+                            {
+                                "title": "Session Duration",
+                                "description": "The average amount of time users spend on a website during a single session.",
+                                "slug": "session-duration"
+                            },
+                            {
+                                "title": "Subdomain",
+                                "description": "A subdivision of a domain, used to organize and navigate to different sections or functionalities of a website.",
+                                "slug": "subdomain"
+                            },
+                            {
+                                "title": "Third Party Cookie",
+                                "description": "A cookie set by a domain other than the one being visited, typically used for cross-site tracking and advertising.",
+                                "slug": "third-party-cookie"
+                            },
+                            {
+                                "title": "Time On Page",
+                                "description": "The amount of time a user spends on a single webpage before navigating to another page or leaving the site.",
+                                "slug": "time-on-page"
+                            },
+                            {
+                                "title": "Traffic Rank",
+                                "description": "A measure of a website's popularity compared to all other sites on the internet, typically based on factors such as the number of visitors and pageviews.",
+                                "slug": "traffic-rank"
+                            },
+                            {
+                                "title": "Uniform Resource Locator (URL)",
+                                "description": "A string of characters used to identify a resource on the internet, such as a webpage, image, or file.",
+                                "slug": "uniform-resource-locator"
+                            },
+                            {
+                                "title": "Unique Visitor",
+                                "description": "A single user who visits a website within a specified time period, regardless of how many times they visit.",
+                                "slug": "unique-visitor"
+                            },
+                            {
+                                "title": "User Agent",
+                                "description": "A string of information transmitted by a web browser or other client application to identify itself to a server.",
+                                "slug": "user-agent"
+                            },
+                            {
+                                "title": "UTM Code",
+                                "description": "Urchin Tracking Module code, a tracking parameter appended to URLs to track the effectiveness of online marketing campaigns.",
+                                "slug": "utm-code"
+                            }
+                        ]
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/session"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Session – Pirsch Analytics",
+                        "meta_description": "A period of time during which a user interacts with a website."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Session?",
+                        "text": "<p>A session in web analytics represents a single visit by a user to your website. It includes all the interactions that the user makes during their visit to the site. These interactions can include <a href=\"/glossary/page-view\">page views</a>, clicks, and transactions.</p><p>A session begins when a user enters the site and ends when they leave or after a period of inactivity, usually 30 minutes. This time limit can be reset if the user continues to interact with the website.</p><p>For example, if someone uses Pirsch Analytics to track their website, they might see that a user had a session where they visited three different pages within 20 minutes. Pirsch would record this as one session, and all actions within that time frame would be grouped under that one session.</p><p>Sessions help website owners understand user behavior and assess the effectiveness of their content or user interface. They can look at metrics such as the number of sessions per day, average session length, or number of pages per session to make informed decisions about their site. Sessions help website owners understand user behavior and assess the effectiveness of their content or interface.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

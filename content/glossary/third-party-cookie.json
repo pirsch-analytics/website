@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/third-party-cookie"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Third Party Cookie – Pirsch Analytics",
+                        "meta_description": "A cookie set by a domain other than the one being visited, typically used for cross-site tracking and advertising."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Third Party Cookie?",
+                        "text": "<p>A third party <a href=\"/glossary/cookie\">cookie</a> is a type of cookie that is set by a different domain than the one the user is visiting. These cookies are typically used for cross-site tracking, retargeting and ad serving. They allow advertisers and analytics services to track an individual's browsing activity across multiple sites to create profiles of their interests and behavior, which can then be used to target ads that are more relevant to the individual.</p><p>For example, if a user visits a shopping site and looks at certain products, a third-party cookie may be used by an advertising service to display ads for similar products on different sites that the user later visits. In this way, users often see advertisements that appear to follow them around the Internet. However, due to privacy concerns, major browsers such as Chrome, Safari and Firefox are gradually phasing out the use of third-party cookies, leading to a shift to more privacy-friendly alternatives such as first-party cookies and browser-based storage solutions.</p><p>The decline of third-party cookies is prompting marketers to find new ways to track user behavior and deliver personalized experiences in a way that respects user privacy, for example by switching to privacy-friendly alternative like Pirsch Analytics.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/e-privacy"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "ePrivacy – Pirsch Analytics",
+                        "meta_description": "A European Union directive that regulates the processing of personal data and the protection of privacy in electronic communications."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is ePrivacy?",
+                        "text": "<p>The term ePrivacy, short for electronic privacy, refers to the protection and security of personal data exchanged and used on digital platforms, including websites, applications and electronic communications. The concept encompasses various legal frameworks designed to protect personal data and communications from unauthorized access, use, and disclosure.</p><p>In the European Union, ePrivacy is particularly associated with the ePrivacy Directive, also known as the Cookie Law, which regulates the use of <a href=\"/glossary/cookie\">cookies</a>, the confidentiality of communications, and the security of networks and services. This directive complements the General Data Protection Regulation (<a href=\"/glossary/gdpr\">GDPR</a>) by focusing on the protection of electronic communications and the tracking of internet users more broadly.</p><p>Compliance with the ePrivacy Directive includes, for example, obtaining explicit consent from users before placing cookies on their <a href=\"/glossary/device\">devices</a>, ensuring the security of electronic communications, and providing clear information about data collection and use.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

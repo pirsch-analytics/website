@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/bounce-rate"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Bounce Rate – Pirsch Analytics",
+                        "meta_description": "The percentage of visitors who navigate away from a website after viewing only one page."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is the Bounce Rate?",
+                        "text": "<p>Bounce rate is an important web analytics metric that measures the percentage of <a href=\"/glossary/session\">sessions</a> in which a user leaves your site from the entry page without interacting with the page. Essentially, it shows the number of visits to a single page. A high bounce rate could indicate that the <a href=\"/glossary/landing-page\">landing page</a>  is not engaging enough or relevant enough to the visitor's needs, or that the page load time is slow, causing visitors to leave the page before it is fully loaded.</p><p>The bounce rate is calculated by dividing the number of single page sessions by the total number of sessions in the same time period, then multiplying the result by 100 to get a percentage. </p><p>For example, if Pirsch Analytics shows that your website had a total of 100 sessions and 40 of those were single page sessions, the bounce rate would be calculated as:</p><p>Bounce rate = (40 / 100) x 100 = 40%</p><p>This metric is useful for evaluating the effectiveness of your landing pages and entry points to your website. For example, if you are running a marketing campaign and directing traffic to a specific landing page, a high bounce rate could indicate that the page is not living up to the expectations created by your advertising or that improvements are needed to retain visitors. This metric is useful for evaluating the effectiveness of your landing pages and entry points.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

@@ -678,6 +678,13 @@ button.grey, .button.grey {
   }
 }
 
+a.card {
+  gap: var(--padding-extra-small);
+}
+a.card p {
+  font-weight: 400;
+}
+
 .code-snippets {
   width: 100%;
   max-width: calc(584px - var(--padding-small) * 1.5);

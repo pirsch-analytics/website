@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/conversion"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Conversion – Pirsch Analytics",
+                        "meta_description": "The completion of a desired action by a user, such as making a purchase or filling out a form."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Conversion?",
+                        "text": "<p>A conversion in web analytics refers to a completed activity that is important to the success of your business and is triggered by a visitor's action on your website. This activity can be anything that aligns with business goals, such as making a purchase, subscribing to a newsletter, downloading software, or filling out a contact form. Essentially, it is the critical point at which a potential customer achieves a marketing goal.</p><p>For example, if the goal of an online store is to increase sales, every time a visitor completes a purchase is counted as a conversion. Similarly, if the goal of a blog is to grow its readership, each subscription to the mailing list can be counted as a conversion.</p><p>Tracking conversions helps companies understand how well their website is meeting its core objectives and is critical to measuring the ROI of digital marketing efforts. Tools like Pirsch Analytics can help identify which sources are driving the most conversions, allowing for more targeted and effective marketing strategies.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

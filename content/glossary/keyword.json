@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/keyword"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Keyword – Pirsch Analytics",
+                        "meta_description": "A word or phrase that describes the content of a webpage and is used by search engines to match search queries to relevant pages."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Keyword?",
+                        "text": "<p>A keyword, in the context of web analytics and search engine optimization (SEO), is a term or phrase that users type into search engines to find specific information. Keywords are critical to SEO because they help determine the relevance of a website's content to users' search queries. This relevance affects the website's ranking in search engine results pages (SERPs).</p><p>For example, for a website that sells garden tools, relevant keywords might be \"garden tools\", \"buy garden tools\", or \"garden supplies online\". By optimizing website content, meta tags and <a href=\"/glossary/uniform-resource-locator\">URLs</a> with these keywords, the website can improve its visibility and ranking in search results for garden tools. Keyword performance analysis also helps marketers understand user intent, optimize content and drive more targeted traffic to their website.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

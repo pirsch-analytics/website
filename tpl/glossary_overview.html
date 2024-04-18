@@ -1,0 +1,19 @@
+{{$entries := copy .Page .Content "entries"}}
+
+<section class="blog">
+    <div class="section-content">
+        <div class="gradient-container" style="top: calc((var(--padding-extra-large) - var(--padding-medium) - var(--header-height)) * -1);">
+            <div class="gradient white"></div>
+        </div>
+        <h1 class="h2">{{html (copy .Page .Content "headline")}}</h1>
+        <p>{{html (copy .Page .Content "text")}}</p>
+        <div class="grid one-one">
+            {{range $entries}}
+                <a href='/glossary/{{index . "slug"}}' class="card">
+                    <h3>{{index . "title"}}</h3>
+                    <p>{{index . "description"}}</p>
+                </a>
+            {{end}}
+        </div>
+    </div>
+</section>

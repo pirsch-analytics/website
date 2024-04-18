@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/privacy-shield"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Privacy Shield – Pirsch Analytics",
+                        "meta_description": "A framework for regulating transatlantic exchanges of personal data between the European Union and the United States."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is the Privacy Shield?",
+                        "text": "<p>The Privacy Shield was a framework that governed the exchange of personal data for commercial purposes between the European Union (EU) and the United States. It was designed to provide a mechanism for companies on both sides of the Atlantic to comply with privacy requirements when transferring personal data from the EU and Switzerland to the United States. Under the Privacy Shield, participating companies must adhere to a set of principles designed to ensure that the personal data of EU data subjects is adequately protected in accordance with EU law. </p><p>For example, a U.S. company participating in the Privacy Shield would be required to offer commitments to higher data protection standards to U.S.-based companies participating in the Privacy Shield framework, such as informing individuals about the data collected, maintaining data integrity and purpose limitation, ensuring accountability for data transferred to third parties, and providing recourse mechanisms for individuals to resolve disputes related to data processing. </p><p>However, in July 2020, the Court of Justice of the European Union (CJEU) declared the EU-US Privacy Shield framework invalid. This decision has implications for how companies transfer personal data from the EU to the US, highlighting the need for alternative mechanisms and strict compliance with <a href=\"/glossary/gdpr\">GDPR</a> standards for international data transfers.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

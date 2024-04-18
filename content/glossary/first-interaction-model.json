@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/first-interaction-model"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "First Interaction Model – Pirsch Analytics",
+                        "meta_description": "An attribution model that gives credit for conversions to the first touchpoint a user had with a website or advertising campaign."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is the First Interaction Model?",
+                        "text": "<p>The First Interaction Model, also known as the First Click Attribution Model, is an attribution model used in web analytics that assigns 100% of the credit for a <a href=\"/glossary/conversion\">conversion</a> to the first touchpoint with which a customer interacts. This model is particularly useful when evaluating which marketing channels are most effective at driving customer engagement.</p><p>For example, if a user first discovers a website by clicking on a Google Ads ad, then returns a week later by clicking on a social media post, and finally makes a purchase after clicking on an email link, the First Interaction Model would attribute all of the conversion value to the Google Ads campaign. This insight can help marketers understand the importance of each channel in driving awareness and starting the customer journey.</p><p>Using this model helps companies allocate their marketing budget more effectively by emphasizing the channels that are best at driving new website visitors or leads. However, it may not fully account for the contribution of subsequent interactions that help nurture and close sales.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/uniform-resource-locator"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Uniform Resource Locator (URL) – Pirsch Analytics",
+                        "meta_description": "A string of characters used to identify a resource on the internet, such as a webpage, image, or file."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Uniform Resource Locator (URL)?",
+                        "text": "<p>Uniform Resource Locator (URL) is the address used to access Web sites and files on the Internet. Essentially, a URL specifies the <a href=\"/glossary/location\">location</a> of a resource on a computer network and a mechanism for retrieving that resource. A URL consists of several parts, including the protocol (such as HTTP or HTTPS), the domain name, and possibly a path and query parameters that point to a specific page or file in that domain.</p><p>For example, in the URL \"https://www.example.com/products?id=25\", \"https\" is the protocol, \"www.example.com\" is the domain name, \"/products\" is the path, and \"?id=25\" is a query parameter that can be used to display specific information about a product with ID 25 on the Web site. URLs are essential for navigating the Web, linking to resources, and sharing content.</p><p>The understanding of URLs is fundamental to web development, search engine optimization, and digital marketing, as it affects how content is accessed and displayed online, and plays an important role in site architecture and user experience.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

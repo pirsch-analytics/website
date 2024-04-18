@@ -56,6 +56,11 @@
                     "href": "/blog"
                 },
                 {
+                    "label": "Documentation",
+                    "href": "https://docs.pirsch.io/",
+                    "target": "_blank"
+                },
+                {
                     "label": "API & SDKs",
                     "href": "https://docs.pirsch.io/api-sdks/api",
                     "target": "_blank"
@@ -64,6 +69,10 @@
                     "label": "Changelog",
                     "href": "https://docs.pirsch.io/changelog",
                     "target": "_blank"
+                },
+                {
+                    "label": "Glossary",
+                    "href": "/glossary"
                 },
                 {
                     "label": "News",
@@ -211,6 +220,10 @@
                     "target": "_blank"
                 },
                 {
+                    "label": "Glossar",
+                    "href": "/glossary"
+                },
+                {
                     "label": "Neuigkeiten",
                     "href": "/news"
                 },
@@ -354,6 +367,10 @@
                     "label": "Registro de Cambios",
                     "href": "https://docs.pirsch.io/changelog",
                     "target": "_blank"
+                },
+                {
+                    "label": "Glosar",
+                    "href": "/glossary"
                 },
                 {
                     "label": "Noticias",
@@ -501,6 +518,10 @@
                     "target": "_blank"
                 },
                 {
+                    "label": "Glossaire",
+                    "href": "/glossary"
+                },
+                {
                     "label": "Nouvelles",
                     "href": "/news"
                 },
@@ -644,6 +665,10 @@
                     "label": "Changelog",
                     "href": "https://docs.pirsch.io/changelog",
                     "target": "_blank"
+                },
+                {
+                    "label": "Glossar",
+                    "href": "/glossary"
                 },
                 {
                     "label": "Nieuws",
@@ -791,6 +816,10 @@
                     "target": "_blank"
                 },
                 {
+                    "label": "Glossario",
+                    "href": "/glossary"
+                },
+                {
                     "label": "Notizie",
                     "href": "/news"
                 },
@@ -936,6 +965,10 @@
                     "target": "_blank"
                 },
                 {
+                    "label": "Glossário",
+                    "href": "/glossary"
+                },
+                {
                     "label": "Notícias",
                     "href": "/news"
                 },
@@ -1079,6 +1112,10 @@
                     "label": "更新履歴",
                     "href": "https://docs.pirsch.io/changelog",
                     "target": "_blank"
+                },
+                {
+                    "label": "グロッサー",
+                    "href": "/glossary"
                 },
                 {
                     "label": "ニュース",

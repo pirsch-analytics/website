@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/location"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Location – Pirsch Analytics",
+                        "meta_description": "The physical or geographic location of a user accessing a website or app, typically determined by their IP address or GPS coordinates."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Location?",
+                        "text": "<p>Location in web analytics refers to the geographic area from which a user accesses a website. This information is usually derived from the user's <a href=\"/glossary/ip-address\">IP address</a> and can be as broad as a country or as specific as a city. Knowing the location of website visitors is crucial for understanding audience demographics, tailoring content to regional preferences, and optimizing marketing strategies for specific audiences.</p><p>For example, if analytics show that a large portion of a website's visitors come from Berlin, the website owner can offer special promotions, events, or content tailored to visitors from that region. In addition, location data can help evaluate the effectiveness of local SEO efforts and regional advertising campaigns.</p><p>Location tracking also helps address legal restrictions and cultural sensitivities by allowing websites to customize content based on the laws and cultural norms of the visitor's location, such as displaying content in the local language or modifying available products and services to comply with local regulations.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

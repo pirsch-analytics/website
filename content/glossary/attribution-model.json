@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/attribution-model"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Attribution Model – Pirsch Analytics",
+                        "meta_description": "A set of rules or methodologies used to determine how credit for conversions and sales is assigned to touchpoints in the conversion path."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is the Attribution Model?",
+                        "text": "<p>An attribution model is a framework used in web analytics to determine how credit for sales and conversions is assigned to touchpoints in the conversion path. The model helps marketers understand which channels, strategies, or campaigns have the greatest impact on achieving their goals and enables them to optimize marketing efforts based on these insights.</p><p>There are several types of attribution models, each with its own method of assigning value to different touchpoints in the customer journey. For example, the \"last click\" attribution Model attributes the entire conversion to the last channel the customer interacted with before the conversion. In contrast, the \"first click\" model attributes the conversion to the first channel the customer used to reach the site. More complex models, such as \"linear\", \"time decay\", and \"position-based\", allocate credit to multiple touchpoints based on different rules.</p><p>Choosing the right attribution model depends on specific business goals and the nature of the customer journey. With tools like Pirsch Analytics, marketers can apply different models and analyze how the performance of each channel varies to effectively optimize their marketing tactics.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

@@ -50,3 +50,11 @@
         padding: var(--padding-small);
     }
 }
+
+a.card {
+    gap: var(--padding-extra-small);
+    
+    p {
+        font-weight: 400;
+    }
+}

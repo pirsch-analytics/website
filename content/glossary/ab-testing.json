@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/ab-testing"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "A/B Testing – Pirsch Analytics",
+                        "meta_description": "A method of comparing two versions of a webpage or app against each other to determine which one performs better."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is A/B Testing?",
+                        "text": "<p>A/B testing, also known as split testing, is a method used in web analytics to compare two versions of a website or app and determine which performs better in terms of a specific conversion goal. This is done by showing the two versions (A and B) to similar visitors at the same time and then statistically analyzing which version performs better on pre-defined metrics such as click-through rate, form completions, or purchases.</p><p>For example, a website might test two different <a href=\"/glossary/landing-page\">landing page</a> designs to see which one leads to more newsletter signups. Using tools like Pirsch Analytics, the site owner can measure which version has a higher sign-up rate and then implement the more effective design for all visitors.</p><p>A/B testing is an essential tool for website optimization because it enables data-driven decisions, reduces guesswork, and improves user engagement by optimizing elements based on actual user behavior.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

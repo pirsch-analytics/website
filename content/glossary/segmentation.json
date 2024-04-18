@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/segmentation"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Segmentation – Pirsch Analytics",
+                        "meta_description": "The process of dividing a target audience into smaller, more homogeneous groups based on shared characteristics or behaviors."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is Segmentation?",
+                        "text": "<p>Segmentation in web analytics is the process of dividing website visitors into smaller groups based on defined criteria such as demographics, behavior, or source of traffic. This allows marketers and analysts to target specific audiences and tailor strategies to the needs of different user segments. Effective segmentation improves personalization, optimizes resource allocation, and increases overall marketing efficiency.</p><p>For example, a Web site could segment its users by geographic <a href=\"/glossary/location\">location</a>, such as visitors from Europe versus visitors from North America. Each segment might have different preferences or legal requirements that affect the localization of content and advertising strategies. Alternatively, segmentation may be based on user behavior, such as new visitors versus returning visitors, which could help in crafting differentiated messaging to effectively target each group.</p><p>Tools such as Pirsch Analytics allow traffic data to be segmented so that users can analyze patterns and trends within specific groups, providing deeper insight into how different segments interact with the site and facilitating more targeted and effective marketing efforts.</p><p>Segmentation may also be based on user behavior, such as new visitors versus returning visitors, which could help in crafting differentiated messaging to effectively target each group.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

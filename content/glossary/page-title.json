@@ -1,0 +1,34 @@
+{
+    "path": {
+        "en": "/glossary/page-title"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Page Title – Pirsch Analytics",
+                        "meta_description": "The title of a webpage that appears at the top of a browser window and is displayed in search engine results pages."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "headline": "What is a Page Title?",
+                        "text": "<p>The page title, also known as the title tag, is a basic HTML element that specifies the title of a web page. This title is displayed on browser tabs, search engine results pages (SERPs), and external sites such as social media platforms when the page is shared. The page title is crucial for SEO because it helps search engines understand the content of the page and also plays an important role in the user's decision to click on the page from the search results.</p><p>For example, an effective page title should be concise, descriptive, and contain <a href=\"/glossary/keyword\">keywords</a> that reflect the content of the page. If a website is about \"healthy food recipes\", an appropriate page title might be \"10 Quick and Healthy Food Recipes | FoodieBlog\". This title tells both users and search engines what the page is about, and can entice users looking for dinner recipes to click through to the page via search results or links shared on social media.</p><p>Optimizing the page title for relevance and appeal can have a significant impact on a webpage's visibility in search results and <a href=\"/glossary/click-through-rate\">click-through rate</a>, which directly affects the success of the site's content marketing and SEO efforts.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}
