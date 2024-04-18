@@ -21,7 +21,6 @@
                 "ref": "hero",
                 "analytics": {
                     "experiment": {
-                        "name": "hero",
                         "variant": "b"
                     }
                 },
