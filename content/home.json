@@ -18,6 +18,12 @@
             {"ref": "header"},
             {
                 "tpl": "hero",
+                "analytics": {
+                    "experiment": {
+                        "name": "hero",
+                        "variant": "a"
+                    }
+                },
                 "copy": {
                     "en": {
                         "headline": "See Beyond Clicks",
@@ -82,6 +88,25 @@
                         "action_primary": "無料トライアルを開始",
                         "action_secondary": "ライブデモを見る",
                         "customers_text": "500人以上の顧客に信頼されています"
+                    }
+                }
+            },
+            {
+                "tpl": "hero",
+                "analytics": {
+                    "experiment": {
+                        "name": "hero",
+                        "variant": "b"
+                    }
+                },
+                "copy": {
+                    "en": {
+                        "headline": "Privacy-friendly Web Analytics",
+                        "post_headline": "With the Best Google Analytics Alternative",
+                        "text": "Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
                     }
                 }
             },
