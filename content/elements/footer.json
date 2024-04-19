@@ -83,6 +83,10 @@
                     "href": "/utm-generator"
                 },
                 {
+                    "label": "CTR Calculator",
+                    "href": "/ctr-calculator"
+                },
+                {
                     "label": "Terms and Conditions",
                     "href": "/terms"
                 },
@@ -228,8 +232,12 @@
                     "href": "/news"
                 },
                 {
-                    "label": "UTM Generator",
+                    "label": "UTM-Generator",
                     "href": "/de/utm-generator"
+                },
+                {
+                    "label": "CTR-Rechner",
+                    "href": "/de/ctr-calculator"
                 },
                 {
                     "label": "Nutzungsbedingungen",
@@ -381,6 +389,10 @@
                     "href": "/es/utm-generator"
                 },
                 {
+                    "label": "Calculadora de CTR",
+                    "href": "/es/ctr-calculator"
+                },
+                {
                     "label": "Términos y Condiciones",
                     "href": "/terms"
                 },
@@ -528,6 +540,10 @@
                 {
                     "label": "Générateur UTM",
                     "href": "/fr/utm-generator"
+                },
+                {
+                    "label": "Calculateur de CTR",
+                    "href": "/fr/ctr-calculator"
                 },
                 {
                     "label": "Conditions Générales",
@@ -679,6 +695,10 @@
                     "href": "/nl/utm-generator"
                 },
                 {
+                    "label": "CTR-Calculator",
+                    "href": "/nl/ctr-calculator"
+                },
+                {
                     "label": "Algemene Voorwaarden",
                     "href": "/terms"
                 },
@@ -826,6 +846,10 @@
                 {
                     "label": "Generatore di UTM",
                     "href": "/it/utm-generator"
+                },
+                {
+                    "label": "Calcolatore di CTR",
+                    "href": "/it/ctr-calculator"
                 },
                 {
                     "label": "Termini e Condizioni",
@@ -977,6 +1001,10 @@
                     "href": "/pt/utm-generator"
                 },
                 {
+                    "label": "Calculadora de CTR",
+                    "href": "/pt/ctr-calculator"
+                },
+                {
                     "label": "Termos e Condições",
                     "href": "/terms"
                 },
@@ -1124,6 +1152,10 @@
                 {
                     "label": "UTMジェネレータ",
                     "href": "/ja/utm-generator"
+                },
+                {
+                    "label": "CTR計算機",
+                    "href": "/ja/ctr-calculator"
                 },
                 {
                     "label": "利用規約",

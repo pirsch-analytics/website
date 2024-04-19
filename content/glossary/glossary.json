@@ -12,7 +12,7 @@
                 "copy": {
                     "en": {
                         "title": "Web Analytics Glossary – Pirsch Analytics",
-                        "meta_description": "Web analytics and online marketing are vast topics with a wide range of technical terms. Check out the glossary for the most important terminology and definitions."
+                        "meta_description": "Web analytics and online marketing are big topics with a wide range of technical terms. Check out the glossary for the most important terminology and definitions."
                     }
                 }
             },
@@ -75,7 +75,7 @@
                                 "slug": "bounce-rate"
                             },
                             {
-                                "title": "Call to Action",
+                                "title": "Call to Action (CTA)",
                                 "description": "A prompt to encourage a user to take a specific action, such as clicking a button or completing a form.",
                                 "slug": "call-to-action"
                             },
@@ -85,7 +85,7 @@
                                 "slug": "ccpa"
                             },
                             {
-                                "title": "Click-through Rate",
+                                "title": "Click-through Rate (CTR)",
                                 "description": "The percentage of users who click on a specific link out of the total number of users who view a page, email, or advertisement.",
                                 "slug": "click-through-rate"
                             },

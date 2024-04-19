@@ -1,0 +1,150 @@
+{{$questions := copy .Page .Content "questions"}}
+
+<section class="text">
+    <div class="section-content">
+        <div class="gradient-container" style="top: calc((var(--padding-extra-large) - var(--header-height)) * -1);">
+            <div class="gradient green"></div>
+        </div>
+        <h1 class="h2">{{html (copy .Page .Content "headline")}}</h1>
+        <p>{{html (copy .Page .Content "text")}}</p>
+        <div class="card" style="max-width: 512px; margin-top: var(--padding-small);">
+            <form id="ctrForm">
+                <fieldset>
+                    <input type="number" id="impressions" name="impressions" placeholder=" " required />
+                    <label for="impressions">{{html (copy .Page .Content "impressions")}}</label>
+                    <small>{{html (copy .Page .Content "impressions_hint")}}</small>
+                </fieldset>
+                <fieldset>
+                    <input type="number" id="clicks" name="clicks" placeholder=" " required />
+                    <label for="clicks">{{html (copy .Page .Content "clicks")}}</label>
+                    <small>{{html (copy .Page .Content "clicks_hint")}}</small>
+                </fieldset>
+                <fieldset class="no-select">
+                    <legend style="color: var(--color-secondary);">{{html (copy .Page .Content "channel")}}:</legend>
+                    <input type="radio" id="display" name="channel" value="display">
+                    <label for="display">{{html (copy .Page .Content "display")}}</label>
+                    <input type="radio" id="paid_search" name="channel" value="paid_search">
+                    <label for="paid_search">{{html (copy .Page .Content "paid_search")}}</label>
+                    <input type="radio" id="paid_social" name="channel" value="paid_social">
+                    <label for="paid_social">{{html (copy .Page .Content "paid_social")}}</label>
+                    <input type="radio" id="organic_search" name="channel" value="organic_search">
+                    <label for="organic_search">{{html (copy .Page .Content "organic_search")}}</label>
+                    <input type="radio" id="organic_social" name="channel" value="organic_social">
+                    <label for="organic_social">{{html (copy .Page .Content "organic_social")}}</label>
+                </fieldset>
+            </form>
+            <div>
+                <h2 class="h3" style="margin-bottom: 12px;">{{html (copy .Page .Content "your_ctr")}}</h2>
+                <p id="result">{{html (copy .Page .Content "please_enter")}}</p>
+                <small id="channelMessage" style="display:block;"></small>  
+            </div>
+            <div>
+                <button id="copyButton" style="width: 100%; margin-bottom: 12px;">{{html (copy .Page .Content "copy")}}</button>
+                <button id="resetButton" class="secondary" style="width: 100%;">{{html (copy .Page .Content "reset")}}</button>
+                <small id="confirmation" style="display: none; margin-top: 12px; font-weight: 500; text-align: center; color: var(--green);">{{html (copy .Page .Content "confirmation")}}</small>
+            </div>
+        </div>
+        <div class="grid">
+            {{range $questions}}
+                <div class="accordion card cursor-pointer">
+                    <div class="accordion-headline no-select">
+                        <h3>{{html (index . "question")}}</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path d="M17 7L7 17m10 0L7 7" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </div>
+                    <div class="accordion-content">
+                        <span class="no-select"><br></span>
+                        <p>{{html (index . "answer")}}</p>
+                    </div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const impressionsInput = document.getElementById("impressions");
+        const clicksInput = document.getElementById("clicks");
+        const resultDisplay = document.getElementById("result");
+        const channelMessageDisplay = document.getElementById("channelMessage");
+        const channelRadios = document.querySelectorAll('input[name="channel"]');
+        const copyButton = document.getElementById("copyButton");
+        const resetButton = document.getElementById("resetButton");
+        let currentCTR = "";
+
+        impressionsInput.addEventListener("keyup", calculateCTR);
+        clicksInput.addEventListener("keyup", calculateCTR);
+        channelRadios.forEach(radio => {
+            radio.addEventListener("change", calculateCTR);
+        });
+        copyButton.addEventListener("click", () => {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(currentCTR);
+                confirmation.style.display = "block";
+                setTimeout(() => confirmation.style.display = "none", 2000);
+            } else {
+                alert('{{copy .Page .Content "copy_error"}}');
+            }
+        });
+        resetButton.addEventListener("click", function() {
+            resetForm();
+        });
+
+        const averages = {
+            display: 0.27,
+            paid_search: 2.29,
+            paid_social: 0.87,
+            organic_search: 1.63,
+            organic_social: 1.43
+        };
+
+        function calculateCTR() {
+            var impressions = impressionsInput.value;
+            var clicks = clicksInput.value;
+            var selectedChannel = document.querySelector('input[name="channel"]:checked')?.value;
+            var averageCTR = selectedChannel ? averages[selectedChannel] : null;
+
+            if (impressions > 0 && clicks >= 0) {
+                var ctr = (clicks / impressions) * 100;
+                currentCTR = ctr.toFixed(2) + "%";
+                resultDisplay.innerText = currentCTR;
+
+                if (ctr > 100) {
+                    channelMessageDisplay.innerText = '{{copy .Page .Content "notice"}}';
+                } else if (averageCTR !== null) {
+                    let difference = ctr - averageCTR;
+                    let comparisonMessage = (difference >= 0) ? 
+                    '{{copy .Page .Content "above"}}' : '{{copy .Page .Content "below"}}';
+                    channelMessageDisplay.innerText = `{{copy .Page .Content "this"}} ${comparisonMessage} {{copy .Page .Content "for"}}. ` +
+                        `{{copy .Page .Content "average"}} ${averageCTR.toFixed(2)}%, {{copy .Page .Content "difference"}} ${Math.abs(difference).toFixed(2)}%.`;
+                } else {
+                    channelMessageDisplay.innerText = "";
+                }
+            } else {
+                resultDisplay.innerText = '{{copy .Page .Content "please_enter"}}';
+                channelMessageDisplay.innerText = "";
+            }
+        }
+
+        function resetForm() {
+            document.getElementById("ctrForm").reset();
+            resultDisplay.innerText = '{{copy .Page .Content "please_enter"}}';
+            channelMessageDisplay.innerText = "";
+        }
+
+        const accordions = document.getElementsByClassName("accordion");
+
+        for (let i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                let content = this.getElementsByTagName("div")[1];
+
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    });
+</script>
