@@ -280,6 +280,11 @@
                                 "slug": "search-analytics"
                             },
                             {
+                                "title": "Search Engine Optimization (SEO)",
+                                "description": "The practice of optimizing a website to improve its visibility and ranking in search engine results.",
+                                "slug": "search-engine-optimization"
+                            },
+                            {
                                 "title": "Segmentation",
                                 "description": "The process of dividing a target audience into smaller, more homogeneous groups based on shared characteristics or behaviors.",
                                 "slug": "segmentation"
@@ -288,6 +293,11 @@
                                 "title": "Sensitive Data",
                                 "description": "Any data that, if compromised, could cause harm to an individual or organization, such as financial information or medical records.",
                                 "slug": "sensitive-data"
+                            },
+                            {
+                                "title": "Search Engine Results Page (SERP)",
+                                "description": "The page displayed by a search engine in response to a user's query, containing a list of relevant web pages.",
+                                "slug": "search-engine-results-page"
                             },
                             {
                                 "title": "Server Log Analysis",
