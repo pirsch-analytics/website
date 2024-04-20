@@ -19,11 +19,12 @@
     <meta name="twitter:title" content="{{$title}}" />
     <meta name="twitter:description" content="{{$metaDescription}}" />
     <meta name="twitter:image" content="{{$previewImage}}" />
-    <meta property="og:url" content="{{hostname}}" />
-    <meta property="og:title" content="{{$title}}" />
     <meta property="og:site_name" content="Pirsch Analytics" />
+    <meta property="og:title" content="{{$title}}" />
     <meta property="og:description" content="{{$metaDescription}}" />
     <meta property="og:image" content="{{$previewImage}}" />
+    <meta property="og:url" content="{{.Page.CanonicalLink}}" />
+    <meta property="og:locale" content="{{.Page.Language}}" />
     {{- if (get .Page "preview_img") -}}
         <meta property="og:type" content="article" />
     {{- end -}}
