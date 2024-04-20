@@ -231,7 +231,7 @@ img {
 }
 
 ul, ol, li {
-  color: var(--color-secondary);
+  color: inherit;
   font-size: 18px;
 }
 
@@ -659,6 +659,9 @@ button.grey, .button.grey {
 }
 .card > img {
   margin: 0 auto;
+}
+.card ul, .card ol, .card li {
+  color: var(--color-secondary);
 }
 @media only screen and (max-width: 1024px) {
   .card {
