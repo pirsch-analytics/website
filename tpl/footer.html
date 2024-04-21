@@ -81,25 +81,25 @@
                 <img src="static/img/gdpr.svg" alt="GDPR compliance managed by valvisio consulting" loading="lazy">
             </li>
             <li style="grid-column: 4;">
-                <h2 class="h4">{{copy .Page .Content "product"}}</h2>
+                <h3 class="h4">{{copy .Page .Content "product"}}</h3>
                 {{range $productLinks}}
                     <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
                 {{end}}
             </li>
             <li style="grid-column: 5;">
-                <h2 class="h4">{{copy .Page .Content "resources"}}</h2>
+                <h3 class="h4">{{copy .Page .Content "resources"}}</h3>
                 {{range $resourcesLinks}}
                     <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
                 {{end}}
             </li>
             <li style="grid-column: 4;">
-                <h2 class="h4">{{copy .Page .Content "social"}}</h2>
+                <h3 class="h4">{{copy .Page .Content "social"}}</h3>
                 {{range $socialLinks}}
                     <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
                 {{end}}
             </li>
             <li style="grid-column: 5;">
-                <h2 class="h4">{{copy .Page .Content "company"}}</h2>
+                <h3 class="h4">{{copy .Page .Content "company"}}</h3>
                 {{range $companyLinks}}
                     <a href="{{index . "href"}}" target="{{index . "target"}}" rel="noreferrer">{{index . "label"}}</a>
                     </a>

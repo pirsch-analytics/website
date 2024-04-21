@@ -29,6 +29,10 @@
                     "href": "/privacy-friendly-analytics"
                 },
                 {
+                    "label": "Cookieless Tracking",
+                    "href": "/cookieless-tracking"
+                },
+                {
                     "label": "Google Analytics Alternative",
                     "href": "/google-analytics-alternative"
                 },
@@ -180,6 +184,10 @@
                 {
                     "label": "Datenschutzfreundliche Analytics",
                     "href": "/de/privacy-friendly-analytics"
+                },
+                {
+                    "label": "Cookieless Tracking",
+                    "href": "/de/cookieless-tracking"
                 },
                 {
                     "label": "Alternative zu Google Analytics",
@@ -335,6 +343,10 @@
                     "href": "/es/privacy-friendly-analytics"
                 },
                 {
+                    "label": "Seguimiento sin Cookies",
+                    "href": "/es/cookieless-tracking"
+                },
+                {
                     "label": "Alternativa a Google Analytics",
                     "href": "/es/google-analytics-alternative"
                 },
@@ -486,6 +498,10 @@
                 {
                     "label": "Analytique Respectueuse de la Vie Privée",
                     "href": "/fr/privacy-friendly-analytics"
+                },
+                {
+                    "label": "Suivi sans Cookies",
+                    "href": "/fr/cookieless-tracking"
                 },
                 {
                     "label": "Alternative à Google Analytics",
@@ -641,6 +657,10 @@
                     "href": "/nl/privacy-friendly-analytics"
                 },
                 {
+                    "label": "Cookievrije Tracking",
+                    "href": "/nl/cookieless-tracking"
+                },
+                {
                     "label": "Alternatief voor Google Analytics",
                     "href": "/nl/google-analytics-alternative"
                 },
@@ -792,6 +812,10 @@
                 {
                     "label": "Analisi Rispettosa della Privacy",
                     "href": "/it/privacy-friendly-analytics"
+                },
+                {
+                    "label": "Tracciamento senza Cookie",
+                    "href": "/it/cookieless-tracking"
                 },
                 {
                     "label": "Alternativa a Google Analytics",
@@ -947,6 +971,10 @@
                     "href": "/pt/privacy-friendly-analytics"
                 },
                 {
+                    "label": "Rastreamento sem Cookies",
+                    "href": "/pt/cookieless-tracking"
+                },
+                {
                     "label": "Alternativa ao Google Analytics",
                     "href": "/pt/google-analytics-alternative"
                 },
@@ -1098,6 +1126,10 @@
                 {
                     "label": "プライバシーに配慮した分析",
                     "href": "/ja/privacy-friendly-analytics"
+                },
+                {
+                    "label": "クッキーレス追跡",
+                    "href": "/ja/cookieless-tracking"
                 },
                 {
                     "label": "Google Analyticsの代替",
