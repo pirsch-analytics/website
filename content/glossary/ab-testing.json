@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/ab-testing"
+        "en": "/glossary/ab-testing",
+        "de": "/de/glossary/ab-testing",
+        "es": "/es/glossary/ab-testing",
+        "fr": "/fr/glossary/ab-testing",
+        "nl": "/nl/glossary/ab-testing",
+        "it": "/it/glossary/ab-testing",
+        "pt": "/pt/glossary/ab-testing",
+        "ja": "/ja/glossary/ab-testing"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "A/B Testing – Pirsch Analytics",
                         "meta_description": "A method of comparing two versions of a webpage or app against each other to determine which one performs better."
+                    },
+                    "de": {
+                        "title": "A/B-Testing – Pirsch Analytics",
+                        "meta_description": "Eine Methode zum Vergleichen von zwei Versionen einer Webseite oder App, um zu bestimmen, welche besser abschneidet."
+                    },
+                    "es": {
+                        "title": "Pruebas A/B – Pirsch Analytics",
+                        "meta_description": "Un método para comparar dos versiones de una página web o aplicación entre sí para determinar cuál tiene un mejor rendimiento."
+                    },
+                    "fr": {
+                        "title": "Test A/B – Pirsch Analytics",
+                        "meta_description": "Une méthode de comparaison de deux versions d'une page web ou d'une application pour déterminer laquelle fonctionne mieux."
+                    },
+                    "nl": {
+                        "title": "A/B-testen – Pirsch Analytics",
+                        "meta_description": "Een methode om twee versies van een webpagina of app tegen elkaar af te wegen om te bepalen welke beter presteert."
+                    },
+                    "it": {
+                        "title": "Test A/B – Pirsch Analytics",
+                        "meta_description": "Un metodo per confrontare due versioni di una pagina web o app per determinare quale delle due funzioni meglio."
+                    },
+                    "pt": {
+                        "title": "Teste A/B – Pirsch Analytics",
+                        "meta_description": "Um método de comparar duas versões de uma página web ou aplicativo para determinar qual delas tem um desempenho melhor."
+                    },
+                    "ja": {
+                        "title": "A/B テスト – Pirsch Analytics",
+                        "meta_description": "ウェブページまたはアプリの2つのバージョンを比較して、どちらがより良いパフォーマンスを発揮するかを判断する方法。"
                     }
                 }
             },
@@ -23,6 +58,34 @@
                     "en": {
                         "headline": "What is A/B Testing?",
                         "text": "<p>A/B testing, also known as split testing, is a method used in web analytics to compare two versions of a website or app and determine which performs better in terms of a specific conversion goal. This is done by showing the two versions (A and B) to similar visitors at the same time and then statistically analyzing which version performs better on pre-defined metrics such as click-through rate, form completions, or purchases.</p><p>For example, a website might test two different <a href=\"/glossary/landing-page\">landing page</a> designs to see which one leads to more newsletter signups. Using tools like Pirsch Analytics, the site owner can measure which version has a higher sign-up rate and then implement the more effective design for all visitors.</p><p>A/B testing is an essential tool for website optimization because it enables data-driven decisions, reduces guesswork, and improves user engagement by optimizing elements based on actual user behavior.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist A/B-Testing?",
+                        "text": "<p>A/B-Testing, auch bekannt als Split-Testing, ist eine Methode, die in der Webanalyse verwendet wird, um zwei Versionen einer Website oder App zu vergleichen und zu bestimmen, welche hinsichtlich eines spezifischen Konversionsziels besser abschneidet. Dies geschieht, indem man den zwei Versionen (A und B) zur gleichen Zeit ähnliche Besucher zeigt und dann statistisch analysiert, welche Version bei vordefinierten Metriken wie Klickrate, Formularabschlüssen oder Käufen besser abschneidet.</p><p>Zum Beispiel könnte eine Website zwei verschiedene <a href=\"/de/glossary/landing-page\">Landingpage</a>-Designs testen, um zu sehen, welches zu mehr Newsletter-Anmeldungen führt. Mit Tools wie Pirsch Analytics kann der Seitenbetreiber messen, welche Version eine höhere Anmelderate hat, und dann das effektivere Design für alle Besucher implementieren.</p><p>A/B-Testing ist ein wesentliches Werkzeug für die Website-Optimierung, da es datengestützte Entscheidungen ermöglicht, Rätselraten reduziert und das Benutzerengagement verbessert, indem Elemente basierend auf tatsächlichem Benutzerverhalten optimiert werden.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es la prueba A/B?",
+                        "text": "<p>La prueba A/B, también conocida como prueba dividida, es un método utilizado en análisis web para comparar dos versiones de un sitio web o aplicación y determinar cuál funciona mejor en términos de un objetivo de conversión específico. Esto se hace mostrando las dos versiones (A y B) a visitantes similares al mismo tiempo y luego analizando estadísticamente cuál versión tiene un mejor desempeño en métricas predefinidas como la tasa de clics, completaciones de formularios o compras.</p><p>Por ejemplo, un sitio web podría probar dos diseños diferentes de <a href=\"/es/glossary/landing-page\">página de aterrizaje</a> para ver cuál conduce a más inscripciones al boletín. Usando herramientas como Pirsch Analytics, el propietario del sitio puede medir qué versión tiene una tasa de inscripción más alta y luego implementar el diseño más efectivo para todos los visitantes.</p><p>La prueba A/B es una herramienta esencial para la optimización de sitios web porque permite tomar decisiones basadas en datos, reduce las conjeturas y mejora la participación del usuario optimizando elementos basados en el comportamiento real del usuario.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce que le test A/B ?",
+                        "text": "<p>Le test A/B, également connu sous le nom de test fractionné, est une méthode utilisée en analyse web pour comparer deux versions d'un site web ou d'une application et déterminer laquelle est la plus performante en termes d'objectif de conversion spécifique. Cela se fait en montrant les deux versions (A et B) à des visiteurs similaires en même temps, puis en analysant statistiquement quelle version est meilleure sur des métriques prédéfinies telles que le taux de clics, les complétions de formulaires ou les achats.</p><p>Par exemple, un site web pourrait tester deux designs différents de <a href=\"/fr/glossary/landing-page\">page d'atterrissage</a> pour voir lequel mène à plus d'inscriptions à une newsletter. En utilisant des outils comme Pirsch Analytics, le propriétaire du site peut mesurer quelle version a un taux d'inscription plus élevé, puis mettre en œuvre le design le plus efficace pour tous les visiteurs.</p><p>Le test A/B est un outil essentiel pour l'optimisation des sites web car il permet de prendre des décisions basées sur les données, réduit les suppositions et améliore l'engagement des utilisateurs en optimisant les éléments en fonction du comportement réel des utilisateurs.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is A/B-testen?",
+                        "text": "<p>A/B-testen, ook bekend als split-testen, is een methode die in webanalyse wordt gebruikt om twee versies van een website of app te vergelijken en te bepalen welke beter presteert in termen van een specifiek conversiedoel. Dit gebeurt door de twee versies (A en B) tegelijkertijd aan vergelijkbare bezoekers te tonen en vervolgens statistisch te analyseren welke versie beter presteert op vooraf gedefinieerde meetwaarden zoals doorklikratio, formulierafwerkingen of aankopen.</p><p>Bijvoorbeeld, een website zou twee verschillende <a href=\"/nl/glossary/landing-page\">landingspagina</a> ontwerpen kunnen testen om te zien welke leidt tot meer nieuwsbriefinschrijvingen. Met tools zoals Pirsch Analytics kan de site-eigenaar meten welke versie een hogere inschrijfratio heeft en vervolgens het effectievere ontwerp implementeren voor alle bezoekers.</p><p>A/B-testen is een essentieel hulpmiddel voor websiteoptimalisatie omdat het datagestuurde beslissingen mogelijk maakt, giswerk vermindert en gebruikersbetrokkenheid verbetert door elementen te optimaliseren op basis van daadwerkelijk gebruikersgedrag.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è il test A/B?",
+                        "text": "<p>Il test A/B, noto anche come test diviso, è un metodo utilizzato nell'analisi web per confrontare due versioni di un sito web o un'app e determinare quale si comporta meglio in termini di un obiettivo di conversione specifico. Questo viene fatto mostrando le due versioni (A e B) a visitatori simili allo stesso tempo e poi analizzando statisticamente quale versione si comporta meglio su metriche predefinite come il tasso di clic, il completamento di form o gli acquisti.</p><p>Ad esempio, un sito web potrebbe testare due diversi design di <a href=\"/it/glossary/landing-page\">pagina di atterraggio</a> per vedere quale porta a più iscrizioni alla newsletter. Utilizzando strumenti come Pirsch Analytics, il proprietario del sito può misurare quale versione ha un tasso di iscrizione più alto e poi implementare il design più efficace per tutti i visitatori.</p><p>Il test A/B è uno strumento essenziale per l'ottimizzazione del sito web perché permette decisioni basate sui dati, riduce le congetture e migliora l'impegno degli utenti ottimizzando gli elementi in base al comportamento effettivo degli utenti.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é Teste A/B?",
+                        "text": "<p>O teste A/B, também conhecido como teste dividido, é um método usado em análise web para comparar duas versões de um site ou aplicativo e determinar qual desempenha melhor em termos de um objetivo de conversão específico. Isso é feito mostrando as duas versões (A e B) a visitantes similares ao mesmo tempo e então analisando estatisticamente qual versão apresenta melhor desempenho em métricas pré-definidas como taxa de cliques, completudes de formulários ou compras.</p><p>Por exemplo, um site pode testar dois diferentes designs de <a href=\"/pt/glossary/landing-page\">página de destino</a> para ver qual leva a mais inscrições em um boletim informativo. Usando ferramentas como Pirsch Analytics, o proprietário do site pode medir qual versão tem uma taxa de inscrição mais alta e, em seguida, implementar o design mais eficaz para todos os visitantes.</p><p>O teste A/B é uma ferramenta essencial para otimização de sites porque permite decisões baseadas em dados, reduz suposições e melhora o envolvimento do usuário ao otimizar elementos com base no comportamento real do usuário.</p>"
+                    },
+                    "ja": {
+                        "headline": "A/Bテストとは何ですか？",
+                        "text": "<p>A/Bテスト（または分割テストとも呼ばれます）は、ウェブサイトやアプリの2つのバージョンを比較し、特定のコンバージョン目標に対してどちらがより良いパフォーマンスを発揮するかを判断するために使用されるウェブ解析の方法です。これは、2つのバージョン（AおよびB）を同時に同様の訪問者に表示し、クリックスルーレート、フォームの完成、または購入などの事前に定義されたメトリクスに基づいてどちらのバージョンがより良いパフォーマンスをするかを統計的に分析することによって行われます。</p><p>たとえば、ウェブサイトは2つの異なる<a href=\"/ja/glossary/landing-page\">ランディングページ</a>のデザインをテストして、どちらがニュースレターへの登録をより多く引き出すかを見ることができます。Pirsch Analyticsのようなツールを使用して、サイトの所有者はどちらのバージョンがより高い登録率を持っているかを測定し、その後、より効果的なデザインをすべての訪問者に実装することができます。</p><p>A/Bテストは、データに基づいた決定を可能にし、推測を減らし、実際のユーザー行動に基づいて要素を最適化することでユーザーのエンゲージメントを改善するため、ウェブサイトの最適化に不可欠なツールです。</p>"
                     }
                 }
             },

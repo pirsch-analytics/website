@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/adblocker"
+        "en": "/glossary/adblocker",
+        "de": "/de/glossary/adblocker",
+        "es": "/es/glossary/adblocker",
+        "fr": "/fr/glossary/adblocker",
+        "nl": "/nl/glossary/adblocker",
+        "it": "/it/glossary/adblocker",
+        "pt": "/pt/glossary/adblocker",
+        "ja": "/ja/glossary/adblocker"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Adblocker – Pirsch Analytics",
                         "meta_description": "Software designed to prevent advertisements from appearing on a webpage or in an app."
+                    },
+                    "de": {
+                        "title": "Adblocker – Pirsch Analytics",
+                        "meta_description": "Software, die darauf ausgelegt ist, das Anzeigen von Werbeanzeigen auf einer Webseite oder in einer App zu verhindern."
+                    },
+                    "es": {
+                        "title": "Adblocker – Pirsch Analytics",
+                        "meta_description": "Software diseñado para prevenir la aparición de anuncios en una página web o en una aplicación."
+                    },
+                    "fr": {
+                        "title": "Bloqueur de publicités – Pirsch Analytics",
+                        "meta_description": "Logiciel conçu pour empêcher l'apparition de publicités sur une page web ou dans une application."
+                    },
+                    "nl": {
+                        "title": "Adblocker – Pirsch Analytics",
+                        "meta_description": "Software ontworpen om het verschijnen van advertenties op een webpagina of in een app te voorkomen."
+                    },
+                    "it": {
+                        "title": "Adblocker – Pirsch Analytics",
+                        "meta_description": "Software progettato per prevenire la comparsa di pubblicità su una pagina web o in un'app."
+                    },
+                    "pt": {
+                        "title": "Adblocker – Pirsch Analytics",
+                        "meta_description": "Software projetado para impedir que anúncios apareçam em uma página da web ou em um aplicativo."
+                    },
+                    "ja": {
+                        "title": "広告ブロッカー – Pirsch Analytics",
+                        "meta_description": "ウェブページやアプリに広告が表示されるのを防ぐために設計されたソフトウェア。"
                     }
                 }
             },

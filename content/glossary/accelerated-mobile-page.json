@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/accelerated-mobile-page"
+        "en": "/glossary/accelerated-mobile-page",
+        "de": "/de/glossary/accelerated-mobile-page",
+        "es": "/es/glossary/accelerated-mobile-page",
+        "fr": "/fr/glossary/accelerated-mobile-page",
+        "nl": "/nl/glossary/accelerated-mobile-page",
+        "it": "/it/glossary/accelerated-mobile-page",
+        "pt": "/pt/glossary/accelerated-mobile-page",
+        "ja": "/ja/glossary/accelerated-mobile-page"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Accelerated Mobile Page (AMP) – Pirsch Analytics",
                         "meta_description": "A web page designed to load quickly and perform well on mobile devices."
+                    },
+                    "de": {
+                        "title": "Accelerated Mobile Page (AMP) – Pirsch Analytics",
+                        "meta_description": "Eine Webseite, die darauf ausgelegt ist, schnell zu laden und auf mobilen Geräten gut zu funktionieren."
+                    },
+                    "es": {
+                        "title": "Página Móvil Acelerada (AMP) – Pirsch Analytics",
+                        "meta_description": "Una página web diseñada para cargar rápidamente y funcionar bien en dispositivos móviles."
+                    },
+                    "fr": {
+                        "title": "Page Mobile Accélérée (AMP) – Pirsch Analytics",
+                        "meta_description": "Une page web conçue pour se charger rapidement et bien fonctionner sur les appareils mobiles."
+                    },
+                    "nl": {
+                        "title": "Versnelde Mobiele Pagina (AMP) – Pirsch Analytics",
+                        "meta_description": "Een webpagina ontworpen om snel te laden en goed te presteren op mobiele apparaten."
+                    },
+                    "it": {
+                        "title": "Pagina Mobile Accelerata (AMP) – Pirsch Analytics",
+                        "meta_description": "Una pagina web progettata per caricarsi rapidamente e funzionare bene sui dispositivi mobili."
+                    },
+                    "pt": {
+                        "title": "Página Móvel Acelerada (AMP) – Pirsch Analytics",
+                        "meta_description": "Uma página web projetada para carregar rapidamente e funcionar bem em dispositivos móveis."
+                    },
+                    "ja": {
+                        "title": "アクセラレーテッド・モバイル・ページ（AMP） – Pirsch Analytics",
+                        "meta_description": "モバイルデバイスで迅速に読み込み、良好に機能するように設計されたウェブページ。"
                     }
                 }
             },
@@ -23,6 +58,34 @@
                     "en": {
                         "headline": "What is a Accelerated Mobile Page (AMP)?",
                         "text": "<p>Accelerated Mobile Pages (AMP) is an open source framework originally developed by Google for creating fast-loading web pages that optimize the user experience on mobile <a href=\"/glossary/device\">devices</a>. AMP achieves its speed by simplifying HTML code and using the extensive caching provided by Google's servers to deliver content quickly.</p><p>For example, a news site can use AMP for its articles so that they load almost instantly on mobile devices. This is especially useful for users in areas with slower internet connections. AMP pages are stripped-down versions of regular web pages, but include essential content such as text, images, and video, while omitting elements that could slow load times, such as certain scripts and third-party JavaScript.</p><p>Adopting AMP can significantly improve mobile browsing speeds, reduce page load times, and potentially increase traffic and engagement by providing a better user experience and higher visibility in mobile search results.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist eine Accelerated Mobile Page (AMP)?",
+                        "text": "<p>Accelerated Mobile Page (AMP) ist ein Open-Source-Framework, das ursprünglich von Google entwickelt wurde, um schnell ladende Webseiten zu erstellen, die das Benutzererlebnis auf mobilen <a href=\"/de/glossary/device\">Geräten</a> optimieren. AMP erreicht seine Geschwindigkeit durch Vereinfachung des HTML-Codes und Nutzung des umfangreichen Cachings von Googles Servern, um Inhalte schnell zu liefern.</p><p>Zum Beispiel kann eine Nachrichtenseite AMP für ihre Artikel verwenden, damit diese nahezu sofort auf mobilen Geräten geladen werden. Dies ist besonders nützlich für Benutzer in Gebieten mit langsameren Internetverbindungen. AMP-Seiten sind abgespeckte Versionen regulärer Webseiten, enthalten aber wesentliche Inhalte wie Texte, Bilder und Videos, während Elemente, die die Ladezeiten verlangsamen könnten, wie bestimmte Skripte und JavaScript von Drittanbietern, weggelassen werden.</p><p>Die Einführung von AMP kann die Geschwindigkeit des mobilen Surfens erheblich verbessern, die Ladezeiten der Seiten reduzieren und möglicherweise den Verkehr und das Engagement erhöhen, indem sie ein besseres Benutzererlebnis und eine höhere Sichtbarkeit in den mobilen Suchergebnissen bieten.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es una Página Móvil Acelerada (AMP)?",
+                        "text": "<p>Las Páginas Móviles Aceleradas (AMP) son un marco de trabajo de código abierto originalmente desarrollado por Google para crear páginas web de carga rápida que optimizan la experiencia del usuario en <a href=\"/es/glossary/device\">dispositivos</a> móviles. AMP logra su velocidad simplificando el código HTML y utilizando el extenso almacenamiento en caché proporcionado por los servidores de Google para entregar contenido rápidamente.</p><p>Por ejemplo, un sitio de noticias puede usar AMP para sus artículos para que se carguen casi instantáneamente en dispositivos móviles. Esto es especialmente útil para usuarios en áreas con conexiones a internet más lentas. Las páginas AMP son versiones simplificadas de páginas web regulares, pero incluyen contenido esencial como texto, imágenes y video, mientras omiten elementos que podrían ralentizar los tiempos de carga, como ciertos scripts y JavaScript de terceros.</p><p>Adoptar AMP puede mejorar significativamente las velocidades de navegación móvil, reducir los tiempos de carga de las páginas y potencialmente aumentar el tráfico y el compromiso al proporcionar una mejor experiencia de usuario y mayor visibilidad en los resultados de búsqueda móvil.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce qu'une Page Mobile Accélérée (AMP) ?",
+                        "text": "<p>Les Pages Mobiles Accélérées (AMP) sont un cadre open source initialement développé par Google pour créer des pages web à chargement rapide qui optimisent l'expérience utilisateur sur les <a href=\"/fr/glossary/device\">appareils</a> mobiles. AMP atteint sa vitesse en simplifiant le code HTML et en utilisant la mise en cache étendue fournie par les serveurs de Google pour livrer rapidement le contenu.</p><p>Par exemple, un site d'actualités peut utiliser AMP pour ses articles afin qu'ils se chargent presque instantanément sur les appareils mobiles. Cela est particulièrement utile pour les utilisateurs dans des zones avec des connexions Internet plus lentes. Les pages AMP sont des versions allégées des pages web régulières, mais incluent le contenu essentiel tel que le texte, les images et les vidéos, tout en omettant les éléments qui pourraient ralentir les temps de chargement, tels que certains scripts et JavaScript tiers.</p><p>L'adoption de AMP peut considérablement améliorer la vitesse de navigation mobile, réduire les temps de chargement des pages et potentiellement augmenter le trafic et l'engagement en offrant une meilleure expérience utilisateur et une plus grande visibilité dans les résultats de recherche mobiles.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is een Versnelde Mobiele Pagina (AMP)?",
+                        "text": "<p>Versnelde Mobiele Pagina's (AMP) is een open-source framework dat oorspronkelijk door Google is ontwikkeld om snel ladende webpagina's te creëren die de gebruikerservaring op mobiele <a href=\"/nl/glossary/device\">apparaten</a> optimaliseren. AMP bereikt zijn snelheid door het HTML-code te vereenvoudigen en gebruik te maken van de uitgebreide caching die door de servers van Google wordt geboden om inhoud snel te leveren.</p><p>Bijvoorbeeld, een nieuwssite kan AMP gebruiken voor haar artikelen zodat ze bijna onmiddellijk laden op mobiele apparaten. Dit is vooral nuttig voor gebruikers in gebieden met langzamere internetverbindingen. AMP-pagina's zijn gestripte versies van reguliere webpagina's, maar bevatten essentiële inhoud zoals tekst, afbeeldingen en video, terwijl elementen die de laadtijden kunnen vertragen, zoals bepaalde scripts en JavaScript van derden, worden weggelaten.</p><p>Het adopteren van AMP kan de snelheid van mobiel browsen aanzienlijk verbeteren, de laadtijden van pagina's verkorten en mogelijk het verkeer en de betrokkenheid verhogen door een betere gebruikerservaring en hogere zichtbaarheid in mobiele zoekresultaten te bieden.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è una Pagina Mobile Accelerata (AMP)?",
+                        "text": "<p>Le Pagine Mobili Accelerate (AMP) sono un framework open source originariamente sviluppato da Google per creare pagine web che si caricano rapidamente e ottimizzano l'esperienza utente su <a href=\"/it/glossary/device\">dispositivi</a> mobili. AMP raggiunge la sua velocità semplificando il codice HTML e utilizzando l'ampia memorizzazione nella cache fornita dai server di Google per consegnare rapidamente i contenuti.</p><p>Ad esempio, un sito di notizie può utilizzare AMP per i suoi articoli in modo che si caricano quasi istantaneamente su dispositivi mobili. Questo è particolarmente utile per gli utenti in aree con connessioni Internet più lente. Le pagine AMP sono versioni semplificate delle pagine web regolari, ma includono contenuti essenziali come testo, immagini e video, mentre omettono elementi che potrebbero rallentare i tempi di caricamento, come alcuni script e JavaScript di terze parti.</p><p>Adottare AMP può migliorare significativamente le velocità di navigazione mobile, ridurre i tempi di caricamento delle pagine e potenzialmente aumentare il traffico e l'engagement fornendo una migliore esperienza utente e una maggiore visibilità nei risultati di ricerca mobile.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é uma Página Móvel Acelerada (AMP)?",
+                        "text": "<p>Páginas Móveis Aceleradas (AMP) é uma framework de código aberto originalmente desenvolvida pelo Google para criar páginas web de carregamento rápido que otimizam a experiência do usuário em <a href=\"/pt/glossary/device\">dispositivos</a> móveis. AMP alcança sua velocidade simplificando o código HTML e utilizando o extenso cache fornecido pelos servidores do Google para entregar conteúdo rapidamente.</p><p>Por exemplo, um site de notícias pode usar AMP para seus artigos para que eles carreguem quase instantaneamente em dispositivos móveis. Isso é especialmente útil para usuários em áreas com conexões de internet mais lentas. Páginas AMP são versões simplificadas de páginas web regulares, mas incluem conteúdo essencial como texto, imagens e vídeo, enquanto omitem elementos que poderiam retardar os tempos de carregamento, como certos scripts e JavaScript de terceiros.</p><p>Adotar AMP pode melhorar significativamente a velocidade de navegação móvel, reduzir os tempos de carregamento de páginas e potencialmente aumentar o tráfego e o engajamento, fornecendo uma melhor experiência ao usuário e maior visibilidade nos resultados de busca móvel.</p>"
+                    },
+                    "ja": {
+                        "headline": "アクセラレーテッド・モバイル・ページ（AMP）とは何ですか？",
+                        "text": "<p>アクセラレーテッド・モバイル・ページ（AMP）は、Googleによって最初に開発されたオープンソースのフレームワークで、モバイル<a href=\"/ja/glossary/device\">デバイス</a>上でのユーザー体験を最適化するための高速読み込みウェブページを作成するために使用されます。AMPはHTMLコードを単純化し、Googleのサーバーによって提供される広範囲のキャッシングを使用して迅速にコンテンツを配信することによって、その速度を実現します。</p><p>例えば、ニュースサイトがその記事のためにAMPを使用して、モバイルデバイス上でほぼ瞬時にロードされるようにすることができます。これは、インターネット接続が遅い地域のユーザーにとって特に有用です。AMPページは通常のウェブページの簡略版ですが、テキスト、画像、ビデオなどの基本的なコンテンツを含みながら、ロード時間を遅らせる可能性のある一部のスクリプトやサードパーティのJavaScriptなどの要素は省略されています。</p><p>AMPを採用することで、モバイルブラウジングの速度が著しく向上し、ページのロード時間が短縮され、ユーザー体験が向上し、モバイル検索結果での視認性が高まることによって、トラフィックとエンゲージメントが潜在的に増加する可能性があります。</p>"
                     }
                 }
             },
