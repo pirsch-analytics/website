@@ -197,7 +197,7 @@
             ],
             "start_free_trial": "Kostenlos testen",
             "request_quote": "Angebot anfordern",
-            "disclaimer": "Verfügbare Zahlungsmethoden sind Kreditkarte, PayPal oder SEPA-Lastschrift (nur EUR). Alle Preise sind ohne anwendbare Umsatzsteuern wie MwSt. Angepasste Ereignisse und 10% der Ereignisse für Sitzungserweiterungen zählen zu Ihrem monatlichen Seitenaufruflimit."
+            "disclaimer": "Verfügbare Zahlungsmethoden sind Kreditkarte, PayPal oder SEPA-Lastschrift (nur EUR). Alle Preise sind ohne anwendbare Umsatzsteuern wie MwSt. Angepasste Ereignisse und 10% der Ereignisse für Sitzungserweiterungen zählen zu deinem monatlichen Seitenaufruflimit."
         },
         "es": {
             "headline": "Precios Simples",

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/bounce-rate"
+        "en": "/glossary/bounce-rate",
+        "de": "/de/glossary/bounce-rate",
+        "es": "/es/glossary/bounce-rate",
+        "fr": "/fr/glossary/bounce-rate",
+        "nl": "/nl/glossary/bounce-rate",
+        "it": "/it/glossary/bounce-rate",
+        "pt": "/pt/glossary/bounce-rate",
+        "ja": "/ja/glossary/bounce-rate"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Bounce Rate – Pirsch Analytics",
                         "meta_description": "The percentage of visitors who navigate away from a website after viewing only one page."
+                    },
+                    "de": {
+                        "title": "Absprungrate – Pirsch Analytics",
+                        "meta_description": "Der Prozentsatz der Besucher, die eine Website verlassen, nachdem sie nur eine Seite angesehen haben."
+                    },
+                    "es": {
+                        "title": "Tasa de Rebote – Pirsch Analytics",
+                        "meta_description": "El porcentaje de visitantes que abandonan un sitio web después de ver solo una página."
+                    },
+                    "fr": {
+                        "title": "Taux de Rebond – Pirsch Analytics",
+                        "meta_description": "Le pourcentage de visiteurs qui quittent un site web après avoir consulté une seule page."
+                    },
+                    "nl": {
+                        "title": "Bouncepercentage – Pirsch Analytics",
+                        "meta_description": "Het percentage bezoekers dat een website verlaat nadat ze slechts één pagina hebben bekeken."
+                    },
+                    "it": {
+                        "title": "Tasso di Rimbalzo – Pirsch Analytics",
+                        "meta_description": "La percentuale di visitatori che lasciano un sito web dopo aver visualizzato solo una pagina."
+                    },
+                    "pt": {
+                        "title": "Taxa de Rejeição – Pirsch Analytics",
+                        "meta_description": "A porcentagem de visitantes que saem de um site depois de visualizar apenas uma página."
+                    },
+                    "ja": {
+                        "title": "バウンス率 – Pirsch Analytics",
+                        "meta_description": "ウェブサイトを訪れた後、1ページのみを見てサイトから離れる訪問者の割合。"
                     }
                 }
             },
@@ -25,6 +60,34 @@
                         "label": "Return to Glossary",
                         "headline": "What is the Bounce Rate?",
                         "text": "<p>Bounce rate is an important web analytics metric that measures the percentage of <a href=\"/glossary/session\">sessions</a> in which a user leaves your site from the entry page without interacting with the page. Essentially, it shows the number of visits to a single page. A high bounce rate could indicate that the <a href=\"/glossary/landing-page\">landing page</a>  is not engaging enough or relevant enough to the visitor's needs, or that the page load time is slow, causing visitors to leave the page before it is fully loaded.</p><p>The bounce rate is calculated by dividing the number of single page sessions by the total number of sessions in the same time period, then multiplying the result by 100 to get a percentage. </p><p>For example, if Pirsch Analytics shows that your website had a total of 100 sessions and 40 of those were single page sessions, the bounce rate would be calculated as:</p><p>Bounce rate = (40 / 100) x 100 = 40%</p><p>This metric is useful for evaluating the effectiveness of your landing pages and entry points to your website. For example, if you are running a marketing campaign and directing traffic to a specific landing page, a high bounce rate could indicate that the page is not living up to the expectations created by your advertising or that improvements are needed to retain visitors. This metric is useful for evaluating the effectiveness of your landing pages and entry points.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist die Absprungrate?",
+                        "text": "<p>Die Absprungrate ist eine wichtige Kennzahl der Webanalyse, die den Prozentsatz der <a href=\"/de/glossary/session\">Sitzungen</a> misst, bei denen ein Benutzer deine Seite von der Einstiegsseite aus verlässt, ohne mit der Seite zu interagieren. Im Wesentlichen zeigt sie die Anzahl der Besuche auf einer einzigen Seite. Eine hohe Absprungrate könnte darauf hinweisen, dass die <a href=\"/de/glossary/landing-page\">Landing-Page</a> nicht ansprechend genug oder nicht relevant genug für die Bedürfnisse der Besucher ist, oder dass die Ladezeit der Seite langsam ist, was dazu führt, dass Besucher die Seite verlassen, bevor sie vollständig geladen ist.</p><p>Die Absprungrate wird berechnet, indem die Anzahl der Sitzungen mit nur einer Seite durch die Gesamtzahl der Sitzungen im gleichen Zeitraum geteilt wird, dann wird das Ergebnis mit 100 multipliziert, um einen Prozentsatz zu erhalten.</p><p>Zum Beispiel, wenn Pirsch Analytics zeigt, dass deine Website insgesamt 100 Sitzungen hatte und 40 davon Einzelseitensitzungen waren, würde die Absprungrate wie folgt berechnet:</p><p>Absprungrate = (40 / 100) x 100 = 40%</p><p>Diese Kennzahl ist nützlich, um die Wirksamkeit deiner Landing-Pages und Einstiegspunkte auf deiner Website zu bewerten. Zum Beispiel, wenn du eine Marketingkampagne durchführst und den Verkehr auf eine bestimmte Landing-Page lenken, könnte eine hohe Absprungrate darauf hinweisen, dass die Seite nicht den durch deine Werbung geschaffenen Erwartungen entspricht oder dass Verbesserungen notwendig sind, um Besucher zu halten. Diese Kennzahl ist nützlich, um die Wirksamkeit deiner Landing-Pages und Einstiegspunkte zu bewerten.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es la tasa de rebote?",
+                        "text": "<p>La tasa de rebote es una métrica importante de análisis web que mide el porcentaje de <a href=\"/es/glossary/session\">sesiones</a> en las que un usuario abandona su sitio desde la página de entrada sin interactuar con la página. Esencialmente, muestra el número de visitas a una sola página. Una tasa de rebote alta podría indicar que la <a href=\"/es/glossary/landing-page\">página de aterrizaje</a> no es lo suficientemente atractiva o relevante para las necesidades del visitante, o que el tiempo de carga de la página es lento, lo que hace que los visitantes abandonen la página antes de que esté completamente cargada.</p><p>La tasa de rebote se calcula dividiendo el número de sesiones de una sola página por el número total de sesiones en el mismo período de tiempo, luego multiplicando el resultado por 100 para obtener un porcentaje.</p><p>Por ejemplo, si Pirsch Analytics muestra que su sitio web tuvo un total de 100 sesiones y 40 de ellas fueron sesiones de una sola página, la tasa de rebote se calcularía como:</p><p>Tasa de rebote = (40 / 100) x 100 = 40%</p><p>Esta métrica es útil para evaluar la eficacia de sus páginas de aterrizaje y puntos de entrada a su sitio web. Por ejemplo, si está ejecutando una campaña de marketing y dirigiendo el tráfico a una página de aterrizaje específica, una tasa de rebote alta podría indicar que la página no está a la altura de las expectativas creadas por su publicidad o que se necesitan mejoras para retener a los visitantes. Esta métrica es útil para evaluar la eficacia de sus páginas de aterrizaje y puntos de entrada.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce que le taux de rebond ?",
+                        "text": "<p>Le taux de rebond est une métrique importante de l'analyse web qui mesure le pourcentage de <a href=\"/fr/glossary/session\">sessions</a> lors desquelles un utilisateur quitte votre site depuis la page d'entrée sans interagir avec la page. Essentiellement, il montre le nombre de visites sur une seule page. Un taux de rebond élevé pourrait indiquer que la <a href=\"/fr/glossary/landing-page\">page d'atterrissage</a> n'est pas assez engageante ou pertinente pour les besoins des visiteurs, ou que le temps de chargement de la page est lent, ce qui pousse les visiteurs à quitter la page avant qu'elle soit complètement chargée.</p><p>Le taux de rebond est calculé en divisant le nombre de sessions d'une seule page par le nombre total de sessions pendant la même période, puis en multipliant le résultat par 100 pour obtenir un pourcentage.</p><p>Par exemple, si Pirsch Analytics indique que votre site web a eu un total de 100 sessions et que 40 d'entre elles étaient des sessions d'une seule page, le taux de rebond serait calculé comme suit :</p><p>Taux de rebond = (40 / 100) x 100 = 40%</p><p>Cette métrique est utile pour évaluer l'efficacité de vos pages d'atterrissage et points d'entrée sur votre site web. Par exemple, si vous menez une campagne marketing et dirigez le trafic vers une page d'atterrissage spécifique, un taux de rebond élevé pourrait indiquer que la page ne répond pas aux attentes créées par votre publicité ou que des améliorations sont nécessaires pour retenir les visiteurs. Cette métrique est utile pour évaluer l'efficacité de vos pages d'atterrissage et points d'entrée.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is het bouncepercentage?",
+                        "text": "<p>Het bouncepercentage is een belangrijke webanalyse-metriek die het percentage <a href=\"/nl/glossary/session\">sessies</a> meet waarbij een gebruiker uw site verlaat vanaf de invoerpagina zonder met de pagina te interageren. Het toont in wezen het aantal bezoeken aan een enkele pagina. Een hoog bouncepercentage kan erop wijzen dat de <a href=\"/nl/glossary/landing-page\">landingspagina</a> niet boeiend genoeg of niet relevant genoeg is voor de behoeften van de bezoeker, of dat de paginalaadtijd traag is, waardoor bezoekers de pagina verlaten voordat deze volledig is geladen.</p><p>Het bouncepercentage wordt berekend door het aantal sessies met één pagina te delen door het totale aantal sessies in dezelfde periode, vervolgens wordt het resultaat vermenigvuldigd met 100 om een percentage te krijgen.</p><p>Bijvoorbeeld, als Pirsch Analytics toont dat uw website in totaal 100 sessies had en 40 daarvan waren sessies met één pagina, zou het bouncepercentage worden berekend als:</p><p>Bouncepercentage = (40 / 100) x 100 = 40%</p><p>Deze metriek is nuttig voor het evalueren van de effectiviteit van uw landingspagina's en toegangspunten tot uw website. Bijvoorbeeld, als u een marketingcampagne uitvoert en verkeer naar een specifieke landingspagina leidt, kan een hoog bouncepercentage aangeven dat de pagina niet voldoet aan de verwachtingen die door uw reclame zijn geschapen of dat verbeteringen nodig zijn om bezoekers te behouden. Deze metriek is nuttig voor het evalueren van de effectiviteit van uw landingspagina's en toegangspunten.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è il tasso di rimbalzo?",
+                        "text": "<p>Il tasso di rimbalzo è una metrica importante dell'analisi web che misura la percentuale di <a href=\"/it/glossary/session\">sessioni</a> in cui un utente lascia il tuo sito dalla pagina di ingresso senza interagire con la pagina. Essenzialmente, mostra il numero di visite a una singola pagina. Un alto tasso di rimbalzo potrebbe indicare che la <a href=\"/it/glossary/landing-page\">pagina di atterraggio</a> non è abbastanza coinvolgente o rilevante per le esigenze del visitatore, o che il tempo di caricamento della pagina è lento, causando la partenza dei visitatori prima che sia completamente caricata.</p><p>Il tasso di rimbalzo viene calcolato dividendo il numero di sessioni di una sola pagina per il numero totale di sessioni nello stesso periodo di tempo, poi moltiplicando il risultato per 100 per ottenere una percentuale.</p><p>Ad esempio, se Pirsch Analytics mostra che il tuo sito web ha avuto un totale di 100 sessioni e 40 di queste erano sessioni di una sola pagina, il tasso di rimbalzo sarebbe calcolato come:</p><p>Tasso di rimbalzo = (40 / 100) x 100 = 40%</p><p>Questa metrica è utile per valutare l'efficacia delle tue pagine di atterraggio e punti di ingresso al tuo sito web. Per esempio, se stai conducendo una campagna di marketing e indirizzando il traffico a una specifica pagina di atterraggio, un alto tasso di rimbalzo potrebbe indicare che la pagina non è all'altezza delle aspettative create dalla tua pubblicità o che sono necessari miglioramenti per trattenere i visitatori. Questa metrica è utile per valutare l'efficacia delle tue pagine di atterraggio e punti di ingresso.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é a taxa de rejeição?",
+                        "text": "<p>A taxa de rejeição é uma métrica importante de análise web que mede o percentual de <a href=\"/pt/glossary/session\">sessões</a> nas quais um usuário deixa seu site pela página de entrada sem interagir com a página. Essencialmente, mostra o número de visitas a uma única página. Uma alta taxa de rejeição poderia indicar que a <a href=\"/pt/glossary/landing-page\">página de destino</a> não é envolvente ou relevante o suficiente para as necessidades do visitante, ou que o tempo de carregamento da página é lento, fazendo com que os visitantes deixem a página antes de ela ser completamente carregada.</p><p>A taxa de rejeição é calculada dividindo o número de sessões de uma única página pelo número total de sessões no mesmo período de tempo, depois multiplicando o resultado por 100 para obter uma porcentagem.</p><p>Por exemplo, se Pirsch Analytics mostra que seu site teve um total de 100 sessões e 40 dessas foram sessões de uma única página, a taxa de rejeição seria calculada como:</p><p>Taxa de rejeição = (40 / 100) x 100 = 40%</p><p>Essa métrica é útil para avaliar a eficácia de suas páginas de destino e pontos de entrada no seu site. Por exemplo, se você está executando uma campanha de marketing e direcionando o tráfego para uma página de destino específica, uma alta taxa de rejeição poderia indicar que a página não está à altura das expectativas criadas pela sua publicidade ou que melhorias são necessárias para reter visitantes. Essa métrica é útil para avaliar a eficácia de suas páginas de destino e pontos de entrada.</p>"
+                    },
+                    "ja": {
+                        "headline": "バウンス率とは何ですか？",
+                        "text": "<p>バウンス率は、ウェブ分析で使用される重要な指標で、ユーザーがページと対話せずにエントリーページからサイトを離れた<a href=\"/ja/glossary/session\">セッション</a>の割合を測定します。本質的には、単一ページへの訪問数を示します。高いバウンス率は、<a href=\"/ja/glossary/landing-page\">ランディングページ</a>が訪問者のニーズに十分に魅力的でないか、関連性がないことを示すか、またはページの読み込み時間が遅く、ページが完全にロードされる前に訪問者がページを離れることを示している可能性があります。</p><p>バウンス率は、同じ期間内のセッションの総数に単一ページセッションの数を割り、その結果を100倍してパーセンテージを得ることで計算されます。</p><p>たとえば、Pirsch Analyticsがあなたのウェブサイトが合計100セッションを持ち、そのうちの40が単一ページセッションだったと示した場合、バウンス率は以下のように計算されます：</p><p>バウンス率 = (40 / 100) x 100 = 40%</p><p>この指標は、ランディングページやウェブサイトへのエントリーポイントの有効性を評価するのに役立ちます。たとえば、マーケティングキャンペーンを実施して特定のランディングページにトラフィックを誘導している場合、高いバウンス率は、そのページが広告によって作られた期待に応えていないことや、訪問者を保持するための改善が必要であることを示している可能性があります。この指標は、ランディングページとエントリーポイントの有効性を評価するのに役立ちます。</p>"
                     }
                 }
             },

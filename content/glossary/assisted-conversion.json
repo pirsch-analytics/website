@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/assisted-conversion"
+        "en": "/glossary/assisted-conversion",
+        "de": "/de/glossary/assisted-conversion",
+        "es": "/es/glossary/assisted-conversion",
+        "fr": "/fr/glossary/assisted-conversion",
+        "nl": "/nl/glossary/assisted-conversion",
+        "it": "/it/glossary/assisted-conversion",
+        "pt": "/pt/glossary/assisted-conversion",
+        "ja": "/ja/glossary/assisted-conversion"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Assisted Conversion – Pirsch Analytics",
                         "meta_description": "A conversion that was influenced by multiple interactions with a website or advertising campaign."
+                    },
+                    "de": {
+                        "title": "Unterstützte Konversion – Pirsch Analytics",
+                        "meta_description": "Eine Konversion, die durch mehrere Interaktionen mit einer Website oder Werbekampagne beeinflusst wurde."
+                    },
+                    "es": {
+                        "title": "Conversión Asistida – Pirsch Analytics",
+                        "meta_description": "Una conversión que fue influenciada por múltiples interacciones con un sitio web o campaña publicitaria."
+                    },
+                    "fr": {
+                        "title": "Conversion Assistée – Pirsch Analytics",
+                        "meta_description": "Une conversion qui a été influencée par plusieurs interactions avec un site web ou une campagne publicitaire."
+                    },
+                    "nl": {
+                        "title": "Ondersteunde Conversie – Pirsch Analytics",
+                        "meta_description": "Een conversie die beïnvloed werd door meerdere interacties met een website of reclamecampagne."
+                    },
+                    "it": {
+                        "title": "Conversione Assistita – Pirsch Analytics",
+                        "meta_description": "Una conversione che è stata influenzata da molteplici interazioni con un sito web o una campagna pubblicitaria."
+                    },
+                    "pt": {
+                        "title": "Conversão Assistida – Pirsch Analytics",
+                        "meta_description": "Uma conversão que foi influenciada por múltiplas interações com um site ou campanha publicitária."
+                    },
+                    "ja": {
+                        "title": "アシステッドコンバージョン – Pirsch Analytics",
+                        "meta_description": "ウェブサイトや広告キャンペーンとの複数のやり取りによって影響を受けたコンバージョン。"
                     }
                 }
             },
@@ -25,6 +60,34 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Assisted Conversion?",
                         "text": "<p>Assisted conversion is a term used in web analytics to describe a scenario in which a particular channel contributes to a conversion along the customer journey, but is not the final interaction before the conversion takes place. This concept is critical to understanding the different roles that different marketing channels play in influencing a user's decision to take a desired action, such as making a purchase or signing up for a service.</p><p>For example, a user might first click on a Facebook ad (which counts as an assisted conversion), later visit the same website via organic search, and finally complete a purchase after clicking on an email link. The email channel would be credited for the direct conversion, but the roles of Facebook and organic search as assisted channels are also recognized and valued.</p><p>This metric helps marketers allocate resources more effectively by recognizing the value of each channel in the conversion process, rather than attributing success solely to the last click. Tools like Pirsch Analytics would track these interactions to provide insight into the entire conversion path and help marketers optimize their strategies across all channels.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist eine unterstützte Konversion?",
+                        "text": "<p>Unterstützte Konversion ist ein Begriff aus der Webanalytik, der ein Szenario beschreibt, in dem ein bestimmter Kanal zur Konversion entlang der Kundenreise beiträgt, aber nicht die letzte Interaktion vor der Konversion ist. Dieses Konzept ist entscheidend, um die verschiedenen Rollen zu verstehen, die unterschiedliche Marketingkanäle bei der Beeinflussung der Entscheidung eines Benutzers spielen, eine gewünschte Aktion auszuführen, wie z.B. einen Kauf zu tätigen oder sich für einen Dienst anzumelden.</p><p>Beispielsweise könnte ein Benutzer zunächst auf eine Facebook-Anzeige klicken (die als unterstützte Konversion zählt), später dieselbe Website über eine organische Suche besuchen und schließlich einen Kauf abschließen, nachdem er auf einen E-Mail-Link geklickt hat. Dem E-Mail-Kanal würde die direkte Konversion gutgeschrieben, aber die Rollen von Facebook und organischer Suche als unterstützende Kanäle werden ebenfalls anerkannt und geschätzt.</p><p>Diese Metrik hilft Vermarktern, Ressourcen effektiver zuzuweisen, indem sie den Wert jedes Kanals im Konversionsprozess anerkennen, anstatt den Erfolg ausschließlich dem letzten Klick zuzuschreiben. Tools wie Pirsch Analytics würden diese Interaktionen verfolgen, um Einblicke in den gesamten Konversionspfad zu geben und Vermarktern zu helfen, ihre Strategien über alle Kanäle hinweg zu optimieren.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es una conversión asistida?",
+                        "text": "<p>La conversión asistida es un término utilizado en análisis web para describir un escenario en el que un canal particular contribuye a una conversión a lo largo del viaje del cliente, pero no es la interacción final antes de que se realice la conversión. Este concepto es crucial para entender los diferentes roles que juegan los distintos canales de marketing en influir en la decisión de un usuario de realizar una acción deseada, como realizar una compra o inscribirse en un servicio.</p><p>Por ejemplo, un usuario podría hacer clic primero en un anuncio de Facebook (que cuenta como una conversión asistida), luego visitar el mismo sitio web a través de una búsqueda orgánica, y finalmente completar una compra después de hacer clic en un enlace de correo electrónico. Al canal de correo electrónico se le acreditaría la conversión directa, pero también se reconocen y valoran los roles de Facebook y la búsqueda orgánica como canales asistidos.</p><p>Esta métrica ayuda a los comercializadores a asignar recursos más eficazmente reconociendo el valor de cada canal en el proceso de conversión, en lugar de atribuir el éxito únicamente al último clic. Herramientas como Pirsch Analytics rastrearían estas interacciones para proporcionar una visión de todo el camino de conversión y ayudar a los comercializadores a optimizar sus estrategias en todos los canales.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce qu'une conversion assistée ?",
+                        "text": "<p>La conversion assistée est un terme utilisé en analyse web pour décrire un scénario dans lequel un canal particulier contribue à une conversion le long du parcours client, mais n'est pas la dernière interaction avant que la conversion ait lieu. Ce concept est crucial pour comprendre les différents rôles que jouent les différents canaux de marketing dans l'influence de la décision d'un utilisateur de prendre une action souhaitée, comme effectuer un achat ou s'inscrire à un service.</p><p>Par exemple, un utilisateur pourrait d'abord cliquer sur une annonce Facebook (qui compte comme une conversion assistée), visiter plus tard le même site web via une recherche organique, et finalement compléter un achat après avoir cliqué sur un lien dans un e-mail. Le canal e-mail serait crédité pour la conversion directe, mais les rôles de Facebook et de la recherche organique en tant que canaux assistés sont également reconnus et valorisés.</p><p>Cette métrique aide les marketeurs à allouer les ressources plus efficacement en reconnaissant la valeur de chaque canal dans le processus de conversion, plutôt que d'attribuer le succès uniquement au dernier clic. Des outils comme Pirsch Analytics suivraient ces interactions pour fournir un aperçu du chemin complet de conversion et aider les marketeurs à optimiser leurs stratégies sur tous les canaux.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is een ondersteunde conversie?",
+                        "text": "<p>Een ondersteunde conversie is een term die in webanalyse wordt gebruikt om een scenario te beschrijven waarin een specifiek kanaal bijdraagt aan een conversie langs de klantreis, maar niet de laatste interactie is voordat de conversie plaatsvindt. Dit concept is cruciaal om de verschillende rollen te begrijpen die verschillende marketingkanalen spelen bij het beïnvloeden van de beslissing van een gebruiker om een gewenste actie te ondernemen, zoals het doen van een aankoop of het aanmelden voor een dienst.</p><p>Bijvoorbeeld, een gebruiker kan eerst klikken op een Facebook-advertentie (wat telt als een ondersteunde conversie), later de website bezoeken via organisch zoeken, en uiteindelijk een aankoop voltooien na het klikken op een e-mail link. Het e-mailkanaal zou gecrediteerd worden voor de directe conversie, maar de rollen van Facebook en organisch zoeken als ondersteunde kanalen worden ook erkend en gewaardeerd.</p><p>Deze metric helpt marketeers om middelen effectiever toe te wijzen door de waarde van elk kanaal in het conversieproces te erkennen, in plaats van succes alleen toe te schrijven aan de laatste klik. Tools zoals Pirsch Analytics zouden deze interacties volgen om inzicht te bieden in het gehele conversiepad en marketeers helpen hun strategieën over alle kanalen te optimaliseren.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è una conversione assistita?",
+                        "text": "<p>La conversione assistita è un termine usato nell'analisi web per descrivere uno scenario in cui un canale particolare contribuisce a una conversione lungo il percorso del cliente, ma non è l'ultima interazione prima che la conversione avvenga. Questo concetto è fondamentale per comprendere i diversi ruoli che i vari canali di marketing giocano nell'influenzare la decisione di un utente di compiere un'azione desiderata, come fare un acquisto o iscriversi a un servizio.</p><p>Ad esempio, un utente potrebbe prima cliccare su un annuncio di Facebook (che conta come una conversione assistita), visitare in seguito lo stesso sito web tramite ricerca organica, e infine completare un acquisto dopo aver cliccato su un link in una email. Il canale email sarebbe accreditato per la conversione diretta, ma anche i ruoli di Facebook e della ricerca organica come canali assistiti sono riconosciuti e valutati.</p><p>Questa metrica aiuta i marketer a allocare le risorse più efficacemente riconoscendo il valore di ogni canale nel processo di conversione, piuttosto che attribuire il successo solo all'ultimo clic. Strumenti come Pirsch Analytics traccerebbero queste interazioni per fornire una visione completa del percorso di conversione e aiutare i marketer a ottimizzare le loro strategie su tutti i canali.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é uma conversão assistida?",
+                        "text": "<p>Conversão assistida é um termo usado em análise web para descrever um cenário no qual um canal específico contribui para uma conversão ao longo da jornada do cliente, mas não é a última interação antes da conversão ocorrer. Este conceito é fundamental para entender os diferentes papéis que os vários canais de marketing desempenham na influência da decisão de um usuário de realizar uma ação desejada, como fazer uma compra ou inscrever-se em um serviço.</p><p>Por exemplo, um usuário pode primeiro clicar em um anúncio do Facebook (que conta como uma conversão assistida), depois visitar o mesmo site por meio de uma busca orgânica, e finalmente completar uma compra após clicar em um link de email. O canal de email seria creditado pela conversão direta, mas os papéis do Facebook e da busca orgânica como canais assistidos também são reconhecidos e valorizados.</p><p>Essa métrica ajuda os profissionais de marketing a alocar recursos mais eficazmente ao reconhecer o valor de cada canal no processo de conversão, em vez de atribuir o sucesso apenas ao último clique. Ferramentas como a Pirsch Analytics rastreariam essas interações para fornecer uma visão do caminho completo de conversão e ajudar os profissionais de marketing a otimizar suas estratégias em todos os canais.</p>"
+                    },
+                    "ja": {
+                        "headline": "アシステッドコンバージョンとは何ですか？",
+                        "text": "<p>アシステッドコンバージョンは、特定のチャンネルが顧客の旅の途中でコンバージョンに貢献するが、コンバージョンが発生する前の最後のインタラクションではない場合に、ウェブ分析で使用される用語です。この概念は、異なるマーケティングチャンネルがユーザーが望ましい行動を取ること、例えば購入やサービスへのサインアップなどを決定する上でどのような役割を果たしているかを理解する上で重要です。</p><p>たとえば、ユーザーが最初にFacebookの広告をクリックする場合（これはアシステッドコンバージョンとしてカウントされます）、その後、オーガニック検索を通じて同じウェブサイトを訪れ、最終的には電子メールのリンクをクリックして購入を完了する場合があります。直接コンバージョンには電子メールチャンネルがクレジットされますが、Facebookとオーガニック検索の役割も認識され、評価されます。</p><p>この指標は、最後のクリックだけに成功を帰するのではなく、コンバージョンプロセスで各チャンネルの価値を認識することで、マーケターがリソースをより効果的に割り当てるのに役立ちます。Pirsch Analyticsのようなツールはこれらの相互作用を追跡して、コンバージョンパス全体に洞察を提供し、マーケターがすべてのチャンネルにわたって戦略を最適化するのを助けます。</p>"
                     }
                 }
             },
