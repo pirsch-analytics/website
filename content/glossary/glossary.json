@@ -215,6 +215,11 @@
                                 "slug": "/glossary/paid-search-analysis"
                             },
                             {
+                                "title": "Paid Search Analysis",
+                                "description": "The process of analyzing and evaluating the performance of paid search campaigns, including ad performance, keyword effectiveness, and return on investment (ROI).",
+                                "slug": "paid-search-analysis"
+                            },
+                            {
                                 "title": "Page Speed",
                                 "description": "The time it takes for a webpage to load and become interactive for users.",
                                 "slug": "/glossary/page-speed"
