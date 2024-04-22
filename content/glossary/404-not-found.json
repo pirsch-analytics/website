@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/404-not-found"
+        "en": "/glossary/404-not-found",
+        "de": "/de/glossary/404-not-found",
+        "es": "/es/glossary/404-not-found",
+        "fr": "/fr/glossary/404-not-found",
+        "nl": "/nl/glossary/404-not-found",
+        "it": "/it/glossary/404-not-found",
+        "pt": "/pt/glossary/404-not-found",
+        "ja": "/ja/glossary/404-not-found"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "404 Not Found – Pirsch Analytics",
                         "meta_description": "A status code indicating that the server cannot find the requested resource."
+                    },
+                    "de": {
+                        "title": "404 Nicht Gefunden – Pirsch Analytics",
+                        "meta_description": "Ein Statuscode, der angibt, dass der Server die angeforderte Ressource nicht finden kann."
+                    },
+                    "es": {
+                        "title": "404 No Encontrado – Pirsch Analytics",
+                        "meta_description": "Un código de estado que indica que el servidor no puede encontrar el recurso solicitado."
+                    },
+                    "fr": {
+                        "title": "404 Non Trouvé – Pirsch Analytics",
+                        "meta_description": "Un code de statut indiquant que le serveur ne peut pas trouver la ressource demandée."
+                    },
+                    "nl": {
+                        "title": "404 Niet Gevonden – Pirsch Analytics",
+                        "meta_description": "Een statuscode die aangeeft dat de server de gevraagde bron niet kan vinden."
+                    },
+                    "it": {
+                        "title": "404 Non Trovato – Pirsch Analytics",
+                        "meta_description": "Un codice di stato che indica che il server non può trovare la risorsa richiesta."
+                    },
+                    "pt": {
+                        "title": "404 Não Encontrado – Pirsch Analytics",
+                        "meta_description": "Um código de status que indica que o servidor não pode encontrar o recurso solicitado."
+                    },
+                    "ja": {
+                        "title": "404 見つかりません – Pirsch Analytics",
+                        "meta_description": "サーバーが要求されたリソースを見つけることができないことを示すステータスコードです。"
                     }
                 }
             },
