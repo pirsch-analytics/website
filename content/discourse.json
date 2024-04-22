@@ -65,7 +65,7 @@
                         "password": "Passwort",
                         "login": "Anmelden",
                         "forgot_password": "Passwort vergessen?",
-                        "signature_error": "Die Signatur ist falsch, bitte versuchen Sie sich erneut bei Discourse anzumelden.",
+                        "signature_error": "Die Signatur ist falsch, bitte versuche dich erneut bei Discourse anzumelden.",
                         "to_forum": "Zurück zu Discourse"
                     },
                     "es": {

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/attribution-model"
+        "en": "/glossary/attribution-model",
+        "de": "/de/glossary/attribution-model",
+        "es": "/es/glossary/attribution-model",
+        "fr": "/fr/glossary/attribution-model",
+        "nl": "/nl/glossary/attribution-model",
+        "it": "/it/glossary/attribution-model",
+        "pt": "/pt/glossary/attribution-model",
+        "ja": "/ja/glossary/attribution-model"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Attribution Model – Pirsch Analytics",
                         "meta_description": "A set of rules or methodologies used to determine how credit for conversions and sales is assigned to touchpoints in the conversion path."
+                    },
+                    "de": {
+                        "title": "Attributionsmodell – Pirsch Analytics",
+                        "meta_description": "Ein Regelwerk oder Methoden, die verwendet werden, um zu bestimmen, wie die Verdienste für Konversionen und Verkäufe den Berührungspunkten im Konversionspfad zugeordnet werden."
+                    },
+                    "es": {
+                        "title": "Modelo de Atribución – Pirsch Analytics",
+                        "meta_description": "Un conjunto de reglas o metodologías utilizadas para determinar cómo se asigna el crédito por conversiones y ventas a los puntos de contacto en el camino de conversión."
+                    },
+                    "fr": {
+                        "title": "Modèle d'Attribution – Pirsch Analytics",
+                        "meta_description": "Un ensemble de règles ou de méthodologies utilisées pour déterminer comment le crédit pour les conversions et les ventes est attribué aux points de contact dans le chemin de conversion."
+                    },
+                    "nl": {
+                        "title": "Attributiemodel – Pirsch Analytics",
+                        "meta_description": "Een reeks regels of methodologieën die worden gebruikt om te bepalen hoe krediet voor conversies en verkopen wordt toegekend aan contactpunten in het conversiepad."
+                    },
+                    "it": {
+                        "title": "Modello di Attribuzione – Pirsch Analytics",
+                        "meta_description": "Un insieme di regole o metodologie utilizzate per determinare come il credito per conversioni e vendite sia assegnato ai punti di contatto nel percorso di conversione."
+                    },
+                    "pt": {
+                        "title": "Modelo de Atribuição – Pirsch Analytics",
+                        "meta_description": "Um conjunto de regras ou metodologias usadas para determinar como o crédito por conversões e vendas é atribuído aos pontos de contato no caminho da conversão."
+                    },
+                    "ja": {
+                        "title": "アトリビューションモデル – Pirsch Analytics",
+                        "meta_description": "コンバージョンや販売のクレジットがコンバージョンパスの接点にどのように割り当てられるかを決定するために使用される一連のルールまたは方法論。"
                     }
                 }
             },
@@ -23,6 +58,34 @@
                     "en": {
                         "headline": "What is the Attribution Model?",
                         "text": "<p>An attribution model is a framework used in web analytics to determine how credit for sales and conversions is assigned to touchpoints in the conversion path. The model helps marketers understand which channels, strategies, or campaigns have the greatest impact on achieving their goals and enables them to optimize marketing efforts based on these insights.</p><p>There are several types of attribution models, each with its own method of assigning value to different touchpoints in the customer journey. For example, the \"last click\" attribution Model attributes the entire conversion to the last channel the customer interacted with before the conversion. In contrast, the \"first click\" model attributes the conversion to the first channel the customer used to reach the site. More complex models, such as \"linear\", \"time decay\", and \"position-based\", allocate credit to multiple touchpoints based on different rules.</p><p>Choosing the right attribution model depends on specific business goals and the nature of the customer journey. With tools like Pirsch Analytics, marketers can apply different models and analyze how the performance of each channel varies to effectively optimize their marketing tactics.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist das Attributionsmodell?",
+                        "text": "<p>Ein Attributionsmodell ist ein Rahmenwerk, das in der Webanalytik verwendet wird, um zu bestimmen, wie Verdienste für Verkäufe und Konversionen den Berührungspunkten im Konversionspfad zugeordnet werden. Das Modell hilft Marketern zu verstehen, welche Kanäle, Strategien oder Kampagnen den größten Einfluss auf das Erreichen ihrer Ziele haben, und ermöglicht es ihnen, ihre Marketingbemühungen basierend auf diesen Einsichten zu optimieren.</p><p>Es gibt mehrere Arten von Attributionsmodellen, die jeweils ihre eigene Methode zur Zuweisung von Werten zu verschiedenen Berührungspunkten in der Kundenreise haben. Zum Beispiel schreibt das \"Letztklick\"-Attributionsmodell die gesamte Konversion dem letzten Kanal zu, mit dem der Kunde vor der Konversion interagiert hat. Im Gegensatz dazu schreibt das \"Erstklick\"-Modell die Konversion dem ersten Kanal zu, den der Kunde nutzte, um die Seite zu erreichen. Komplexere Modelle, wie das \"lineare\", \"Zeitverfall\"- und \"positions-basierte\" Modell, weisen den verschiedenen Berührungspunkten basierend auf unterschiedlichen Regeln Kredit zu.</p><p>Die Wahl des richtigen Attributionsmodells hängt von den spezifischen Geschäftszielen und der Art der Kundenreise ab. Mit Tools wie Pirsch Analytics können Marketer verschiedene Modelle anwenden und analysieren, wie sich die Leistung jedes Kanals unterscheidet, um ihre Marketingtaktiken effektiv zu optimieren.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es el modelo de atribución?",
+                        "text": "<p>Un modelo de atribución es un marco utilizado en el análisis web para determinar cómo se asigna el crédito por ventas y conversiones a los puntos de contacto en el camino de conversión. El modelo ayuda a los comercializadores a entender qué canales, estrategias o campañas tienen el mayor impacto en la consecución de sus objetivos y les permite optimizar sus esfuerzos de marketing basándose en estos conocimientos.</p><p>Existen varios tipos de modelos de atribución, cada uno con su propio método para asignar valor a diferentes puntos de contacto en el viaje del cliente. Por ejemplo, el modelo de atribución de \"último clic\" atribuye toda la conversión al último canal con el que interactuó el cliente antes de la conversión. En contraste, el modelo de \"primer clic\" atribuye la conversión al primer canal que el cliente utilizó para llegar al sitio. Modelos más complejos, como el \"lineal\", \"decaimiento por tiempo\" y \"basado en posición\", asignan crédito a múltiples puntos de contacto basados en diferentes reglas.</p><p>Elegir el modelo de atribución correcto depende de los objetivos comerciales específicos y de la naturaleza del viaje del cliente. Con herramientas como Pirsch Analytics, los comercializadores pueden aplicar diferentes modelos y analizar cómo varía el rendimiento de cada canal para optimizar eficazmente sus tácticas de marketing.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce que le modèle d'attribution ?",
+                        "text": "<p>Un modèle d'attribution est un cadre utilisé dans l'analyse web pour déterminer comment le crédit pour les ventes et les conversions est attribué aux points de contact dans le chemin de conversion. Le modèle aide les marketeurs à comprendre quels canaux, stratégies ou campagnes ont le plus grand impact sur l'atteinte de leurs objectifs et leur permet d'optimiser leurs efforts de marketing en fonction de ces informations.</p><p>Il existe plusieurs types de modèles d'attribution, chacun ayant sa propre méthode d'assignation de valeur aux différents points de contact dans le parcours client. Par exemple, le modèle d'attribution du \"dernier clic\" attribue toute la conversion au dernier canal avec lequel le client a interagi avant la conversion. En revanche, le modèle du \"premier clic\" attribue la conversion au premier canal utilisé par le client pour atteindre le site. Des modèles plus complexes, tels que le modèle \"linéaire\", \"décroissance dans le temps\" et \"basé sur la position\", attribuent du crédit à plusieurs points de contact selon différentes règles.</p><p>Choisir le bon modèle d'attribution dépend des objectifs commerciaux spécifiques et de la nature du parcours client. Avec des outils comme Pirsch Analytics, les marketeurs peuvent appliquer différents modèles et analyser comment la performance de chaque canal varie pour optimiser efficacement leurs tactiques de marketing.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is het attributiemodel?",
+                        "text": "<p>Een attributiemodel is een kader dat wordt gebruikt in webanalyse om te bepalen hoe krediet voor verkopen en conversies wordt toegewezen aan contactpunten in het conversiepad. Het model helpt marketeers te begrijpen welke kanalen, strategieën of campagnes de grootste impact hebben op het bereiken van hun doelen en stelt hen in staat hun marketinginspanningen te optimaliseren op basis van deze inzichten.</p><p>Er zijn verschillende soorten attributiemodellen, elk met zijn eigen methode om waarde toe te kennen aan verschillende contactpunten in de klantreis. Bijvoorbeeld, het 'laatste klik'-attributiemodel schrijft de gehele conversie toe aan het laatste kanaal waarmee de klant interactie had voor de conversie. In tegenstelling, het 'eerste klik'-model schrijft de conversie toe aan het eerste kanaal dat de klant gebruikte om de site te bereiken. Meer complexe modellen, zoals 'lineair', 'tijdverval' en 'positie-gebaseerd', kennen krediet toe aan meerdere contactpunten op basis van verschillende regels.</p><p>Het kiezen van het juiste attributiemodel hangt af van de specifieke bedrijfsdoelen en de aard van de klantreis. Met tools zoals Pirsch Analytics kunnen marketeers verschillende modellen toepassen en analyseren hoe de prestaties van elk kanaal variëren om hun marketingtactieken effectief te optimaliseren.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è il modello di attribuzione?",
+                        "text": "<p>Un modello di attribuzione è un quadro utilizzato nell'analisi web per determinare come il credito per vendite e conversioni sia assegnato ai punti di contatto nel percorso di conversione. Il modello aiuta i marketer a capire quali canali, strategie o campagne hanno il maggiore impatto nel raggiungere i loro obiettivi e consente loro di ottimizzare gli sforzi di marketing basati su queste intuizioni.</p><p>Esistono diversi tipi di modelli di attribuzione, ognuno con il proprio metodo di assegnazione del valore ai diversi punti di contatto nel viaggio del cliente. Ad esempio, il modello di attribuzione 'ultimo clic' attribuisce l'intera conversione all'ultimo canale con cui il cliente ha interagito prima della conversione. Al contrario, il modello 'primo clic' attribuisce la conversione al primo canale utilizzato dal cliente per raggiungere il sito. Modelli più complessi, come 'lineare', 'decadimento temporale' e 'basato sulla posizione', assegnano credito a più punti di contatto basandosi su diverse regole.</p><p>Scegliere il modello di attribuzione giusto dipende dagli obiettivi aziendali specifici e dalla natura del viaggio del cliente. Con strumenti come Pirsch Analytics, i marketer possono applicare diversi modelli e analizzare come le prestazioni di ogni canale variano per ottimizzare efficacemente le loro tattiche di marketing.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é o modelo de atribuição?",
+                        "text": "<p>Um modelo de atribuição é uma estrutura usada na análise web para determinar como o crédito por vendas e conversões é atribuído aos pontos de contato no caminho de conversão. O modelo ajuda os profissionais de marketing a entender quais canais, estratégias ou campanhas têm o maior impacto em alcançar seus objetivos e permite que eles otimizem seus esforços de marketing com base nessas percepções.</p><p>Existem vários tipos de modelos de atribuição, cada um com seu próprio método de atribuir valor aos diferentes pontos de contato na jornada do cliente. Por exemplo, o modelo de atribuição de 'último clique' atribui toda a conversão ao último canal que o cliente interagiu antes da conversão. Em contraste, o modelo de 'primeiro clique' atribui a conversão ao primeiro canal que o cliente usou para alcançar o site. Modelos mais complexos, como 'linear', 'decaimento ao longo do tempo' e 'baseado em posição', atribuem crédito a múltiplos pontos de contato com base em diferentes regras.</p><p>Escolher o modelo de atribuição certo depende dos objetivos específicos do negócio e da natureza da jornada do cliente. Com ferramentas como Pirsch Analytics, os profissionais de marketing podem aplicar diferentes modelos e analisar como o desempenho de cada canal varia para otimizar eficazmente suas táticas de marketing.</p>"
+                    },
+                    "ja": {
+                        "headline": "アトリビューションモデルとは何ですか？",
+                        "text": "<p>アトリビューションモデルは、ウェブ分析で使用される枠組みで、販売およびコンバージョンに対するクレジットがコンバージョンパスの接点にどのように割り当てられるかを決定するために使用されます。このモデルは、マーケターが目標達成に最も影響を与えるチャンネル、戦略、またはキャンペーンを理解し、これらの洞察に基づいてマーケティング努力を最適化することを可能にします。</p><p>アトリビューションモデルにはいくつかのタイプがあり、それぞれが顧客の旅の異なる接点に価値を割り当てる独自の方法を持っています。たとえば、「最後のクリック」アトリビューションモデルは、コンバージョン前に顧客が最後に交流したチャンネルに全てのコンバージョンを帰します。対照的に、「最初のクリック」モデルは、顧客がサイトに到達するために使用した最初のチャンネルにコンバージョンを帰します。より複雑なモデルである「線形」、「時間減衰」、「位置ベース」は、異なるルールに基づいて複数の接点にクレジットを割り当てます。</p><p>正しいアトリビューションモデルを選択することは、特定のビジネス目標と顧客の旅の性質に依存します。Pirsch Analyticsのようなツールを使用して、マーケターは異なるモデルを適用し、各チャンネルのパフォーマンスがどのように異なるかを分析し、彼らのマーケティング戦略を効果的に最適化することができます。</p>"
                     }
                 }
             },

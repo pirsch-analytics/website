@@ -12,7 +12,35 @@
                 "copy": {
                     "en": {
                         "title": "Conversion Rate Optimization (CRO) – Pirsch Analytics",
-                        "meta_description": ""
+                        "meta_description": "The process of improving the percentage of website visitors who complete a desired goal."
+                    },
+                    "de": {
+                        "title": "Conversion Rate Optimierung (CRO) – Pirsch Analytics",
+                        "meta_description": "Der Prozess zur Verbesserung des Prozentsatzes von Website-Besuchern, die ein gewünschtes Ziel erreichen."
+                    },
+                    "es": {
+                        "title": "Optimización de la Tasa de Conversión (CRO) – Pirsch Analytics",
+                        "meta_description": "El proceso de mejorar el porcentaje de visitantes a un sitio web que completan un objetivo deseado."
+                    },
+                    "fr": {
+                        "title": "Optimisation du Taux de Conversion (CRO) – Pirsch Analytics",
+                        "meta_description": "Le processus d'amélioration du pourcentage de visiteurs d'un site web qui atteignent un objectif désiré."
+                    },
+                    "nl": {
+                        "title": "Conversieratio Optimalisatie (CRO) – Pirsch Analytics",
+                        "meta_description": "Het proces van het verbeteren van het percentage websitebezoekers dat een gewenst doel voltooit."
+                    },
+                    "it": {
+                        "title": "Ottimizzazione del Tasso di Conversione (CRO) – Pirsch Analytics",
+                        "meta_description": "Il processo di miglioramento della percentuale di visitatori del sito web che completano un obiettivo desiderato."
+                    },
+                    "pt": {
+                        "title": "Otimização da Taxa de Conversão (CRO) – Pirsch Analytics",
+                        "meta_description": "O processo de melhorar a porcentagem de visitantes do site que completam um objetivo desejado."
+                    },
+                    "ja": {
+                        "title": "コンバージョン率最適化（CRO） – Pirsch Analytics",
+                        "meta_description": "ウェブサイトの訪問者が望む目標を達成する割合を改善するプロセス。"
                     }
                 }
             },

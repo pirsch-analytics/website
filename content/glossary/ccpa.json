@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/ccpa"
+        "en": "/glossary/ccpa",
+        "de": "/de/glossary/ccpa",
+        "es": "/es/glossary/ccpa",
+        "fr": "/fr/glossary/ccpa",
+        "nl": "/nl/glossary/ccpa",
+        "it": "/it/glossary/ccpa",
+        "pt": "/pt/glossary/ccpa",
+        "ja": "/ja/glossary/ccpa"
     },
     "sitemap": {
         "priority": "0.5"
@@ -12,7 +19,35 @@
                 "copy": {
                     "en": {
                         "title": "CCPA – Pirsch Analytics",
-                        "meta_description": "California Consumer Privacy Act, a state statute intended to enhance privacy rights and consumer protection for residents of California."
+                        "meta_description": "California Consumer Privacy Act (CCPA), a state statute intended to enhance privacy rights and consumer protection for residents of California."
+                    },
+                    "de": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "California Consumer Privacy Act (CCPA), ein staatliches Gesetz, das darauf abzielt, die Datenschutzrechte und den Verbraucherschutz für Einwohner Kaliforniens zu verbessern."
+                    },
+                    "es": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "Ley de Privacidad del Consumidor de California (CCPA), una normativa estatal destinada a mejorar los derechos de privacidad y la protección del consumidor para los residentes de California."
+                    },
+                    "fr": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "California Consumer Privacy Act (CCPA), une loi étatique destinée à renforcer les droits à la vie privée et la protection des consommateurs pour les résidents de Californie."
+                    },
+                    "nl": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "California Consumer Privacy Act (CCPA), een staatswet bedoeld om de privacyrechten en consumentenbescherming voor inwoners van Californië te verbeteren."
+                    },
+                    "it": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "California Consumer Privacy Act (CCPA), una legge statale intesa a migliorare i diritti alla privacy e la protezione dei consumatori per i residenti in California."
+                    },
+                    "pt": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "California Consumer Privacy Act (CCPA), uma legislação estadual destinada a aumentar os direitos de privacidade e proteção ao consumidor para os residentes da Califórnia."
+                    },
+                    "ja": {
+                        "title": "CCPA – Pirsch Analytics",
+                        "meta_description": "カリフォルニア州消費者プライバシー法（CCPA）、カリフォルニア州の住民のプライバシー権と消費者保護を強化することを目的とした州法。"
                     }
                 }
             },
@@ -23,6 +58,34 @@
                     "en": {
                         "headline": "What is CCPA?",
                         "text": "<p>The California Consumer Privacy Act (CCPA) is a state law designed to enhance the privacy rights and consumer protections of California residents. The law, which went into effect in 2018 and will take effect in 2020, gives California residents the right to be informed about the <a href=\"/glossary/personal-data\">personal information</a> collected about them by a company and the purpose for which it is collected, the right to delete personal information held by companies, including third parties, the right to object to the sale of personal information, and the right to non-discrimination in the exercise of their rights under the CCPA. </p><p>Businesses subject to the CCPA include those with annual gross revenues of more than $25 million; those that annually buy, receive, or sell personal information from 50,000 or more California residents, households, or <a href=\"/glossary/device\">devices</a>; or those that derive 50% or more of their annual revenues from the sale of personal information from California residents. </p><p>For websites, compliance often means implementing processes to manage and respond to user requests for access to data, updating privacy policies, and providing mechanisms for consumers to exercise their rights, such as data access, deletion requests, and opting out of the sale of personal information.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist das CCPA?",
+                        "text": "<p>Das California Consumer Privacy Act (CCPA) ist ein kalifornisches Staatsgesetz, das darauf abzielt, die Datenschutzrechte und Verbraucherschutzmaßnahmen für Einwohner Kaliforniens zu verbessern. Das Gesetz, das 2018 verabschiedet wurde und 2020 in Kraft trat, gibt kalifornischen Einwohnern das Recht, über die <a href=\"/de/glossary/personal-data\">persönlichen Informationen</a>, die von einem Unternehmen über sie gesammelt werden, und den Zweck ihrer Erhebung informiert zu werden, das Recht, persönliche Informationen, die von Unternehmen einschließlich Dritter gehalten werden, zu löschen, das Recht, dem Verkauf persönlicher Informationen zu widersprechen, und das Recht auf Nichtdiskriminierung bei der Ausübung ihrer Rechte unter dem CCPA.</p><p>Unternehmen, die dem CCPA unterliegen, umfassen diejenigen mit einem jährlichen Bruttoumsatz von mehr als 25 Millionen Dollar; diejenigen, die jährlich persönliche Informationen von 50.000 oder mehr kalifornischen Einwohnern, Haushalten oder <a href=\"/de/glossary/device\">Geräten</a> kaufen, erhalten oder verkaufen; oder diejenigen, die 50% oder mehr ihrer jährlichen Einnahmen aus dem Verkauf von persönlichen Informationen kalifornischer Einwohner erzielen.</p><p>Für Webseiten bedeutet die Einhaltung häufig die Implementierung von Prozessen zur Verwaltung und Beantwortung von Benutzeranfragen nach Zugang zu Daten, die Aktualisierung von Datenschutzrichtlinien und die Bereitstellung von Mechanismen für Verbraucher, um ihre Rechte auszuüben, wie Datenzugriff, Löschungsanfragen und das Opt-out vom Verkauf persönlicher Informationen.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es el CCPA?",
+                        "text": "<p>La Ley de Privacidad del Consumidor de California (CCPA) es una ley estatal diseñada para mejorar los derechos de privacidad y las protecciones al consumidor de los residentes de California. La ley, que entró en vigencia en 2018 y surtirá efecto en 2020, otorga a los residentes de California el derecho a ser informados sobre la <a href=\"/es/glossary/personal-data\">información personal</a> que una empresa recopila sobre ellos y el propósito para el cual se recopila, el derecho a eliminar la información personal que poseen las empresas, incluidos terceros, el derecho a objetar la venta de información personal, y el derecho a no discriminación en el ejercicio de sus derechos bajo el CCPA.</p><p>Las empresas sujetas al CCPA incluyen aquellas con ingresos brutos anuales de más de $25 millones; aquellas que anualmente compran, reciben o venden información personal de 50,000 o más residentes, hogares o <a href=\"/es/glossary/device\">dispositivos</a> de California; o aquellas que obtienen el 50% o más de sus ingresos anuales de la venta de información personal de residentes de California.</p><p>Para los sitios web, el cumplimiento a menudo significa implementar procesos para gestionar y responder a las solicitudes de los usuarios para acceder a los datos, actualizar las políticas de privacidad y proporcionar mecanismos para que los consumidores ejerzan sus derechos, como el acceso a los datos, solicitudes de eliminación y la opción de no participar en la venta de información personal.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce que le CCPA?",
+                        "text": "<p>Le California Consumer Privacy Act (CCPA) est une loi d'État conçue pour améliorer les droits à la vie privée et la protection des consommateurs des résidents de Californie. La loi, qui a été promulguée en 2018 et prendra effet en 2020, accorde aux résidents de Californie le droit d'être informés des <a href=\"/fr/glossary/personal-data\">informations personnelles</a> collectées à leur sujet par une entreprise et l'objectif de cette collecte, le droit de supprimer les informations personnelles détenues par les entreprises, y compris les tiers, le droit de s'opposer à la vente d'informations personnelles, et le droit à la non-discrimination dans l'exercice de leurs droits en vertu du CCPA.</p><p>Les entreprises soumises au CCPA comprennent celles dont les revenus annuels bruts dépassent 25 millions de dollars; celles qui achètent, reçoivent ou vendent annuellement des informations personnelles de 50 000 résidents, ménages ou <a href=\"/fr/glossary/device\">appareils</a> de Californie ou plus; ou celles qui tirent 50 % ou plus de leurs revenus annuels de la vente d'informations personnelles de résidents de Californie.</p><p>Pour les sites web, la conformité signifie souvent mettre en place des processus pour gérer et répondre aux demandes d'accès aux données des utilisateurs, mettre à jour les politiques de confidentialité, et fournir des mécanismes pour que les consommateurs puissent exercer leurs droits, tels que l'accès aux données, les demandes de suppression, et l'option de refuser la vente d'informations personnelles.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is de CCPA?",
+                        "text": "<p>De California Consumer Privacy Act (CCPA) is een staatswet ontworpen om de privacyrechten en consumentenbescherming van inwoners van Californië te verbeteren. De wet, die in 2018 werd aangenomen en in 2020 van kracht werd, geeft inwoners van Californië het recht om geïnformeerd te worden over de <a href=\"/nl/glossary/personal-data\">persoonlijke informatie</a> die door een bedrijf over hen wordt verzameld en het doel waarvoor deze wordt verzameld, het recht om persoonlijke informatie die door bedrijven wordt gehouden, inclusief derden, te verwijderen, het recht om bezwaar te maken tegen de verkoop van persoonlijke informatie, en het recht op non-discriminatie bij de uitoefening van hun rechten onder de CCPA.</p><p>Bedrijven die onder de CCPA vallen, omvatten degenen met jaarlijkse bruto-inkomsten van meer dan $25 miljoen; degenen die jaarlijks persoonlijke informatie kopen, ontvangen, of verkopen van 50.000 of meer Californische inwoners, huishoudens, of <a href=\"/nl/glossary/device\">apparaten</a>; of degenen die 50% of meer van hun jaarlijkse inkomsten halen uit de verkoop van persoonlijke informatie van Californische inwoners.</p><p>Voor websites betekent naleving vaak het implementeren van processen om te beheren en te reageren op gebruikersverzoeken om toegang tot gegevens, het bijwerken van privacybeleid, en het bieden van mechanismen voor consumenten om hun rechten uit te oefenen, zoals toegang tot gegevens, verwijderingsverzoeken, en zich afmelden voor de verkoop van persoonlijke informatie.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è il CCPA?",
+                        "text": "<p>Il California Consumer Privacy Act (CCPA) è una legge statale progettata per migliorare i diritti alla privacy e le protezioni dei consumatori per i residenti della California. La legge, entrata in vigore nel 2018 e che sarà applicabile nel 2020, garantisce ai residenti della California il diritto di essere informati sulle <a href=\"/it/glossary/personal-data\">informazioni personali</a> raccolte da un'azienda e lo scopo della raccolta, il diritto di cancellare le informazioni personali detenute dalle aziende, compresi terzi, il diritto di opporsi alla vendita di informazioni personali, e il diritto alla non discriminazione nell'esercizio dei loro diritti sotto il CCPA.</p><p>Le aziende soggette al CCPA includono quelle con ricavi annui lordi superiori a 25 milioni di dollari; quelle che annualmente acquistano, ricevono o vendono informazioni personali di 50.000 o più residenti, famiglie o <a href=\"/it/glossary/device\">dispositivi</a> della California; o quelle che ricavano il 50% o più dei loro ricavi annuali dalla vendita di informazioni personali dei residenti della California.</p><p>Per i siti web, la conformità spesso significa implementare processi per gestire e rispondere alle richieste degli utenti per l'accesso ai dati, aggiornare le politiche sulla privacy e fornire meccanismi affinché i consumatori possano esercitare i loro diritti, come l'accesso ai dati, le richieste di cancellazione e l'opzione di rinunciare alla vendita di informazioni personali.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é o CCPA?",
+                        "text": "<p>A California Consumer Privacy Act (CCPA) é uma lei estadual projetada para melhorar os direitos de privacidade e as proteções ao consumidor dos residentes da Califórnia. A lei, que foi promulgada em 2018 e entrará em vigor em 2020, concede aos residentes da Califórnia o direito de serem informados sobre as <a href=\"/pt/glossary/personal-data\">informações pessoais</a> coletadas sobre eles por uma empresa e a finalidade para a qual são coletadas, o direito de deletar informações pessoais mantidas pelas empresas, incluindo terceiros, o direito de objetar à venda de informações pessoais e o direito a não discriminação no exercício de seus direitos sob o CCPA.</p><p>As empresas sujeitas ao CCPA incluem aquelas com receitas brutas anuais de mais de $25 milhões; aquelas que anualmente compram, recebem ou vendem informações pessoais de 50.000 ou mais residentes, famílias ou <a href=\"/pt/glossary/device\">dispositivos</a> da Califórnia; ou aquelas que derivam 50% ou mais de suas receitas anuais da venda de informações pessoais de residentes da Califórnia.</p><p>Para sites, a conformidade geralmente significa implementar processos para gerenciar e responder a solicitações de acesso aos dados dos usuários, atualizar políticas de privacidade e fornecer mecanismos para que os consumidores exerçam seus direitos, como acesso aos dados, solicitações de exclusão e optar por não vender informações pessoais.</p>"
+                    },
+                    "ja": {
+                        "headline": "CCPAとは何ですか？",
+                        "text": "<p>カリフォルニア消費者プライバシー法（CCPA）は、カリフォルニア州の住民のプライバシー権と消費者保護を強化するために設計された州法です。2018年に施行され、2020年に効力を発するこの法律は、カリフォルニア州の住民に、企業によって収集される<a href=\"/ja/glossary/personal-data\">個人情報</a>とその収集目的について知らされる権利、企業（第三者を含む）に保持される個人情報を削除する権利、個人情報の販売に異議を唱える権利、及びCCPAの下での彼らの権利の行使における非差別の権利を与えます。</p><p>CCPAの対象となるビジネスには、年間総収入が2500万ドル以上のもの、カリフォルニア州の住民、世帯、または<a href=\"/ja/glossary/device\">デバイス</a>から年間で個人情報を50,000件以上購入、受領、または販売するもの、またはカリフォルニア州の住民からの個人情報の販売から得られる年間収入の50％以上を占めるものが含まれます。</p><p>ウェブサイトにとって、コンプライアンスは通常、データへのアクセスを求めるユーザーの要求を管理して応答するプロセスを実装すること、プライバシーポリシーを更新すること、消費者がデータアクセス、削除要求、個人情報の販売からのオプトアウトなどの権利を行使できるようにするためのメカニズムを提供することを意味します。</p>"
                     }
                 }
             },
