@@ -31,6 +31,10 @@ The JSON structure for a content file is as follows:
     "analytics": { // optional analytics meta data
         "tags": {
             "key": "value"
+        },
+        "experiment": {
+            "name": "landing", // A/B testing page variant
+            "variant": "a"
         }
     },
     "content": {
@@ -48,6 +52,12 @@ The JSON structure for a content file is as follows:
             },
             {
                 "tpl": "text", // template file (without extension, always lowercase)
+                "analytics": {
+                    "experiment": {
+                        "name": "experiment", // A/B testing experiment name and variant
+                        "variant": "a"
+                    }
+                },
                 "data": { // optional generic data object
                     "numbers": [1, 2, 3]
                 },

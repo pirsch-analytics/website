@@ -33,16 +33,15 @@
                     translations.set("ja", "/ja");
                     translations.set("en", "/");
                     translations.set("x-default", "/");
-                    const langSelect = document.getElementById("language");
-
+                    
                     function getCookie(cookie) {
                         const name = cookie + "=";
                         const ca = document.cookie.split(';');
 
-                        for(let i = 0; i < ca.length; i++) {
+                        for (let i = 0; i < ca.length; i++) {
                             const c = ca[i].trim();
 
-                            if(c.indexOf(name) === 0) {
+                            if (c.indexOf(name) === 0) {
                                 return c.substring(name.length);
                             }
                         }
@@ -59,9 +58,10 @@
                     }
 
                     document.addEventListener("DOMContentLoaded", () => {
+                        const langSelect = document.getElementById("language");
                         langSelect.value = getCookie("language") || document.documentElement.lang;
 
-                        if(langSelect.value !== "en" && !location.pathname.startsWith("/"+langSelect.value)) {
+                        if (langSelect.value !== "en" && !location.pathname.startsWith("/"+langSelect.value)) {
                             location = `{{hostname}}${translations.get(langSelect.value)}`;
                             return;
                         }
@@ -70,7 +70,7 @@
                             const current = getCookie("language");
                             const value = e.target.value;
 
-                            if(value !== current) {
+                            if (value !== current) {
                                 setCookie("language", value);
                                 location = `{{hostname}}${translations.get(value)}`;
                             }
