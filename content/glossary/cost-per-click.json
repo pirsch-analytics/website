@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/cost-per-click"
+        "en": "/glossary/cost-per-click",
+        "de": "/de/glossary/cost-per-click",
+        "es": "/es/glossary/cost-per-click",
+        "fr": "/fr/glossary/cost-per-click",
+        "nl": "/nl/glossary/cost-per-click",
+        "it": "/it/glossary/cost-per-click",
+        "pt": "/pt/glossary/cost-per-click",
+        "ja": "/ja/glossary/cost-per-click"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Cost per Click (CPC) – Pirsch Analytics",
                         "meta_description": "The amount an advertiser pays for each click on their advertisement."
+                    },
+                    "de": {
+                        "title": "Kosten pro Klick (CPC) – Pirsch Analytics",
+                        "meta_description": "Der Betrag, den ein Werbetreibender für jeden Klick auf seine Werbeanzeige zahlt."
+                    },
+                    "es": {
+                        "title": "Costo por Clic (CPC) – Pirsch Analytics",
+                        "meta_description": "La cantidad que un anunciante paga por cada clic en su anuncio."
+                    },
+                    "fr": {
+                        "title": "Coût par Clic (CPC) – Pirsch Analytics",
+                        "meta_description": "Le montant qu'un annonceur paie pour chaque clic sur son annonce."
+                    },
+                    "nl": {
+                        "title": "Kosten per Klik (CPC) – Pirsch Analytics",
+                        "meta_description": "Het bedrag dat een adverteerder betaalt voor elke klik op hun advertentie."
+                    },
+                    "it": {
+                        "title": "Costo per Clic (CPC) – Pirsch Analytics",
+                        "meta_description": "L'importo che un inserzionista paga per ogni clic sul proprio annuncio."
+                    },
+                    "pt": {
+                        "title": "Custo por Clique (CPC) – Pirsch Analytics",
+                        "meta_description": "O valor que um anunciante paga por cada clique em seu anúncio."
+                    },
+                    "ja": {
+                        "title": "クリック単価（CPC） – Pirsch Analytics",
+                        "meta_description": "広告主が広告をクリックするごとに支払う金額。"
                     }
                 }
             },

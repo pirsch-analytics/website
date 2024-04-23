@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/conversion"
+        "en": "/glossary/conversion",
+        "de": "/de/glossary/conversion",
+        "es": "/es/glossary/conversion",
+        "fr": "/fr/glossary/conversion",
+        "nl": "/nl/glossary/conversion",
+        "it": "/it/glossary/conversion",
+        "pt": "/pt/glossary/conversion",
+        "ja": "/ja/glossary/conversion"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Conversion – Pirsch Analytics",
                         "meta_description": "The completion of a desired action by a user, such as making a purchase or filling out a form."
+                    },
+                    "de": {
+                        "title": "Konversion – Pirsch Analytics",
+                        "meta_description": "Die Vervollständigung einer gewünschten Aktion durch einen Benutzer, wie zum Beispiel einen Kauf tätigen oder ein Formular ausfüllen."
+                    },
+                    "es": {
+                        "title": "Conversión – Pirsch Analytics",
+                        "meta_description": "La realización de una acción deseada por un usuario, como realizar una compra o completar un formulario."
+                    },
+                    "fr": {
+                        "title": "Conversion – Pirsch Analytics",
+                        "meta_description": "L'accomplissement d'une action souhaitée par un utilisateur, comme effectuer un achat ou remplir un formulaire."
+                    },
+                    "nl": {
+                        "title": "Conversie – Pirsch Analytics",
+                        "meta_description": "Het voltooien van een gewenste actie door een gebruiker, zoals het maken van een aankoop of het invullen van een formulier."
+                    },
+                    "it": {
+                        "title": "Conversione – Pirsch Analytics",
+                        "meta_description": "Il completamento di un'azione desiderata da parte di un utente, come effettuare un acquisto o compilare un modulo."
+                    },
+                    "pt": {
+                        "title": "Conversão – Pirsch Analytics",
+                        "meta_description": "A conclusão de uma ação desejada por um usuário, como fazer uma compra ou preencher um formulário."
+                    },
+                    "ja": {
+                        "title": "コンバージョン – Pirsch Analytics",
+                        "meta_description": "ユーザーが購入する、フォームを記入するなど、望ましいアクションを完了すること。"
                     }
                 }
             },
@@ -25,6 +60,34 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Conversion?",
                         "text": "<p>A conversion in web analytics refers to a completed activity that is important to the success of your business and is triggered by a visitor's action on your website. This activity can be anything that aligns with business goals, such as making a purchase, subscribing to a newsletter, downloading software, or filling out a contact form. Essentially, it is the critical point at which a potential customer achieves a marketing goal.</p><p>For example, if the goal of an online store is to increase sales, every time a visitor completes a purchase is counted as a conversion. Similarly, if the goal of a blog is to grow its readership, each subscription to the mailing list can be counted as a conversion.</p><p>Tracking conversions helps companies understand how well their website is meeting its core objectives and is critical to measuring the ROI of digital marketing efforts. Tools like Pirsch Analytics can help identify which sources are driving the most conversions, allowing for more targeted and effective marketing strategies.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist eine Konversion?",
+                        "text": "<p>Eine Konversion in der Webanalyse bezieht sich auf eine abgeschlossene Aktivität, die für den Erfolg Ihres Unternehmens wichtig ist und durch eine Aktion eines Besuchers auf Ihrer Website ausgelöst wird. Diese Aktivität kann alles sein, was mit den Geschäftszielen übereinstimmt, wie zum Beispiel einen Kauf tätigen, ein Newsletter-Abonnement abschließen, Software herunterladen oder ein Kontaktformular ausfüllen. Im Wesentlichen ist es der entscheidende Punkt, an dem ein potenzieller Kunde ein Marketingziel erreicht.</p><p>Beispielsweise wird jedes Mal, wenn ein Besucher eines Online-Shops einen Kauf abschließt, dies als Konversion gezählt. Ähnlich, wenn das Ziel eines Blogs darin besteht, seine Leserschaft zu vergrößern, kann jedes Abonnement der Mailingliste als Konversion gezählt werden.</p><p>Das Nachverfolgen von Konversionen hilft Unternehmen zu verstehen, wie gut ihre Website ihre Kernziele erfüllt, und ist entscheidend für die Messung des ROI von digitalen Marketingbemühungen. Tools wie Pirsch Analytics können helfen zu identifizieren, welche Quellen die meisten Konversionen erzeugen, was eine gezieltere und effektivere Marketingstrategie ermöglicht.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es una Conversión?",
+                        "text": "<p>Una conversión en análisis web se refiere a una actividad completada que es importante para el éxito de su negocio y es activada por la acción de un visitante en su sitio web. Esta actividad puede ser cualquier cosa que se alinee con los objetivos comerciales, como realizar una compra, suscribirse a un boletín informativo, descargar software o llenar un formulario de contacto. Esencialmente, es el punto crítico en el que un cliente potencial logra un objetivo de marketing.</p><p>Por ejemplo, cada vez que un visitante completa una compra en una tienda en línea, se cuenta como una conversión. De manera similar, si el objetivo de un blog es aumentar su audiencia, cada suscripción a la lista de correos puede contar como una conversión.</p><p>Rastrear conversiones ayuda a las empresas a entender qué tan bien su sitio web está cumpliendo con sus objetivos principales y es crucial para medir el ROI de los esfuerzos de marketing digital. Herramientas como Pirsch Analytics pueden ayudar a identificar qué fuentes están generando más conversiones, permitiendo estrategias de marketing más dirigidas y efectivas.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce qu'une Conversion ?",
+                        "text": "<p>Une conversion en analyse web se réfère à une activité complétée qui est importante pour le succès de votre entreprise et qui est déclenchée par l'action d'un visiteur sur votre site web. Cette activité peut être tout ce qui est aligné avec les objectifs commerciaux, comme effectuer un achat, s'abonner à une newsletter, télécharger un logiciel ou remplir un formulaire de contact. Essentiellement, c'est le point critique où un client potentiel atteint un objectif marketing.</p><p>Par exemple, chaque fois qu'un visiteur effectue un achat dans un magasin en ligne, cela est compté comme une conversion. De même, si l'objectif d'un blog est d'accroître son lectorat, chaque abonnement à la liste de diffusion peut être compté comme une conversion.</p><p>Suivre les conversions aide les entreprises à comprendre dans quelle mesure leur site web atteint ses objectifs principaux et est crucial pour mesurer le ROI des efforts de marketing numérique. Des outils comme Pirsch Analytics peuvent aider à identifier quelles sources génèrent le plus de conversions, permettant des stratégies de marketing plus ciblées et efficaces.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is een Conversie?",
+                        "text": "<p>Een conversie in webanalyse verwijst naar een voltooide activiteit die belangrijk is voor het succes van uw bedrijf en wordt geactiveerd door een actie van een bezoeker op uw website. Deze activiteit kan alles zijn wat overeenkomt met de bedrijfsdoelen, zoals het doen van een aankoop, zich abonneren op een nieuwsbrief, software downloaden of een contactformulier invullen. In wezen is het het kritieke punt waarop een potentiële klant een marketingdoel bereikt.</p><p>Bijvoorbeeld, elke keer dat een bezoeker een aankoop voltooit in een online winkel, wordt dit geteld als een conversie. Evenzo, als het doel van een blog is om zijn lezerspubliek te vergroten, kan elke inschrijving op de mailinglijst als een conversie worden geteld.</p><p>Het bijhouden van conversies helpt bedrijven te begrijpen hoe goed hun website zijn kern doelstellingen haalt en is cruciaal voor het meten van de ROI van digitale marketinginspanningen. Tools zoals Pirsch Analytics kunnen helpen identificeren welke bronnen de meeste conversies genereren, waardoor meer gerichte en effectieve marketingstrategieën mogelijk zijn.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è una Conversione?",
+                        "text": "<p>Una conversione in analisi web si riferisce a un'attività completata che è importante per il successo del tuo business ed è innescata dall'azione di un visitatore sul tuo sito web. Questa attività può essere qualsiasi cosa che sia in linea con gli obiettivi aziendali, come fare un acquisto, iscriversi a una newsletter, scaricare software o compilare un modulo di contatto. Fondamentalmente, è il punto critico in cui un potenziale cliente raggiunge un obiettivo di marketing.</p><p>Ad esempio, ogni volta che un visitatore completa un acquisto in un negozio online, questo viene conteggiato come una conversione. Analogamente, se l'obiettivo di un blog è aumentare il suo pubblico, ogni abbonamento alla lista di distribuzione può essere conteggiato come una conversione.</p><p>Monitorare le conversioni aiuta le aziende a comprendere quanto bene il loro sito web stia raggiungendo i suoi obiettivi principali ed è fondamentale per misurare il ROI degli sforzi di marketing digitale. Strumenti come Pirsch Analytics possono aiutare a identificare quali fonti stanno generando più conversioni, consentendo strategie di marketing più mirate ed efficaci.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é uma Conversão?",
+                        "text": "<p>Uma conversão em análise web refere-se a uma atividade concluída que é importante para o sucesso do seu negócio e é desencadeada pela ação de um visitante no seu site. Esta atividade pode ser qualquer coisa que esteja alinhada com os objetivos do negócio, como fazer uma compra, inscrever-se para receber uma newsletter, baixar software ou preencher um formulário de contato. Essencialmente, é o ponto crítico em que um potencial cliente alcança um objetivo de marketing.</p><p>Por exemplo, sempre que um visitante completa uma compra em uma loja online, isso é contado como uma conversão. Similarmente, se o objetivo de um blog é aumentar sua audiência, cada inscrição na lista de e-mails pode ser contada como uma conversão.</p><p>Rastrear conversões ajuda as empresas a entender como seu site está atingindo seus objetivos principais e é crucial para medir o ROI dos esforços de marketing digital. Ferramentas como Pirsch Analytics podem ajudar a identificar quais fontes estão gerando mais conversões, permitindo estratégias de marketing mais direcionadas e eficazes.</p>"
+                    },
+                    "ja": {
+                        "headline": "コンバージョンとは何ですか？",
+                        "text": "<p>ウェブ分析におけるコンバージョンは、あなたのビジネスの成功に不可欠な活動が完了することを指し、ウェブサイト上の訪問者のアクションによってトリガーされます。この活動は、購入する、ニュースレターに登録する、ソフトウェアをダウンロードする、連絡先フォームを記入するなど、ビジネスの目標に合致するものであれば何でもかまいません。本質的に、それは潜在的な顧客がマーケティングの目標を達成する重要なポイントです。</p><p>たとえば、オンラインストアの目標が売上を増やすことである場合、訪問者が購入を完了するたびにそれはコンバージョンとしてカウントされます。同様に、ブログの目標が読者数を増やすことである場合、メーリングリストへの各登録はコンバージョンとしてカウントすることができます。</p><p>コンバージョンの追跡は、企業が自社のウェブサイトが主要な目標をどの程度達成しているかを理解するのに役立ち、デジタルマーケティングの取り組みのROIを測定するのに不可欠です。Pirsch Analyticsのようなツールは、最もコンバージョンを生み出しているソースを特定するのに役立ち、よりターゲットを絞った効果的なマーケティング戦略を可能にします。</p>"
                     }
                 }
             },
