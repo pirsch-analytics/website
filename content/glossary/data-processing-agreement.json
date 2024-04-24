@@ -13,6 +13,34 @@
                     "en": {
                         "title": "Data Processing Agreement (DPA) – Pirsch Analytics",
                         "meta_description": "A contract that outlines the responsibilities of a data controller and data processor regarding the processing of personal data."
+                    },
+                    "de": {
+                        "title": "Auftragsverarbeitungsvertrag (AVV) – Pirsch Analytics",
+                        "meta_description": "Ein Vertrag, der die Verantwortlichkeiten des Datenverantwortlichen und des Datenverarbeiters bezüglich der Verarbeitung personenbezogener Daten darlegt."
+                    },
+                    "es": {
+                        "title": "Acuerdo de Procesamiento de Datos (DPA) – Pirsch Analytics",
+                        "meta_description": "Un contrato que describe las responsabilidades del controlador de datos y del procesador de datos en relación con el procesamiento de datos personales."
+                    },
+                    "fr": {
+                        "title": "Accord de Traitement des Données (DPA) – Pirsch Analytics",
+                        "meta_description": "Un contrat qui décrit les responsabilités du contrôleur de données et du processeur de données concernant le traitement des données personnelles."
+                    },
+                    "nl": {
+                        "title": "Data Verwerkings Overeenkomst (DPA) – Pirsch Analytics",
+                        "meta_description": "Een contract dat de verantwoordelijkheden van een gegevensbeheerder en gegevensverwerker met betrekking tot de verwerking van persoonsgegevens uiteenzet."
+                    },
+                    "it": {
+                        "title": "Accordo di Trattamento dei Dati (DPA) – Pirsch Analytics",
+                        "meta_description": "Un contratto che delinea le responsabilità del titolare del trattamento e del processore dei dati riguardo al trattamento dei dati personali."
+                    },
+                    "pt": {
+                        "title": "Acordo de Processamento de Dados (DPA) – Pirsch Analytics",
+                        "meta_description": "Um contrato que delineia as responsabilidades do controlador de dados e do processador de dados em relação ao processamento de dados pessoais."
+                    },
+                    "ja": {
+                        "title": "データ処理契約（DPA） – Pirsch Analytics",
+                        "meta_description": "個人データの処理に関してデータコントローラーとデータプロセッサーの責任を概説する契約。"
                     }
                 }
             },
@@ -23,6 +51,18 @@
                     "en": {
                         "headline": "What is a Data Processing Agreement (DPA)?",
                         "text": "<p>A Data Processing Agreement (DPA) is a legally binding contract between data controllers and data processors, required by data protection laws such as the <a href=\"/glossary/gdpr\">GDPR</a>. This agreement ensures that data processors process the personal data of data subjects in accordance with data protection laws, and respect the rights of data subjects. The GDPR sets out the scope, nature and purpose of the processing, the rights and obligations of both parties, and measures to ensure data security.</p><p>For example, a company (data controller) that outsources its data processing to a cloud service provider (data processor) needs a GDPR to set out the cloud provider's responsibilities in handling the data, such as dealing with data breaches, data transfer procedures, and ensuring that data processing is carried out in accordance with the agreed terms. The GDPR protects both parties by clarifying their roles and responsibilities, and ensuring transparency and compliance with the law.</p><p>A solid GDPR is critical not only for complying with legal obligations, but also for maintaining trust with customers by protecting their personal data.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist ein Auftragsverarbeitungsvertrag (AVV)?",
+                        "text": "<p>Ein Auftragsverarbeitungsvertrag (AVV) oder Data Processing Agreement (DPA) ist ein rechtlich bindender Vertrag zwischen Datenverantwortlichen und Datenverarbeitern, der von Datenschutzgesetzen wie der <a href=\"/de/glossary/gdpr\">DSGVO</a> gefordert wird. Diese Vereinbarung stellt sicher, dass Datenverarbeiter die personenbezogenen Daten der betroffenen Personen gemäß den Datenschutzgesetzen verarbeiten und die Rechte der betroffenen Personen respektieren. Die DSGVO legt den Umfang, die Art und den Zweck der Verarbeitung, die Rechte und Pflichten beider Parteien sowie Maßnahmen zur Gewährleistung der Datensicherheit fest.</p><p>Beispielsweise benötigt ein Unternehmen (Datenverantwortlicher), das seine Datenverarbeitung an einen Cloud-Dienstanbieter (Datenverarbeiter) auslagert, eine DSGVO, um die Verantwortlichkeiten des Cloud-Anbieters beim Umgang mit den Daten festzulegen, wie z.B. den Umgang mit Datenverletzungen, Datenübertragungsverfahren und die Sicherstellung, dass die Datenverarbeitung gemäß den vereinbarten Bedingungen durchgeführt wird. Die DSGVO schützt beide Parteien, indem sie ihre Rollen und Verantwortlichkeiten klärt und Transparenz und Einhaltung des Gesetzes gewährleistet.</p><p>Eine solide DSGVO ist nicht nur für die Erfüllung rechtlicher Verpflichtungen von entscheidender Bedeutung, sondern auch für die Aufrechterhaltung des Vertrauens der Kunden durch den Schutz ihrer personenbezogenen Daten.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es un Acuerdo de Procesamiento de Datos (DPA)?",
+                        "text": "<p>Un Acuerdo de Procesamiento de Datos (DPA) es un contrato legalmente vinculante entre los controladores de datos y los procesadores de datos, requerido por leyes de protección de datos como el <a href=\"/es/glossary/gdpr\">GDPR</a>. Este acuerdo asegura que los procesadores de datos procesen los datos personales de los sujetos de datos de acuerdo con las leyes de protección de datos y respeten los derechos de los sujetos de datos. El GDPR establece el alcance, la naturaleza y el propósito del procesamiento, los derechos y obligaciones de ambas partes, y medidas para garantizar la seguridad de los datos.</p><p>Por ejemplo, una empresa (controlador de datos) que externaliza su procesamiento de datos a un proveedor de servicios en la nube (procesador de datos) necesita un GDPR para establecer las responsabilidades del proveedor de la nube en el manejo de los datos, como tratar con violaciones de datos, procedimientos de transferencia de datos y asegurando que el procesamiento de datos se lleve a cabo de acuerdo con los términos acordados. El GDPR protege a ambas partes aclarando sus roles y responsabilidades, asegurando la transparencia y el cumplimiento de la ley.</p><p>Un GDPR sólido es crítico no solo para cumplir con las obligaciones legales, sino también para mantener la confianza con los clientes al proteger sus datos personales.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce qu'un Accord de Traitement des Données (DPA) ?",
+                        "text": "<p>Un Accord de Traitement des Données (DPA) est un contrat juridiquement contraignant entre les contrôleurs de données et les processeurs de données, requis par les lois sur la protection des données telles que le <a href=\"/fr/glossary/gdpr\">RGPD</a>. Cet accord assure que les processeurs de données traitent les données personnelles des sujets de données conformément aux lois sur la protection des données et respectent les droits des sujets de données. Le RGPD définit le champ d'application, la nature et l'objectif du traitement, les droits et obligations des deux parties, et les mesures pour assurer la sécurité des données.</p><p>Par exemple, une entreprise (contrôleur de données) qui externalise son traitement de données à un fournisseur de services cloud (processeur de données) a besoin d'un RGPD pour définir les responsabilités du fournisseur cloud dans la gestion des données, telles que le traitement des violations de données, les procédures de transfert de données et assurant que le traitement des données soit réalisé conformément aux termes convenus. Le RGPD protège les deux parties en clarifiant leurs rôles et responsabilités, et en garantissant la transparence et la conformité avec la loi.</p><p>Un RGPD solide est essentiel non seulement pour se conformer aux obligations légales, mais aussi pour maintenir la confiance avec les clients en protégeant leurs données personnelles.</p>"
                     }
                 }
             },
