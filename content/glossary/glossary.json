@@ -170,6 +170,11 @@
                                 "slug": "gdpr-consent"
                             },
                             {
+                                "title": "Google Analytics 4",
+                                "description": "The latest version of Google Analytics, offering advanced analytics features such as cross-platform tracking, enhanced reporting, and machine learning insights.",
+                                "slug": "google-analytics-4"
+                            },
+                            {
                                 "title": "IP Address",
                                 "description": "A numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
                                 "slug": "ip-address"

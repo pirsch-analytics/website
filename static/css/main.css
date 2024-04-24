@@ -1,18 +1,18 @@
 @font-face {
   font-weight: 400;
-  src: url("/static/fonts/DM-Sans-Regular.woff2");
+  src: url("../../static/fonts/DM-Sans-Regular.woff2");
   font-family: "DM Sans";
   font-display: swap;
 }
 @font-face {
   font-weight: 500;
-  src: url("/static/fonts/DM-Sans-Medium.woff2");
+  src: url("../../static/fonts/DM-Sans-Medium.woff2");
   font-family: "DM Sans";
   font-display: swap;
 }
 @font-face {
   font-weight: 400;
-  src: url("/static/fonts/DM-Mono-Regular.woff2");
+  src: url("../../static/fonts/DM-Mono-Regular.woff2");
   font-family: "DM Mono";
   font-display: swap;
 }
@@ -1768,13 +1768,13 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
   opacity: 1;
 }
 
-fieldset:not(#toggleBillingCycle) {
+fieldset {
   /* Hide standard radio */
   /* Radio focused and unchecked */
   /* Radio focused and checked */
   /* Radio unfocused and checked */
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] {
+fieldset input[type=radio] {
   display: none;
   z-index: -1;
   width: 12px;
@@ -1784,13 +1784,13 @@ fieldset:not(#toggleBillingCycle) input[type=radio] {
   /* Radio setup */
   /* Disabled */
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] + label {
+fieldset input[type=radio] + label {
   display: flex;
   position: relative;
   margin: 16px 0;
   cursor: pointer;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] + label::before {
+fieldset input[type=radio] + label::before {
   display: flex;
   align-items: center;
   width: 12px;
@@ -1800,35 +1800,35 @@ fieldset:not(#toggleBillingCycle) input[type=radio] + label::before {
   background-color: var(--color-background-elevation);
   content: "";
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled {
+fieldset input[type=radio]:disabled {
   cursor: default;
   opacity: 0.5;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled + label {
+fieldset input[type=radio]:disabled + label {
   color: var(--color-secondary);
   opacity: 0.5;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled:checked + label::before {
+fieldset input[type=radio]:disabled:checked + label::before {
   box-shadow: inset 0 0 0 3px var(--color-secondary);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:focus + label::before {
+fieldset input[type=radio]:focus + label::before {
   box-shadow: inset 0 0 0 1px var(--color-secondary);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:checked:focus + label::before {
+fieldset input[type=radio]:checked:focus + label::before {
   background-color: var(--color-background-elevation);
   box-shadow: inset 0 0 0 3px var(--green);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:checked + label::before {
+fieldset input[type=radio]:checked + label::before {
   background-color: var(--color-background-elevation);
   box-shadow: inset 0 0 0 3px var(--green);
 }
-fieldset:not(#toggleBillingCycle) small {
+fieldset small {
   display: block;
   margin: 4px 8px 8px;
   font-size: 13px;
   line-height: 18px;
 }
-fieldset:not(#toggleBillingCycle) small.error {
+fieldset small.error {
   color: var(--red);
 }
 
