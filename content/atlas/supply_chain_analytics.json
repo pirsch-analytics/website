@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/supply-chain-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Supply Chain Analytics – Pirsch Analytics",
+                        "meta_description": "The use of data analysis to optimize supply chain operations, improve efficiency, reduce costs, and mitigate risks."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Supply Chain Analytics?",
+                        "text": "<p><strong>Supply Chain Analytics</strong> refers to the use of data analysis techniques to improve the efficiency and effectiveness of supply chain processes. This type of analytics helps companies understand and optimize their supply chain operations, from sourcing and production to distribution and delivery. By analyzing data across the supply chain, companies can identify bottlenecks, forecast demand, and reduce costs.</p><p>Supply chain analytics includes several key practices, such as demand forecasting, which uses historical data and predictive models to anticipate future product demand. This allows companies to adjust production levels accordingly, preventing both excess inventory and out-of-stocks. Another important aspect is route and delivery optimization, which uses algorithms to determine the most efficient routes and schedules for transportation to minimize delivery times and costs.</p><p>Supply chain analytics also supports risk management by identifying potential disruptions and vulnerabilities in the supply chain. By analyzing supplier performance and external factors such as weather or political instability, companies can develop strategies to mitigate risk. Overall, supply chain analytics plays a critical role in increasing operational visibility, improving service levels and increasing profitability for companies with complex supply networks.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

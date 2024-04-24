@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is CCPA?",
                         "text": "<p>The California Consumer Privacy Act (CCPA) is a state law designed to enhance the privacy rights and consumer protections of California residents. The law, which went into effect in 2018 and will take effect in 2020, gives California residents the right to be informed about the <a href=\"/glossary/personal-data\">personal information</a> collected about them by a company and the purpose for which it is collected, the right to delete personal information held by companies, including third parties, the right to object to the sale of personal information, and the right to non-discrimination in the exercise of their rights under the CCPA. </p><p>Businesses subject to the CCPA include those with annual gross revenues of more than $25 million; those that annually buy, receive, or sell personal information from 50,000 or more California residents, households, or <a href=\"/glossary/device\">devices</a>; or those that derive 50% or more of their annual revenues from the sale of personal information from California residents. </p><p>For websites, compliance often means implementing processes to manage and respond to user requests for access to data, updating privacy policies, and providing mechanisms for consumers to exercise their rights, such as data access, deletion requests, and opting out of the sale of personal information.</p>"
                     }

@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Cookie?",
                         "text": "<p>A cookie is a small piece of data sent by a Web site and stored on the user's computer by the user's Web browser while the user is browsing. Cookies are a reliable mechanism for Web sites to remember status information (such as items added to a shopping cart in an online store) or to record the user's browsing activity (such as clicking certain buttons, logging in, or recording which pages have been visited in the past). They can also be used to remember information that the user has previously entered into form fields, such as names, addresses, passwords, and credit card numbers.</p><p>Cookies can be classified as either \"session\" or \"persistent\" cookies. <a href=\"/glossary/session\">Session</a> cookies are deleted from your computer when you close your browser, while persistent cookies remain on your computer until you delete them or they expire. This feature helps sites provide users with a personalized experience and can be essential for functions such as maintaining login status.</p><p>Because of their role in tracking user behavior, cookies have also been at the center of debates about privacy and security on the Internet, leading to regulations that require sites to obtain user consent before using them.</p>"
                     }

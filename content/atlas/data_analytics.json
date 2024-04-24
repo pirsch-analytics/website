@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/data-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Data Analytics – Pirsch Analytics",
+                        "meta_description": "The process of analyzing raw data to uncover insights, trends, and patterns that can inform decision-making and drive business strategies."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Data Analytics?",
+                        "text": "<p><strong>Data Analytics</strong> is the study of raw data in order to draw conclusions from that information. This field uses various statistical techniques and advanced software to analyze and transform data into useful insights that can inform decision making across industries. By analyzing data, organizations can identify patterns, trends, and relationships that might not be apparent without this scrutiny.</p><p>Techniques used in data analytics include descriptive analytics, which summarizes historical data to identify patterns; predictive analytics, which uses statistical models and machine learning techniques to predict future outcomes; and prescriptive analytics, which suggests actions based on predictions. These methods enable organizations to make more informed decisions, improve operational efficiency, and enhance strategic planning.</p><p>Data analytics is used in industries as diverse as healthcare, finance, marketing, and sports to optimize performance, reduce costs, and improve customer satisfaction. Tools commonly used in data analytics include SQL databases for data retrieval, Python and R for data manipulation, and business intelligence platforms for data visualization. The application of data analytics helps organizations stay competitive in their fields by enabling a deeper understanding of data and fostering a culture of data-driven decision making.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

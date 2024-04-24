@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/agency-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Agency Analytics – Pirsch Analytics",
+                        "meta_description": "Analytics tools and techniques tailored for marketing agencies to track and measure client campaigns and performance."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Agency Analytics?",
+                        "text": "<p><strong>Agency Analytics</strong> refers to the tools and techniques used by marketing or advertising agencies to evaluate and improve the performance of their campaigns across multiple channels. This approach to analytics focuses on collecting data from various marketing efforts to evaluate their effectiveness, optimize the strategies employed, and demonstrate return on investment (ROI) to their clients. Agency Analytics helps agencies tailor their services to the specific needs of each client, improving campaign results and client satisfaction.</p><p>Key components of Agency Analytics include tracking engagement metrics, analyzing traffic sources, and monitoring conversions. These metrics give agencies insight into which aspects of a campaign are working and which are not, allowing them to adjust tactics in real time. This adaptive approach is critical to maximizing campaign performance and ensuring optimal allocation of marketing resources.</p><h2>Agency Analytics Alternative</h2><p><a href=\"/\">Pirsch Analytics</a> is a privacy-friendly web analytics solution with comprehensive <a href=\"/white-label-analytics\">white-labeling capabilities</a> to create easy-to-understand yet beautiful analytics dashboards and reports for clients of all sizes. Pirsch provides detailed insights into user behavior on websites, such as page views, session duration and bounce rates, without relying on Google Analytics data. </p><p>With privacy at its core and compliance with data protection regulations such as GDPR, it ensures <a href=\"/for-agencies\">agencies</a> can manage and analyze client data securely and ethically, building trust with clients by protecting their sensitive information.</p><img src=\"static/img/dashboards.gif\" alt=\"Agency Analytics Alternative\" title=\"Agency Analytics Alternative\">"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

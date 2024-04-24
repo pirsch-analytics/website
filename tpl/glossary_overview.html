@@ -9,7 +9,7 @@
         <p>{{html (copy .Page .Content "text")}}</p>
         <div class="grid one-one">
             {{range $entries}}
-                <a href='/glossary/{{index . "slug"}}' class="card">
+                <a href='{{index . "slug"}}' class="card">
                     <h3>{{index . "title"}}</h3>
                     <p>{{index . "description"}}</p>
                 </a>

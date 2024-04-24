@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/sales-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Sales Analytics – Pirsch Analytics",
+                        "meta_description": "The analysis of sales data to track performance, forecast future sales, identify trends, and optimize sales strategies."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Sales Analytics?",
+                        "text": "<p><strong>Sales Analytics</strong> refers to the practice of using data analysis techniques to understand sales trends and improve sales performance. By analyzing sales data, companies can identify successful sales strategies, forecast future sales, and set achievable sales goals. This type of analysis is critical to optimizing sales processes and maximizing revenue.</p><p>Sales analytics involves examining historical sales data to identify patterns and trends. This includes analyzing customer segments, geographic regions, and sales channels to understand where and how sales are most effective. Advanced analytics can also be used to predict customer behavior, such as likelihood to buy, based on past interactions. This helps sales teams tailor their approach to different customer groups, improving effectiveness.</p><p>In addition, sales analytics tools often provide dashboards that provide real-time insights into sales metrics such as conversion rates, average deal size, and sales cycle length. These insights enable sales managers to make informed decisions quickly, adjust strategies in real time, and identify areas for improvement. Ultimately, sales analytics supports a data-driven approach to sales management, improving decision-making and sales performance.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

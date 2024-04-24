@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Uniform Resource Locator (URL)?",
                         "text": "<p>Uniform Resource Locator (URL) is the address used to access Web sites and files on the Internet. Essentially, a URL specifies the <a href=\"/glossary/location\">location</a> of a resource on a computer network and a mechanism for retrieving that resource. A URL consists of several parts, including the protocol (such as HTTP or HTTPS), the domain name, and possibly a path and query parameters that point to a specific page or file in that domain.</p><p>For example, in the URL \"https://www.example.com/products?id=25\", \"https\" is the protocol, \"www.example.com\" is the domain name, \"/products\" is the path, and \"?id=25\" is a query parameter that can be used to display specific information about a product with ID 25 on the Web site. URLs are essential for navigating the Web, linking to resources, and sharing content.</p><p>The understanding of URLs is fundamental to web development, <a href=\"/glossary/search-engine-optimization\">search engine optimization</a>, and digital marketing, as it affects how content is accessed and displayed online, and plays an important role in site architecture and user experience.</p>"
                     }

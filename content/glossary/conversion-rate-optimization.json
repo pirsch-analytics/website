@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Conversion Rate Optimization (CRO)?",
                         "text": "<p><a href=\"/glossary/conversion-rate\">Conversion rate</a> optimization (CRO) is the process of improving your website and its content to increase the percentage of visitors who complete a desired action, such as filling out a form, signing up for a newsletter, or making a purchase. This involves understanding how users move through your site, what actions they take, and what prevents them from achieving your goals.</p><p>Methods commonly used in CRO include <a href=\"/glossary/ab-testing\">A/B testing</a>, which compares two versions of a web page to see which performs better, as well as gathering user feedback, analyzing user behavior using heat maps, and improving the user journey. For example, if an e-commerce site finds that many visitors are abandoning their shopping carts, CRO could consist of simplifying the checkout process, offering more payment options, or placing reassuring security badges near the payment button. </p><p>The ultimate goal of CRO is to make the most of existing traffic and marketing efforts by increasing the rate at which passive browsers become active customers, thereby increasing overall sales and site effectiveness without necessarily increasing the amount of traffic coming to the site.</p>"
                     }

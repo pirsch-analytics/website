@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Robots.txt?",
                         "text": "<p>Robots.txt is a text file that webmasters create to tell web robots (usually search engine robots) how to crawl the pages of their website. The file is placed in the root directory of the site to control which parts of the site the robots can access and crawl. Robots.txt is part of the Robots Exclusion Protocol (REP), a group of web standards that govern how robots crawl the web, access and index content, and serve it to users.</p><p>For example, if a website owner does not want a search engine to index a particular directory on his website, he can use the robots.txt file to deny all robots access to files in that directory. The syntax is simple and allows directives like \"Disallow\", which prohibits a robot from accessing a certain part of the website. Conversely, you can use \"Allow\" to specify what is allowed. While most compliant robots will follow the guidelines in a robots.txt file, this is not a mechanism to exclude malicious bots, as the file can be ignored by malware and other non-compliant entities.</p><p>Effective use of robots.txt can help control website traffic, reduce the load on web servers, and keep the indexed content of a website as intended by the webmaster.</p>"
                     }

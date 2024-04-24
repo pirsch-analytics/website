@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is the Cost per Click (CPC)?",
                         "text": "<p>Cost per click (CPC) is a digital advertising metric that measures the amount of money paid each time a user clicks on an ad. This model is primarily used in online advertising campaigns, especially search engine marketing and social media advertising. CPC is important because it helps advertisers manage their budget and measure the effectiveness of their advertising efforts.</p><p>For example, if an advertiser runs a campaign on a platform and spends $100 for 200 clicks on their ad, the CPC for that campaign would be calculated as follows:</p><p>Cost per click = Total campaign cost / Number of clicks = $100 / 200 clicks = $0.50 per click</p><p>This calculation means that the advertiser pays 50 cents every time someone clicks on their ad. Knowing the CPC allows advertisers to compare the cost-effectiveness of different advertising strategies and channels, which helps them optimize their marketing spend and target their audience more effectively.</p>"
                     }

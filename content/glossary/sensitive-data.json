@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Sensitive Data?",
                         "text": "<p>Sensitive data is information that must be protected because of its confidential nature and that could cause significant damage, embarrassment, inconvenience or injustice to a person if it were disclosed, modified or destroyed without authorization. In the context of web analytics and data protection, sensitive data also includes <a href=\"/glossary/personal-data\">personal information</a> that can be used to discriminate against or otherwise adversely affect an individual, such as information about health, racial or ethnic origin, political opinions, religious beliefs or sexual orientation.</p><p>If, for example, a health care provider collects information about the medical history of its patients, that information is considered sensitive because it contains personal health information. Such data requires a higher level of protection under privacy laws such as the <a href=\"/glossary/gdpr\">GDPR</a>, which requires special safeguards to protect the privacy and security of sensitive data. These safeguards may include data encryption, strict access controls, and the need to obtain the explicit consent of individuals before their sensitive data is collected or processed.</p><p>The careful handling of sensitive data is critical not only for compliance with legal requirements, but also for maintaining the trust and integrity of the relationships that companies and organizations have with their customers or users.</p>"
                     }

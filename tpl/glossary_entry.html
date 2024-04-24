@@ -1,7 +1,7 @@
 <section class="text">
     <div class="section-content">
         <div style="width: 100%; max-width: 768px; margin-top: -48px;">
-            <a href="/glossary" style="color: var(--color-secondary);">< Return to Glossary</a>
+            <a href="/{{copy .Page .Content "link"}}" style="color: var(--color-secondary);">< {{html (copy .Page .Content "label")}}</a>
         </div>
         <h1 class="h2">{{html (copy .Page .Content "headline")}}</h1>
         <article>{{html (copy .Page .Content "text")}}</article>

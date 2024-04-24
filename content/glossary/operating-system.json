@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is an Operating System (OS)?",
                         "text": "<p>The operating system (OS) in web analytics refers to the software platform on which a computer or <a href=\"/glossary/device\">device</a> runs. Common operating systems include Windows, macOS, Linux, iOS, and Android. Web analytics tools track which operating system visitors use to access a website, providing valuable insight into the technological preferences of the audience. This data can help optimize the site for better compatibility and performance on the most commonly used systems.</p><p>For example, if a significant portion of a site's traffic comes from users on iOS devices, site developers could prioritize ensuring that the site's design and features work seamlessly with Safari and other popular browsers on iOS. Similarly, if many visitors use Android. Then the site could be optimized for Chrome for Android performance.</p><p>Knowing visitors' operating systems is critical to a smooth user experience, as each operating system has different capabilities and limitations that can affect how web content is displayed and interacted with.</p>"
                     }

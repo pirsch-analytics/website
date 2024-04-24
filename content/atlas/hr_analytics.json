@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/hr-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "HR Analytics – Pirsch Analytics",
+                        "meta_description": "The application of data analysis in human resources management to optimize workforce planning, recruitment, performance management, and employee engagement."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is HR Analytics?",
+                        "text": "<p><strong>HR Analytics</strong>, also known as People Analytics, is the application of analytical processes to the human resources function of an organization. This field uses data-driven approaches to inform and enhance HR decisions and improve overall workforce performance. By analyzing data related to employee performance, retention, hiring, and engagement, HR professionals can identify patterns and insights that lead to better HR strategies.</p><p>Key areas within HR analytics include talent acquisition, where data helps refine recruiting processes and optimize hiring strategies; employee performance analysis, which assesses productivity and identifies opportunities for improvement; and attrition analysis, which examines the reasons why employees leave and develops strategies to increase retention. Advanced analytics tools enable HR professionals to predict future trends and the impact of HR initiatives on business performance.</p><p>In addition, HR analytics can improve employee satisfaction and engagement by providing insights into employee behaviors and preferences, enabling more personalized HR policies. The use of analytics in HR not only helps align HR strategies with business goals, but also enhances employee well-being and engagement, contributing to a more dynamic and productive workplace.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}
