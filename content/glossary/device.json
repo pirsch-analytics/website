@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/device"
+        "en": "/glossary/device",
+        "es": "/es/glossary/device",
+        "de": "/de/glossary/device",
+        "fr": "/fr/glossary/device",
+        "nl": "/nl/glossary/device",
+        "it": "/it/glossary/device",
+        "pt": "/pt/glossary/device",
+        "ja": "/ja/glossary/device"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Device – Pirsch Analytics",
                         "meta_description": "A physical or virtual device, such as a computer, smartphone, or tablet, used to access the internet."
+                    },
+                    "de": {
+                        "title": "Gerät – Pirsch Analytics",
+                        "meta_description": "Ein physisches oder virtuelles Gerät, wie ein Computer, Smartphone oder Tablet, das zum Zugriff auf das Internet verwendet wird."
+                    },
+                    "es": {
+                        "title": "Dispositivo – Pirsch Analytics",
+                        "meta_description": "Un dispositivo físico o virtual, como una computadora, un teléfono inteligente o una tableta, utilizado para acceder a internet."
+                    },
+                    "fr": {
+                        "title": "Appareil – Pirsch Analytics",
+                        "meta_description": "Un appareil physique ou virtuel, tel qu'un ordinateur, un smartphone ou une tablette, utilisé pour accéder à Internet."
+                    },
+                    "nl": {
+                        "title": "Apparaat – Pirsch Analytics",
+                        "meta_description": "Een fysiek of virtueel apparaat, zoals een computer, smartphone of tablet, gebruikt om toegang te krijgen tot het internet."
+                    },
+                    "it": {
+                        "title": "Dispositivo – Pirsch Analytics",
+                        "meta_description": "Un dispositivo fisico o virtuale, come un computer, uno smartphone o un tablet, utilizzato per accedere a Internet."
+                    },
+                    "pt": {
+                        "title": "Dispositivo – Pirsch Analytics",
+                        "meta_description": "Um dispositivo físico ou virtual, como um computador, smartphone ou tablet, usado para acessar a internet."
+                    },
+                    "ja": {
+                        "title": "デバイス – Pirsch Analytics",
+                        "meta_description": "インターネットにアクセスするために使用される、コンピュータ、スマートフォン、タブレットなどの物理的または仮想的なデバイス。"
                     }
                 }
             },
@@ -25,6 +60,34 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Device?",
                         "text": "<p>In web analytics, a device refers to the hardware a visitor uses to access a website or application, such as a desktop computer, laptop, tablet, or smartphone. Differentiating users by device type is important for understanding how users interact with your website from different platforms and optimizing the user experience accordingly.</p><p>For example, if Pirsch Analytics analytics show that a significant portion of traffic is coming from mobile devices, a website owner might prioritize mobile-friendly design elements such as responsive layouts and touch-friendly navigation. This is important because user behavior can vary greatly by device. For example, mobile users may prefer faster, more concise content or interact with different features than desktop users.</p><p>Tracking and analyzing website traffic by device type helps businesses tailor their content and design to the specific needs and preferences of their target audience, which can lead to more engagement and <a href=\"/glossary/conversion\">conversions</a>.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist ein Gerät?",
+                        "text": "<p>In der Webanalyse bezieht sich ein Gerät auf die Hardware, die ein Besucher verwendet, um auf eine Website oder eine Anwendung zuzugreifen, wie einen Desktop-Computer, Laptop, Tablet oder Smartphone. Die Unterscheidung von Nutzern nach Gerätetyp ist wichtig, um zu verstehen, wie Nutzer von verschiedenen Plattformen aus mit Ihrer Website interagieren und die Benutzererfahrung entsprechend zu optimieren.</p><p>Zum Beispiel, wenn Pirsch Analytics zeigt, dass ein signifikanter Anteil des Traffics von mobilen Geräten kommt, könnte ein Website-Betreiber mobile-freundliche Designelemente wie responsive Layouts und touch-freundliche Navigation priorisieren. Dies ist wichtig, da das Nutzerverhalten je nach Gerät stark variieren kann. Zum Beispiel bevorzugen mobile Nutzer möglicherweise schnelleren, prägnanteren Inhalt oder interagieren mit anderen Funktionen als Desktop-Nutzer.</p><p>Das Verfolgen und Analysieren des Website-Traffics nach Gerätetyp hilft Unternehmen, ihre Inhalte und Designs auf die spezifischen Bedürfnisse und Vorlieben ihrer Zielgruppe zuzuschneiden, was zu mehr Engagement und <a href=\"/de/glossary/conversion\">Konversionen</a> führen kann.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es un dispositivo?",
+                        "text": "<p>En la analítica web, un dispositivo se refiere al hardware que un visitante utiliza para acceder a un sitio web o aplicación, como una computadora de escritorio, laptop, tableta o smartphone. Diferenciar a los usuarios por tipo de dispositivo es importante para entender cómo los usuarios interactúan con tu sitio web desde diferentes plataformas y optimizar la experiencia del usuario en consecuencia.</p><p>Por ejemplo, si las analíticas de Pirsch Analytics muestran que una parte significativa del tráfico proviene de dispositivos móviles, un propietario de sitio web podría priorizar elementos de diseño amigables para móviles como diseños responsivos y navegación amigable al tacto. Esto es importante porque el comportamiento del usuario puede variar mucho según el dispositivo. Por ejemplo, los usuarios móviles pueden preferir contenido más rápido y conciso o interactuar con diferentes características que los usuarios de escritorio.</p><p>Rastrear y analizar el tráfico del sitio web por tipo de dispositivo ayuda a las empresas a adaptar su contenido y diseño a las necesidades y preferencias específicas de su público objetivo, lo que puede llevar a un mayor compromiso y <a href=\"/es/glossary/conversion\">conversiones</a>.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce qu'un appareil ?",
+                        "text": "<p>Dans l'analyse web, un appareil désigne le matériel qu'un visiteur utilise pour accéder à un site web ou à une application, tel qu'un ordinateur de bureau, un ordinateur portable, une tablette ou un smartphone. Différencier les utilisateurs par type d'appareil est important pour comprendre comment les utilisateurs interagissent avec votre site web depuis différentes plateformes et pour optimiser l'expérience utilisateur en conséquence.</p><p>Par exemple, si les analyses de Pirsch Analytics montrent qu'une portion significative du trafic provient d'appareils mobiles, un propriétaire de site web pourrait prioriser des éléments de design adaptés aux mobiles tels que des mises en page réactives et une navigation conviviale pour le tactile. C'est important car le comportement des utilisateurs peut varier considérablement selon l'appareil. Par exemple, les utilisateurs mobiles peuvent préférer un contenu plus rapide et plus concis ou interagir avec différentes fonctionnalités que les utilisateurs de bureau.</p><p>Suivre et analyser le trafic du site web par type d'appareil aide les entreprises à adapter leur contenu et leur design aux besoins et préférences spécifiques de leur public cible, ce qui peut conduire à plus d'engagement et de <a href=\"/fr/glossary/conversion\">conversions</a>.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is een apparaat?",
+                        "text": "<p>In webanalyse verwijst een apparaat naar de hardware die een bezoeker gebruikt om toegang te krijgen tot een website of applicatie, zoals een desktopcomputer, laptop, tablet of smartphone. Het onderscheiden van gebruikers op basis van apparaattype is belangrijk om te begrijpen hoe gebruikers vanaf verschillende platforms met uw website interageren en de gebruikerservaring dienovereenkomstig te optimaliseren.</p><p>Bijvoorbeeld, als Pirsch Analytics aantoont dat een aanzienlijk deel van het verkeer afkomstig is van mobiele apparaten, kan een website-eigenaar prioriteit geven aan mobielvriendelijke ontwerpelementen zoals responsieve lay-outs en touch-vriendelijke navigatie. Dit is belangrijk omdat het gebruikersgedrag sterk kan verschillen per apparaat. Mobiele gebruikers kunnen bijvoorbeeld snellere, beknoptere inhoud prefereren of anders interactie hebben met functies dan desktopgebruikers.</p><p>Het volgen en analyseren van websiteverkeer per apparaattype helpt bedrijven hun inhoud en ontwerp af te stemmen op de specifieke behoeften en voorkeuren van hun doelgroep, wat kan leiden tot meer betrokkenheid en <a href=\"/nl/glossary/conversion\">conversies</a>.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è un dispositivo?",
+                        "text": "<p>Nell'analisi web, un dispositivo si riferisce all'hardware utilizzato da un visitatore per accedere a un sito web o un'applicazione, come un computer desktop, un laptop, un tablet o uno smartphone. Differenziare gli utenti in base al tipo di dispositivo è importante per capire come gli utenti interagiscono con il tuo sito web da diverse piattaforme e ottimizzare di conseguenza l'esperienza utente.</p><p>Ad esempio, se Pirsch Analytics mostra che una parte significativa del traffico proviene da dispositivi mobili, un proprietario di sito web potrebbe dare priorità a elementi di design adatti ai mobili come layout reattivi e navigazione facile al tocco. Questo è importante perché il comportamento degli utenti può variare notevolmente a seconda del dispositivo. Ad esempio, gli utenti mobili possono preferire contenuti più veloci e concisi o interagire con funzionalità diverse rispetto agli utenti desktop.</p><p>Tracciare e analizzare il traffico del sito web per tipo di dispositivo aiuta le aziende a personalizzare i loro contenuti e design in base alle esigenze e preferenze specifiche del loro pubblico target, il che può portare a un maggiore coinvolgimento e a <a href=\"/it/glossary/conversion\">conversioni</a>.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é um Dispositivo?",
+                        "text": "<p>Em análise da web, um dispositivo refere-se ao hardware que um visitante usa para acessar um site ou aplicativo, como um computador de mesa, laptop, tablet ou smartphone. Diferenciar usuários pelo tipo de dispositivo é importante para entender como os usuários interagem com seu site a partir de diferentes plataformas e otimizar a experiência do usuário de acordo.</p><p>Por exemplo, se a Pirsch Analytics mostra que uma parte significativa do tráfego vem de dispositivos móveis, um proprietário de site pode priorizar elementos de design amigáveis para dispositivos móveis, como layouts responsivos e navegação amigável ao toque. Isso é importante porque o comportamento do usuário pode variar muito por dispositivo. Por exemplo, usuários móveis podem preferir conteúdo mais rápido e conciso ou interagir com diferentes funcionalidades do que usuários de desktop.</p><p>Rastrear e analisar o tráfego do site por tipo de dispositivo ajuda as empresas a adaptar seu conteúdo e design às necessidades e preferências específicas de seu público-alvo, o que pode levar a mais engajamento e <a href=\"/pt/glossary/conversion\">conversões</a>.</p>"
+                    },
+                    "ja": {
+                        "headline": "デバイスとは何ですか？",
+                        "text": "<p>ウェブ分析において、デバイスとは訪問者がウェブサイトやアプリケーションにアクセスするために使用するハードウェアを指します。例えば、デスクトップコンピュータ、ラップトップ、タブレット、スマートフォンなどがあります。デバイスタイプによってユーザーを区別することは、異なるプラットフォームからのウェブサイトとのやり取りを理解し、それに応じてユーザーエクスペリエンスを最適化するために重要です。</p><p>たとえば、Pirsch Analyticsがモバイルデバイスからのトラフィックが大きな割合を占めていることを示している場合、ウェブサイトの所有者はレスポンシブなレイアウトやタッチフレンドリーなナビゲーションなど、モバイルフレンドリーなデザイン要素を優先するかもしれません。これは、デバイスによってユーザーの行動が大きく異なるためです。例えば、モバイルユーザーはより速く、より簡潔なコンテンツを好むかもしれませんし、デスクトップユーザーとは異なる機能とのやり取りを好むかもしれません。</p><p>デバイスタイプ別にウェブサイトのトラフィックを追跡・分析することで、企業はコンテンツとデザインをターゲットオーディエンスの特定のニーズや好みに合わせて調整することができ、これによりエンゲージメントと<a href=\"/ja/glossary/conversion\">コンバージョン</a>が増加する可能性があります。</p>"
                     }
                 }
             },

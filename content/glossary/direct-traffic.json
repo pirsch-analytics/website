@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/direct-traffic"
+        "en": "/glossary/direct-traffic",
+        "es": "/es/glossary/direct-traffic",
+        "de": "/de/glossary/direct-traffic",
+        "fr": "/fr/glossary/direct-traffic",
+        "nl": "/nl/glossary/direct-traffic",
+        "it": "/it/glossary/direct-traffic",
+        "pt": "/pt/glossary/direct-traffic",
+        "ja": "/ja/glossary/direct-traffic"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Direct Traffic – Pirsch Analytics",
                         "meta_description": "Visitors who arrive at a website by typing the URL directly into their browser or through a bookmark."
+                    },
+                    "de": {
+                        "title": "Direktzugriffe – Pirsch Analytics",
+                        "meta_description": "Besucher, die eine Website erreichen, indem sie die URL direkt in ihren Browser eingeben oder über ein Lesezeichen."
+                    },
+                    "es": {
+                        "title": "Tráfico Directo – Pirsch Analytics",
+                        "meta_description": "Visitantes que llegan a un sitio web escribiendo la URL directamente en su navegador o a través de un marcador."
+                    },
+                    "fr": {
+                        "title": "Trafic Direct – Pirsch Analytics",
+                        "meta_description": "Visiteurs qui arrivent sur un site web en tapant l'URL directement dans leur navigateur ou via un signet."
+                    },
+                    "nl": {
+                        "title": "Direct Verkeer – Pirsch Analytics",
+                        "meta_description": "Bezoekers die op een website komen door de URL rechtstreeks in hun browser te typen of via een bladwijzer."
+                    },
+                    "it": {
+                        "title": "Traffico Diretto – Pirsch Analytics",
+                        "meta_description": "Visitatori che arrivano a un sito web digitando direttamente l'URL nel loro browser o tramite un segnalibro."
+                    },
+                    "pt": {
+                        "title": "Tráfego Direto – Pirsch Analytics",
+                        "meta_description": "Visitantes que chegam a um site digitando a URL diretamente em seu navegador ou por meio de um favorito."
+                    },
+                    "ja": {
+                        "title": "ダイレクトトラフィック – Pirsch Analytics",
+                        "meta_description": "ブラウザにURLを直接入力するか、ブックマークを使用してウェブサイトにアクセスする訪問者。"
                     }
                 }
             },
@@ -25,6 +60,34 @@
                         "label": "Return to Glossary",
                         "headline": "What is Direct Traffic?",
                         "text": "<p>Direct traffic in web analytics refers to visitors who arrive at your website by typing the <a href=\"/glossary/uniform-resource-locator\">URL</a> directly into their browser's address bar, using a bookmark, or clicking on a link in an untracked email or offline document. This category of traffic is important because it often indicates a level of brand awareness or loyalty, as the user has specifically chosen to visit the site without the influence of a search engine or other referral source.</p><p>For example, if someone remembers a promotional URL from a flyer or ad and types it directly into their browser, that visit would be classified as direct traffic. Tools like Pirsch Analytics would categorize these <a href=\"/glossary/session\">sessions</a> separately to help webmasters understand how much of their traffic is coming from users with prior knowledge of the brand.</p><p>Understanding direct traffic can help companies measure brand awareness and loyalty, and it can also highlight potential problems with tracking other traffic sources if direct traffic numbers are unusually high.</p>"
+                    },
+                    "de": {
+                        "headline": "Was ist Direktzugriffe?",
+                        "text": "<p>Direktzugriffe in der Webanalyse beziehen sich auf Besucher, die Ihre Website erreichen, indem sie die <a href=\"/de/glossary/uniform-resource-locator\">URL</a> direkt in die Adresszeile ihres Browsers eingeben, ein Lesezeichen verwenden oder auf einen Link in einer nicht verfolgten E-Mail oder einem Offline-Dokument klicken. Diese Kategorie von Traffic ist wichtig, da sie oft ein Maß an Markenbewusstsein oder -loyalität anzeigt, da der Benutzer sich speziell entschieden hat, die Seite ohne den Einfluss einer Suchmaschine oder einer anderen Empfehlungsquelle zu besuchen.</p><p>Zum Beispiel, wenn sich jemand eine Werbe-URL von einem Flyer oder einer Anzeige merkt und sie direkt in ihren Browser eingibt, würde dieser Besuch als Direktzugriff klassifiziert. Tools wie Pirsch Analytics würden diese <a href=\"/de/glossary/session\">Sitzungen</a> separat kategorisieren, um Webmastern zu helfen zu verstehen, wie viel ihres Traffics von Benutzern mit Vorwissen über die Marke kommt.</p><p>Das Verständnis von Direktzugriffen kann Unternehmen helfen, Markenbewusstsein und -loyalität zu messen, und es kann auch potenzielle Probleme bei der Verfolgung anderer Trafficquellen aufzeigen, wenn die Zahlen für Direktzugriffe ungewöhnlich hoch sind.</p>"
+                    },
+                    "es": {
+                        "headline": "¿Qué es el Tráfico Directo?",
+                        "text": "<p>El tráfico directo en análisis web se refiere a los visitantes que llegan a su sitio web escribiendo la <a href=\"/es/glossary/uniform-resource-locator\">URL</a> directamente en la barra de direcciones de su navegador, utilizando un marcador o haciendo clic en un enlace en un correo electrónico o documento sin seguimiento. Esta categoría de tráfico es importante porque a menudo indica un nivel de conciencia o lealtad de la marca, ya que el usuario ha elegido específicamente visitar el sitio sin la influencia de un motor de búsqueda u otra fuente de referencia.</p><p>Por ejemplo, si alguien recuerda una URL promocional de un folleto o anuncio y la escribe directamente en su navegador, esa visita se clasificaría como tráfico directo. Herramientas como Pirsch Analytics categorizarían estas <a href=\"/es/glossary/session\">sesiones</a> por separado para ayudar a los webmasters a entender cuánto de su tráfico proviene de usuarios con conocimiento previo de la marca.</p><p>Entender el tráfico directo puede ayudar a las empresas a medir la conciencia y lealtad de la marca, y también puede destacar problemas potenciales con el seguimiento de otras fuentes de tráfico si los números de tráfico directo son inusualmente altos.</p>"
+                    },
+                    "fr": {
+                        "headline": "Qu'est-ce que le Trafic Direct ?",
+                        "text": "<p>Le trafic direct en analyse web fait référence aux visiteurs qui arrivent sur votre site en tapant l'<a href=\"/fr/glossary/uniform-resource-locator\">URL</a> directement dans la barre d'adresse de leur navigateur, en utilisant un signet ou en cliquant sur un lien dans un e-mail non suivi ou un document hors ligne. Cette catégorie de trafic est importante car elle indique souvent un niveau de notoriété ou de fidélité à la marque, car l'utilisateur a spécifiquement choisi de visiter le site sans l'influence d'un moteur de recherche ou d'une autre source de référence.</p><p>Par exemple, si quelqu'un se souvient d'une URL promotionnelle d'un flyer ou d'une annonce et la tape directement dans son navigateur, cette visite serait classée comme trafic direct. Des outils comme Pirsch Analytics catégoriseraient ces <a href=\"/fr/glossary/session\">sessions</a> séparément pour aider les webmasters à comprendre combien de leur trafic provient d'utilisateurs ayant déjà une connaissance de la marque.</p><p>Comprendre le trafic direct peut aider les entreprises à mesurer la notoriété et la fidélité de la marque, et peut également mettre en évidence des problèmes potentiels avec le suivi d'autres sources de trafic si les chiffres du trafic direct sont inhabituellement élevés.</p>"
+                    },
+                    "nl": {
+                        "headline": "Wat is Direct Verkeer?",
+                        "text": "<p>Direct verkeer in webanalyse verwijst naar bezoekers die uw website bereiken door de <a href=\"/nl/glossary/uniform-resource-locator\">URL</a> rechtstreeks in de adresbalk van hun browser te typen, een bladwijzer te gebruiken, of op een link in een ongetraceerde e-mail of offline document te klikken. Deze verkeerscategorie is belangrijk omdat het vaak een niveau van merkbewustzijn of loyaliteit aangeeft, aangezien de gebruiker specifiek heeft gekozen om de site te bezoeken zonder de invloed van een zoekmachine of andere verwijzingsbron.</p><p>Bijvoorbeeld, als iemand een promotie-URL van een flyer of advertentie herinnert en deze direct in hun browser typt, zou dat bezoek worden geclassificeerd als direct verkeer. Tools zoals Pirsch Analytics zouden deze <a href=\"/nl/glossary/session\">sessies</a> apart categoriseren om webmasters te helpen begrijpen hoeveel van hun verkeer afkomstig is van gebruikers die al bekend zijn met het merk.</p><p>Het begrijpen van direct verkeer kan bedrijven helpen merkbewustzijn en loyaliteit te meten, en het kan ook potentiële problemen met het volgen van andere verkeersbronnen aan het licht brengen als de aantallen voor direct verkeer ongebruikelijk hoog zijn.</p>"
+                    },
+                    "it": {
+                        "headline": "Cos'è il Traffico Diretto?",
+                        "text": "<p>Il traffico diretto in analisi web si riferisce ai visitatori che arrivano al tuo sito web digitando l'<a href=\"/it/glossary/uniform-resource-locator\">URL</a> direttamente nella barra degli indirizzi del loro browser, utilizzando un segnalibro o facendo clic su un link in una email non tracciata o in un documento offline. Questa categoria di traffico è importante perché spesso indica un livello di consapevolezza o lealtà del marchio, poiché l'utente ha scelto specificamente di visitare il sito senza l'influenza di un motore di ricerca o di un'altra fonte di riferimento.</p><p>Ad esempio, se qualcuno ricorda un URL promozionale da un volantino o un annuncio e lo digita direttamente nel suo browser, quella visita sarebbe classificata come traffico diretto. Strumenti come Pirsch Analytics categorizzerebbero queste <a href=\"/it/glossary/session\">sessioni</a> separatamente per aiutare i webmaster a comprendere quanto del loro traffico proviene da utenti che già conoscono il marchio.</p><p>Capire il traffico diretto può aiutare le aziende a misurare la consapevolezza e la fedeltà del marchio, e può anche evidenziare potenziali problemi nel tracciamento di altre fonti di traffico se i numeri del traffico diretto sono insolitamente alti.</p>"
+                    },
+                    "pt": {
+                        "headline": "O que é Tráfego Direto?",
+                        "text": "<p>O tráfego direto em análise web refere-se aos visitantes que chegam ao seu site digitando a <a href=\"/pt/glossary/uniform-resource-locator\">URL</a> diretamente na barra de endereços do navegador, usando um favorito, ou clicando em um link em um e-mail não rastreado ou documento offline. Esta categoria de tráfego é importante porque muitas vezes indica um nível de consciência de marca ou lealdade, pois o usuário escolheu especificamente visitar o site sem a influência de um motor de busca ou outra fonte de referência.</p><p>Por exemplo, se alguém se lembra de uma URL promocional de um panfleto ou anúncio e a digita diretamente em seu navegador, essa visita seria classificada como tráfego direto. Ferramentas como o Pirsch Analytics categorizariam essas <a href=\"/pt/glossary/session\">sessões</a> separadamente para ajudar os webmasters a entender quanto de seu tráfego vem de usuários que já conhecem a marca.</p><p>Entender o tráfego direto pode ajudar as empresas a medir a consciência e lealdade da marca, e também pode destacar problemas potenciais no rastreamento de outras fontes de tráfego se os números de tráfego direto forem incomumente altos.</p>"
+                    },
+                    "ja": {
+                        "headline": "ダイレクトトラフィックとは何ですか？",
+                        "text": "<p>ウェブ分析におけるダイレクトトラフィックは、訪問者が<a href=\"/ja/glossary/uniform-resource-locator\">URL</a>をブラウザのアドレスバーに直接入力したり、ブックマークを使用したり、追跡されていないメールやオフラインドキュメントのリンクをクリックしてウェブサイトにアクセスすることを指します。このトラフィックのカテゴリーは重要であり、ユーザーが検索エンジンや他の紹介ソースの影響を受けずにサイトを訪問するという、ブランド認知度やロイヤルティの水準を示している可能性があります。</p><p>例えば、誰かがチラシや広告のプロモーションURLを覚えていて、それをブラウザに直接入力した場合、その訪問はダイレクトトラフィックとして分類されます。Pirsch Analyticsのようなツールはこれらの<a href=\"/ja/glossary/session\">セッション</a>を別々にカテゴリ化して、トラフィックのどのくらいがブランドを事前に知っているユーザーから来ているかをウェブマスターが理解するのに役立ちます。</p><p>ダイレクトトラフィックを理解することは、企業がブランド認知度とロイヤルティを測定するのに役立ちますし、ダイレクトトラフィックの数字が異常に高い場合、他のトラフィック源の追跡に問題がある可能性も示唆されます。</p>"
                     }
                 }
             },
