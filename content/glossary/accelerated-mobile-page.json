@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Accelerated Mobile Page (AMP)?",
                         "text": "<p>Accelerated Mobile Pages (AMP) is an open source framework originally developed by Google for creating fast-loading web pages that optimize the user experience on mobile <a href=\"/glossary/device\">devices</a>. AMP achieves its speed by simplifying HTML code and using the extensive caching provided by Google's servers to deliver content quickly.</p><p>For example, a news site can use AMP for its articles so that they load almost instantly on mobile devices. This is especially useful for users in areas with slower internet connections. AMP pages are stripped-down versions of regular web pages, but include essential content such as text, images, and video, while omitting elements that could slow load times, such as certain scripts and third-party JavaScript.</p><p>Adopting AMP can significantly improve mobile browsing speeds, reduce page load times, and potentially increase traffic and engagement by providing a better user experience and higher visibility in mobile search results.</p>"
                     }

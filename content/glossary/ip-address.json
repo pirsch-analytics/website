@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is an IP Address?",
                         "text": "<p>The General Data Protection Regulation (GDPR) is a comprehensive data protection law that went into effect in the European Union on May 25, 2018. It aims to give individuals control over their personal data, and to simplify the regulatory environment for international companies by standardizing regulation across the EU. The GDPR applies to all companies that process and store personal data of individuals residing in the European Union, regardless of the company's <a href=\"/glossary/location\">location</a>.</p><p>The GDPR requires companies to protect the personal data and privacy of EU citizens in transactions within EU member states. It also regulates the export of personal data to countries outside the EU. Key requirements include the need for consent for data processing, notification of data breaches, anonymization of data to protect privacy, data protection safeguards as an integral part of data processing, and the provision of rights to individuals with respect to their <a href=\"/glossary/personal-data\">personal-data</a>, including the right to access, rectify, erase, or transfer their data.</p><p>In web analytics, IP addresses are used to determine the geographic location of website visitors, track their activity on a website, and manage access rights. They are also critical for network diagnostics and managing the security of networks by allowing administrators to block or allow traffic based on IP addresses.</p>"
                     }

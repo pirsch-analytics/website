@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is the Conversion Rate?",
                         "text": "<p>The conversion rate is an important metric in web analytics that measures the percentage of visitors who complete a desired action on your website, such as making a purchase, signing up for a newsletter or filling out a contact form. This rate is calculated by dividing the number of conversions by the number of total visitors and then multiplying by 100 to express it as a percentage.</p><p>For example, if Pirsch Analytics shows that your website had 1,000 visitors in a month and 50 of those visitors completed a purchase, the conversion rate would be calculated as follows:</p><p>Conversion rate = (number of conversions / total visitors) x 100 = (50 / 1,000) x 100 = 5%</p><p>This metric is crucial for evaluating the effectiveness of your website and marketing efforts. A high conversion rate indicates that your website is succeeding in getting visitors to take the action you want them to take, while a low conversion rate could indicate areas for improvement in website design, usability or clarity of the <a href=\"/glossary/call-to-action\">call to action</a>.</p>"
                     }

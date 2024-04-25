@@ -83,6 +83,10 @@
                     "href": "/glossary"
                 },
                 {
+                    "label": "Analytics Atlas",
+                    "href": "/atlas"
+                },
+                {
                     "label": "UTM Generator",
                     "href": "/utm-generator"
                 },
@@ -238,6 +242,10 @@
                 {
                     "label": "Glossar",
                     "href": "/glossary"
+                },
+                {
+                    "label": "Analytics Atlas",
+                    "href": "/atlas"
                 },
                 {
                     "label": "UTM-Generator",
@@ -397,6 +405,10 @@
                     "href": "/glossary"
                 },
                 {
+                    "label": "Atlas de Análisis",
+                    "href": "/atlas"
+                },
+                {
                     "label": "Generador de UTM",
                     "href": "/es/utm-generator"
                 },
@@ -552,6 +564,10 @@
                 {
                     "label": "Glossaire",
                     "href": "/glossary"
+                },
+                {
+                    "label": "Atlas d'Analyse",
+                    "href": "/atlas"
                 },
                 {
                     "label": "Générateur UTM",
@@ -711,6 +727,10 @@
                     "href": "/glossary"
                 },
                 {
+                    "label": "Analytics Atlas",
+                    "href": "/atlas"
+                },
+                {
                     "label": "UTM Generator",
                     "href": "/nl/utm-generator"
                 },
@@ -866,6 +886,10 @@
                 {
                     "label": "Glossario",
                     "href": "/glossary"
+                },
+                {
+                    "label": "Atlante dell'Analisi",
+                    "href": "/atlas"
                 },
                 {
                     "label": "Generatore di UTM",
@@ -1025,6 +1049,10 @@
                     "href": "/glossary"
                 },
                 {
+                    "label": "Atlas de Análise",
+                    "href": "/atlas"
+                },
+                {
                     "label": "Gerador de UTM",
                     "href": "/pt/utm-generator"
                 },
@@ -1180,6 +1208,10 @@
                 {
                     "label": "グロッサー",
                     "href": "/glossary"
+                },
+                {
+                    "label": "分析アトラス",
+                    "href": "/atlas"
                 },
                 {
                     "label": "UTMジェネレータ",

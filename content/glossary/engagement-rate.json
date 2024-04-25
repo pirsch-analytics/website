@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is the Engagement Rate?",
                         "text": "<p>The engagement rate is a metric used in web analytics to measure the level of user interaction with content on a website or social media platform. It is typically calculated by combining various indicators of user activity, such as likes, shares, comments, <a href=\"/glossary/time-on-page\">time spent on a page</a>, clicks, or video views, divided by the total number of <a href=\"/glossary/unique-visitor\">visitors</a> or impressions, and then multiplied by 100 to convert the value to a percentage. </p><p>For example, if a blog post on a website receives 100 <a href=\"/glossary/page-view\">views</a>, 25 likes and 10 comments, the engagement rate can be calculated by adding the likes and comments (35) and dividing by the total views (100), resulting in an engagement rate of 35%. This metric helps content creators and marketers understand how compelling and relevant their content is to their audience.</p><p>High engagement rates usually indicate that the content resonates well with the audience and encourages them to interact with it more deeply. Conversely, low engagement rates may indicate that the content is not generating interest or is not being seen by the target audience, necessitating an adjustment in content strategy or promotional efforts.</p>"
                     }

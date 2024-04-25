@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Cookie Consent Banner?",
                         "text": "<p>A <a href=\"/glossary/cookie\">cookie</a> consent banner is a notice that appears on websites to inform visitors that the website uses cookies and to obtain their consent, as required by privacy regulations such as <a href=\"/glossary/gdpr\">GDPR</a> or <a href=\"/glossary/ccpa\">CCPA</a>. Cookies are small files stored on a user's device that record and store information about their browsing behavior. The consent banner must give the user the option to either accept or decline the use of cookies that are not essential to the functionality of the website.</p><p>For example, when visiting a website for the first time, a cookie consent banner may appear at the bottom or top of the page that states something like: \"This website uses cookies to enhance your experience. By continuing to browse the site, you agree to our use of cookies. There are usually \"Accept\" and \"Learn More\" buttons. Clicking on \"More Information\" allows users to customize their cookie settings.</p><p>A clear and comprehensive cookie consent banner is important not only to comply with legal requirements, but also to make the use of their data transparent to visitors, building trust and improving the user experience.</p>"
                     }

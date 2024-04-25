@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a 403 Forbidden Error?",
                         "text": "<p>The 403 forbidden error is an HTTP status code that indicates that a server understands the request but denies authorization. This can occur when a user attempts to access a restricted page or resource for which they do not have the necessary permissions. The error is usually due to problems with the authorization settings of the server's file or directory structure.</p><p>For example, if a Web site has a directory that only certain authenticated users are allowed to access, and someone tries to access it without the proper credentials, the server will return a 403 Forbidden error. In this way, the server communicates that the request was valid, but access to the resource is denied for some reason.</p><p>It is important for site administrators to monitor these errors, as they can signal unauthorized attempts to access secure areas of the site. To eliminate the causes of 403 errors, it is necessary to check file permissions, ensure that authentication methods are working properly, and check the server's security settings.</p>"
                     }

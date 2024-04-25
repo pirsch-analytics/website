@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a First Party Cookie?",
                         "text": "<p>A first-party <a href=\"/glossary/cookie\">cookie</a> is a type of cookie that is set directly by the Web site (domain) that the user is visiting. Unlike third-party cookies, which are set by domains other than the one being visited, first-party cookies are set and accessed by the website itself. These cookies are typically used for functions such as storing login information, user preferences, and shopping cart contents, as well as for website analytics and personalization.</p><p>For example, if a user selects his or her preferred language on a multilingual website, a first-party cookie can be used to store that setting so that the website will be displayed in the user's chosen language on subsequent visits. First-party cookies are generally considered more secure and privacy-preserving than third-party cookies because they typically do not track a user's activities across different Web sites. This feature makes them less likely to be blocked by privacy-enhancing technologies and browser settings.</p>"
                     }

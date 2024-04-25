@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/product-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Product Analytics – Pirsch Analytics",
+                        "meta_description": "The analysis of product-related data to understand user behavior, improve product features, and drive product development decisions."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Product Analytics?",
+                        "text": "<p><strong>Product Analytics</strong> involves the use of data analysis tools to evaluate how users interact with a product in order to improve product development, enhance the user experience, and increase user retention. This type of analysis helps companies understand which features are popular, how they are used, and which areas of the product may need improvement. The insights gained from product analytics are critical for making data-driven decisions that can lead to more successful products.</p><p>Key activities in product analytics include tracking user interactions within the product, such as clicks, scrolls, and time spent on different features. This information is often visualized through heat maps and user journey maps, which help identify common patterns and bottlenecks that may be impacting the user experience. By continuously analyzing these interactions, companies can more effectively iterate on their products and make improvements that are directly informed by user behavior.</p><p>In addition, product analytics is invaluable for <a href=\"/glossary/ab-testing\">A/B testing</a>, allowing companies to compare different versions of a product feature to determine which performs better in terms of user engagement and satisfaction. It also supports the implementation of personalized experiences by customizing the product based on individual user data. Overall, product analytics is a key tool for optimizing product features and marketing strategies, helping companies succeed in competitive markets by closely aligning product offerings with user needs.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

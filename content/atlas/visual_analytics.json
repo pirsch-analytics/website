@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/visual-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Visual Analytics – Pirsch Analytics",
+                        "meta_description": "The process of analyzing data through interactive visualizations to discover insights, patterns, and trends more effectively."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Visual Analytics?",
+                        "text": "<p><strong>Visual Analytics</strong> combines the science of analytical reasoning with interactive visual interfaces to enable decision making based on complex data sets. This field uses visualization tools to help users understand, analyze, and derive insights from data. By presenting data in graphical form, visual analytics makes complex data more accessible and easier to interpret, enabling faster and more informed decision making.</p><p>The process of visual analytics involves transforming raw data into a visual context, such as charts, graphs, and maps. These visual representations help to highlight trends, patterns, and outliers that may not be as readily apparent using traditional data analysis methods. Visual analytics tools range from basic charting libraries to advanced software platforms that support interactive and real-time data exploration.</p><p>Visual analytics is also critical in areas such as finance, healthcare, and security, where large amounts of data need to be analyzed quickly. It allows analysts and stakeholders to engage more directly with data, explore different scenarios, and manipulate variables to see potential outcomes. This hands-on approach to data analysis not only improves understanding, but also promotes deeper engagement with the data, leading to more effective problem solving and strategic planning.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

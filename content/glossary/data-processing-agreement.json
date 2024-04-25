@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Data Processing Agreement (DPA)?",
                         "text": "<p>A Data Processing Agreement (DPA) is a legally binding contract between data controllers and data processors, required by data protection laws such as the <a href=\"/glossary/gdpr\">GDPR</a>. This agreement ensures that data processors process the personal data of data subjects in accordance with data protection laws, and respect the rights of data subjects. The GDPR sets out the scope, nature and purpose of the processing, the rights and obligations of both parties, and measures to ensure data security.</p><p>For example, a company (data controller) that outsources its data processing to a cloud service provider (data processor) needs a GDPR to set out the cloud provider's responsibilities in handling the data, such as dealing with data breaches, data transfer procedures, and ensuring that data processing is carried out in accordance with the agreed terms. The GDPR protects both parties by clarifying their roles and responsibilities, and ensuring transparency and compliance with the law.</p><p>A solid GDPR is critical not only for complying with legal obligations, but also for maintaining trust with customers by protecting their personal data.</p>"
                     }
