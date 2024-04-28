@@ -2451,6 +2451,7 @@ section.pricing .section-content .pricing-tiers .pricing-tier .pricing-tier-feat
   align-items: center;
   margin-bottom: 0;
   padding: 12px 0;
+  color: var(--white);
   font-size: 18px;
   line-height: 1.2;
 }
