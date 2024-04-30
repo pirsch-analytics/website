@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a Funnel?",
                         "text": "<p>A funnel in web analytics is a framework used to visualize the step-by-step process that users go through to achieve a specific goal on a website or in an application. This concept is important for understanding the flow of user interaction from initial contact through various stages of engagement to completion of an action, such as making a purchase, signing up for a service, or downloading a resource.</p><p>For example, an e-commerce funnel might include stages such as \"visit homepage\", \"view product page\", \"add to cart\", and \"complete purchase\". By analyzing the number of users moving through each stage of the funnel, site owners can determine where users are bouncing or converting. This insight enables targeted improvements at the points where users leave the funnel, optimizing the entire path to <a href=\"/glossary/conversion\">conversion</a>.</p><p>Funnels help businesses optimize user interactions and maximize the effectiveness of the conversion process by focusing on user behavior and removing potential barriers to completing the desired action.</p"

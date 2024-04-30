@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is Time On Page?",
                         "text": "<p>Time spent on a page is a metric used in web analytics to measure the amount of time a <a href=\"/glossary/unique-visitor\">visitor</a> spends on a website before leaving. This metric is important for understanding user engagement and the effectiveness of site content. A longer time on site often indicates that the content is engaging and meets the needs or interests of the visitor, while a shorter time on site may indicate that the content is not relevant or compelling.</p><p>For example, if an article on a website is viewed for an average of five minutes, it indicates that readers are engaging with the content and may read it in its entirety. Web analytics tools such as Pirsch Analytics capture this metric by tracking the time a user spends on a page and when they either leave the page or go to another page on the same site. It should be noted, however, that the time spent on a page can only be measured accurately if a user visits more than one page, since the analysis software needs an additional \"hit\" to calculate the duration.</p><p>Knowing the time spent on a page helps webmasters optimize their content and structure to better meet the preferences of their audience, thereby increasing the overall time spent on the website and improving other important performance indicators.</p>"

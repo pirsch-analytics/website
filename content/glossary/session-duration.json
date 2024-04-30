@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is the (Average) Session Duration?",
                         "text": "<p>The average <a href=\"/glossary/session\">session</a> duration is a web analytics metric that measures the total time spent by all users on your website divided by the number of sessions. This metric provides information on how long, on average, visitors engage with your content during a single session. It is a good indicator of how engaging and relevant your website is to your audience.</p><p>To calculate the average session duration, add up the total duration of all sessions within a given time period and then divide it by the total number of sessions in the same time period.</p><p>To illustrate, let's use Pirsch Analytics as an example: If your website had a total session duration of 5000 minutes on one day and there were 200 sessions on that day, the average session duration would be calculated as follows:</p><p>Average session duration = total session duration / total number of sessions</p><p>Average session duration = 5000 minutes / 200 sessions = 25 minutes per session</p><p>This means that each visitor spends an average of 25 minutes per session on your website. This metric is useful for understanding the overall engagement of your website and can help you determine if changes to content or structure are having a positive impact on user interaction.</p>"

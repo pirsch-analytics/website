@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is Protected Health Information (PHI)?",
                         "text": "<p>Protected health information (PHI) is any information about an individual's health, medical care, or payment for medical care that can be linked to an individual. This information is often held by health care providers, health plans, and similar entities covered by the Health Insurance Portability and Accountability Act (HIPAA) in the United States. PHI includes a wide range of identifiers, such as names, geographic elements smaller than a state, any data elements that relate to an individual, telephone numbers, and other <a href=\"/glossary/personal-data\">personal details</a> that could identify someone.</p><p>For example, if a hospital collects a patient's medical history, current health status, treatment plans, and billing information, all of this information is considered PHI because it relates to the patient's health and personal identity. Under HIPAA, strict safeguards must be put in place to protect the confidentiality of PHI and to ensure that it is not used or disclosed without the patient's express consent or in any other manner not permitted by law.</p><p>Ensuring the confidentiality and security of PHI is critical to maintaining patient trust and complying with legal requirements aimed at protecting individuals' health information from unauthorized access and breaches.</p>"

@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a Landing Page?",
                         "text": "<p>A landing page is a specific web page that a visitor arrives at after clicking on a link or ad. This page is usually focused on a single goal, known as a <a href=\"/glossary/call-to-action\">call to action (CTA)</a>, and is often used in marketing campaigns to convert visitors into leads or customers. Landing pages are designed to offer fewer distractions and guide visitors to the intended <a href=\"/glossary/conversion\">conversion</a> goal.</p><p>For example, when an ad for a product is clicked, the landing page associated with that ad may contain detailed information about the product, testimonials, and a purchase link. The effectiveness of a landing page can be measured by its <a href=\"/glossary/conversion-rate\">conversion rate</a>, which indicates how often visitors who land on the page take the desired action, such as filling out a form or making a purchase.</p><p>Optimizing landing pages involves testing different elements such as headlines, text, images and layout to see which combinations result in the highest conversion rate. Effective landing pages are critical to maximizing <a href=\"/glossary/return-on-investment\">return on investment (ROI)</a> in digital advertising and marketing campaigns.</p>"

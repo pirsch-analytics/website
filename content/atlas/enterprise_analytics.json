@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "atlas",
+                        "link": "/atlas",
                         "label": "Return to Atlas",
                         "headline": "What is Enterprise Analytics?",
                         "text": "<p><strong>Enterprise Analytics</strong> involves the application of statistical tools and methods across an organization to improve decision making and operational efficiency. This form of analytics examines data from various business operations, including finance, marketing, sales, and human resources, to identify patterns and insights that can drive strategic business moves. It enables organizations to consolidate data from disparate sources into a cohesive analytical framework.</p><p>The scope of business analytics encompasses both tactical and strategic decision making. Tactical analytics can focus on operational improvements and immediate performance enhancements, while strategic analytics can influence long-term business strategies and corporate planning. Tools such as business intelligence platforms, advanced analytics software, and data visualization technologies are commonly used to handle complex data sets and deliver actionable insights.</p><p>In addition, enterprise analytics supports a data-driven culture within an organization, encouraging decisions based on evidence rather than intuition. By integrating analytics into their core operations, companies can improve visibility, predict future trends, and respond more effectively to market changes. Ultimately, enterprise analytics fosters greater agility, competitiveness, and resilience in a rapidly evolving business environment.</p>"
