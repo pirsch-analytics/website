@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Search Analytics?",
                         "text": "<p>Search analytics refers to the analysis of data obtained from searches within a website's own search engine or via search engines such as Google, Bing and others. This area of analysis helps website owners to understand what users are searching for, how often they search and whether they find what they need on the website. For example, if a site's search analytics show that many users are searching for \"vegan recipes\", but the site offers mostly non-vegetarian recipes, the site owner might consider adding more vegan content to meet user demand. In addition, search analytics can show which search terms are the most popular, which can help adjust the site's SEO strategy to increase its visibility in the search engines.</p><p>Tools like Google Analytics offer comprehensive search analytics capabilities that allow webmasters to track not only the frequency of searches, but also the search terms used, the number of results returned for those searches, and the actions taken by users after performing a search.</p>"
                     }

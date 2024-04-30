@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/educational-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Educational Analytics – Pirsch Analytics",
+                        "meta_description": "The use of data analysis in the education sector to improve teaching methods, student performance, and administrative processes."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Educational Analytics?",
+                        "text": "<p><strong>Educational Analytics</strong> refers to the use of data analysis techniques to improve learning, teaching, and administrative processes in educational settings. This field of analytics analyzes data from sources such as student performance, attendance, and feedback to identify trends and insights that can improve educational outcomes. By understanding these patterns, educators and administrators can implement more effective instructional strategies and improve student support services.</p><p>The process typically involves collecting data from various educational tools and platforms, including learning management systems (LMS), student information systems (SIS), and online educational resources. Analyzing this data helps educators understand student engagement levels, learning progress, and the effectiveness of various teaching methods.Tools used in educational analytics can include statistical software, data visualization platforms, and machine learning techniques to predict student success rates and identify at-risk students early.</p><p>Tools used in educational analytics can include statistical software, data visualization platforms, and machine learning techniques to predict student success rates and identify at-risk students early.</p><p>In addition, educational analytics can support personalized learning by allowing educators to tailor their approach to the needs of individual students based on their learning styles and performance data. This targeted intervention can help close learning gaps and improve student achievement. Overall, educational analytics serves as a powerful tool for making data-driven decisions that can lead to improved educational practices and student outcomes.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

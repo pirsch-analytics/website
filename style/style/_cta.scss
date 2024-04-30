@@ -19,6 +19,11 @@ section.cta {
                 font-weight: inherit;
             }
         }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     @media only screen and (max-width: 1024px) {

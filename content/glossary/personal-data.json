@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Personal Data?",
                         "text": "<p>Personal data is any information that can be used to identify, directly or indirectly, an individual. This includes a wide range of data types, such as names, identification numbers, <a href=\"/glossary/location\">location</a> data, online identifiers, or factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that individual. In the context of web analytics and digital marketing, personal information is used to understand customer behavior, personalize experiences, and better target advertising.</p><p>For example, when a user signs up for an online service, the personal information collected may include their name, email address, and possibly their address or phone number. This information may be used to communicate with the user, provide personalized services, and improve customer service. However, the collection and use of personal data is subject to strict data protection laws, such as the <a href=\"/glossary/gdpr\">GDPR</a>, which require that personal data be processed lawfully, fairly, and transparently, and that it be collected for specified, explicit, and legitimate purposes.</p><p>Responsible handling of personal data is critical to maintaining user trust and complying with legal standards for the protection of privacy rights.</p>"
                     }

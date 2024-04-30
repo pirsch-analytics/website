@@ -56,6 +56,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Assisted Conversion?",
                         "text": "<p>Assisted conversion is a term used in web analytics to describe a scenario in which a particular channel contributes to a conversion along the customer journey, but is not the final interaction before the conversion takes place. This concept is critical to understanding the different roles that different marketing channels play in influencing a user's decision to take a desired action, such as making a purchase or signing up for a service.</p><p>For example, a user might first click on a Facebook ad (which counts as an assisted conversion), later visit the same website via organic search, and finally complete a purchase after clicking on an email link. The email channel would be credited for the direct conversion, but the roles of Facebook and organic search as assisted channels are also recognized and valued.</p><p>This metric helps marketers allocate resources more effectively by recognizing the value of each channel in the conversion process, rather than attributing success solely to the last click. Tools like Pirsch Analytics would track these interactions to provide insight into the entire conversion path and help marketers optimize their strategies across all channels.</p>"
                     },

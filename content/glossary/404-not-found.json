@@ -56,6 +56,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a 404 Not Found Error?",
                         "text": "<p>The 404 not found error is an HTTP status code that indicates that the server could not find the requested resource. This error typically occurs when a user tries to access a Web page or file that does not exist on the server. The error can be the result of an incorrectly entered <a href=\"/glossary/uniform-resource-locator\">URL</a>, a moved or deleted file, or a broken link on the Web site.</p><p>For example, if a visitor follows a link to an article that has been deleted or moved without a redirect set up, the server will return a 404 Not Found error.This error serves as feedback that the attempted path did not lead to a valid web page.</p><p>Monitoring and managing 404 errors is important for website maintenance and user experience. Regularly fixing broken links, implementing redirects for displaced content, and creating a helpful 404 error page can improve site navigation and keep users engaged even when they've reached a dead end.</p>"
                     }

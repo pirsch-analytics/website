@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Referral Traffic?",
                         "text": "<p>Referral traffic in web analytics refers to <a href=\"/glossary/unique-visitor\">visitors</a> who come to a site via direct links to other sites, rather than directly or via search engines. This type of traffic is important because it shows that other websites consider the content valuable enough to link to. Analyzing referral traffic helps companies understand which external sites contribute to their web traffic and can influence partnership and content strategies.</p><p>For example, if a popular blog links to an article on your site and users visit your site via this link, this visit is classified as referral traffic. Analytics tools such as Pirsch Analytics can track these visits, showing the originating site and often the specific site from which the traffic originated. With this information, marketers can evaluate the effectiveness of their content distribution efforts.</p><p>By understanding the sources of referral traffic, companies can focus on cultivating relationships with important influencers and websites in their industry and optimize their external link building strategy to attract more high-quality traffic.</p>"
                     }

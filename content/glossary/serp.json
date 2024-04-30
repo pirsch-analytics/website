@@ -21,6 +21,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Search Engine Results Page (SERP)?",
                         "text": "<p>SERP, or Search Engine Results Page, refers to the page displayed by a search engine in response to a user's query. This page lists all web content that matches the search query, sorted by the search engine's algorithms. SERPs typically include organic results, paid advertising results, featured snippets, knowledge graphs, and other types of content such as images, videos, and news that are relevant to the query.</p><p>For example, if a user searches for \"best coffee shops near me\", the SERP might display a map of local coffee shops, a list of articles and blog posts about the best coffee shops, and advertisements for coffee shops near me. Each element is designed to provide the most relevant and useful information based on the user's search terms and location. The layout and content of the SERPs can strongly influence the user's behavior by influencing how they interact with the search results and which links they click on.</p><p>Understanding how the SERPs work and how they are structured is crucial for <a href=\"/glossary/search-engine-optimization\">SEO</a> and digital marketing strategies, as it helps companies optimize their content to appear in a more prominent position in the search results.</p>"
                     }

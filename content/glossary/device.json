@@ -56,6 +56,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is a Device?",
                         "text": "<p>In web analytics, a device refers to the hardware a visitor uses to access a website or application, such as a desktop computer, laptop, tablet, or smartphone. Differentiating users by device type is important for understanding how users interact with your website from different platforms and optimizing the user experience accordingly.</p><p>For example, if Pirsch Analytics analytics show that a significant portion of traffic is coming from mobile devices, a website owner might prioritize mobile-friendly design elements such as responsive layouts and touch-friendly navigation. This is important because user behavior can vary greatly by device. For example, mobile users may prefer faster, more concise content or interact with different features than desktop users.</p><p>Tracking and analyzing website traffic by device type helps businesses tailor their content and design to the specific needs and preferences of their target audience, which can lead to more engagement and <a href=\"/glossary/conversion\">conversions</a>.</p>"
                     },

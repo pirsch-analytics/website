@@ -1,0 +1,126 @@
+{
+    "path": {
+        "en": "/atlas"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Analytics Atlas – Pirsch Analytics",
+                        "meta_description": "A comprehensive list of definitions to help you navigate the world of analytics."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_overview",
+                "copy": {
+                    "en": {
+                        "headline": "Analytics Atlas",
+                        "text": "A comprehensive list of definitions to help you navigate the world of analytics. Check out the <a href=\"/glossary\">Glossary</a> to dive deeper into web analytics terminology.",
+                        "entries": [
+                            {
+                                "title": "Agency Analytics",
+                                "description": "Analytics tools and techniques tailored for marketing agencies to track and measure client campaigns and performance.",
+                                "slug": "/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Customer Analytics",
+                                "description": "The analysis of customer data and behavior to understand preferences, habits, and trends, ultimately improving customer satisfaction and retention.",
+                                "slug": "/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Data Analytics",
+                                "description": "The process of analyzing raw data to uncover insights, trends, and patterns that can inform decision-making and drive business strategies.",
+                                "slug": "/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Digital Marketing Analytics",
+                                "description": "The measurement and analysis of digital marketing efforts to assess performance, optimize strategies, and drive business growth.",
+                                "slug": "/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "E-Commerce Analytics",
+                                "description": "The tracking and analysis of data related to online sales and transactions, including customer behavior, product performance, and revenue.",
+                                "slug": "/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Educational Analytics",
+                                "description": "The use of data analysis in the education sector to improve teaching methods, student performance, and administrative processes.",
+                                "slug": "/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Embedded Analytics",
+                                "description": "Analytics capabilities integrated directly into software applications, allowing users to access and analyze data within their workflows.",
+                                "slug": "/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Enterprise Analytics",
+                                "description": "The use of analytics within an organization to support decision-making, improve efficiency, and drive business growth across various departments and functions.",
+                                "slug": "/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Environmental Analytics",
+                                "description": "The analysis of environmental data to monitor and manage natural resources, assess environmental impact, and support sustainability initiatives.",
+                                "slug": "/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Healthcare Analytics",
+                                "description": "The use of data analysis in healthcare settings to improve patient outcomes, optimize operations, and enhance decision-making.",
+                                "slug": "/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "HR Analytics",
+                                "description": "The application of data analysis in human resources management to optimize workforce planning, recruitment, performance management, and employee engagement.",
+                                "slug": "/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Mobile Analytics",
+                                "description": "The tracking and analysis of data related to mobile app usage, user behavior, and performance to optimize user experience and engagement.",
+                                "slug": "/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Product Analytics",
+                                "description": "The analysis of product-related data to understand user behavior, improve product features, and drive product development decisions.",
+                                "slug": "/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Sales Analytics",
+                                "description": "The analysis of sales data to track performance, forecast future sales, identify trends, and optimize sales strategies.",
+                                "slug": "/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Social Media Analytics",
+                                "description": "The measurement and analysis of social media performance and engagement to assess the effectiveness of social media marketing efforts.",
+                                "slug": "/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Supply Chain Analytics",
+                                "description": "The use of data analysis to optimize supply chain operations, improve efficiency, reduce costs, and mitigate risks.",
+                                "slug": "/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Visual Analytics",
+                                "description": "The process of analyzing data through interactive visualizations to discover insights, patterns, and trends more effectively.",
+                                "slug": "/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Web Analytics",
+                                "description": "The measurement, collection, analysis, and reporting of web data to understand and optimize web usage and performance.",
+                                "slug": "/atlas/web-analytics"
+                            }
+                        ]
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

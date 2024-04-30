@@ -212,7 +212,7 @@ fieldset:not(.toggle) {
     }
 }
 
-fieldset {
+fieldset:not(#toggleBillingCycle) {
     /* Hide standard radio */
     input[type="radio"] {
         display: none;

@@ -1,0 +1,36 @@
+{
+    "path": {
+        "en": "/atlas/healthcare-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Healthcare Analytics – Pirsch Analytics",
+                        "meta_description": "The use of data analysis in healthcare settings to improve patient outcomes, optimize operations, and enhance decision-making."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "atlas",
+                        "label": "Return to Atlas",
+                        "headline": "What is Healthcare Analytics?",
+                        "text": "<p><strong>Healthcare Analytics</strong> is the practice of using data analytics to improve healthcare delivery, outcomes, and operational efficiency. This field leverages data from multiple sources, including electronic health records (EHRs), medical imaging, genomic sequencing, and patient-generated data from wearables and other devices. By analyzing this data, healthcare providers can gain insights into patient health trends, treatment outcomes, and operational issues.</p><p>The scope of healthcare analytics includes descriptive analytics, which provides insights into past healthcare operations and patient outcomes; predictive analytics, which forecasts future events based on historical data; and prescriptive analytics, which suggests actions to achieve the best outcomes based on predictive insights. These analytic approaches can help detect disease early, improve patient care, and optimize healthcare processes.</p><p>In addition, healthcare analytics plays a critical role in population health management by identifying risk factors and developing preventive strategies for at-risk populations. It also supports personalized medicine by tailoring treatment plans to individual genetic profiles and health histories. Overall, healthcare analytics is making a significant contribution to improving the quality and efficiency of healthcare services, leading to better patient care and lower healthcare costs.</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

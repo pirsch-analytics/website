@@ -56,6 +56,8 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
+                        "link": "glossary",
+                        "label": "Return to Glossary",
                         "headline": "What is Direct Traffic?",
                         "text": "<p>Direct traffic in web analytics refers to visitors who arrive at your website by typing the <a href=\"/glossary/uniform-resource-locator\">URL</a> directly into their browser's address bar, using a bookmark, or clicking on a link in an untracked email or offline document. This category of traffic is important because it often indicates a level of brand awareness or loyalty, as the user has specifically chosen to visit the site without the influence of a search engine or other referral source.</p><p>For example, if someone remembers a promotional URL from a flyer or ad and types it directly into their browser, that visit would be classified as direct traffic. Tools like Pirsch Analytics would categorize these <a href=\"/glossary/session\">sessions</a> separately to help webmasters understand how much of their traffic is coming from users with prior knowledge of the brand.</p><p>Understanding direct traffic can help companies measure brand awareness and loyalty, and it can also highlight potential problems with tracking other traffic sources if direct traffic numbers are unusually high.</p>"
                     },
