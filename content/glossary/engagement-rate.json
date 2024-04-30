@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/engagement-rate"
+        "en": "/glossary/engagement-rate",
+        "de": "/de/glossary/engagement-rate",
+        "es": "/es/glossary/engagement-rate",
+        "fr": "/fr/glossary/engagement-rate",
+        "nl": "/nl/glossary/engagement-rate",
+        "it": "/it/glossary/engagement-rate",
+        "pt": "/pt/glossary/engagement-rate",
+        "ja": "/ja/glossary/engagement-rate"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Engagement Rate – Pirsch Analytics",
                         "meta_description": "A measure of how actively involved users are with a piece of content, typically expressed as a percentage of total interactions."
+                    },
+                    "de": {
+                        "title": "Engagement-Rate – Pirsch Analytics",
+                        "meta_description": "Ein Maß dafür, wie aktiv Nutzer mit einem Inhalt interagieren, üblicherweise ausgedrückt als Prozentsatz der Gesamtinteraktionen."
+                    },
+                    "es": {
+                        "title": "Tasa de Compromiso – Pirsch Analytics",
+                        "meta_description": "Una medida de cuán activamente los usuarios interactúan con un contenido, típicamente expresada como un porcentaje de las interacciones totales."
+                    },
+                    "fr": {
+                        "title": "Taux d'engagement – Pirsch Analytics",
+                        "meta_description": "Une mesure de l'implication active des utilisateurs avec un contenu, généralement exprimée en pourcentage des interactions totales."
+                    },
+                    "nl": {
+                        "title": "Betrokkenheidsgraad – Pirsch Analytics",
+                        "meta_description": "Een maatstaf voor hoe actief gebruikers betrokken zijn bij een stuk content, doorgaans uitgedrukt als een percentage van de totale interacties."
+                    },
+                    "it": {
+                        "title": "Tasso di Coinvolgimento – Pirsch Analytics",
+                        "meta_description": "Una misura di quanto gli utenti sono attivamente coinvolti con un contenuto, tipicamente espressa come una percentuale delle interazioni totali."
+                    },
+                    "pt": {
+                        "title": "Taxa de Engajamento – Pirsch Analytics",
+                        "meta_description": "Uma medida de quão ativamente os usuários estão envolvidos com um conteúdo, geralmente expressa como uma porcentagem das interações totais."
+                    },
+                    "ja": {
+                        "title": "エンゲージメント率 – Pirsch Analytics",
+                        "meta_description": "コンテンツにどれだけ積極的に関与しているかを示す指標で、通常は総インタラクションの割合として表されます。"
                     }
                 }
             },
@@ -21,10 +56,52 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is the Engagement Rate?",
                         "text": "<p>The engagement rate is a metric used in web analytics to measure the level of user interaction with content on a website or social media platform. It is typically calculated by combining various indicators of user activity, such as likes, shares, comments, <a href=\"/glossary/time-on-page\">time spent on a page</a>, clicks, or video views, divided by the total number of <a href=\"/glossary/unique-visitor\">visitors</a> or impressions, and then multiplied by 100 to convert the value to a percentage. </p><p>For example, if a blog post on a website receives 100 <a href=\"/glossary/page-view\">views</a>, 25 likes and 10 comments, the engagement rate can be calculated by adding the likes and comments (35) and dividing by the total views (100), resulting in an engagement rate of 35%. This metric helps content creators and marketers understand how compelling and relevant their content is to their audience.</p><p>High engagement rates usually indicate that the content resonates well with the audience and encourages them to interact with it more deeply. Conversely, low engagement rates may indicate that the content is not generating interest or is not being seen by the target audience, necessitating an adjustment in content strategy or promotional efforts.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist die Engagement-Rate?",
+                        "text": "<p>Die Engagement-Rate ist eine Kennzahl in der Webanalytik, die das Ausmaß der Interaktion der Nutzer mit Inhalten auf einer Webseite oder einer Social-Media-Plattform misst. Sie wird üblicherweise berechnet, indem verschiedene Indikatoren für Nutzeraktivitäten, wie Likes, Shares, Kommentare, <a href=\"/de/glossary/time-on-page\">Verweildauer auf einer Seite</a>, Klicks oder Videoaufrufe, durch die Gesamtzahl der <a href=\"/de/glossary/unique-visitor\">Besucher</a> oder Impressionen geteilt und dann mit 100 multipliziert werden, um den Wert in einen Prozentsatz umzurechnen. </p><p>Zum Beispiel, wenn ein Blogpost auf einer Webseite 100 <a href=\"/de/glossary/page-view\">Ansichten</a>, 25 Likes und 10 Kommentare erhält, kann die Engagement-Rate berechnet werden, indem die Likes und Kommentare (35) durch die Gesamtansichten (100) geteilt werden, was zu einer Engagement-Rate von 35% führt. Diese Kennzahl hilft Inhaltschaffenden und Marketern zu verstehen, wie ansprechend und relevant ihre Inhalte für ihr Publikum sind.</p><p>Hohe Engagement-Raten deuten in der Regel darauf hin, dass der Inhalt gut mit dem Publikum resoniert und es dazu anregt, intensiver mit ihm zu interagieren. Umgekehrt können niedrige Engagement-Raten darauf hinweisen, dass der Inhalt kein Interesse weckt oder nicht von der Zielgruppe gesehen wird, was eine Anpassung der Inhaltsstrategie oder der Werbemaßnahmen erforderlich macht.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es la tasa de compromiso?",
+                        "text": "<p>La tasa de compromiso es una métrica utilizada en análisis web para medir el nivel de interacción de los usuarios con el contenido en un sitio web o plataforma de redes sociales. Se calcula típicamente combinando varios indicadores de actividad del usuario, como likes, compartidos, comentarios, <a href=\"/es/glossary/time-on-page\">tiempo pasado en una página</a>, clics o visualizaciones de videos, dividido por el número total de <a href=\"/es/glossary/unique-visitor\">visitantes</a> o impresiones, y luego multiplicado por 100 para convertir el valor en un porcentaje. </p><p>Por ejemplo, si una publicación de blog en un sitio web recibe 100 <a href=\"/es/glossary/page-view\">visitas</a>, 25 likes y 10 comentarios, la tasa de compromiso se puede calcular sumando los likes y comentarios (35) y dividiendo por las visitas totales (100), resultando en una tasa de compromiso del 35%. Esta métrica ayuda a los creadores de contenido y a los mercadólogos a entender cuán atractivo y relevante es su contenido para su audiencia.</p><p>Las tasas de compromiso altas generalmente indican que el contenido resuena bien con la audiencia y los anima a interactuar más profundamente con él. Por el contrario, las tasas de compromiso bajas pueden indicar que el contenido no está generando interés o no está siendo visto por la audiencia objetivo, lo que requiere un ajuste en la estrategia de contenido o en los esfuerzos promocionales.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce que le taux d'engagement ?",
+                        "text": "<p>Le taux d'engagement est une métrique utilisée en analyse web pour mesurer le niveau d'interaction des utilisateurs avec le contenu sur un site web ou une plateforme de médias sociaux. Il est généralement calculé en combinant divers indicateurs d'activité des utilisateurs, tels que les likes, partages, commentaires, <a href=\"/fr/glossary/time-on-page\">temps passé sur une page</a>, clics ou vues de vidéos, divisés par le nombre total de <a href=\"/fr/glossary/unique-visitor\">visiteurs</a> ou impressions, puis multipliés par 100 pour convertir la valeur en pourcentage. </p><p>Par exemple, si un article de blog sur un site web reçoit 100 <a href=\"/fr/glossary/page-view\">vues</a>, 25 likes et 10 commentaires, le taux d'engagement peut être calculé en ajoutant les likes et commentaires (35) et en divisant par les vues totales (100), résultant en un taux d'engagement de 35%. Cette métrique aide les créateurs de contenu et les marketeurs à comprendre à quel point leur contenu est captivant et pertinent pour leur audience.</p><p>Un taux d'engagement élevé indique généralement que le contenu résonne bien avec l'audience et les encourage à interagir plus profondément avec lui. Inversement, un faible taux d'engagement peut indiquer que le contenu ne génère pas d'intérêt ou n'est pas vu par l'audience cible, nécessitant un ajustement dans la stratégie de contenu ou les efforts promotionnels.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
+                        "headline": "Wat is de betrokkenheidsgraad?",
+                        "text": "<p>De betrokkenheidsgraad is een maatstaf die wordt gebruikt in webanalyse om het niveau van gebruikersinteractie met inhoud op een website of social media platform te meten. Het wordt typisch berekend door verschillende indicatoren van gebruikersactiviteit te combineren, zoals likes, shares, reacties, <a href=\"/nl/glossary/time-on-page\">tijd doorgebracht op een pagina</a>, klikken of video views, gedeeld door het totale aantal <a href=\"/nl/glossary/unique-visitor\">bezoekers</a> of impressies, en vervolgens vermenigvuldigd met 100 om de waarde om te zetten naar een percentage. </p><p>Bijvoorbeeld, als een blogpost op een website 100 <a href=\"/nl/glossary/page-view\">weergaven</a>, 25 likes en 10 reacties ontvangt, kan de betrokkenheidsgraad worden berekend door de likes en reacties (35) te optellen en te delen door de totale weergaven (100), resulterend in een betrokkenheidsgraad van 35%. Deze maatstaf helpt contentmakers en marketeers te begrijpen hoe boeiend en relevant hun content is voor hun publiek.</p><p>Hoge betrokkenheidsgraden geven doorgaans aan dat de inhoud goed resoneert met het publiek en hen aanmoedigt om dieper met het materiaal te interageren. Aan de andere kant kunnen lage betrokkenheidsgraden erop wijzen dat de inhoud geen interesse wekt of niet door het beoogde publiek wordt gezien, wat een aanpassing in de contentstrategie of promotie-inspanningen vereist.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è il tasso di coinvolgimento?",
+                        "text": "<p>Il tasso di coinvolgimento è una metrica utilizzata nell'analisi web per misurare il livello di interazione degli utenti con i contenuti su un sito web o una piattaforma di social media. Viene calcolato tipicamente combinando vari indicatori di attività degli utenti, come mi piace, condivisioni, commenti, <a href=\"/it/glossary/time-on-page\">tempo trascorso su una pagina</a>, clic o visualizzazioni di video, diviso per il numero totale di <a href=\"/it/glossary/unique-visitor\">visitatori</a> o impressioni, e poi moltiplicato per 100 per convertire il valore in una percentuale. </p><p>Ad esempio, se un post sul blog di un sito web riceve 100 <a href=\"/it/glossary/page-view\">visualizzazioni</a>, 25 mi piace e 10 commenti, il tasso di coinvolgimento può essere calcolato sommando i mipiace e i commenti (35) e dividendo per le visualizzazioni totali (100), risultando in un tasso di coinvolgimento del 35%. Questa metrica aiuta i creatori di contenuti e i marketer a capire quanto il loro contenuto sia coinvolgente e rilevante per il loro pubblico.</p><p>Tassi di coinvolgimento elevati indicano generalmente che il contenuto risuona bene con il pubblico e li incoraggia a interagire più profondamente con esso. Al contrario, tassi di coinvolgimento bassi possono indicare che il contenuto non sta generando interesse o non viene visto dal pubblico target, necessitando un aggiustamento nella strategia di contenuto o negli sforzi promozionali.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é a Taxa de Engajamento?",
+                        "text": "<p>A taxa de engajamento é uma métrica usada na análise web para medir o nível de interação do usuário com o conteúdo em um site ou plataforma de mídia social. É tipicamente calculada combinando vários indicadores de atividade do usuário, como curtidas, compartilhamentos, comentários, <a href=\"/pt/glossary/time-on-page\">tempo gasto em uma página</a>, cliques ou visualizações de vídeos, dividido pelo número total de <a href=\"/pt/glossary/unique-visitor\">visitantes</a> ou impressões, e então multiplicado por 100 para converter o valor em uma porcentagem.</p><p>Por exemplo, se um post de blog em um site recebe 100 <a href=\"/pt/glossary/page-view\">visualizações</a>, 25 curtidas e 10 comentários, a taxa de engajamento pode ser calculada somando as curtidas e comentários (35) e dividindo pelo total de visualizações (100), resultando em uma taxa de engajamento de 35%. Esta métrica ajuda criadores de conteúdo e profissionais de marketing a entenderem o quanto seu conteúdo é envolvente e relevante para o seu público.</p><p>Taxas de engajamento altas geralmente indicam que o conteúdo ressoa bem com o público e incentiva-os a interagir mais profundamente com ele. Inversamente, taxas de engajamento baixas podem indicar que o conteúdo não está gerando interesse ou não está sendo visto pelo público alvo, necessitando um ajuste na estratégia de conteúdo ou nos esforços de promoção.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "エンゲージメント率とは何ですか？",
+                        "text": "<p>エンゲージメント率は、ウェブサイトやソーシャルメディアプラットフォーム上のコンテンツとのユーザーの相互作用の程度を測るために使用される指標です。これは、いいね、シェア、コメント、<a href=\"/ja/glossary/time-on-page\">ページ上での滞在時間</a>、クリック、ビデオ視聴などのユーザーアクティビティの様々な指標を組み合わせて計算され、総<a href=\"/ja/glossary/unique-visitor\">訪問者</a>数またはインプレッション数で割り、100を掛けてパーセンテージに変換します。 </p><p>たとえば、ウェブサイトのブログ投稿が100の<a href=\"/ja/glossary/page-view\">閲覧数</a>、25のいいね、10のコメントを受けた場合、いいねとコメントを合計した数（35）を総閲覧数（100）で割ることでエンゲージメント率が計算でき、35％のエンゲージメント率となります。この指標は、コンテンツクリエーターやマーケターが、彼らのコンテンツが対象の観客にとってどれほど魅力的で関連性があるかを理解するのに役立ちます。</p><p>高いエンゲージメント率は通常、コンテンツが観客によく響いていることを示し、より深く交流することを促します。逆に、低いエンゲージメント率は、コンテンツが興味を引かないか、ターゲットオーディエンスに見られていないことを示しており、コンテンツ戦略やプロモーション努力の調整が必要であることを示唆しています。</p>"
                     }
                 }
             },

@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is Scrolled Percentage?",
                         "text": "<p>The percent of pages scrolled is a metric used in web analytics to measure how far down a page a user scrolls. It provides insight into user engagement by showing how much of a page's content is actually being viewed. This metric is typically expressed as a percentage of the total height of the page that the user has scrolled through.</p><p>For example, if a page is 2000 pixels long and a user scrolls through 1000 pixels before leaving the page, the percentage of content scrolled through would be calculated as (1000/2000) * 100 = 50%. This means that the user has seen half of the page content. Web analytics tools such as Pirsch Analytics can automatically track this metric, allowing site owners to understand which parts of their sites are interesting enough to get users to scroll.</p><p>By analyzing scroll percentage data, site designers can optimize the placement of important content and calls to action to ensure that they are visible in the areas most frequently viewed by users. This helps to improve the user experience and potentially increase <a href=\"/glossary/conversion-rate\">conversion rates</a>.</p>"

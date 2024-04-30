@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is PECR?",
                         "text": "<p>The Privacy and Electronic Communications Regulations (PECR) are UK regulations that apply alongside the General Data Protection Regulation (<a href=\"/glossary/gdpr\">GDPR</a>), and provide specific data protection rights for electronic communications. They cover several key areas, including the security of public electronic communications services, the protection of users' privacy when browsing the internet and using mobile apps, and the handling of traffic and <a href=\"/glossary/location\">location</a> data associated with such services.</p><p>The PECRs are perhaps best known for their rules on <a href=\"/glossary/cookie\">cookies</a> and similar technologies. Websites must obtain users' consent before placing cookies on their <a href=\"/glossary/device\">devices</a>, unless the cookies are strictly necessary to provide a service that the user has explicitly requested, such as processing a payment or storing items in a shopping cart.</p><p>For example, if a UK-based website wants to use cookies to track visitor behavior for marketing purposes, it must first inform users about the cookies and obtain their explicit consent. This ensures that users are aware of and can control the use of their personal data, which is in line with general data protection principles.</p>"

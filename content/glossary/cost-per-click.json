@@ -56,36 +56,50 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is the Cost per Click (CPC)?",
                         "text": "<p>Cost per click (CPC) is a digital advertising metric that measures the amount of money paid each time a user clicks on an ad. This model is primarily used in online advertising campaigns, especially search engine marketing and social media advertising. CPC is important because it helps advertisers manage their budget and measure the effectiveness of their advertising efforts.</p><p>For example, if an advertiser runs a campaign on a platform and spends $100 for 200 clicks on their ad, the CPC for that campaign would be calculated as follows:</p><p>Cost per click = Total campaign cost / Number of clicks = $100 / 200 clicks = $0.50 per click</p><p>This calculation means that the advertiser pays 50 cents every time someone clicks on their ad. Knowing the CPC allows advertisers to compare the cost-effectiveness of different advertising strategies and channels, which helps them optimize their marketing spend and target their audience more effectively.</p>"
                     },
                     "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
                         "headline": "Was sind Kosten pro Klick (CPC)?",
                         "text": "<p>Kosten pro Klick (CPC) ist eine digitale Werbekennzahl, die misst, wie viel Geld jedes Mal bezahlt wird, wenn ein Benutzer auf eine Anzeige klickt. Dieses Modell wird hauptsächlich bei Online-Werbekampagnen verwendet, insbesondere im Suchmaschinenmarketing und bei Social-Media-Werbung. CPC ist wichtig, weil es Werbetreibenden hilft, ihr Budget zu verwalten und die Wirksamkeit ihrer Werbemaßnahmen zu messen.</p><p>Zum Beispiel, wenn ein Werbetreibender eine Kampagne auf einer Plattform durchführt und 100 Dollar für 200 Klicks auf ihre Anzeige ausgibt, wird der CPC für diese Kampagne wie folgt berechnet:</p><p>Kosten pro Klick = Gesamtkosten der Kampagne / Anzahl der Klicks = $100 / 200 Klicks = $0.50 pro Klick</p><p>Diese Berechnung bedeutet, dass der Werbetreibende 50 Cent jedes Mal zahlt, wenn jemand auf ihre Anzeige klickt. Die Kenntnis des CPC ermöglicht es Werbetreibenden, die Kostenwirksamkeit verschiedener Werbestrategien und -kanäle zu vergleichen, was ihnen hilft, ihre Marketingausgaben zu optimieren und ihr Publikum effektiver anzusprechen.</p>"
                     },
                     "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
                         "headline": "¿Qué es el Costo por Clic (CPC)?",
                         "text": "<p>El costo por clic (CPC) es una métrica de publicidad digital que mide la cantidad de dinero que se paga cada vez que un usuario hace clic en un anuncio. Este modelo se utiliza principalmente en campañas de publicidad en línea, especialmente en marketing en motores de búsqueda y publicidad en redes sociales. El CPC es importante porque ayuda a los anunciantes a gestionar su presupuesto y medir la efectividad de sus esfuerzos publicitarios.</p><p>Por ejemplo, si un anunciante realiza una campaña en una plataforma y gasta $100 por 200 clics en su anuncio, el CPC de esa campaña se calcularía de la siguiente manera:</p><p>Costo por clic = Costo total de la campaña / Número de clics = $100 / 200 clics = $0.50 por clic</p><p>Este cálculo significa que el anunciante paga 50 centavos cada vez que alguien hace clic en su anuncio. Conocer el CPC permite a los anunciantes comparar la rentabilidad de diferentes estrategias y canales publicitarios, lo que les ayuda a optimizar su gasto en marketing y dirigirse a su audiencia de manera más efectiva.</p>"
                     },
                     "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
                         "headline": "Qu'est-ce que le Coût par Clic (CPC) ?",
                         "text": "<p>Le coût par clic (CPC) est une mesure de la publicité numérique qui indique le montant payé à chaque fois qu'un utilisateur clique sur une annonce. Ce modèle est principalement utilisé dans les campagnes de publicité en ligne, notamment dans le marketing des moteurs de recherche et la publicité sur les réseaux sociaux. Le CPC est important car il aide les annonceurs à gérer leur budget et à mesurer l'efficacité de leurs efforts publicitaires.</p><p>Par exemple, si un annonceur lance une campagne sur une plateforme et dépense 100 $ pour 200 clics sur son annonce, le CPC de cette campagne serait calculé comme suit :</p><p>Coût par clic = Coût total de la campagne / Nombre de clics = 100 $ / 200 clics = 0,50 $ par clic</p><p>Ce calcul signifie que l'annonceur paie 50 cents chaque fois que quelqu'un clique sur son annonce. Connaître le CPC permet aux annonceurs de comparer l'efficacité coût des différentes stratégies et canaux publicitaires, ce qui les aide à optimiser leurs dépenses en marketing et à cibler leur audience plus efficacement.</p>"
                     },
                     "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
                         "headline": "Wat is de Kosten per Klik (CPC)?",
                         "text": "<p>Kosten per klik (CPC) is een digitale advertentiemetriek die meet hoeveel geld wordt betaald elke keer dat een gebruiker op een advertentie klikt. Dit model wordt voornamelijk gebruikt bij online advertentiecampagnes, met name in zoekmachine marketing en sociale media advertenties. CPC is belangrijk omdat het adverteerders helpt hun budget te beheren en de effectiviteit van hun reclame-inspanningen te meten.</p><p>Bijvoorbeeld, als een adverteerder een campagne voert op een platform en $100 uitgeeft voor 200 klikken op hun advertentie, zou de CPC voor die campagne als volgt worden berekend:</p><p>Kosten per klik = Totale campagnekosten / Aantal klikken = $100 / 200 klikken = $0.50 per klik</p><p>Deze berekening betekent dat de adverteerder 50 cent betaalt elke keer dat iemand op hun advertentie klikt. Het kennen van de CPC stelt adverteerders in staat de kosteneffectiviteit van verschillende advertentiestrategieën en -kanalen te vergelijken, wat hen helpt hun marketinguitgaven te optimaliseren en hun doelgroep effectiever te bereiken.</p>"
                     },
                     "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
                         "headline": "Cos'è il Costo per Clic (CPC)?",
                         "text": "<p>Il costo per clic (CPC) è una metrica di pubblicità digitale che misura la quantità di denaro pagata ogni volta che un utente fa clic su un annuncio. Questo modello è utilizzato principalmente nelle campagne pubblicitarie online, specialmente nel marketing dei motori di ricerca e nella pubblicità sui social media. Il CPC è importante perché aiuta gli inserzionisti a gestire il loro budget e a misurare l'efficacia dei loro sforzi pubblicitari.</p><p>Ad esempio, se un inserzionista realizza una campagna su una piattaforma e spende $100 per 200 clic sul loro annuncio, il CPC per quella campagna sarebbe calcolato come segue:</p><p>Costo per clic = Costo totale della campagna / Numero di clic = $100 / 200 clic = $0.50 per clic</p><p>Questo calcolo significa che l'inserzionista paga 50 centesimi ogni volta che qualcuno fa clic sul loro annuncio. Conoscere il CPC permette agli inserzionisti di confrontare la convenienza economica di diverse strategie e canali pubblicitari, aiutandoli a ottimizzare la loro spesa di marketing e a indirizzare il loro pubblico più efficacemente.</p>"
                     },
                     "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
                         "headline": "O que é Custo por Clique (CPC)?",
                         "text": "<p>Custo por clique (CPC) é uma métrica de publicidade digital que mede a quantidade de dinheiro paga cada vez que um usuário clica em um anúncio. Este modelo é usado principalmente em campanhas de publicidade online, especialmente em marketing de mecanismos de busca e publicidade em mídias sociais. CPC é importante porque ajuda os anunciantes a gerenciar seu orçamento e medir a eficácia de seus esforços publicitários.</p><p>Por exemplo, se um anunciante realiza uma campanha em uma plataforma e gasta $100 por 200 cliques em seu anúncio, o CPC para essa campanha seria calculado da seguinte forma:</p><p>Custo por clique = Custo total da campanha / Número de cliques = $100 / 200 cliques = $0,50 por clique</p><p>Este cálculo significa que o anunciante paga 50 centavos toda vez que alguém clica em seu anúncio. Conhecer o CPC permite que os anunciantes comparem a relação custo-benefício de diferentes estratégias e canais publicitários, o que os ajuda a otimizar seus gastos com marketing e a direcionar seu público de maneira mais eficaz.</p>"
                     },
                     "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
                         "headline": "クリック単価（CPC）とは何ですか？",
                         "text": "<p>クリック単価（CPC）は、ユーザーが広告をクリックするたびに支払われる金額を測定するデジタル広告の指標です。このモデルは、主にオンライン広告キャンペーン、特に検索エンジンマーケティングとソーシャルメディア広告で使用されます。</p><p>CPCが重要なのは、広告主が予算を管理し、広告の効果を測定するのに役立つからです。</p><p>たとえば、広告主があるプラットフォームでキャンペーンを実施し、広告を200回クリックするのに100ドルを費やした場合、そのキャンペーンのCPCは次のように計算されます：</p><p>クリック単価＝キャンペーン費用合計÷クリック数＝100ドル÷200回＝クリック単価0.50ドル</p><p>この計算は、広告主は誰かが広告をクリックするたびに50セントを支払うことを意味します。CPCを知ることで、広告主はさまざまな広告戦略やチャネルの費用対効果を比較することができ、マーケティング費用を最適化し、より効果的にオーディエンスをターゲットにすることができます。</p>"
                     }

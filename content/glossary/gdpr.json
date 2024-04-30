@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is GDPR?",
                         "text": "<p>The General Data Protection Regulation (GDPR) is a comprehensive data protection law that went into effect in the European Union on May 25, 2018. It aims to give individuals control over their personal data, and to simplify the regulatory environment for international companies by standardizing regulation across the EU. The GDPR applies to all companies that process and store personal data of individuals residing in the European Union, regardless of the company's <a href=\"/glossary/location\">location</a>.</p><p>The GDPR requires companies to protect the personal data and privacy of EU citizens in transactions within EU member states. It also regulates the export of personal data to countries outside the EU. Key requirements include requiring consent for data processing, notification of data breaches, anonymization of data to protect privacy, data protection safeguards as an integral part of data processing, and providing individuals with rights in relation to their personal data, including the right to access, rectify, erase or transfer their data.</p><p>Adherence to the GDPR is of crucial importance for companies to avoid high fines and to build trust with their customers by ensuring that their data is treated securely and transparently.</p>"

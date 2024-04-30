@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a Page View?",
                         "text": "<p>A page view refers to each time a page on your website is loaded by a user's browser. This is one of the basic metrics in web analytics because it helps you measure the amount of traffic to your site. Every time a user opens a web page in their browser, whether it's a first visit or a refresh, it counts as a page view.</p><p>For example, if you notice with Pirsch Analytics that a particular blog post has a high number of page views, this could indicate that the content is popular or has been effectively promoted. If a page has very few views, it could indicate that the page is less appealing or harder to find.</p><p>Page views are used to understand user engagement, evaluate content effectiveness, and optimize website layout and navigation. They are also useful for comparative analysis, for example, to see which pages perform better during certain time periods.</p>"

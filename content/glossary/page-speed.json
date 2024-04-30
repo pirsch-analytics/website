@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is Page Speed?",
                         "text": "<p>Page speed refers to the time it takes for a website to load and become fully interactive for the user. It is a critical factor for both usability and search engine optimization (<a href=\"/glossary/search-engine-optimization\">SEO</a>), as faster pages are more efficient at retaining <a href=\"/glossary/unique-visitor\">visitors</a> and tend to rank higher in search engine results. Page speed can be affected by several factors, including the size of images, the complexity of scripts running on the page, the quality of web hosting services, and the distance between the server and the user.</p><p>For example, if a website contains a large number of high-resolution images that are not optimized for the web, this can significantly slow down page load times. Tools such as Google's PageSpeed Insights can be used to analyze a site's performance and make recommendations to improve speed. Implementing these recommendations, such as compressing images, minifying CSS and JavaScript files, and using content delivery networks (CDN), can help improve page speed.</p><p>Improving page speed is critical for a better user experience and for improving a website's visibility and performance in search engines.</p>"

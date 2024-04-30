@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a Live Visitor?",
                         "text": "<p>A live visitor is someone who is actively browsing a website in real time. Web analytics tools track live visitors to provide website owners and marketers with immediate data about user behavior and interactions on the site. This information can include the pages viewed, the visitor's geographic <a href=\"/glossary/location\">location</a>, the <a href=\"/glossary/device\">device</a> and browser used, and the source from which the visitor was referred to the site.</p><p>For example, with a tool like Pirsch Analytics, a website administrator can monitor live traffic to determine how many users are currently on the site, what pages they are visiting, and whether there are any immediate issues, such as traffic congestion, that could affect site performance. Tracking live visitors helps to efficiently manage website resources and improve the user experience by making real-time adjustments based on visitor behavior.</p><p>In addition, understanding live visitor activity is beneficial for testing and optimizing website content and features, ensuring that visitors find what they need quickly and smoothly, which can lead to improved <a href=\"/glossary/engagement-rate\">engagement</a> and <a href=\"/glossary/conversion-rate\">conversion rates</a>.</p>"

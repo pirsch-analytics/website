@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a RSS Feed?",
                         "text": "<p>RSS feed, which stands for Really Simple Syndication or Rich Site Summary, is a type of Web feed that allows users and applications to receive regular updates from a website or blog of their choice. RSS feeds allow publishers to automatically syndicate data so that users can follow updates from their favorite sites without having to visit each site individually.</p><p>For example, if a user subscribes to the RSS feed of a news site, they can receive updates in a feed reader or email application each time a new article is published. The feed typically contains summaries of the content or the full text, and makes the data portable across programs and services. Users can subscribe to RSS feed reader software that periodically checks the subscribed feeds for new content and downloads any updates found.</p><p>RSS feeds are useful for users who want to receive timely updates from multiple sources in a consolidated view. For publishers, RSS is a tool that allows them to increase the reach and frequency of interaction with their audience without having to rely on visitors manually returning to the site.</p>"

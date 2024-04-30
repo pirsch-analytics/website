@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/first-interaction-model"
+        "en": "/glossary/first-interaction-model",
+        "de": "/de/glossary/first-interaction-model",
+        "es": "/es/glossary/first-interaction-model",
+        "fr": "/fr/glossary/first-interaction-model",
+        "nl": "/nl/glossary/first-interaction-model",
+        "it": "/it/glossary/first-interaction-model",
+        "pt": "/pt/glossary/first-interaction-model",
+        "ja": "/ja/glossary/first-interaction-model"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "First Interaction Model – Pirsch Analytics",
                         "meta_description": "An attribution model that gives credit for conversions to the first touchpoint a user had with a website or advertising campaign."
+                    },
+                    "de": {
+                        "title": "First Interaction Model – Pirsch Analytics",
+                        "meta_description": "Ein Zuschreibungsmodell, das die Konversionen dem ersten Kontaktpunkt zuschreibt, den ein Benutzer mit einer Webseite oder Werbekampagne hatte."
+                    },
+                    "es": {
+                        "title": "Modelo de Primera Interacción – Pirsch Analytics",
+                        "meta_description": "Un modelo de atribución que otorga crédito por conversiones al primer punto de contacto que un usuario tuvo con un sitio web o campaña publicitaria."
+                    },
+                    "fr": {
+                        "title": "Modèle de Première Interaction – Pirsch Analytics",
+                        "meta_description": "Un modèle d'attribution qui accorde le crédit des conversions au premier point de contact qu'un utilisateur a eu avec un site web ou une campagne publicitaire."
+                    },
+                    "nl": {
+                        "title": "First Interaction Model – Pirsch Analytics",
+                        "meta_description": "Een attributiemodel dat de conversies toeschrijft aan het eerste contactpunt dat een gebruiker had met een website of reclamecampagne."
+                    },
+                    "it": {
+                        "title": "Modello di Prima Interazione – Pirsch Analytics",
+                        "meta_description": "Un modello di attribuzione che assegna il merito delle conversioni al primo punto di contatto che un utente ha avuto con un sito web o una campagna pubblicitaria."
+                    },
+                    "pt": {
+                        "title": "Modelo de Primeira Interação – Pirsch Analytics",
+                        "meta_description": "Um modelo de atribuição que dá crédito por conversões ao primeiro ponto de contato que um usuário teve com um site ou campanha publicitária."
+                    },
+                    "ja": {
+                        "title": "ファーストインタラクションモデル – Pirsch Analytics",
+                        "meta_description": "ユーザーがウェブサイトや広告キャンペーンと最初に接触したタッチポイントにコンバージョンのクレジットを与える帰属モデルです。"
                     }
                 }
             },
@@ -21,10 +56,52 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is the First Interaction Model?",
                         "text": "<p>The First Interaction Model, also known as the First Click Attribution Model, is an attribution model used in web analytics that assigns 100% of the credit for a <a href=\"/glossary/conversion\">conversion</a> to the first touchpoint with which a customer interacts. This model is particularly useful when evaluating which marketing channels are most effective at driving customer engagement.</p><p>For example, if a user first discovers a website by clicking on a Google Ads ad, then returns a week later by clicking on a social media post, and finally makes a purchase after clicking on an email link, the First Interaction Model would attribute all of the conversion value to the Google Ads campaign. This insight can help marketers understand the importance of each channel in driving awareness and starting the customer journey.</p><p>Using this model helps companies allocate their marketing budget more effectively by emphasizing the channels that are best at driving new website visitors or leads. However, it may not fully account for the contribution of subsequent interactions that help nurture and close sales.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist das First Interaction Model?",
+                        "text": "<p>Das First Interaction Model, auch bekannt als First Click Attribution Model, ist ein Zuschreibungsmodell in der Webanalyse, das 100% der Anerkennung für eine <a href=\"/de/glossary/conversion\">Konversion</a> dem ersten Kontaktpunkt zuschreibt, mit dem ein Kunde interagiert. Dieses Modell ist besonders nützlich, um zu bewerten, welche Marketingkanäle am effektivsten sind, um Kundenbindung zu fördern.</p><p>Beispielsweise, wenn ein Benutzer eine Webseite zum ersten Mal durch Klicken auf eine Google Ads-Anzeige entdeckt, dann eine Woche später durch Klicken auf einen Beitrag in sozialen Medien zurückkehrt und schließlich einen Kauf tätigt, nachdem er auf einen Link in einer E-Mail geklickt hat, würde das First Interaction Model den gesamten Konversionswert der Google Ads-Kampagne zuschreiben. Diese Einsicht kann Marketern helfen, die Bedeutung jedes Kanals beim Aufbau von Bewusstsein und beim Starten der Kundenreise zu verstehen.</p><p>Die Verwendung dieses Modells hilft Unternehmen, ihr Marketingbudget effektiver zuzuweisen, indem sie die Kanäle betonen, die am besten neue Website-Besucher oder Leads anziehen. Es kann jedoch nicht vollständig die Beiträge nachfolgender Interaktionen berücksichtigen, die helfen, den Verkauf zu fördern und abzuschließen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es el Modelo de Primera Interacción?",
+                        "text": "<p>El Modelo de Primera Interacción, también conocido como Modelo de Atribución de Primer Clic, es un modelo de atribución utilizado en análisis web que asigna el 100% del crédito por una <a href=\"/es/glossary/conversion\">conversión</a> al primer punto de contacto con el que interactúa un cliente. Este modelo es particularmente útil para evaluar qué canales de marketing son más efectivos para impulsar el compromiso del cliente.</p><p>Por ejemplo, si un usuario descubre por primera vez un sitio web al hacer clic en un anuncio de Google Ads, regresa una semana más tarde haciendo clic en una publicación de redes sociales y finalmente realiza una compra después de hacer clic en un enlace de correo electrónico, el Modelo de Primera Interacción atribuiría todo el valor de la conversión a la campaña de Google Ads. Esta perspectiva puede ayudar a los mercadólogos a entender la importancia de cada canal en impulsar la conciencia y comenzar el viaje del cliente.</p><p>Usar este modelo ayuda a las empresas a asignar su presupuesto de marketing de manera más efectiva al enfatizar los canales que son mejores para atraer nuevos visitantes al sitio web o prospectos. Sin embargo, puede no tener en cuenta completamente la contribución de las interacciones subsiguientes que ayudan a cultivar y cerrar ventas.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce que le modèle de première interaction ?",
+                        "text": "<p>Le modèle de première interaction, également connu sous le nom de modèle d'attribution du premier clic, est un modèle d'attribution utilisé dans l'analyse web qui attribue 100% du crédit pour une <a href=\"/fr/glossary/conversion\">conversion</a> au premier point de contact avec lequel un client interagit. Ce modèle est particulièrement utile pour évaluer quels canaux de marketing sont les plus efficaces pour stimuler l'engagement des clients.</p><p>Par exemple, si un utilisateur découvre pour la première fois un site web en cliquant sur une annonce Google Ads, puis revient une semaine plus tard en cliquant sur un post de média social, et enfin fait un achat après avoir cliqué sur un lien dans un courriel, le modèle de première interaction attribuerait toute la valeur de la conversion à la campagne Google Ads. Cette perspicacité peut aider les marketeurs à comprendre l'importance de chaque canal dans la sensibilisation et le début du parcours client.</p><p>Utiliser ce modèle aide les entreprises à allouer leur budget marketing plus efficacement en mettant l'accent sur les canaux qui sont les meilleurs pour attirer de nouveaux visiteurs sur le site ou des prospects. Cependant, il peut ne pas tenir compte complètement de la contribution des interactions subséquentes qui aident à nourrir et à conclure les ventes.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het glossarium",
+                        "headline": "Wat is het First Interaction Model?",
+                        "text": "<p>Het First Interaction Model, ook bekend als het First Click Attribution Model, is een attributiemodel gebruikt in webanalyse dat 100% van de erkenning voor een <a href=\"/nl/glossary/conversion\">conversie</a> toekent aan het eerste contactpunt waarmee een klant interacteert. Dit model is bijzonder nuttig om te evalueren welke marketingkanalen het meest effectief zijn bij het stimuleren van klantbetrokkenheid.</p><p>Bijvoorbeeld, als een gebruiker voor het eerst een website ontdekt door te klikken op een Google Ads-advertentie, een week later terugkeert door te klikken op een sociale media-post, en uiteindelijk een aankoop doet na te hebben geklikt op een e-mail link, zou het First Interaction Model alle conversiewaarde toewijzen aan de Google Ads-campagne. Dit inzicht kan marketeers helpen de belangrijkheid van elk kanaal in het aanwakkeren van bewustzijn en het starten van de klantreis te begrijpen.</p><p>Het gebruik van dit model helpt bedrijven hun marketingbudget effectiever toe te wijzen door de kanalen te benadrukken die het beste nieuwe websitebezoekers of leads aantrekken. Echter, het kan niet volledig rekening houden met de bijdrage van daaropvolgende interacties die helpen bij het koesteren en sluiten van verkopen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è il modello di prima interazione?",
+                        "text": "<p>Il modello di prima interazione, noto anche come modello di attribuzione del primo clic, è un modello di attribuzione utilizzato nell'analisi web che assegna il 100% del credito per una <a href=\"/it/glossary/conversion\">conversione</a> al primo punto di contatto con cui un cliente interagisce. Questo modello è particolarmente utile per valutare quali canali di marketing sono più efficaci nel guidare l'engagement dei clienti.</p><p>Ad esempio, se un utente scopre per la prima volta un sito web cliccando su un annuncio di Google Ads, poi ritorna una settimana dopo cliccando su un post di social media, e infine effettua un acquisto dopo aver cliccato su un link in una email, il modello di prima interazione attribuirebbe tutto il valore della conversione alla campagna Google Ads. Questa intuizione può aiutare i marketer a comprendere l'importanza di ogni canale nel suscitare interesse e nell'iniziare il viaggio del cliente.</p><p>Utilizzare questo modello aiuta le aziende ad allocare il loro budget di marketing più efficacemente enfatizzando i canali che sono migliori nel attrarre nuovi visitatori al sito o lead. Tuttavia, potrebbe non tenere pienamente conto del contributo delle interazioni successive che aiutano a coltivare e concludere le vendite.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é o Modelo de Primeira Interação?",
+                        "text": "<p>O Modelo de Primeira Interação, também conhecido como Modelo de Atribuição de Primeiro Clique, é um modelo de atribuição usado em análise web que atribui 100% do crédito por uma <a href=\"/pt/glossary/conversion\">conversão</a> ao primeiro ponto de contato com o qual um cliente interage. Este modelo é particularmente útil para avaliar quais canais de marketing são mais eficazes para promover o envolvimento do cliente.</p><p>Por exemplo, se um usuário descobre um site pela primeira vez ao clicar em um anúncio do Google Ads, retorna uma semana depois clicando em uma postagem de mídia social, e finalmente faz uma compra após clicar em um link de e-mail, o Modelo de Primeira Interação atribuiria todo o valor da conversão à campanha do Google Ads. Essa percepção pode ajudar os profissionais de marketing a entender a importância de cada canal no desenvolvimento da consciência e no início da jornada do cliente.</p><p>Usar este modelo ajuda as empresas a alocar seu orçamento de marketing de forma mais eficaz, enfatizando os canais que são melhores em atrair novos visitantes ao site ou leads. No entanto, pode não considerar totalmente a contribuição das interações subsequentes que ajudam a nutrir e fechar vendas.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ファーストインタラクションモデルとは何ですか？",
+                        "text": "<p>ファーストインタラクションモデル、またはファーストクリック帰属モデルとも呼ばれるものは、顧客が最初に触れた接点に対して100％のクレジットを割り当てるウェブ分析で使用される帰属モデルです。このモデルは、顧客エンゲージメントを推進する上で最も効果的なマーケティングチャネルを評価する際に特に有用です。</p><p>たとえば、ユーザーがGoogle広告の広告をクリックしてウェブサイトを初めて発見し、その後1週間でソーシャルメディアの投稿をクリックして戻り、メールのリンクをクリックして購入する場合、ファーストインタラクションモデルは全てのコンバージョン値をGoogle広告キャンペーンに帰属します。この洞察は、顧客の旅を開始し、意識を高めるために各チャンネルの重要性をマーケターに理解させるのに役立ちます。</p><p>このモデルを使用することで、企業は新しいウェブサイト訪問者やリードを引き付けるのに最も優れたチャンネルを強調することによって、マーケティング予算をより効果的に割り当てることができます。ただし、販売を育成して締結するのを助ける後続のインタラクションの貢献を完全には考慮していないかもしれません。</p>"
                     }
                 }
             },

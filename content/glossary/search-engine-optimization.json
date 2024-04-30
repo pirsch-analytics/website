@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is Search Engine Optimization (SEO)?",
                         "text": "<p>Search engine optimization (SEO) is the practice of increasing the quantity and quality of traffic to a website from organic search engine results. It involves optimizing web content and website architecture to improve visibility in search engine results pages (<a href=\"/glossary/search-engine-results-page\">SERPs</a>). SEO techniques include using relevant keywords, improving site speed, ensuring usability for mobile devices, and creating high-quality content that addresses user needs.</p><p>For example, if a website wanted to rank higher for \"homemade chocolate recipes\", it would naturally incorporate those keywords into titles, descriptions, and text. The site might also ensure that images are tagged correctly, that the page loads quickly, and that the content is valuable and well-organized so that search engines can index it more easily and users can find it more easily.</p><p>Effective search engine optimization (SEO) is critical to digital marketing because it helps websites achieve higher visibility without the direct cost of advertising, resulting in more organic traffic, increased user engagement, and potentially more conversions.</p>"

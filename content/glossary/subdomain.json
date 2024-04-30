@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "glossary",
+                        "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is a Subdomain?",
                         "text": "<p>A subdomain is a prefix added to a website's domain name that allows companies to organize different areas of their website or host different services under the same main domain. Subdomains function as separate entities and can be used to organize content, target specific audiences, or host a related service such as a blog or online store separately from the main website.</p><p>For example, a company could use \"shop.example.com\" for its online store and \"blog.example.com\" for its content marketing efforts. This helps to structure the website in a way that improves user navigation and optimizes <a href=\"/glossary/search-engine-optimization\">search engine optimization</a> by effectively separating different types of content. Each subdomain can be equipped with its own user interface, customized content and separate analysis functions, which allow a more detailed insight into the performance of the different areas of the website.</p><p>The use of subdomains can influence the indexing of websites by search engines and can be advantageous for large organizations with different content requirements or for hosting different language versions of a website.</p>"

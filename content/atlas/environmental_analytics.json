@@ -21,7 +21,7 @@
                 "tpl": "glossary_entry",
                 "copy": {
                     "en": {
-                        "link": "atlas",
+                        "link": "/atlas",
                         "label": "Return to Atlas",
                         "headline": "What is Environmental Analytics?",
                         "text": "<p><strong>Environmental Analytics</strong> focuses on the analysis of environmental data to understand and address environmental challenges. The field uses data collected from a variety of sources, such as satellite imagery, sensors, and environmental monitoring stations, to study patterns and trends in the environment. By analyzing this data, scientists and policymakers can make more informed decisions about conservation efforts, resource management, and sustainable practices.</p><p>Analysts can track changes in climate patterns, air and water quality, biodiversity, and land use. Tools and techniques commonly used in environmental analytics include geographic information systems (GIS), remote sensing, and predictive modeling. These tools help visualize complex environmental data and predict future environmental conditions based on current and historical trends.</p><p>In addition, environmental analytics plays a critical role in developing strategies to mitigate the effects of climate change, manage natural disasters, and preserve natural habitats. By providing deep insight into environmental conditions and how they change over time, environmental analytics supports efforts to create a sustainable future and helps governments, businesses and communities make better decisions about environmental stewardship.</p>"
