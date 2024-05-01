@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/funnel"
+        "en": "/glossary/funnel",
+        "de": "/de/glossary/funnel",
+        "es": "/es/glossary/funnel",
+        "fr": "/fr/glossary/funnel",
+        "nl": "/nl/glossary/funnel",
+        "it": "/it/glossary/funnel",
+        "pt": "/pt/glossary/funnel",
+        "ja": "/ja/glossary/funnel"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Funnel – Pirsch Analytics",
                         "meta_description": "A series of steps or stages that a user goes through before completing a desired action, such as making a purchase."
+                    },
+                    "de": {
+                        "title": "Funnel – Pirsch Analytics",
+                        "meta_description": "Eine Reihe von Schritten oder Stufen, die ein Benutzer durchläuft, bevor er eine gewünschte Aktion, wie zum Beispiel einen Kauf, abschließt."
+                    },
+                    "es": {
+                        "title": "Embudo – Pirsch Analytics",
+                        "meta_description": "Una serie de pasos o etapas que un usuario recorre antes de completar una acción deseada, como realizar una compra."
+                    },
+                    "fr": {
+                        "title": "Entonnoir – Pirsch Analytics",
+                        "meta_description": "Une série d'étapes que l'utilisateur doit franchir avant de réaliser une action souhaitée, telle qu'un achat."
+                    },
+                    "nl": {
+                        "title": "Trechter – Pirsch Analytics",
+                        "meta_description": "Een reeks stappen of fasen die een gebruiker doorloopt voordat hij een gewenste actie voltooit, zoals een aankoop doen."
+                    },
+                    "it": {
+                        "title": "Imbuto – Pirsch Analytics",
+                        "meta_description": "Una serie di passaggi o fasi che un utente percorre prima di completare un'azione desiderata, come effettuare un acquisto."
+                    },
+                    "pt": {
+                        "title": "Funil – Pirsch Analytics",
+                        "meta_description": "Uma série de etapas que um usuário percorre antes de completar uma ação desejada, como fazer uma compra."
+                    },
+                    "ja": {
+                        "title": "ファネル – Pirsch Analytics",
+                        "meta_description": "購入などの望ましい行動を完了する前にユーザーが通過する一連のステップまたは段階。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Funnel?",
                         "text": "<p>A funnel in web analytics is a framework used to visualize the step-by-step process that users go through to achieve a specific goal on a website or in an application. This concept is important for understanding the flow of user interaction from initial contact through various stages of engagement to completion of an action, such as making a purchase, signing up for a service, or downloading a resource.</p><p>For example, an e-commerce funnel might include stages such as \"visit homepage\", \"view product page\", \"add to cart\", and \"complete purchase\". By analyzing the number of users moving through each stage of the funnel, site owners can determine where users are bouncing or converting. This insight enables targeted improvements at the points where users leave the funnel, optimizing the entire path to <a href=\"/glossary/conversion\">conversion</a>.</p><p>Funnels help businesses optimize user interactions and maximize the effectiveness of the conversion process by focusing on user behavior and removing potential barriers to completing the desired action.</p"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Trichter?",
+                        "text": "<p>Ein Trichter in der Webanalytik ist ein Rahmenwerk, das dazu dient, den schrittweisen Prozess zu visualisieren, den Benutzer durchlaufen, um ein spezifisches Ziel auf einer Webseite oder in einer Anwendung zu erreichen. Dieses Konzept ist wichtig für das Verständnis des Flusses der Benutzerinteraktion von der ersten Kontaktaufnahme über verschiedene Stufen der Interaktion bis zum Abschluss einer Aktion, wie zum Beispiel einem Kauf, einer Anmeldung für einen Dienst oder dem Herunterladen einer Ressource.</p><p>Beispielsweise könnte ein E-Commerce-Trichter Stufen wie \"Homepage besuchen\", \"Produktseite ansehen\", \"In den Warenkorb legen\" und \"Kauf abschließen\" umfassen. Durch die Analyse der Anzahl von Benutzern, die jede Stufe des Trichters durchlaufen, können Website-Betreiber feststellen, wo Benutzer abspringen oder konvertieren. Diese Einsicht ermöglicht gezielte Verbesserungen an den Punkten, an denen Benutzer den Trichter verlassen, und optimiert den gesamten Weg zur <a href=\"/de/glossary/conversion\">Konversion</a>.</p><p>Trichter helfen Unternehmen, Benutzerinteraktionen zu optimieren und die Effektivität des Konversionsprozesses zu maximieren, indem sie sich auf das Benutzerverhalten konzentrieren und potenzielle Barrieren für das Abschließen der gewünschten Aktion beseitigen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es un embudo?",
+                        "text": "<p>Un embudo en análisis web es un marco utilizado para visualizar el proceso paso a paso que los usuarios atraviesan para alcanzar un objetivo específico en un sitio web o en una aplicación. Este concepto es importante para entender el flujo de interacción del usuario desde el contacto inicial a través de varias etapas de compromiso hasta la finalización de una acción, como realizar una compra, inscribirse en un servicio o descargar un recurso.</p><p>Por ejemplo, un embudo de comercio electrónico podría incluir etapas como \"visitar página de inicio\", \"ver página de producto\", \"añadir al carrito\" y \"completar compra\". Al analizar la cantidad de usuarios que avanzan a través de cada etapa del embudo, los propietarios del sitio pueden determinar dónde los usuarios abandonan o convierten. Esta perspectiva permite mejoras dirigidas en los puntos donde los usuarios abandonan el embudo, optimizando todo el camino hacia la <a href=\"/es/glossary/conversion\">conversión</a>.</p><p>Los embudos ayudan a las empresas a optimizar las interacciones de los usuarios y maximizar la efectividad del proceso de conversión al enfocarse en el comportamiento del usuario y eliminar barreras potenciales para completar la acción deseada.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce qu'un entonnoir ?",
+                        "text": "<p>Un entonnoir dans l'analyse web est un cadre utilisé pour visualiser le processus étape par étape que les utilisateurs suivent pour atteindre un objectif spécifique sur un site web ou dans une application. Ce concept est important pour comprendre le flux d'interaction des utilisateurs depuis le premier contact jusqu'aux différentes étapes d'engagement jusqu'à la réalisation d'une action, telle que faire un achat, s'inscrire à un service ou télécharger une ressource.</p><p>Par exemple, un entonnoir de commerce électronique pourrait inclure des étapes telles que \"visiter la page d'accueil\", \"voir la page produit\", \"ajouter au panier\" et \"compléter l'achat\". En analysant le nombre d'utilisateurs passant par chaque étape de l'entonnoir, les propriétaires de sites peuvent déterminer où les utilisateurs abandonnent ou convertissent. Cette perspicacité permet des améliorations ciblées aux points où les utilisateurs quittent l'entonnoir, optimisant tout le chemin vers la <a href=\"/fr/glossary/conversion\">conversion</a>.</p><p>Les entonnoirs aident les entreprises à optimiser les interactions des utilisateurs et à maximiser l'efficacité du processus de conversion en se concentrant sur le comportement des utilisateurs et en éliminant les obstacles potentiels à la réalisation de l'action désirée.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het glossarium",
+                        "headline": "Wat is een trechter?",
+                        "text": "<p>Een trechter in webanalyse is een raamwerk dat gebruikt wordt om het stapsgewijze proces te visualiseren dat gebruikers doorgaan om een specifiek doel op een website of in een toepassing te bereiken. Dit concept is belangrijk voor het begrijpen van de stroom van gebruikersinteractie vanaf het eerste contact door verschillende engagementfasen tot de voltooiing van een actie, zoals het maken van een aankoop, het aanmelden voor een dienst of het downloaden van een bron.</p><p>Bijvoorbeeld, een e-commerce trechter kan stadia omvatten zoals \"homepage bezoeken\", \"productpagina bekijken\", \"aan winkelwagen toevoegen\" en \"aankoop voltooien\". Door het aantal gebruikers te analyseren dat door elke fase van de trechter beweegt, kunnen site-eigenaren bepalen waar gebruikers afhaken of converteren. Dit inzicht maakt gerichte verbeteringen mogelijk op de punten waar gebruikers de trechter verlaten, en optimaliseert het gehele pad naar <a href=\"/nl/glossary/conversion\">conversie</a>.</p><p>Trechters helpen bedrijven gebruikersinteracties te optimaliseren en de effectiviteit van het conversieproces te maximaliseren door zich te concentreren op gebruikersgedrag en potentiële belemmeringen voor het voltooien van de gewenste actie weg te nemen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è un imbuto?",
+                        "text": "<p>Un imbuto nell'analisi web è un framework utilizzato per visualizzare il processo passo dopo passo che gli utenti seguono per raggiungere un obiettivo specifico su un sito web o in un'applicazione. Questo concetto è importante per comprendere il flusso delle interazioni degli utenti dal primo contatto attraverso varie fasi di coinvolgimento fino al completamento di un'azione, come fare un acquisto, iscriversi a un servizio o scaricare una risorsa.</p><p>Ad esempio, un imbuto di e-commerce potrebbe includere fasi come \"visita homepage\", \"visualizza pagina prodotto\", \"aggiungi al carrello\" e \"completa acquisto\". Analizzando il numero di utenti che si muovono attraverso ciascuna fase dell'imbuto, i proprietari del sito possono determinare dove gli utenti interrompono o convertono. Questa intuizione consente miglioramenti mirati ai punti in cui gli utenti lasciano l'imbuto, ottimizzando l'intero percorso verso la <a href=\"/it/glossary/conversion\">conversione</a>.</p><p>Gli imbuti aiutano le aziende a ottimizzare le interazioni degli utenti e massimizzare l'efficacia del processo di conversione, concentrandosi sul comportamento degli utenti e rimuovendo potenziali ostacoli al completamento dell'azione desiderata.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar para o glossário",
+                        "headline": "O que é um funil?",
+                        "text": "<p>Um funil em análise web é uma estrutura usada para visualizar o processo passo a passo que os usuários passam para alcançar um objetivo específico em um site ou em um aplicativo. Este conceito é importante para entender o fluxo de interação do usuário desde o contato inicial através de várias etapas de envolvimento até a conclusão de uma ação, como fazer uma compra, inscrever-se para um serviço ou baixar um recurso.</p><p>Por exemplo, um funil de e-commerce pode incluir estágios como \"visitar página inicial\", \"ver página do produto\", \"adicionar ao carrinho\" e \"completar compra\". Ao analisar o número de usuários que passam por cada estágio do funil, os proprietários do site podem determinar onde os usuários estão desistindo ou convertendo. Esse insight permite melhorias direcionadas nos pontos onde os usuários deixam o funil, otimizando todo o caminho para a <a href=\"/pt/glossary/conversion\">conversão</a>.</p><p>Os funis ajudam as empresas a otimizar as interações dos usuários e maximizar a eficácia do processo de conversão, focando no comportamento do usuário e eliminando barreiras potenciais para completar a ação desejada.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ファネルとは何か？",
+                        "text": "<p>Web分析におけるファネルは、ユーザーがウェブサイトやアプリケーションで特定の目標を達成するために経る段階的なプロセスを視覚化するために使用されるフレームワークです。この概念は、最初の接触から各種のエンゲージメントの段階を経て、購入やサービス登録、リソースのダウンロードなどのアクションの完了までのユーザーインタラクションの流れを理解するために重要です。</p><p>例えば、電子商取引のファネルには、「ホームページを訪問する」、「商品ページを見る」、「カートに追加する」、「購入を完了する」といった段階が含まれるかもしれません。各段階を通過するユーザーの数を分析することで、サイトの所有者はユーザーが離脱または変換する場所を特定できます。この洞察により、ユーザーがファネルを離れるポイントでの目標化された改善が可能となり、<a href=\"/ja/glossary/conversion\">コンバージョン</a>への道のり全体を最適化します。</p><p>ファネルは、ユーザーの行動に焦点を当て、希望するアクションの完了を妨げる可能性のある障壁を取り除くことによって、ユーザーのインタラクションを最適化し、変換プロセスの効果を最大化するのに役立ちます。</p>"
                     }
                 }
             },
