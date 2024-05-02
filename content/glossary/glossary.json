@@ -1443,6 +1443,698 @@
                                 "slug": "/fr/glossary/utm-code"
                             }
                         ]
+                    },
+                    "nl": {
+                        "headline": "Woordenlijst Webanalyse",
+                        "text": "Webanalyse en online marketing zijn grote onderwerpen met een breed scala aan technische termen. Bekijk de woordenlijst voor de belangrijkste terminologie en definities.",
+                        "entries": [
+                            {
+                                "title": "403 Verboden Fout",
+                                "description": "Een statuscode die aangeeft dat de server het verzoek begrepen heeft maar weigert het te autoriseren.",
+                                "slug": "/nl/glossary/403-forbidden"
+                            },
+                            {
+                                "title": "404 Niet Gevonden Fout",
+                                "description": "Een statuscode die aangeeft dat de server de gevraagde bron niet kan vinden.",
+                                "slug": "/nl/glossary/404-not-found"
+                            },
+                            {
+                                "title": "500 Interne Serverfout",
+                                "description": "Een statuscode die aangeeft dat de server een onverwachte voorwaarde heeft ontmoet die het verzoek belemmert.",
+                                "slug": "/nl/glossary/500-internal-server-error"
+                            },
+                            {
+                                "title": "A/B Testen",
+                                "description": "Een methode om twee versies van een webpagina of app tegen elkaar te testen om te bepalen welke beter presteert.",
+                                "slug": "/nl/glossary/ab-testing"
+                            },
+                            {
+                                "title": "Accelerated Mobile Page (AMP)",
+                                "description": "Een webpagina ontworpen om snel te laden en goed te presteren op mobiele apparaten.",
+                                "slug": "/nl/glossary/accelerated-mobile-page"
+                            },
+                            {
+                                "title": "Adblocker",
+                                "description": "Software ontworpen om advertenties op een webpagina of in een app te blokkeren.",
+                                "slug": "/nl/glossary/adblocker"
+                            },
+                            {
+                                "title": "Geassisteerde Conversie",
+                                "description": "Een conversie die is beïnvloed door meerdere interacties met een website of advertentiecampagne.",
+                                "slug": "/nl/glossary/assisted-conversion"
+                            },
+                            {
+                                "title": "Attributiemodel",
+                                "description": "Een set regels of methodologieën die worden gebruikt om te bepalen hoe de credits voor conversies en verkopen worden toegewezen aan contactpunten in het conversiepad.",
+                                "slug": "/nl/glossary/attribution-model"
+                            },
+                            {
+                                "title": "Gemiddelde Sessieduur",
+                                "description": "De gemiddelde tijd die gebruikers doorbrengen op een website tijdens een enkele sessie.",
+                                "slug": "/nl/glossary/session-duration"
+                            },
+                            {
+                                "title": "Bouncepercentage",
+                                "description": "Het percentage bezoekers dat een website verlaat na slechts één pagina te hebben bekeken.",
+                                "slug": "/nl/glossary/bounce-rate"
+                            },
+                            {
+                                "title": "Call to Action (CTA)",
+                                "description": "Een prompt die een gebruiker aanmoedigt om een specifieke actie te ondernemen, zoals het klikken op een knop of het invullen van een formulier.",
+                                "slug": "/nl/glossary/call-to-action"
+                            },
+                            {
+                                "title": "CCPA",
+                                "description": "California Consumer Privacy Act, een staatswet bedoeld om de privacyrechten en consumentenbescherming voor inwoners van Californië te verbeteren.",
+                                "slug": "/nl/glossary/ccpa"
+                            },
+                            {
+                                "title": "Click-Through Rate (CTR)",
+                                "description": "Het percentage gebruikers dat op een specifieke link klikt uit het totaal aantal gebruikers dat een pagina, e-mail of advertentie bekijkt.",
+                                "slug": "/nl/glossary/click-through-rate"
+                            },
+                            {
+                                "title": "Conversie",
+                                "description": "Het voltooien van een gewenste actie door een gebruiker, zoals het doen van een aankoop of het invullen van een formulier.",
+                                "slug": "/nl/glossary/conversion"
+                            },
+                            {
+                                "title": "Conversieratio",
+                                "description": "Het percentage websitebezoekers dat een gewenst doel bereikt, zoals het doen van een aankoop of het invullen van een formulier.",
+                                "slug": "/nl/glossary/conversion-rate"
+                            },
+                            {
+                                "title": "Conversie Ratio Optimalisatie (CRO)",
+                                "description": "Het proces van het verbeteren van het percentage websitebezoekers dat een gewenst doel bereikt.",
+                                "slug": "/nl/glossary/conversion-rate-optimization"
+                            },
+                            {
+                                "title": "Cookie",
+                                "description": "Een klein stukje data dat door een website op het apparaat van een gebruiker wordt opgeslagen, meestal gebruikt om voorkeuren te onthouden en gebruikersgedrag te volgen.",
+                                "slug": "/nl/glossary/cookie"
+                            },
+                            {
+                                "title": "Cookie Toestemmingsbanner",
+                                "description": "Een banner of pop-upbericht dat op een website wordt weergegeven, waarin gebruikers worden geïnformeerd over het gebruik van cookies en waarin om hun toestemming wordt gevraagd.",
+                                "slug": "/nl/glossary/cookie-consent-banner"
+                            },
+                            {
+                                "title": "Kosten per Klik (CPC)",
+                                "description": "Het bedrag dat een adverteerder betaalt voor elke klik op hun advertentie.",
+                                "slug": "/nl/glossary/cost-per-click"
+                            },
+                            {
+                                "title": "Gegevensverwerkings Overeenkomst (DPA)",
+                                "description": "Een contract dat de verantwoordelijkheden van de gegevensbeheerder en de gegevensverwerker met betrekking tot de verwerking van persoonsgegevens vastlegt.",
+                                "slug": "/nl/glossary/data-processing-agreement"
+                            },
+                            {
+                                "title": "Apparaat",
+                                "description": "Een fysiek of virtueel apparaat, zoals een computer, smartphone of tablet, dat wordt gebruikt om toegang te krijgen tot internet.",
+                                "slug": "/nl/glossary/device"
+                            },
+                            {
+                                "title": "Direct Verkeer",
+                                "description": "Bezoekers die een website bereiken door het URL direct in hun browser in te typen of via een bladwijzer.",
+                                "slug": "/nl/glossary/direct-traffic"
+                            },
+                            {
+                                "title": "ePrivacy",
+                                "description": "Een richtlijn van de Europese Unie die de verwerking van persoonsgegevens en de bescherming van privacy in elektronische communicatie reguleert.",
+                                "slug": "/nl/glossary/e-privacy"
+                            },
+                            {
+                                "title": "Betrokkenheidsgraad",
+                                "description": "Een maatstaf voor hoe actief gebruikers betrokken zijn bij een stuk content, meestal uitgedrukt als een percentage van de totale interacties.",
+                                "slug": "/nl/glossary/engagement-rate"
+                            },
+                            {
+                                "title": "Model van Eerste Interactie",
+                                "description": "Een attributiemodel dat de conversies toekent aan het eerste contactpunt dat een gebruiker had met een website of advertentiecampagne.",
+                                "slug": "/nl/glossary/first-interaction-model"
+                            },
+                            {
+                                "title": "First-Party Cookie",
+                                "description": "Een cookie dat door de domein van de bezochte website wordt gezet, gebruikt om gebruikersvoorkeuren te onthouden en gebruikersgedrag binnen die website te volgen.",
+                                "slug": "/nl/glossary/first-party-cookie"
+                            },
+                            {
+                                "title": "Trechter",
+                                "description": "Een reeks stappen of stadia die een gebruiker doorloopt voordat hij een gewenste actie voltooit, zoals een aankoop doen.",
+                                "slug": "/nl/glossary/funnel"
+                            },
+                            {
+                                "title": "AVG",
+                                "description": "Algemene Verordening Gegevensbescherming, een verordening in het EU-recht over gegevensbescherming en privacy voor alle individuele burgers van de Europese Unie en de Europese Economische Ruimte.",
+                                "slug": "/nl/glossary/gdpr"
+                            },
+                            {
+                                "title": "AVG Toestemming",
+                                "description": "Toestemming verkregen van individuen in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG) voor de verwerking van hun persoonsgegevens.",
+                                "slug": "/nl/glossary/gdpr-consent"
+                            },
+                            {
+                                "title": "Google Analytics 4",
+                                "description": "De nieuwste versie van Google Analytics, biedt geavanceerde analysemogelijkheden zoals cross-platform tracking, verbeterde rapportage en inzichten via machine learning.",
+                                "slug": "/nl/glossary/google-analytics-4"
+                            },
+                            {
+                                "title": "IP-adres",
+                                "description": "Een numeriek label toegewezen aan elk apparaat verbonden met een computernetwerk dat het Internet Protocol gebruikt voor communicatie.",
+                                "slug": "/nl/glossary/ip-address"
+                            },
+                            {
+                                "title": "Trefwoord",
+                                "description": "Een woord of frase die de inhoud van een webpagina beschrijft en wordt gebruikt door zoekmachines om zoekopdrachten te matchen met relevante pagina's.",
+                                "slug": "/nl/glossary/keyword"
+                            },
+                            {
+                                "title": "Landingspagina",
+                                "description": "Een webpagina waar gebruikers op terechtkomen na het klikken op een link in een advertentie, zoekmachine resultatenpagina, of andere externe bron.",
+                                "slug": "/nl/glossary/landing-page"
+                            },
+                            {
+                                "title": "Live Bezoeker",
+                                "description": "Een gebruiker die momenteel actief is op een website.",
+                                "slug": "/nl/glossary/live-visitor"
+                            },
+                            {
+                                "title": "Locatie",
+                                "description": "De fysieke of geografische locatie van een gebruiker die een website of app benadert, meestal bepaald door hun IP-adres of GPS-coördinaten.",
+                                "slug": "/nl/glossary/location"
+                            },
+                            {
+                                "title": "Besturingssysteem",
+                                "description": "Software die computerhardware beheert en algemene diensten biedt voor computerprogramma's, zoals Windows, macOS en Linux.",
+                                "slug": "/nl/glossary/operating-system"
+                            },
+                            {
+                                "title": "Organische Zoekopdracht",
+                                "description": "Verkeer dat naar een website komt als gevolg van onbetaalde zoekresultaten, ook bekend als natuurlijke of organische zoekopdracht.",
+                                "slug": "/nl/glossary/organic-search"
+                            },
+                            {
+                                "title": "Betaalde Zoekanalyse",
+                                "description": "Het proces van het analyseren en beoordelen van de prestaties van betaalde zoekcampagnes, inclusief advertentieprestaties, effectiviteit van trefwoorden en rendement op investering (ROI).",
+                                "slug": "/nl/glossary/paid-search-analysis"
+                            },
+                            {
+                                "title": "Paginasnelheid",
+                                "description": "De tijd die nodig is voor een webpagina om te laden en interactief te worden voor gebruikers.",
+                                "slug": "/nl/glossary/page-speed"
+                            },
+                            {
+                                "title": "Paginatitel",
+                                "description": "De titel van een webpagina die bovenaan een browser venster verschijnt en wordt weergegeven in de zoekmachine resultatenpagina's.",
+                                "slug": "/nl/glossary/page-title"
+                            },
+                            {
+                                "title": "Paginaweergave",
+                                "description": "Een enkele instantie van een gebruiker die een webpagina op een website bekijkt.",
+                                "slug": "/nl/glossary/page-view"
+                            },
+                            {
+                                "title": "PECR",
+                                "description": "Privacy en Elektronische Communicatie Regelgeving, een reeks regelgevingen in het Verenigd Koninkrijk die het gebruik van elektronische communicatie regelt.",
+                                "slug": "/nl/glossary/pecr"
+                            },
+                            {
+                                "title": "Persoonsgegevens",
+                                "description": "Alle informatie die betrekking heeft op een geïdentificeerde of identificeerbare persoon, zoals hun naam, e-mailadres of IP-adres.",
+                                "slug": "/nl/glossary/personal-data"
+                            },
+                            {
+                                "title": "Persoonlijk Identificeerbare Informatie (PII)",
+                                "description": "Elke informatie die kan worden gebruikt om een individu te identificeren, zoals hun naam, e-mailadres of telefoonnummer.",
+                                "slug": "/nl/glossary/personal-identifiable-information"
+                            },
+                            {
+                                "title": "Privacy Shield",
+                                "description": "Een raamwerk voor het reguleren van trans-Atlantische uitwisselingen van persoonlijke gegevens tussen de Europese Unie en de Verenigde Staten.",
+                                "slug": "/nl/glossary/privacy-shield"
+                            },
+                            {
+                                "title": "Beschermde Gezondheidsinformatie (PHI)",
+                                "description": "Elke informatie over de gezondheidsstatus, de verstrekking van gezondheidszorg, of de betaling voor gezondheidszorg die aan een individu kan worden gekoppeld, zoals gedefinieerd door HIPAA.",
+                                "slug": "/nl/glossary/protected-health-information"
+                            },
+                            {
+                                "title": "Verwijzingstrafiek",
+                                "description": "Bezoekers die op een website komen door te klikken op een link van een andere website.",
+                                "slug": "/nl/glossary/referral-traffic"
+                            },
+                            {
+                                "title": "Verwijzer",
+                                "description": "De bron waaruit een gebruiker op een website is gekomen, meestal een andere website of zoekmachine.",
+                                "slug": "/nl/glossary/referrer"
+                            },
+                            {
+                                "title": "Rendement op Investering (ROI)",
+                                "description": "Een maatstaf voor de winstgevendheid van een investering, doorgaans berekend als de verhouding tussen de netto winst en de initiële investering.",
+                                "slug": "/nl/glossary/return-on-investment"
+                            },
+                            {
+                                "title": "Robots.txt",
+                                "description": "Een tekstbestand dat in de hoofdmap van een website wordt geplaatst om webcrawlers te instrueren welke pagina's of bestanden ze mogen aanvragen van de site.",
+                                "slug": "/nl/glossary/robots-txt"
+                            },
+                            {
+                                "title": "RSS-feed",
+                                "description": "Een webfeed die gebruikers in staat stelt om updates te ontvangen van online inhoud in een gestandaardiseerd, computerleesbaar formaat.",
+                                "slug": "/nl/glossary/rss-feed"
+                            },
+                            {
+                                "title": "Scroll Percentage",
+                                "description": "Het percentage van een webpagina dat een gebruiker heeft doorlopen.",
+                                "slug": "/nl/glossary/scrolled-percentage"
+                            },
+                            {
+                                "title": "Zoekanalyse",
+                                "description": "De analyse van zoekmachinedata om trends, patronen en inzichten te identificeren die verband houden met zoekopdrachten en gebruikersgedrag.",
+                                "slug": "/nl/glossary/search-analytics"
+                            },
+                            {
+                                "title": "Zoekmachineoptimalisatie (SEO)",
+                                "description": "Het proces van het optimaliseren van een website om de zichtbaarheid en ranking in zoekmachine resultaten te verbeteren.",
+                                "slug": "/nl/glossary/search-engine-optimization"
+                            },
+                            {
+                                "title": "Segmentatie",
+                                "description": "Het proces van het verdelen van een doelgroep in kleinere, homogenere groepen op basis van gedeelde kenmerken of gedrag.",
+                                "slug": "/nl/glossary/segmentation"
+                            },
+                            {
+                                "title": "Gevoelige Gegevens",
+                                "description": "Gegevens die, indien gecompromitteerd, schade kunnen toebrengen aan een individu of organisatie, zoals financiële informatie of medische dossiers.",
+                                "slug": "/nl/glossary/sensitive-data"
+                            },
+                            {
+                                "title": "Zoekmachine Resultaten Pagina (SERP)",
+                                "description": "De pagina die door een zoekmachine wordt weergegeven als reactie op een zoekopdracht van een gebruiker, met een lijst van relevante webpagina's.",
+                                "slug": "/nl/glossary/search-engine-results-page"
+                            },
+                            {
+                                "title": "Serverlog Analyse",
+                                "description": "Het proces van het analyseren van serverlogbestanden om inzichten te verkrijgen in websiteverkeer, gebruikersgedrag en systeemprestaties.",
+                                "slug": "/nl/glossary/server-log-analysis"
+                            },
+                            {
+                                "title": "Sessie",
+                                "description": "Een periode waarin een gebruiker interactie heeft met een website.",
+                                "slug": "/nl/glossary/session"
+                            },
+                            {
+                                "title": "Sessieduur",
+                                "description": "De gemiddelde tijd die gebruikers op een website doorbrengen tijdens een enkele sessie.",
+                                "slug": "/nl/glossary/session-duration"
+                            },
+                            {
+                                "title": "Subdomein",
+                                "description": "Een subdivisie van een domein, gebruikt om verschillende secties of functionaliteiten van een website te organiseren en toegankelijk te maken.",
+                                "slug": "/nl/glossary/subdomain"
+                            },
+                            {
+                                "title": "Cookie van Derden",
+                                "description": "Een cookie dat door een ander domein dan het bezochte domein wordt geplaatst, vaak gebruikt voor cross-site tracking en advertenties.",
+                                "slug": "/nl/glossary/third-party-cookie"
+                            },
+                            {
+                                "title": "Tijd op Pagina",
+                                "description": "De hoeveelheid tijd die een gebruiker besteedt op een enkele webpagina voordat hij naar een andere pagina navigeert of de site verlaat.",
+                                "slug": "/nl/glossary/time-on-page"
+                            },
+                            {
+                                "title": "Verkeersrang",
+                                "description": "Een maatstaf voor de populariteit van een website vergeleken met alle andere sites op het internet, meestal gebaseerd op factoren zoals het aantal bezoekers en paginaweergaven.",
+                                "slug": "/nl/glossary/traffic-rank"
+                            },
+                            {
+                                "title": "Uniforme Resource Locator (URL)",
+                                "description": "Een tekenreeks gebruikt om een bron op het internet te identificeren, zoals een webpagina, afbeelding of bestand.",
+                                "slug": "/nl/glossary/uniform-resource-locator"
+                            },
+                            {
+                                "title": "Unieke Bezoeker",
+                                "description": "Een enkele gebruiker die een website bezoekt binnen een gespecificeerde tijdsperiode, ongeacht hoe vaak hij de site bezoekt.",
+                                "slug": "/nl/glossary/unique-visitor"
+                            },
+                            {
+                                "title": "Gebruikersagent",
+                                "description": "Een string met informatie die door een webbrowser of andere clienttoepassing wordt verzonden om zichzelf te identificeren aan een server.",
+                                "slug": "/nl/glossary/user-agent"
+                            },
+                            {
+                                "title": "UTM-Code",
+                                "description": "Urchin Tracking Module-code, een trackingparameter die aan URL's wordt toegevoegd om de effectiviteit van online marketingcampagnes te volgen.",
+                                "slug": "/nl/glossary/utm-code"
+                            }
+                        ]
+                    },
+                    "it": {
+                        "headline": "Glossario di Analitica Web",
+                        "text": "L'analisi web e il marketing online sono argomenti vasti con una vasta gamma di termini tecnici. Consulta il glossario per i termini e le definizioni più importanti.",
+                        "entries": [
+                            {
+                                "title": "Errore 403 Proibito",
+                                "description": "Un codice di stato che indica che il server ha compreso la richiesta ma si rifiuta di autorizzarla.",
+                                "slug": "/it/glossary/403-forbidden"
+                            },
+                            {
+                                "title": "Errore 404 Non Trovato",
+                                "description": "Un codice di stato che indica che il server non può trovare la risorsa richiesta.",
+                                "slug": "/it/glossary/404-not-found"
+                            },
+                            {
+                                "title": "Errore 500 Errore Interno del Server",
+                                "description": "Un codice di stato che indica che il server ha incontrato una condizione imprevista che lo ha impedito di soddisfare la richiesta.",
+                                "slug": "/it/glossary/500-internal-server-error"
+                            },
+                            {
+                                "title": "Test A/B",
+                                "description": "Un metodo per confrontare due versioni di una pagina web o app per determinare quale funziona meglio.",
+                                "slug": "/it/glossary/ab-testing"
+                            },
+                            {
+                                "title": "Pagina Mobile Accelerata (AMP)",
+                                "description": "Una pagina web progettata per caricarsi rapidamente e funzionare bene sui dispositivi mobili.",
+                                "slug": "/it/glossary/accelerated-mobile-page"
+                            },
+                            {
+                                "title": "Adblocker",
+                                "description": "Un software progettato per prevenire la visualizzazione di annunci su una pagina web o in un'app.",
+                                "slug": "/it/glossary/adblocker"
+                            },
+                            {
+                                "title": "Conversione Assistita",
+                                "description": "Una conversione che è stata influenzata da molteplici interazioni con un sito web o una campagna pubblicitaria.",
+                                "slug": "/it/glossary/assisted-conversion"
+                            },
+                            {
+                                "title": "Modello di Attribuzione",
+                                "description": "Un insieme di regole o metodologie utilizzate per determinare come assegnare il credito per le conversioni e le vendite ai punti di contatto nel percorso di conversione.",
+                                "slug": "/it/glossary/attribution-model"
+                            },
+                            {
+                                "title": "Durata Media della Sessione",
+                                "description": "Il tempo medio trascorso dagli utenti su un sito web durante una singola sessione.",
+                                "slug": "/it/glossary/session-duration"
+                            },
+                            {
+                                "title": "Tasso di Rimbalzo",
+                                "description": "La percentuale di visitatori che navigano via da un sito web dopo aver visualizzato solo una pagina.",
+                                "slug": "/it/glossary/bounce-rate"
+                            },
+                            {
+                                "title": "Call to Action (CTA)",
+                                "description": "Un prompt che incoraggia un utente a compiere una specifica azione, come cliccare un pulsante o compilare un modulo.",
+                                "slug": "/it/glossary/call-to-action"
+                            },
+                            {
+                                "title": "CCPA",
+                                "description": "California Consumer Privacy Act, una legge statale volta a migliorare i diritti alla privacy e la protezione dei consumatori per i residenti in California.",
+                                "slug": "/it/glossary/ccpa"
+                            },
+                            {
+                                "title": "Tasso di Click-Through (CTR)",
+                                "description": "La percentuale di utenti che cliccano su un link specifico rispetto al numero totale di utenti che visualizzano una pagina, email o annuncio.",
+                                "slug": "/it/glossary/click-through-rate"
+                            },
+                            {
+                                "title": "Conversione",
+                                "description": "Il completamento di un'azione desiderata da parte di un utente, come effettuare un acquisto o compilare un modulo.",
+                                "slug": "/it/glossary/conversion"
+                            },
+                            {
+                                "title": "Tasso di Conversione",
+                                "description": "La percentuale di visitatori del sito web che completano un obiettivo desiderato, come effettuare un acquisto o compilare un modulo.",
+                                "slug": "/it/glossary/conversion-rate"
+                            },
+                            {
+                                "title": "Ottimizzazione del Tasso di Conversione (CRO)",
+                                "description": "Il processo di miglioramento della percentuale di visitatori di un sito web che completano un obiettivo desiderato.",
+                                "slug": "/it/glossary/conversion-rate-optimization"
+                            },
+                            {
+                                "title": "Cookie",
+                                "description": "Un piccolo pezzo di dati memorizzato sul dispositivo di un utente da un sito web, generalmente usato per ricordare le preferenze e monitorare il comportamento dell'utente.",
+                                "slug": "/it/glossary/cookie"
+                            },
+                            {
+                                "title": "Banner di Consenso per Cookie",
+                                "description": "Un banner o un messaggio popup visualizzato su un sito web che informa gli utenti sull'uso dei cookie e richiede il loro consenso.",
+                                "slug": "/it/glossary/cookie-consent-banner"
+                            },
+                            {
+                                "title": "Costo per Clic (CPC)",
+                                "description": "L'importo che un inserzionista paga per ogni clic sul loro annuncio.",
+                                "slug": "/it/glossary/cost-per-click"
+                            },
+                            {
+                                "title": "Accordo di Elaborazione dei Dati (DPA)",
+                                "description": "Un contratto che definisce le responsabilità del titolare del trattamento e del processore dei dati riguardo all'elaborazione dei dati personali.",
+                                "slug": "/it/glossary/data-processing-agreement"
+                            },
+                            {
+                                "title": "Dispositivo",
+                                "description": "Un dispositivo fisico o virtuale, come un computer, uno smartphone o un tablet, utilizzato per accedere a Internet.",
+                                "slug": "/it/glossary/device"
+                            },
+                            {
+                                "title": "Traffico Diretto",
+                                "description": "Visitatori che arrivano a un sito web digitando l'URL direttamente nel loro browser o tramite un segnalibro.",
+                                "slug": "/it/glossary/direct-traffic"
+                            },
+                            {
+                                "title": "ePrivacy",
+                                "description": "Una direttiva dell'Unione Europea che regola il trattamento dei dati personali e la protezione della privacy nelle comunicazioni elettroniche.",
+                                "slug": "/it/glossary/e-privacy"
+                            },
+                            {
+                                "title": "Tasso di Coinvolgimento",
+                                "description": "Una misura di quanto attivamente gli utenti interagiscono con un contenuto, generalmente espresso come una percentuale delle interazioni totali.",
+                                "slug": "/it/glossary/engagement-rate"
+                            },
+                            {
+                                "title": "Modello di Prima Interazione",
+                                "description": "Un modello di attribuzione che assegna il credito per le conversioni al primo punto di contatto che un utente ha avuto con un sito web o una campagna pubblicitaria.",
+                                "slug": "/it/glossary/first-interaction-model"
+                            },
+                            {
+                                "title": "Cookie di Prima Parte",
+                                "description": "Un cookie impostato dal dominio del sito web che l'utente sta visitando, utilizzato per ricordare le preferenze dell'utente e tracciare il suo comportamento all'interno di quel sito.",
+                                "slug": "/it/glossary/first-party-cookie"
+                            },
+                            {
+                                "title": "Imbuto",
+                                "description": "Una serie di passaggi o fasi che un utente attraversa prima di completare un'azione desiderata, come effettuare un acquisto.",
+                                "slug": "/it/glossary/funnel"
+                            },
+                            {
+                                "title": "GDPR",
+                                "description": "Regolamento Generale sulla Protezione dei Dati, una normativa dell'UE sulla protezione dei dati e sulla privacy per tutti i cittadini individuali dell'Unione Europea e dello Spazio Economico Europeo.",
+                                "slug": "/it/glossary/gdpr"
+                            },
+                            {
+                                "title": "Consenso GDPR",
+                                "description": "Consenso ottenuto da individui in conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR) per l'elaborazione dei loro dati personali.",
+                                "slug": "/it/glossary/gdpr-consent"
+                            },
+                            {
+                                "title": "Google Analytics 4",
+                                "description": "L'ultima versione del servizio di analisi di Google, progettata per fornire una comprensione più profonda delle interazioni degli utenti su siti web e applicazioni. GA4 utilizza un modello basato sugli eventi per offrire una visione più dettagliata e flessibile del comportamento degli utenti.",
+                                "slug": "/it/glossary/google-analytics-4"
+                            },
+                            {
+                                "title": "Indirizzo IP",
+                                "description": "Un'etichetta numerica assegnata a ogni dispositivo connesso a una rete informatica che utilizza il Protocollo Internet per la comunicazione.",
+                                "slug": "/it/glossary/ip-address"
+                            },
+                            {
+                                "title": "Parola Chiave",
+                                "description": "Una parola o frase utilizzata per descrivere il contenuto di una pagina web, utilizzata dai motori di ricerca per abbinare le pagine ai termini di ricerca pertinenti.",
+                                "slug": "/it/glossary/keyword"
+                            },
+                            {
+                                "title": "Pagina di Destinazione",
+                                "description": "Una pagina web su cui gli utenti arrivano dopo aver cliccato su un link in un annuncio, una pagina di risultati di un motore di ricerca o un'altra fonte esterna.",
+                                "slug": "/it/glossary/landing-page"
+                            },
+                            {
+                                "title": "Visitatore Attivo",
+                                "description": "Un utente che è attualmente attivo su un sito web.",
+                                "slug": "/it/glossary/live-visitor"
+                            },
+                            {
+                                "title": "Localizzazione",
+                                "description": "La posizione fisica o geografica di un utente che accede a un sito web o un'app, generalmente determinata dall'indirizzo IP o dalle coordinate GPS.",
+                                "slug": "/it/glossary/location"
+                            },
+                            {
+                                "title": "Sistema Operativo",
+                                "description": "Software che gestisce l'hardware del computer e fornisce servizi comuni per i programmi informatici, come Windows, macOS e Linux.",
+                                "slug": "/it/glossary/operating-system"
+                            },
+                            {
+                                "title": "Ricerca Organica",
+                                "description": "Il traffico che arriva a un sito web come risultato di risultati di ricerca non pagati, noto anche come ricerca naturale o organica.",
+                                "slug": "/it/glossary/organic-search"
+                            },
+                            {
+                                "title": "Analisi della Ricerca a Pagamento",
+                                "description": "Il processo di analisi e valutazione delle performance delle campagne di ricerca a pagamento, comprese le prestazioni degli annunci, l'efficacia delle parole chiave e il ritorno sull'investimento (ROI).",
+                                "slug": "/it/glossary/paid-search-analysis"
+                            },
+                            {
+                                "title": "Velocità della Pagina",
+                                "description": "Il tempo necessario affinché una pagina web si carichi e diventi interattiva per gli utenti.",
+                                "slug": "/it/glossary/page-speed"
+                            },
+                            {
+                                "title": "Titolo della Pagina",
+                                "description": "Il titolo di una pagina web che appare in alto nella finestra del browser e viene visualizzato nelle pagine dei risultati dei motori di ricerca.",
+                                "slug": "/it/glossary/page-title"
+                            },
+                            {
+                                "title": "Visualizzazione di Pagina",
+                                "description": "Un'occorrenza in cui un utente visualizza una pagina web su un sito.",
+                                "slug": "/it/glossary/page-view"
+                            },
+                            {
+                                "title": "PECR",
+                                "description": "Regolamenti sulla Privacy e le Comunicazioni Elettroniche, un insieme di regolamenti nel Regno Unito che governano l'uso delle comunicazioni elettroniche.",
+                                "slug": "/it/glossary/pecr"
+                            },
+                            {
+                                "title": "Dati Personali",
+                                "description": "Qualsiasi informazione relativa a una persona identificata o identificabile, come il nome, l'indirizzo email o l'indirizzo IP.",
+                                "slug": "/it/glossary/personal-data"
+                            },
+                            {
+                                "title": "Informazioni Personali Identificabili (PII)",
+                                "description": "Qualsiasi informazione che può essere utilizzata per identificare un individuo, come il nome, l'indirizzo email o il numero di telefono.",
+                                "slug": "/it/glossary/personal-identifiable-information"
+                            },
+                            {
+                                "title": "Privacy Shield",
+                                "description": "Un quadro normativo per regolamentare gli scambi transatlantici di dati personali tra l'Unione Europea e gli Stati Uniti.",
+                                "slug": "/it/glossary/privacy-shield"
+                            },
+                            {
+                                "title": "Informazioni Sanitarie Protette (PHI)",
+                                "description": "Qualsiasi informazione riguardante lo stato di salute, la fornitura di cure mediche o il pagamento per le cure mediche che può essere collegata a un individuo, come definito dall'HIPAA.",
+                                "slug": "/it/glossary/protected-health-information"
+                            },
+                            {
+                                "title": "Traffico di Riferimento",
+                                "description": "Visitatori che arrivano su un sito web cliccando su un link proveniente da un altro sito web.",
+                                "slug": "/it/glossary/referral-traffic"
+                            },
+                            {
+                                "title": "Referente",
+                                "description": "La fonte attraverso la quale un utente è arrivato su un sito web, solitamente un altro sito web o un motore di ricerca.",
+                                "slug": "/it/glossary/referrer"
+                            },
+                            {
+                                "title": "Ritorno sull'Investimento (ROI)",
+                                "description": "Una misura della redditività di un investimento, calcolata generalmente come il rapporto tra il profitto netto e l'investimento iniziale.",
+                                "slug": "/it/glossary/return-on-investment"
+                            },
+                            {
+                                "title": "Robots.txt",
+                                "description": "Un file di testo posto nella directory principale di un sito web per istruire i web crawler su quali pagine o file possono o non possono richiedere dal sito.",
+                                "slug": "/it/glossary/robots-txt"
+                            },
+                            {
+                                "title": "Feed RSS",
+                                "description": "Un flusso web che consente agli utenti di accedere agli aggiornamenti di contenuto online in un formato standardizzato e leggibile da computer.",
+                                "slug": "/it/glossary/rss-feed"
+                            },
+                            {
+                                "title": "Percentuale di Scorrimento",
+                                "description": "La percentuale di una pagina web che un utente ha scorso.",
+                                "slug": "/it/glossary/scrolled-percentage"
+                            },
+                            {
+                                "title": "Analisi della Ricerca",
+                                "description": "L'analisi dei dati dei motori di ricerca per identificare tendenze, schemi e intuizioni relativi alle query di ricerca e al comportamento degli utenti.",
+                                "slug": "/it/glossary/search-analytics"
+                            },
+                            {
+                                "title": "Ottimizzazione dei Motori di Ricerca (SEO)",
+                                "description": "La pratica di ottimizzare un sito web per migliorare la sua visibilità e posizionamento nei risultati dei motori di ricerca.",
+                                "slug": "/it/glossary/search-engine-optimization"
+                            },
+                            {
+                                "title": "Segmentazione",
+                                "description": "Il processo di divisione di un pubblico target in gruppi più piccoli e omogenei basati su caratteristiche o comportamenti condivisi.",
+                                "slug": "/it/glossary/segmentation"
+                            },
+                            {
+                                "title": "Dati Sensibili",
+                                "description": "Dati che, se compromessi, potrebbero causare danni a un individuo o un'organizzazione, come informazioni finanziarie o registrazioni mediche.",
+                                "slug": "/it/glossary/sensitive-data"
+                            },
+                            {
+                                "title": "Pagina dei Risultati del Motore di Ricerca (SERP)",
+                                "description": "La pagina visualizzata da un motore di ricerca in risposta a una query dell'utente, contenente un elenco di pagine web pertinenti.",
+                                "slug": "/it/glossary/search-engine-results-page"
+                            },
+                            {
+                                "title": "Analisi dei Log del Server",
+                                "description": "Il processo di analisi dei file di log del server per ottenere informazioni sul traffico del sito web, il comportamento degli utenti e le prestazioni del sistema.",
+                                "slug": "/it/glossary/server-log-analysis"
+                            },
+                            {
+                                "title": "Sessione",
+                                "description": "Un periodo di tempo durante il quale un utente interagisce con un sito web.",
+                                "slug": "/it/glossary/session"
+                            },
+                            {
+                                "title": "Durata della Sessione",
+                                "description": "Il tempo medio trascorso dagli utenti su un sito web durante una singola sessione.",
+                                "slug": "/it/glossary/session-duration"
+                            },
+                            {
+                                "title": "Sottodominio",
+                                "description": "Una suddivisione di un dominio, utilizzata per organizzare e navigare tra diverse sezioni o funzionalità di un sito web.",
+                                "slug": "/it/glossary/subdomain"
+                            },
+                            {
+                                "title": "Cookie di Terze Parti",
+                                "description": "Un cookie impostato da un dominio diverso da quello visitato, utilizzato principalmente per il tracciamento tra siti e la pubblicità.",
+                                "slug": "/it/glossary/third-party-cookie"
+                            },
+                            {
+                                "title": "Tempo sulla Pagina",
+                                "description": "Il tempo che un utente trascorre su una singola pagina web prima di passare a un'altra pagina o lasciare il sito.",
+                                "slug": "/it/glossary/time-on-page"
+                            },
+                            {
+                                "title": "Rango del Traffico",
+                                "description": "Una misura della popolarità di un sito web rispetto a tutti gli altri siti su Internet, basata tipicamente su fattori come il numero di visitatori e le visualizzazioni di pagina.",
+                                "slug": "/it/glossary/traffic-rank"
+                            },
+                            {
+                                "title": "Uniform Resource Locator (URL)",
+                                "description": "Una stringa di caratteri utilizzata per identificare una risorsa su Internet, come una pagina web, un'immagine o un file.",
+                                "slug": "/it/glossary/uniform-resource-locator"
+                            },
+                            {
+                                "title": "Visitatore Unico",
+                                "description": "Un singolo utente che visita un sito web entro un periodo di tempo specificato, indipendentemente dal numero di volte che lo visita.",
+                                "slug": "/it/glossary/unique-visitor"
+                            },
+                            {
+                                "title": "User Agent",
+                                "description": "Una stringa di informazioni trasmessa da un browser web o un'altra applicazione client per identificarsi a un server.",
+                                "slug": "/it/glossary/user-agent"
+                            },
+                            {
+                                "title": "Codice UTM",
+                                "description": "Codice di moduli di monitoraggio di Urchin, un parametro di tracciamento aggiunto agli URL per monitorare l'efficacia delle campagne di marketing online.",
+                                "slug": "/it/glossary/utm-code"
+                            }
+                        ]
                     }
                 }
             },
