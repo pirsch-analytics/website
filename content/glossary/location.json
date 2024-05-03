@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/location"
+        "en": "/glossary/location",
+        "de": "/de/glossary",
+        "es": "/es/glossary",
+        "fr": "/fr/glossary",
+        "nl": "/nl/glossary",
+        "it": "/it/glossary",
+        "pt": "/pt/glossary",
+        "ja": "/ja/glossary"
     },
     "sitemap": {
         "priority": "0.5"

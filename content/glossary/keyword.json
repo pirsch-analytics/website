@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/keyword"
+        "en": "/glossary/keyword",
+        "de": "/de/glossary/keyword",
+        "es": "/es/glossary/keyword",
+        "fr": "/fr/glossary/keyword",
+        "nl": "/nl/glossary/keyword",
+        "it": "/it/glossary/keyword",
+        "pt": "/pt/glossary/keyword",
+        "ja": "/ja/glossary/keyword"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Keyword – Pirsch Analytics",
                         "meta_description": "A word or phrase that describes the content of a webpage and is used by search engines to match search queries to relevant pages."
+                    },
+                    "de": {
+                        "title": "Keyword – Pirsch Analytics",
+                        "meta_description": "Ein Wort oder eine Phrase, die den Inhalt einer Webseite beschreibt und von Suchmaschinen verwendet wird, um Suchanfragen mit relevanten Seiten abzugleichen."
+                    },
+                    "es": {
+                        "title": "Palabra Clave – Pirsch Analytics",
+                        "meta_description": "Una palabra o frase que describe el contenido de una página web y es utilizada por los motores de búsqueda para hacer coincidir las consultas de búsqueda con páginas relevantes."
+                    },
+                    "fr": {
+                        "title": "Mot-clé – Pirsch Analytics",
+                        "meta_description": "Un mot ou une phrase qui décrit le contenu d'une page web et qui est utilisé par les moteurs de recherche pour faire correspondre les requêtes de recherche aux pages pertinentes."
+                    },
+                    "nl": {
+                        "title": "Trefwoord – Pirsch Analytics",
+                        "meta_description": "Een woord of zin die de inhoud van een webpagina beschrijft en door zoekmachines wordt gebruikt om zoekopdrachten te koppelen aan relevante pagina's."
+                    },
+                    "it": {
+                        "title": "Parola Chiave – Pirsch Analytics",
+                        "meta_description": "Una parola o frase che descrive il contenuto di una pagina web e che viene utilizzata dai motori di ricerca per abbinare le query di ricerca alle pagine pertinenti."
+                    },
+                    "pt": {
+                        "title": "Palavra-chave – Pirsch Analytics",
+                        "meta_description": "Uma palavra ou frase que descreve o conteúdo de uma página web e que é usada pelos motores de busca para corresponder consultas de busca a páginas relevantes."
+                    },
+                    "ja": {
+                        "title": "キーワード – Pirsch Analytics",
+                        "meta_description": "ウェブページの内容を説明し、検索エンジンが検索クエリを関連ページに一致させるために使用する単語やフレーズ。"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/live-visitor"
+        "en": "/glossary/live-visitor",
+        "de": "/de/glossary/live-visitor",
+        "es": "/es/glossary/live-visitor",
+        "fr": "/fr/glossary/live-visitor",
+        "nl": "/nl/glossary/live-visitor",
+        "it": "/it/glossary/live-visitor",
+        "pt": "/pt/glossary/live-visitor",
+        "ja": "/ja/glossary/live-visitor"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Live Visitor – Pirsch Analytics",
                         "meta_description": "A user who is currently active on a website."
+                    },
+                    "de": {
+                        "title": "Live-Besucher – Pirsch Analytics",
+                        "meta_description": "Ein Benutzer, der derzeit auf einer Website aktiv ist."
+                    },
+                    "es": {
+                        "title": "Visitante en Vivo – Pirsch Analytics",
+                        "meta_description": "Un usuario que actualmente está activo en un sitio web."
+                    },
+                    "fr": {
+                        "title": "Visiteur en Direct – Pirsch Analytics",
+                        "meta_description": "Un utilisateur qui est actuellement actif sur un site web."
+                    },
+                    "nl": {
+                        "title": "Live-Bezoeker – Pirsch Analytics",
+                        "meta_description": "Een gebruiker die momenteel actief is op een website."
+                    },
+                    "it": {
+                        "title": "Visitatore in Tempo Reale – Pirsch Analytics",
+                        "meta_description": "Un utente che è attualmente attivo su un sito web."
+                    },
+                    "pt": {
+                        "title": "Visitante ao Vivo – Pirsch Analytics",
+                        "meta_description": "Um usuário que está atualmente ativo em um site."
+                    },
+                    "ja": {
+                        "title": "ライブビジター – Pirsch Analytics",
+                        "meta_description": "現在ウェブサイトで活動しているユーザー。"
                     }
                 }
             },
