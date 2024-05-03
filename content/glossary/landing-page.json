@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/landing-page"
+        "en": "/glossary/landing-page",
+        "de": "/de/glossary/landing-page",
+        "es": "/es/glossary/landing-page",
+        "fr": "/fr/glossary/landing-page",
+        "nl": "/nl/glossary/landing-page",
+        "it": "/it/glossary/landing-page",
+        "pt": "/pt/glossary/landing-page",
+        "ja": "/ja/glossary/landing-page"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Landing Page – Pirsch Analytics",
                         "meta_description": "A webpage that users arrive at after clicking on a link in an advertisement, search engine results page, or other external source."
+                    },
+                    "de": {
+                        "title": "Landing Page – Pirsch Analytics",
+                        "meta_description": "Eine Webseite, die Benutzer besuchen, nachdem sie auf einen Link in einer Werbung, einer Suchmaschinenergebnisseite oder einer anderen externen Quelle geklickt haben."
+                    },
+                    "es": {
+                        "title": "Página de Destino – Pirsch Analytics",
+                        "meta_description": "Una página web a la que los usuarios llegan después de hacer clic en un enlace en un anuncio, una página de resultados de un motor de búsqueda o en otra fuente externa."
+                    },
+                    "fr": {
+                        "title": "Page de Destination – Pirsch Analytics",
+                        "meta_description": "Une page web sur laquelle les utilisateurs arrivent après avoir cliqué sur un lien dans une publicité, une page de résultats de moteur de recherche ou une autre source externe."
+                    },
+                    "nl": {
+                        "title": "Landingspagina – Pirsch Analytics",
+                        "meta_description": "Een webpagina waar gebruikers op terechtkomen na het klikken op een link in een advertentie, zoekresultatenpagina of een andere externe bron."
+                    },
+                    "it": {
+                        "title": "Pagina di Destinazione – Pirsch Analytics",
+                        "meta_description": "Una pagina web alla quale gli utenti arrivano dopo aver cliccato su un link in una pubblicità, una pagina di risultati di un motore di ricerca o un'altra fonte esterna."
+                    },
+                    "pt": {
+                        "title": "Página de Destino – Pirsch Analytics",
+                        "meta_description": "Uma página web à qual os utilizadores chegam depois de clicarem num link num anúncio, numa página de resultados de motores de busca ou noutra fonte externa."
+                    },
+                    "ja": {
+                        "title": "ランディングページ – Pirsch Analytics",
+                        "meta_description": "広告、検索エンジンの結果ページ、または他の外部ソースのリンクをクリックした後にユーザーが到着するウェブページ。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Landing Page?",
                         "text": "<p>A landing page is a specific web page that a visitor arrives at after clicking on a link or ad. This page is usually focused on a single goal, known as a <a href=\"/glossary/call-to-action\">call to action (CTA)</a>, and is often used in marketing campaigns to convert visitors into leads or customers. Landing pages are designed to offer fewer distractions and guide visitors to the intended <a href=\"/glossary/conversion\">conversion</a> goal.</p><p>For example, when an ad for a product is clicked, the landing page associated with that ad may contain detailed information about the product, testimonials, and a purchase link. The effectiveness of a landing page can be measured by its <a href=\"/glossary/conversion-rate\">conversion rate</a>, which indicates how often visitors who land on the page take the desired action, such as filling out a form or making a purchase.</p><p>Optimizing landing pages involves testing different elements such as headlines, text, images and layout to see which combinations result in the highest conversion rate. Effective landing pages are critical to maximizing <a href=\"/glossary/return-on-investment\">return on investment (ROI)</a> in digital advertising and marketing campaigns.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine Landing Page?",
+                        "text": "<p>Eine Landing Page ist eine bestimmte Webseite, auf der ein Besucher landet, nachdem er auf einen Link oder eine Anzeige geklickt hat. Diese Seite konzentriert sich in der Regel auf ein einzelnes Ziel, das als <a href=\"/de/glossary/call-to-action\">Call to Action (CTA)</a> bezeichnet wird, und wird häufig in Marketingkampagnen verwendet, um Besucher in Leads oder Kunden umzuwandeln. Landing Pages sind so gestaltet, dass sie weniger Ablenkungen bieten und die Besucher zum beabsichtigten <a href=\"/de/glossary/conversion\">Conversion</a>-Ziel führen.</p><p>Wenn zum Beispiel auf eine Produktanzeige geklickt wird, kann die mit dieser Anzeige verknüpfte Landing Page detaillierte Informationen zum Produkt, Testimonials und einen Kauf-Link enthalten. Die Effektivität einer Landing Page kann anhand ihrer <a href=\"/de/glossary/conversion-rate\">Conversion Rate</a> gemessen werden, die angibt, wie oft Besucher, die auf der Seite landen, die gewünschte Aktion ausführen, wie z. B. ein Formular ausfüllen oder einen Kauf tätigen.</p><p>Die Optimierung von Landing Pages umfasst das Testen verschiedener Elemente wie Überschriften, Text, Bilder und Layout, um herauszufinden, welche Kombinationen die höchste Conversion-Rate erzielen. Effektive Landing Pages sind entscheidend für die Maximierung des <a href=\"/de/glossary/return-on-investment\">Return on Investment (ROI)</a> in digitalen Werbe- und Marketingkampagnen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es una Landing Page?",
+                        "text": "<p>Una landing page es una página web específica a la que un visitante llega después de hacer clic en un enlace o anuncio. Esta página generalmente se enfoca en un solo objetivo, conocido como <a href=\"/es/glossary/call-to-action\">llamada a la acción (CTA)</a>, y a menudo se usa en campañas de marketing para convertir visitantes en clientes potenciales o clientes. Las landing pages están diseñadas para ofrecer menos distracciones y guiar a los visitantes hacia el objetivo de <a href=\"/es/glossary/conversion\">conversión</a> previsto.</p><p>Por ejemplo, cuando se hace clic en un anuncio de un producto, la landing page asociada con ese anuncio puede contener información detallada sobre el producto, testimonios y un enlace de compra. La efectividad de una landing page se puede medir por su <a href=\"/es/glossary/conversion-rate\">tasa de conversión</a>, que indica con qué frecuencia los visitantes que llegan a la página realizan la acción deseada, como completar un formulario o realizar una compra.</p><p>Optimizar las landing pages implica probar diferentes elementos, como titulares, texto, imágenes y diseño, para ver qué combinaciones dan como resultado la tasa de conversión más alta. Las landing pages efectivas son cruciales para maximizar el <a href=\"/es/glossary/return-on-investment\">retorno de la inversión (ROI)</a> en campañas de publicidad y marketing digital.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'une page d'atterrissage ?",
+                        "text": "<p>Une page d'atterrissage est une page web spécifique sur laquelle un visiteur arrive après avoir cliqué sur un lien ou une annonce. Cette page est généralement axée sur un seul objectif, connu sous le nom de <a href=\"/fr/glossary/call-to-action\">call to action (CTA)</a>, et est souvent utilisée dans les campagnes marketing pour transformer les visiteurs en prospects ou en clients. Les pages d'atterrissage sont conçues pour offrir moins de distractions et guider les visiteurs vers l'objectif de <a href=\"/fr/glossary/conversion\">conversion</a> prévu.</p><p>Par exemple, lorsqu'une annonce pour un produit est cliquée, la page d'atterrissage associée à cette annonce peut contenir des informations détaillées sur le produit, des témoignages et un lien d'achat. L'efficacité d'une page d'atterrissage peut être mesurée par son <a href=\"/fr/glossary/conversion-rate\">taux de conversion</a>, qui indique la fréquence à laquelle les visiteurs qui atterrissent sur la page effectuent l'action souhaitée, telle que remplir un formulaire ou effectuer un achat.</p><p>L'optimisation des pages d'atterrissage implique de tester différents éléments tels que les titres, le texte, les images et la mise en page pour voir quelles combinaisons donnent le taux de conversion le plus élevé. Les pages d'atterrissage efficaces sont essentielles pour maximiser le <a href=\"/fr/glossary/return-on-investment\">retour sur investissement (ROI)</a> dans les campagnes de publicité et de marketing numérique.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een landingspagina?",
+                        "text": "<p>Een landingspagina is een specifieke webpagina waarop een bezoeker terechtkomt nadat hij op een link of advertentie heeft geklikt. Deze pagina is meestal gericht op één doel, bekend als een <a href=\"/nl/glossary/call-to-action\">oproep tot actie (CTA)</a>, en wordt vaak gebruikt in marketingcampagnes om bezoekers om te zetten in leads of klanten. Landingspagina's zijn ontworpen om minder afleiding te bieden en bezoekers naar het beoogde <a href=\"/nl/glossary/conversion\">conversie</a>-doel te leiden.</p><p>Als bijvoorbeeld op een productadvertentie wordt geklikt, kan de landingspagina die aan die advertentie is gekoppeld, gedetailleerde informatie over het product, testimonials en een aankooplink bevatten. De effectiviteit van een landingspagina kan worden gemeten aan de hand van het <a href=\"/nl/glossary/conversion-rate\">conversiepercentage</a>, dat aangeeft hoe vaak bezoekers die op de pagina terechtkomen de gewenste actie ondernemen, zoals het invullen van een formulier of het doen van een aankoop.</p><p>Het optimaliseren van landingspagina's omvat het testen van verschillende elementen, zoals koppen, tekst, afbeeldingen en lay-out, om te zien welke combinaties het hoogste conversiepercentage opleveren. Effectieve landingspagina's zijn cruciaal voor het maximaliseren van de <a href=\"/nl/glossary/return-on-investment\">return on investment (ROI)</a> in digitale advertentie- en marketingcampagnes.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è una Landing Page?",
+                        "text": "<p>Una landing page è una pagina web specifica in cui un visitatore arriva dopo aver cliccato su un link o un annuncio. Questa pagina è generalmente focalizzata su un unico obiettivo, noto come <a href=\"/it/glossary/call-to-action\">call to action (CTA)</a>, e viene spesso utilizzata nelle campagne di marketing per convertire i visitatori in lead o clienti. Le landing page sono progettate per offrire meno distrazioni e guidare i visitatori verso l'obiettivo di <a href=\"/it/glossary/conversion\">conversione</a> previsto.</p><p>Ad esempio, quando si fa clic su un annuncio per un prodotto, la landing page associata a tale annuncio potrebbe contenere informazioni dettagliate sul prodotto, testimonianze e un link per l'acquisto. L'efficacia di una landing page può essere misurata dal suo <a href=\"/it/glossary/conversion-rate\">tasso di conversione</a>, che indica la frequenza con cui i visitatori che atterrano sulla pagina intraprendono l'azione desiderata, come compilare un modulo o effettuare un acquisto.</p><p>Ottimizzare le landing page implica testare diversi elementi come titoli, testo, immagini e layout per vedere quali combinazioni risultano nel tasso di conversione più elevato. Landing page efficaci sono fondamentali per massimizzare il <a href=\"/it/glossary/return-on-investment\">ritorno sull'investimento (ROI)</a> nelle campagne di pubblicità e marketing digitale.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é uma Landing Page?",
+                        "text": "<p>Uma landing page é uma página web específica na qual um visitante chega após clicar em um link ou anúncio. Esta página geralmente se concentra em um único objetivo, conhecido como <a href=\"/pt/glossary/call-to-action\">chamada à ação (CTA)</a>, e é frequentemente usada em campanhas de marketing para converter visitantes em leads ou clientes. As landing pages são projetadas para oferecer menos distrações e guiar os visitantes para o objetivo de <a href=\"/pt/glossary/conversion\">conversão</a> pretendido.</p><p>Por exemplo, quando um anúncio de um produto é clicado, a landing page associada a esse anúncio pode conter informações detalhadas sobre o produto, depoimentos e um link de compra. A eficácia de uma landing page pode ser medida pela sua <a href=\"/pt/glossary/conversion-rate\">taxa de conversão</a>, que indica a frequência com que os visitantes que chegam à página realizam a ação desejada, como preencher um formulário ou fazer uma compra.</p><p>Otimizar as landing pages envolve testar diferentes elementos, como títulos, texto, imagens e layout, para ver quais combinações resultam na maior taxa de conversão. As landing pages eficazes são fundamentais para maximizar o <a href=\"/pt/glossary/return-on-investment\">retorno sobre o investimento (ROI)</a> em campanhas de publicidade e marketing digital.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ランディングページとは何ですか？",
+                        "text": "<p>ランディングページとは、リンクや広告をクリックした後に訪問者が到着する特定のウェブページのことです。このページは通常、<a href=\"/ja/glossary/call-to-action\">行動喚起 (CTA)</a> として知られる単一の目標に焦点を当てており、訪問者をリードや顧客に変換するためにマーケティングキャンペーンでよく使用されます。ランディングページは、気を散らす要素を減らし、訪問者を意図した<a href=\"/ja/glossary/conversion\">コンバージョン</a>目標に導くように設計されています。</p><p>例えば、製品の広告がクリックされた場合、その広告に関連付けられたランディングページには、製品の詳細情報、証言、および購入リンクが含まれていることがあります。ランディングページの効果は、ページに到達した訪問者が希望するアクションを実行する頻度を示す<a href=\"/ja/glossary/conversion-rate\">コンバージョン率</a>によって測定できます。</p><p>ランディングページの最適化には、見出し、テキスト、画像、レイアウトなどのさまざまな要素をテストして、どの組み合わせが最高のコンバージョン率をもたらすかを確認することが含まれます。効果的なランディングページは、デジタル広告やマーケティングキャンペーンでの<a href=\"/ja/glossary/return-on-investment\">投資利益率 (ROI)</a>を最大化するために重要です。</p>"
                     }
                 }
             },

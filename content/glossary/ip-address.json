@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/ip-address"
+        "en": "/glossary/ip-address",
+        "de": "/de/glossary/ip-address",
+        "es": "/es/glossary/ip-address",
+        "fr": "/fr/glossary/ip-address",
+        "nl": "/nl/glossary/ip-address",
+        "it": "/it/glossary/ip-address",
+        "pt": "/pt/glossary/ip-address",
+        "ja": "/ja/glossary/ip-address"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "IP Address – Pirsch Analytics",
                         "meta_description": "A numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication."
+                    },
+                    "de": {
+                        "title": "IP-Adresse – Pirsch Analytics",
+                        "meta_description": "Eine numerische Bezeichnung, die jedem Gerät zugewiesen wird, das mit einem Computernetzwerk verbunden ist und das Internetprotokoll für die Kommunikation verwendet."
+                    },
+                    "es": {
+                        "title": "Dirección IP – Pirsch Analytics",
+                        "meta_description": "Una etiqueta numérica asignada a cada dispositivo conectado a una red de computadoras que utiliza el Protocolo de Internet para la comunicación."
+                    },
+                    "fr": {
+                        "title": "Adresse IP – Pirsch Analytics",
+                        "meta_description": "Un label numérique attribué à chaque appareil connecté à un réseau informatique qui utilise le protocole Internet pour la communication."
+                    },
+                    "nl": {
+                        "title": "IP-adres – Pirsch Analytics",
+                        "meta_description": "Een numeriek label dat is toegewezen aan elk apparaat dat is verbonden met een computernetwerk dat het internetprotocol gebruikt voor communicatie."
+                    },
+                    "it": {
+                        "title": "Indirizzo IP – Pirsch Analytics",
+                        "meta_description": "Un'etichetta numerica assegnata a ogni dispositivo connesso a una rete informatica che utilizza il protocollo Internet per la comunicazione."
+                    },
+                    "pt": {
+                        "title": "Endereço IP – Pirsch Analytics",
+                        "meta_description": "Um rótulo numérico atribuído a cada dispositivo conectado a uma rede de computadores que utiliza o Protocolo de Internet para comunicação."
+                    },
+                    "ja": {
+                        "title": "IPアドレス – Pirsch Analytics",
+                        "meta_description": "インターネットプロトコルを使用して通信するコンピュータネットワークに接続された各デバイスに割り当てられた数値ラベル。"
                     }
                 }
             },
@@ -24,7 +59,49 @@
                         "link": "/glossary",
                         "label": "Return to Glossary",
                         "headline": "What is an IP Address?",
-                        "text": "<p>The General Data Protection Regulation (GDPR) is a comprehensive data protection law that went into effect in the European Union on May 25, 2018. It aims to give individuals control over their personal data, and to simplify the regulatory environment for international companies by standardizing regulation across the EU. The GDPR applies to all companies that process and store personal data of individuals residing in the European Union, regardless of the company's <a href=\"/glossary/location\">location</a>.</p><p>The GDPR requires companies to protect the personal data and privacy of EU citizens in transactions within EU member states. It also regulates the export of personal data to countries outside the EU. Key requirements include the need for consent for data processing, notification of data breaches, anonymization of data to protect privacy, data protection safeguards as an integral part of data processing, and the provision of rights to individuals with respect to their <a href=\"/glossary/personal-data\">personal-data</a>, including the right to access, rectify, erase, or transfer their data.</p><p>In web analytics, IP addresses are used to determine the geographic location of website visitors, track their activity on a website, and manage access rights. They are also critical for network diagnostics and managing the security of networks by allowing administrators to block or allow traffic based on IP addresses.</p>"
+                        "text": "<p>An IP address, or Internet Protocol address, is a unique string of numbers separated by periods (IPv4) or colons (IPv6) that identifies each computer using the Internet Protocol to communicate over a network. It functions as a digital address that allows data to be routed to the correct location, similarly to how a home address allows mail to be delivered to the right house.</p><p>For example, when you visit a website, your computer sends a request to the server where the website is hosted via your IP address. The server then sends the requested data back to your IP address. IP addresses can be static, which means they do not change, or dynamic, which means they are temporarily assigned by a network and can change over time.</p><p>In web analytics, IP addresses are used to determine the geographical location of website visitors, track their activity on a site, and manage access rights. They are also critical for network diagnostics and managing the security of networks by enabling administrators to block or allow traffic based on IP addresses.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine IP-Adresse?",
+                        "text": "<p>Eine IP-Adresse, oder Internet-Protokoll-Adresse, ist eine einzigartige Zahlenfolge, die durch Punkte (IPv4) oder Doppelpunkte (IPv6) getrennt ist und jeden Computer identifiziert, der das Internet-Protokoll verwendet, um über ein Netzwerk zu kommunizieren. Sie fungiert als digitale Adresse, die es ermöglicht, Daten an den richtigen Ort zu leiten, ähnlich wie eine Hausadresse es ermöglicht, dass die Post an das richtige Haus geliefert wird.</p><p>Wenn Sie beispielsweise eine Website besuchen, sendet Ihr Computer eine Anfrage an den Server, auf dem die Website gehostet wird, über Ihre IP-Adresse. Der Server sendet dann die angeforderten Daten an Ihre IP-Adresse zurück. IP-Adressen können statisch sein, was bedeutet, dass sie sich nicht ändern, oder dynamisch, was bedeutet, dass sie von einem Netzwerk vorübergehend zugewiesen werden und sich im Laufe der Zeit ändern können.</p><p>In der Webanalyse werden IP-Adressen verwendet, um den geografischen Standort der Website-Besucher zu bestimmen, ihre Aktivität auf der Website zu verfolgen und Zugriffsrechte zu verwalten. Sie sind auch entscheidend für die Netzwerkanalyse und die Verwaltung der Netzwerksicherheit, indem sie Administratoren ermöglichen, den Datenverkehr basierend auf IP-Adressen zu blockieren oder zuzulassen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es una dirección IP?",
+                        "text": "<p>Una dirección IP, o dirección de Protocolo de Internet, es una cadena única de números separados por puntos (IPv4) o dos puntos (IPv6) que identifica a cada computadora que usa el Protocolo de Internet para comunicarse a través de una red. Funciona como una dirección digital que permite que los datos se enruten al lugar correcto, de manera similar a cómo una dirección postal permite que el correo se entregue en la casa correcta.</p><p>Por ejemplo, cuando visita un sitio web, su computadora envía una solicitud al servidor donde se aloja el sitio web a través de su dirección IP. El servidor luego envía los datos solicitados a su dirección IP. Las direcciones IP pueden ser estáticas, lo que significa que no cambian, o dinámicas, lo que significa que son asignadas temporalmente por una red y pueden cambiar con el tiempo.</p><p>En el análisis web, las direcciones IP se utilizan para determinar la ubicación geográfica de los visitantes del sitio web, rastrear su actividad en un sitio y gestionar los derechos de acceso. También son fundamentales para el diagnóstico de redes y la gestión de la seguridad de las redes, permitiendo a los administradores bloquear o permitir el tráfico en función de las direcciones IP.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'une adresse IP ?",
+                        "text": "<p>Une adresse IP, ou adresse de protocole Internet, est une chaîne unique de chiffres séparés par des points (IPv4) ou des deux-points (IPv6) qui identifie chaque ordinateur utilisant le protocole Internet pour communiquer sur un réseau. Elle fonctionne comme une adresse numérique qui permet de diriger les données vers le bon endroit, de la même manière qu'une adresse postale permet de livrer le courrier à la bonne maison.</p><p>Par exemple, lorsque vous visitez un site web, votre ordinateur envoie une demande au serveur où le site web est hébergé via votre adresse IP. Le serveur envoie ensuite les données demandées à votre adresse IP. Les adresses IP peuvent être statiques, ce qui signifie qu'elles ne changent pas, ou dynamiques, ce qui signifie qu'elles sont attribuées temporairement par un réseau et peuvent changer au fil du temps.</p><p>En analyse web, les adresses IP sont utilisées pour déterminer l'emplacement géographique des visiteurs du site web, suivre leur activité sur un site et gérer les droits d'accès. Elles sont également essentielles pour le diagnostic réseau et la gestion de la sécurité des réseaux, en permettant aux administrateurs de bloquer ou d'autoriser le trafic en fonction des adresses IP.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een IP-adres?",
+                        "text": "<p>Een IP-adres, of Internet Protocol-adres, is een unieke reeks nummers die door punten (IPv4) of dubbele punten (IPv6) worden gescheiden en elk apparaat identificeert dat het Internet Protocol gebruikt om te communiceren over een netwerk. Het functioneert als een digitaal adres dat het mogelijk maakt om gegevens naar de juiste locatie te leiden, vergelijkbaar met hoe een huisadres het mogelijk maakt om post naar het juiste huis te bezorgen.</p><p>Wanneer u bijvoorbeeld een website bezoekt, stuurt uw computer een verzoek naar de server waar de website wordt gehost via uw IP-adres. De server stuurt vervolgens de gevraagde gegevens terug naar uw IP-adres. IP-adressen kunnen statisch zijn, wat betekent dat ze niet veranderen, of dynamisch, wat betekent dat ze tijdelijk door een netwerk worden toegewezen en in de loop van de tijd kunnen veranderen.</p><p>In webanalyse worden IP-adressen gebruikt om de geografische locatie van websitebezoekers te bepalen, hun activiteit op een site te volgen en toegangsrechten te beheren. Ze zijn ook cruciaal voor netwerkdiagnostiek en het beheren van de beveiliging van netwerken, omdat ze beheerders in staat stellen om verkeer te blokkeren of toe te staan op basis van IP-adressen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è un indirizzo IP?",
+                        "text": "<p>Un indirizzo IP, o indirizzo di Protocollo Internet, è una stringa unica di numeri separati da punti (IPv4) o due punti (IPv6) che identifica ogni computer che utilizza il Protocollo Internet per comunicare su una rete. Funziona come un indirizzo digitale che consente di instradare i dati nella posizione corretta, in modo simile a come un indirizzo di casa consente di consegnare la posta alla casa giusta.</p><p>Ad esempio, quando visiti un sito web, il tuo computer invia una richiesta al server in cui è ospitato il sito web tramite il tuo indirizzo IP. Il server invia quindi i dati richiesti al tuo indirizzo IP. Gli indirizzi IP possono essere statici, il che significa che non cambiano, o dinamici, il che significa che sono temporaneamente assegnati da una rete e possono cambiare nel tempo.</p><p>Nell'analisi web, gli indirizzi IP vengono utilizzati per determinare la posizione geografica dei visitatori del sito web, monitorare la loro attività su un sito e gestire i diritti di accesso. Sono anche fondamentali per la diagnostica di rete e la gestione della sicurezza della rete, consentendo agli amministratori di bloccare o consentire il traffico in base agli indirizzi IP.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um endereço IP?",
+                        "text": "<p>Um endereço IP, ou endereço de Protocolo de Internet, é uma sequência única de números separados por pontos (IPv4) ou por dois-pontos (IPv6) que identifica cada computador que usa o Protocolo de Internet para se comunicar em uma rede. Ele funciona como um endereço digital que permite que os dados sejam roteados para o local correto, de maneira semelhante a como um endereço residencial permite que a correspondência seja entregue na casa correta.</p><p>Por exemplo, quando você visita um site, seu computador envia uma solicitação ao servidor onde o site é hospedado através do seu endereço IP. O servidor envia então os dados solicitados de volta ao seu endereço IP. Os endereços IP podem ser estáticos, o que significa que não mudam, ou dinâmicos, o que significa que são temporariamente atribuídos por uma rede e podem mudar ao longo do tempo.</p><p>Na análise web, os endereços IP são usados para determinar a localização geográfica dos visitantes do site, rastrear sua atividade em um site e gerenciar os direitos de acesso. Eles também são críticos para o diagnóstico de rede e a gestão da segurança das redes, permitindo que os administradores bloqueiem ou permitam o tráfego com base nos endereços IP.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "IPアドレスとは何ですか？",
+                        "text": "<p>IPアドレス、またはインターネットプロトコルアドレスは、ピリオド（IPv4）またはコロン（IPv6）で区切られたユニークな数字の列であり、ネットワーク上で通信するためにインターネットプロトコルを使用している各コンピュータを識別します。これは、データを正しい場所にルーティングできるようにするデジタルアドレスのように機能します。これは、郵便物が適切な家に配達されるようにする住所に似ています。</p><p>たとえば、Webサイトを訪れると、コンピュータがIPアドレス経由でWebサイトがホストされているサーバーにリクエストを送信します。その後、サーバーは要求されたデータをIPアドレスに送り返します。IPアドレスは静的で、変更されない場合もありますが、動的であり、ネットワークによって一時的に割り当てられ、時間の経過とともに変更される場合もあります。</p><p>ウェブ分析では、IPアドレスを使用して、Webサイトの訪問者の地理的位置を特定し、サイトでのアクティビティを追跡し、アクセス権を管理します。また、ネットワークの診断やネットワークのセキュリティ管理にも重要であり、管理者がIPアドレスに基づいてトラフィックをブロックまたは許可できるようにします。</p>"
                     }
                 }
             },
