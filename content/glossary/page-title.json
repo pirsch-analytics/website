@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/page-title"
+        "en": "/glossary/page-title",
+        "de": "/de/glossary/page-title",
+        "es": "/es/glossary/page-title",
+        "fr": "/fr/glossary/page-title",
+        "nl": "/nl/glossary/page-title",
+        "it": "/it/glossary/page-title",
+        "pt": "/pt/glossary/page-title",
+        "ja": "/ja/glossary/page-title"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Page Title – Pirsch Analytics",
                         "meta_description": "The title of a webpage that appears at the top of a browser window and is displayed in search engine results pages."
+                    },
+                    "de": {
+                        "title": "Seitentitel – Pirsch Analytics",
+                        "meta_description": "Der Titel einer Webseite, der oben im Browserfenster erscheint und in den Suchmaschinenergebnisseiten angezeigt wird."
+                    },
+                    "es": {
+                        "title": "Título de Página – Pirsch Analytics",
+                        "meta_description": "El título de una página web que aparece en la parte superior de una ventana del navegador y se muestra en las páginas de resultados de los motores de búsqueda."
+                    },
+                    "fr": {
+                        "title": "Titre de la Page – Pirsch Analytics",
+                        "meta_description": "Le titre d'une page web qui apparaît en haut d'une fenêtre de navigateur et qui est affiché dans les pages de résultats de moteur de recherche."
+                    },
+                    "nl": {
+                        "title": "Paginatitel – Pirsch Analytics",
+                        "meta_description": "De titel van een webpagina die bovenaan een browservenster verschijnt en wordt weergegeven in de zoekresultaten van de zoekmachine."
+                    },
+                    "it": {
+                        "title": "Titolo della Pagina – Pirsch Analytics",
+                        "meta_description": "Il titolo di una pagina web che appare nella parte superiore di una finestra del browser e viene visualizzato nelle pagine dei risultati del motore di ricerca."
+                    },
+                    "pt": {
+                        "title": "Título da Página – Pirsch Analytics",
+                        "meta_description": "O título de uma página web que aparece na parte superior de uma janela do navegador e é exibido nas páginas de resultados de mecanismos de busca."
+                    },
+                    "ja": {
+                        "title": "ページタイトル – Pirsch Analytics",
+                        "meta_description": "ブラウザ ウィンドウの上部に表示され、検索エンジン結果ページに表示されるウェブページのタイトル。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Page Title?",
                         "text": "<p>The page title, also known as the title tag, is a basic HTML element that specifies the title of a web page. This title is displayed on browser tabs, search engine results pages (SERPs), and external sites such as social media platforms when the page is shared. The page title is crucial for SEO because it helps search engines understand the content of the page and also plays an important role in the user's decision to click on the page from the search results.</p><p>For example, an effective page title should be concise, descriptive, and contain <a href=\"/glossary/keyword\">keywords</a> that reflect the content of the page. If a website is about \"healthy food recipes\", an appropriate page title might be \"10 Quick and Healthy Food Recipes | FoodieBlog\". This title tells both users and search engines what the page is about, and can entice users looking for dinner recipes to click through to the page via search results or links shared on social media.</p><p>Optimizing the page title for relevance and appeal can have a significant impact on a webpage's visibility in search results and <a href=\"/glossary/click-through-rate\">click-through rate</a>, which directly affects the success of the site's content marketing and SEO efforts.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Seitentitel?",
+                        "text": "<p>Der Seitentitel, auch bekannt als Title-Tag, ist ein grundlegendes HTML-Element, das den Titel einer Webseite angibt. Dieser Titel wird auf Browser-Tabs, in Suchmaschinenergebnisseiten (SERPs) und auf externen Websites wie sozialen Medienplattformen angezeigt, wenn die Seite geteilt wird. Der Seitentitel ist für SEO von entscheidender Bedeutung, da er Suchmaschinen dabei hilft, den Inhalt der Seite zu verstehen, und auch eine wichtige Rolle bei der Entscheidung des Benutzers spielt, ob er von den Suchergebnissen zur Seite klickt.</p><p>Ein effektiver Seitentitel sollte beispielsweise prägnant, beschreibend und Schlüsselwörter (<a href=\"/de/glossary/keyword\">keywords</a>) enthalten, die den Inhalt der Seite widerspiegeln. Wenn eine Website beispielsweise \"gesunde Lebensmittelrezepte\" behandelt, könnte ein passender Seitentitel „10 schnelle und gesunde Lebensmittelrezepte | FoodieBlog\" lauten. Dieser Titel sagt sowohl den Benutzern als auch den Suchmaschinen, worum es auf der Seite geht, und kann Benutzer, die nach Abendessenrezepten suchen, dazu verleiten, über die Suchergebnisse oder in sozialen Medien geteilte Links auf die Seite zu klicken.</p><p>Die Optimierung des Seitentitels für Relevanz und Attraktivität kann die Sichtbarkeit einer Webseite in den Suchergebnissen und die <a href=\"/de/glossary/click-through-rate\">Klickrate</a> erheblich beeinflussen, was sich direkt auf den Erfolg der Content-Marketing- und SEO-Bemühungen der Website auswirkt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es el Título de Página?",
+                        "text": "<p>El título de la página, también conocido como la etiqueta de título, es un elemento HTML básico que especifica el título de una página web. Este título se muestra en las pestañas del navegador, las páginas de resultados de los motores de búsqueda (SERP) y los sitios externos, como las plataformas de redes sociales, cuando se comparte la página. El título de la página es crucial para el SEO porque ayuda a los motores de búsqueda a comprender el contenido de la página y también juega un papel importante en la decisión del usuario de hacer clic en la página desde los resultados de búsqueda.</p><p>Por ejemplo, un título de página eficaz debe ser conciso, descriptivo y contener <a href=\"/es/glossary/keyword\">palabras clave</a> que reflejen el contenido de la página. Si un sitio web trata sobre \"recetas de comida saludable\", un título de página apropiado podría ser \"10 recetas de comida rápida y saludable | FoodieBlog\". Este título les dice tanto a los usuarios como a los motores de búsqueda de qué trata la página y puede atraer a los usuarios que buscan recetas para la cena para que hagan clic en la página a través de los resultados de búsqueda o los enlaces compartidos en las redes sociales.</p><p>Optimizar el título de la página para que sea relevante y atractivo puede tener un impacto significativo en la visibilidad de una página web en los resultados de búsqueda y en la <a href=\"/es/glossary/click-through-rate\">tasa de clics</a>, lo que afecta directamente el éxito de los esfuerzos de marketing de contenido y SEO del sitio.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un Titre de la Page ?",
+                        "text": "<p>Le titre de la page, également connu sous le nom de balise de titre, est un élément HTML de base qui spécifie le titre d'une page web. Ce titre est affiché sur les onglets du navigateur, les pages de résultats de moteur de recherche (SERP) et les sites externes tels que les plateformes de médias sociaux lorsque la page est partagée. Le titre de la page est crucial pour le SEO car il aide les moteurs de recherche à comprendre le contenu de la page et joue également un rôle important dans la décision de l'utilisateur de cliquer sur la page à partir des résultats de recherche.</p><p>Par exemple, un titre de page efficace doit être concis, descriptif et contenir des <a href=\"/fr/glossary/keyword\">mots-clés</a> qui reflètent le contenu de la page. Si un site web parle de \"recettes alimentaires saines\", un titre de page approprié pourrait être \"10 recettes alimentaires rapides et saines | FoodieBlog\". Ce titre indique aux utilisateurs et aux moteurs de recherche de quoi parle la page et peut inciter les utilisateurs à la recherche de recettes de dîner à cliquer sur la page via les résultats de recherche ou les liens partagés sur les réseaux sociaux.</p><p>Optimiser le titre de la page pour la pertinence et l'attrait peut avoir un impact significatif sur la visibilité d'une page web dans les résultats de recherche et sur le <a href=\"/fr/glossary/click-through-rate\">taux de clics</a>, ce qui affecte directement le succès des efforts de marketing de contenu et de SEO du site.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een Paginatitel?",
+                        "text": "<p>De paginatitel, ook bekend als de title-tag, is een basiselement van HTML dat de titel van een webpagina specificeert. Deze titel wordt weergegeven op browsertabbladen, op zoekmachineresultatenpagina's (SERP's) en op externe sites zoals sociale-mediaplatforms wanneer de pagina wordt gedeeld. De paginatitel is cruciaal voor SEO, omdat het zoekmachines helpt de inhoud van de pagina te begrijpen en ook een belangrijke rol speelt in de beslissing van de gebruiker om op de pagina te klikken vanuit de zoekresultaten.</p><p>Een effectieve paginatitel moet bijvoorbeeld beknopt en beschrijvend zijn en <a href=\"/nl/glossary/keyword\">zoekwoorden</a> bevatten die de inhoud van de pagina weergeven. Als een website bijvoorbeeld gaat over \"gezonde voedselrecepten\", zou een geschikte paginatitel \"10 snelle en gezonde voedselrecepten | FoodieBlog\" kunnen zijn. Deze titel vertelt zowel gebruikers als zoekmachines waar de pagina over gaat en kan gebruikers die op zoek zijn naar dinergerechten ertoe aanzetten om via zoekresultaten of links die zijn gedeeld op sociale media door te klikken naar de pagina.</p><p>Het optimaliseren van de paginatitel voor relevantie en aantrekkingskracht kan een aanzienlijke invloed hebben op de zichtbaarheid van een webpagina in de zoekresultaten en de <a href=\"/nl/glossary/click-through-rate\">klikfrequentie</a>, wat direct invloed heeft op het succes van de contentmarketing en SEO-inspanningen van de site.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è un Titolo della Pagina?",
+                        "text": "<p>Il titolo della pagina, noto anche come tag del titolo, è un elemento HTML di base che specifica il titolo di una pagina web. Questo titolo viene visualizzato sulle schede del browser, nelle pagine dei risultati del motore di ricerca (SERP) e sui siti esterni come le piattaforme di social media quando la pagina viene condivisa. Il titolo della pagina è fondamentale per la SEO perché aiuta i motori di ricerca a comprendere il contenuto della pagina e svolge anche un ruolo importante nella decisione dell'utente di fare clic sulla pagina dai risultati di ricerca.</p><p>Ad esempio, un titolo di pagina efficace dovrebbe essere conciso, descrittivo e contenere <a href=\"/it/glossary/keyword\">parole chiave</a> che riflettono il contenuto della pagina. Se un sito web tratta di \"ricette di cibo sano\", un titolo di pagina appropriato potrebbe essere \"10 ricette di cibo rapido e salutare | FoodieBlog\". Questo titolo dice sia agli utenti che ai motori di ricerca di cosa tratta la pagina e può invogliare gli utenti alla ricerca di ricette per la cena a fare clic sulla pagina tramite i risultati di ricerca o i link condivisi sui social media.</p><p>Ottimizzare il titolo della pagina per rilevanza e attrattiva può avere un impatto significativo sulla visibilità di una pagina web nei risultati di ricerca e sul <a href=\"/it/glossary/click-through-rate\">tasso di clic</a>, che ha un impatto diretto sul successo degli sforzi di content marketing e SEO del sito.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um Título da Página?",
+                        "text": "<p>O título da página, também conhecido como a tag do título, é um elemento HTML básico que especifica o título de uma página web. Este título é exibido nas guias do navegador, nas páginas de resultados dos mecanismos de busca (SERP) e em sites externos, como plataformas de mídia social, quando a página é compartilhada. O título da página é crucial para o SEO porque ajuda os mecanismos de busca a entender o conteúdo da página e também desempenha um papel importante na decisão do usuário de clicar na página nos resultados de pesquisa.</p><p>Por exemplo, um título de página eficaz deve ser conciso, descritivo e conter <a href=\"/pt/glossary/keyword\">palavras-chave</a> que reflitam o conteúdo da página. Se um site é sobre \"receitas de alimentos saudáveis\", um título de página apropriado poderia ser \"10 receitas de alimentos rápidas e saudáveis | FoodieBlog\". Este título diz aos usuários e aos mecanismos de busca sobre o que é a página e pode atrair os usuários que procuram receitas de jantar a clicar na página por meio dos resultados da pesquisa ou dos links compartilhados nas redes sociais.</p><p>Otimizar o título da página para relevância e apelo pode ter um impacto significativo na visibilidade de uma página da web nos resultados de pesquisa e na <a href=\"/pt/glossary/click-through-rate\">taxa de cliques</a>, o que afeta diretamente o sucesso dos esforços de marketing de conteúdo e SEO do site.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ページタイトルとは何ですか？",
+                        "text": "<p>ページタイトルは、タイトルタグとも呼ばれ、ウェブページのタイトルを指定する基本的なHTML要素です。このタイトルは、ブラウザのタブ、検索エンジンの結果ページ（SERP）、およびページが共有されるとソーシャルメディアプラットフォームなどの外部サイトに表示されます。ページタイトルはSEOにとって重要です。なぜなら、検索エンジンがページのコンテンツを理解するのに役立ち、ユーザーが検索結果からページをクリックするかどうかの判断において重要な役割を果たすからです。</p><p>たとえば、効果的なページタイトルは、簡潔で説明的であり、ページの内容を反映する<a href=\"/ja/glossary/keyword\">キーワード</a>を含む必要があります。ウェブサイトが「健康食品レシピ」についてであれば、適切なページタイトルは「10個の簡単で健康的な食品レシピ | フーディーブログ」などです。このタイトルは、ユーザーと検索エンジンの両方にページの内容を伝え、ディナーレシピを探しているユーザーが検索結果やソーシャルメディアで共有されたリンクを通じてページにアクセスするように促すことができます。</p><p>ページタイトルの関連性と魅力を最適化すると、検索結果と<a href=\"/ja/glossary/click-through-rate\">クリック率</a>におけるウェブページの視認性に大きな影響を与え、サイトのコンテンツマーケティングとSEOの取り組みの成功に直接影響を与えます。</p>"
                     }
                 }
             },

@@ -1,13 +1,13 @@
 {
     "path": {
         "en": "/glossary/location",
-        "de": "/de/glossary",
-        "es": "/es/glossary",
-        "fr": "/fr/glossary",
-        "nl": "/nl/glossary",
-        "it": "/it/glossary",
-        "pt": "/pt/glossary",
-        "ja": "/ja/glossary"
+        "de": "/de/glossary/location",
+        "es": "/es/glossary/location",
+        "fr": "/fr/glossary/location",
+        "nl": "/nl/glossary/location",
+        "it": "/it/glossary/location",
+        "pt": "/pt/glossary/location",
+        "ja": "/ja/glossary/location"
     },
     "sitemap": {
         "priority": "0.5"
@@ -20,6 +20,34 @@
                     "en": {
                         "title": "Location – Pirsch Analytics",
                         "meta_description": "The physical or geographic location of a user accessing a website or app, typically determined by their IP address or GPS coordinates."
+                    },
+                    "de": {
+                        "title": "Standort – Pirsch Analytics",
+                        "meta_description": "Der physische oder geografische Standort eines Benutzers, der auf eine Website oder App zugreift, normalerweise bestimmt durch seine IP-Adresse oder GPS-Koordinaten."
+                    },
+                    "es": {
+                        "title": "Ubicación – Pirsch Analytics",
+                        "meta_description": "La ubicación física o geográfica de un usuario que accede a un sitio web o aplicación, generalmente determinada por su dirección IP o coordenadas GPS."
+                    },
+                    "fr": {
+                        "title": "Emplacement – Pirsch Analytics",
+                        "meta_description": "L'emplacement physique ou géographique d'un utilisateur accédant à un site web ou à une application, généralement déterminé par son adresse IP ou ses coordonnées GPS."
+                    },
+                    "nl": {
+                        "title": "Locatie – Pirsch Analytics",
+                        "meta_description": "De fysieke of geografische locatie van een gebruiker die een website of app bezoekt, meestal bepaald door hun IP-adres of GPS-coördinaten."
+                    },
+                    "it": {
+                        "title": "Posizione – Pirsch Analytics",
+                        "meta_description": "La posizione fisica o geografica di un utente che accede a un sito web o a un'app, in genere determinata dal suo indirizzo IP o dalle coordinate GPS."
+                    },
+                    "pt": {
+                        "title": "Localização – Pirsch Analytics",
+                        "meta_description": "A localização física ou geográfica de um usuário que acessa um site ou aplicativo, geralmente determinada por seu endereço IP ou coordenadas GPS."
+                    },
+                    "ja": {
+                        "title": "位置情報 – Pirsch Analytics",
+                        "meta_description": "ウェブサイトやアプリにアクセスしているユーザーの物理的または地理的な位置で、通常はIPアドレスやGPS座標によって特定されます。"
                     }
                 }
             },
@@ -32,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Location?",
                         "text": "<p>Location in web analytics refers to the geographic area from which a user accesses a website. This information is usually derived from the user's <a href=\"/glossary/ip-address\">IP address</a> and can be as broad as a country or as specific as a city. Knowing the location of website visitors is crucial for understanding audience demographics, tailoring content to regional preferences, and optimizing marketing strategies for specific audiences.</p><p>For example, if analytics show that a large portion of a website's visitors come from Berlin, the website owner can offer special promotions, events, or content tailored to visitors from that region. In addition, location data can help evaluate the effectiveness of local SEO efforts and regional advertising campaigns.</p><p>Location tracking also helps address legal restrictions and cultural sensitivities by allowing websites to customize content based on the laws and cultural norms of the visitor's location, such as displaying content in the local language or modifying available products and services to comply with local regulations.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Standort?",
+                        "text": "<p>Der Standort in der Webanalyse bezieht sich auf das geografische Gebiet, von dem aus ein Benutzer auf eine Website zugreift. Diese Informationen stammen in der Regel aus der <a href=\"/de/glossary/ip-address\">IP-Adresse</a> des Benutzers und können so breit sein wie ein Land oder so spezifisch wie eine Stadt. Das Wissen über den Standort von Website-Besuchern ist entscheidend für das Verständnis der demografischen Merkmale der Zielgruppe, die Anpassung von Inhalten an regionale Vorlieben und die Optimierung von Marketingstrategien für bestimmte Zielgruppen.</p><p>Wenn Analysen beispielsweise zeigen, dass ein großer Teil der Besucher einer Website aus Berlin kommt, kann der Website-Eigentümer spezielle Werbeaktionen, Veranstaltungen oder Inhalte anbieten, die auf Besucher aus dieser Region zugeschnitten sind. Darüber hinaus kann die Standortdaten dabei helfen, die Effektivität lokaler SEO-Bemühungen und regionaler Werbekampagnen zu bewerten.</p><p>Das Standort-Tracking hilft auch dabei, rechtliche Beschränkungen und kulturelle Empfindlichkeiten anzugehen, indem Websites Inhalte an die Gesetze und kulturellen Normen des Standorts des Besuchers anpassen, z. B. Inhalte in der lokalen Sprache anzeigen oder verfügbare Produkte und Dienstleistungen ändern, um den lokalen Vorschriften zu entsprechen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es una Ubicación?",
+                        "text": "<p>La ubicación en el análisis web se refiere al área geográfica desde la que un usuario accede a un sitio web. Esta información generalmente se deriva de la <a href=\"/es/glossary/ip-address\">dirección IP</a> del usuario y puede ser tan amplia como un país o tan específica como una ciudad. Conocer la ubicación de los visitantes del sitio web es crucial para comprender la demografía de la audiencia, personalizar el contenido según las preferencias regionales y optimizar las estrategias de marketing para audiencias específicas.</p><p>Por ejemplo, si el análisis muestra que una gran parte de los visitantes de un sitio web provienen de Berlín, el propietario del sitio web puede ofrecer promociones especiales, eventos o contenido adaptado a los visitantes de esa región. Además, los datos de ubicación pueden ayudar a evaluar la efectividad de los esfuerzos locales de SEO y las campañas publicitarias regionales.</p><p>El seguimiento de la ubicación también ayuda a abordar las restricciones legales y las sensibilidades culturales al permitir que los sitios web personalicen el contenido en función de las leyes y las normas culturales de la ubicación del visitante, como mostrar contenido en el idioma local o modificar los productos y servicios disponibles para cumplir con las regulaciones locales.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un Emplacement ?",
+                        "text": "<p>L'emplacement dans l'analyse web fait référence à la zone géographique à partir de laquelle un utilisateur accède à un site web. Ces informations sont généralement dérivées de l'<a href=\"/fr/glossary/ip-address\">adresse IP</a> de l'utilisateur et peuvent être aussi larges qu'un pays ou aussi spécifiques qu'une ville. Connaître l'emplacement des visiteurs du site web est crucial pour comprendre les données démographiques de l'audience, adapter le contenu aux préférences régionales et optimiser les stratégies marketing pour des audiences spécifiques.</p><p>Par exemple, si l'analyse montre qu'une grande partie des visiteurs d'un site web proviennent de Berlin, le propriétaire du site peut proposer des promotions, des événements ou du contenu spéciaux adaptés aux visiteurs de cette région. En outre, les données de localisation peuvent aider à évaluer l'efficacité des efforts de référencement local et des campagnes publicitaires régionales.</p><p>Le suivi de l'emplacement aide également à résoudre les restrictions légales et les sensibilités culturelles en permettant aux sites web de personnaliser le contenu en fonction des lois et des normes culturelles de l'emplacement du visiteur, par exemple en affichant le contenu dans la langue locale ou en modifiant les produits et services disponibles pour se conformer aux réglementations locales.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een Locatie?",
+                        "text": "<p>Locatie in webanalyse verwijst naar het geografische gebied van waaruit een gebruiker toegang heeft tot een website. Deze informatie is meestal afgeleid van het <a href=\"/nl/glossary/ip-address\">IP-adres</a> van de gebruiker en kan zo breed zijn als een land of zo specifiek als een stad. Het kennen van de locatie van websitebezoekers is cruciaal voor het begrijpen van publieksdemografie, het afstemmen van inhoud op regionale voorkeuren en het optimaliseren van marketingstrategieën voor specifieke doelgroepen.</p><p>Als uit analyses bijvoorbeeld blijkt dat een groot deel van de bezoekers van een website uit Berlijn komt, kan de website-eigenaar speciale promoties, evenementen of inhoud aanbieden die zijn afgestemd op bezoekers uit die regio. Bovendien kunnen locatiedata helpen bij het beoordelen van de effectiviteit van lokale SEO-inspanningen en regionale advertentiecampagnes.</p><p>Locatietracking helpt ook om juridische beperkingen en culturele gevoeligheden aan te pakken door websites in staat te stellen inhoud aan te passen op basis van de wetten en culturele normen van de locatie van de bezoeker, zoals het weergeven van inhoud in de lokale taal of het wijzigen van beschikbare producten en diensten om te voldoen aan lokale voorschriften.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è una Posizione?",
+                        "text": "<p>La posizione nell'analisi web si riferisce all'area geografica da cui un utente accede a un sito web. Queste informazioni sono generalmente derivate dall'<a href=\"/it/glossary/ip-address\">indirizzo IP</a> dell'utente e possono essere ampie come un paese o specifiche come una città. Conoscere la posizione dei visitatori del sito web è fondamentale per comprendere i dati demografici del pubblico, adattare i contenuti alle preferenze regionali e ottimizzare le strategie di marketing per pubblici specifici.</p><p>Ad esempio, se le analisi mostrano che una grande parte dei visitatori di un sito web proviene da Berlino, il proprietario del sito web può offrire promozioni speciali, eventi o contenuti personalizzati per i visitatori di quella regione. Inoltre, i dati sulla posizione possono aiutare a valutare l'efficacia degli sforzi SEO locali e delle campagne pubblicitarie regionali.</p><p>Il tracciamento della posizione aiuta anche a gestire le restrizioni legali e le sensibilità culturali consentendo ai siti web di personalizzare i contenuti in base alle leggi e alle norme culturali della posizione del visitatore, ad esempio visualizzando i contenuti nella lingua locale o modificando i prodotti e i servizi disponibili per conformarsi alle normative locali.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é uma Localização?",
+                        "text": "<p>A localização em análise web refere-se à área geográfica de onde um usuário acessa um site. Essas informações geralmente são derivadas do <a href=\"/pt/glossary/ip-address\">endereço IP</a> do usuário e podem ser tão amplas quanto um país ou tão específicas quanto uma cidade. Conhecer a localização dos visitantes do site é crucial para entender a demografia do público, adaptar o conteúdo às preferências regionais e otimizar as estratégias de marketing para públicos específicos.</p><p>Por exemplo, se a análise mostra que uma grande parte dos visitantes de um site é de Berlim, o proprietário do site pode oferecer promoções especiais, eventos ou conteúdo adaptado aos visitantes dessa região. Além disso, os dados de localização podem ajudar a avaliar a eficácia dos esforços locais de SEO e das campanhas publicitárias regionais.</p><p>O rastreamento de localização também ajuda a abordar restrições legais e sensibilidades culturais, permitindo que os sites personalizem o conteúdo com base nas leis e normas culturais da localização do visitante, como exibir o conteúdo no idioma local ou modificar os produtos e serviços disponíveis para cumprir as regulamentações locais.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "位置情報とは何ですか？",
+                        "text": "<p>ウェブ分析における位置情報とは、ユーザーがウェブサイトにアクセスしている地理的なエリアを指します。この情報は通常、ユーザーの<a href=\"/ja/glossary/ip-address\">IPアドレス</a>から取得され、国のように広範囲であることもあれば、都市のように具体的であることもあります。ウェブサイトの訪問者の位置情報を知ることは、オーディエンスの人口統計を理解し、地域の嗜好に合わせてコンテンツを調整し、特定のオーディエンスに対するマーケティング戦略を最適化するために重要です。</p><p>例えば、分析結果があるウェブサイトの訪問者の多くがベルリンから来ていることを示している場合、ウェブサイトの所有者はその地域からの訪問者に特化したプロモーション、イベント、コンテンツを提供することができます。また、位置情報データは、地域のSEOの取り組みや地域の広告キャンペーンの効果を評価するのに役立ちます。</p><p>位置情報の追跡は、訪問者の位置の法律や文化的な規範に基づいてウェブサイトのコンテンツをカスタマイズできるようにすることで、法的な制約や文化的な配慮に対処するのにも役立ちます。例えば、現地の言語でコンテンツを表示したり、現地の規制に準拠するために利用可能な製品やサービスを変更したりすることができます。</p>"
                     }
                 }
             },

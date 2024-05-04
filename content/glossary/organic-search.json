@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/organic-search"
+        "en": "/glossary/organic-search",
+        "de": "/de/glossary/organic-search",
+        "es": "/es/glossary/organic-search",
+        "fr": "/fr/glossary/organic-search",
+        "nl": "/nl/glossary/organic-search",
+        "it": "/it/glossary/organic-search",
+        "pt": "/pt/glossary/organic-search",
+        "ja": "/ja/glossary/organic-search"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Organic Search – Pirsch Analytics",
                         "meta_description": "Traffic that comes to a website as a result of unpaid search results, also known as natural or organic search."
+                    },
+                    "de": {
+                        "title": "Organische Suche – Pirsch Analytics",
+                        "meta_description": "Traffic, der durch unbezahlte Suchergebnisse auf eine Website gelangt, auch bekannt als natürliche oder organische Suche."
+                    },
+                    "es": {
+                        "title": "Búsqueda Orgánica – Pirsch Analytics",
+                        "meta_description": "El tráfico que llega a un sitio web como resultado de resultados de búsqueda no pagados, también conocido como búsqueda natural u orgánica."
+                    },
+                    "fr": {
+                        "title": "Recherche Organique – Pirsch Analytics",
+                        "meta_description": "Le trafic qui arrive sur un site web à la suite de résultats de recherche non payants, également connu sous le nom de recherche naturelle ou organique."
+                    },
+                    "nl": {
+                        "title": "Organisch Zoeken – Pirsch Analytics",
+                        "meta_description": "Verkeer dat naar een website komt als gevolg van onbetaalde zoekresultaten, ook wel bekend als natuurlijke of organische zoekresultaten."
+                    },
+                    "it": {
+                        "title": "Ricerca Organica – Pirsch Analytics",
+                        "meta_description": "Il traffico che arriva su un sito web a seguito di risultati di ricerca non pagati, noto anche come ricerca naturale o organica."
+                    },
+                    "pt": {
+                        "title": "Busca Orgânica – Pirsch Analytics",
+                        "meta_description": "Tráfego que chega a um site como resultado de resultados de busca não pagos, também conhecido como busca natural ou orgânica."
+                    },
+                    "ja": {
+                        "title": "オーガニック検索 – Pirsch Analytics",
+                        "meta_description": "無償の検索結果としてウェブサイトに来るトラフィックで、ナチュラルまたはオーガニック検索としても知られています。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Organic Search?",
                         "text": "<p>Organic search refers to the unpaid listings on a search engine results page (<a href=\"/glossary/search-engine-results-page\">SERP</a>) that are determined by the search engine's algorithms. These results are derived from the search engine's assessment of a page's relevance and authority, which is typically influenced by factors such as content quality, <a href=\"/glossary/keyword\">keyword</a> relevance, and backlink profiles, to name a few. Organic search is crucial for generating long-term traffic to a website and is often viewed by users as more trustworthy than paid search results.</p><p>For example, when a user types a search query into a search engine such as Google, the list of websites that appear without the label \"Ad\" are organic search results. Sites attempt to optimize their content through <a href=\"/glossary/search-engine-optimization\">SEO</a> (search engine optimization) to rank higher in these organic search results. Ranking high in organic search results can significantly increase website visibility, user trust and traffic without the cost of paid advertising.</p><p>Optimizing the <a href=\"/glossary/page-title\">page title</a> for relevance and appeal can significantly impact a web page's visibility in search results and <a href=\"/glossary/click-through-rate\">click-through rate</a>, which has a direct impact on the success of a website's content marketing and SEO efforts.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist organische Suche?",
+                        "text": "<p>Organische Suche bezieht sich auf die unbezahlten Einträge auf einer Suchmaschinenergebnisseite (<a href=\"/de/glossary/search-engine-results-page\">SERP</a>), die von den Algorithmen der Suchmaschine bestimmt werden. Diese Ergebnisse basieren auf der Einschätzung der Suchmaschine hinsichtlich der Relevanz und Autorität einer Seite, die in der Regel von Faktoren wie der Inhaltsqualität, der <a href=\"/de/glossary/keyword\">Keyword</a>-Relevanz und dem Backlink-Profil beeinflusst wird, um nur einige zu nennen. Organische Suche ist entscheidend für die langfristige Traffic-Generierung auf einer Website und wird von den Nutzern oft als vertrauenswürdiger angesehen als bezahlte Suchergebnisse.</p><p>Wenn ein Benutzer beispielsweise eine Suchanfrage in eine Suchmaschine wie Google eingibt, sind die Webseiten, die ohne das Label „Anzeige“ erscheinen, organische Suchergebnisse. Websites versuchen, ihre Inhalte durch <a href=\"/de/glossary/search-engine-optimization\">SEO</a> (Suchmaschinenoptimierung) zu optimieren, um in diesen organischen Suchergebnissen höher zu ranken. Ein hohes Ranking in den organischen Suchergebnissen kann die Sichtbarkeit einer Website, das Vertrauen der Nutzer und den Traffic erheblich steigern, ohne die Kosten für bezahlte Werbung.</p><p>Die Optimierung des <a href=\"/de/glossary/page-title\">Seitentitels</a> für Relevanz und Attraktivität kann die Sichtbarkeit einer Webseite in den Suchergebnissen und die <a href=\"/de/glossary/click-through-rate\">Klickrate</a> erheblich beeinflussen, was sich direkt auf den Erfolg der Content-Marketing- und SEO-Bemühungen einer Website auswirkt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es la Búsqueda Orgánica?",
+                        "text": "<p>La búsqueda orgánica se refiere a los listados no pagados en una página de resultados del motor de búsqueda (<a href=\"/es/glossary/search-engine-results-page\">SERP</a>) que son determinados por los algoritmos del motor de búsqueda. Estos resultados se derivan de la evaluación del motor de búsqueda de la relevancia y autoridad de una página, que generalmente se ve influenciada por factores como la calidad del contenido, la relevancia de las <a href=\"/es/glossary/keyword\">palabras clave</a> y los perfiles de backlinks, por nombrar algunos. La búsqueda orgánica es crucial para generar tráfico a largo plazo a un sitio web y a menudo es vista por los usuarios como más confiable que los resultados de búsqueda pagados.</p><p>Por ejemplo, cuando un usuario escribe una consulta de búsqueda en un motor de búsqueda como Google, la lista de sitios web que aparecen sin la etiqueta \"Anuncio\" son resultados de búsqueda orgánica. Los sitios intentan optimizar su contenido a través de <a href=\"/es/glossary/search-engine-optimization\">SEO</a> (optimización de motores de búsqueda) para posicionarse mejor en estos resultados de búsqueda orgánica. Clasificarse alto en los resultados de búsqueda orgánica puede aumentar significativamente la visibilidad del sitio web, la confianza del usuario y el tráfico sin el costo de la publicidad pagada.</p><p>Optimizar el <a href=\"/es/glossary/page-title\">título de la página</a> para que sea relevante y atractivo puede impactar significativamente en la visibilidad de una página web en los resultados de búsqueda y en la <a href=\"/es/glossary/click-through-rate\">tasa de clics</a>, lo que tiene un impacto directo en el éxito de los esfuerzos de marketing de contenido y SEO de un sitio web.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que la Recherche Organique ?",
+                        "text": "<p>La recherche organique fait référence aux listes non payantes sur une page de résultats de moteur de recherche (<a href=\"/fr/glossary/search-engine-results-page\">SERP</a>) qui sont déterminées par les algorithmes du moteur de recherche. Ces résultats sont dérivés de l'évaluation par le moteur de recherche de la pertinence et de l'autorité d'une page, qui est généralement influencée par des facteurs tels que la qualité du contenu, la pertinence des <a href=\"/fr/glossary/keyword\">mots-clés</a> et les profils de backlinks, pour n'en nommer que quelques-uns. La recherche organique est cruciale pour générer du trafic à long terme vers un site web et est souvent perçue par les utilisateurs comme plus fiable que les résultats de recherche payants.</p><p>Par exemple, lorsqu'un utilisateur saisit une requête de recherche dans un moteur de recherche tel que Google, la liste des sites web qui apparaissent sans le libellé \"Annonce\" sont des résultats de recherche organique. Les sites tentent d'optimiser leur contenu grâce au <a href=\"/fr/glossary/search-engine-optimization\">SEO</a> (optimisation des moteurs de recherche) pour mieux se classer dans ces résultats de recherche organique. Un classement élevé dans les résultats de recherche organique peut augmenter considérablement la visibilité du site web, la confiance des utilisateurs et le trafic sans le coût de la publicité payante.</p><p>L'optimisation du <a href=\"/fr/glossary/page-title\">titre de la page</a> pour la pertinence et l'attrait peut avoir un impact significatif sur la visibilité d'une page web dans les résultats de recherche et sur le <a href=\"/fr/glossary/click-through-rate\">taux de clics</a>, ce qui a un impact direct sur le succès des efforts de marketing de contenu et de SEO d'un site web.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is organisch zoeken?",
+                        "text": "<p>Organisch zoeken verwijst naar de onbetaalde vermeldingen op een zoekmachine resultatenpagina (<a href=\"/nl/glossary/search-engine-results-page\">SERP</a>) die worden bepaald door de algoritmen van de zoekmachine. Deze resultaten zijn afgeleid van de beoordeling van een pagina door de zoekmachine op relevantie en autoriteit, wat doorgaans wordt beïnvloed door factoren zoals de kwaliteit van de inhoud, de relevantie van <a href=\"/nl/glossary/keyword\">zoekwoorden</a> en backlinkprofielen, om er maar een paar te noemen. Organisch zoeken is cruciaal voor het genereren van langdurig verkeer naar een website en wordt door gebruikers vaak als betrouwbaarder beschouwd dan betaalde zoekresultaten.</p><p>Als een gebruiker bijvoorbeeld een zoekopdracht intypt in een zoekmachine zoals Google, zijn de lijst met websites die zonder het label \"Advertentie\" verschijnen organische zoekresultaten. Sites proberen hun inhoud te optimaliseren door middel van <a href=\"/nl/glossary/search-engine-optimization\">SEO</a> (zoekmachineoptimalisatie) om hoger te scoren in deze organische zoekresultaten. Een hoge positie in organische zoekresultaten kan de zichtbaarheid van de website, het gebruikersvertrouwen en het verkeer aanzienlijk vergroten zonder de kosten van betaalde advertenties.</p><p>Het optimaliseren van de <a href=\"/nl/glossary/page-title\">paginatitel</a> voor relevantie en aantrekkingskracht kan een aanzienlijke impact hebben op de zichtbaarheid van een webpagina in de zoekresultaten en de <a href=\"/nl/glossary/click-through-rate\">klikfrequentie</a>, wat een directe invloed heeft op het succes van de contentmarketing en SEO-inspanningen van een website.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è la Ricerca Organica?",
+                        "text": "<p>La ricerca organica si riferisce agli elenchi non pagati in una pagina dei risultati del motore di ricerca (<a href=\"/it/glossary/search-engine-results-page\">SERP</a>) determinati dagli algoritmi del motore di ricerca. Questi risultati derivano dalla valutazione del motore di ricerca della rilevanza e dell'autorità di una pagina, che è generalmente influenzata da fattori quali la qualità dei contenuti, la pertinenza delle <a href=\"/it/glossary/keyword\">parole chiave</a> e i profili dei backlink, per citarne alcuni. La ricerca organica è fondamentale per generare traffico a lungo termine su un sito web e viene spesso vista dagli utenti come più affidabile rispetto ai risultati di ricerca a pagamento.</p><p>Ad esempio, quando un utente digita una query di ricerca in un motore di ricerca come Google, l'elenco di siti web che appare senza l'etichetta \"Annuncio\" è costituito da risultati di ricerca organici. I siti tentano di ottimizzare i loro contenuti attraverso la <a href=\"/it/glossary/search-engine-optimization\">SEO</a> (ottimizzazione dei motori di ricerca) per ottenere un posizionamento più alto in questi risultati di ricerca organici. Classificarsi in alto nei risultati di ricerca organici può aumentare significativamente la visibilità del sito web, la fiducia degli utenti e il traffico senza i costi della pubblicità a pagamento.</p><p>Ottimizzare il <a href=\"/it/glossary/page-title\">titolo della pagina</a> per rilevanza e attrattiva può avere un impatto significativo sulla visibilità di una pagina web nei risultati di ricerca e sul <a href=\"/it/glossary/click-through-rate\">tasso di clic</a>, che ha un impatto diretto sul successo degli sforzi di content marketing e SEO di un sito web.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Pesquisa Orgânica?",
+                        "text": "<p>Pesquisa orgânica refere-se às listagens não pagas em uma página de resultados de mecanismo de pesquisa (<a href=\"/pt/glossary/search-engine-results-page\">SERP</a>) que são determinadas pelos algoritmos do mecanismo de pesquisa. Esses resultados são derivados da avaliação do mecanismo de pesquisa sobre a relevância e a autoridade de uma página, que geralmente é influenciada por fatores como a qualidade do conteúdo, a relevância de <a href=\"/pt/glossary/keyword\">palavras-chave</a> e os perfis de backlinks, para citar alguns. Pesquisa orgânica é crucial para gerar tráfego a longo prazo para um site e é frequentemente vista pelos usuários como mais confiável do que os resultados de pesquisa paga.</p><p>Por exemplo, quando um usuário digita uma consulta de pesquisa em um mecanismo de pesquisa como o Google, a lista de sites que aparece sem o rótulo \"Anúncio\" são resultados de pesquisa orgânica. Os sites tentam otimizar seu conteúdo por meio de <a href=\"/pt/glossary/search-engine-optimization\">SEO</a> (otimização de mecanismos de pesquisa) para obter uma classificação mais alta nesses resultados de pesquisa orgânica. Classificar-se bem nos resultados de pesquisa orgânica pode aumentar significativamente a visibilidade do site, a confiança do usuário e o tráfego sem o custo da publicidade paga.</p><p>Otimizar o <a href=\"/pt/glossary/page-title\">título da página</a> para relevância e apelo pode ter um impacto significativo na visibilidade de uma página da web nos resultados de pesquisa e na <a href=\"/pt/glossary/click-through-rate\">taxa de cliques</a>, o que impacta diretamente o sucesso dos esforços de marketing de conteúdo e SEO de um site.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "グロサリーに戻る",
+                        "headline": "オーガニック検索とは？",
+                        "text": "<p>オーガニック検索とは、検索エンジンのアルゴリズムによって決定された検索エンジン結果ページ（<a href=\"/ja/glossary/search-engine-results-page\">SERP</a>）の無償のリストを指します。これらの結果は、通常、コンテンツの質、<a href=\"/ja/glossary/keyword\">キーワード</a>の関連性、バックリンクのプロファイルなどの要因によって影響を受けるページの関連性と権威に対する検索エンジンの評価から導き出されます。オーガニック検索は、ウェブサイトへの長期的なトラフィックの生成にとって非常に重要であり、ユーザーによって有料検索結果よりも信頼できるものと見なされることがよくあります。</p><p>たとえば、ユーザーがGoogleのような検索エンジンに検索クエリを入力すると、「広告」のラベルなしで表示されるウェブサイトのリストは、オーガニック検索結果です。サイトは、<a href=\"/ja/glossary/search-engine-optimization\">SEO</a>（検索エンジン最適化）を通じてコンテンツを最適化し、これらのオーガニック検索結果で上位にランク付けされるように努めます。オーガニック検索結果で高い順位を獲得することは、有料広告のコストなしにウェブサイトの視認性、ユーザーの信頼、およびトラフィックを大幅に向上させる可能性があります。</p><p><a href=\"/ja/glossary/page-title\">ページタイトル</a>を関連性と魅力に最適化することは、検索結果と<a href=\"/ja/glossary/click-through-rate\">クリック率</a>におけるウェブページの視認性に大きな影響を与え、ウェブサイトのコンテンツマーケティングとSEOの取り組みの成功に直接影響を与えます。</p>"
                     }
                 }
             },

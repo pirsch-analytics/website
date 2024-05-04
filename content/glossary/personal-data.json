@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/personal-data"
+        "en": "/glossary/personal-data",
+        "de": "/de/glossary/personal-data",
+        "es": "/es/glossary/personal-data",
+        "fr": "/fr/glossary/personal-data",
+        "nl": "/nl/glossary/personal-data",
+        "it": "/it/glossary/personal-data",
+        "pt": "/pt/glossary/personal-data",
+        "ja": "/ja/glossary/personal-data"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Personal Data – Pirsch Analytics",
                         "meta_description": "Any information that can be used to identify an individual, such as their name, email address, or phone number."
+                    },
+                    "de": {
+                        "title": "Personenbezogene Daten – Pirsch Analytics",
+                        "meta_description": "Alle Informationen, die zur Identifizierung einer Person verwendet werden können, wie Name, E-Mail-Adresse oder Telefonnummer."
+                    },
+                    "es": {
+                        "title": "Datos Personales – Pirsch Analytics",
+                        "meta_description": "Cualquier información que se pueda utilizar para identificar a una persona, como su nombre, dirección de correo electrónico o número de teléfono."
+                    },
+                    "fr": {
+                        "title": "Données Personnelles – Pirsch Analytics",
+                        "meta_description": "Toute information pouvant être utilisée pour identifier une personne, telle que son nom, son adresse e-mail ou son numéro de téléphone."
+                    },
+                    "nl": {
+                        "title": "Persoonsgegevens – Pirsch Analytics",
+                        "meta_description": "Alle informatie die kan worden gebruikt om een persoon te identificeren, zoals hun naam, e-mailadres of telefoonnummer."
+                    },
+                    "it": {
+                        "title": "Dati Personali – Pirsch Analytics",
+                        "meta_description": "Qualsiasi informazione che può essere utilizzata per identificare una persona, come il suo nome, indirizzo email o numero di telefono."
+                    },
+                    "pt": {
+                        "title": "Dados Pessoais – Pirsch Analytics",
+                        "meta_description": "Qualquer informação que possa ser usada para identificar uma pessoa, como seu nome, endereço de e-mail ou número de telefone."
+                    },
+                    "ja": {
+                        "title": "個人データ – Pirsch Analytics",
+                        "meta_description": "名前、電子メールアドレス、電話番号など、個人を識別するために使用できる情報。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Personal Data?",
                         "text": "<p>Personal data is any information that can be used to identify, directly or indirectly, an individual. This includes a wide range of data types, such as names, identification numbers, <a href=\"/glossary/location\">location</a> data, online identifiers, or factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that individual. In the context of web analytics and digital marketing, personal information is used to understand customer behavior, personalize experiences, and better target advertising.</p><p>For example, when a user signs up for an online service, the personal information collected may include their name, email address, and possibly their address or phone number. This information may be used to communicate with the user, provide personalized services, and improve customer service. However, the collection and use of personal data is subject to strict data protection laws, such as the <a href=\"/glossary/gdpr\">GDPR</a>, which require that personal data be processed lawfully, fairly, and transparently, and that it be collected for specified, explicit, and legitimate purposes.</p><p>Responsible handling of personal data is critical to maintaining user trust and complying with legal standards for the protection of privacy rights.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was sind personenbezogene Daten?",
+                        "text": "<p>Personenbezogene Daten sind alle Informationen, die direkt oder indirekt zur Identifizierung einer Person verwendet werden können. Dazu gehören eine Vielzahl von Datentypen, wie Namen, Identifikationsnummern, <a href=\"/de/glossary/location\">Standort</a>-Daten, Online-Kennungen oder Faktoren, die spezifisch für die physische, physiologische, genetische, mentale, wirtschaftliche, kulturelle oder soziale Identität dieser Person sind. Im Kontext von Webanalyse und digitalem Marketing werden persönliche Informationen verwendet, um das Kundenverhalten zu verstehen, Erfahrungen zu personalisieren und die Werbung besser auszurichten.</p><p>Wenn sich beispielsweise ein Benutzer für einen Onlinedienst anmeldet, können die gesammelten persönlichen Informationen seinen Namen, seine E-Mail-Adresse und möglicherweise seine Adresse oder Telefonnummer enthalten. Diese Informationen können verwendet werden, um mit dem Benutzer zu kommunizieren, personalisierte Dienste bereitzustellen und den Kundendienst zu verbessern. Die Erhebung und Verwendung personenbezogener Daten unterliegt jedoch strengen Datenschutzgesetzen, wie der <a href=\"/de/glossary/gdpr\">DSGVO</a>, die verlangen, dass personenbezogene Daten rechtmäßig, fair und transparent verarbeitet und zu bestimmten, eindeutigen und legitimen Zwecken erhoben werden.</p><p>Der verantwortungsvolle Umgang mit personenbezogenen Daten ist entscheidend, um das Vertrauen der Benutzer zu erhalten und die gesetzlichen Standards zum Schutz der Datenschutzrechte einzuhalten.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué son los Datos Personales?",
+                        "text": "<p>Los datos personales son cualquier información que se pueda utilizar para identificar, directa o indirectamente, a una persona. Esto incluye una amplia variedad de tipos de datos, como nombres, números de identificación, datos de <a href=\"/es/glossary/location\">ubicación</a>, identificadores en línea o factores específicos de la identidad física, fisiológica, genética, mental, económica, cultural o social de esa persona. En el contexto del análisis web y el marketing digital, la información personal se utiliza para comprender el comportamiento del cliente, personalizar las experiencias y orientar mejor la publicidad.</p><p>Por ejemplo, cuando un usuario se registra en un servicio en línea, la información personal recopilada puede incluir su nombre, dirección de correo electrónico y posiblemente su dirección o número de teléfono. Esta información puede ser utilizada para comunicarse con el usuario, brindar servicios personalizados y mejorar el servicio al cliente. Sin embargo, la recopilación y el uso de datos personales están sujetos a estrictas leyes de protección de datos, como el <a href=\"/es/glossary/gdpr\">GDPR</a>, que exigen que los datos personales se procesen de manera legal, justa y transparente, y que se recopilen para fines específicos, explícitos y legítimos.</p><p>El manejo responsable de los datos personales es fundamental para mantener la confianza de los usuarios y cumplir con los estándares legales para la protección de los derechos de privacidad.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que les Données Personnelles ?",
+                        "text": "<p>Les données personnelles sont toutes les informations qui peuvent être utilisées pour identifier, directement ou indirectement, une personne. Cela inclut un large éventail de types de données, tels que les noms, les numéros d'identification, les données de <a href=\"/fr/glossary/location\">localisation</a>, les identifiants en ligne ou les facteurs spécifiques à l'identité physique, physiologique, génétique, mentale, économique, culturelle ou sociale de cette personne. Dans le contexte de l'analyse web et du marketing digital, les informations personnelles sont utilisées pour comprendre le comportement des clients, personnaliser les expériences et mieux cibler la publicité.</p><p>Par exemple, lorsqu'un utilisateur s'inscrit à un service en ligne, les informations personnelles collectées peuvent inclure son nom, son adresse e-mail et éventuellement son adresse ou son numéro de téléphone. Ces informations peuvent être utilisées pour communiquer avec l'utilisateur, fournir des services personnalisés et améliorer le service client. Cependant, la collecte et l'utilisation des données personnelles sont soumises à des lois strictes sur la protection des données, telles que le <a href=\"/fr/glossary/gdpr\">RGPD</a>, qui exigent que les données personnelles soient traitées légalement, équitablement et en toute transparence, et qu'elles soient collectées à des fins spécifiques, explicites et légitimes.</p><p>Une gestion responsable des données personnelles est essentielle pour maintenir la confiance des utilisateurs et se conformer aux normes légales de protection des droits à la vie privée.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat zijn Persoonsgegevens?",
+                        "text": "<p>Persoonsgegevens zijn alle informatie die direct of indirect kan worden gebruikt om een persoon te identificeren. Dit omvat een breed scala aan gegevens, zoals namen, identificatienummers, <a href=\"/nl/glossary/location\">locatie</a>-gegevens, online-identificatoren of factoren die specifiek zijn voor de fysieke, fysiologische, genetische, mentale, economische, culturele of sociale identiteit van die persoon. In de context van webanalyse en digitale marketing worden persoonlijke gegevens gebruikt om klantgedrag te begrijpen, ervaringen te personaliseren en advertenties beter te targeten.</p><p>Als een gebruiker zich bijvoorbeeld aanmeldt voor een onlinedienst, kunnen de verzamelde persoonlijke gegevens zijn of haar naam, e-mailadres en mogelijk zijn of haar adres of telefoonnummer bevatten. Deze informatie kan worden gebruikt om met de gebruiker te communiceren, gepersonaliseerde services te leveren en de klantenservice te verbeteren. De verzameling en het gebruik van persoonlijke gegevens zijn echter onderworpen aan strikte gegevensbeschermingswetten, zoals de <a href=\"/nl/glossary/gdpr\">AVG</a>, die vereisen dat persoonlijke gegevens op een rechtmatige, eerlijke en transparante manier worden verwerkt en dat deze voor specifieke, expliciete en legitieme doeleinden worden verzameld.</p><p>Een verantwoordelijke omgang met persoonlijke gegevens is essentieel om het vertrouwen van gebruikers te behouden en te voldoen aan wettelijke normen voor de bescherming van privacyrechten.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è Dati Personali?",
+                        "text": "<p>I dati personali sono tutte le informazioni che possono essere utilizzate per identificare, direttamente o indirettamente, una persona. Ciò include un'ampia gamma di tipi di dati, come nomi, numeri di identificazione, dati di <a href=\"/it/glossary/location\">posizione</a>, identificatori online o fattori specifici per l'identità fisica, fisiologica, genetica, mentale, economica, culturale o sociale di quella persona. Nel contesto dell'analisi web e del marketing digitale, le informazioni personali vengono utilizzate per comprendere il comportamento dei clienti, personalizzare le esperienze e indirizzare meglio la pubblicità.</p><p>Ad esempio, quando un utente si iscrive a un servizio online, le informazioni personali raccolte possono includere il suo nome, indirizzo e-mail e possibilmente il suo indirizzo o numero di telefono. Queste informazioni possono essere utilizzate per comunicare con l'utente, fornire servizi personalizzati e migliorare il servizio clienti. Tuttavia, la raccolta e l'uso dei dati personali sono soggetti a rigorose leggi sulla protezione dei dati, come il <a href=\"/it/glossary/gdpr\">GDPR</a>, che richiedono che i dati personali siano trattati in modo lecito, corretto e trasparente, e che siano raccolti per scopi specifici, espliciti e legittimi.</p><p>La gestione responsabile dei dati personali è fondamentale per mantenere la fiducia degli utenti e rispettare gli standard legali per la protezione dei diritti alla privacy.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que são Dados Pessoais?",
+                        "text": "<p>Dados pessoais são quaisquer informações que podem ser usadas para identificar, direta ou indiretamente, uma pessoa. Isso inclui uma ampla variedade de tipos de dados, como nomes, números de identificação, dados de <a href=\"/pt/glossary/location\">localização</a>, identificadores online ou fatores específicos para a identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa. No contexto da análise web e do marketing digital, as informações pessoais são usadas para entender o comportamento do cliente, personalizar experiências e direcionar melhor a publicidade.</p><p>Por exemplo, quando um usuário se inscreve em um serviço online, as informações pessoais coletadas podem incluir seu nome, endereço de e-mail e possivelmente seu endereço ou número de telefone. Essas informações podem ser usadas para se comunicar com o usuário, fornecer serviços personalizados e melhorar o atendimento ao cliente. No entanto, a coleta e o uso de dados pessoais estão sujeitos a rigorosas leis de proteção de dados, como o <a href=\"/pt/glossary/gdpr\">RGPD</a>, que exigem que os dados pessoais sejam processados de maneira legal, justa e transparente e que sejam coletados para fins específicos, explícitos e legítimos.</p><p>O manuseio responsável dos dados pessoais é fundamental para manter a confiança do usuário e cumprir os padrões legais de proteção dos direitos de privacidade.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "個人データとは何ですか？",
+                        "text": "<p>個人データとは、個人を直接または間接的に識別するために使用できる情報のことです。これには、名前、識別番号、<a href=\"/ja/glossary/location\">位置</a>データ、オンライン識別子、またはその個人の身体的、 生理学的、遺伝的、精神的、経済的、文化的、または社会的アイデンティティに固有の要因など、さまざまなデータ タイプが含まれます。 Web 分析やデジタル マーケティングのコンテキストでは、個人情報を使用して顧客行動を理解し、エクスペリエンスをパーソナライズし、広告のターゲットを絞ります。</p><p>たとえば、ユーザーがオンライン サービスにサインアップする場合、収集される個人情報には名前、電子メール アドレス、およびおそらく住所や電話番号が含まれることがあります。 この情報は、ユーザーと通信し、パーソナライズされたサービスを提供し、カスタマー サービスを向上させるために使用される場合があります。 ただし、個人データの収集と使用は、個人データを合法的に、公正に、透明に処理することを要求する <a href=\"/ja/glossary/gdpr\">GDPR</a> などの厳格なデータ保護法の対象となり、特定の明確な合法的な目的のために収集される必要があります。</p><p>個人データの責任ある取り扱いは、ユーザーの信頼を維持し、プライバシー権を保護するための法的基準を遵守するために重要です。</p>"
                     }
                 }
             },

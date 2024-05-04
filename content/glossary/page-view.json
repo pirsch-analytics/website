@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/page-view"
+        "en": "/glossary/page-view",
+        "de": "/de/glossary/page-view",
+        "es": "/es/glossary/page-view",
+        "fr": "/fr/glossary/page-view",
+        "nl": "/nl/glossary/page-view",
+        "it": "/it/glossary/page-view",
+        "pt": "/pt/glossary/page-view",
+        "ja": "/ja/glossary/page-view"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Page View – Pirsch Analytics",
                         "meta_description": "A single instance of a user viewing a webpage on a website."
+                    },
+                    "de": {
+                        "title": "Seitenaufruf – Pirsch Analytics",
+                        "meta_description": "Ein einzelner Fall, in dem ein Benutzer eine Webseite auf einer Website ansieht."
+                    },
+                    "es": {
+                        "title": "Vista de Página – Pirsch Analytics",
+                        "meta_description": "Un caso único de un usuario que ve una página web en un sitio web."
+                    },
+                    "fr": {
+                        "title": "Vue de la Page – Pirsch Analytics",
+                        "meta_description": "Une instance unique d'un utilisateur visualisant une page web sur un site web."
+                    },
+                    "nl": {
+                        "title": "Paginaweergave – Pirsch Analytics",
+                        "meta_description": "Een enkele instantie van een gebruiker die een webpagina op een website bekijkt."
+                    },
+                    "it": {
+                        "title": "Visualizzazione della Pagina – Pirsch Analytics",
+                        "meta_description": "Un'istanza singola di un utente che visualizza una pagina web su un sito web."
+                    },
+                    "pt": {
+                        "title": "Visualização de Página – Pirsch Analytics",
+                        "meta_description": "Uma instância única de um usuário visualizando uma página web em um site."
+                    },
+                    "ja": {
+                        "title": "ページビュー – Pirsch Analytics",
+                        "meta_description": "ユーザーがウェブサイトのウェブページを表示している単一のインスタンス。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Page View?",
                         "text": "<p>A page view refers to each time a page on your website is loaded by a user's browser. This is one of the basic metrics in web analytics because it helps you measure the amount of traffic to your site. Every time a user opens a web page in their browser, whether it's a first visit or a refresh, it counts as a page view.</p><p>For example, if you notice with Pirsch Analytics that a particular blog post has a high number of page views, this could indicate that the content is popular or has been effectively promoted. If a page has very few views, it could indicate that the page is less appealing or harder to find.</p><p>Page views are used to understand user engagement, evaluate content effectiveness, and optimize website layout and navigation. They are also useful for comparative analysis, for example, to see which pages perform better during certain time periods.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Seitenaufruf?",
+                        "text": "<p>Ein Seitenaufruf bezieht sich auf jeden einzelnen Fall, in dem eine Seite auf Ihrer Website vom Browser eines Benutzers geladen wird. Dies ist eine der grundlegenden Metriken in der Webanalyse, da sie Ihnen hilft, die Menge des Verkehrs auf Ihrer Website zu messen. Jedes Mal, wenn ein Benutzer eine Webseite in seinem Browser öffnet, sei es beim ersten Besuch oder bei einer Aktualisierung, wird dies als Seitenaufruf gezählt.</p><p>Wenn Sie beispielsweise mit Pirsch Analytics feststellen, dass ein bestimmter Blog-Beitrag eine hohe Anzahl von Seitenaufrufen hat, könnte dies darauf hindeuten, dass der Inhalt beliebt ist oder effektiv beworben wurde. Wenn eine Seite sehr wenige Aufrufe hat, könnte dies darauf hindeuten, dass die Seite weniger ansprechend oder schwerer zu finden ist.</p><p>Seitenaufrufe werden verwendet, um das Benutzerengagement zu verstehen, die Effektivität von Inhalten zu bewerten und das Layout und die Navigation der Website zu optimieren. Sie sind auch nützlich für die vergleichende Analyse, beispielsweise um zu sehen, welche Seiten in bestimmten Zeiträumen besser abschneiden.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es una Vista de Página?",
+                        "text": "<p>Una vista de página se refiere a cada vez que una página de su sitio web se carga en el navegador de un usuario. Esta es una de las métricas básicas en el análisis web porque le ayuda a medir la cantidad de tráfico a su sitio. Cada vez que un usuario abre una página web en su navegador, ya sea en la primera visita o en una actualización, cuenta como una vista de página.</p><p>Por ejemplo, si nota con Pirsch Analytics que una publicación de blog en particular tiene un gran número de vistas de página, esto podría indicar que el contenido es popular o se ha promocionado de manera efectiva. Si una página tiene muy pocas vistas, podría indicar que la página es menos atractiva o más difícil de encontrar.</p><p>Las vistas de página se utilizan para comprender el compromiso del usuario, evaluar la efectividad del contenido y optimizar el diseño y la navegación del sitio web. También son útiles para el análisis comparativo, por ejemplo, para ver qué páginas funcionan mejor durante ciertos períodos de tiempo.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'une Vue de la Page ?",
+                        "text": "<p>Une vue de la page fait référence à chaque fois qu'une page de votre site web est chargée par le navigateur d'un utilisateur. C'est l'une des métriques de base en analyse web car elle vous aide à mesurer le volume de trafic vers votre site. Chaque fois qu'un utilisateur ouvre une page web dans son navigateur, que ce soit lors de sa première visite ou lors d'un rafraîchissement, cela compte comme une vue de la page.</p><p>Par exemple, si vous remarquez avec Pirsch Analytics qu'un article de blog en particulier a un nombre élevé de vues de page, cela peut indiquer que le contenu est populaire ou a été efficacement promu. Si une page a très peu de vues, cela peut indiquer que la page est moins attrayante ou plus difficile à trouver.</p><p>Les vues de la page sont utilisées pour comprendre l'engagement des utilisateurs, évaluer l'efficacité du contenu et optimiser la disposition et la navigation du site web. Elles sont également utiles pour l'analyse comparative, par exemple, pour voir quelles pages fonctionnent mieux pendant certaines périodes.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een Paginaweergave?",
+                        "text": "<p>Een paginaweergave verwijst naar elke keer dat een pagina op je website wordt geladen door de browser van een gebruiker. Dit is een van de basisstatistieken in webanalyse, omdat het je helpt de hoeveelheid verkeer naar je site te meten. Elke keer dat een gebruiker een webpagina in zijn browser opent, of het nu een eerste bezoek of een verversing is, telt dit als een paginaweergave.</p><p>Als je bijvoorbeeld met Pirsch Analytics merkt dat een bepaald blogbericht een groot aantal paginaweergaven heeft, kan dit erop wijzen dat de inhoud populair is of effectief is gepromoot. Als een pagina heel weinig weergaven heeft, kan dit erop wijzen dat de pagina minder aantrekkelijk of moeilijker te vinden is.</p><p>Paginaweergaven worden gebruikt om gebruikersbetrokkenheid te begrijpen, de effectiviteit van inhoud te evalueren en de lay-out en navigatie van de website te optimaliseren. Ze zijn ook nuttig voor vergelijkende analyse, bijvoorbeeld om te zien welke pagina's beter presteren tijdens bepaalde perioden.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è una Visualizzazione della Pagina?",
+                        "text": "<p>Una visualizzazione della pagina si riferisce a ogni volta che una pagina del tuo sito web viene caricata dal browser di un utente. Questa è una delle metriche di base nell'analisi web perché ti aiuta a misurare la quantità di traffico verso il tuo sito. Ogni volta che un utente apre una pagina web nel suo browser, che si tratti di una prima visita o di un aggiornamento, viene conteggiata come una visualizzazione della pagina.</p><p>Ad esempio, se noti con Pirsch Analytics che un particolare post sul blog ha un numero elevato di visualizzazioni della pagina, ciò potrebbe indicare che il contenuto è popolare o è stato promosso in modo efficace. Se una pagina ha pochissime visualizzazioni, potrebbe indicare che la pagina è meno attraente o più difficile da trovare.</p><p>Le visualizzazioni di pagina vengono utilizzate per comprendere il coinvolgimento degli utenti, valutare l'efficacia dei contenuti e ottimizzare il layout e la navigazione del sito web. Sono anche utili per l'analisi comparativa, ad esempio, per vedere quali pagine funzionano meglio durante determinati periodi di tempo.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é uma Visualização de Página?",
+                        "text": "<p>Uma visualização de página refere-se a cada vez que uma página do seu site é carregada pelo navegador de um usuário. Esta é uma das métricas básicas em análise web porque ajuda a medir a quantidade de tráfego para o seu site. Toda vez que um usuário abre uma página da web em seu navegador, seja na primeira visita ou em uma atualização, conta como uma visualização de página.</p><p>Por exemplo, se você notar com Pirsch Analytics que uma postagem de blog em particular tem um grande número de visualizações de página, isso pode indicar que o conteúdo é popular ou foi promovido de maneira eficaz. Se uma página tem muito poucas visualizações, isso pode indicar que a página é menos atraente ou mais difícil de encontrar.</p><p>As visualizações de página são usadas para entender o envolvimento do usuário, avaliar a eficácia do conteúdo e otimizar o layout e a navegação do site. Eles também são úteis para análise comparativa, por exemplo, para ver quais páginas têm um desempenho melhor em determinados períodos de tempo.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ページビューとは何ですか？",
+                        "text": "<p>ページビューとは、ユーザーのブラウザでウェブサイトのページが読み込まれるたびのことを指します。これは、ウェブ分析における基本的な指標の1つであり、サイトへのトラフィックの量を測定するのに役立ちます。ユーザーが最初の訪問か再読み込みかにかかわらず、ブラウザでウェブページを開くたびに、ページビューとしてカウントされます。</p><p>例えば、Pirsch Analytics で特定のブログ記事に多くのページビューがあることに気付いた場合、これはそのコンテンツが人気があるか、効果的に宣伝されたことを示している可能性があります。ページのビューが非常に少ない場合は、そのページが魅力が少ないか、見つけにくいことを示している可能性があります。</p><p>ページビューは、ユーザーエンゲージメントを理解し、コンテンツの有効性を評価し、ウェブサイトのレイアウトとナビゲーションを最適化するために使用されます。また、ページが特定の期間中にどのようにパフォーマンスを発揮するかを確認するための比較分析にも役立ちます。</p>"
                     }
                 }
             },

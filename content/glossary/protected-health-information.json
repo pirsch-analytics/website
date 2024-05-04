@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/protected-health-information"
+        "en": "/glossary/protected-health-information",
+        "de": "/de/glossary/protected-health-information",
+        "es": "/es/glossary/protected-health-information",
+        "fr": "/fr/glossary/protected-health-information",
+        "nl": "/nl/glossary/protected-health-information",
+        "it": "/it/glossary/protected-health-information",
+        "pt": "/pt/glossary/protected-health-information",
+        "ja": "/ja/glossary/protected-health-information"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Protected Health Information (PHI) – Pirsch Analytics",
                         "meta_description": "Any information about health status, provision of healthcare, or payment for healthcare that can be linked to an individual, as defined by HIPAA."
+                    },
+                    "de": {
+                        "title": "Geschützte Gesundheitsinformationen (PHI) – Pirsch Analytics",
+                        "meta_description": "Alle Informationen über den Gesundheitszustand, die Bereitstellung von Gesundheitsversorgung oder die Zahlung für Gesundheitsversorgung, die mit einer Person in Verbindung gebracht werden können, wie von HIPAA definiert."
+                    },
+                    "es": {
+                        "title": "Información de Salud Protegida (PHI) – Pirsch Analytics",
+                        "meta_description": "Cualquier información sobre el estado de salud, la provisión de atención médica o el pago de atención médica que pueda estar vinculada a una persona, según lo definido por HIPAA."
+                    },
+                    "fr": {
+                        "title": "Informations de Santé Protégées (PHI) – Pirsch Analytics",
+                        "meta_description": "Toute information sur l'état de santé, la prestation de soins de santé ou le paiement de soins de santé qui peut être liée à une personne, telle que définie par HIPAA."
+                    },
+                    "nl": {
+                        "title": "Beschermde Gezondheidsinformatie (PHI) – Pirsch Analytics",
+                        "meta_description": "Alle informatie over de gezondheidstoestand, de verstrekking van gezondheidszorg of de betaling voor gezondheidszorg die aan een persoon kan worden gekoppeld, zoals gedefinieerd door HIPAA."
+                    },
+                    "it": {
+                        "title": "Informazioni Sanitarie Protette (PHI) – Pirsch Analytics",
+                        "meta_description": "Qualsiasi informazione sullo stato di salute, la fornitura di assistenza sanitaria o il pagamento di assistenza sanitaria che può essere collegata a un individuo, come definito da HIPAA."
+                    },
+                    "pt": {
+                        "title": "Informações de Saúde Protegidas (PHI) – Pirsch Analytics",
+                        "meta_description": "Qualquer informação sobre o estado de saúde, prestação de cuidados de saúde ou pagamento de cuidados de saúde que possa ser associada a uma pessoa, conforme definido pela HIPAA."
+                    },
+                    "ja": {
+                        "title": "保護された健康情報 (PHI) – Pirsch Analytics",
+                        "meta_description": "健康状態、ヘルスケアの提供、またはヘルスケアの支払いに関する情報で、個人に関連付けることができるもの（HIPAAで定義されています）。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Protected Health Information (PHI)?",
                         "text": "<p>Protected health information (PHI) is any information about an individual's health, medical care, or payment for medical care that can be linked to an individual. This information is often held by health care providers, health plans, and similar entities covered by the Health Insurance Portability and Accountability Act (HIPAA) in the United States. PHI includes a wide range of identifiers, such as names, geographic elements smaller than a state, any data elements that relate to an individual, telephone numbers, and other <a href=\"/glossary/personal-data\">personal details</a> that could identify someone.</p><p>For example, if a hospital collects a patient's medical history, current health status, treatment plans, and billing information, all of this information is considered PHI because it relates to the patient's health and personal identity. Under HIPAA, strict safeguards must be put in place to protect the confidentiality of PHI and to ensure that it is not used or disclosed without the patient's express consent or in any other manner not permitted by law.</p><p>Ensuring the confidentiality and security of PHI is critical to maintaining patient trust and complying with legal requirements aimed at protecting individuals' health information from unauthorized access and breaches.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was sind geschützte Gesundheitsinformationen (PHI)?",
+                        "text": "<p>Geschützte Gesundheitsinformationen (PHI) sind alle Informationen über die Gesundheit, die medizinische Versorgung oder die Zahlung für die medizinische Versorgung einer Person, die mit einer Person in Verbindung gebracht werden können. Diese Informationen werden häufig von Gesundheitsdienstleistern, Krankenversicherungen und ähnlichen Einrichtungen, die dem Health Insurance Portability and Accountability Act (HIPAA) in den Vereinigten Staaten unterliegen, aufbewahrt. PHI umfasst eine Vielzahl von Kennungen, wie Namen, geografische Elemente, die kleiner als ein Bundesstaat sind, alle Datenelemente, die sich auf eine Person beziehen, Telefonnummern und andere <a href=\"/de/glossary/personal-data\">persönliche Daten</a>, die jemanden identifizieren könnten.</p><p>Wenn beispielsweise ein Krankenhaus die Krankengeschichte, den aktuellen Gesundheitszustand, die Behandlungspläne und die Abrechnungsinformationen eines Patienten sammelt, werden all diese Informationen als PHI betrachtet, da sie sich auf die Gesundheit und die persönliche Identität des Patienten beziehen. Nach HIPAA müssen strenge Schutzmaßnahmen getroffen werden, um die Vertraulichkeit von PHI zu schützen und sicherzustellen, dass sie nicht ohne die ausdrückliche Zustimmung des Patienten oder auf andere Weise, die gesetzlich nicht zulässig ist, verwendet oder offengelegt wird.</p><p>Die Gewährleistung der Vertraulichkeit und Sicherheit von PHI ist entscheidend, um das Vertrauen der Patienten zu erhalten und die gesetzlichen Anforderungen zu erfüllen, die darauf abzielen, die Gesundheitsinformationen von Personen vor unbefugtem Zugriff und Verstößen zu schützen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es la Información de Salud Protegida (PHI)?",
+                        "text": "<p>La información de salud protegida (PHI) es cualquier información sobre la salud de un individuo, la atención médica o el pago de la atención médica que pueda estar vinculada a un individuo. Esta información a menudo la poseen los proveedores de atención médica, los planes de salud y entidades similares cubiertas por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos. PHI incluye una amplia gama de identificadores, como nombres, elementos geográficos más pequeños que un estado, cualquier elemento de datos relacionado con un individuo, números de teléfono y otros <a href=\"/es/glossary/personal-data\">detalles personales</a> que podrían identificar a alguien.</p><p>Por ejemplo, si un hospital recopila el historial médico, el estado de salud actual, los planes de tratamiento y la información de facturación de un paciente, toda esta información se considera PHI porque se relaciona con la salud y la identidad personal del paciente. Según HIPAA, se deben implementar medidas de seguridad estrictas para proteger la confidencialidad de PHI y garantizar que no se use o divulgue sin el consentimiento expreso del paciente o de cualquier otra manera no permitida por la ley.</p><p>Garantizar la confidencialidad y la seguridad de PHI es fundamental para mantener la confianza del paciente y cumplir con los requisitos legales destinados a proteger la información de salud de las personas contra el acceso no autorizado y las violaciones.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que les Informations de Santé Protégées (PHI) ?",
+                        "text": "<p>Les informations de santé protégées (PHI) sont toutes les informations sur la santé, les soins médicaux ou le paiement des soins médicaux d'une personne qui peuvent être liées à une personne. Ces informations sont souvent détenues par des prestataires de soins de santé, des régimes de santé et des entités similaires couvertes par la loi sur la portabilité et la responsabilité de l'assurance maladie (HIPAA) aux États-Unis. Les PHI incluent un large éventail d'identifiants, tels que les noms, les éléments géographiques inférieurs à un État, les éléments de données relatifs à une personne, les numéros de téléphone et d'autres <a href=\"/fr/glossary/personal-data\">données personnelles</a> pouvant identifier quelqu'un.</p><p>Par exemple, si un hôpital recueille les antécédents médicaux, l'état de santé actuel, les plans de traitement et les informations de facturation d'un patient, toutes ces informations sont considérées comme des PHI car elles se rapportent à la santé et à l'identité personnelle du patient. En vertu de la loi HIPAA, des garanties strictes doivent être mises en place pour protéger la confidentialité des PHI et s'assurer qu'elles ne sont pas utilisées ou divulguées sans le consentement exprès du patient ou de toute autre manière non autorisée par la loi.</p><p>Garantir la confidentialité et la sécurité des PHI est essentiel pour maintenir la confiance des patients et se conformer aux exigences légales visant à protéger les informations de santé des personnes contre tout accès non autorisé et toute violation.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is Beschermde Gezondheidsinformatie (PHI)?",
+                        "text": "<p>Beschermde gezondheidsinformatie (PHI) is alle informatie over de gezondheid, medische zorg of betaling voor medische zorg van een persoon die aan een persoon kan worden gekoppeld. Deze informatie wordt vaak bewaard door zorgverleners, ziektekostenverzekeringen en soortgelijke entiteiten die onder de Health Insurance Portability and Accountability Act (HIPAA) in de Verenigde Staten vallen. PHI omvat een breed scala aan identificatiegegevens, zoals namen, geografische elementen die kleiner zijn dan een staat, gegevens die betrekking hebben op een persoon, telefoonnummers en andere <a href=\"/nl/glossary/personal-data\">persoonlijke gegevens</a> die iemand zouden kunnen identificeren.</p><p>Als een ziekenhuis bijvoorbeeld de medische geschiedenis, de huidige gezondheidstoestand, behandelplannen en factuurgegevens van een patiënt verzamelt, worden al deze informatie als PHI beschouwd, omdat ze betrekking hebben op de gezondheid en persoonlijke identiteit van de patiënt. Volgens HIPAA moeten strenge beveiligingsmaatregelen worden getroffen om de vertrouwelijkheid van PHI te beschermen en ervoor te zorgen dat deze niet wordt gebruikt of openbaar gemaakt zonder de uitdrukkelijke toestemming van de patiënt of op een andere manier die niet wettelijk is toegestaan.</p><p>Het waarborgen van de vertrouwelijkheid en beveiliging van PHI is cruciaal om het vertrouwen van patiënten te behouden en te voldoen aan de wettelijke vereisten die gericht zijn op het beschermen van de gezondheidsinformatie van personen tegen ongeautoriseerde toegang en inbreuken.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è le Informazioni Sanitarie Protette (PHI)?",
+                        "text": "<p>Le informazioni sanitarie protette (PHI) sono tutte le informazioni sulla salute, l'assistenza medica o il pagamento per l'assistenza medica di una persona che possono essere collegate a una persona. Queste informazioni sono spesso detenute da fornitori di servizi sanitari, piani sanitari ed entità simili coperte dall'Health Insurance Portability and Accountability Act (HIPAA) negli Stati Uniti. PHI include un'ampia gamma di identificatori, come nomi, elementi geografici più piccoli di uno stato, eventuali elementi di dati relativi a un individuo, numeri di telefono e altri <a href=\"/it/glossary/personal-data\">dettagli personali</a> che potrebbero identificare qualcuno.</p><p>Ad esempio, se un ospedale raccoglie la storia medica, lo stato di salute attuale, i piani di trattamento e le informazioni di fatturazione di un paziente, tutte queste informazioni sono considerate PHI perché riguardano la salute e l'identità personale del paziente. Secondo HIPAA, devono essere messe in atto rigorose salvaguardie per proteggere la riservatezza delle PHI e garantire che non vengano utilizzate o divulgate senza il consenso esplicito del paziente o in qualsiasi altro modo non consentito dalla legge.</p><p>Garantire la riservatezza e la sicurezza delle PHI è fondamentale per mantenere la fiducia dei pazienti e rispettare i requisiti legali volti a proteggere le informazioni sanitarie delle persone da accessi non autorizzati e violazioni.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Informação de Saúde Protegida (PHI)?",
+                        "text": "<p>A informação de saúde protegida (PHI) é qualquer informação sobre a saúde, os cuidados médicos ou o pagamento de cuidados médicos de um indivíduo que possa estar ligada a um indivíduo. Essas informações são geralmente mantidas por prestadores de cuidados de saúde, planos de saúde e entidades semelhantes cobertas pela Lei de Portabilidade e Responsabilidade de Seguro de Saúde (HIPAA) nos Estados Unidos. PHI inclui uma ampla variedade de identificadores, como nomes, elementos geográficos menores que um estado, qualquer elemento de dados relacionado a um indivíduo, números de telefone e outros <a href=\"/pt/glossary/personal-data\">detalhes pessoais</a> que podem identificar alguém.</p><p>Por exemplo, se um hospital coleta o histórico médico, o estado de saúde atual, os planos de tratamento e as informações de faturamento de um paciente, todas essas informações são consideradas PHI porque estão relacionadas à saúde e à identidade pessoal do paciente. Sob a HIPAA, devem ser implementadas salvaguardas rígidas para proteger a confidencialidade da PHI e garantir que ela não seja usada ou divulgada sem o consentimento expresso do paciente ou de qualquer outra forma não permitida por lei.</p><p>Garantir a confidencialidade e a segurança da PHI é fundamental para manter a confiança dos pacientes e cumprir os requisitos legais destinados a proteger as informações de saúde das pessoas contra acessos não autorizados e violações.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "保護された健康情報（PHI）とは？",
+                        "text": "<p>保護された健康情報（PHI）とは、個人の健康、医療、または医療の支払いに関する情報で、個人に関連付けることができるものです。これらの情報は、米国の医療保険の携帯性と説明責任に関する法律（HIPAA）の対象となるヘルスケアプロバイダー、健康保険プラン、および同様のエンティティによって保持されることがよくあります。 PHIには、名前、州より小さい地理的要素、個人に関連するデータ要素、電話番号、および誰かを識別できるその他の<a href=\"/ja/glossary/personal-data\">個人情報</a>などのさまざまな識別子が含まれます。</p><p>たとえば、病院が患者の病歴、現在の健康状態、治療計画、および請求情報を収集する場合、これらすべての情報は患者の健康と個人のアイデンティティに関連するため、PHIと見なされます。 HIPAAによれば、PHIの機密性を保護し、患者の明示的な同意なしに、または法的に許可されていないその他の方法で使用または開示されないようにするために、厳格な保護手段が講じられなければなりません。</p><p>PHIの機密性とセキュリティを確保することは、患者の信頼を維持し、不正アクセスや違反から個人の健康情報を保護することを目的とした法的要件を遵守するために不可欠です。</p>"
                     }
                 }
             },
