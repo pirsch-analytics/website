@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/operating-system"
+        "en": "/glossary/operating-system",
+        "de": "/de/glossary/operating-system",
+        "es": "/es/glossary/operating-system",
+        "fr": "/fr/glossary/operating-system",
+        "nl": "/nl/glossary/operating-system",
+        "it": "/it/glossary/operating-system",
+        "pt": "/pt/glossary/operating-system",
+        "ja": "/ja/glossary/operating-system"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Operating System (OS) – Pirsch Analytics",
                         "meta_description": "Software that manages computer hardware and provides common services for computer programs, such as Windows, macOS, and Linux."
+                    },
+                    "de": {
+                        "title": "Betriebssystem (OS) – Pirsch Analytics",
+                        "meta_description": "Software, die die Computerhardware verwaltet und gängige Dienste für Computerprogramme bereitstellt, wie Windows, macOS und Linux."
+                    },
+                    "es": {
+                        "title": "Sistema Operativo (OS) – Pirsch Analytics",
+                        "meta_description": "Software que gestiona el hardware de la computadora y proporciona servicios comunes para los programas de computadora, como Windows, macOS y Linux."
+                    },
+                    "fr": {
+                        "title": "Système d'exploitation (OS) – Pirsch Analytics",
+                        "meta_description": "Logiciel qui gère le matériel informatique et fournit des services courants pour les programmes informatiques, tels que Windows, macOS et Linux."
+                    },
+                    "nl": {
+                        "title": "Besturingssysteem (OS) – Pirsch Analytics",
+                        "meta_description": "Software die computerhardware beheert en gemeenschappelijke services voor computerprogramma's biedt, zoals Windows, macOS en Linux."
+                    },
+                    "it": {
+                        "title": "Sistema Operativo (OS) – Pirsch Analytics",
+                        "meta_description": "Software che gestisce l'hardware del computer e fornisce servizi comuni per i programmi per computer, come Windows, macOS e Linux."
+                    },
+                    "pt": {
+                        "title": "Sistema Operacional (SO) – Pirsch Analytics",
+                        "meta_description": "Software que gerencia o hardware do computador e fornece serviços comuns para programas de computador, como Windows, macOS e Linux."
+                    },
+                    "ja": {
+                        "title": "オペレーティングシステム (OS) – Pirsch Analytics",
+                        "meta_description": "コンピュータハードウェアを管理し、Windows、macOS、Linuxなどのコンピュータプログラムに共通のサービスを提供するソフトウェア。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is an Operating System (OS)?",
                         "text": "<p>The operating system (OS) in web analytics refers to the software platform on which a computer or <a href=\"/glossary/device\">device</a> runs. Common operating systems include Windows, macOS, Linux, iOS, and Android. Web analytics tools track which operating system visitors use to access a website, providing valuable insight into the technological preferences of the audience. This data can help optimize the site for better compatibility and performance on the most commonly used systems.</p><p>For example, if a significant portion of a site's traffic comes from users on iOS devices, site developers could prioritize ensuring that the site's design and features work seamlessly with Safari and other popular browsers on iOS. Similarly, if many visitors use Android. Then the site could be optimized for Chrome for Android performance.</p><p>Knowing visitors' operating systems is critical to a smooth user experience, as each operating system has different capabilities and limitations that can affect how web content is displayed and interacted with.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Betriebssystem (OS)?",
+                        "text": "<p>In der Webanalyse bezieht sich das Betriebssystem (OS) auf die Softwareplattform, auf der ein Computer oder <a href=\"/de/glossary/device\">Gerät</a> läuft. Zu den gängigen Betriebssystemen gehören Windows, macOS, Linux, iOS und Android. Webanalyse-Tools verfolgen, welches Betriebssystem die Besucher für den Zugriff auf eine Website verwenden, und liefern wertvolle Einblicke in die technologischen Präferenzen des Publikums. Diese Daten können dazu beitragen, die Website für eine bessere Kompatibilität und Leistung auf den am häufigsten verwendeten Systemen zu optimieren.</p><p>Wenn beispielsweise ein signifikanter Teil des Website-Traffics von Benutzern auf iOS-Geräten stammt, könnten die Entwickler der Website die Priorität darauf legen, sicherzustellen, dass das Design und die Funktionen der Website nahtlos mit Safari und anderen gängigen Browsern auf iOS funktionieren. Ebenso, wenn viele Besucher Android verwenden, könnte die Website für die Leistung von Chrome für Android optimiert werden.</p><p>Das Wissen über die Betriebssysteme der Besucher ist für eine reibungslose Benutzererfahrung entscheidend, da jedes Betriebssystem über unterschiedliche Fähigkeiten und Einschränkungen verfügt, die sich darauf auswirken können, wie Webinhalte angezeigt und interagiert werden.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es un Sistema Operativo (OS)?",
+                        "text": "<p>El sistema operativo (SO) en el análisis web se refiere a la plataforma de software en la que se ejecuta una computadora o <a href=\"/es/glossary/device\">dispositivo</a>. Los sistemas operativos comunes incluyen Windows, macOS, Linux, iOS y Android. Las herramientas de análisis web rastrean qué sistema operativo utilizan los visitantes para acceder a un sitio web, lo que proporciona información valiosa sobre las preferencias tecnológicas de la audiencia. Estos datos pueden ayudar a optimizar el sitio para mejorar la compatibilidad y el rendimiento en los sistemas más utilizados.</p><p>Por ejemplo, si una parte significativa del tráfico de un sitio proviene de usuarios de dispositivos iOS, los desarrolladores del sitio podrían priorizar asegurarse de que el diseño y las características del sitio funcionen sin problemas con Safari y otros navegadores populares en iOS. Del mismo modo, si muchos visitantes usan Android, el sitio podría optimizarse para el rendimiento de Chrome para Android.</p><p>Conocer los sistemas operativos de los visitantes es fundamental para una experiencia de usuario fluida, ya que cada sistema operativo tiene diferentes capacidades y limitaciones que pueden afectar cómo se muestra el contenido web y cómo se interactúa con él.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un Système d'exploitation (OS) ?",
+                        "text": "<p>Le système d'exploitation (OS) en analyse web fait référence à la plateforme logicielle sur laquelle un ordinateur ou un <a href=\"/fr/glossary/device\">dispositif</a> fonctionne. Les systèmes d'exploitation courants incluent Windows, macOS, Linux, iOS et Android. Les outils d'analyse web suivent le système d'exploitation que les visiteurs utilisent pour accéder à un site web, fournissant des informations précieuses sur les préférences technologiques du public. Ces données peuvent aider à optimiser le site pour une meilleure compatibilité et performance sur les systèmes les plus utilisés.</p><p>Par exemple, si une partie importante du trafic d'un site provient d'utilisateurs de dispositifs iOS, les développeurs du site pourraient donner la priorité à s'assurer que le design et les fonctionnalités du site fonctionnent de manière transparente avec Safari et d'autres navigateurs populaires sur iOS. De même, si de nombreux visiteurs utilisent Android, le site pourrait être optimisé pour les performances de Chrome pour Android.</p><p>Connaître les systèmes d'exploitation des visiteurs est essentiel pour une expérience utilisateur fluide, car chaque système d'exploitation a des capacités et des limitations différentes qui peuvent affecter la manière dont le contenu web est affiché et avec lequel il est interagi.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een Besturingssysteem (OS)?",
+                        "text": "<p>Het besturingssysteem (OS) in webanalyse verwijst naar het softwareplatform waarop een computer of <a href=\"/nl/glossary/device\">apparaat</a> draait. Veelgebruikte besturingssystemen zijn onder andere Windows, macOS, Linux, iOS en Android. Webanalysetools volgen welk besturingssysteem bezoekers gebruiken om toegang te krijgen tot een website, en bieden waardevol inzicht in de technologische voorkeuren van het publiek. Deze gegevens kunnen helpen de site te optimaliseren voor betere compatibiliteit en prestaties op de meest gebruikte systemen.</p><p>Als bijvoorbeeld een aanzienlijk deel van het verkeer van een site afkomstig is van gebruikers van iOS-apparaten, kunnen siteontwikkelaars ervoor zorgen dat het ontwerp en de functies van de site naadloos werken met Safari en andere populaire browsers op iOS. Evenzo, als veel bezoekers Android gebruiken, kan de site worden geoptimaliseerd voor Chrome voor Android-prestaties.</p><p>Het kennen van de besturingssystemen van bezoekers is cruciaal voor een soepele gebruikerservaring, omdat elk besturingssysteem verschillende mogelijkheden en beperkingen heeft die van invloed kunnen zijn op de manier waarop webinhoud wordt weergegeven en hoe ermee wordt omgegaan.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è un Sistema Operativo (OS)?",
+                        "text": "<p>Il sistema operativo (OS) nell'analisi web si riferisce alla piattaforma software su cui funziona un computer o un <a href=\"/it/glossary/device\">dispositivo</a>. I sistemi operativi comuni includono Windows, macOS, Linux, iOS e Android. Gli strumenti di analisi web monitorano quale sistema operativo utilizzano i visitatori per accedere a un sito web, fornendo preziose informazioni sulle preferenze tecnologiche del pubblico. Questi dati possono aiutare a ottimizzare il sito per una migliore compatibilità e prestazioni sui sistemi più comunemente usati.</p><p>Ad esempio, se una parte significativa del traffico di un sito proviene da utenti di dispositivi iOS, gli sviluppatori del sito potrebbero dare priorità a garantire che il design e le funzionalità del sito funzionino perfettamente con Safari e altri browser popolari su iOS. Allo stesso modo, se molti visitatori usano Android, il sito potrebbe essere ottimizzato per le prestazioni di Chrome per Android.</p><p>Conoscere i sistemi operativi dei visitatori è fondamentale per un'esperienza utente fluida, poiché ogni sistema operativo ha capacità e limitazioni diverse che possono influire sul modo in cui i contenuti web vengono visualizzati e interagiscono con essi.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um Sistema Operacional (SO)?",
+                        "text": "<p>O sistema operacional (SO) em análise web refere-se à plataforma de software em que um computador ou <a href=\"/pt/glossary/device\">dispositivo</a> é executado. Os sistemas operacionais comuns incluem Windows, macOS, Linux, iOS e Android. As ferramentas de análise web rastreiam qual sistema operacional os visitantes usam para acessar um site, fornecendo informações valiosas sobre as preferências tecnológicas do público. Esses dados podem ajudar a otimizar o site para melhor compatibilidade e desempenho nos sistemas mais utilizados.</p><p>Por exemplo, se uma parte significativa do tráfego de um site vem de usuários em dispositivos iOS, os desenvolvedores do site podem priorizar garantir que o design e os recursos do site funcionem perfeitamente com o Safari e outros navegadores populares no iOS. Da mesma forma, se muitos visitantes usam Android, o site pode ser otimizado para o desempenho do Chrome para Android.</p><p>Conhecer os sistemas operacionais dos visitantes é fundamental para uma experiência do usuário tranquila, pois cada sistema operacional possui diferentes capacidades e limitações que podem afetar como o conteúdo da web é exibido e interagido.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "オペレーティングシステム (OS) とは何ですか？",
+                        "text": "<p>ウェブ分析におけるオペレーティングシステム (OS) とは、コンピュータや<a href=\"/ja/glossary/device\">デバイス</a>が動作するソフトウェアプラットフォームのことを指します。一般的なオペレーティングシステムには、Windows、macOS、Linux、iOS、Android などがあります。ウェブ分析ツールは、訪問者がウェブサイトにアクセスする際にどのオペレーティングシステムを使用しているかを追跡し、ユーザーの技術的な好みに関する貴重な洞察を提供します。これらのデータは、最も一般的に使用されるシステムでの互換性とパフォーマンスを向上させるためにサイトを最適化するのに役立ちます。</p><p>例えば、あるサイトのトラフィックの多くが iOS デバイスのユーザーからのものであれば、サイトの開発者は、サイトのデザインと機能が iOS 上での Safari やその他の人気ブラウザとシームレスに連携するように優先的に対応することができます。同様に、訪問者の多くが Android を使用している場合、そのサイトは Android の Chrome のパフォーマンスに最適化することができます。</p><p>訪問者のオペレーティングシステムを知ることは、スムーズなユーザー体験にとって重要です。各オペレーティングシステムには異なる機能と制限があり、それがウェブコンテンツの表示と操作に影響を与える可能性があるためです。</p>"
                     }
                 }
             },

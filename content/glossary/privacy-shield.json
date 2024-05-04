@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/privacy-shield"
+        "en": "/glossary/privacy-shield",
+        "de": "/de/glossary/privacy-shield",
+        "es": "/es/glossary/privacy-shield",
+        "fr": "/fr/glossary/privacy-shield",
+        "nl": "/nl/glossary/privacy-shield",
+        "it": "/it/glossary/privacy-shield",
+        "pt": "/pt/glossary/privacy-shield",
+        "ja": "/ja/glossary/privacy-shield"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Privacy Shield – Pirsch Analytics",
                         "meta_description": "A framework for regulating transatlantic exchanges of personal data between the European Union and the United States."
+                    },
+                    "de": {
+                        "title": "Privacy Shield – Pirsch Analytics",
+                        "meta_description": "Ein Rahmenwerk zur Regulierung transatlantischer Datenaustausche zwischen der Europäischen Union und den Vereinigten Staaten."
+                    },
+                    "es": {
+                        "title": "Escudo de Privacidad – Pirsch Analytics",
+                        "meta_description": "Un marco para regular los intercambios transatlánticos de datos personales entre la Unión Europea y los Estados Unidos."
+                    },
+                    "fr": {
+                        "title": "Bouclier de Confidentialité – Pirsch Analytics",
+                        "meta_description": "Un cadre pour réglementer les échanges transatlantiques de données personnelles entre l'Union européenne et les États-Unis."
+                    },
+                    "nl": {
+                        "title": "Privacy Shield – Pirsch Analytics",
+                        "meta_description": "Een kader voor het reguleren van trans-Atlantische uitwisselingen van persoonlijke gegevens tussen de Europese Unie en de Verenigde Staten."
+                    },
+                    "it": {
+                        "title": "Privacy Shield – Pirsch Analytics",
+                        "meta_description": "Un quadro per regolare gli scambi transatlantici di dati personali tra l'Unione Europea e gli Stati Uniti."
+                    },
+                    "pt": {
+                        "title": "Escudo de Privacidade – Pirsch Analytics",
+                        "meta_description": "Um quadro para regular as trocas transatlânticas de dados pessoais entre a União Europeia e os Estados Unidos."
+                    },
+                    "ja": {
+                        "title": "プライバシーシールド – Pirsch Analytics",
+                        "meta_description": "欧州連合と米国間の個人データの大西洋横断交換を規制するためのフレームワーク。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is the Privacy Shield?",
                         "text": "<p>The Privacy Shield was a framework that governed the exchange of personal data for commercial purposes between the European Union (EU) and the United States. It was designed to provide a mechanism for companies on both sides of the Atlantic to comply with privacy requirements when transferring personal data from the EU and Switzerland to the United States. Under the Privacy Shield, participating companies must adhere to a set of principles designed to ensure that the personal data of EU data subjects is adequately protected in accordance with EU law. </p><p>For example, a U.S. company participating in the Privacy Shield would be required to offer commitments to higher data protection standards to U.S.-based companies participating in the Privacy Shield framework, such as informing individuals about the data collected, maintaining data integrity and purpose limitation, ensuring accountability for data transferred to third parties, and providing recourse mechanisms for individuals to resolve disputes related to data processing. </p><p>However, in July 2020, the Court of Justice of the European Union (CJEU) declared the EU-US Privacy Shield framework invalid. This decision has implications for how companies transfer personal data from the EU to the US, highlighting the need for alternative mechanisms and strict compliance with <a href=\"/glossary/gdpr\">GDPR</a> standards for international data transfers.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist der Privacy Shield?",
+                        "text": "<p>Der Privacy Shield war ein Rahmenwerk, das den Austausch personenbezogener Daten für kommerzielle Zwecke zwischen der Europäischen Union (EU) und den Vereinigten Staaten regelte. Er war dazu gedacht, Unternehmen auf beiden Seiten des Atlantiks einen Mechanismus zu bieten, um die Datenschutzanforderungen bei der Übermittlung personenbezogener Daten aus der EU und der Schweiz in die Vereinigten Staaten zu erfüllen. Im Rahmen des Privacy Shield müssen teilnehmende Unternehmen eine Reihe von Grundsätzen einhalten, die sicherstellen, dass die personenbezogenen Daten der EU-Betroffenen gemäß dem EU-Recht angemessen geschützt sind.</p><p>Ein in den USA ansässiges Unternehmen, das am Privacy Shield teilnimmt, müsste beispielsweise Verpflichtungen zu höheren Datenschutzstandards für in den USA ansässige Unternehmen im Rahmen des Privacy Shield-Frameworks anbieten, z. B. die Information von Einzelpersonen über die erhobenen Daten, die Aufrechterhaltung der Datenintegrität und die Zweckbindung, die Verantwortung für an Dritte übermittelte Daten sicherstellen und für Einzelpersonen Mechanismen zur Beilegung von Streitigkeiten im Zusammenhang mit der Datenverarbeitung bereitstellen.</p><p>Im Juli 2020 erklärte der Gerichtshof der Europäischen Union (EuGH) den EU-US Privacy Shield-Rahmen jedoch für ungültig. Diese Entscheidung hat Auswirkungen darauf, wie Unternehmen personenbezogene Daten von der EU in die USA übertragen, und unterstreicht die Notwendigkeit alternativer Mechanismen und die strikte Einhaltung der <a href=\"/de/glossary/gdpr\">DSGVO</a>-Standards für internationale Datenübertragungen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es el Escudo de Privacidad?",
+                        "text": "<p>El Escudo de Privacidad era un marco que regía el intercambio de datos personales con fines comerciales entre la Unión Europea (UE) y los Estados Unidos. Estaba diseñado para proporcionar un mecanismo para que las empresas a ambos lados del Atlántico cumplieran con los requisitos de privacidad al transferir datos personales desde la UE y Suiza a los Estados Unidos. Bajo el Escudo de Privacidad, las empresas participantes deben adherirse a una serie de principios diseñados para garantizar que los datos personales de los interesados ​​de la UE estén adecuadamente protegidos de acuerdo con la legislación de la UE.</p><p>Por ejemplo, una empresa estadounidense que participe en el Escudo de Privacidad deberá ofrecer compromisos con estándares de protección de datos más altos para empresas con sede en los Estados Unidos que participen en el marco del Escudo de Privacidad, como informar a las personas sobre los datos recopilados, mantener la integridad de los datos y la limitación del propósito, garantizar la responsabilidad de los datos transferidos a terceros y proporcionar mecanismos de recurso para que las personas resuelvan disputas relacionadas con el procesamiento de datos.</p><p>Sin embargo, en julio de 2020, el Tribunal de Justicia de la Unión Europea (TJUE) declaró inválido el marco del Escudo de Privacidad UE-EE. UU. Esta decisión tiene implicaciones sobre cómo las empresas transfieren datos personales desde la UE a los Estados Unidos, lo que destaca la necesidad de mecanismos alternativos y el cumplimiento estricto de los estándares de <a href=\"/es/glossary/gdpr\">GDPR</a> para las transferencias internacionales de datos.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que le Bouclier de Confidentialité ?",
+                        "text": "<p>Le Bouclier de Confidentialité était un cadre qui régissait l'échange de données personnelles à des fins commerciales entre l'Union européenne (UE) et les États-Unis. Il était conçu pour fournir un mécanisme permettant aux entreprises des deux côtés de l'Atlantique de se conformer aux exigences en matière de confidentialité lors du transfert de données personnelles de l'UE et de la Suisse vers les États-Unis. Dans le cadre du Bouclier de Confidentialité, les entreprises participantes doivent adhérer à un ensemble de principes conçus pour garantir que les données personnelles des personnes concernées par l'UE soient adéquatement protégées conformément au droit de l'UE.</p><p>Par exemple, une entreprise américaine participant au Bouclier de Confidentialité serait tenue de proposer des engagements à des normes de protection des données plus élevées aux entreprises américaines participant au cadre du Bouclier de Confidentialité, telles que l'information des individus sur les données collectées, le maintien de l'intégrité des données et limitation de l'objet, en garantissant la responsabilité des données transférées à des tiers et en fournissant des mécanismes de recours aux individus pour résoudre les litiges liés au traitement des données.</p><p>En juillet 2020, cependant, la Cour de Justice de l'Union Européenne (CJUE) a déclaré le cadre du Bouclier de Confidentialité UE-États-Unis invalide. Cette décision a des implications sur la manière dont les entreprises transfèrent les données personnelles de l'UE vers les États-Unis, soulignant la nécessité de mécanismes alternatifs et le strict respect des normes du <a href=\"/fr/glossary/gdpr\">RGPD</a> pour les transferts internationaux de données.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is het Privacy Shield?",
+                        "text": "<p>Het Privacy Shield was een kader voor de uitwisseling van persoonlijke gegevens voor commerciële doeleinden tussen de Europese Unie (EU) en de Verenigde Staten. Het was ontworpen om een mechanisme te bieden voor bedrijven aan beide kanten van de Atlantische Oceaan om te voldoen aan de privacyvereisten bij het overdragen van persoonlijke gegevens van de EU en Zwitserland naar de Verenigde Staten. Volgens het Privacy Shield moeten deelnemende bedrijven zich houden aan een reeks principes die ervoor zorgen dat de persoonlijke gegevens van EU-onderwerpen adequaat worden beschermd in overeenstemming met het EU-recht.</p><p>Een Amerikaans bedrijf dat deelneemt aan het Privacy Shield, zou bijvoorbeeld verplicht zijn zich te houden aan hogere normen voor gegevensbescherming voor in de VS gevestigde bedrijven die deelnemen aan het Privacy Shield-kader, zoals het informeren van personen over de verzamelde gegevens, het handhaven van gegevensintegriteit en doelbeperking, ervoor zorgen dat er verantwoording wordt afgelegd voor aan derden overgedragen gegevens en het bieden van verhaalsmechanismen voor individuen om geschillen over gegevensverwerking op te lossen.</p><p>In juli 2020 verklaarde het Hof van Justitie van de Europese Unie (HJEU) het EU-VS Privacy Shield-kader echter ongeldig. Deze beslissing heeft gevolgen voor de manier waarop bedrijven persoonlijke gegevens van de EU naar de VS overdragen, en benadrukt de noodzaak van alternatieve mechanismen en strikte naleving van de <a href=\"/nl/glossary/gdpr\">AVG</a>-normen voor internationale gegevensoverdrachten.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è il Privacy Shield?",
+                        "text": "<p>Il Privacy Shield era un quadro che regolava lo scambio di dati personali a fini commerciali tra l'Unione Europea (UE) e gli Stati Uniti. Era progettato per fornire un meccanismo per le aziende su entrambe le sponde dell'Atlantico per conformarsi ai requisiti di privacy durante il trasferimento di dati personali dall'UE e dalla Svizzera agli Stati Uniti. Nell'ambito del Privacy Shield, le aziende partecipanti devono aderire a una serie di principi progettati per garantire che i dati personali dei soggetti dell'UE siano adeguatamente protetti in conformità con la legge dell'UE.</p><p>Ad esempio, un'azienda statunitense che partecipa al Privacy Shield sarebbe tenuta a offrire impegni a standard di protezione dei dati più elevati alle aziende con sede negli Stati Uniti che partecipano al quadro del Privacy Shield, come informare le persone sui dati raccolti, mantenere l'integrità dei dati e limitazione dello scopo, garantendo la responsabilità per i dati trasferiti a terzi e fornendo meccanismi di ricorso per le persone per risolvere le controversie relative all'elaborazione dei dati.</p><p>Tuttavia, nel luglio 2020, la Corte di Giustizia dell'Unione Europea (CGUE) ha dichiarato non valido il quadro UE-USA Privacy Shield. Questa decisione ha implicazioni per il modo in cui le aziende trasferiscono dati personali dall'UE agli Stati Uniti, evidenziando la necessità di meccanismi alternativi e il rispetto rigoroso degli standard del <a href=\"/it/glossary/gdpr\">GDPR</a> per i trasferimenti internazionali di dati.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é o Privacy Shield?",
+                        "text": "<p>O Privacy Shield era uma estrutura que regia a troca de dados pessoais para fins comerciais entre a União Europeia (UE) e os Estados Unidos. Foi projetado para fornecer um mecanismo para empresas de ambos os lados do Atlântico cumprirem os requisitos de privacidade ao transferir dados pessoais da UE e da Suíça para os Estados Unidos. No âmbito do Privacy Shield, as empresas participantes devem aderir a um conjunto de princípios concebidos para garantir que os dados pessoais dos titulares de dados da UE sejam devidamente protegidos de acordo com a legislação da UE.</p><p>Por exemplo, uma empresa americana que participe no Privacy Shield seria obrigada a oferecer compromissos com padrões mais elevados de proteção de dados a empresas sediadas nos EUA que participam no quadro do Privacy Shield, como informar as pessoas sobre os dados recolhidos, manter a integridade dos dados e a limitação do objetivo, garantindo a responsabilidade pelos dados transferidos para terceiros e fornecendo mecanismos de recurso para os indivíduos resolverem disputas relacionadas com o processamento de dados.</p><p>No entanto, em julho de 2020, o Tribunal de Justiça da União Europeia (TJUE) declarou inválida a estrutura do Privacy Shield UE-EUA. Esta decisão tem implicações para a forma como as empresas transferem dados pessoais da UE para os EUA, destacando a necessidade de mecanismos alternativos e o cumprimento rigoroso dos padrões de <a href=\"/pt/glossary/gdpr\">RGPD</a> para transferências internacionais de dados.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "プライバシーシールドとは何ですか?",
+                        "text": "<p>プライバシーシールドは、欧州連合 (EU) と米国の間の商業目的の個人データ交換を管理するフレームワークでした。これは、大西洋の両側の企業が EU とスイスから米国への個人データの転送時にプライバシー要件を満たすためのメカニズムを提供するように設計されていました。プライバシーシールドの下で、参加企業は、EU の法律に従って EU のデータ主体の個人データが適切に保護されることを保証するために設計された一連の原則を順守する必要があります。</p><p>たとえば、プライバシーシールドに参加している米国企業は、プライバシーシールド フレームワークに参加している米国を拠点とする企業に対して、収集されたデータについて個人に通知する、データの整合性と目的の制限を維持する、第三者に転送されたデータの説明責任を確保する、データ処理に関連する紛争を解決するための再考のためのメカニズム。</p><p>ただし、2020 年 7 月、欧州連合司法裁判所 (CJEU) は、EU 米国プライバシーシールド フレームワークを無効と宣言しました。この決定は、企業が EU から米国に個人データを転送する方法に影響を与え、代替メカニズムの必要性と国際データ転送に関する <a href=\"/ja/glossary/gdpr\">GDPR</a> 基準の厳格な遵守を強調しています。</p>"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/referral-traffic"
+        "en": "/glossary/referral-traffic",
+        "de": "/de/glossary/referral-traffic",
+        "es": "/es/glossary/referral-traffic",
+        "fr": "/fr/glossary/referral-traffic",
+        "nl": "/nl/glossary/referral-traffic",
+        "it": "/it/glossary/referral-traffic",
+        "pt": "/pt/glossary/referral-traffic",
+        "ja": "/ja/glossary/referral-traffic"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Referral Traffic – Pirsch Analytics",
                         "meta_description": "Visitors who arrive at a website by clicking on a link from another website."
+                    },
+                    "de": {
+                        "title": "Referral-Traffic – Pirsch Analytics",
+                        "meta_description": "Besucher, die auf eine Website gelangen, indem sie auf einen Link von einer anderen Website klicken."
+                    },
+                    "es": {
+                        "title": "Tráfico de Referencia – Pirsch Analytics",
+                        "meta_description": "Visitantes que llegan a un sitio web haciendo clic en un enlace de otro sitio web."
+                    },
+                    "fr": {
+                        "title": "Trafic de Référence – Pirsch Analytics",
+                        "meta_description": "Les visiteurs qui arrivent sur un site Web en cliquant sur un lien provenant d'un autre site Web."
+                    },
+                    "nl": {
+                        "title": "Verwijzingsverkeer – Pirsch Analytics",
+                        "meta_description": "Bezoekers die op een website komen door op een link van een andere website te klikken."
+                    },
+                    "it": {
+                        "title": "Traffico di Riferimento – Pirsch Analytics",
+                        "meta_description": "Visitatori che arrivano su un sito web facendo clic su un collegamento da un altro sito web."
+                    },
+                    "pt": {
+                        "title": "Tráfego de Referência – Pirsch Analytics",
+                        "meta_description": "Visitantes que chegam a um site clicando em um link de outro site."
+                    },
+                    "ja": {
+                        "title": "紹介トラフィック – Pirsch Analytics",
+                        "meta_description": "他のウェブサイトからのリンクをクリックしてウェブサイトにアクセスした訪問者。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Referral Traffic?",
                         "text": "<p>Referral traffic in web analytics refers to <a href=\"/glossary/unique-visitor\">visitors</a> who come to a site via direct links to other sites, rather than directly or via search engines. This type of traffic is important because it shows that other websites consider the content valuable enough to link to. Analyzing referral traffic helps companies understand which external sites contribute to their web traffic and can influence partnership and content strategies.</p><p>For example, if a popular blog links to an article on your site and users visit your site via this link, this visit is classified as referral traffic. Analytics tools such as Pirsch Analytics can track these visits, showing the originating site and often the specific site from which the traffic originated. With this information, marketers can evaluate the effectiveness of their content distribution efforts.</p><p>By understanding the sources of referral traffic, companies can focus on cultivating relationships with important influencers and websites in their industry and optimize their external link building strategy to attract more high-quality traffic.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist Referral-Traffic?",
+                        "text": "<p>Referral-Traffic in der Webanalyse bezieht sich auf <a href=\"/de/glossary/unique-visitor\">Besucher</a>, die über direkte Links zu anderen Websites auf eine Website gelangen, anstatt direkt oder über Suchmaschinen. Diese Art von Traffic ist wichtig, weil sie zeigt, dass andere Websites den Inhalt für wertvoll genug halten, um darauf zu verlinken. Die Analyse von Referral-Traffic hilft Unternehmen zu verstehen, welche externen Websites zu ihrem Web-Traffic beitragen, und kann Partnerschaften und Content-Strategien beeinflussen.</p><p>Wenn zum Beispiel ein beliebter Blog auf einen Artikel auf Ihrer Website verlinkt und Benutzer Ihre Website über diesen Link besuchen, wird dieser Besuch als Referral-Traffic klassifiziert. Analysetools wie Pirsch Analytics können diese Besuche verfolgen, indem sie die Quellwebsite und oft auch die spezifische Seite anzeigen, von der der Traffic stammt. Mit diesen Informationen können Vermarkter die Effektivität ihrer Inhaltsverteilungsbemühungen bewerten.</p><p>Durch das Verständnis der Quellen von Referral-Traffic können Unternehmen sich darauf konzentrieren, Beziehungen zu wichtigen Influencern und Websites in ihrer Branche aufzubauen, und ihre externe Linkbuilding-Strategie optimieren, um qualitativ hochwertigeren Traffic anzuziehen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es el Tráfico de Referencia?",
+                        "text": "<p>El tráfico de referencia en el análisis web se refiere a los <a href=\"/es/glossary/unique-visitor\">visitantes</a> que llegan a un sitio a través de enlaces directos a otros sitios, en lugar de hacerlo directamente o a través de motores de búsqueda. Este tipo de tráfico es importante porque muestra que otros sitios web consideran que el contenido es lo suficientemente valioso como para vincularlo. Analizar el tráfico de referencia ayuda a las empresas a comprender qué sitios externos contribuyen a su tráfico web y puede influir en las asociaciones y las estrategias de contenido.</p><p>Por ejemplo, si un blog popular enlaza con un artículo en su sitio y los usuarios visitan su sitio a través de este enlace, esta visita se clasifica como tráfico de referencia. Las herramientas de análisis como Pirsch Analytics pueden rastrear estas visitas, mostrando el sitio de origen y, a menudo, el sitio específico del que proviene el tráfico. Con esta información, los especialistas en marketing pueden evaluar la eficacia de sus esfuerzos de distribución de contenido.</p><p>Al comprender las fuentes de tráfico de referencia, las empresas pueden centrarse en cultivar relaciones con personas influyentes importantes y sitios web en su industria y optimizar su estrategia de creación de enlaces externos para atraer más tráfico de alta calidad.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que le Trafic de Référence ?",
+                        "text": "<p>Le trafic de référence dans l'analyse Web fait référence aux <a href=\"/fr/glossary/unique-visitor\">visiteurs</a> qui viennent sur un site via des liens directs vers d'autres sites, plutôt que directement ou via des moteurs de recherche. Ce type de trafic est important car il montre que d'autres sites Web considèrent le contenu comme suffisamment précieux pour créer un lien vers lui. L'analyse du trafic de référence aide les entreprises à comprendre quels sites externes contribuent à leur trafic Web et peut influencer les partenariats et les stratégies de contenu.</p><p>Par exemple, si un blog populaire renvoie à un article sur votre site et que les utilisateurs visitent votre site via ce lien, cette visite est classée comme trafic de référence. Les outils d'analyse tels que Pirsch Analytics peuvent suivre ces visites, affichant le site d'origine et souvent le site spécifique d'où provient le trafic. Avec ces informations, les spécialistes du marketing peuvent évaluer l'efficacité de leurs efforts de distribution de contenu.</p><p>En comprenant les sources de trafic de référence, les entreprises peuvent se concentrer sur l'établissement de relations avec des influenceurs et des sites Web importants dans leur secteur et optimiser leur stratégie de création de liens externes pour attirer un trafic de meilleure qualité.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is Verwijzingsverkeer?",
+                        "text": "<p>Verwijzingsverkeer in webanalyse verwijst naar <a href=\"/nl/glossary/unique-visitor\">bezoekers</a> die via directe links naar andere sites naar een site komen, in plaats van rechtstreeks of via zoekmachines. Dit type verkeer is belangrijk omdat het aantoont dat andere websites de inhoud waardevol genoeg vinden om naar te linken. Door verwijzingsverkeer te analyseren, kunnen bedrijven begrijpen welke externe sites bijdragen aan hun webverkeer en kunnen ze invloed hebben op partnerschappen en contentstrategieën.</p><p>Als een populaire blog bijvoorbeeld linkt naar een artikel op uw site en gebruikers uw site bezoeken via deze link, wordt dit bezoek geclassificeerd als verwijzingsverkeer. Analysetools zoals Pirsch Analytics kunnen deze bezoeken volgen, waarbij de bronsite en vaak de specifieke site van waaruit het verkeer afkomstig is, worden weergegeven. Met deze informatie kunnen marketeers de effectiviteit van hun inspanningen voor contentdistributie evalueren.</p><p>Door inzicht te krijgen in de bronnen van verwijzingsverkeer, kunnen bedrijven zich richten op het opbouwen van relaties met belangrijke influencers en websites in hun branche en hun externe linkbuildingstrategie optimaliseren om meer hoogwaardige bezoekers te trekken.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è il Traffico di Riferimento?",
+                        "text": "<p>Il traffico di riferimento nell'analisi web si riferisce ai <a href=\"/it/glossary/unique-visitor\">visitatori</a> che arrivano a un sito tramite collegamenti diretti ad altri siti, piuttosto che direttamente o tramite motori di ricerca. Questo tipo di traffico è importante perché mostra che altri siti Web considerano il contenuto abbastanza prezioso da collegarsi. L'analisi del traffico di riferimento aiuta le aziende a capire quali siti esterni contribuiscono al loro traffico web e può influenzare le partnership e le strategie dei contenuti.</p><p>Ad esempio, se un popolare blog si collega a un articolo sul tuo sito e gli utenti visitano il tuo sito tramite questo link, questa visita viene classificata come traffico di riferimento. Gli strumenti di analisi come Pirsch Analytics possono tracciare queste visite, mostrando il sito di origine e spesso il sito specifico da cui proviene il traffico. Con queste informazioni, i professionisti del marketing possono valutare l'efficacia dei loro sforzi di distribuzione dei contenuti.</p><p>Comprendendo le fonti di traffico di riferimento, le aziende possono concentrarsi sul coltivare relazioni con influencer importanti e siti Web nel loro settore e ottimizzare la loro strategia di creazione di link esterni per attrarre traffico di alta qualità.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Tráfego de Referência?",
+                        "text": "<p>O tráfego de referência na análise da web refere-se aos <a href=\"/pt/glossary/unique-visitor\">visitantes</a> que chegam a um site por meio de links diretos para outros sites, em vez de diretamente ou por meio de mecanismos de pesquisa. Esse tipo de tráfego é importante porque mostra que outros sites consideram o conteúdo valioso o suficiente para vincular. Analisar o tráfego de referência ajuda as empresas a entender quais sites externos contribuem para seu tráfego na web e pode influenciar as parcerias e as estratégias de conteúdo.</p><p>Por exemplo, se um blog popular vincular a um artigo em seu site e os usuários visitarem seu site por meio desse link, essa visita é classificada como tráfego de referência. As ferramentas de análise, como o Pirsch Analytics, podem rastrear essas visitas, mostrando o site de origem e, muitas vezes, o site específico de onde o tráfego se originou. Com essas informações, os profissionais de marketing podem avaliar a eficácia de seus esforços de distribuição de conteúdo.</p><p>Entendendo as fontes de tráfego de referência, as empresas podem se concentrar em cultivar relacionamentos com influenciadores importantes e sites em seu setor e otimizar sua estratégia de criação de links externos para atrair mais tráfego de alta qualidade.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "リファラートラフィックとは何ですか？",
+                        "text": "<p>Web 分析におけるリファラートラフィックとは、直接または検索エンジン経由ではなく、他のサイトへの直接リンクを介してサイトにアクセスする<a href=\"/ja/glossary/unique-visitor\">訪問者</a>のことを指します。この種のトラフィックは、他のウェブサイトがコンテンツを十分に価値があると考えてリンクすることを示すため、重要です。リファラートラフィックを分析することで、企業はどの外部サイトが彼らのウェブトラフィックに貢献しているかを理解し、パートナーシップやコンテンツ戦略に影響を与えることができます。</p><p>たとえば、人気のあるブログがあなたのサイトの記事にリンクし、ユーザーがこのリンク経由であなたのサイトを訪れた場合、この訪問はリファラートラフィックとして分類されます。 Pirsch Analyticsなどの分析ツールは、これらの訪問を追跡し、トラフィックの発信元サイトやしばしばトラフィックの発生元となる特定のサイトを表示できます。 これらの情報を使用すると、マーケターはコンテンツ配信の効果を評価できます。</p><p>リファラートラフィックのソースを理解することで、企業は業界の重要なインフルエンサーやウェブサイトとの関係を育成し、より高品質のトラフィックを引き付けるために外部リンク構築戦略を最適化できます。</p>"
                     }
                 }
             },

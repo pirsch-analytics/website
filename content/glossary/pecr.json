@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/pecr"
+        "en": "/glossary/pecr",
+        "de": "/de/glossary/pecr",
+        "es": "/es/glossary/pecr",
+        "fr": "/fr/glossary/pecr",
+        "nl": "/nl/glossary/pecr",
+        "it": "/it/glossary/pecr",
+        "pt": "/pt/glossary/pecr",
+        "ja": "/ja/glossary/pecr"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "PECR – Pirsch Analytics",
                         "meta_description": "Privacy and Electronic Communications Regulations, a set of regulations in the UK that govern the use of electronic communications."
+                    },
+                    "de": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Datenschutz- und Telekommunikationsvorschriften, eine Reihe von Vorschriften im Vereinigten Königreich, die die Nutzung elektronischer Kommunikation regeln."
+                    },
+                    "es": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Reglamento de Privacidad y Comunicaciones Electrónicas, un conjunto de regulaciones en el Reino Unido que gobiernan el uso de comunicaciones electrónicas."
+                    },
+                    "fr": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Règlements sur la Confidentialité et les Communications Électroniques, un ensemble de réglementations au Royaume-Uni qui régissent l'utilisation des communications électroniques."
+                    },
+                    "nl": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Privacy- en elektronische communicatieregelgeving, een reeks regels in het VK die het gebruik van elektronische communicatie regelen."
+                    },
+                    "it": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Regolamento sulla Privacy e le Comunicazioni Elettroniche, un insieme di regolamenti nel Regno Unito che regolano l'uso delle comunicazioni elettroniche."
+                    },
+                    "pt": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "Regulamento de Privacidade e Comunicações Eletrônicas, um conjunto de regulamentos no Reino Unido que governa o uso de comunicações eletrônicas."
+                    },
+                    "ja": {
+                        "title": "PECR – Pirsch Analytics",
+                        "meta_description": "プライバシーと電子通信規制、電子通信の使用を管理する英国の規則のセット。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is PECR?",
                         "text": "<p>The Privacy and Electronic Communications Regulations (PECR) are UK regulations that apply alongside the General Data Protection Regulation (<a href=\"/glossary/gdpr\">GDPR</a>), and provide specific data protection rights for electronic communications. They cover several key areas, including the security of public electronic communications services, the protection of users' privacy when browsing the internet and using mobile apps, and the handling of traffic and <a href=\"/glossary/location\">location</a> data associated with such services.</p><p>The PECRs are perhaps best known for their rules on <a href=\"/glossary/cookie\">cookies</a> and similar technologies. Websites must obtain users' consent before placing cookies on their <a href=\"/glossary/device\">devices</a>, unless the cookies are strictly necessary to provide a service that the user has explicitly requested, such as processing a payment or storing items in a shopping cart.</p><p>For example, if a UK-based website wants to use cookies to track visitor behavior for marketing purposes, it must first inform users about the cookies and obtain their explicit consent. This ensures that users are aware of and can control the use of their personal data, which is in line with general data protection principles.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist PECR?",
+                        "text": "<p>Die Datenschutz- und Telekommunikationsvorschriften (PECR) sind Vorschriften im Vereinigten Königreich, die neben der Allgemeinen Datenschutzverordnung (<a href=\"/de/glossary/gdpr\">DSGVO</a>) gelten und spezifische Datenschutzrechte für die elektronische Kommunikation bieten. Sie decken mehrere Schlüsselbereiche ab, darunter die Sicherheit öffentlicher elektronischer Kommunikationsdienste, den Schutz der Privatsphäre der Benutzer beim Surfen im Internet und bei der Verwendung mobiler Apps sowie die Handhabung von Verkehrs- und <a href=\"/de/glossary/location\">Standort</a>-Daten, die mit solchen Diensten verbunden sind.</p><p>Die PECRs sind vielleicht am besten für ihre Regeln zu <a href=\"/de/glossary/cookie\">Cookies</a> und ähnlichen Technologien bekannt. Websites müssen die Zustimmung der Benutzer einholen, bevor sie Cookies auf ihren <a href=\"/de/glossary/device\">Geräten</a> platzieren, es sei denn, die Cookies sind unbedingt erforderlich, um einen vom Benutzer ausdrücklich angeforderten Dienst bereitzustellen, beispielsweise die Bearbeitung einer Zahlung oder die Speicherung von Artikeln in einem Einkaufswagen.</p><p>Wenn beispielsweise eine Website mit Sitz im Vereinigten Königreich Cookies verwenden möchte, um das Besucherverhalten für Marketingzwecke zu verfolgen, muss sie die Benutzer zunächst über die Cookies informieren und ihre ausdrückliche Zustimmung einholen. Dies stellt sicher, dass die Benutzer über die Verwendung ihrer personenbezogenen Daten informiert sind und diese kontrollieren können, was den allgemeinen Datenschutzgrundsätzen entspricht.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es PECR?",
+                        "text": "<p>El Reglamento de Privacidad y Comunicaciones Electrónicas (PECR) son regulaciones del Reino Unido que se aplican junto con el Reglamento General de Protección de Datos (<a href=\"/es/glossary/gdpr\">GDPR</a>) y brindan derechos específicos de protección de datos para las comunicaciones electrónicas. Cubren varias áreas clave, incluida la seguridad de los servicios públicos de comunicaciones electrónicas, la protección de la privacidad de los usuarios al navegar por Internet y usar aplicaciones móviles, y el manejo del tráfico y los datos de <a href=\"/es/glossary/location\">ubicación</a> asociados con dichos servicios.</p><p>Las PECR son quizás más conocidas por sus reglas sobre <a href=\"/es/glossary/cookie\">cookies</a> y tecnologías similares. Los sitios web deben obtener el consentimiento de los usuarios antes de colocar cookies en sus <a href=\"/es/glossary/device\">dispositivos</a>, a menos que las cookies sean estrictamente necesarias para brindar un servicio que el usuario haya solicitado explícitamente, como procesar un pago o almacenar artículos en un carrito de compras.</p><p>Por ejemplo, si un sitio web con sede en el Reino Unido desea usar cookies para rastrear el comportamiento de los visitantes con fines de marketing, primero debe informar a los usuarios sobre las cookies y obtener su consentimiento explícito. Esto asegura que los usuarios estén al tanto y puedan controlar el uso de sus datos personales, lo cual está en línea con los principios generales de protección de datos.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que PECR ?",
+                        "text": "<p>Les Règlements sur la Confidentialité et les Communications Électroniques (PECR) sont des réglementations britanniques qui s'appliquent parallèlement au Règlement Général sur la Protection des Données (<a href=\"/fr/glossary/gdpr\">RGPD</a>) et offrent des droits spécifiques en matière de protection des données pour les communications électroniques. Ils couvrent plusieurs domaines clés, notamment la sécurité des services publics de communications électroniques, la protection de la vie privée des utilisateurs lorsqu'ils naviguent sur Internet et utilisent des applications mobiles, ainsi que la gestion du trafic et des données de <a href=\"/fr/glossary/location\">localisation</a> associées à ces services.</p><p>Les PECR sont peut-être mieux connus pour leurs règles sur les <a href=\"/fr/glossary/cookie\">cookies</a> et les technologies similaires. Les sites web doivent obtenir le consentement des utilisateurs avant de placer des cookies sur leurs <a href=\"/fr/glossary/device\">appareils</a>, sauf si les cookies sont strictement nécessaires pour fournir un service que l'utilisateur a explicitement demandé, comme le traitement d'un paiement ou le stockage d'articles dans un panier d'achat.</p><p>Par exemple, si un site web basé au Royaume-Uni souhaite utiliser des cookies pour suivre le comportement des visiteurs à des fins de marketing, il doit d'abord informer les utilisateurs des cookies et obtenir leur consentement explicite. Cela garantit que les utilisateurs sont au courant et peuvent contrôler l'utilisation de leurs données personnelles, ce qui est conforme aux principes généraux de protection des données.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is PECR?",
+                        "text": "<p>De Privacy- en elektronische communicatieregelgeving (PECR) is regelgeving in het Verenigd Koninkrijk die van toepassing is naast de Algemene Verordening Gegevensbescherming (<a href=\"/nl/glossary/gdpr\">AVG</a>) en specifieke gegevensbeschermingsrechten voor elektronische communicatie biedt. Ze dekken verschillende belangrijke gebieden, waaronder de beveiliging van openbare elektronische communicatiediensten, de bescherming van de privacy van gebruikers bij het surfen op internet en het gebruik van mobiele apps, en de afhandeling van verkeers- en <a href=\"/nl/glossary/location\">locatie</a>gegevens die verband houden met dergelijke diensten.</p><p>De PECR's zijn misschien het best bekend om hun regels voor <a href=\"/nl/glossary/cookie\">cookies</a> en soortgelijke technologieën. Websites moeten de toestemming van de gebruikers verkrijgen voordat ze cookies op hun <a href=\"/nl/glossary/device\">apparaten</a> plaatsen, tenzij de cookies strikt noodzakelijk zijn om een door de gebruiker uitdrukkelijk gevraagde dienst te leveren, zoals het verwerken van een betaling of het opslaan van items in een winkelwagentje.</p><p>Als een in het VK gevestigde website bijvoorbeeld cookies wil gebruiken om het gedrag van bezoekers voor marketingdoeleinden te volgen, moet deze de gebruikers eerst informeren over de cookies en hun uitdrukkelijke toestemming verkrijgen. Dit zorgt ervoor dat gebruikers zich bewust zijn van en controle kunnen hebben over het gebruik van hun persoonlijke gegevens, wat in lijn is met de algemene principes voor gegevensbescherming.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è PECR?",
+                        "text": "<p>Il Regolamento sulla Privacy e le Comunicazioni Elettroniche (PECR) è un regolamento del Regno Unito che si applica insieme al Regolamento Generale sulla Protezione dei Dati (<a href=\"/it/glossary/gdpr\">GDPR</a>) e fornisce specifici diritti di protezione dei dati per le comunicazioni elettroniche. Coprono diverse aree chiave, tra cui la sicurezza dei servizi pubblici di comunicazione elettronica, la protezione della privacy degli utenti durante la navigazione in Internet e l'utilizzo di app mobili, nonché la gestione del traffico e dei dati di <a href=\"/it/glossary/location\">posizione</a> associati a tali servizi.</p><p>I PECR sono forse più noti per le loro regole sui <a href=\"/it/glossary/cookie\">cookie</a> e tecnologie simili. I siti web devono ottenere il consenso degli utenti prima di inserire i cookie sui loro <a href=\"/it/glossary/device\">dispositivi</a>, a meno che i cookie non siano strettamente necessari per fornire un servizio che l'utente ha esplicitamente richiesto, come l'elaborazione di un pagamento o la memorizzazione di articoli in un carrello.</p><p>Ad esempio, se un sito web con sede nel Regno Unito vuole utilizzare i cookie per monitorare il comportamento dei visitatori a fini di marketing, deve prima informare gli utenti dei cookie e ottenere il loro esplicito consenso. Ciò garantisce che gli utenti siano consapevoli e possano controllare l'utilizzo dei propri dati personali, in linea con i principi generali di protezione dei dati.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é PECR?",
+                        "text": "<p>O Regulamento de Privacidade e Comunicações Eletrônicas (PECR) é uma regulamentação do Reino Unido que se aplica juntamente com o Regulamento Geral de Proteção de Dados (<a href=\"/pt/glossary/gdpr\">RGPD</a>) e fornece direitos específicos de proteção de dados para comunicações eletrônicas. Eles cobrem várias áreas-chave, incluindo a segurança dos serviços públicos de comunicações eletrônicas, a proteção da privacidade dos usuários ao navegar na Internet e usar aplicativos móveis, e o manuseio de tráfego e dados de <a href=\"/pt/glossary/location\">localização</a> associados a esses serviços.</p><p>Os PECR são talvez mais conhecidos por suas regras sobre <a href=\"/pt/glossary/cookie\">cookies</a> e tecnologias semelhantes. Os sites devem obter o consentimento dos usuários antes de colocar cookies em seus <a href=\"/pt/glossary/device\">dispositivos</a>, a menos que os cookies sejam estritamente necessários para fornecer um serviço solicitado explicitamente pelo usuário, como processar um pagamento ou armazenar itens em um carrinho de compras.</p><p>Por exemplo, se um site com sede no Reino Unido deseja usar cookies para rastrear o comportamento dos visitantes para fins de marketing, ele deve primeiro informar os usuários sobre os cookies e obter seu consentimento explícito. Isso garante que os usuários estejam cientes e possam controlar o uso de seus dados pessoais, em linha com os princípios gerais de proteção de dados.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "グロッサリーに戻る",
+                        "headline": "PECRとは？",
+                        "text": "<p>プライバシーと電子通信規制（PECR）は、一般データ保護規則（<a href=\"/ja/glossary/gdpr\">GDPR</a>）とともに適用される英国の規制で、電子通信の特定のデータ保護権を提供します。公共の電子通信サービスのセキュリティ、インターネットの閲覧やモバイルアプリの使用時のユーザーのプライバシー保護、サービスに関連するトラフィックや<a href=\"/ja/glossary/location\">ロケーション</a>データの処理など、いくつかの重要な領域をカバーしています。</p><p>PECRは、<a href=\"/ja/glossary/cookie\">クッキー</a>と同様の技術に関する規則で最もよく知られています。クッキーがユーザーの<a href=\"/ja/glossary/device\">デバイス</a>に配置される前に、サイトはユーザーの同意を得る必要があります。ただし、クッキーがユーザーが明示的にリクエストしたサービスを提供するために厳密に必要な場合を除きます。たとえば、支払いの処理やショッピングカートにアイテムを保存するなどです。</p><p>たとえば、英国を拠点とするウェブサイトがマーケティング目的で訪問者の行動を追跡するためにクッキーを使用したい場合、最初にユーザーにクッキーについて知らせ、明示的な同意を得る必要があります。これにより、ユーザーが個人データの使用を認識し、制御できるようになり、一般的なデータ保護の原則に沿っています。</p>"
                     }
                 }
             },
