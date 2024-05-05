@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/scrolled-percentage"
+        "en": "/glossary/scrolled-percentage",
+        "de": "/de/glossary/scrolled-percentage",
+        "es": "/es/glossary/scrolled-percentage",
+        "fr": "/fr/glossary/scrolled-percentage",
+        "nl": "/nl/glossary/scrolled-percentage",
+        "it": "/it/glossary/scrolled-percentage",
+        "pt": "/pt/glossary/scrolled-percentage",
+        "ja": "/ja/glossary/scrolled-percentage"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Scrolled Percentage – Pirsch Analytics",
                         "meta_description": "The percentage of a webpage that a user has scrolled through."
+                    },
+                    "de": {
+                        "title": "Scroll-Prozentsatz – Pirsch Analytics",
+                        "meta_description": "Der Prozentsatz einer Webseite, durch den ein Benutzer gescrollt hat."
+                    },
+                    "es": {
+                        "title": "Porcentaje de Desplazamiento – Pirsch Analytics",
+                        "meta_description": "El porcentaje de una página web por el que un usuario ha desplazado."
+                    },
+                    "fr": {
+                        "title": "Pourcentage de Défilement – Pirsch Analytics",
+                        "meta_description": "Le pourcentage d'une page web qu'un utilisateur a fait défiler."
+                    },
+                    "nl": {
+                        "title": "Scrollpercentage – Pirsch Analytics",
+                        "meta_description": "Het percentage van een webpagina dat een gebruiker heeft doorgescrold."
+                    },
+                    "it": {
+                        "title": "Percentuale di Scorrimento – Pirsch Analytics",
+                        "meta_description": "La percentuale di una pagina web che un utente ha scorso."
+                    },
+                    "pt": {
+                        "title": "Percentagem de Rolagem – Pirsch Analytics",
+                        "meta_description": "A porcentagem de uma página da web que um usuário rolou."
+                    },
+                    "ja": {
+                        "title": "スクロール率 – Pirsch Analytics",
+                        "meta_description": "ユーザーがスクロールしたウェブページの割合。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Scrolled Percentage?",
                         "text": "<p>The percent of pages scrolled is a metric used in web analytics to measure how far down a page a user scrolls. It provides insight into user engagement by showing how much of a page's content is actually being viewed. This metric is typically expressed as a percentage of the total height of the page that the user has scrolled through.</p><p>For example, if a page is 2000 pixels long and a user scrolls through 1000 pixels before leaving the page, the percentage of content scrolled through would be calculated as (1000/2000) * 100 = 50%. This means that the user has seen half of the page content. Web analytics tools such as Pirsch Analytics can automatically track this metric, allowing site owners to understand which parts of their sites are interesting enough to get users to scroll.</p><p>By analyzing scroll percentage data, site designers can optimize the placement of important content and calls to action to ensure that they are visible in the areas most frequently viewed by users. This helps to improve the user experience and potentially increase <a href=\"/glossary/conversion-rate\">conversion rates</a>.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist der Scroll-Prozentsatz?",
+                        "text": "<p>Der Prozentsatz der gescrollten Seiten ist eine Metrik in der Webanalyse, die misst, wie weit ein Benutzer auf einer Seite nach unten scrollt. Sie gibt Aufschluss über das Engagement der Benutzer, indem sie zeigt, wie viel des Inhalts einer Seite tatsächlich angesehen wird. Diese Metrik wird in der Regel als Prozentsatz der Gesamthöhe der Seite ausgedrückt, durch die der Benutzer gescrollt hat.</p><p>Zum Beispiel, wenn eine Seite 2000 Pixel lang ist und ein Benutzer 1000 Pixel durchscrollt, bevor er die Seite verlässt, würde der Prozentsatz des durchgescrollten Inhalts als (1000/2000) * 100 = 50% berechnet. Das bedeutet, dass der Benutzer die Hälfte des Seiteninhalts gesehen hat. Webanalyse-Tools wie Pirsch Analytics können diese Metrik automatisch verfolgen, sodass Seitenbetreiber verstehen können, welche Teile ihrer Seiten interessant genug sind, um Benutzer zum Scrollen zu bewegen.</p><p>Durch die Analyse der Scroll-Prozentsatzdaten können Seitendesigner die Platzierung wichtiger Inhalte und Handlungsaufforderungen optimieren, um sicherzustellen, dass sie in den Bereichen sichtbar sind, die von den Benutzern am häufigsten angesehen werden. Dies hilft, die Benutzererfahrung zu verbessern und möglicherweise <a href=\"/de/glossary/conversion-rate\">Konversionsraten</a> zu erhöhen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es el Porcentaje de Desplazamiento?",
+                        "text": "<p>El porcentaje de páginas desplazadas es una métrica utilizada en el análisis web para medir cuán lejos hacia abajo una página un usuario se desplaza. Proporciona información sobre el compromiso del usuario mostrando cuánto contenido de la página está siendo realmente visto. Esta métrica se expresa típicamente como un porcentaje de la altura total de la página que el usuario ha desplazado.</p><p>Por ejemplo, si una página tiene 2000 píxeles de largo y un usuario se desplaza a través de 1000 píxeles antes de abandonar la página, el porcentaje del contenido desplazado se calcularía como (1000/2000) * 100 = 50%. Esto significa que el usuario ha visto la mitad del contenido de la página. Herramientas de análisis web como Pirsch Analytics pueden rastrear automáticamente esta métrica, permitiendo a los propietarios de sitios entender qué partes de sus sitios son lo suficientemente interesantes como para hacer que los usuarios se desplacen.</p><p>Al analizar los datos del porcentaje de desplazamiento, los diseñadores de sitios pueden optimizar la colocación de contenido importante y llamadas a la acción para asegurar que sean visibles en las áreas más frecuentemente vistas por los usuarios. Esto ayuda a mejorar la experiencia del usuario y potencialmente aumentar las <a href=\"/es/glossary/conversion-rate\">tasas de conversión</a>.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que le Pourcentage de Défilement ?",
+                        "text": "<p>Le pourcentage de pages défilées est une métrique utilisée dans l'analyse web pour mesurer jusqu'où un utilisateur fait défiler une page. Elle donne un aperçu de l'engagement des utilisateurs en montrant combien de contenu de la page est réellement visualisé. Cette métrique est généralement exprimée en pourcentage de la hauteur totale de la page que l'utilisateur a fait défiler.</p><p>Par exemple, si une page mesure 2000 pixels de long et qu'un utilisateur défile à travers 1000 pixels avant de quitter la page, le pourcentage du contenu défilé serait calculé comme suit : (1000/2000) * 100 = 50%. Cela signifie que l'utilisateur a vu la moitié du contenu de la page. Des outils d'analyse web tels que Pirsch Analytics peuvent automatiquement suivre cette métrique, permettant aux propriétaires de sites de comprendre quelles parties de leurs sites sont suffisamment intéressantes pour inciter les utilisateurs à défiler.</p><p>En analysant les données sur le pourcentage de défilement, les concepteurs de sites peuvent optimiser l'emplacement des contenus importants et des appels à l'action pour s'assurer qu'ils sont visibles dans les zones les plus fréquemment consultées par les utilisateurs. Cela contribue à améliorer l'expérience utilisateur et peut potentiellement augmenter les <a href=\"/fr/glossary/conversion-rate\">taux de conversion</a>.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat is het Scrollpercentage?",
+                        "text": "<p>Het scrollpercentage van pagina's is een meetwaarde die in de webanalyse wordt gebruikt om te meten hoe ver een gebruiker op een pagina naar beneden scrollt. Het biedt inzicht in de betrokkenheid van gebruikers door aan te tonen hoeveel van de inhoud van een pagina daadwerkelijk wordt bekeken. Deze meetwaarde wordt doorgaans uitgedrukt als een percentage van de totale hoogte van de pagina die de gebruiker heeft doorgescrold.</p><p>Bijvoorbeeld, als een pagina 2000 pixels lang is en een gebruiker scrolt door 1000 pixels voordat hij de pagina verlaat, zou het percentage van de doorgescroolde inhoud worden berekend als (1000/2000) * 100 = 50%. Dit betekent dat de gebruiker de helft van de pagina-inhoud heeft gezien. Webanalysetools zoals Pirsch Analytics kunnen deze metriek automatisch volgen, waardoor site-eigenaren kunnen begrijpen welke delen van hun sites interessant genoeg zijn om gebruikers te laten scrollen.</p><p>Door scrollpercentagegegevens te analyseren, kunnen siteontwerpers de plaatsing van belangrijke inhoud en oproepen tot actie optimaliseren om ervoor te zorgen dat ze zichtbaar zijn in de gebieden die het meest door gebruikers worden bekeken. Dit helpt de gebruikerservaring te verbeteren en kan potentieel de <a href=\"/nl/glossary/conversion-rate\">conversieratio's</a> verhogen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Che cos'è la Percentuale di Scorrimento?",
+                        "text": "<p>La percentuale di pagine scorrevoli è una metrica utilizzata nell'analisi web per misurare quanto in basso nella pagina un utente scorre. Fornisce indicazioni sull'impegno dell'utente mostrando quanto contenuto della pagina è effettivamente visualizzato. Questa metrica è tipicamente espressa come una percentuale dell'altezza totale della pagina che l'utente ha scorso.</p><p>Ad esempio, se una pagina è lunga 2000 pixel e un utente scorre attraverso 1000 pixel prima di lasciare la pagina, la percentuale del contenuto scorso sarebbe calcolata come (1000/2000) * 100 = 50%. Questo significa che l'utente ha visto metà del contenuto della pagina. Strumenti di analisi web come Pirsch Analytics possono tracciare automaticamente questa metrica, permettendo ai proprietari di siti di capire quali parti dei loro siti sono abbastanza interessanti da far scorrere gli utenti.</p><p>Analizzando i dati sulla percentuale di scorrimento, i designer di siti possono ottimizzare la collocazione di contenuti importanti e call to action per assicurare che siano visibili nelle aree più frequentemente visualizzate dagli utenti. Questo aiuta a migliorare l'esperienza utente e potenzialmente aumentare i <a href=\"/it/glossary/conversion-rate\">tassi di conversione</a>.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Percentagem de Rolagem?",
+                        "text": "<p>A percentagem de páginas roladas é uma métrica usada em análise web para medir até onde um usuário rola uma página para baixo. Ela fornece insights sobre o envolvimento do usuário ao mostrar quanto do conteúdo de uma página está realmente sendo visualizado. Esta métrica é normalmente expressa como uma porcentagem da altura total da página que o usuário rolou.</p><p>Por exemplo, se uma página tem 2000 pixels de comprimento e um usuário rola 1000 pixels antes de deixar a página, a porcentagem do conteúdo rolado seria calculada como (1000/2000) * 100 = 50%. Isso significa que o usuário viu metade do conteúdo da página. Ferramentas de análise web como Pirsch Analytics podem rastrear automaticamente essa métrica, permitindo que os proprietários dos sites entendam quais partes de seus sites são interessantes o suficiente para fazer os usuários rolarem.</p><p>Analisando os dados da percentagem de rolagem, os designers de sites podem otimizar a colocação de conteúdo importante e chamadas para ação para garantir que eles estejam visíveis nas áreas mais frequentemente visualizadas pelos usuários. Isso ajuda a melhorar a experiência do usuário e potencialmente aumentar as <a href=\"/pt/glossary/conversion-rate\">taxas de conversão</a>.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "スクロール率とは何ですか？",
+                        "text": "<p>ページのスクロール率は、ユーザーがページをどれだけ下にスクロールしたかを測定するためにウェブ分析で使用される指標です。この指標は、ページのコンテンツが実際にどれだけ閲覧されているかを示すことで、ユーザーのエンゲージメントに関する洞察を提供します。この指標は通常、ユーザーがスクロールしたページの総高さの割合として表現されます。</p><p>たとえば、ページが2000ピクセルの長さで、ユーザーがページを離れる前に1000ピクセルスクロールした場合、スクロールされたコンテンツの割合は (1000/2000) * 100 = 50% として計算されます。これは、ユーザーがページコンテンツの半分を見たことを意味します。Pirsch Analyticsのようなウェブ分析ツールはこの指標を自動的に追跡することができ、サイトの所有者は自サイトのどの部分がユーザーにスクロールさせるほど興味深いかを理解することができます。</p><p>スクロール率のデータを分析することで、サイトのデザイナーは重要なコンテンツとアクション呼びかけの配置を最適化し、それらがユーザーによく見られるエリアに表示されるようにすることができます。これにより、ユーザー体験が向上し、<a href=\"/ja/glossary/conversion-rate\">転換率</a>を増やす可能性があります。</p>"
                     }
                 }
             },

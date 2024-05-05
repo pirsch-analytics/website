@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/rss-feed"
+        "en": "/glossary/rss-feed",
+        "de": "/de/glossary/rss-feed",
+        "es": "/es/glossary/rss-feed",
+        "fr": "/fr/glossary/rss-feed",
+        "nl": "/nl/glossary/rss-feed",
+        "it": "/it/glossary/rss-feed",
+        "pt": "/pt/glossary/rss-feed",
+        "ja": "/ja/glossary/rss-feed"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "RSS Feed – Pirsch Analytics",
                         "meta_description": "A web feed that allows users to access updates to online content in a standardized, computer-readable format."
+                    },
+                    "de": {
+                        "title": "RSS-Feed – Pirsch Analytics",
+                        "meta_description": "Ein Web-Feed, der es Benutzern ermöglicht, Aktualisierungen von Online-Inhalten in einem standardisierten, computerlesbaren Format zu erhalten."
+                    },
+                    "es": {
+                        "title": "RSS Feed – Pirsch Analytics",
+                        "meta_description": "Un feed web que permite a los usuarios acceder a actualizaciones de contenido en línea en un formato estandarizado y legible por computadora."
+                    },
+                    "fr": {
+                        "title": "Flux RSS – Pirsch Analytics",
+                        "meta_description": "Un flux web qui permet aux utilisateurs d'accéder aux mises à jour de contenu en ligne dans un format standardisé et lisible par ordinateur."
+                    },
+                    "nl": {
+                        "title": "RSS-feed – Pirsch Analytics",
+                        "meta_description": "Een webfeed die gebruikers in staat stelt updates van online inhoud te ontvangen in een gestandaardiseerd, computerleesbaar formaat."
+                    },
+                    "it": {
+                        "title": "Feed RSS – Pirsch Analytics",
+                        "meta_description": "Un feed web che consente agli utenti di accedere agli aggiornamenti dei contenuti online in un formato standardizzato e leggibile da computer."
+                    },
+                    "pt": {
+                        "title": "Feed RSS – Pirsch Analytics",
+                        "meta_description": "Um feed da web que permite aos usuários acessar atualizações de conteúdo online em um formato padronizado e legível por computador."
+                    },
+                    "ja": {
+                        "title": "RSSフィード – Pirsch Analytics",
+                        "meta_description": "ユーザーがオンラインコンテンツの更新を標準化されたコンピューターで読める形式でアクセスできるウェブフィード。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a RSS Feed?",
                         "text": "<p>RSS feed, which stands for Really Simple Syndication or Rich Site Summary, is a type of Web feed that allows users and applications to receive regular updates from a website or blog of their choice. RSS feeds allow publishers to automatically syndicate data so that users can follow updates from their favorite sites without having to visit each site individually.</p><p>For example, if a user subscribes to the RSS feed of a news site, they can receive updates in a feed reader or email application each time a new article is published. The feed typically contains summaries of the content or the full text, and makes the data portable across programs and services. Users can subscribe to RSS feed reader software that periodically checks the subscribed feeds for new content and downloads any updates found.</p><p>RSS feeds are useful for users who want to receive timely updates from multiple sources in a consolidated view. For publishers, RSS is a tool that allows them to increase the reach and frequency of interaction with their audience without having to rely on visitors manually returning to the site.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein RSS-Feed?",
+                        "text": "<p>RSS-Feed, kurz für Really Simple Syndication oder Rich Site Summary, ist eine Art Web-Feed, der es Benutzern und Anwendungen ermöglicht, regelmäßige Updates von einer Website oder einem Blog ihrer Wahl zu erhalten. RSS-Feeds ermöglichen es Publishern, Daten automatisch zu syndizieren, sodass Benutzer Updates von ihren Lieblingsseiten verfolgen können, ohne jede Seite einzeln besuchen zu müssen.</p><p>Wenn sich ein Benutzer beispielsweise für den RSS-Feed einer Nachrichtenseite anmeldet, kann er jedes Mal, wenn ein neuer Artikel veröffentlicht wird, Updates in einem Feedreader oder einer E-Mail-Anwendung erhalten. Der Feed enthält in der Regel Zusammenfassungen des Inhalts oder den vollständigen Text und macht die Daten über Programme und Dienste hinweg portabel. Benutzer können RSS-Feedreader-Software abonnieren, die regelmäßig die abonnierten Feeds auf neue Inhalte überprüft und gefundene Updates herunterlädt.</p><p>RSS-Feeds sind nützlich für Benutzer, die zeitnahe Updates von mehreren Quellen in einer zusammengefassten Ansicht erhalten möchten. Für Publisher ist RSS ein Werkzeug, das es ihnen ermöglicht, die Reichweite und Häufigkeit der Interaktion mit ihrem Publikum zu erhöhen, ohne darauf angewiesen zu sein, dass Besucher manuell zur Site zurückkehren.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es un feed RSS?",
+                        "text": "<p>RSS feed, que significa Really Simple Syndication o Resumen de Sitio Enriquecido, es un tipo de feed web que permite a los usuarios y aplicaciones recibir actualizaciones regulares de un sitio web o blog de su elección. Los feeds RSS permiten a los editores sindicar datos automáticamente para que los usuarios puedan seguir las actualizaciones de sus sitios favoritos sin tener que visitar cada sitio individualmente.</p><p>Por ejemplo, si un usuario se suscribe al feed RSS de un sitio de noticias, puede recibir actualizaciones en un lector de feeds o aplicación de correo electrónico cada vez que se publica un nuevo artículo. El feed generalmente contiene resúmenes del contenido o el texto completo, y hace que los datos sean portátiles a través de programas y servicios. Los usuarios pueden suscribirse a software de lectura de feeds RSS que verifica periódicamente los feeds suscritos en busca de contenido nuevo y descarga las actualizaciones encontradas.</p><p>Los feeds RSS son útiles para los usuarios que desean recibir actualizaciones oportunas de múltiples fuentes en una vista consolidada. Para los editores, RSS es una herramienta que les permite aumentar el alcance y la frecuencia de interacción con su audiencia sin depender de que los visitantes regresen manualmente al sitio.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un flux RSS?",
+                        "text": "<p>Le flux RSS, qui signifie Really Simple Syndication ou Rich Site Summary, est un type de flux web qui permet aux utilisateurs et aux applications de recevoir des mises à jour régulières d'un site web ou d'un blog de leur choix. Les flux RSS permettent aux éditeurs de syndiquer automatiquement des données afin que les utilisateurs puissent suivre les mises à jour de leurs sites préférés sans avoir à visiter chaque site individuellement.</p><p>Par exemple, si un utilisateur s'abonne au flux RSS d'un site d'actualités, il peut recevoir des mises à jour dans un lecteur de flux ou une application de courriel chaque fois qu'un nouvel article est publié. Le flux contient généralement des résumés du contenu ou le texte complet et rend les données portables à travers les programmes et les services. Les utilisateurs peuvent s'abonner à des logiciels de lecteur de flux RSS qui vérifient périodiquement les flux auxquels ils sont abonnés pour découvrir de nouveaux contenus et télécharger les mises à jour trouvées.</p><p>Les flux RSS sont utiles pour les utilisateurs qui souhaitent recevoir des mises à jour opportunes de plusieurs sources dans une vue consolidée. Pour les éditeurs, le RSS est un outil qui leur permet d'augmenter la portée et la fréquence des interactions avec leur public sans compter sur le retour manuel des visiteurs sur le site.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat is een RSS-feed?",
+                        "text": "<p>RSS-feed, wat staat voor Really Simple Syndication of Rich Site Summary, is een type webfeed die gebruikers en applicaties in staat stelt om regelmatige updates van een website of blog naar keuze te ontvangen. RSS-feeds stellen uitgevers in staat om gegevens automatisch te syndiceren, zodat gebruikers updates van hun favoriete sites kunnen volgen zonder elke site afzonderlijk te hoeven bezoeken.</p><p>Bijvoorbeeld, als een gebruiker zich abonneert op de RSS-feed van een nieuwssite, kan hij updates ontvangen in een feedreader of e-mailapplicatie telkens wanneer er een nieuw artikel wordt gepubliceerd. De feed bevat meestal samenvattingen van de inhoud of de volledige tekst en maakt de gegevens draagbaar over programma's en diensten. Gebruikers kunnen zich abonneren op RSS-feedreader-software die periodiek de geabonneerde feeds controleert op nieuwe inhoud en eventuele updates downloadt.</p><p>RSS-feeds zijn nuttig voor gebruikers die tijdige updates van meerdere bronnen in een geconsolideerd overzicht willen ontvangen. Voor uitgevers is RSS een hulpmiddel dat hen in staat stelt om het bereik en de frequentie van interactie met hun publiek te vergroten zonder te vertrouwen op bezoekers die handmatig naar de site terugkeren.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è un feed RSS?",
+                        "text": "<p>Il feed RSS, acronimo di Really Simple Syndication o Rich Site Summary, è un tipo di feed web che permette agli utenti e alle applicazioni di ricevere aggiornamenti regolari da un sito web o blog a loro scelta. I feed RSS consentono agli editori di sindacare automaticamente i dati in modo che gli utenti possano seguire gli aggiornamenti dai loro siti preferiti senza dover visitare ogni sito individualmente.</p><p>Ad esempio, se un utente si iscrive al feed RSS di un sito di notizie, può ricevere aggiornamenti in un lettore di feed o in un'applicazione di posta elettronica ogni volta che viene pubblicato un nuovo articolo. Il feed contiene generalmente riassunti del contenuto o il testo completo e rende i dati portabili tra programmi e servizi. Gli utenti possono iscriversi a software di lettura feed RSS che verifica periodicamente i feed sottoscritti per nuovo contenuto e scarica eventuali aggiornamenti trovati.</p><p>I feed RSS sono utili per gli utenti che desiderano ricevere aggiornamenti tempestivi da più fonti in una vista consolidata. Per gli editori, RSS è uno strumento che permette di aumentare la portata e la frequenza di interazione con il proprio pubblico senza dover contare sui visitatori che ritornano manualmente al sito.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um feed RSS?",
+                        "text": "<p>O feed RSS, que significa Really Simple Syndication ou Resumo de Site Rico, é um tipo de feed da web que permite que usuários e aplicações recebam atualizações regulares de um site ou blog de sua escolha. Os feeds RSS permitem que os editores sindiquem automaticamente dados para que os usuários possam seguir atualizações de seus sites favoritos sem ter que visitar cada site individualmente.</p><p>Por exemplo, se um usuário se inscreve no feed RSS de um site de notícias, ele pode receber atualizações em um leitor de feed ou aplicativo de email cada vez que um novo artigo é publicado. O feed geralmente contém resumos do conteúdo ou o texto completo e torna os dados portáteis entre programas e serviços. Os usuários podem se inscrever em softwares leitores de feed RSS que verificam periodicamente os feeds assinados para novo conteúdo e baixam quaisquer atualizações encontradas.</p><p>Os feeds RSS são úteis para usuários que desejam receber atualizações oportunas de múltiplas fontes em uma visão consolidada. Para os editores, o RSS é uma ferramenta que lhes permite aumentar o alcance e a frequência de interação com seu público sem depender de visitantes que retornam manualmente ao site.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "RSSフィードとは何ですか？",
+                        "text": "<p>RSSフィード（Really Simple SyndicationまたはRich Site Summaryの略）は、ユーザーやアプリケーションが選択したウェブサイトやブログから定期的な更新を受け取ることができるWebフィードの一種です。RSSフィードにより、パブリッシャーはデータを自動的に配信することができるため、ユーザーは各サイトを個別に訪れることなく、お気に入りのサイトの更新を追うことができます。</p><p>たとえば、ユーザーがニュースサイトのRSSフィードに登録した場合、新しい記事が公開されるたびにフィードリーダーやメールアプリケーションで更新を受け取ることができます。フィードには通常、コンテンツの要約または全文が含まれ、プログラムやサービス間でデータを移動できます。ユーザーはRSSフィードリーダーソフトウェアに登録して、定期的に購読しているフィードの新しいコンテンツをチェックし、見つかった更新をダウンロードすることができます。</p><p>RSSフィードは、複数のソースからのタイムリーな更新を一元化されたビューで受け取りたいユーザーにとって有用です。パブリッシャーにとっては、訪問者が手動でサイトに戻ることに頼ることなく、観客とのリーチと交流の頻度を増やすことができるツールです。</p>"
                     }
                 }
             },
