@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/segmentation"
+        "en": "/glossary/segmentation",
+        "de": "/de/glossary/segmentation",
+        "es": "/es/glossary/segmentation",
+        "fr": "/fr/glossary/segmentation",
+        "nl": "/nl/glossary/segmentation",
+        "it": "/it/glossary/segmentation",
+        "pt": "/pt/glossary/segmentation",
+        "ja": "/ja/glossary/segmentation"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Segmentation – Pirsch Analytics",
                         "meta_description": "The process of dividing a target audience into smaller, more homogeneous groups based on shared characteristics or behaviors."
+                    },
+                    "de": {
+                        "title": "Segmentierung – Pirsch Analytics",
+                        "meta_description": "Der Prozess der Aufteilung einer Zielgruppe in kleinere, homogenere Gruppen basierend auf gemeinsamen Merkmalen oder Verhaltensweisen."
+                    },
+                    "es": {
+                        "title": "Segmentación – Pirsch Analytics",
+                        "meta_description": "El proceso de dividir una audiencia objetivo en grupos más pequeños y homogéneos basados en características o comportamientos compartidos."
+                    },
+                    "fr": {
+                        "title": "Segmentation – Pirsch Analytics",
+                        "meta_description": "Le processus de division d'une audience cible en groupes plus petits et plus homogènes basés sur des caractéristiques ou des comportements partagés."
+                    },
+                    "nl": {
+                        "title": "Segmentatie – Pirsch Analytics",
+                        "meta_description": "Het proces van het verdelen van een doelgroep in kleinere, homogenere groepen op basis van gedeelde kenmerken of gedragingen."
+                    },
+                    "it": {
+                        "title": "Segmentazione – Pirsch Analytics",
+                        "meta_description": "Il processo di divisione di un pubblico target in gruppi più piccoli e omogenei basati su caratteristiche o comportamenti condivisi."
+                    },
+                    "pt": {
+                        "title": "Segmentação – Pirsch Analytics",
+                        "meta_description": "O processo de dividir um público-alvo em grupos menores e mais homogêneos baseados em características ou comportamentos compartilhados."
+                    },
+                    "ja": {
+                        "title": "セグメンテーション – Pirsch Analytics",
+                        "meta_description": "ターゲットオーディエンスを共有された特徴や行動に基づいて、より小さく均質なグループに分けるプロセス。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Segmentation?",
                         "text": "<p>Segmentation in web analytics is the process of dividing website visitors into smaller groups based on defined criteria such as demographics, behavior, or source of traffic. This allows marketers and analysts to target specific audiences and tailor strategies to the needs of different user segments. Effective segmentation improves personalization, optimizes resource allocation, and increases overall marketing efficiency.</p><p>For example, a Web site could segment its users by geographic <a href=\"/glossary/location\">location</a>, such as visitors from Europe versus visitors from North America. Each segment might have different preferences or legal requirements that affect the localization of content and advertising strategies. Alternatively, segmentation may be based on user behavior, such as new visitors versus returning visitors, which could help in crafting differentiated messaging to effectively target each group.</p><p>Tools such as Pirsch Analytics allow traffic data to be segmented so that users can analyze patterns and trends within specific groups, providing deeper insight into how different segments interact with the site and facilitating more targeted and effective marketing efforts.</p><p>Segmentation may also be based on user behavior, such as new visitors versus returning visitors, which could help in crafting differentiated messaging to effectively target each group.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist Segmentierung?",
+                        "text": "<p>Segmentierung in der Webanalyse ist der Prozess der Einteilung von Website-Besuchern in kleinere Gruppen basierend auf definierten Kriterien wie Demografie, Verhalten oder Herkunft des Traffics. Dies ermöglicht es Marketern und Analysten, spezifische Zielgruppen anzusprechen und Strategien an die Bedürfnisse verschiedener Benutzersegmente anzupassen. Effektive Segmentierung verbessert die Personalisierung, optimiert die Ressourcenzuweisung und steigert die Gesamteffizienz des Marketings.</p><p>Beispielsweise könnte eine Website ihre Benutzer nach geografischem <a href=\"/de/glossary/location\">Standort</a> segmentieren, wie Besucher aus Europa im Vergleich zu Besuchern aus Nordamerika. Jedes Segment könnte unterschiedliche Präferenzen oder rechtliche Anforderungen haben, die die Lokalisierung von Inhalten und Werbestrategien beeinflussen. Alternativ könnte die Segmentierung auf Benutzerverhalten basieren, wie neue Besucher im Vergleich zu wiederkehrenden Besuchern, was bei der Erstellung differenzierter Nachrichten helfen könnte, um jede Gruppe effektiv anzusprechen.</p><p>Tools wie Pirsch Analytics ermöglichen es, Traffikdaten zu segmentieren, sodass Benutzer Muster und Trends innerhalb spezifischer Gruppen analysieren können, was tiefere Einblicke in die Interaktion unterschiedlicher Segmente mit der Website bietet und gezieltere und effektivere Marketinganstrengungen ermöglicht.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es la Segmentación?",
+                        "text": "<p>La segmentación en analítica web es el proceso de dividir a los visitantes de un sitio web en grupos más pequeños basados en criterios definidos como demografía, comportamiento o fuente de tráfico. Esto permite a los mercadólogos y analistas dirigirse a audiencias específicas y adaptar estrategias a las necesidades de diferentes segmentos de usuarios. La segmentación efectiva mejora la personalización, optimiza la asignación de recursos y aumenta la eficiencia general del marketing.</p><p>Por ejemplo, un sitio web podría segmentar a sus usuarios por <a href=\"/es/glossary/location\">ubicación geográfica</a>, como visitantes de Europa frente a visitantes de América del Norte. Cada segmento podría tener diferentes preferencias o requisitos legales que afectan la localización de contenido y estrategias publicitarias. Alternativamente, la segmentación puede basarse en el comportamiento del usuario, como nuevos visitantes frente a visitantes recurrentes, lo que podría ayudar en la elaboración de mensajes diferenciados para dirigirse efectivamente a cada grupo.</p><p>Herramientas como Pirsch Analytics permiten segmentar datos de tráfico para que los usuarios puedan analizar patrones y tendencias dentro de grupos específicos, proporcionando una visión más profunda de cómo diferentes segmentos interactúan con el sitio y facilitando esfuerzos de marketing más dirigidos y efectivos.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que la Segmentation?",
+                        "text": "<p>La segmentation dans l'analytique web est le processus de division des visiteurs d'un site web en groupes plus petits basés sur des critères définis tels que la démographie, le comportement ou la source du trafic. Cela permet aux marketeurs et aux analystes de cibler des audiences spécifiques et d'adapter les stratégies aux besoins des différents segments d'utilisateurs. Une segmentation efficace améliore la personnalisation, optimise l'allocation des ressources et augmente l'efficacité globale du marketing.</p><p>Par exemple, un site web pourrait segmenter ses utilisateurs par <a href=\"/fr/glossary/location\">localisation géographique</a>, tels que les visiteurs de l'Europe par rapport aux visiteurs de l'Amérique du Nord. Chaque segment pourrait avoir des préférences ou des exigences légales différentes qui affectent la localisation du contenu et les stratégies publicitaires. Alternativement, la segmentation peut être basée sur le comportement des utilisateurs, comme les nouveaux visiteurs par rapport aux visiteurs récurrents, ce qui pourrait aider à élaborer des messages différenciés pour cibler efficacement chaque groupe.</p><p>Des outils tels que Pirsch Analytics permettent de segmenter les données de trafic afin que les utilisateurs puissent analyser les modèles et les tendances au sein de groupes spécifiques, fournissant ainsi une meilleure compréhension de la façon dont différents segments interagissent avec le site et facilitant des efforts de marketing plus ciblés et efficaces.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat is Segmentatie?",
+                        "text": "<p>Segmentatie in webanalyse is het proces van het verdelen van websitebezoekers in kleinere groepen op basis van gedefinieerde criteria zoals demografie, gedrag of verkeersbron. Dit stelt marketeers en analisten in staat om specifieke doelgroepen aan te spreken en strategieën aan te passen aan de behoeften van verschillende gebruikerssegmenten. Effectieve segmentatie verbetert de personalisatie, optimaliseert de toewijzing van middelen en verhoogt de algehele marketingefficiëntie.</p><p>Bijvoorbeeld, een website zou zijn gebruikers kunnen segmenteren op geografische <a href=\"/nl/glossary/location\">locatie</a>, zoals bezoekers uit Europa versus bezoekers uit Noord-Amerika. Elk segment kan verschillende voorkeuren of wettelijke vereisten hebben die van invloed zijn op de lokalisatie van inhoud en advertentiestrategieën. Alternatief kan segmentatie gebaseerd zijn op gebruikersgedrag, zoals nieuwe bezoekers versus terugkerende bezoekers, wat kan helpen bij het creëren van gedifferentieerde berichtgeving om effectief elk groep aan te spreken.</p><p>Tools zoals Pirsch Analytics stellen gebruikers in staat om verkeersgegevens te segmenteren, zodat ze patronen en trends binnen specifieke groepen kunnen analyseren, wat dieper inzicht geeft in hoe verschillende segmenten met de site interageren en effectievere en gerichte marketinginspanningen mogelijk maakt.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è la Segmentazione?",
+                        "text": "<p>La segmentazione nell'analisi web è il processo di divisione dei visitatori di un sito web in gruppi più piccoli basati su criteri definiti come demografia, comportamento o fonte di traffico. Questo permette ai marketer e agli analisti di rivolgersi a pubblici specifici e personalizzare le strategie in base alle esigenze dei diversi segmenti di utenti. Una segmentazione efficace migliora la personalizzazione, ottimizza l'allocazione delle risorse e aumenta l'efficienza complessiva del marketing.</p><p>Ad esempio, un sito web potrebbe segmentare i suoi utenti in base alla <a href=\"/it/glossary/location\">località geografica</a>, come i visitatori dall'Europa rispetto ai visitatori dal Nord America. Ogni segmento potrebbe avere preferenze o requisiti legali diversi che influenzano la localizzazione dei contenuti e le strategie pubblicitarie. In alternativa, la segmentazione può essere basata sul comportamento degli utenti, come i visitatori nuovi rispetto ai visitatori che ritornano, il che potrebbe aiutare a formulare messaggi differenziati per raggiungere efficacemente ogni gruppo.</p><p>Strumenti come Pirsch Analytics permettono di segmentare i dati del traffico in modo che gli utenti possano analizzare modelli e tendenze all'interno di gruppi specifici, fornendo intuizioni più profonde su come i diversi segmenti interagiscono con il sito e facilitando sforzi di marketing più mirati ed efficaci.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Segmentação?",
+                        "text": "<p>Segmentação em análise web é o processo de dividir os visitantes de um site em grupos menores com base em critérios definidos como demografia, comportamento ou fonte de tráfego. Isso permite que os profissionais de marketing e analistas direcionem públicos específicos e ajustem estratégias para atender às necessidades dos diferentes segmentos de usuários. A segmentação eficaz melhora a personalização, otimiza a alocação de recursos e aumenta a eficiência geral do marketing.</p><p>Por exemplo, um site pode segmentar seus usuários por <a href=\"/pt/glossary/location\">localização geográfica</a>, como visitantes da Europa versus visitantes da América do Norte. Cada segmento pode ter preferências ou requisitos legais diferentes que afetam a localização do conteúdo e as estratégias de publicidade. Alternativamente, a segmentação pode ser baseada no comportamento do usuário, como novos visitantes versus visitantes recorrentes, o que poderia ajudar na elaboração de mensagens diferenciadas para atingir efetivamente cada grupo.</p><p>Ferramentas como o Pirsch Analytics permitem que os dados de tráfego sejam segmentados para que os usuários possam analisar padrões e tendências dentro de grupos específicos, proporcionando um insight mais profundo sobre como diferentes segmentos interagem com o site e facilitando esforços de marketing mais direcionados e eficazes.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "セグメンテーションとは何ですか？",
+                        "text": "<p>ウェブ分析におけるセグメンテーションは、人口統計、行動、またはトラフィックの源に基づいて定義された基準に基づいて、ウェブサイトの訪問者をより小さなグループに分けるプロセスです。これにより、マーケターやアナリストは特定のオーディエンスにターゲットを絞り、異なるユーザーセグメントのニーズに合わせた戦略を調整することができます。効果的なセグメンテーションはパーソナライゼーションを改善し、リソースの割り当てを最適化し、全体的なマーケティングの効率を高めます。</p><p>たとえば、ウェブサイトは、ヨーロッパの訪問者と北アメリカの訪問者という地理的な<a href=\"/ja/glossary/location\">位置</a>に基づいてユーザーをセグメント化することができます。各セグメントは、コンテンツのローカライゼーションや広告戦略に影響を与える異なる好みや法的要件を持つかもしれません。また、セグメンテーションはユーザーの行動に基づいている場合があり、例えば新規訪問者とリピート訪問者を区別することで、各グループを効果的にターゲットにするための差別化されたメッセージングを作成するのに役立ちます。</p><p>Pirsch Analyticsのようなツールを使用すると、ユーザーは特定のグループ内のパターンや傾向を分析でき、異なるセグメントがサイトとどのように相互作用するかについてのより深い洞察を提供し、よりターゲットを絞った効果的なマーケティング努力を促進します。</p>"
                     }
                 }
             },

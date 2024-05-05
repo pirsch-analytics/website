@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/robots-txt"
+        "en": "/glossary/robots-txt",
+        "de": "/de/glossary/robots-txt",
+        "es": "/es/glossary/robots-txt",
+        "fr": "/fr/glossary/robots-txt",
+        "nl": "/nl/glossary/robots-txt",
+        "it": "/it/glossary/robots-txt",
+        "pt": "/pt/glossary/robots-txt",
+        "ja": "/ja/glossary/robots-txt"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Robots.txt – Pirsch Analytics",
                         "meta_description": "A text file placed in the root directory of a website to instruct web crawlers which pages or files they can or cannot request from the site."
+                    },
+                    "de": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Eine Textdatei im Stammverzeichnis einer Website, die Web-Crawlern Anweisungen gibt, welche Seiten oder Dateien sie anfordern dürfen oder nicht."
+                    },
+                    "es": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Un archivo de texto colocado en el directorio raíz de un sitio web para instruir a los rastreadores web sobre qué páginas o archivos pueden o no solicitar del sitio."
+                    },
+                    "fr": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Un fichier texte placé dans le répertoire racine d'un site web pour indiquer aux robots d'indexation quelles pages ou quels fichiers ils peuvent ou ne peuvent pas demander sur le site."
+                    },
+                    "nl": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Een tekstbestand geplaatst in de rootdirectory van een website om webcrawlers te instrueren welke pagina's of bestanden ze wel of niet mogen opvragen van de site."
+                    },
+                    "it": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Un file di testo posizionato nella directory radice di un sito web per istruire i crawler web su quali pagine o file possono o non possono richiedere dal sito."
+                    },
+                    "pt": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "Um arquivo de texto colocado no diretório raiz de um site para instruir os crawlers da web sobre quais páginas ou arquivos eles podem ou não solicitar do site."
+                    },
+                    "ja": {
+                        "title": "Robots.txt – Pirsch Analytics",
+                        "meta_description": "ウェブサイトのルートディレクトリに配置されるテキストファイルで、ウェブクローラーがサイトからリクエストできる、またはできないページやファイルを指示します。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Robots.txt?",
                         "text": "<p>Robots.txt is a text file that webmasters create to tell web robots (usually search engine robots) how to crawl the pages of their website. The file is placed in the root directory of the site to control which parts of the site the robots can access and crawl. Robots.txt is part of the Robots Exclusion Protocol (REP), a group of web standards that govern how robots crawl the web, access and index content, and serve it to users.</p><p>For example, if a website owner does not want a search engine to index a particular directory on his website, he can use the robots.txt file to deny all robots access to files in that directory. The syntax is simple and allows directives like \"Disallow\", which prohibits a robot from accessing a certain part of the website. Conversely, you can use \"Allow\" to specify what is allowed. While most compliant robots will follow the guidelines in a robots.txt file, this is not a mechanism to exclude malicious bots, as the file can be ignored by malware and other non-compliant entities.</p><p>Effective use of robots.txt can help control website traffic, reduce the load on web servers, and keep the indexed content of a website as intended by the webmaster.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine Robots.txt?",
+                        "text": "<p>Robots.txt ist eine Textdatei, die Webmaster erstellen, um Web-Robotern (normalerweise Suchmaschinenrobotern) zu erklären, wie sie die Seiten ihrer Website durchsuchen sollen. Die Datei wird im Stammverzeichnis der Website platziert, um zu steuern, welche Teile der Website die Roboter zugreifen und durchsuchen können. Robots.txt ist Teil des Robots Exclusion Protocol (REP), einer Gruppe von Webstandards, die regeln, wie Roboter das Web durchsuchen, Inhalte zugreifen und indizieren und diese den Benutzern bereitstellen.</p><p>Zum Beispiel, wenn ein Website-Betreiber nicht möchte, dass eine Suchmaschine ein bestimmtes Verzeichnis auf seiner Website indiziert, kann er die Robots.txt-Datei verwenden, um allen Robotern den Zugriff auf Dateien in diesem Verzeichnis zu verweigern. Die Syntax ist einfach und ermöglicht Direktiven wie \"Disallow\", die einem Roboter den Zugriff auf bestimmte Teile der Website verbietet. Umgekehrt können Sie \"Allow\" verwenden, um anzugeben, was erlaubt ist. Obwohl die meisten konformen Roboter den Richtlinien in einer Robots.txt-Datei folgen werden, ist dies kein Mechanismus, um bösartige Bots auszuschließen, da die Datei von Malware und anderen nicht konformen Entitäten ignoriert werden kann.</p><p>Die effektive Nutzung von Robots.txt kann helfen, den Website-Traffic zu kontrollieren, die Belastung der Webserver zu reduzieren und den indizierten Inhalt einer Website so zu halten, wie es der Webmaster beabsichtigt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es un archivo Robots.txt?",
+                        "text": "<p>Robots.txt es un archivo de texto que los webmasters crean para indicar a los robots web (generalmente robots de motores de búsqueda) cómo deben rastrear las páginas de su sitio web. El archivo se coloca en el directorio raíz del sitio para controlar a qué partes del sitio pueden acceder y rastrear los robots. Robots.txt es parte del Protocolo de Exclusión de Robots (REP), un grupo de estándares web que regulan cómo los robots rastrean la web, acceden e indexan contenido, y lo presentan a los usuarios.</p><p>Por ejemplo, si un propietario de un sitio web no desea que un motor de búsqueda indexe un directorio particular en su sitio web, puede usar el archivo robots.txt para negar el acceso a todos los robots a los archivos en ese directorio. La sintaxis es simple y permite directivas como \"Disallow\", que prohíbe a un robot acceder a ciertas partes del sitio web. De forma inversa, se puede usar \"Allow\" para especificar lo que está permitido. Aunque la mayoría de los robots conformes seguirán las directrices en un archivo robots.txt, este no es un mecanismo para excluir bots maliciosos, ya que el archivo puede ser ignorado por malware y otras entidades no conformes.</p><p>El uso efectivo de robots.txt puede ayudar a controlar el tráfico del sitio web, reducir la carga en los servidores web y mantener el contenido indexado de un sitio web como lo pretende el webmaster.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un fichier Robots.txt ?",
+                        "text": "<p>Le fichier Robots.txt est un fichier texte que les webmasters créent pour indiquer aux robots web (généralement des robots des moteurs de recherche) comment explorer les pages de leur site web. Le fichier est placé dans le répertoire racine du site pour contrôler les parties du site auxquelles les robots peuvent accéder et explorer. Robots.txt fait partie du Protocole d'Exclusion des Robots (REP), un groupe de normes web qui régulent la manière dont les robots explorent le web, accèdent et indexent le contenu, et le présentent aux utilisateurs.</p><p>Par exemple, si un propriétaire de site ne souhaite pas qu'un moteur de recherche indexe un répertoire particulier sur son site, il peut utiliser le fichier robots.txt pour interdire à tous les robots l'accès aux fichiers de ce répertoire. La syntaxe est simple et permet des directives comme \"Disallow\", qui interdit à un robot d'accéder à certaines parties du site. Inversement, vous pouvez utiliser \"Allow\" pour spécifier ce qui est permis. Bien que la plupart des robots conformes suivront les lignes directrices d'un fichier robots.txt, ce n'est pas un mécanisme pour exclure les bots malveillants, car le fichier peut être ignoré par des malwares et d'autres entités non conformes.</p><p>L'utilisation efficace de robots.txt peut aider à contrôler le trafic du site web, à réduire la charge sur les serveurs web et à maintenir le contenu indexé d'un site web tel que le souhaite le webmaster.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat is een Robots.txt?",
+                        "text": "<p>Robots.txt is een tekstbestand dat webmasters creëren om webrobots (meestal zoekmachinerobots) te vertellen hoe ze de pagina's van hun website moeten doorzoeken. Het bestand wordt geplaatst in de root-directory van de site om te beheersen welke delen van de site de robots kunnen openen en doorzoeken. Robots.txt maakt deel uit van het Robots Exclusion Protocol (REP), een groep webstandaarden die regelen hoe robots het web doorzoeken, toegang krijgen tot en inhoud indexeren, en deze aan gebruikers presenteren.</p><p>Bijvoorbeeld, als een website-eigenaar niet wil dat een zoekmachine een bepaalde directory op zijn website indexeert, kan hij het robots.txt-bestand gebruiken om alle robots de toegang tot bestanden in die directory te ontzeggen. De syntax is eenvoudig en maakt richtlijnen mogelijk zoals \"Disallow\", die een robot verbiedt toegang te krijgen tot bepaalde delen van de website. Omgekeerd, kunt u \"Allow\" gebruiken om aan te geven wat is toegestaan. Hoewel de meeste conforme robots de richtlijnen in een robots.txt-bestand zullen volgen, is dit geen mechanisme om kwaadaardige bots uit te sluiten, aangezien het bestand genegeerd kan worden door malware en andere niet-conforme entiteiten.</p><p>Effectief gebruik van robots.txt kan helpen om het websiteverkeer te controleren, de belasting van webse..."
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è un file Robots.txt?",
+                        "text": "<p>Il file Robots.txt è un file di testo che i webmaster creano per dire ai robot web (solitamente i robot dei motori di ricerca) come esplorare le pagine del loro sito web. Il file viene posizionato nella directory radice del sito per controllare quali parti del sito i robot possono accedere ed esplorare. Robots.txt fa parte del Protocollo di Esclusione dei Robot (REP), un gruppo di standard web che governano come i robot esplorano il web, accedono e indicizzano i contenuti, e li presentano agli utenti.</p><p>Ad esempio, se un proprietario di un sito web non desidera che un motore di ricerca indicizzi una particolare directory del suo sito web, può utilizzare il file robots.txt per negare a tutti i robot l'accesso ai file in quella directory. La sintassi è semplice e permette direttive come \"Disallow\", che proibisce a un robot di accedere a certe parti del sito web. Al contrario, si può usare \"Allow\" per specificare cosa è permesso. Sebbene la maggior parte dei robot conformi seguirà le linee guida in un file robots.txt, questo non è un meccanismo per escludere i bot malintenzionati, poiché il file può essere ignorato da malware e altre entità non conformi.</p><p>L'uso efficace di robots.txt può aiutare a controllare il traffico del sito web, ridurre il carico sui server web e mantenere il contenuto indicizzato di un sito web come inteso dal webmaster.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um arquivo Robots.txt?",
+                        "text": "<p>Robots.txt é um arquivo de texto que os webmasters criam para dizer aos robôs da web (geralmente robôs de motores de busca) como rastrear as páginas de seus sites. O arquivo é colocado no diretório raiz do site para controlar quais partes do site os robôs podem acessar e rastrear. Robots.txt faz parte do Protocolo de Exclusão de Robôs (REP), um grupo de padrões da web que regula como os robôs rastreiam a web, acessam e indexam conteúdo, e o apresentam aos usuários.</p><p>Por exemplo, se um proprietário de site não quiser que um motor de busca indexe um diretório específico em seu site, ele pode usar o arquivo robots.txt para negar a todos os robôs o acesso aos arquivos nesse diretório. A sintaxe é simples e permite diretivas como \"Disallow\", que proíbe um robô de acessar certas partes do site. Inversamente, você pode usar \"Allow\" para especificar o que é permitido. Embora a maioria dos robôs conformes siga as diretrizes em um arquivo robots.txt, esse não é um mecanismo para excluir bots maliciosos, já que o arquivo pode ser ignorado por malware e outras entidades não conformes.</p><p>O uso eficaz de robots.txt pode ajudar a controlar o tráfego do site, reduzir a carga nos servidores web e manter o conteúdo indexado de um site como pretendido pelo webmaster.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "robots.txtとは何ですか？",
+                        "text": "<p>robots.txtは、ウェブマスターがウェブロボット（通常は検索エンジンのロボット）に自分のウェブサイトのページをどのようにクロールするかを指示するために作成するテキストファイルです。このファイルはサイトのルートディレクトリに配置され、ロボットがアクセスしてクロールできるサイトの部分を制御します。robots.txtは、ロボットがウェブをクロールし、コンテンツにアクセスしてインデックスを付け、それをユーザーに提供する方法を規制する一連のウェブ標準であるロボット除外プロトコル（REP）の一部です。</p><p>たとえば、ウェブサイトの所有者が自分のウェブサイトの特定のディレクトリを検索エンジンにインデックスさせたくない場合、robots.txtファイルを使用して、そのディレクトリ内のファイルへのすべてのロボットのアクセスを拒否することができます。構文はシンプルで、「Disallow」などのディレクティブを許可し、ロボットがウェブサイトの特定の部分にアクセスするのを禁止します。逆に、「Allow」を使用して許可されている内容を指定することもできます。ほとんどの準拠ロボットはrobots.txtファイルのガイドラインに従いますが、このファイルは悪意のあるボットを排除するメカニズムではなく、マルウェアやその他の非準拠エンティティによって無視される可能性があります。</p><p>robots.txtの効果的な使用は、ウェブサイトのトラフィックを制御し、ウェブサーバーの負荷を軽減し、ウェブマスターの意図したとおりにウェブサイトのインデックス付けされたコンテンツを維持するのに役立ちます。</p>"
                     }
                 }
             },

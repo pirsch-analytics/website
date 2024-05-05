@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/sensitive-data"
+        "en": "/glossary/sensitive-data",
+        "de": "/de/glossary/sensitive-data",
+        "es": "/es/glossary/sensitive-data",
+        "fr": "/fr/glossary/sensitive-data",
+        "nl": "/nl/glossary/sensitive-data",
+        "it": "/it/glossary/sensitive-data",
+        "pt": "/pt/glossary/sensitive-data",
+        "ja": "/ja/glossary/sensitive-data"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Sensitive Data – Pirsch Analytics",
                         "meta_description": "Any data that, if compromised, could cause harm to an individual or organization, such as financial information or medical records."
+                    },
+                    "de": {
+                        "title": "Sensible Daten – Pirsch Analytics",
+                        "meta_description": "Daten, deren Kompromittierung Schaden für eine Einzelperson oder eine Organisation verursachen könnte, wie finanzielle Informationen oder medizinische Aufzeichnungen."
+                    },
+                    "es": {
+                        "title": "Datos Sensibles – Pirsch Analytics",
+                        "meta_description": "Cualquier dato que, si se ve comprometido, podría causar daño a un individuo u organización, como información financiera o registros médicos."
+                    },
+                    "fr": {
+                        "title": "Données Sensibles – Pirsch Analytics",
+                        "meta_description": "Toutes données qui, en cas de compromission, pourraient nuire à un individu ou à une organisation, telles que les informations financières ou les dossiers médicaux."
+                    },
+                    "nl": {
+                        "title": "Gevoelige Gegevens – Pirsch Analytics",
+                        "meta_description": "Elke gegevens die, indien gecompromitteerd, schade kunnen veroorzaken aan een individu of organisatie, zoals financiële informatie of medische dossiers."
+                    },
+                    "it": {
+                        "title": "Dati Sensibili – Pirsch Analytics",
+                        "meta_description": "Qualsiasi dato che, se compromesso, potrebbe causare danni a un individuo o un'organizzazione, come informazioni finanziarie o registri medici."
+                    },
+                    "pt": {
+                        "title": "Dados Sensíveis – Pirsch Analytics",
+                        "meta_description": "Qualquer dado que, se comprometido, poderia causar dano a um indivíduo ou organização, como informações financeiras ou registros médicos."
+                    },
+                    "ja": {
+                        "title": "機密データ – Pirsch Analytics",
+                        "meta_description": "金融情報や医療記録など、侵害されると個人または組織に害を与える可能性のある任意のデータ。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Sensitive Data?",
                         "text": "<p>Sensitive data is information that must be protected because of its confidential nature and that could cause significant damage, embarrassment, inconvenience or injustice to a person if it were disclosed, modified or destroyed without authorization. In the context of web analytics and data protection, sensitive data also includes <a href=\"/glossary/personal-data\">personal information</a> that can be used to discriminate against or otherwise adversely affect an individual, such as information about health, racial or ethnic origin, political opinions, religious beliefs or sexual orientation.</p><p>If, for example, a health care provider collects information about the medical history of its patients, that information is considered sensitive because it contains personal health information. Such data requires a higher level of protection under privacy laws such as the <a href=\"/glossary/gdpr\">GDPR</a>, which requires special safeguards to protect the privacy and security of sensitive data. These safeguards may include data encryption, strict access controls, and the need to obtain the explicit consent of individuals before their sensitive data is collected or processed.</p><p>The careful handling of sensitive data is critical not only for compliance with legal requirements, but also for maintaining the trust and integrity of the relationships that companies and organizations have with their customers or users.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was sind sensible Daten?",
+                        "text": "<p>Sensible Daten sind Informationen, die aufgrund ihrer vertraulichen Natur geschützt werden müssen und die erheblichen Schaden, Peinlichkeit, Unannehmlichkeiten oder Ungerechtigkeit für eine Person verursachen könnten, wenn sie ohne Autorisierung offengelegt, geändert oder zerstört werden. Im Kontext der Webanalyse und des Datenschutzes umfassen sensible Daten auch <a href=\"/de/glossary/personal-data\">personenbezogene Informationen</a>, die verwendet werden können, um gegen eine Person zu diskriminieren oder ihr anderweitig nachteilig zu wirken, wie Informationen über Gesundheit, rassische oder ethnische Herkunft, politische Meinungen, religiöse Überzeugungen oder sexuelle Orientierung.</p><p>Wenn beispielsweise ein Gesundheitsdienstleister Informationen über die medizinische Vorgeschichte seiner Patienten sammelt, gelten diese Informationen als sensibel, da sie persönliche Gesundheitsinformationen enthalten. Solche Daten erfordern ein höheres Schutzniveau gemäß Datenschutzgesetzen wie der <a href=\"/de/glossary/gdpr\">DSGVO</a>, die besondere Sicherheitsmaßnahmen zum Schutz der Privatsphäre und Sicherheit sensibler Daten vorschreibt. Diese Schutzmaßnahmen können Datenverschlüsselung, strenge Zugriffskontrollen und die Notwendigkeit umfassen, die ausdrückliche Zustimmung von Personen einzuholen, bevor ihre sensiblen Daten gesammelt oder verarbeitet werden.</p><p>Der sorgfältige Umgang mit sensiblen Daten ist nicht nur für die Einhaltung gesetzlicher Anforderungen entscheidend, sondern auch für die Aufrechterhaltung des Vertrauens und der Integrität der Beziehungen, die Unternehmen und Organisationen mit ihren Kunden oder Nutzern haben.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué son los Datos Sensibles?",
+                        "text": "<p>Los datos sensibles son información que debe ser protegida debido a su naturaleza confidencial y que podría causar un daño significativo, vergüenza, inconveniencia o injusticia a una persona si se revela, modifica o destruye sin autorización. En el contexto de la analítica web y la protección de datos, los datos sensibles también incluyen <a href=\"/es/glossary/personal-data\">información personal</a> que puede ser utilizada para discriminar o afectar negativamente a un individuo, como información sobre salud, origen racial o étnico, opiniones políticas, creencias religiosas o orientación sexual.</p><p>Si, por ejemplo, un proveedor de atención médica recopila información sobre el historial médico de sus pacientes, esa información se considera sensible porque contiene información personal de salud. Tales datos requieren un nivel más alto de protección bajo leyes de privacidad como el <a href=\"/es/glossary/gdpr\">GDPR</a>, que requiere salvaguardias especiales para proteger la privacidad y seguridad de los datos sensibles. Estas salvaguardias pueden incluir cifrado de datos, controles de acceso estrictos y la necesidad de obtener el consentimiento explícito de las personas antes de que se recojan o procesen sus datos sensibles.</p><p>El manejo cuidadoso de los datos sensibles es crítico no solo para cumplir con los requisitos legales, sino también para mantener la confianza y la integridad de las relaciones que las compañías y organizaciones tienen con sus clientes o usuarios.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que les Données Sensibles?",
+                        "text": "<p>Les données sensibles sont des informations qui doivent être protégées en raison de leur nature confidentielle et qui pourraient causer un dommage significatif, un embarras, un inconvénient ou une injustice à une personne si elles étaient divulguées, modifiées ou détruites sans autorisation. Dans le contexte de l'analyse web et de la protection des données, les données sensibles incluent également <a href=\"/fr/glossary/personal-data\">les informations personnelles</a> qui peuvent être utilisées pour discriminer ou affecter négativement un individu, telles que des informations sur la santé, l'origine raciale ou ethnique, les opinions politiques, les croyances religieuses ou l'orientation sexuelle.</p><p>Si, par exemple, un prestataire de soins de santé collecte des informations sur l'historique médical de ses patients, ces informations sont considérées comme sensibles car elles contiennent des informations personnelles sur la santé. Ces données nécessitent un niveau de protection plus élevé en vertu des lois sur la vie privée telles que le <a href=\"/fr/glossary/gdpr\">RGPD</a>, qui exige des mesures de protection spéciales pour préserver la confidentialité et la sécurité des données sensibles. Ces mesures peuvent inclure le chiffrement des données, des contrôles d'accès stricts et la nécessité d'obtenir le consentement explicite des individus avant que leurs données sensibles ne soient collectées ou traitées.</p><p>La manipulation soigneuse des données sensibles est critique non seulement pour se conformer aux exigences légales, mais aussi pour maintenir la confiance et l'intégrité des relations que les entreprises et les organisations entretiennent avec leurs clients ou utilisateurs.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat zijn Gevoelige Gegevens?",
+                        "text": "<p>Gevoelige gegevens zijn informatie die beschermd moet worden vanwege de vertrouwelijke aard ervan en die aanzienlijke schade, verlegenheid, ongemak of onrecht aan een persoon zou kunnen veroorzaken als het zonder toestemming zou worden onthuld, gewijzigd of vernietigd. In de context van webanalyse en gegevensbescherming omvatten gevoelige gegevens ook <a href=\"/nl/glossary/personal-data\">persoonlijke informatie</a> die gebruikt kan worden om te discrimineren tegen of anderszins nadelig te zijn voor een individu, zoals informatie over gezondheid, raciale of etnische afkomst, politieke meningen, religieuze overtuigingen of seksuele geaardheid.</p><p>Als bijvoorbeeld een zorgverlener informatie verzamelt over de medische geschiedenis van zijn patiënten, wordt die informatie beschouwd als gevoelig omdat het persoonlijke gezondheidsinformatie bevat. Dergelijke gegevens vereisen een hoger niveau van bescherming onder privacywetten zoals de <a href=\"/nl/glossary/gdpr\">AVG</a>, die speciale waarborgen vereist om de privacy en veiligheid van gevoelige gegevens te beschermen. Deze waarborgen kunnen gegevensversleuteling, strikte toegangscontroles en de noodzaak om de expliciete toestemming van individuen te verkrijgen voordat hun gevoelige gegevens worden verzameld of verwerkt omvatten.</p><p>De zorgvuldige omgang met gevoelige gegevens is van cruciaal belang niet alleen voor naleving van wettelijke vereisten, maar ook voor het onderhouden van het vertrouwen en de integriteit van de relaties die bedrijven en organisaties hebben met hun klanten of gebruikers.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cosa sono i Dati Sensibili?",
+                        "text": "<p>I dati sensibili sono informazioni che devono essere protette a causa della loro natura confidenziale e che potrebbero causare danni significativi, imbarazzo, inconvenienti o ingiustizie a una persona se fossero divulgati, modificati o distrutti senza autorizzazione. Nel contesto dell'analisi web e della protezione dei dati, i dati sensibili includono anche <a href=\"/it/glossary/personal-data\">informazioni personali</a> che possono essere utilizzate per discriminare o altrimenti influenzare negativamente un individuo, come informazioni sulla salute, origine razziale o etnica, opinioni politiche, credenze religiose o orientamento sessuale.</p><p>Se, ad esempio, un fornitore di cure sanitarie raccoglie informazioni sulla storia medica dei suoi pazienti, queste informazioni sono considerate sensibili perché contengono informazioni sulla salute personale. Tali dati richiedono un livello più alto di protezione secondo le leggi sulla privacy come il <a href=\"/it/glossary/gdpr\">GDPR</a>, che richiede misure di protezione speciali per proteggere la privacy e la sicurezza dei dati sensibili. Queste misure possono includere la crittografia dei dati, controlli di accesso rigorosi e la necessità di ottenere il consenso esplicito degli individui prima che i loro dati sensibili vengano raccolti o elaborati.</p><p>La gestione attenta dei dati sensibili è critica non solo per conformarsi ai requisiti legali, ma anche per mantenere la fiducia e l'integrità delle relazioni che le aziende e le organizzazioni hanno con i loro clienti o utenti.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que são Dados Sensíveis?",
+                        "text": "<p>Dados sensíveis são informações que devem ser protegidas devido à sua natureza confidencial e que poderiam causar danos significativos, constrangimento, inconveniência ou injustiça a uma pessoa se fossem divulgados, modificados ou destruídos sem autorização. No contexto da análise web e proteção de dados, dados sensíveis também incluem <a href=\"/pt/glossary/personal-data\">informações pessoais</a> que podem ser usadas para discriminar ou afetar negativamente um indivíduo, como informações sobre saúde, origem racial ou étnica, opiniões políticas, crenças religiosas ou orientação sexual.</p><p>Se, por exemplo, um provedor de saúde coleta informações sobre o histórico médico de seus pacientes, essa informação é considerada sensível porque contém informações pessoais de saúde. Tais dados requerem um nível mais alto de proteção sob leis de privacidade como o <a href=\"/pt/glossary/gdpr\">GDPR</a>, que exige salvaguardas especiais para proteger a privacidade e segurança de dados sensíveis. Essas salvaguardas podem incluir criptografia de dados, controles de acesso rigorosos e a necessidade de obter o consentimento explícito dos indivíduos antes que seus dados sensíveis sejam coletados ou processados.</p><p>O manuseio cuidadoso de dados sensíveis é crítico não apenas para cumprir com os requisitos legais, mas também para manter a confiança e integridade das relações que empresas e organizações têm com seus clientes ou usuários.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "機密データとは何ですか？",
+                        "text": "<p>機密データは、その秘匿性のために保護される必要があり、許可なく開示、変更、破壊された場合に個人または組織に重大な損害、恥辱、不便、または不公正をもたらす可能性のある情報です。ウェブ分析およびデータ保護の文脈では、機密データには健康、人種または民族の起源、政治的意見、宗教的信念、性的指向など、個人を差別または不利に扱う可能性のある<a href=\"/ja/glossary/personal-data\">個人情報</a>も含まれます。</p><p>たとえば、医療提供者が患者の医療履歴に関する情報を収集する場合、その情報は個人の健康情報を含むため、機密情報とみなされます。このようなデータは、<a href=\"/ja/glossary/gdpr\">GDPR</a>などのプライバシー法によって高レベルの保護を要求され、機密データのプライバシーとセキュリティを保護するための特別な保護策が必要です。これらの保護策には、データの暗号化、厳格なアクセス制御、および機密データの収集または処理前に個人の明確な同意を得る必要が含まれます。</p><p>機密データの慎重な取り扱いは、法的要件の遵守だけでなく、企業や組織がその顧客やユーザーと持つ関係の信頼と完全性を維持するためにも重要です。</p>"
                     }
                 }
             },

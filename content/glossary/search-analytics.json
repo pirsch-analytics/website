@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/search-analytics"
+        "en": "/glossary/search-analytics",
+        "de": "/de/glossary/search-analytics",
+        "es": "/es/glossary/search-analytics",
+        "fr": "/fr/glossary/search-analytics",
+        "nl": "/nl/glossary/search-analytics",
+        "it": "/it/glossary/search-analytics",
+        "pt": "/pt/glossary/search-analytics",
+        "ja": "/ja/glossary/search-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Search Analytics – Pirsch Analytics",
                         "meta_description": "The analysis of search engine data to identify trends, patterns, and insights related to search queries and user behavior."
+                    },
+                    "de": {
+                        "title": "Suchanalytik – Pirsch Analytics",
+                        "meta_description": "Die Analyse von Suchmaschinendaten zur Identifizierung von Trends, Mustern und Erkenntnissen, die sich auf Suchanfragen und Benutzerverhalten beziehen."
+                    },
+                    "es": {
+                        "title": "Análisis de Búsqueda – Pirsch Analytics",
+                        "meta_description": "El análisis de datos de motores de búsqueda para identificar tendencias, patrones e insights relacionados con consultas de búsqueda y comportamiento del usuario."
+                    },
+                    "fr": {
+                        "title": "Analytique de Recherche – Pirsch Analytics",
+                        "meta_description": "L'analyse des données des moteurs de recherche pour identifier les tendances, les motifs et les insights liés aux requêtes de recherche et au comportement des utilisateurs."
+                    },
+                    "nl": {
+                        "title": "Zoekanalyse – Pirsch Analytics",
+                        "meta_description": "De analyse van zoekmachinegegevens om trends, patronen en inzichten te identificeren die gerelateerd zijn aan zoekopdrachten en gebruikersgedrag."
+                    },
+                    "it": {
+                        "title": "Analisi di Ricerca – Pirsch Analytics",
+                        "meta_description": "L'analisi dei dati dei motori di ricerca per identificare tendenze, modelli e intuizioni relative alle query di ricerca e al comportamento degli utenti."
+                    },
+                    "pt": {
+                        "title": "Análise de Pesquisa – Pirsch Analytics",
+                        "meta_description": "A análise de dados de motores de busca para identificar tendências, padrões e insights relacionados a consultas de pesquisa e comportamento do usuário."
+                    },
+                    "ja": {
+                        "title": "検索分析 – Pirsch Analytics",
+                        "meta_description": "検索クエリとユーザー行動に関連するトレンド、パターン、インサイトを特定するための検索エンジンデータの分析。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Search Analytics?",
                         "text": "<p>Search analytics refers to the analysis of data obtained from searches within a website's own search engine or via search engines such as Google, Bing and others. This area of analysis helps website owners to understand what users are searching for, how often they search and whether they find what they need on the website. For example, if a site's search analytics show that many users are searching for \"vegan recipes\", but the site offers mostly non-vegetarian recipes, the site owner might consider adding more vegan content to meet user demand. In addition, search analytics can show which search terms are the most popular, which can help adjust the site's SEO strategy to increase its visibility in the search engines.</p><p>Tools like Google Analytics offer comprehensive search analytics capabilities that allow webmasters to track not only the frequency of searches, but also the search terms used, the number of results returned for those searches, and the actions taken by users after performing a search.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist Suchanalytik?",
+                        "text": "<p>Suchanalytik bezieht sich auf die Analyse von Daten, die aus Suchvorgängen innerhalb der eigenen Suchmaschine einer Website oder über Suchmaschinen wie Google, Bing und andere gewonnen werden. Dieser Analysebereich hilft Website-Betreibern zu verstehen, wonach Benutzer suchen, wie oft sie suchen und ob sie auf der Website finden, was sie benötigen. Zum Beispiel, wenn die Suchanalytik einer Website zeigt, dass viele Benutzer nach \"veganen Rezepten\" suchen, aber die Seite hauptsächlich nicht-vegetarische Rezepte anbietet, könnte der Seitenbetreiber erwägen, mehr vegane Inhalte hinzuzufügen, um der Nachfrage der Benutzer gerecht zu werden. Darüber hinaus kann die Suchanalytik zeigen, welche Suchbegriffe am beliebtesten sind, was helfen kann, die SEO-Strategie der Seite anzupassen, um ihre Sichtbarkeit in den Suchmaschinen zu erhöhen.</p><p>Tools wie Google Analytics bieten umfassende Suchanalytik-Funktionen, die es Webmastern ermöglichen, nicht nur die Häufigkeit von Suchen, sondern auch die verwendeten Suchbegriffe, die Anzahl der für diese Suchen zurückgegebenen Ergebnisse und die Aktionen, die Benutzer nach einer Suche durchführen, zu verfolgen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es Análisis de Búsqueda?",
+                        "text": "<p>El análisis de búsqueda se refiere al análisis de datos obtenidos de búsquedas realizadas dentro del motor de búsqueda propio de un sitio web o a través de motores de búsqueda como Google, Bing y otros. Este ámbito de análisis ayuda a los propietarios de sitios web a entender qué buscan los usuarios, con qué frecuencia buscan y si encuentran lo que necesitan en el sitio web. Por ejemplo, si el análisis de búsqueda de un sitio muestra que muchos usuarios buscan \"recetas veganas\", pero el sitio ofrece principalmente recetas no vegetarianas, el propietario del sitio podría considerar agregar más contenido vegano para satisfacer la demanda de los usuarios. Además, el análisis de búsqueda puede mostrar cuáles términos de búsqueda son los más populares, lo que puede ayudar a ajustar la estrategia de SEO del sitio para aumentar su visibilidad en los motores de búsqueda.</p><p>Herramientas como Google Analytics ofrecen capacidades de análisis de búsqueda completas que permiten a los webmasters no solo rastrear la frecuencia de las búsquedas, sino también los términos de búsqueda utilizados, el número de resultados devueltos para esas búsquedas y las acciones que los usuarios toman después de realizar una búsqueda.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce que l'Analytique de Recherche?",
+                        "text": "<p>L'analytique de recherche se réfère à l'analyse des données obtenues à partir de recherches effectuées au sein du moteur de recherche d'un site web ou via des moteurs de recherche tels que Google, Bing et autres. Ce domaine d'analyse aide les propriétaires de sites web à comprendre ce que les utilisateurs recherchent, à quelle fréquence ils effectuent des recherches et s'ils trouvent ce dont ils ont besoin sur le site. Par exemple, si l'analytique de recherche d'un site montre que de nombreux utilisateurs recherchent des \"recettes véganes\", mais que le site propose principalement des recettes non végétariennes, le propriétaire du site pourrait envisager d'ajouter plus de contenu végan pour répondre à la demande des utilisateurs. De plus, l'analytique de recherche peut montrer quels termes de recherche sont les plus populaires, ce qui peut aider à ajuster la stratégie SEO du site pour augmenter sa visibilité dans les moteurs de recherche.</p><p>Des outils comme Google Analytics offrent des capacités complètes d'analytique de recherche qui permettent aux webmasters de suivre non seulement la fréquence des recherches, mais aussi les termes de recherche utilisés, le nombre de résultats renvoyés pour ces recherches, et les actions entreprises par les utilisateurs après avoir effectué une recherche.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar Woordenlijst",
+                        "headline": "Wat is Zoekanalyse?",
+                        "text": "<p>Zoekanalyse verwijst naar de analyse van gegevens verkregen uit zoekopdrachten binnen de eigen zoekmachine van een website of via zoekmachines zoals Google, Bing en anderen. Dit gebied van analyse helpt website-eigenaren te begrijpen wat gebruikers zoeken, hoe vaak ze zoeken en of ze vinden wat ze nodig hebben op de website. Bijvoorbeeld, als de zoekanalyse van een site laat zien dat veel gebruikers zoeken naar 'veganistische recepten', maar de site voornamelijk niet-vegetarische recepten aanbiedt, zou de site-eigenaar kunnen overwegen om meer veganistische inhoud toe te voegen om aan de vraag van gebruikers te voldoen. Bovendien kan zoekanalyse tonen welke zoektermen het populairst zijn, wat kan helpen om de SEO-strategie van de site aan te passen om de zichtbaarheid in de zoekmachines te vergroten.</p><p>Tools zoals Google Analytics bieden uitgebreide zoekanalysemogelijkheden waarmee webmasters niet alleen de frequentie van zoekopdrachten kunnen volgen, maar ook de gebruikte zoektermen, het aantal resultaten dat voor die zoekopdrachten wordt teruggegeven, en de acties die gebruikers ondernemen na het uitvoeren van een zoekopdracht.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è l'Analisi di Ricerca?",
+                        "text": "<p>L'analisi di ricerca si riferisce all'analisi dei dati ottenuti dalle ricerche effettuate all'interno del motore di ricerca di un sito web o tramite motori di ricerca come Google, Bing e altri. Questo ambito di analisi aiuta i proprietari di siti web a capire cosa cercano gli utenti, quanto spesso cercano e se trovano ciò di cui hanno bisogno sul sito web. Ad esempio, se l'analisi di ricerca di un sito mostra che molti utenti cercano 'ricette vegane', ma il sito offre principalmente ricette non vegetariane, il proprietario del sito potrebbe considerare di aggiungere più contenuti vegani per soddisfare la domanda degli utenti. Inoltre, l'analisi di ricerca può mostrare quali termini di ricerca sono i più popolari, il che può aiutare ad adeguare la strategia SEO del sito per aumentarne la visibilità nei motori di ricerca.</p><p>Strumenti come Google Analytics offrono capacità di analisi di ricerca complete che permettono ai webmaster di tracciare non solo la frequenza delle ricerche, ma anche i termini di ricerca utilizzati, il numero di risultati restituiti per quelle ricerche, e le azioni intraprese dagli utenti dopo aver effettuato una ricerca.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Análise de Pesquisa?",
+                        "text": "<p>A análise de pesquisa refere-se à análise de dados obtidos a partir de pesquisas realizadas dentro do próprio motor de busca de um site ou através de motores de busca como Google, Bing e outros. Esta área de análise ajuda os proprietários de sites a entender o que os usuários estão procurando, com que frequência pesquisam e se encontram o que precisam no site. Por exemplo, se a análise de pesquisa de um site mostrar que muitos usuários estão procurando por 'receitas veganas', mas o site oferece principalmente receitas não vegetarianas, o proprietário do site pode considerar adicionar mais conteúdo vegano para atender à demanda dos usuários. Além disso, a análise de pesquisa pode mostrar quais termos de pesquisa são mais populares, o que pode ajudar a ajustar a estratégia de SEO do site para aumentar sua visibilidade nos motores de busca.</p><p>Ferramentas como o Google Analytics oferecem capacidades abrangentes de análise de pesquisa que permitem aos webmasters não apenas acompanhar a frequência das pesquisas, mas também os termos de pesquisa utilizados, o número de resultados retornados para essas pesquisas e as ações tomadas pelos usuários após realizar uma pesquisa.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "検索分析とは何ですか？",
+                        "text": "<p>検索分析は、ウェブサイトの自社検索エンジンやGoogle、Bingなどの検索エンジンを通じて得られたデータの分析を指します。この分析分野は、ウェブサイトの所有者がユーザーが何を検索しているか、どの程度頻繁に検索しているか、そして彼らがウェブサイトで必要としているものを見つけられているかどうかを理解するのに役立ちます。たとえば、サイトの検索分析で多くのユーザーが「ビーガンレシピ」を検索しているが、サイトが主に非ベジタリアンのレシピを提供している場合、サイトオーナーはユーザーの需要に応えるためにより多くのビーガンコンテンツを追加することを検討するかもしれません。また、検索分析は最も人気のある検索用語を示すことができ、これによりサイトのSEO戦略を調整して検索エンジンでの可視性を高めるのに役立ちます。</p><p>Google Analyticsのようなツールは、検索の頻度だけでなく、使用された検索用語、それらの検索に対して返された結果の数、検索実行後のユーザーのアクションを追跡することができる包括的な検索分析機能を提供しています。</p>"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/referrer"
+        "en": "/glossary/referrer",
+        "de": "/de/glossary/referrer",
+        "es": "/es/glossary/referrer",
+        "fr": "/fr/glossary/referrer",
+        "nl": "/nl/glossary/referrer",
+        "it": "/it/glossary/referrer",
+        "pt": "/pt/glossary/referrer",
+        "ja": "/ja/glossary/referrer"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Referrer – Pirsch Analytics",
                         "meta_description": "The source through which a user arrived at a website, typically another website or search engine."
+                    },
+                    "de": {
+                        "title": "Referrer – Pirsch Analytics",
+                        "meta_description": "Die Quelle, durch die ein Benutzer auf eine Website gelangt ist, typischerweise eine andere Website oder eine Suchmaschine."
+                    },
+                    "es": {
+                        "title": "Referente – Pirsch Analytics",
+                        "meta_description": "La fuente a través de la cual un usuario llegó a un sitio web, generalmente otro sitio web o un motor de búsqueda."
+                    },
+                    "fr": {
+                        "title": "Référent – Pirsch Analytics",
+                        "meta_description": "La source par laquelle un utilisateur est arrivé sur un site web, généralement un autre site web ou un moteur de recherche."
+                    },
+                    "nl": {
+                        "title": "Verwijzer – Pirsch Analytics",
+                        "meta_description": "De bron via welke een gebruiker op een website is gekomen, meestal een andere website of een zoekmachine."
+                    },
+                    "it": {
+                        "title": "Referente – Pirsch Analytics",
+                        "meta_description": "La fonte attraverso la quale un utente è arrivato su un sito web, tipicamente un altro sito web o un motore di ricerca."
+                    },
+                    "pt": {
+                        "title": "Referenciador – Pirsch Analytics",
+                        "meta_description": "A fonte através da qual um usuário chegou a um site, geralmente outro site ou um motor de busca."
+                    },
+                    "ja": {
+                        "title": "リファラー – Pirsch Analytics",
+                        "meta_description": "ユーザーがウェブサイトに到達した経路であり、通常は他のウェブサイトまたは検索エンジンです。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Referrer?",
                         "text": "<p>A referrer in web analytics refers to the source from which a visitor came to your website. It identifies the last <a href=\"/glossary/uniform-resource-locator\">URL</a> a user visited before clicking on your site. This can be another website, a social media platform, a search engine, or direct input (such as typing the URL directly into the browser or using a bookmark).</p><p>Knowing where your traffic is coming from can help you evaluate the effectiveness of your marketing strategies, identify partnerships that drive traffic, and optimize your website's presence on different platforms. For example, if you use Pirsch Analytics, you may find that a large portion of your traffic is coming from a particular blog that has linked to one of your articles. This information can be invaluable for planning future content and collaborations.</p><p>Referrers are usually tracked automatically by web analytics tools. They categorize traffic sources in reports so you can see which marketing channels are most effective at attracting visitors. For example, you can compare the performance of traffic from search engines with that from social media or direct visits to understand which strategies are most effective for your site.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein Referrer?",
+                        "text": "<p>Ein Referrer in der Webanalyse bezieht sich auf die Quelle, von der ein Besucher auf Ihre Website kam. Er identifiziert die letzte <a href=\"/de/glossary/uniform-resource-locator\">URL</a>, die ein Benutzer besucht hat, bevor er auf Ihre Seite geklickt hat. Dies kann eine andere Website, eine Social-Media-Plattform, eine Suchmaschine oder eine direkte Eingabe sein (zum Beispiel das direkte Eingeben der URL in den Browser oder die Verwendung eines Lesezeichens).</p><p>Die Kenntnis darüber, woher Ihr Traffic kommt, kann Ihnen helfen, die Wirksamkeit Ihrer Marketingstrategien zu bewerten, Partnerschaften zu identifizieren, die Traffic generieren, und die Präsenz Ihrer Website auf verschiedenen Plattformen zu optimieren. Wenn Sie beispielsweise Pirsch Analytics verwenden, stellen Sie möglicherweise fest, dass ein großer Teil Ihres Traffics von einem bestimmten Blog kommt, der auf einen Ihrer Artikel verlinkt hat. Diese Informationen können für die Planung zukünftiger Inhalte und Kooperationen von unschätzbarem Wert sein.</p><p>Referrer werden normalerweise automatisch von Webanalysetools erfasst. Sie kategorisieren Verkehrsquellen in Berichten, damit Sie sehen können, welche Marketingkanäle am effektivsten Besucher anziehen. Beispielsweise können Sie die Leistung des Traffics von Suchmaschinen mit dem von Social Media oder direkten Besuchen vergleichen, um zu verstehen, welche Strategien für Ihre Website am effektivsten sind.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Regresar al Glosario",
+                        "headline": "¿Qué es un Referente?",
+                        "text": "<p>Un referente en el análisis web se refiere a la fuente desde la cual un visitante llegó a su sitio web. Identifica la última <a href=\"/es/glossary/uniform-resource-locator\">URL</a> que un usuario visitó antes de hacer clic en su sitio. Esto puede ser otro sitio web, una plataforma de redes sociales, un motor de búsqueda o una entrada directa (como escribir la URL directamente en el navegador o usar un marcador).</p><p>Saber de dónde proviene su tráfico puede ayudarlo a evaluar la efectividad de sus estrategias de marketing, identificar asociaciones que generen tráfico y optimizar la presencia de su sitio web en diferentes plataformas. Por ejemplo, si utiliza Pirsch Analytics, puede descubrir que una gran parte de su tráfico proviene de un blog particular que ha enlazado uno de sus artículos. Esta información puede ser invaluable para planificar contenido futuro y colaboraciones.</p><p>Los referentes generalmente son rastreados automáticamente por herramientas de análisis web. Categorizan las fuentes de tráfico en informes para que pueda ver qué canales de marketing son más efectivos para atraer visitantes. Por ejemplo, puede comparar el rendimiento del tráfico de motores de búsqueda con el de redes sociales o visitas directas para entender qué estrategias son más efectivas para su sitio.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retourner au Glossaire",
+                        "headline": "Qu'est-ce qu'un Référent ?",
+                        "text": "<p>Un référent en analyse web se réfère à la source d'où un visiteur est venu sur votre site web. Il identifie la dernière <a href=\"/fr/glossary/uniform-resource-locator\">URL</a> qu'un utilisateur a visitée avant de cliquer sur votre site. Cela peut être un autre site web, une plateforme de médias sociaux, un moteur de recherche ou une saisie directe (comme taper l'URL directement dans le navigateur ou utiliser un signet).</p><p>Savoir d'où vient votre trafic peut vous aider à évaluer l'efficacité de vos stratégies de marketing, à identifier les partenariats qui génèrent du trafic et à optimiser la présence de votre site web sur différentes plateformes. Par exemple, si vous utilisez Pirsch Analytics, vous pourriez découvrir qu'une grande partie de votre trafic provient d'un blog particulier qui a lié l'un de vos articles. Cette information peut être inestimable pour planifier des contenus futurs et des collaborations.</p><p>Les référents sont généralement suivis automatiquement par les outils d'analyse web. Ils catégorisent les sources de trafic dans les rapports afin que vous puissiez voir quels canaux de marketing attirent le plus efficacement les visiteurs. Par exemple, vous pouvez comparer les performances du trafic provenant des moteurs de recherche avec celui des médias sociaux ou des visites directes pour comprendre quelles stratégies sont les plus efficaces pour votre site.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar woordenlijst",
+                        "headline": "Wat is een Verwijzer?",
+                        "text": "<p>Een verwijzer in webanalyse verwijst naar de bron van waaruit een bezoeker naar uw website kwam. Het identificeert de laatste <a href=\"/nl/glossary/uniform-resource-locator\">URL</a> die een gebruiker heeft bezocht voordat hij op uw site klikte. Dit kan een andere website, een sociaal media platform, een zoekmachine of directe invoer zijn (zoals het direct typen van de URL in de browser of het gebruik van een bladwijzer).</p><p>Weten waar uw verkeer vandaan komt, kan u helpen de effectiviteit van uw marketingstrategieën te evalueren, partnerschappen te identificeren die verkeer genereren, en de aanwezigheid van uw website op verschillende platforms te optimaliseren. Bijvoorbeeld, als u Pirsch Analytics gebruikt, kunt u ontdekken dat een groot deel van uw verkeer afkomstig is van een bepaalde blog die naar een van uw artikelen heeft gelinkt. Deze informatie kan van onschatbare waarde zijn voor het plannen van toekomstige inhoud en samenwerkingen.</p><p>Verwijzers worden meestal automatisch bijgehouden door webanalyse-instrumenten. Ze categoriseren verkeersbronnen in rapporten zodat u kunt zien welke marketingkanalen het meest effectief zijn in het aantrekken van bezoekers. U kunt bijvoorbeeld de prestaties van verkeer uit zoekmachines vergelijken met die van sociale media of directe bezoeken om te begrijpen welke strategieën het meest effectief zijn voor uw site.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è un Referente?",
+                        "text": "<p>Un referente nell'analisi web si riferisce alla fonte da cui un visitatore è arrivato sul tuo sito web. Identifica l'ultima <a href=\"/it/glossary/uniform-resource-locator\">URL</a> che un utente ha visitato prima di cliccare sul tuo sito. Questo può essere un altro sito web, una piattaforma di social media, un motore di ricerca o un inserimento diretto (come digitare l'URL direttamente nel browser o utilizzare un segnalibro).</p><p>Sapere da dove proviene il tuo traffico può aiutarti a valutare l'efficacia delle tue strategie di marketing, identificare le partnership che generano traffico e ottimizzare la presenza del tuo sito web su diverse piattaforme. Ad esempio, se utilizzi Pirsch Analytics, potresti scoprire che una grande parte del tuo traffico proviene da un blog particolare che ha collegato uno dei tuoi articoli. Questa informazione può essere inestimabile per pianificare futuri contenuti e collaborazioni.</p><p>I referenti sono solitamente tracciati automaticamente dagli strumenti di analisi web. Classificano le fonti di traffico nei rapporti in modo che tu possa vedere quali canali di marketing sono più efficaci nel attrarre visitatori. Ad esempio, puoi confrontare le prestazioni del traffico proveniente dai motori di ricerca con quello dei social media o delle visite dirette per comprendere quali strategie sono più efficaci per il tuo sito.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um Referenciador?",
+                        "text": "<p>Um referenciador na análise web refere-se à fonte de onde um visitante veio para o seu site. Identifica a última <a href=\"/pt/glossary/uniform-resource-locator\">URL</a> que um usuário visitou antes de clicar no seu site. Isso pode ser outro site, uma plataforma de mídia social, um motor de busca ou entrada direta (como digitar a URL diretamente no navegador ou usar um favorito).</p><p>Saber de onde vem seu tráfego pode ajudá-lo a avaliar a eficácia de suas estratégias de marketing, identificar parcerias que geram tráfego e otimizar a presença do seu site em diferentes plataformas. Por exemplo, se você usar o Pirsch Analytics, poderá descobrir que uma grande parte do seu tráfego vem de um blog específico que vinculou um de seus artigos. Esta informação pode ser inestimável para planejar futuros conteúdos e colaborações.</p><p>Os referenciadores geralmente são rastreados automaticamente pelas ferramentas de análise web. Eles categorizam as fontes de tráfego em relatórios para que você possa ver quais canais de marketing são mais eficazes para atrair visitantes. Por exemplo, você pode comparar o desempenho do tráfego proveniente de motores de busca com o de mídias sociais ou visitas diretas para entender quais estratégias são mais eficazes para o seu site.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "リファラーとは何ですか？",
+                        "text": "<p>Web分析におけるリファラーとは、訪問者があなたのウェブサイトに来た源を指します。これは、ユーザーがあなたのサイトをクリックする前に訪れた最後の<a href=\"/ja/glossary/uniform-resource-locator\">URL</a>を特定します。これには、別のウェブサイト、ソーシャルメディアプラットフォーム、検索エンジン、またはダイレクト入力（ブラウザに直接URLを入力するか、ブックマークを使用するなど）が含まれることがあります。</p><p>トラフィックがどこから来ているかを知ることで、マーケティング戦略の効果を評価し、トラフィックを生み出すパートナーシップを特定し、異なるプラットフォームでのウェブサイトの存在感を最適化するのに役立ちます。たとえば、Pirsch Analyticsを使用する場合、あなたの記事の1つにリンクしている特定のブログから大部分のトラフィックが来ていることがわかるかもしれません。この情報は、将来のコンテンツやコラボレーションを計画する上で非常に価値があります。</p><p>リファラーは通常、Web分析ツールによって自動的に追跡されます。これらはトラフィックソースをレポートに分類するため、どのマーケティングチャンネルが訪問者を引き付けるのに最も効果的であるかを確認できます。たとえば、検索エンジンからのトラフィックのパフォーマンスとソーシャルメディアやダイレクト訪問のパフォーマンスを比較して、どの戦略があなたのサイトにとって最も効果的であるかを理解することができます。</p>"
                     }
                 }
             },
