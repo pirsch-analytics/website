@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/session-duration"
+        "en": "/glossary/session-duration",
+        "de": "/de/glossary/session-duration",
+        "es": "/es/glossary/session-duration",
+        "fr": "/fr/glossary/session-duration",
+        "nl": "/nl/glossary/session-duration",
+        "it": "/it/glossary/session-duration",
+        "pt": "/pt/glossary/session-duration",
+        "ja": "/ja/glossary/session-duration"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "(Average) Session Duration – Pirsch Analytics",
                         "meta_description": "The average amount of time users spend on a website during a single session."
+                    },
+                    "de": {
+                        "title": "(Durchschnittliche) Sitzungsdauer – Pirsch Analytics",
+                        "meta_description": "Die durchschnittliche Zeit, die Benutzer während einer einzigen Sitzung auf einer Website verbringen."
+                    },
+                    "es": {
+                        "title": "(Duración Promedio) de la Sesión – Pirsch Analytics",
+                        "meta_description": "El tiempo promedio que los usuarios pasan en un sitio web durante una sola sesión."
+                    },
+                    "fr": {
+                        "title": "(Durée Moyenne) de Session – Pirsch Analytics",
+                        "meta_description": "Le temps moyen passé par les utilisateurs sur un site web lors d'une session unique."
+                    },
+                    "nl": {
+                        "title": "(Gemiddelde) Sessieduur – Pirsch Analytics",
+                        "meta_description": "De gemiddelde tijd die gebruikers tijdens een enkele sessie op een website doorbrengen."
+                    },
+                    "it": {
+                        "title": "(Durata Media) della Sessione – Pirsch Analytics",
+                        "meta_description": "Il tempo medio trascorso dagli utenti su un sito web durante una singola sessione."
+                    },
+                    "pt": {
+                        "title": "(Duração Média) da Sessão – Pirsch Analytics",
+                        "meta_description": "O tempo médio que os usuários passam em um site durante uma única sessão."
+                    },
+                    "ja": {
+                        "title": "（平均）セッション時間 – Pirsch Analytics",
+                        "meta_description": "ユーザーが単一のセッション中にウェブサイトで過ごす平均時間。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is the (Average) Session Duration?",
                         "text": "<p>The average <a href=\"/glossary/session\">session</a> duration is a web analytics metric that measures the total time spent by all users on your website divided by the number of sessions. This metric provides information on how long, on average, visitors engage with your content during a single session. It is a good indicator of how engaging and relevant your website is to your audience.</p><p>To calculate the average session duration, add up the total duration of all sessions within a given time period and then divide it by the total number of sessions in the same time period.</p><p>To illustrate, let's use Pirsch Analytics as an example: If your website had a total session duration of 5000 minutes on one day and there were 200 sessions on that day, the average session duration would be calculated as follows:</p><p>Average session duration = total session duration / total number of sessions</p><p>Average session duration = 5000 minutes / 200 sessions = 25 minutes per session</p><p>This means that each visitor spends an average of 25 minutes per session on your website. This metric is useful for understanding the overall engagement of your website and can help you determine if changes to content or structure are having a positive impact on user interaction.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist die (durchschnittliche) Sitzungsdauer?",
+                        "text": "<p>Die durchschnittliche <a href=\"/de/glossary/session\">Sitzung</a>sdauer ist eine Webanalysemetrik, die die von allen Benutzern auf Ihrer Website verbrachte Gesamtzeit misst, geteilt durch die Anzahl der Sitzungen. Diese Metrik liefert Informationen darüber, wie lange Besucher im Durchschnitt während einer einzigen Sitzung mit Ihrem Inhalt interagieren. Sie ist ein guter Indikator dafür, wie ansprechend und relevant Ihre Website für Ihr Publikum ist.</p><p>Um die durchschnittliche Sitzungsdauer zu berechnen, addieren Sie die Gesamtdauer aller Sitzungen innerhalb eines bestimmten Zeitraums und teilen Sie diese dann durch die Gesamtanzahl der Sitzungen im gleichen Zeitraum.</p><p>Zur Veranschaulichung nehmen wir Pirsch Analytics als Beispiel: Wenn Ihre Website an einem Tag eine Gesamtsitzungsdauer von 5000 Minuten hatte und es an diesem Tag 200 Sitzungen gab, würde die durchschnittliche Sitzungsdauer wie folgt berechnet:</p><p>Durchschnittliche Sitzungsdauer = Gesamtsitzungsdauer / Gesamtanzahl der Sitzungen</p><p>Durchschnittliche Sitzungsdauer = 5000 Minuten / 200 Sitzungen = 25 Minuten pro Sitzung</p><p>Dies bedeutet, dass jeder Besucher durchschnittlich 25 Minuten pro Sitzung auf Ihrer Website verbringt. Diese Metrik ist nützlich, um das Gesamtengagement Ihrer Website zu verstehen und kann Ihnen helfen zu bestimmen, ob Änderungen am Inhalt oder an der Struktur eine positive Auswirkung auf die Benutzerinteraktion haben.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al Glosario",
+                        "headline": "¿Qué es la duración promedio de una sesión?",
+                        "text": "<p>La duración promedio de una <a href=\"/es/glossary/session\">sesión</a> es una métrica de análisis web que mide el tiempo total gastado por todos los usuarios en tu sitio web dividido por el número de sesiones. Esta métrica proporciona información sobre cuánto tiempo, en promedio, los visitantes interactúan con tu contenido durante una sesión única. Es un buen indicador de cuán atractivo y relevante es tu sitio web para tu audiencia.</p><p>Para calcular la duración promedio de la sesión, suma la duración total de todas las sesiones dentro de un período de tiempo dado y luego divide eso por el número total de sesiones en el mismo período de tiempo.</p><p>Para ilustrar, usemos Pirsch Analytics como ejemplo: Si tu sitio web tuvo una duración total de sesión de 5000 minutos en un día y hubo 200 sesiones ese día, la duración promedio de la sesión se calcularía de la siguiente manera:</p><p>Duración promedio de la sesión = duración total de la sesión / número total de sesiones</p><p>Duración promedio de la sesión = 5000 minutos / 200 sesiones = 25 minutos por sesión</p><p>Esto significa que cada visitante pasa un promedio de 25 minutos por sesión en tu sitio web. Esta métrica es útil para entender el compromiso general de tu sitio web y puede ayudarte a determinar si los cambios en el contenido o la estructura están teniendo un impacto positivo en la interacción del usuario.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au Glossaire",
+                        "headline": "Qu'est-ce que la durée moyenne de session?",
+                        "text": "<p>La durée moyenne de <a href=\"/fr/glossary/session\">session</a> est une métrique d'analyse web qui mesure le temps total passé par tous les utilisateurs sur votre site web divisé par le nombre de sessions. Cette métrique fournit des informations sur la durée moyenne pendant laquelle les visiteurs interagissent avec votre contenu lors d'une seule session. C'est un bon indicateur de l'attrait et de la pertinence de votre site web pour votre audience.</p><p>Pour calculer la durée moyenne de la session, additionnez la durée totale de toutes les sessions sur une période donnée, puis divisez cela par le nombre total de sessions durant la même période.</p><p>Par exemple, utilisons Pirsch Analytics comme exemple : Si votre site web avait une durée totale de session de 5000 minutes sur un jour et qu'il y avait 200 sessions ce jour-là, la durée moyenne de session serait calculée comme suit :</p><p>Durée moyenne de session = durée totale de session / nombre total de sessions</p><p>Durée moyenne de session = 5000 minutes / 200 sessions = 25 minutes par session</p><p>Cela signifie que chaque visiteur passe en moyenne 25 minutes par session sur votre site web. Cette métrique est utile pour comprendre l'engagement global de votre site web et peut vous aider à déterminer si les modifications apportées au contenu ou à la structure ont un impact positif sur l'interaction des utilisateurs.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het Woordenboek",
+                        "headline": "Wat is de (gemiddelde) sessieduur?",
+                        "text": "<p>De gemiddelde <a href=\"/nl/glossary/session\">sessie</a>duur is een webanalysemetriek die de totale tijd meet die alle gebruikers op uw website doorbrengen, gedeeld door het aantal sessies. Deze metriek biedt informatie over hoe lang bezoekers gemiddeld met uw inhoud bezig zijn tijdens een enkele sessie. Het is een goede indicator van hoe boeiend en relevant uw website is voor uw publiek.</p><p>Om de gemiddelde sessieduur te berekenen, tel je de totale duur van alle sessies binnen een bepaalde periode op en deel je dit door het totale aantal sessies in dezelfde periode.</p><p>Ter illustratie, laten we Pirsch Analytics als voorbeeld nemen: Als uw website op een dag een totale sessieduur van 5000 minuten had en er waren 200 sessies die dag, zou de gemiddelde sessieduur als volgt berekend worden:</p><p>Gemiddelde sessieduur = totale sessieduur / totaal aantal sessies</p><p>Gemiddelde sessieduur = 5000 minuten / 200 sessies = 25 minuten per sessie</p><p>Dit betekent dat elke bezoeker gemiddeld 25 minuten per sessie op uw website doorbrengt. Deze metriek is nuttig voor het begrijpen van de algehele betrokkenheid van uw website en kan u helpen bepalen of wijzigingen in inhoud of structuur een positieve invloed hebben op de gebruikersinteractie.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è la durata media della sessione?",
+                        "text": "<p>La durata media della <a href=\"/it/glossary/session\">sessione</a> è una metrica di analisi web che misura il tempo totale trascorso da tutti gli utenti sul tuo sito web diviso per il numero di sessioni. Questa metrica fornisce informazioni su quanto tempo, in media, i visitatori interagiscono con il tuo contenuto durante una singola sessione. È un buon indicatore di quanto il tuo sito web sia coinvolgente e rilevante per il tuo pubblico.</p><p>Per calcolare la durata media della sessione, somma la durata totale di tutte le sessioni in un dato periodo di tempo e poi dividi questo per il numero totale di sessioni nello stesso periodo di tempo.</p><p>Per esemplificare, usiamo Pirsch Analytics come esempio: se il tuo sito web aveva una durata totale della sessione di 5000 minuti in un giorno e ci fossero state 200 sessioni in quel giorno, la durata media della sessione sarebbe calcolata come segue:</p><p>Durata media della sessione = durata totale della sessione / numero totale di sessioni</p><p>Durata media della sessione = 5000 minuti / 200 sessioni = 25 minuti per sessione</p><p>Questo significa che ogni visitatore trascorre in media 25 minuti per sessione sul tuo sito web. Questa metrica è utile per capire il coinvolgimento complessivo del vostro sito web e può aiutarvi a determinare se le modifiche ai contenuti o alla struttura stanno avendo un impatto positivo sull'interazione con gli utenti.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é a duração média da sessão?",
+                        "text": "<p>A duração média da <a href=\"/pt/glossary/session\">sessão</a> é uma métrica de análise web que mede o tempo total gasto por todos os usuários no seu site dividido pelo número de sessões. Esta métrica fornece informações sobre quanto tempo, em média, os visitantes interagem com o seu conteúdo durante uma única sessão. É um bom indicador de quão envolvente e relevante é o seu site para o seu público.</p><p>Para calcular a duração média da sessão, some a duração total de todas as sessões em um determinado período de tempo e divida isso pelo número total de sessões no mesmo período de tempo.</p><p>Para ilustrar, vamos usar a Pirsch Analytics como exemplo: Se o seu site teve uma duração total de sessão de 5000 minutos em um dia e houve 200 sessões nesse dia, a duração média da sessão seria calculada da seguinte maneira:</p><p>Duração média da sessão = duração total da sessão / número total de sessões</p><p>Duração média da sessão = 5000 minutos / 200 sessões = 25 minutos por sessão</p><p>Isso significa que cada visitante passa, em média, 25 minutos por sessão no seu site. Esta métrica é útil para entender o envolvimento geral do seu site e pode ajudar a determinar se alterações no conteúdo ou na estrutura estão tendo um impacto positivo na interação do usuário.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "セッションの平均所要時間とは何ですか？",
+                        "text": "<p>セッションの平均所要時間は、ウェブサイトの全ユーザーによる総滞在時間をセッション数で割った値であり、Web解析の指標です。この指標は、訪問者が一回のセッションでどれくらいの時間、コンテンツとどのように関わっているかの平均時間を教えてくれます。これは、あなたのウェブサイトが対象のオーディエンスにとってどれほど魅力的で関連性があるかを示す良い指標です。</p><p>平均セッション時間を計算するには、特定の期間内のすべてのセッションの総時間を加算し、その後で同じ時間期間内のセッションの総数で割ります。</p><p>例として、Pirsch Analyticsを使用して説明します：あなたのウェブサイトがある日に5000分のセッション総時間を持っていて、その日に200のセッションがあった場合、平均セッション時間は次のように計算されます：</p><p>平均セッション時間 = セッションの総時間 / セッションの総数</p><p>平均セッション時間 = 5000分 / 200セッション = セッションあたり25分</p><p>これは、訪問者があなたのウェブサイトでセッションあたり平均25分を過ごすことを意味します。この指標は、ウェブサイトの全体的なエンゲージメントを理解するのに役立ち、コンテンツや構造の変更がユーザーとの相互作用にどのような影響を与えているかを判断するのに有用です。</p>"
                     }
                 }
             },
