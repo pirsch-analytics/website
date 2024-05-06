@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/subdomain"
+        "en": "/glossary/subdomain",
+        "de": "/de/glossary/subdomain",
+        "es": "/es/glossary/subdomain",
+        "fr": "/fr/glossary/subdomain",
+        "nl": "/nl/glossary/subdomain",
+        "it": "/it/glossary/subdomain",
+        "pt": "/pt/glossary/subdomain",
+        "ja": "/ja/glossary/subdomain"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Subdomain – Pirsch Analytics",
                         "meta_description": "A subdivision of a domain, used to organize and navigate to different sections or functionalities of a website."
+                    },
+                    "de": {
+                        "title": "Subdomain – Pirsch Analytics",
+                        "meta_description": "Eine Unterteilung einer Domain, die verwendet wird, um verschiedene Abschnitte oder Funktionen einer Website zu organisieren und zu navigieren."
+                    },
+                    "es": {
+                        "title": "Subdominio – Pirsch Analytics",
+                        "meta_description": "Una subdivisión de un dominio, utilizada para organizar y navegar a diferentes secciones o funcionalidades de un sitio web."
+                    },
+                    "fr": {
+                        "title": "Sous-domaine – Pirsch Analytics",
+                        "meta_description": "Une subdivision d'un domaine, utilisée pour organiser et naviguer vers différentes sections ou fonctionnalités d'un site web."
+                    },
+                    "nl": {
+                        "title": "Subdomein – Pirsch Analytics",
+                        "meta_description": "Een onderverdeling van een domein, gebruikt om verschillende secties of functionaliteiten van een website te organiseren en te navigeren."
+                    },
+                    "it": {
+                        "title": "Sottodominio – Pirsch Analytics",
+                        "meta_description": "Una suddivisione di un dominio, utilizzata per organizzare e navigare in diverse sezioni o funzionalità di un sito web."
+                    },
+                    "pt": {
+                        "title": "Subdomínio – Pirsch Analytics",
+                        "meta_description": "Uma subdivisão de um domínio, usada para organizar e navegar para diferentes seções ou funcionalidades de um site."
+                    },
+                    "ja": {
+                        "title": "サブドメイン – Pirsch Analytics",
+                        "meta_description": "ドメインのサブセクションであり、ウェブサイトの異なるセクションや機能への整理とナビゲーションに使用されます。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Subdomain?",
                         "text": "<p>A subdomain is a prefix added to a website's domain name that allows companies to organize different areas of their website or host different services under the same main domain. Subdomains function as separate entities and can be used to organize content, target specific audiences, or host a related service such as a blog or online store separately from the main website.</p><p>For example, a company could use \"shop.example.com\" for its online store and \"blog.example.com\" for its content marketing efforts. This helps to structure the website in a way that improves user navigation and optimizes <a href=\"/glossary/search-engine-optimization\">search engine optimization</a> by effectively separating different types of content. Each subdomain can be equipped with its own user interface, customized content and separate analysis functions, which allow a more detailed insight into the performance of the different areas of the website.</p><p>The use of subdomains can influence the indexing of websites by search engines and can be advantageous for large organizations with different content requirements or for hosting different language versions of a website.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine Subdomain?",
+                        "text": "<p>Eine Subdomain ist ein Präfix, das dem Domainnamen einer Website hinzugefügt wird und es Unternehmen ermöglicht, verschiedene Bereiche ihrer Website zu organisieren oder unterschiedliche Dienste unter derselben Hauptdomain zu hosten. Subdomains fungieren als separate Entitäten und können verwendet werden, um Inhalte zu organisieren, spezifische Zielgruppen anzusprechen oder einen verwandten Dienst wie ein Blog oder einen Online-Shop getrennt von der Hauptwebsite zu hosten.</p><p>Zum Beispiel könnte ein Unternehmen \"shop.beispiel.com\" für seinen Online-Shop und \"blog.beispiel.com\" für seine Content-Marketing-Bemühungen verwenden. Dies hilft, die Website so zu strukturieren, dass die Benutzernavigation verbessert wird und die <a href=\"/de/glossary/search-engine-optimization\">Suchmaschinenoptimierung</a> durch effektive Trennung verschiedener Inhaltsarten optimiert wird. Jede Subdomain kann mit einer eigenen Benutzeroberfläche, angepasstem Inhalt und separaten Analysefunktionen ausgestattet werden, die einen detaillierteren Einblick in die Leistung der verschiedenen Bereiche der Website ermöglichen.</p><p>Die Verwendung von Subdomains kann die Indexierung von Websites durch Suchmaschinen beeinflussen und ist vorteilhaft für große Organisationen mit unterschiedlichen Inhaltsanforderungen oder für das Hosting verschiedener Sprachversionen einer Website.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al Glosario",
+                        "headline": "¿Qué es un Subdominio?",
+                        "text": "<p>Un subdominio es un prefijo agregado al nombre de dominio de un sitio web que permite a las empresas organizar diferentes áreas de su sitio web o alojar diferentes servicios bajo el mismo dominio principal. Los subdominios funcionan como entidades separadas y se pueden utilizar para organizar contenido, dirigirse a audiencias específicas o alojar un servicio relacionado, como un blog o una tienda en línea, de manera separada del sitio web principal.</p><p>Por ejemplo, una empresa podría usar \"shop.ejemplo.com\" para su tienda en línea y \"blog.ejemplo.com\" para sus esfuerzos de marketing de contenidos. Esto ayuda a estructurar el sitio web de una manera que mejora la navegación del usuario y optimiza la <a href=\"/es/glossary/search-engine-optimization\">optimización de motores de búsqueda</a> al separar eficazmente diferentes tipos de contenido. Cada subdominio puede estar equipado con su propia interfaz de usuario, contenido personalizado y funciones de análisis separadas, que permiten una visión más detallada del rendimiento de las diferentes áreas del sitio web.</p><p>El uso de subdominios puede influir en la indexación de sitios web por parte de los motores de búsqueda y puede ser ventajoso para grandes organizaciones con diferentes requisitos de contenido o para alojar diferentes versiones de idiomas de un sitio web.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au Glossaire",
+                        "headline": "Qu'est-ce qu'un sous-domaine ?",
+                        "text": "<p>Un sous-domaine est un préfixe ajouté au nom de domaine d'un site web qui permet aux entreprises d'organiser différentes zones de leur site web ou d'héberger différents services sous le même domaine principal. Les sous-domaines fonctionnent comme des entités séparées et peuvent être utilisés pour organiser du contenu, cibler des audiences spécifiques ou héberger un service connexe, tel qu'un blog ou une boutique en ligne, séparément du site web principal.</p><p>Par exemple, une entreprise pourrait utiliser \"shop.exemple.com\" pour sa boutique en ligne et \"blog.exemple.com\" pour ses efforts de marketing de contenu. Cela aide à structurer le site web d'une manière qui améliore la navigation des utilisateurs et optimise l'<a href=\"/fr/glossary/search-engine-optimization\">optimisation pour les moteurs de recherche</a> en séparant efficacement différents types de contenu. Chaque sous-domaine peut être équipé de sa propre interface utilisateur, de contenu personnalisé et de fonctions d'analyse séparées, permettant une vue plus détaillée de la performance des différentes zones du site web.</p><p>L'utilisation de sous-domaines peut influencer l'indexation des sites web par les moteurs de recherche et peut être avantageuse pour les grandes organisations ayant différents besoins en contenu ou pour héberger différentes versions linguistiques d'un site web.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het Woordenboek",
+                        "headline": "Wat is een Subdomein?",
+                        "text": "<p>Een subdomein is een voorvoegsel toegevoegd aan de domeinnaam van een website dat bedrijven in staat stelt om verschillende gebieden van hun website te organiseren of verschillende diensten onder hetzelfde hoofddomein te hosten. Subdomeinen functioneren als aparte entiteiten en kunnen worden gebruikt om inhoud te organiseren, specifieke doelgroepen aan te spreken of een gerelateerde dienst zoals een blog of online winkel apart van de hoofdwebsite te hosten.</p><p>Bijvoorbeeld, een bedrijf zou \"shop.voorbeeld.com\" kunnen gebruiken voor zijn online winkel en \"blog.voorbeeld.com\" voor zijn inspanningen op het gebied van contentmarketing. Dit helpt de website te structureren op een manier die de gebruikersnavigatie verbetert en de <a href=\"/nl/glossary/search-engine-optimization\">zoekmachineoptimalisatie</a> optimaliseert door verschillende soorten content effectief te scheiden. Elk subdomein kan worden uitgerust met zijn eigen gebruikersinterface, aangepaste content en afzonderlijke analysefuncties, die een gedetailleerder inzicht geven in de prestaties van de verschillende gebieden van de website.</p><p>Het gebruik van subdomeinen kan de indexering van websites door zoekmachines beïnvloeden en kan voordelig zijn voor grote organisaties met verschillende contentvereisten of voor het hosten van verschillende taalversies van een website.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è un Sottodominio?",
+                        "text": "<p>Un sottodominio è un prefisso aggiunto al nome di dominio di un sito web che consente alle aziende di organizzare diverse aree del loro sito web o ospitare diversi servizi sotto lo stesso dominio principale. I sottodomini funzionano come entità separate e possono essere utilizzati per organizzare contenuti, targettizzare pubblici specifici o ospitare un servizio correlato come un blog o un negozio online separatamente dal sito web principale.</p><p>Ad esempio, un'azienda potrebbe usare \"shop.esempio.com\" per il suo negozio online e \"blog.esempio.com\" per i suoi sforzi di marketing dei contenuti. Questo aiuta a strutturare il sito web in modo che migliori la navigazione dell'utente e ottimizza l'<a href=\"/it/glossary/search-engine-optimization\">ottimizzazione per i motori di ricerca</a> separando efficacemente i diversi tipi di contenuto. Ogni sottodominio può essere dotato di una propria interfaccia utente, contenuti personalizzati e funzioni di analisi separate, che permettono una visione più dettagliata delle prestazioni delle diverse aree del sito web.</p><p>L'uso di sottodomini può influenzare l'indicizzazione dei siti web da parte dei motori di ricerca e può essere vantaggioso per grandi organizzazioni con diverse esigenze di contenuto o per ospitare diverse versioni linguistiche di un sito web.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é um Subdomínio?",
+                        "text": "<p>Um subdomínio é um prefixo adicionado ao nome de domínio de um site que permite às empresas organizar diferentes áreas de seu site ou hospedar diferentes serviços sob o mesmo domínio principal. Subdomínios funcionam como entidades separadas e podem ser usados ​​para organizar conteúdo, segmentar públicos específicos ou hospedar um serviço relacionado, como um blog ou loja online, separadamente do site principal.</p><p>Por exemplo, uma empresa poderia usar \"shop.exemplo.com\" para sua loja online e \"blog.exemplo.com\" para seus esforços de marketing de conteúdo. Isso ajuda a estruturar o site de uma forma que melhora a navegação do usuário e otimiza a <a href=\"/pt/glossary/search-engine-optimization\">otimização para motores de busca</a> ao separar eficazmente diferentes tipos de conteúdo. Cada subdomínio pode ser equipado com sua própria interface do usuário, conteúdo personalizado e funções de análise separadas, que permitem um insight mais detalhado sobre o desempenho das diferentes áreas do site.</p><p>O uso de subdomínios pode influenciar a indexação de sites por motores de busca e pode ser vantajoso para grandes organizações com diferentes requisitos de conteúdo ou para hospedar diferentes versões linguísticas de um site.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "サブドメインとは何ですか？",
+                        "text": "<p>サブドメインは、企業がウェブサイトの異なるエリアを整理したり、同じ主要ドメインの下で異なるサービスをホストしたりするために、ウェブサイトのドメイン名に追加される接頭辞です。サブドメインは別の実体として機能し、コンテンツを整理したり、特定のオーディエンスをターゲットにしたり、主要ウェブサイトとは別にブログやオンラインストアなどの関連サービスをホストするために使用することができます。</p><p>例えば、企業がオンラインストアのために「shop.example.com」、コンテンツマーケティングの努力のために「blog.example.com」を使用することができます。これにより、ウェブサイトが構造化され、ユーザーナビゲーションが改善され、<a href=\"/ja/glossary/search-engine-optimization\">検索エンジン最適化</a>が異なるタイプのコンテンツを効果的に分離することで最適化されます。各サブドメインには独自のユーザーインターフェース、カスタマイズされたコンテンツ、独立した分析機能が装備されており、ウェブサイトの異なるエリアのパフォーマンスについて詳細な洞察を提供します。</p><p>サブドメインの使用は、検索エンジンによるウェブサイトの索引付けに影響を与えることがあり、異なるコンテンツ要件を持つ大規模な組繇やウェブサイトの異なる言語バージョンをホストするために有利です。</p>"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/time-on-page"
+        "en": "/glossary/time-on-page",
+        "de": "/de/glossary/time-on-page",
+        "es": "/es/glossary/time-on-page",
+        "fr": "/fr/glossary/time-on-page",
+        "nl": "/nl/glossary/time-on-page",
+        "it": "/it/glossary/time-on-page",
+        "pt": "/pt/glossary/time-on-page",
+        "ja": "/ja/glossary/time-on-page"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Time On Page – Pirsch Analytics",
                         "meta_description": "he amount of time a user spends on a single webpage before navigating to another page or leaving the site."
+                    },
+                    "de": {
+                        "title": "Verweildauer auf der Seite – Pirsch Analytics",
+                        "meta_description": "Die Zeit, die ein Benutzer auf einer einzelnen Webseite verbringt, bevor er zu einer anderen Seite navigiert oder die Website verlässt."
+                    },
+                    "es": {
+                        "title": "Tiempo en página – Pirsch Analytics",
+                        "meta_description": "El tiempo que un usuario pasa en una sola página web antes de navegar a otra página o salir del sitio."
+                    },
+                    "fr": {
+                        "title": "Temps passé sur la page – Pirsch Analytics",
+                        "meta_description": "Le temps qu'un utilisateur passe sur une seule page web avant de naviguer vers une autre page ou de quitter le site."
+                    },
+                    "nl": {
+                        "title": "Tijd op pagina – Pirsch Analytics",
+                        "meta_description": "De hoeveelheid tijd die een gebruiker op een enkele webpagina doorbrengt voordat hij naar een andere pagina navigeert of de site verlaat."
+                    },
+                    "it": {
+                        "title": "Tempo sulla pagina – Pirsch Analytics",
+                        "meta_description": "Il tempo che un utente trascorre su una singola pagina web prima di navigare verso un'altra pagina o di lasciare il sito."
+                    },
+                    "pt": {
+                        "title": "Tempo na página – Pirsch Analytics",
+                        "meta_description": "O tempo que um usuário passa em uma única página da web antes de navegar para outra página ou sair do site."
+                    },
+                    "ja": {
+                        "title": "ページ滞在時間 – Pirsch Analytics",
+                        "meta_description": "ユーザーが他のページに移動するか、サイトを離れる前に単一のウェブページに滞在する時間。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is Time On Page?",
                         "text": "<p>Time spent on a page is a metric used in web analytics to measure the amount of time a <a href=\"/glossary/unique-visitor\">visitor</a> spends on a website before leaving. This metric is important for understanding user engagement and the effectiveness of site content. A longer time on site often indicates that the content is engaging and meets the needs or interests of the visitor, while a shorter time on site may indicate that the content is not relevant or compelling.</p><p>For example, if an article on a website is viewed for an average of five minutes, it indicates that readers are engaging with the content and may read it in its entirety. Web analytics tools such as Pirsch Analytics capture this metric by tracking the time a user spends on a page and when they either leave the page or go to another page on the same site. It should be noted, however, that the time spent on a page can only be measured accurately if a user visits more than one page, since the analysis software needs an additional \"hit\" to calculate the duration.</p><p>Knowing the time spent on a page helps webmasters optimize their content and structure to better meet the preferences of their audience, thereby increasing the overall time spent on the website and improving other important performance indicators.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist die Verweildauer auf einer Seite?",
+                        "text": "<p>Die auf einer Seite verbrachte Zeit ist eine Metrik in der Webanalyse, die misst, wie lange ein <a href=\"/de/glossary/unique-visitor\">Besucher</a> auf einer Website verweilt, bevor er sie verlässt. Diese Metrik ist wichtig, um das Benutzerengagement und die Wirksamkeit von Website-Inhalten zu verstehen. Eine längere Verweildauer auf der Website deutet oft darauf hin, dass die Inhalte ansprechend sind und den Bedürfnissen oder Interessen der Besucher entsprechen, während eine kürzere Verweildauer darauf hindeuten kann, dass die Inhalte nicht relevant oder ansprechend sind.</p><p>Zum Beispiel, wenn ein Artikel auf einer Website durchschnittlich fünf Minuten lang angesehen wird, zeigt dies, dass die Leser mit dem Inhalt interagieren und ihn möglicherweise vollständig lesen. Webanalyse-Tools wie Pirsch Analytics erfassen diese Metrik, indem sie die Zeit verfolgen, die ein Benutzer auf einer Seite verbringt, und wann er die Seite verlässt oder zu einer anderen Seite auf derselben Website wechselt. Es sollte jedoch beachtet werden, dass die auf einer Seite verbrachte Zeit nur genau gemessen werden kann, wenn ein Benutzer mehr als eine Seite besucht, da die Analysesoftware einen zusätzlichen \"Hit\" benötigt, um die Dauer zu berechnen.</p><p>Das Wissen über die auf einer Seite verbrachte Zeit hilft Webmastern, ihre Inhalte und Struktur besser an die Präferenzen ihres Publikums anzupassen, wodurch die insgesamt auf der Website verbrachte Zeit und andere wichtige Leistungsindikatoren verbessert werden.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es el Tiempo en Página?",
+                        "text": "<p>El tiempo pasado en una página es una métrica utilizada en análisis web para medir la cantidad de tiempo que un <a href=\"/es/glossary/unique-visitor\">visitante</a> pasa en un sitio web antes de salir. Esta métrica es importante para entender el compromiso del usuario y la eficacia del contenido del sitio. Un tiempo más largo en el sitio a menudo indica que el contenido es atractivo y cumple con las necesidades o intereses del visitante, mientras que un tiempo más corto en el sitio puede indicar que el contenido no es relevante o convincente.</p><p>Por ejemplo, si un artículo en un sitio web se visualiza durante un promedio de cinco minutos, indica que los lectores están interactuando con el contenido y pueden leerlo en su totalidad. Herramientas de análisis web como Pirsch Analytics capturan esta métrica al rastrear el tiempo que un usuario pasa en una página y cuando abandonan la página o pasan a otra página en el mismo sitio. Sin embargo, cabe señalar que el tiempo pasado en una página solo se puede medir con precisión si un usuario visita más de una página, ya que el software de análisis necesita un \"hit\" adicional para calcular la duración.</p><p>Saber el tiempo pasado en una página ayuda a los webmasters a optimizar su contenido y estructura para satisfacer mejor las preferencias de su audiencia, aumentando así el tiempo total pasado en el sitio web y mejorando otros indicadores de rendimiento importantes.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce que le Temps passé sur une page ?",
+                        "text": "<p>Le temps passé sur une page est une mesure utilisée en analyse web pour quantifier le temps qu'un <a href=\"/fr/glossary/unique-visitor\">visiteur</a> passe sur un site web avant de le quitter. Cette métrique est importante pour comprendre l'engagement des utilisateurs et l'efficacité du contenu du site. Un temps plus long sur le site indique souvent que le contenu est engageant et répond aux besoins ou aux intérêts des visiteurs, tandis qu'un temps plus court peut indiquer que le contenu n'est pas pertinent ou convaincant.</p><p>Par exemple, si un article sur un site web est consulté en moyenne cinq minutes, cela indique que les lecteurs interagissent avec le contenu et peuvent le lire intégralement. Les outils d'analyse web tels que Pirsch Analytics capturent cette métrique en suivant le temps qu'un utilisateur passe sur une page et quand ils quittent la page ou passent à une autre page du même site. Il convient de noter, cependant, que le temps passé sur une page ne peut être mesuré avec précision que si un utilisateur visite plus d'une page, car le logiciel d'analyse nécessite un \"hit\" supplémentaire pour calculer la durée.</p><p>Connaître le temps passé sur une page aide les webmasters à optimiser leur contenu et leur structure pour mieux répondre aux préférences de leur audience, augmentant ainsi le temps total passé sur le site et améliorant d'autres indicateurs de performance importants.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
+                        "headline": "Wat is de Tijd op Pagina?",
+                        "text": "<p>De tijd die op een pagina wordt doorgebracht, is een meetwaarde die in webanalyses wordt gebruikt om de hoeveelheid tijd te meten die een <a href=\"/nl/glossary/unique-visitor\">bezoeker</a> doorbrengt op een website voordat deze vertrekt. Deze metric is belangrijk voor het begrijpen van gebruikersbetrokkenheid en de effectiviteit van site-inhoud. Een langere tijd op de site geeft vaak aan dat de inhoud boeiend is en voldoet aan de behoeften of interesses van de bezoeker, terwijl een kortere tijd op de site kan aangeven dat de inhoud niet relevant of overtuigend is.</p><p>Bijvoorbeeld, als een artikel op een website gemiddeld vijf minuten wordt bekeken, geeft dit aan dat lezers betrokken zijn bij de inhoud en deze mogelijk volledig lezen. Webanalyse-instrumenten zoals Pirsch Analytics registreren deze metric door de tijd te volgen die een gebruiker op een pagina doorbrengt en wanneer ze de pagina verlaten of naar een andere pagina op dezelfde site gaan. Het moet echter worden opgemerkt dat de tijd doorgebracht op een pagina alleen nauwkeurig kan worden gemeten als een gebruiker meer dan één pagina bezoekt, aangezien de analysesoftware een extra \"hit\" nodig heeft om de duur te berekenen.</p><p>Weten hoeveel tijd er op een pagina wordt doorgebracht, helpt webmasters hun inhoud en structuur te optimaliseren om beter aan de voorkeuren van hun publiek te voldoen, waardoor de totale tijd die op de website wordt doorgebracht en andere belangrijke prestatie-indicatoren worden verbeterd.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è il Tempo sulla Pagina?",
+                        "text": "<p>Il tempo trascorso su una pagina è una metrica utilizzata nell'analisi web per misurare il tempo che un <a href=\"/it/glossary/unique-visitor\">visitatore</a> passa su un sito web prima di lasciarlo. Questa metrica è importante per comprendere il coinvolgimento dell'utente e l'efficacia dei contenuti del sito. Un tempo più lungo sul sito spesso indica che i contenuti sono coinvolgenti e soddisfano le necessità o gli interessi del visitatore, mentre un tempo più breve sul sito può indicare che i contenuti non sono rilevanti o convincenti.</p><p>Ad esempio, se un articolo su un sito web viene visualizzato per una media di cinque minuti, indica che i lettori sono impegnati con il contenuto e potrebbero leggerlo interamente. Strumenti di analisi web come Pirsch Analytics catturano questa metrica tracciando il tempo che un utente trascorre su una pagina e quando lascia la pagina o passa a un'altra pagina sullo stesso sito. È da notare, tuttavia, che il tempo trascorso su una pagina può essere misurato con precisione solo se un utente visita più di una pagina, poiché il software di analisi ha bisogno di un \"hit\" aggiuntivo per calcolare la durata.</p><p>Conoscere il tempo trascorso su una pagina aiuta i webmaster a ottimizzare i loro contenuti e la struttura per soddisfare meglio le preferenze del loro pubblico, aumentando così il tempo totale trascorso sul sito web e migliorando altri importanti indicatori di performance.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é Tempo na Página?",
+                        "text": "<p>O tempo gasto em uma página é uma métrica usada em análise web para medir quanto tempo um <a href=\"/pt/glossary/unique-visitor\">visitante</a> passa em um site antes de sair. Essa métrica é importante para entender o engajamento do usuário e a eficácia do conteúdo do site. Um tempo mais longo no site geralmente indica que o conteúdo é envolvente e atende às necessidades ou interesses do visitante, enquanto um tempo mais curto pode indicar que o conteúdo não é relevante ou atraente.</p><p>Por exemplo, se um artigo em um site é visualizado por uma média de cinco minutos, isso indica que os leitores estão interagindo com o conteúdo e podem ler até o final. Ferramentas de análise web como Pirsch Analytics capturam essa métrica ao rastrear o tempo que um usuário gasta em uma página e quando eles deixam a página ou vão para outra página no mesmo site. No entanto, deve-se notar que o tempo gasto em uma página só pode ser medido com precisão se um usuário visita mais de uma página, pois o software de análise precisa de um \"hit\" adicional para calcular a duração.</p><p>Saber o tempo gasto em uma página ajuda os webmasters a otimizar seu conteúdo e estrutura para melhor atender às preferências de seu público, aumentando assim o tempo total gasto no site e melhorando outros indicadores de desempenho importantes.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ページ滞在時間とは何ですか？",
+                        "text": "<p>ページ滞在時間は、ウェブ分析で使用される指標であり、ユーザーがウェブサイトを離れる前に一つのウェブページに費やす時間の長さを測定します。この指標は、ユーザーのエンゲージメントとサイトコンテンツの効果を理解するために重要です。サイトでの滞在時間が長い場合、コンテンツが魅力的であり、訪問者のニーズや興味に応えていることを示しますが、滞在時間が短い場合は、コンテンツが関連性がないか魅力的でない可能性があります。</p><p>例えば、ウェブサイトの記事が平均して5分間閲覧されている場合、読者がコンテンツに関与しており、完全に読まれている可能性があることを示します。Pirsch Analyticsのようなウェブ分析ツールは、ユーザーがページに滞在している時間と、そのページを離れたり、同じサイトの別のページに移動したりする時間を追跡することでこの指標を捉えます。ただし、ページ滞在時間は、ユーザーが複数のページを訪問した場合にのみ正確に測定することができます。分析ソフトウェアは、持続時間を計算するために追加の「ヒット」を必要とするためです。</p><p>ページ滞在時間を知ることは、ウェブマスターがコンテンツと構造を最適化し、観客の好みによりよく応えることを可能にし、ウェブサイト全体の滞在時間を増加させ、他の重要なパフォーマンス指標を改善するのに役立ちます。</p>"
                     }
                 }
             },

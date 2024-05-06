@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/uniform-resource-locator"
+        "en": "/glossary/uniform-resource-locator",
+        "de": "/de/glossary/uniform-resource-locator",
+        "es": "/es/glossary/uniform-resource-locator",
+        "fr": "/fr/glossary/uniform-resource-locator",
+        "nl": "/nl/glossary/uniform-resource-locator",
+        "it": "/it/glossary/uniform-resource-locator",
+        "pt": "/pt/glossary/uniform-resource-locator",
+        "ja": "/ja/glossary/uniform-resource-locator"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Uniform Resource Locator (URL) – Pirsch Analytics",
                         "meta_description": "A string of characters used to identify a resource on the internet, such as a webpage, image, or file."
+                    },
+                    "de": {
+                        "title": "Uniform Resource Locator (URL) – Pirsch Analytics",
+                        "meta_description": "Eine Zeichenfolge, die verwendet wird, um eine Ressource im Internet zu identifizieren, wie eine Webseite, ein Bild oder eine Datei."
+                    },
+                    "es": {
+                        "title": "Localizador Uniforme de Recursos (URL) – Pirsch Analytics",
+                        "meta_description": "Una cadena de caracteres utilizada para identificar un recurso en internet, como una página web, imagen o archivo."
+                    },
+                    "fr": {
+                        "title": "Localisateur Uniforme de Ressources (URL) – Pirsch Analytics",
+                        "meta_description": "Une suite de caractères utilisée pour identifier une ressource sur internet, telle qu'une page web, une image ou un fichier."
+                    },
+                    "nl": {
+                        "title": "Uniform Resource Locator (URL) – Pirsch Analytics",
+                        "meta_description": "Een reeks tekens die wordt gebruikt om een bron op het internet te identificeren, zoals een webpagina, afbeelding of bestand."
+                    },
+                    "it": {
+                        "title": "Uniform Resource Locator (URL) – Pirsch Analytics",
+                        "meta_description": "Una stringa di caratteri utilizzata per identificare una risorsa su internet, come una pagina web, un'immagine o un file."
+                    },
+                    "pt": {
+                        "title": "Localizador Uniforme de Recursos (URL) – Pirsch Analytics",
+                        "meta_description": "Uma sequência de caracteres usada para identificar um recurso na internet, como uma página web, imagem ou arquivo."
+                    },
+                    "ja": {
+                        "title": "ユニフォーム リソース ロケーター (URL) – Pirsch Analytics",
+                        "meta_description": "ウェブページ、画像、またはファイルなど、インターネット上のリソースを識別するために使用される文字列。"
                     }
                 }
             },
