@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/unique-visitor"
+        "en": "/glossary/unique-visitor",
+        "de": "/de/glossary/unique-visitor",
+        "es": "/es/glossary/unique-visitor",
+        "fr": "/fr/glossary/unique-visitor",
+        "nl": "/nl/glossary/unique-visitor",
+        "it": "/it/glossary/unique-visitor",
+        "pt": "/pt/glossary/unique-visitor",
+        "ja": "/ja/glossary/unique-visitor"
     },
     "sitemap": {
         "priority": "0.5"
