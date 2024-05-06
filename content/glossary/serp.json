@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/search-engine-results-page"
+        "en": "/glossary/search-engine-results-page",
+        "de": "/de/glossary/search-engine-results-page",
+        "es": "/es/glossary/search-engine-results-page",
+        "fr": "/fr/glossary/search-engine-results-page",
+        "nl": "/nl/glossary/search-engine-results-page",
+        "it": "/it/glossary/search-engine-results-page",
+        "pt": "/pt/glossary/search-engine-results-page",
+        "ja": "/ja/glossary/search-engine-results-page"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Search Engine Results Page (SERP) – Pirsch Analytics",
                         "meta_description": "The page displayed by a search engine in response to a user's query, containing a list of relevant web page."
+                    },
+                    "de": {
+                        "title": "Suchergebnisseite (SERP) – Pirsch Analytics",
+                        "meta_description": "Die Seite, die von einer Suchmaschine als Antwort auf eine Nutzeranfrage angezeigt wird, enthält eine Liste relevanter Webseiten."
+                    },
+                    "es": {
+                        "title": "Página de Resultados del Motor de Búsqueda (SERP) – Pirsch Analytics",
+                        "meta_description": "La página mostrada por un motor de búsqueda en respuesta a la consulta de un usuario, conteniendo una lista de páginas web relevantes."
+                    },
+                    "fr": {
+                        "title": "Page de Résultats du Moteur de Recherche (SERP) – Pirsch Analytics",
+                        "meta_description": "La page affichée par un moteur de recherche en réponse à une requête d'un utilisateur, contenant une liste de pages web pertinentes."
+                    },
+                    "nl": {
+                        "title": "Zoekmachine Resultaten Pagina (SERP) – Pirsch Analytics",
+                        "meta_description": "De pagina die door een zoekmachine wordt weergegeven als reactie op een gebruikersquery, met een lijst van relevante webpagina's."
+                    },
+                    "it": {
+                        "title": "Pagina dei Risultati del Motore di Ricerca (SERP) – Pirsch Analytics",
+                        "meta_description": "La pagina visualizzata da un motore di ricerca in risposta a una query dell'utente, contenente un elenco di pagine web pertinenti."
+                    },
+                    "pt": {
+                        "title": "Página de Resultados do Motor de Busca (SERP) – Pirsch Analytics",
+                        "meta_description": "A página exibida por um motor de busca em resposta a uma consulta do usuário, contendo uma lista de páginas web relevantes."
+                    },
+                    "ja": {
+                        "title": "検索エンジン結果ページ (SERP) – Pirsch Analytics",
+                        "meta_description": "ユーザーのクエリに応答して検索エンジンによって表示されるページで、関連するウェブページのリストが含まれています。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Search Engine Results Page (SERP)?",
                         "text": "<p>SERP, or Search Engine Results Page, refers to the page displayed by a search engine in response to a user's query. This page lists all web content that matches the search query, sorted by the search engine's algorithms. SERPs typically include organic results, paid advertising results, featured snippets, knowledge graphs, and other types of content such as images, videos, and news that are relevant to the query.</p><p>For example, if a user searches for \"best coffee shops near me\", the SERP might display a map of local coffee shops, a list of articles and blog posts about the best coffee shops, and advertisements for coffee shops near me. Each element is designed to provide the most relevant and useful information based on the user's search terms and location. The layout and content of the SERPs can strongly influence the user's behavior by influencing how they interact with the search results and which links they click on.</p><p>Understanding how the SERPs work and how they are structured is crucial for <a href=\"/glossary/search-engine-optimization\">SEO</a> and digital marketing strategies, as it helps companies optimize their content to appear in a more prominent position in the search results.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine Suchergebnisseite (SERP)?",
+                        "text": "<p>SERP oder Suchergebnisseite bezieht sich auf die Seite, die von einer Suchmaschine als Antwort auf eine Nutzeranfrage angezeigt wird. Diese Seite listet alle Webinhalte auf, die der Suchanfrage entsprechen, sortiert nach den Algorithmen der Suchmaschine. SERPs enthalten typischerweise organische Ergebnisse, bezahlte Werbeergebnisse, hervorgehobene Snippets, Wissensgraphen und andere Arten von Inhalten wie Bilder, Videos und Nachrichten, die für die Anfrage relevant sind.</p><p>Zum Beispiel, wenn ein Nutzer nach \"besten Kaffeehäusern in meiner Nähe\" sucht, könnte die SERP eine Karte mit lokalen Kaffeehäusern anzeigen, eine Liste von Artikeln und Blogbeiträgen über die besten Kaffeehäuser und Werbeanzeigen für Kaffeehäuser in der Nähe. Jedes Element ist darauf ausgelegt, die relevantesten und nützlichsten Informationen basierend auf den Suchbegriffen und dem Standort des Nutzers bereitzustellen. Das Layout und der Inhalt der SERPs können das Verhalten des Nutzers stark beeinflussen, indem sie beeinflussen, wie sie mit den Suchergebnissen interagieren und auf welche Links sie klicken.</p><p>Das Verständnis, wie die SERPs funktionieren und wie sie strukturiert sind, ist entscheidend für <a href=\"/de/glossary/search-engine-optimization\">SEO</a> und digitale Marketingstrategien, da es Unternehmen hilft, ihre Inhalte zu optimieren, um eine prominentere Position in den Suchergebnissen zu erreichen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al Glosario",
+                        "headline": "¿Qué es una Página de Resultados del Motor de Búsqueda (SERP)?",
+                        "text": "<p>SERP, o Página de Resultados del Motor de Búsqueda, se refiere a la página que muestra un motor de búsqueda en respuesta a una consulta de un usuario. Esta página lista todo el contenido web que coincide con la consulta de búsqueda, ordenado por los algoritmos del motor de búsqueda. Las SERPs incluyen típicamente resultados orgánicos, resultados de publicidad pagada, fragmentos destacados, gráficos de conocimiento y otros tipos de contenido como imágenes, videos y noticias que son relevantes para la consulta.</p><p>Por ejemplo, si un usuario busca \"mejores cafeterías cerca de mí\", la SERP podría mostrar un mapa de cafeterías locales, una lista de artículos y publicaciones de blogs sobre las mejores cafeterías, y anuncios de cafeterías cercanas. Cada elemento está diseñado para proporcionar la información más relevante y útil basada en los términos de búsqueda y la ubicación del usuario. El diseño y el contenido de las SERPs pueden influir fuertemente en el comportamiento del usuario al influir en cómo interactúan con los resultados de búsqueda y en qué enlaces hacen clic.</p><p>Entender cómo funcionan las SERPs y cómo están estructuradas es crucial para <a href=\"/es/glossary/search-engine-optimization\">SEO</a> y las estrategias de marketing digital, ya que ayuda a las empresas a optimizar su contenido para aparecer en una posición más prominente en los resultados de búsqueda.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au Glossaire",
+                        "headline": "Qu'est-ce qu'une Page de Résultats de Moteur de Recherche (SERP) ?",
+                        "text": "<p>SERP, ou Page de Résultats de Moteur de Recherche, fait référence à la page affichée par un moteur de recherche en réponse à une requête d'un utilisateur. Cette page liste tout le contenu web correspondant à la requête de recherche, trié par les algorithmes du moteur de recherche. Les SERPs incluent généralement des résultats organiques, des résultats de publicités payantes, des extraits en vedette, des graphiques de connaissances, et d'autres types de contenus tels que des images, des vidéos et des actualités qui sont pertinents pour la requête.</p><p>Par exemple, si un utilisateur recherche \"meilleurs cafés près de moi\", la SERP pourrait afficher une carte des cafés locaux, une liste d'articles et de billets de blog sur les meilleurs cafés, et des publicités pour des cafés proches. Chaque élément est conçu pour fournir les informations les plus pertinentes et utiles basées sur les termes de recherche et la localisation de l'utilisateur. La disposition et le contenu des SERPs peuvent fortement influencer le comportement de l'utilisateur en influençant la manière dont ils interagissent avec les résultats de recherche et sur quels liens ils cliquent.</p><p>Comprendre comment fonctionnent les SERPs et comment elles sont structurées est crucial pour <a href=\"/fr/glossary/search-engine-optimization\">SEO</a> et les stratégies de marketing digital, car cela aide les entreprises à optimiser leur contenu pour apparaître dans une position plus en vue dans les résultats de recherche.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het Woordenboek",
+                        "headline": "Wat is een Zoekmachine Resultaten Pagina (SERP)?",
+                        "text": "<p>SERP, of Zoekmachine Resultaten Pagina, verwijst naar de pagina die door een zoekmachine wordt weergegeven als reactie op een gebruikersquery. Deze pagina lijst alle webinhoud op die overeenkomt met de zoekopdracht, gesorteerd door de algoritmen van de zoekmachine. SERPs bevatten doorgaans organische resultaten, betaalde advertentieresultaten, uitgelichte snippets, kennisgrafieken en andere soorten inhoud zoals afbeeldingen, video's en nieuws die relevant zijn voor de query.</p><p>Bijvoorbeeld, als een gebruiker zoekt naar \"beste koffiezaken in mijn buurt\", kan de SERP een kaart van lokale koffiezaken tonen, een lijst van artikelen en blogposts over de beste koffiezaken, en advertenties voor koffiezaken in de buurt. Elk element is ontworpen om de meest relevante en nuttige informatie te bieden op basis van de zoektermen en locatie van de gebruiker. De lay-out en inhoud van de SERPs kunnen het gedrag van de gebruiker sterk beïnvloeden door te beïnvloeden hoe zij interageren met de zoekresultaten en op welke links zij klikken.</p><p>Het begrijpen van hoe de SERPs werken en hoe ze zijn gestructureerd is cruciaal voor <a href=\"/nl/glossary/search-engine-optimization\">SEO</a> en digitale marketingstrategieën, omdat het bedrijven helpt hun inhoud te optimaliseren om een prominentere positie in de zoekresultaten te verkrijgen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è una Pagina dei Risultati del Motore di Ricerca (SERP)?",
+                        "text": "<p>SERP, o Pagina dei Risultati del Motore di Ricerca, si riferisce alla pagina mostrata da un motore di ricerca in risposta a una query dell'utente. Questa pagina elenca tutto il contenuto web che corrisponde alla query di ricerca, ordinato dagli algoritmi del motore di ricerca. Le SERP includono tipicamente risultati organici, risultati di pubblicità a pagamento, snippet in evidenza, grafici della conoscenza e altri tipi di contenuto come immagini, video e notizie che sono rilevanti per la query.</p><p>Ad esempio, se un utente cerca \"migliori caffetterie vicino a me\", la SERP potrebbe visualizzare una mappa delle caffetterie locali, un elenco di articoli e post di blog sulle migliori caffetterie, e pubblicità per caffetterie vicine. Ogni elemento è progettato per fornire le informazioni più rilevanti e utili basate sui termini di ricerca e sulla posizione dell'utente. Il layout e il contenuto delle SERP possono influenzare fortemente il comportamento dell'utente influenzando come interagiscono con i risultati di ricerca e su quali link cliccano.</p><p>Capire come funzionano le SERP e come sono strutturate è cruciale per <a href=\"/it/glossary/search-engine-optimization\">SEO</a> e le strategie di marketing digitale, poiché aiuta le aziende a ottimizzare i loro contenuti per apparire in una posizione più prominente nei risultati di ricerca.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é uma Página de Resultados do Motor de Busca (SERP)?",
+                        "text": "<p>SERP, ou Página de Resultados do Motor de Busca, refere-se à página exibida por um motor de busca em resposta a uma consulta do usuário. Esta página lista todo o conteúdo web que corresponde à consulta de pesquisa, ordenado pelos algoritmos do motor de busca. As SERPs incluem tipicamente resultados orgânicos, resultados de publicidade paga, snippets em destaque, gráficos de conhecimento e outros tipos de conteúdo como imagens, vídeos e notícias que são relevantes para a consulta.</p><p>Por exemplo, se um usuário pesquisa por \"melhores cafés perto de mim\", a SERP poderia exibir um mapa de cafés locais, uma lista de artigos e postagens de blog sobre os melhores cafés, e anúncios de cafés próximos. Cada elemento é projetado para fornecer as informações mais relevantes e úteis baseadas nos termos de pesquisa e localização do usuário. O layout e o conteúdo das SERPs podem influenciar fortemente o comportamento do usuário, afetando como eles interagem com os resultados da pesquisa e quais links eles clicam.</p><p>Entender como as SERPs funcionam e como são estruturadas é crucial para <a href=\"/pt/glossary/search-engine-optimization\">SEO</a> e estratégias de marketing digital, pois ajuda as empresas a otimizar seu conteúdo para aparecer em uma posição mais proeminente nos resultados da pesquisa.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "検索エンジン結果ページ（SERP）とは何ですか？",
+                        "text": "<p>SERP、または検索エンジン結果ページは、ユーザーのクエリに応じて検索エンジンによって表示されるページを指します。このページには、検索クエリに一致するすべてのウェブコンテンツが、検索エンジンのアルゴリズムによって並べられたリストが表示されます。SERPには通常、オーガニックな結果、有料広告の結果、注目のスニペット、ナレッジグラフ、そしてクエリに関連する画像、ビデオ、ニュースなどの他のタイプのコンテンツが含まれます。</p><p>例えば、ユーザーが「近くの最高のコーヒーショップ」と検索した場合、SERPには地元のコーヒーショップの地図、最高のコーヒーショップについての記事やブログ投稿のリスト、そして近くのコーヒーショップの広告が表示されるかもしれません。各要素は、ユーザーの検索用語と位置に基づいて最も関連性が高く有用な情報を提供するように設計されています。SERPのレイアウトとコンテンツは、ユーザーが検索結果とどのように対話するか、どのリンクをクリックするかに大きな影響を与えることがあります。</p><p>SERPがどのように機能し、どのように構造化されているかを理解することは、<a href=\"/ja/glossary/search-engine-optimization\">SEO</a>やデジタルマーケティング戦略にとって非常に重要であり、それによって企業は検索結果でより目立つ位置に表示されるようにコンテンツを最適化するのに役立ちます。</p>"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/session"
+        "en": "/glossary/session",
+        "de": "/de/glossary/session",
+        "es": "/es/glossary/session",
+        "fr": "/fr/glossary/session",
+        "nl": "/nl/glossary/session",
+        "it": "/it/glossary/session",
+        "pt": "/pt/glossary/session",
+        "ja": "/ja/glossary/session"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Session – Pirsch Analytics",
                         "meta_description": "A period of time during which a user interacts with a website."
+                    },
+                    "de": {
+                        "title": "Sitzung – Pirsch Analytics",
+                        "meta_description": "Ein Zeitraum, in dem ein Benutzer mit einer Website interagiert."
+                    },
+                    "es": {
+                        "title": "Sesión – Pirsch Analytics",
+                        "meta_description": "Un período de tiempo durante el cual un usuario interactúa con un sitio web."
+                    },
+                    "fr": {
+                        "title": "Session – Pirsch Analytics",
+                        "meta_description": "Une période pendant laquelle un utilisateur interagit avec un site web."
+                    },
+                    "nl": {
+                        "title": "Sessie – Pirsch Analytics",
+                        "meta_description": "Een periode waarin een gebruiker interactie heeft met een website."
+                    },
+                    "it": {
+                        "title": "Sessione – Pirsch Analytics",
+                        "meta_description": "Un periodo di tempo durante il quale un utente interagisce con un sito web."
+                    },
+                    "pt": {
+                        "title": "Sessão – Pirsch Analytics",
+                        "meta_description": "Um período de tempo durante o qual um usuário interage com um site."
+                    },
+                    "ja": {
+                        "title": "セッション – Pirsch Analytics",
+                        "meta_description": "ユーザーがウェブサイトと対話する時間の期間。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Session?",
                         "text": "<p>A session in web analytics represents a single visit by a user to your website. It includes all the interactions that the user makes during their visit to the site. These interactions can include <a href=\"/glossary/page-view\">page views</a>, clicks, and transactions.</p><p>A session begins when a user enters the site and ends when they leave or after a period of inactivity, usually 30 minutes. This time limit can be reset if the user continues to interact with the website.</p><p>For example, if someone uses Pirsch Analytics to track their website, they might see that a user had a session where they visited three different pages within 20 minutes. Pirsch would record this as one session, and all actions within that time frame would be grouped under that one session.</p><p>Sessions help website owners understand user behavior and assess the effectiveness of their content or user interface. They can look at metrics such as the number of sessions per day, average session length, or number of pages per session to make informed decisions about their site. Sessions help website owners understand user behavior and assess the effectiveness of their content or interface.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist eine Sitzung?",
+                        "text": "<p>Eine Sitzung in der Webanalyse repräsentiert einen einzelnen Besuch eines Benutzers auf Ihrer Website. Sie umfasst alle Interaktionen, die der Benutzer während seines Besuchs auf der Seite durchführt. Diese Interaktionen können <a href=\"/de/glossary/page-view\">Seitenaufrufe</a>, Klicks und Transaktionen beinhalten.</p><p>Eine Sitzung beginnt, wenn ein Benutzer die Seite betritt und endet, wenn er sie verlässt oder nach einer Periode der Inaktivität, üblicherweise 30 Minuten. Dieses Zeitlimit kann zurückgesetzt werden, wenn der Benutzer weiterhin mit der Website interagiert.</p><p>Zum Beispiel, wenn jemand Pirsch Analytics verwendet, um seine Website zu verfolgen, könnte er sehen, dass ein Benutzer eine Sitzung hatte, in der er innerhalb von 20 Minuten drei verschiedene Seiten besucht hat. Pirsch würde dies als eine Sitzung aufzeichnen, und alle Aktionen in diesem Zeitraum würden unter dieser einen Sitzung gruppiert.</p><p>Sitzungen helfen Website-Betreibern, das Benutzerverhalten zu verstehen und die Wirksamkeit ihres Inhalts oder ihrer Benutzeroberfläche zu bewerten. Sie können Metriken wie die Anzahl der Sitzungen pro Tag, die durchschnittliche Sitzungsdauer oder die Anzahl der Seiten pro Sitzung betrachten, um fundierte Entscheidungen über ihre Website zu treffen. Sitzungen helfen Website-Betreibern, das Benutzerverhalten zu verstehen und die Wirksamkeit ihres Inhalts oder ihrer Schnittstelle zu bewerten.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al Glosario",
+                        "headline": "¿Qué es una sesión?",
+                        "text": "<p>Una sesión en análisis web representa una única visita de un usuario a su sitio web. Incluye todas las interacciones que el usuario realiza durante su visita al sitio. Estas interacciones pueden incluir <a href=\"/es/glossary/page-view\">vistas de página</a>, clics y transacciones.</p><p>Una sesión comienza cuando un usuario entra al sitio y termina cuando se va o después de un período de inactividad, generalmente 30 minutos. Este límite de tiempo puede restablecerse si el usuario continúa interactuando con el sitio web.</p><p>Por ejemplo, si alguien usa Pirsch Analytics para rastrear su sitio web, podría ver que un usuario tuvo una sesión donde visitó tres páginas diferentes en 20 minutos. Pirsch registraría esto como una sesión, y todas las acciones dentro de ese marco de tiempo se agruparían bajo esa sesión.</p><p>Las sesiones ayudan a los propietarios de sitios web a entender el comportamiento del usuario y evaluar la efectividad de su contenido o interfaz de usuario. Pueden mirar métricas como el número de sesiones por día, la duración promedio de la sesión, o el número de páginas por sesión para tomar decisiones informadas sobre su sitio. Las sesiones ayudan a los propietarios de sitios web a entender el comportamiento del usuario y evaluar la efectividad de su contenido o interfaz.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au Glossaire",
+                        "headline": "Qu'est-ce qu'une session ?",
+                        "text": "<p>Une session en analyse web représente une visite unique d'un utilisateur sur votre site web. Elle inclut toutes les interactions que l'utilisateur réalise pendant sa visite sur le site. Ces interactions peuvent inclure des <a href=\"/fr/glossary/page-view\">pages vues</a>, des clics et des transactions.</p><p>Une session commence lorsque l'utilisateur entre sur le site et se termine lorsqu'il le quitte ou après une période d'inactivité, généralement 30 minutes. Cette limite de temps peut être réinitialisée si l'utilisateur continue d'interagir avec le site web.</p><p>Par exemple, si quelqu'un utilise Pirsch Analytics pour suivre son site web, il pourrait constater qu'un utilisateur a eu une session où il a visité trois pages différentes en 20 minutes. Pirsch enregistrerait cela comme une seule session, et toutes les actions dans ce laps de temps seraient regroupées sous cette session.</p><p>Les sessions aident les propriétaires de sites web à comprendre le comportement des utilisateurs et à évaluer l'efficacité de leur contenu ou interface utilisateur. Ils peuvent regarder des métriques telles que le nombre de sessions par jour, la durée moyenne des sessions, ou le nombre de pages par session pour prendre des décisions éclairées sur leur site. Les sessions aident les propriétaires de sites web à comprendre le comportement des utilisateurs et à évaluer l'efficacité de leur contenu ou interface.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het Woordenboek",
+                        "headline": "Wat is een sessie?",
+                        "text": "<p>Een sessie in webanalyse vertegenwoordigt een enkel bezoek van een gebruiker aan uw website. Het omvat alle interacties die de gebruiker maakt tijdens hun bezoek aan de site. Deze interacties kunnen <a href=\"/nl/glossary/page-view\">pagina weergaven</a>, klikken en transacties omvatten.</p><p>Een sessie begint wanneer een gebruiker de site betreedt en eindigt wanneer ze vertrekken of na een periode van inactiviteit, meestal 30 minuten. Deze tijdslimiet kan worden gereset als de gebruiker blijft interageren met de website.</p><p>Bijvoorbeeld, als iemand Pirsch Analytics gebruikt om hun website te volgen, zouden ze kunnen zien dat een gebruiker een sessie had waarin ze binnen 20 minuten drie verschillende pagina's bezochten. Pirsch zou dit als één sessie registreren, en alle acties binnen dat tijdsbestek zouden onder die ene sessie gegroepeerd worden.</p><p>Sessies helpen website-eigenaren om het gedrag van gebruikers te begrijpen en de effectiviteit van hun content of gebruikersinterface te beoordelen. Ze kunnen kijken naar metrics zoals het aantal sessies per dag, de gemiddelde sessielengte, of het aantal pagina's per sessie om geïnformeerde beslissingen te maken over hun site. Sessies helpen website-eigenaren om het gedrag van gebruikers te begrijpen en de effectiviteit van hun content of interface te beoordelen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è una sessione?",
+                        "text": "<p>Una sessione nell'analisi web rappresenta una singola visita di un utente al tuo sito web. Include tutte le interazioni che l'utente effettua durante la sua visita al sito. Queste interazioni possono includere <a href=\"/it/glossary/page-view\">visualizzazioni di pagine</a>, clic e transazioni.</p><p>Una sessione inizia quando un utente entra nel sito e termina quando lo lascia o dopo un periodo di inattività, solitamente 30 minuti. Questo limite di tempo può essere resettato se l'utente continua a interagire con il sito web.</p><p>Ad esempio, se qualcuno utilizza Pirsch Analytics per tracciare il proprio sito web, potrebbe vedere che un utente ha avuto una sessione in cui ha visitato tre diverse pagine in 20 minuti. Pirsch registrerebbe questo come una singola sessione, e tutte le azioni entro quel lasso di tempo sarebbero raggruppate sotto quella sessione.</p><p>Le sessioni aiutano i proprietari di siti web a comprendere il comportamento degli utenti e a valutare l'efficacia del loro contenuto o interfaccia utente. Possono esaminare metriche come il numero di sessioni al giorno, la durata media della sessione o il numero di pagine per sessione per prendere decisioni informate sul loro sito. Le sessioni aiutano i proprietari di siti web a comprendere il comportamento degli utenti e a valutare l'efficacia del loro contenuto o interfaccia.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é uma Sessão?",
+                        "text": "<p>Uma sessão em análise web representa uma única visita de um usuário ao seu site. Inclui todas as interações que o usuário realiza durante sua visita ao site. Essas interações podem incluir <a href=\"/pt/glossary/page-view\">visualizações de página</a>, cliques e transações.</p><p>Uma sessão começa quando um usuário entra no site e termina quando ele sai ou após um período de inatividade, geralmente 30 minutos. Este limite de tempo pode ser reiniciado se o usuário continuar interagindo com o site.</p><p>Por exemplo, se alguém usa a Pirsch Analytics para acompanhar seu site, poderia ver que um usuário teve uma sessão onde visitou três páginas diferentes em 20 minutos. A Pirsch registraria isso como uma sessão, e todas as ações dentro desse período de tempo seriam agrupadas sob essa sessão.</p><p>As sessões ajudam os proprietários de sites a entender o comportamento do usuário e avaliar a eficácia de seu conteúdo ou interface de usuário. Eles podem olhar para métricas como o número de sessões por dia, a duração média da sessão, ou o número de páginas por sessão para tomar decisões informadas sobre seu site. As sessões ajudam os proprietários de sites a entender o comportamento do usuário e avaliar a eficácia de seu conteúdo ou interface.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "セッションとは何ですか？",
+                        "text": "<p>Web解析におけるセッションは、ユーザーのウェブサイトへの単一訪問を表します。それには、サイト訪問中にユーザーが行うすべてのインタラクションが含まれます。これらのインタラクションには、<a href=\"/ja/glossary/page-view\">ページビュー</a>、クリック、トランザクションなどがあります。</p><p>セッションは、ユーザーがサイトに入ったときに始まり、彼らが去るか、通常30分の無活動期間の後に終了します。この時間制限は、ユーザーがウェブサイトとのやりとりを続ける場合にリセットされることがあります。</p><p>例えば、誰かがウェブサイトを追跡するためにPirsch Analyticsを使用する場合、20分以内に3つの異なるページを訪れたユーザーのセッションがあったと見ることができるでしょう。Pirschはこれを一つのセッションとして記録し、その時間枠内のすべてのアクションをその一つのセッションの下にグループ化します。</p><p>セッションはウェブサイトの所有者がユーザーの行動を理解し、コンテンツまたはユーザーインターフェースの効果を評価するのに役立ちます。彼らは、日ごとのセッション数、セッションの平均長さ、またはセッションごとのページ数などの指標を見て、サイトに関する情報に基づいた決定を行うことができます。セッションはウェブサイトの所有者がユーザーの行動を理解し、コンテンツまたはインターフェースの効果を評価するのに役立ちます。</p>"
                     }
                 }
             },
