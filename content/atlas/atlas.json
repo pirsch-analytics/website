@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas"
+        "en": "/atlas",
+        "de": "/de/atlas",
+        "es": "/es/atlas",
+        "fr": "/fr/atlas",
+        "nl": "/nl/atlas",
+        "it": "/it/atlas",
+        "pt": "/pt/atlas",
+        "ja": "/ja/atlas"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Analytics Atlas – Pirsch Analytics",
                         "meta_description": "A comprehensive list of definitions to help you navigate the world of analytics."
+                    },
+                    "de": {
+                        "title": "Analytik-Atlas – Pirsch Analytics",
+                        "meta_description": "Eine umfassende Liste von Definitionen, die dir hilft, sich in der Welt der Analytik zurechtzufinden."
+                    },
+                    "es": {
+                        "title": "Atlas de Análisis – Pirsch Analytics",
+                        "meta_description": "Una lista completa de definiciones para ayudarte a navegar el mundo de la analítica."
+                    },
+                    "fr": {
+                        "title": "Atlas de l'Analytique – Pirsch Analytics",
+                        "meta_description": "Une liste complète de définitions pour vous aider à naviguer dans le monde de l'analytique."
+                    },
+                    "nl": {
+                        "title": "Analyse Atlas – Pirsch Analytics",
+                        "meta_description": "Een uitgebreide lijst van definities om u te helpen navigeren in de wereld van analytics."
+                    },
+                    "it": {
+                        "title": "Atlante dell'Analitica – Pirsch Analytics",
+                        "meta_description": "Un elenco completo di definizioni per aiutarti a navigare nel mondo dell'analitica."
+                    },
+                    "pt": {
+                        "title": "Atlas de Análise – Pirsch Analytics",
+                        "meta_description": "Uma lista abrangente de definições para ajudá-lo a navegar no mundo da análise."
+                    },
+                    "ja": {
+                        "title": "アナリティクスアトラス – Pirsch Analytics",
+                        "meta_description": "分析の世界をナビゲートするのに役立つ定義の包括的なリスト。"
                     }
                 }
             },
