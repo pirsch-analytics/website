@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/user-agent"
+        "en": "/glossary/user-agent",
+        "de": "/de/glossary/user-agent",
+        "es": "/es/glossary/user-agent",
+        "fr": "/fr/glossary/user-agent",
+        "nl": "/nl/glossary/user-agent",
+        "it": "/it/glossary/user-agent",
+        "pt": "/pt/glossary/user-agent",
+        "ja": "/ja/glossary/user-agent"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "User Agent – Pirsch Analytics",
                         "meta_description": ""
+                    },
+                    "de": {
+                        "title": "User Agent – Pirsch Analytics",
+                        "meta_description": "Eine Software, die als Vermittler zwischen einem Benutzer und dem Internet dient, meist ein Webbrowser oder eine andere Client-Anwendung."
+                    },
+                    "es": {
+                        "title": "Agente de Usuario – Pirsch Analytics",
+                        "meta_description": "Un software que actúa como intermediario entre un usuario y el Internet, generalmente un navegador web u otra aplicación cliente."
+                    },
+                    "fr": {
+                        "title": "Agent Utilisateur – Pirsch Analytics",
+                        "meta_description": "Un logiciel qui sert d'intermédiaire entre un utilisateur et Internet, généralement un navigateur Web ou une autre application cliente."
+                    },
+                    "nl": {
+                        "title": "User Agent – Pirsch Analytics",
+                        "meta_description": "Een software die fungeert als tussenpersoon tussen een gebruiker en het internet, meestal een webbrowser of een andere clienttoepassing."
+                    },
+                    "it": {
+                        "title": "User Agent – Pirsch Analytics",
+                        "meta_description": "Un software che agisce come intermediario tra un utente e Internet, solitamente un browser web o un'altra applicazione client."
+                    },
+                    "pt": {
+                        "title": "Agente de Usuário – Pirsch Analytics",
+                        "meta_description": "Um software que atua como intermediário entre um usuário e a Internet, geralmente um navegador da web ou outra aplicação cliente."
+                    },
+                    "ja": {
+                        "title": "ユーザーエージェント – Pirsch Analytics",
+                        "meta_description": "ユーザーとインターネットの間で仲介するソフトウェアで、通常はウェブブラウザや他のクライアントアプリケーションです。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a User Agent?",
                         "text": "<p>A user agent is a string of characters that a browser or other application sends to a web server to identify itself and provide information about type, version, operating system, and other attributes. This string helps the server to deliver content in a format appropriate for the user's <a href=\"/glossary/device\">device</a>. User agents play a crucial role in the negotiation of content between clients and servers, as they allow servers to select the appropriate version of a resource based on the characteristics of the user agent.</p><p>A user agent can, for example, identify itself as a particular browser, such as Chrome on Windows, or as a bot, such as Googlebot, which crawls the web for the Google search engine. Based on this information, a Web site can decide whether to serve a page optimized for desktop browsers or a page optimized for mobile devices. It could also decide to present different information to a search engine crawler than to a normal user, such as content that is more focused on <a href=\"/glossary/search-engine-optimization\">search engine optimization</a>.</p><p>The understanding of user agents can be important for developers and webmasters to optimize the functionality of a website and the user experience in different browsers and on different devices.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein User Agent?",
+                        "text": "<p>Ein User Agent ist eine Zeichenkette, die ein Browser oder eine andere Anwendung an einen Webserver sendet, um sich selbst zu identifizieren und Informationen über Typ, Version, Betriebssystem und andere Attribute bereitzustellen. Diese Zeichenkette hilft dem Server, Inhalte in einem für das <a href=\"/de/glossary/device\">Gerät</a> des Benutzers geeigneten Format zu liefern. User Agents spielen eine entscheidende Rolle bei der Aushandlung von Inhalten zwischen Clients und Servern, da sie es den Servern ermöglichen, die passende Version einer Ressource basierend auf den Eigenschaften des User Agents auszuwählen.</p><p>Ein User Agent kann sich beispielsweise als ein bestimmter Browser identifizieren, wie Chrome unter Windows, oder als ein Bot, wie Googlebot, der das Web für die Google-Suchmaschine durchsucht. Basierend auf diesen Informationen kann eine Webseite entscheiden, ob sie eine für Desktop-Browser optimierte Seite oder eine für mobile Geräte optimierte Seite bereitstellt. Es könnte auch entscheiden, einem Suchmaschinen-Crawler andere Informationen zu präsentieren als einem normalen Benutzer, wie Inhalte, die stärker auf <a href=\"/de/glossary/search-engine-optimization\">Suchmaschinenoptimierung</a> fokussiert sind.</p><p>Das Verständnis von User Agents kann für Entwickler und Webmaster wichtig sein, um die Funktionalität einer Website und das Benutzererlebnis in verschiedenen Browsern und auf verschiedenen Geräten zu optimieren.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es un agente de usuario?",
+                        "text": "<p>Un agente de usuario es una cadena de caracteres que un navegador u otra aplicación envía a un servidor web para identificarse y proporcionar información sobre el tipo, versión, sistema operativo y otros atributos. Esta cadena ayuda al servidor a entregar contenido en un formato adecuado para el <a href=\"/es/glossary/device\">dispositivo</a> del usuario. Los agentes de usuario juegan un papel crucial en la negociación de contenido entre clientes y servidores, ya que permiten a los servidores seleccionar la versión apropiada de un recurso basado en las características del agente de usuario.</p><p>Un agente de usuario puede, por ejemplo, identificarse como un navegador específico, como Chrome en Windows, o como un bot, como Googlebot, que rastrea la web para el motor de búsqueda de Google. Basado en esta información, un sitio web puede decidir si sirve una página optimizada para navegadores de escritorio o una página optimizada para dispositivos móviles. También podría decidir presentar información diferente a un rastreador de motores de búsqueda que a un usuario normal, como contenido más enfocado en <a href=\"/es/glossary/search-engine-optimization\">optimización de motores de búsqueda</a>.</p><p>El entendimiento de los agentes de usuario puede ser importante para los desarrolladores y webmasters para optimizar la funcionalidad de un sitio web y la experiencia del usuario en diferentes navegadores y dispositivos.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce qu'un agent utilisateur ?",
+                        "text": "<p>Un agent utilisateur est une chaîne de caractères qu'un navigateur ou une autre application envoie à un serveur web pour s'identifier et fournir des informations sur le type, la version, le système d'exploitation et d'autres attributs. Cette chaîne aide le serveur à fournir le contenu dans un format approprié pour l'<a href=\"/fr/glossary/device\">appareil</a> de l'utilisateur. Les agents utilisateur jouent un rôle crucial dans la négociation de contenu entre les clients et les serveurs, car ils permettent aux serveurs de sélectionner la version appropriée d'une ressource en fonction des caractéristiques de l'agent utilisateur.</p><p>Un agent utilisateur peut, par exemple, s'identifier comme un navigateur particulier, tel que Chrome sur Windows, ou comme un bot, tel que Googlebot, qui parcourt le web pour le moteur de recherche Google. Sur la base de ces informations, un site Web peut décider de servir une page optimisée pour les navigateurs de bureau ou une page optimisée pour les appareils mobiles. Il pourrait également décider de présenter des informations différentes à un crawler de moteur de recherche qu'à un utilisateur normal, comme du contenu plus axé sur l'<a href=\"/fr/glossary/search-engine-optimization\">optimisation pour les moteurs de recherche</a>.</p><p>La compréhension des agents utilisateurs peut être importante pour les développeurs et les webmasters pour optimiser la fonctionnalité d'un site Web et l'expérience utilisateur dans différents navigateurs et sur différents appareils.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
+                        "headline": "Wat is een user agent?",
+                        "text": "<p>Een user agent is een reeks tekens die een browser of andere toepassing naar een webserver stuurt om zichzelf te identificeren en informatie te verschaffen over type, versie, besturingssysteem en andere attributen. Deze reeks helpt de server om inhoud te leveren in een formaat dat geschikt is voor het <a href=\"/nl/glossary/device\">apparaat</a> van de gebruiker. User agents spelen een cruciale rol in de onderhandeling van inhoud tussen cliënten en servers, aangezien ze het de servers mogelijk maken om de juiste versie van een resource te selecteren op basis van de kenmerken van de user agent.</p><p>Een user agent kan zich bijvoorbeeld identificeren als een specifieke browser, zoals Chrome op Windows, of als een bot, zoals Googlebot, die het web doorzoekt voor de Google-zoekmachine. Op basis van deze informatie kan een website besluiten om een pagina te serveren die geoptimaliseerd is voor desktopbrowsers of een pagina die geoptimaliseerd is voor mobiele apparaten. Het zou ook kunnen besluiten om andere informatie te presenteren aan een zoekmachinecrawler dan aan een normale gebruiker, zoals inhoud die meer gericht is op <a href=\"/nl/glossary/search-engine-optimization\">zoekmachineoptimalisatie</a>.</p><p>Het begrijpen van user agents kan belangrijk zijn voor ontwikkelaars en webmasters om de functionaliteit van een website en de gebruikerservaring in verschillende browsers en op verschillende apparaten te optimaliseren.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è un user agent?",
+                        "text": "<p>Un user agent è una stringa di caratteri che un browser o un'altra applicazione invia a un server web per identificarsi e fornire informazioni su tipo, versione, sistema operativo e altri attributi. Questa stringa aiuta il server a fornire contenuti in un formato adatto al <a href=\"/it/glossary/device\">dispositivo</a> dell'utente. Gli user agent giocano un ruolo cruciale nella negoziazione del contenuto tra clienti e server, poiché consentono ai server di selezionare la versione appropriata di una risorsa basata sulle caratteristiche dell'agente utente.</p><p>Un user agent può, ad esempio, identificarsi come un particolare browser, come Chrome su Windows, o come un bot, come Googlebot, che esplora il web per il motore di ricerca Google. Sulla base di queste informazioni, un sito web può decidere se servire una pagina ottimizzata per i browser desktop o una pagina ottimizzata per i dispositivi mobili. Potrebbe anche decidere di presentare informazioni diverse a un crawler di motore di ricerca rispetto a un utente normale, come contenuti più focalizzati sull'<a href=\"/it/glossary/search-engine-optimization\">ottimizzazione per i motori di ricerca</a>.</p><p>La comprensione degli user agent può essere importante per gli sviluppatori e i webmaster per ottimizzare la funzionalità di un sito web e l'esperienza utente in diversi browser e su diversi dispositivi.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é um agente de usuário?",
+                        "text": "<p>Um agente de usuário é uma sequência de caracteres que um navegador ou outra aplicação envia a um servidor web para se identificar e fornecer informações sobre o tipo, versão, sistema operacional e outros atributos. Essa sequência ajuda o servidor a entregar conteúdo em um formato adequado para o <a href=\"/pt/glossary/device\">dispositivo</a> do usuário. Agentes de usuário desempenham um papel crucial na negociação de conteúdo entre clientes e servidores, pois permitem que os servidores selecionem a versão apropriada de um recurso com base nas características do agente de usuário.</p><p>Um agente de usuário pode, por exemplo, identificar-se como um navegador específico, como o Chrome no Windows, ou como um bot, como o Googlebot, que vasculha a web para o motor de busca do Google. Com base nessa informação, um site pode decidir servir uma página otimizada para navegadores de desktop ou uma página otimizada para dispositivos móveis. Ele também pode decidir apresentar informações diferentes para um crawler de mecanismo de busca do que para um usuário normal, como conteúdo mais focado em <a href=\"/pt/glossary/search-engine-optimization\">otimização para motores de busca</a>.</p><p>O entendimento de agentes de usuário pode ser importante para desenvolvedores e webmasters para otimizar a funcionalidade de um site e a experiência do usuário em diferentes navegadores e dispositivos.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ユーザーエージェントとは何ですか？",
+                        "text": "<p>ユーザーエージェントは、ブラウザーや他のアプリケーションがウェブサーバーに自身を識別し、タイプ、バージョン、オペレーティングシステム、その他の属性に関する情報を提供するために送信する文字列です。この文字列は、サーバーがユーザーの<a href=\"/ja/glossary/device\">デバイス</a>に適した形式でコンテンツを提供するのに役立ちます。ユーザーエージェントは、クライアントとサーバー間のコンテンツの交渉において重要な役割を果たします。これにより、サーバーはユーザーエージェントの特性に基づいてリソースの適切なバージョンを選択することができます。</p><p>たとえば、ユーザーエージェントは、Windows上のChromeなどの特定のブラウザーとして、またはGoogleの検索エンジンのためにWebをクロールするGooglebotなどのボットとして自身を識別することがあります。この情報に基づいて、ウェブサイトはデスクトップブラウザー用に最適化されたページまたはモバイルデバイス用に最適化されたページのいずれかを提供するかを決定することができます。また、通常のユーザーにはなく、検索エンジンのクローラーに対しては<a href=\"/ja/glossary/search-engine-optimization\">検索エンジン最適化</a>に焦点を当てたコンテンツを提示することもできます。</p><p>ユーザーエージェントを理解することは、さまざまなブラウザーやデバイスでのウェブサイトの機能性とユーザーエクスペリエンスを最適化するために、開発者やウェブマスターにとって重要です。</p>"
                     }
                 }
             },
