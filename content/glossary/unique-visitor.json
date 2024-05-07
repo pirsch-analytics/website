@@ -20,6 +20,34 @@
                     "en": {
                         "title": "Unique Visitor – Pirsch Analytics",
                         "meta_description": "A single user who visits a website within a specified time period, regardless of how many times they visit."
+                    },
+                    "de": {
+                        "title": "Einzigarter Besucher – Pirsch Analytics",
+                        "meta_description": "Ein einzelner Benutzer, der innerhalb eines bestimmten Zeitraums eine Website besucht, unabhängig davon, wie oft er sie besucht."
+                    },
+                    "es": {
+                        "title": "Visitante único – Pirsch Analytics",
+                        "meta_description": "Un solo usuario que visita un sitio web dentro de un período de tiempo especificado, sin importar cuántas veces lo visite."
+                    },
+                    "fr": {
+                        "title": "Visiteur unique – Pirsch Analytics",
+                        "meta_description": "Un utilisateur unique qui visite un site web pendant une période spécifiée, indépendamment du nombre de fois où il le visite."
+                    },
+                    "nl": {
+                        "title": "Unieke bezoeker – Pirsch Analytics",
+                        "meta_description": "Een enkele gebruiker die een website bezoekt binnen een bepaalde periode, ongeacht hoe vaak ze de site bezoeken."
+                    },
+                    "it": {
+                        "title": "Visitatore unico – Pirsch Analytics",
+                        "meta_description": "Un singolo utente che visita un sito web entro un periodo di tempo specificato, indipendentemente dal numero di visite."
+                    },
+                    "pt": {
+                        "title": "Visitante único – Pirsch Analytics",
+                        "meta_description": "Um único usuário que visita um site dentro de um período de tempo especificado, independentemente de quantas vezes ele visita."
+                    },
+                    "ja": {
+                        "title": "ユニークビジター – Pirsch Analytics",
+                        "meta_description": "指定された期間内にウェブサイトを訪れる単一のユーザーで、訪問回数に関わらずカウントされます。"
                     }
                 }
             },
@@ -32,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a Unique Visitor?",
                         "text": "<p>A unique visitor is a single user who visits a website during a specific time period, such as a day, week, or month. Each unique visitor is counted only once during that period, regardless of how often they visit the site. This metric helps website owners understand the size of their audience.</p><p>For example, with Pirsch Analytics, a website visited multiple times in a day by the same user is still counted as a single visitor. This distinction is important to measure true reach, not just the level of activity reflected in metrics such as <a href=\"/glossary/page-view\">page views</a> or <a href=\"/glossary/session\">sessions</a>.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein einzigarter Besucher?",
+                        "text": "<p>Ein einzigartiger Besucher ist ein einzelner Benutzer, der eine Website während eines bestimmten Zeitraums, wie einem Tag, einer Woche oder einem Monat, besucht. Jeder einmalige Besucher wird in diesem Zeitraum nur einmal gezählt, unabhängig davon, wie oft er die Seite besucht. Diese Metrik hilft Website-Betreibern, die Größe ihres Publikums zu verstehen.</p><p>Zum Beispiel wird bei Pirsch Analytics eine Website, die an einem Tag mehrmals vom selben Benutzer besucht wird, immer noch als ein einzelner Besucher gezählt. Diese Unterscheidung ist wichtig, um die wahre Reichweite zu messen, nicht nur das Aktivitätsniveau, das in Metriken wie <a href=\"/de/glossary/page-view\">Seitenaufrufen</a> oder <a href=\"/de/glossary/session\">Sitzungen</a> widergespiegelt wird.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es un visitante único?",
+                        "text": "<p>Un visitante único es un solo usuario que visita un sitio web durante un período específico, como un día, una semana o un mes. Cada visitante único se cuenta solo una vez durante ese período, independientemente de cuántas veces visite el sitio. Esta métrica ayuda a los propietarios de sitios web a entender el tamaño de su audiencia.</p><p>Por ejemplo, con Pirsch Analytics, un sitio web visitado varias veces en un día por el mismo usuario aún se cuenta como un solo visitante. Esta distinción es importante para medir el alcance real, no solo el nivel de actividad reflejado en métricas como <a href=\"/es/glossary/page-view\">vistas de página</a> o <a href=\"/es/glossary/session\">sesiones</a>.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce qu'un visiteur unique ?",
+                        "text": "<p>Un visiteur unique est un seul utilisateur qui visite un site web pendant une période spécifique, comme un jour, une semaine ou un mois. Chaque visiteur unique est compté une seule fois pendant cette période, peu importe la fréquence de ses visites. Cette mesure aide les propriétaires de sites web à comprendre la taille de leur audience.</p><p>Par exemple, avec Pirsch Analytics, un site web visité plusieurs fois dans la journée par le même utilisateur est toujours compté comme un seul visiteur. Cette distinction est importante pour mesurer la portée réelle, et non juste le niveau d'activité reflété par des métriques telles que les <a href=\"/fr/glossary/page-view\">pages vues</a> ou les <a href=\"/fr/glossary/session\">sessions</a>.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
+                        "headline": "Wat is een unieke bezoeker?",
+                        "text": "<p>Een unieke bezoeker is een enkele gebruiker die een website bezoekt gedurende een specifieke periode, zoals een dag, week of maand. Elke unieke bezoeker wordt slechts één keer geteld tijdens die periode, ongeacht hoe vaak ze de site bezoeken. Deze statistiek helpt website-eigenaren om de omvang van hun publiek te begrijpen.</p><p>Bijvoorbeeld, met Pirsch Analytics wordt een website die meerdere keren op één dag door dezelfde gebruiker wordt bezocht nog steeds geteld als één bezoeker. Dit onderscheid is belangrijk om de ware reikwijdte te meten, niet alleen het niveau van activiteit weerspiegeld in statistieken zoals <a href=\"/nl/glossary/page-view\">pagina weergaven</a> of <a href=\"/nl/glossary/session\">sessies</a>.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è un visitatore unico?",
+                        "text": "<p>Un visitatore unico è un singolo utente che visita un sito web durante un periodo specifico, come un giorno, una settimana o un mese. Ogni visitatore unico viene conteggiato solo una volta durante quel periodo, indipendentemente da quante volte visita il sito. Questa metrica aiuta i proprietari di siti web a comprendere la dimensione del loro pubblico.</p><p>Ad esempio, con Pirsch Analytics, un sito web visitato più volte in un giorno dallo stesso utente viene ancora conteggiato come un singolo visitatore. Questa distinzione è importante per misurare la vera portata, non solo il livello di attività riflessa in metriche come <a href=\"/it/glossary/page-view\">visualizzazioni di pagina</a> o <a href=\"/it/glossary/session\">sessioni</a>.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é um visitante único?",
+                        "text": "<p>Um visitante único é um único usuário que visita um site durante um período específico, como um dia, semana ou mês. Cada visitante único é contado apenas uma vez durante esse período, independentemente de quantas vezes ele visita o site. Esta métrica ajuda os proprietários de sites a entender o tamanho de seu público.</p><p>Por exemplo, com o Pirsch Analytics, um site visitado várias vezes em um dia pelo mesmo usuário ainda é contado como um único visitante. Esta distinção é importante para medir o verdadeiro alcance, não apenas o nível de atividade refletido em métricas como <a href=\"/pt/glossary/page-view\">visualizações de página</a> ou <a href=\"/pt/glossary/session\">sessões</a>.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "ユニークビジターとは何ですか？",
+                        "text": "<p>ユニークビジターは、特定の期間（1日、1週間、または1ヶ月など）にウェブサイトを訪れる単一のユーザーを指します。その期間中、ユーザーがサイトを訪れた回数に関わらず、ユニークビジターは一度だけカウントされます。この指標は、ウェブサイトのオーナーが自サイトの規模を理解するのに役立ちます。</p><p>例えば、Pirsch Analyticsを使用しているウェブサイトが1日に同一ユーザーによって複数回訪れられた場合でも、そのユーザーは単一の訪問者としてカウントされます。この区別は、単なる活動レベル（<a href=\"/ja/glossary/page-view\">ページビュー</a>や<a href=\"/ja/glossary/session\">セッション</a>などの指標に反映される）だけでなく、真のリーチを測定するために重要です。</p>"
                     }
                 }
             },

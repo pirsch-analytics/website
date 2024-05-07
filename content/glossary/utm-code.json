@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/glossary/utm-code"
+        "en": "/glossary/utm-code",
+        "de": "/de/glossary/utm-code",
+        "es": "/es/glossary/utm-code",
+        "fr": "/fr/glossary/utm-code",
+        "nl": "/nl/glossary/utm-code",
+        "it": "/it/glossary/utm-code",
+        "pt": "/pt/glossary/utm-code",
+        "ja": "/ja/glossary/utm-code"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "UTM Code – Pirsch Analytics",
                         "meta_description": "Urchin Tracking Module code, a tracking parameter appended to URLs to track the effectiveness of online marketing campaigns."
+                    },
+                    "de": {
+                        "title": "UTM-Code – Pirsch Analytics",
+                        "meta_description": "Urchin Tracking Module-Code, ein Tracking-Parameter, der an URLs angehängt wird, um die Wirksamkeit von Online-Marketingkampagnen zu verfolgen."
+                    },
+                    "es": {
+                        "title": "Código UTM – Pirsch Analytics",
+                        "meta_description": "Código del Módulo de Seguimiento de Urchin, un parámetro de seguimiento que se agrega a las URL para rastrear la efectividad de las campañas de marketing en línea."
+                    },
+                    "fr": {
+                        "title": "Code UTM – Pirsch Analytics",
+                        "meta_description": "Code du Module de Suivi Urchin, un paramètre de suivi ajouté aux URL pour suivre l'efficacité des campagnes de marketing en ligne."
+                    },
+                    "nl": {
+                        "title": "UTM-Code – Pirsch Analytics",
+                        "meta_description": "Urchin Tracking Module code, een trackingparameter die aan URL's wordt toegevoegd om de effectiviteit van online marketingcampagnes te volgen."
+                    },
+                    "it": {
+                        "title": "Codice UTM – Pirsch Analytics",
+                        "meta_description": "Codice del Modulo di Tracciamento Urchin, un parametro di tracciamento aggiunto agli URL per monitorare l'efficacia delle campagne di marketing online."
+                    },
+                    "pt": {
+                        "title": "Código UTM – Pirsch Analytics",
+                        "meta_description": "Código do Módulo de Rastreamento Urchin, um parâmetro de rastreamento anexado a URLs para acompanhar a eficácia de campanhas de marketing online."
+                    },
+                    "ja": {
+                        "title": "UTMコード – Pirsch Analytics",
+                        "meta_description": "アーチントラッキングモジュールコード、オンラインマーケティングキャンペーンの効果を追跡するためにURLに追加されるトラッキングパラメータ。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Glossary",
                         "headline": "What is a UTM Code?",
                         "text": "<p>UTM code, short for Urchin Tracking Module, is a simple code that can be added to any <a href=\"/glossary/uniform-resource-locator\">URL</a> to generate Google Analytics data for digital campaigns. By adding UTM parameters to a URL, marketers can track the effectiveness of different campaigns and content. These parameters include source, medium, campaign, term, and content, which provide detailed insight into how visitors interact with a website.</p><p>For example, the URL \"https://www.example.com/product?utm_source=newsletter&utm_medium=email&utm_campaign=spring_sale\" contains UTM parameters indicating that the traffic is from an email newsletter as part of a spring sales campaign. This allows the website's analytics tools to show exactly how many visitors are coming from the newsletter and how well this specific campaign is performing in terms of traffic and <a href=\"/glossary/conversion\">conversions</a>.</p><p>UTM codes are invaluable for marketers who want to understand the impact of their digital marketing efforts across channels and optimize their strategies based on precise analytics data.</p><p>Check out our <a href=\"/utm-generator\">free UTM generator</a> to start using UTM codes with Pirsch Analytics today.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist ein UTM-Code?",
+                        "text": "<p>UTM-Code, kurz für Urchin Tracking Module, ist ein einfacher Code, der jeder <a href=\"/de/glossary/uniform-resource-locator\">URL</a> hinzugefügt werden kann, um Google Analytics-Daten für digitale Kampagnen zu generieren. Durch das Hinzufügen von UTM-Parametern zu einer URL können Vermarkter die Wirksamkeit verschiedener Kampagnen und Inhalte verfolgen. Diese Parameter umfassen Quelle, Medium, Kampagne, Begriff und Inhalt, die detaillierte Einblicke in die Interaktion der Besucher mit einer Website bieten.</p><p>Zum Beispiel enthält die URL \"https://www.beispiel.com/produkt?utm_source=newsletter&utm_medium=email&utm_campaign=fruehlingsverkauf\" UTM-Parameter, die darauf hinweisen, dass der Traffic aus einem E-Mail-Newsletter als Teil einer Frühlingsverkaufskampagne stammt. Dies ermöglicht es den Analysetools der Website genau zu zeigen, wie viele Besucher aus dem Newsletter kommen und wie gut diese spezifische Kampagne in Bezug auf Traffic und <a href=\"/de/glossary/conversion\">Konversionen</a> abschneidet.</p><p>UTM-Codes sind für Vermarkter von unschätzbarem Wert, die die Auswirkungen ihrer digitalen Marketingbemühungen über verschiedene Kanäle hinweg verstehen und ihre Strategien basierend auf präzisen Analysedaten optimieren möchten.</p><p>Schau dir unseren <a href=\"/de/utm-generator\">kostenlosen UTM-Generator</a> an, um heute mit Pirsch Analytics UTM-Codes zu verwenden.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al glosario",
+                        "headline": "¿Qué es un código UTM?",
+                        "text": "<p>El código UTM, abreviatura de Urchin Tracking Module, es un código simple que se puede agregar a cualquier <a href=\"/es/glossary/uniform-resource-locator\">URL</a> para generar datos de Google Analytics para campañas digitales. Al agregar parámetros UTM a una URL, los comercializadores pueden rastrear la efectividad de diferentes campañas y contenido. Estos parámetros incluyen fuente, medio, campaña, término y contenido, que proporcionan información detallada sobre cómo los visitantes interactúan con un sitio web.</p><p>Por ejemplo, la URL \"https://www.ejemplo.com/producto?utm_source=boletin&utm_medium=email&utm_campaign=venta_primavera\" contiene parámetros UTM que indican que el tráfico proviene de un boletín por correo electrónico como parte de una campaña de ventas de primavera. Esto permite que las herramientas analíticas del sitio web muestren exactamente cuántos visitantes provienen del boletín y qué tan bien está funcionando esta campaña específica en términos de tráfico y <a href=\"/es/glossary/conversion\">conversiones</a>.</p><p>Los códigos UTM son invaluables para los comercializadores que desean entender el impacto de sus esfuerzos de marketing digital en diversos canales y optimizar sus estrategias basadas en datos analíticos precisos.</p><p>Consulta nuestro <a href=\"/es/utm-generator\">generador de UTM gratuito</a> para empezar a usar códigos UTM con Pirsch Analytics hoy.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au glossaire",
+                        "headline": "Qu'est-ce qu'un code UTM?",
+                        "text": "<p>Le code UTM, abréviation de Urchin Tracking Module, est un code simple qui peut être ajouté à n'importe quelle <a href=\"/fr/glossary/uniform-resource-locator\">URL</a> pour générer des données Google Analytics pour les campagnes numériques. En ajoutant des paramètres UTM à une URL, les marketeurs peuvent suivre l'efficacité de différentes campagnes et contenus. Ces paramètres comprennent la source, le moyen, la campagne, le terme et le contenu, qui fournissent des informations détaillées sur la façon dont les visiteurs interagissent avec un site Web.</p><p>Par exemple, l'URL \"https://www.exemple.com/produit?utm_source=newsletter&utm_medium=email&utm_campaign=vente_printemps\" contient des paramètres UTM indiquant que le trafic provient d'une newsletter par e-mail dans le cadre d'une campagne de vente de printemps. Cela permet aux outils d'analyse du site de montrer exactement combien de visiteurs viennent de la newsletter et comment cette campagne spécifique se porte en termes de trafic et de <a href=\"/fr/glossary/conversion\">conversions</a>.</p><p>Les codes UTM sont inestimables pour les marketeurs qui souhaitent comprendre l'impact de leurs efforts de marketing digital sur différents canaux et optimiser leurs stratégies basées sur des données analytiques précises.</p><p>Découvrez notre <a href=\"/fr/utm-generator\">générateur de UTM gratuit</a> pour commencer à utiliser les codes UTM avec Pirsch Analytics dès aujourd'hui.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het woordenboek",
+                        "headline": "Wat is een UTM-code?",
+                        "text": "<p>Een UTM-code, afkorting voor Urchin Tracking Module, is een eenvoudige code die aan elke <a href=\"/nl/glossary/uniform-resource-locator\">URL</a> kan worden toegevoegd om Google Analytics-gegevens voor digitale campagnes te genereren. Door UTM-parameters aan een URL toe te voegen, kunnen marketeers de effectiviteit van verschillende campagnes en inhoud volgen. Deze parameters omvatten bron, medium, campagne, term en inhoud, die gedetailleerde inzichten bieden in hoe bezoekers met een website omgaan.</p><p>Bijvoorbeeld, de URL \"https://www.voorbeeld.com/product?utm_source=nieuwsbrief&utm_medium=email&utm_campaign=lente_verkoop\" bevat UTM-parameters die aangeven dat het verkeer afkomstig is van een e-mailnieuwsbrief als onderdeel van een lenteverkoopcampagne. Dit stelt de analysetools van de website in staat om precies te laten zien hoeveel bezoekers uit de nieuwsbrief komen en hoe goed deze specifieke campagne presteert in termen van verkeer en <a href=\"/nl/glossary/conversion\">conversies</a>.</p><p>UTM-codes zijn van onschatbare waarde voor marketeers die de impact van hun digitale marketinginspanningen over kanalen willen begrijpen en hun strategieën willen optimaliseren op basis van nauwkeurige analytische gegevens.</p><p>Bekijk onze <a href=\"/nl/utm-generator\">gratis UTM-generator</a> om vandaag nog UTM-codes te gebruiken met Pirsch Analytics.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al glossario",
+                        "headline": "Cos'è un codice UTM?",
+                        "text": "<p>Il codice UTM, acronimo di Urchin Tracking Module, è un codice semplice che può essere aggiunto a qualsiasi <a href=\"/it/glossary/uniform-resource-locator\">URL</a> per generare dati di Google Analytics per campagne digitali. Aggiungendo parametri UTM a un URL, i marketer possono tracciare l'efficacia di diverse campagne e contenuti. Questi parametri includono sorgente, mezzo, campagna, termine e contenuto, che forniscono informazioni dettagliate su come i visitatori interagiscono con un sito web.</p><p>Ad esempio, l'URL \"https://www.esempio.com/prodotto?utm_source=newsletter&utm_medium=email&utm_campaign=vendita_primavera\" contiene parametri UTM che indicano che il traffico proviene da una newsletter via email come parte di una campagna di vendita primaverile. Questo permette agli strumenti di analisi del sito di mostrare esattamente quanti visitatori provengono dalla newsletter e quanto bene sta performando questa specifica campagna in termini di traffico e <a href=\"/it/glossary/conversion\">conversioni</a>.</p><p>I codici UTM sono inestimabili per i marketer che vogliono comprendere l'impatto dei loro sforzi di marketing digitale attraverso i canali e ottimizzare le loro strategie basate su dati analitici precisi.</p><p>Scopri il nostro <a href=\"/it/utm-generator\">generatore di UTM gratuito</a> per iniziare a utilizzare i codici UTM con Pirsch Analytics oggi stesso.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao glossário",
+                        "headline": "O que é um código UTM?",
+                        "text": "<p>O código UTM, abreviação de Urchin Tracking Module, é um código simples que pode ser adicionado a qualquer <a href=\"/pt/glossary/uniform-resource-locator\">URL</a> para gerar dados do Google Analytics para campanhas digitais. Ao adicionar parâmetros UTM a uma URL, os profissionais de marketing podem rastrear a eficácia de diferentes campanhas e conteúdos. Esses parâmetros incluem fonte, meio, campanha, termo e conteúdo, que fornecem insights detalhados sobre como os visitantes interagem com um site.</p><p>Por exemplo, a URL \"https://www.exemplo.com/produto?utm_source=boletim&utm_medium=email&utm_campaign=venda_de_primavera\" contém parâmetros UTM que indicam que o tráfego é de um boletim informativo por email como parte de uma campanha de vendas de primavera. Isso permite que as ferramentas de análise do site mostrem exatamente quantos visitantes estão vindo do boletim informativo e como essa campanha específica está se desempenhando em termos de tráfego e <a href=\"/pt/glossary/conversion\">conversões</a>.</p><p>Os códigos UTM são inestimáveis para os profissionais de marketing que desejam entender o impacto de seus esforços de marketing digital em diferentes canais e otimizar suas estratégias com base em dados analíticos precisos.</p><p>Confira nosso <a href=\"/pt/utm-generator\">gerador de UTM gratuito</a> para começar a usar códigos UTM com Pirsch Analytics hoje.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "UTMコードとは何ですか？",
+                        "text": "<p>UTMコードとは、Urchin Tracking Moduleの略で、デジタルキャンペーンのGoogleアナリティクスデータを生成するために任意の<a href=\"/ja/glossary/uniform-resource-locator\">URL</a>に追加できるシンプルなコードです。UTMパラメータをURLに追加することで、マーケターは異なるキャンペーンやコンテンツの効果を追跡することができます。これらのパラメータには、ソース、メディア、キャンペーン、用語、コンテンツが含まれ、訪問者がウェブサイトとどのようにやり取りするかについての詳細な洞察を提供します。</p><p>例えば、「https://www.example.com/product?utm_source=newsletter&utm_medium=email&utm_campaign=spring_sale」のURLには、春のセールキャンペーンの一環としてEメールニュースレターからのトラフィックであることを示すUTMパラメータが含まれています。これにより、ウェブサイトの分析ツールは、ニュースレターから来る訪問者の正確な数と、この特定のキャンペーンがトラフィックと<a href=\"/ja/glossary/conversion\">コンバージョン</a>の観点からどの程度のパフォーマンスを発揮しているかを正確に示すことができます。</p><p>UTMコードは、さまざまなチャンネルを通じてデジタルマーケティング努力の影響を理解し、正確な分析データに基づいて戦略を最適化したいマーケターにとって非常に価値があります。</p><p>今日からPirsch AnalyticsでUTMコードを使用するための<a href=\"/ja/utm-generator\">無料のUTMジェネレータ</a>をチェックしてください。</p>"
                     }
                 }
             },
