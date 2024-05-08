@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/data-analytics"
+        "en": "/atlas/data-analytics",
+        "de": "/de/atlas/data-analytics",
+        "es": "/es/atlas/data-analytics",
+        "fr": "/fr/atlas/data-analytics",
+        "nl": "/nl/atlas/data-analytics",
+        "it": "/it/atlas/data-analytics",
+        "pt": "/pt/atlas/data-analytics",
+        "ja": "/ja/atlas/data-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Data Analytics – Pirsch Analytics",
                         "meta_description": "The process of analyzing raw data to uncover insights, trends, and patterns that can inform decision-making and drive business strategies."
+                    },
+                    "de": {
+                        "title": "Data Analytics – Pirsch Analytics",
+                        "meta_description": "Der Prozess der Analyse von Rohdaten, um Einsichten, Trends und Muster zu entdecken, die die Entscheidungsfindung informieren und Geschäftsstrategien antreiben können."
+                    },
+                    "es": {
+                        "title": "Análisis de Datos – Pirsch Analytics",
+                        "meta_description": "El proceso de analizar datos en bruto para descubrir perspectivas, tendencias y patrones que pueden informar la toma de decisiones y dirigir estrategias de negocio."
+                    },
+                    "fr": {
+                        "title": "Analyse des Données – Pirsch Analytics",
+                        "meta_description": "Le processus d'analyse des données brutes pour découvrir des insights, des tendances et des motifs qui peuvent éclairer la prise de décision et orienter les stratégies d'entreprise."
+                    },
+                    "nl": {
+                        "title": "Data-analyse – Pirsch Analytics",
+                        "meta_description": "Het proces van het analyseren van ruwe data om inzichten, trends en patronen te onthullen die besluitvorming kunnen informeren en bedrijfsstrategieën kunnen sturen."
+                    },
+                    "it": {
+                        "title": "Analisi dei Dati – Pirsch Analytics",
+                        "meta_description": "Il processo di analisi dei dati grezzi per scoprire intuizioni, tendenze e modelli che possono informare il processo decisionale e guidare le strategie aziendali."
+                    },
+                    "pt": {
+                        "title": "Análise de Dados – Pirsch Analytics",
+                        "meta_description": "O processo de analisar dados brutos para descobrir insights, tendências e padrões que podem informar a tomada de decisão e direcionar estratégias de negócios."
+                    },
+                    "ja": {
+                        "title": "データ分析 – Pirsch Analytics",
+                        "meta_description": "生データを分析して洞察、トレンド、パターンを発見し、意思決定を支援しビジネス戦略を推進するプロセス。"
                     }
                 }
             },

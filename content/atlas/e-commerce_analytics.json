@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/e-commerce-analytics"
+        "en": "/atlas/e-commerce-analytics",
+        "de": "/de/atlas/e-commerce-analytics",
+        "es": "/es/atlas/e-commerce-analytics",
+        "fr": "/fr/atlas/e-commerce-analytics",
+        "nl": "/nl/atlas/e-commerce-analytics",
+        "it": "/it/atlas/e-commerce-analytics",
+        "pt": "/pt/atlas/e-commerce-analytics",
+        "ja": "/ja/atlas/e-commerce-analytics"
     },
     "sitemap": {
         "priority": "0.5"

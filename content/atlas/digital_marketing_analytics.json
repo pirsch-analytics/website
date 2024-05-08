@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/digital-marketing-analytics"
+        "en": "/atlas/digital-marketing-analytics",
+        "de": "/de/atlas/digital-marketing-analytics",
+        "es": "/es/atlas/digital-marketing-analytics",
+        "fr": "/fr/atlas/digital-marketing-analytics",
+        "nl": "/nl/atlas/digital-marketing-analytics",
+        "it": "/it/atlas/digital-marketing-analytics",
+        "pt": "/pt/atlas/digital-marketing-analytics",
+        "ja": "/ja/atlas/digital-marketing-analytics"
     },
     "sitemap": {
         "priority": "0.5"
