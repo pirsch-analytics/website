@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/environmental-analytics"
+        "en": "/atlas/environmental-analytics",
+        "de": "/de/atlas/environmental-analytics",
+        "es": "/es/atlas/environmental-analytics",
+        "fr": "/fr/atlas/environmental-analytics",
+        "nl": "/nl/atlas/environmental-analytics",
+        "it": "/it/atlas/environmental-analytics",
+        "pt": "/pt/atlas/environmental-analytics",
+        "ja": "/ja/atlas/environmental-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Environmental Analytics – Pirsch Analytics",
                         "meta_description": "The analysis of environmental data to monitor and manage natural resources, assess environmental impact, and support sustainability initiatives."
+                    },
+                    "de": {
+                        "title": "Environmental Analytics – Pirsch Analytics",
+                        "meta_description": "Die Analyse von Umweltdaten zur Überwachung und Verwaltung natürlicher Ressourcen, zur Bewertung von Umweltauswirkungen und zur Unterstützung von Nachhaltigkeitsinitiativen."
+                    },
+                    "es": {
+                        "title": "Analítica Ambiental – Pirsch Analytics",
+                        "meta_description": "El análisis de datos ambientales para monitorear y gestionar recursos naturales, evaluar el impacto ambiental y apoyar iniciativas de sostenibilidad."
+                    },
+                    "fr": {
+                        "title": "Analytique Environnementale – Pirsch Analytics",
+                        "meta_description": "L'analyse des données environnementales pour surveiller et gérer les ressources naturelles, évaluer l'impact environnemental et soutenir les initiatives de durabilité."
+                    },
+                    "nl": {
+                        "title": "Milieuanalyse – Pirsch Analytics",
+                        "meta_description": "De analyse van milieugegevens om natuurlijke hulpbronnen te monitoren en te beheren, milieueffecten te beoordelen en duurzaamheidsinitiatieven te ondersteunen."
+                    },
+                    "it": {
+                        "title": "Analisi Ambientale – Pirsch Analytics",
+                        "meta_description": "L'analisi dei dati ambientali per monitorare e gestire le risorse naturali, valutare l'impatto ambientale e supportare iniziative di sostenibilità."
+                    },
+                    "pt": {
+                        "title": "Análise Ambiental – Pirsch Analytics",
+                        "meta_description": "A análise de dados ambientais para monitorar e gerenciar recursos naturais, avaliar o impacto ambiental e apoiar iniciativas de sustentabilidade."
+                    },
+                    "ja": {
+                        "title": "環境分析 – Pirsch Analytics",
+                        "meta_description": "自然資源の監視と管理、環境影響の評価、持続可能性イニシアティブのサポートのための環境データの分析。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Environmental Analytics?",
                         "text": "<p><strong>Environmental Analytics</strong> focuses on the analysis of environmental data to understand and address environmental challenges. The field uses data collected from a variety of sources, such as satellite imagery, sensors, and environmental monitoring stations, to study patterns and trends in the environment. By analyzing this data, scientists and policymakers can make more informed decisions about conservation efforts, resource management, and sustainable practices.</p><p>Analysts can track changes in climate patterns, air and water quality, biodiversity, and land use. Tools and techniques commonly used in environmental analytics include geographic information systems (GIS), remote sensing, and predictive modeling. These tools help visualize complex environmental data and predict future environmental conditions based on current and historical trends.</p><p>In addition, environmental analytics plays a critical role in developing strategies to mitigate the effects of climate change, manage natural disasters, and preserve natural habitats. By providing deep insight into environmental conditions and how they change over time, environmental analytics supports efforts to create a sustainable future and helps governments, businesses and communities make better decisions about environmental stewardship.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Umweltanalytik?",
+                        "text": "<p><strong>Umweltanalytik</strong> konzentriert sich auf die Analyse von Umweltdaten, um Umweltprobleme zu verstehen und anzugehen. Das Feld nutzt Daten, die aus verschiedenen Quellen wie Satellitenbildern, Sensoren und Umweltüberwachungsstationen gesammelt werden, um Muster und Trends in der Umwelt zu studieren. Durch die Analyse dieser Daten können Wissenschaftler und politische Entscheidungsträger fundiertere Entscheidungen über Naturschutzmaßnahmen, Ressourcenmanagement und nachhaltige Praktiken treffen.</p><p>Analytiker können Veränderungen in Klimamustern, Luft- und Wasserqualität, Biodiversität und Landnutzung verfolgen. Zu den in der Umweltanalytik häufig verwendeten Werkzeugen und Techniken gehören geografische Informationssysteme (GIS), Fernerkundung und prädiktive Modellierung. Diese Werkzeuge helfen dabei, komplexe Umweltdaten zu visualisieren und zukünftige Umweltbedingungen auf der Grundlage aktueller und historischer Trends vorherzusagen.</p><p>Darüber hinaus spielt die Umweltanalytik eine entscheidende Rolle bei der Entwicklung von Strategien zur Milderung der Auswirkungen des Klimawandels, beim Management von Naturkatastrophen und beim Erhalt natürlicher Lebensräume. Indem sie tiefgreifende Einblicke in die Umweltbedingungen und deren Veränderungen im Laufe der Zeit bietet, unterstützt die Umweltanalytik Bemühungen, eine nachhaltige Zukunft zu schaffen und hilft Regierungen, Unternehmen und Gemeinschaften, bessere Entscheidungen in Bezug auf Umweltverantwortung zu treffen.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Ambiental?",
+                        "text": "<p><strong>La Analítica Ambiental</strong> se centra en el análisis de datos ambientales para entender y abordar los desafíos ambientales. El campo utiliza datos recogidos de una variedad de fuentes, como imágenes satelitales, sensores y estaciones de monitoreo ambiental, para estudiar patrones y tendencias en el medio ambiente. Al analizar estos datos, los científicos y los responsables políticos pueden tomar decisiones más informadas sobre esfuerzos de conservación, gestión de recursos y prácticas sostenibles.</p><p>Los analistas pueden rastrear cambios en los patrones climáticos, la calidad del aire y del agua, la biodiversidad y el uso del suelo. Las herramientas y técnicas comúnmente utilizadas en la analítica ambiental incluyen sistemas de información geográfica (GIS), teledetección y modelado predictivo. Estas herramientas ayudan a visualizar datos ambientales complejos y a predecir las condiciones ambientales futuras basadas en tendencias actuales e históricas.</p><p>Además, la analítica ambiental desempeña un papel crítico en el desarrollo de estrategias para mitigar los efectos del cambio climático, gestionar desastres naturales y preservar hábitats naturales. Al proporcionar una visión profunda de las condiciones ambientales y cómo cambian con el tiempo, la analítica ambiental apoya los esfuerzos para crear un futuro sostenible y ayuda a gobiernos, empresas y comunidades a tomar mejores decisiones sobre la administración ambiental.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique Environnementale?",
+                        "text": "<p><strong>L'Analytique Environnementale</strong> se concentre sur l'analyse des données environnementales pour comprendre et relever les défis environnementaux. Le domaine utilise des données collectées à partir de diverses sources, telles que les images satellites, les capteurs et les stations de surveillance environnementale, pour étudier les motifs et les tendances de l'environnement. En analysant ces données, les scientifiques et les décideurs peuvent prendre des décisions plus éclairées concernant les efforts de conservation, la gestion des ressources et les pratiques durables.</p><p>Les analystes peuvent suivre les changements dans les modèles climatiques, la qualité de l'air et de l'eau, la biodiversité et l'utilisation des terres. Les outils et techniques couramment utilisés dans l'analytique environnementale comprennent les systèmes d'information géographique (SIG), la télédétection et la modélisation prédictive. Ces outils aident à visualiser des données environnementales complexes et à prédire les conditions environnementales futures sur la base des tendances actuelles et historiques.</p><p>De plus, l'analytique environnementale joue un rôle crucial dans le développement de stratégies pour atténuer les effets du changement climatique, gérer les catastrophes naturelles et préserver les habitats naturels. En fournissant un aperçu approfondi des conditions environnementales et de leur évolution dans le temps, l'analytique environnementale soutient les efforts pour créer un avenir durable et aide les gouvernements, les entreprises et les communautés à prendre de meilleures décisions concernant la gestion environnementale.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Milieuanalyse?",
+                        "text": "<p><strong>Milieuanalyse</strong> richt zich op de analyse van milieugegevens om milieuproblemen te begrijpen en aan te pakken. Het veld gebruikt gegevens verzameld uit een verscheidenheid van bronnen, zoals satellietbeelden, sensoren en milieuobservatiestations, om patronen en trends in het milieu te bestuderen. Door deze gegevens te analyseren, kunnen wetenschappers en beleidsmakers beter geïnformeerde beslissingen nemen over natuurbeschermingsinspanningen, beheer van hulpbronnen en duurzame praktijken.</p><p>Analisten kunnen veranderingen in klimaatpatronen, luchtkwaliteit, waterkwaliteit, biodiversiteit en landgebruik bijhouden. Gereedschappen en technieken die veel gebruikt worden in milieuanalyse omvatten geografische informatiesystemen (GIS), remote sensing en predictieve modellering. Deze hulpmiddelen helpen complexe milieugegevens te visualiseren en toekomstige milieuomstandigheden te voorspellen op basis van huidige en historische trends.</p><p>Daarnaast speelt milieuanalyse een cruciale rol bij het ontwikkelen van strategieën om de gevolgen van klimaatverandering te verzachten, natuurrampen te beheren en natuurlijke habitats te behouden. Door diepgaand inzicht te bieden in de milieuomstandigheden en hoe deze in de loop van de tijd veranderen, ondersteunt milieuanalyse inspanningen om een duurzame toekomst te creëren en helpt het overheden, bedrijven en gemeenschappen betere beslissingen te nemen over milieubeheer.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna a Atlas",
+                        "headline": "Che cos'è l'Analisi Ambientale?",
+                        "text": "<p><strong>L'Analisi Ambientale</strong> si concentra sull'analisi dei dati ambientali per comprendere e affrontare le sfide ambientali. Il campo utilizza dati raccolti da varie fonti, come immagini satellitari, sensori e stazioni di monitoraggio ambientale, per studiare modelli e tendenze nell'ambiente. Analizzando questi dati, scienziati e decisori possono prendere decisioni più informate riguardo agli sforzi di conservazione, gestione delle risorse e pratiche sostenibili.</p><p>Gli analisti possono monitorare cambiamenti nei modelli climatici, nella qualità dell'aria e dell'acqua, nella biodiversità e nell'uso del suolo. Gli strumenti e le tecniche comunemente utilizzati nell'analisi ambientale includono sistemi di informazione geografica (GIS), telerilevamento e modellazione predittiva. Questi strumenti aiutano a visualizzare dati ambientali complessi e a prevedere le condizioni ambientali future basate su tendenze attuali e storiche.</p><p>Inoltre, l'analisi ambientale gioca un ruolo critico nello sviluppo di strategie per mitigare gli effetti del cambiamento climatico, gestire disastri naturali e preservare gli habitat naturali. Fornendo approfondimenti dettagliati sulle condizioni ambientali e su come cambiano nel tempo, l'analisi ambientale sostiene gli sforzi per creare un futuro sostenibile e aiuta governi, imprese e comunità a prendere decisioni migliori sulla gestione ambientale.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise Ambiental?",
+                        "text": "<p><strong>Análise Ambiental</strong> concentra-se na análise de dados ambientais para entender e enfrentar desafios ambientais. O campo utiliza dados coletados de várias fontes, como imagens de satélite, sensores e estações de monitoramento ambiental, para estudar padrões e tendências no ambiente. Ao analisar esses dados, cientistas e formuladores de políticas podem tomar decisões mais informadas sobre esforços de conservação, gestão de recursos e práticas sustentáveis.</p><p>Os analistas podem acompanhar mudanças nos padrões climáticos, na qualidade do ar e da água, na biodiversidade e no uso da terra. Ferramentas e técnicas comumente usadas na análise ambiental incluem sistemas de informações geográficas (GIS), sensoriamento remoto e modelagem preditiva. Essas ferramentas ajudam a visualizar dados ambientais complexos e prever condições ambientais futuras com base em tendências atuais e históricas.</p><p>Além disso, a análise ambiental desempenha um papel crítico no desenvolvimento de estratégias para mitigar os efeitos das mudanças climáticas, gerenciar desastres naturais e preservar habitats naturais. Ao fornecer uma visão profunda das condições ambientais e como elas mudam ao longo do tempo, a análise ambiental apoia esforços para criar um futuro sustentável e ajuda governos, empresas e comunidades a tomar melhores decisões sobre a administração ambiental.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "環境分析とは何か？",
+                        "text": "<p><strong>環境分析</strong>は、環境データの分析に焦点を当て、環境問題を理解し対処することを目的としています。この分野では、衛星画像、センサー、環境モニタリングステーションなど、さまざまなソースから収集されたデータを使用して、環境内のパターンやトレンドを研究します。このデータを分析することによって、科学者や政策立案者は、保全活動、リソース管理、および持続可能な実践についてより情報に基づいた決定を行うことができます。</p><p>分析者は、気候パターン、空気と水の品質、生物多様性、および土地利用の変化を追跡することができます。環境分析で一般的に使用されるツールおよび技術には、地理情報システム（GIS）、リモートセンシング、予測モデリングが含まれます。これらのツールは、複雑な環境データを視覚化し、現在および歴史的なトレンドに基づいて将来の環境状況を予測するのに役立ちます。</p><p>さらに、環境分析は、気候変動の影響を軽減する戦略の開発、自然災害の管理、および自然の生息地の保存において重要な役割を果たします。環境条件とそれらが時間の経過とともにどのように変化するかについての深い洞察を提供することで、環境分析は持続可能な未来を作るための努力を支え、政府、企業、コミュニティが環境管理に関してより良い決定をするのを助けます。</p>"
                     }
                 }
             },

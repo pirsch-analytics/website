@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/educational-analytics"
+        "en": "/atlas/educational-analytics",
+        "de": "/de/atlas/educational-analytics",
+        "es": "/es/atlas/educational-analytics",
+        "fr": "/fr/atlas/educational-analytics",
+        "nl": "/nl/atlas/educational-analytics",
+        "it": "/it/atlas/educational-analytics",
+        "pt": "/pt/atlas/educational-analytics",
+        "ja": "/ja/atlas/educational-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Educational Analytics – Pirsch Analytics",
                         "meta_description": "The use of data analysis in the education sector to improve teaching methods, student performance, and administrative processes."
+                    },
+                    "de": {
+                        "title": "Educational Analytics – Pirsch Analytics",
+                        "meta_description": "Die Nutzung der Datenanalyse im Bildungssektor zur Verbesserung von Lehrmethoden, Schülerleistungen und administrativen Prozessen."
+                    },
+                    "es": {
+                        "title": "Analítica Educativa – Pirsch Analytics",
+                        "meta_description": "El uso del análisis de datos en el sector educativo para mejorar los métodos de enseñanza, el rendimiento de los estudiantes y los procesos administrativos."
+                    },
+                    "fr": {
+                        "title": "Analytique Éducative – Pirsch Analytics",
+                        "meta_description": "L'utilisation de l'analyse de données dans le secteur de l'éducation pour améliorer les méthodes d'enseignement, la performance des élèves et les processus administratifs."
+                    },
+                    "nl": {
+                        "title": "Onderwijsanalyse – Pirsch Analytics",
+                        "meta_description": "Het gebruik van data-analyse in de onderwijssector om lesmethoden, studentenprestaties en administratieve processen te verbeteren."
+                    },
+                    "it": {
+                        "title": "Analitica Educativa – Pirsch Analytics",
+                        "meta_description": "L'uso dell'analisi dei dati nel settore dell'educazione per migliorare i metodi di insegnamento, le prestazioni degli studenti e i processi amministrativi."
+                    },
+                    "pt": {
+                        "title": "Análise Educacional – Pirsch Analytics",
+                        "meta_description": "O uso de análise de dados no setor educacional para melhorar métodos de ensino, desempenho dos estudantes e processos administrativos."
+                    },
+                    "ja": {
+                        "title": "教育分析 – Pirsch Analytics",
+                        "meta_description": "教育分野におけるデータ分析の使用。これにより、教育方法、学生のパフォーマンス、および管理プロセスが改善されます。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Educational Analytics?",
                         "text": "<p><strong>Educational Analytics</strong> refers to the use of data analysis techniques to improve learning, teaching, and administrative processes in educational settings. This field of analytics analyzes data from sources such as student performance, attendance, and feedback to identify trends and insights that can improve educational outcomes. By understanding these patterns, educators and administrators can implement more effective instructional strategies and improve student support services.</p><p>The process typically involves collecting data from various educational tools and platforms, including learning management systems (LMS), student information systems (SIS), and online educational resources. Analyzing this data helps educators understand student engagement levels, learning progress, and the effectiveness of various teaching methods.Tools used in educational analytics can include statistical software, data visualization platforms, and machine learning techniques to predict student success rates and identify at-risk students early.</p><p>Tools used in educational analytics can include statistical software, data visualization platforms, and machine learning techniques to predict student success rates and identify at-risk students early.</p><p>In addition, educational analytics can support personalized learning by allowing educators to tailor their approach to the needs of individual students based on their learning styles and performance data. This targeted intervention can help close learning gaps and improve student achievement. Overall, educational analytics serves as a powerful tool for making data-driven decisions that can lead to improved educational practices and student outcomes.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Educational Analytics?",
+                        "text": "<p><strong>Educational Analytics</strong> bezieht sich auf die Verwendung von Datenanalysetechniken, um das Lernen, Lehren und administrative Prozesse in Bildungseinrichtungen zu verbessern. Dieses Gebiet der Analytik untersucht Datenquellen wie Schülerleistungen, Anwesenheit und Feedback, um Trends und Erkenntnisse zu identifizieren, die die Bildungsergebnisse verbessern können. Durch das Verständnis dieser Muster können Pädagogen und Administratoren effektivere Lehrstrategien implementieren und die Unterstützungsdienste für Schüler verbessern.</p><p>Der Prozess umfasst typischerweise das Sammeln von Daten aus verschiedenen Bildungswerkzeugen und -plattformen, einschließlich Lernmanagementsystemen (LMS), Schülerinformationssystemen (SIS) und Online-Bildungsressourcen. Die Analyse dieser Daten hilft den Pädagogen, das Engagement der Schüler, den Lernfortschritt und die Wirksamkeit verschiedener Lehrmethoden zu verstehen. Werkzeuge der Bildungsanalytik können statistische Software, Datenvisualisierungsplattformen und maschinelles Lernen umfassen, um den Erfolg der Schüler vorherzusagen und frühzeitig Risikoschüler zu identifizieren.</p><p>Zusätzlich kann die Bildungsanalytik personalisiertes Lernen unterstützen, indem sie Pädagogen ermöglicht, ihren Ansatz auf die Bedürfnisse einzelner Schüler basierend auf deren Lernstilen und Leistungsdaten zuzuschneiden. Diese gezielte Intervention kann helfen, Lernlücken zu schließen und die Schülerleistung zu verbessern. Insgesamt dient die Bildungsanalytik als ein mächtiges Werkzeug für datengesteuerte Entscheidungen, die zu verbesserten Bildungspraktiken und Schülerergebnissen führen können.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Educativa?",
+                        "text": "<p><strong>La Analítica Educativa</strong> se refiere al uso de técnicas de análisis de datos para mejorar el aprendizaje, la enseñanza y los procesos administrativos en entornos educativos. Este campo de análisis examina datos de fuentes como el rendimiento de los estudiantes, la asistencia y las retroalimentaciones para identificar tendencias e insights que pueden mejorar los resultados educativos. Al entender estos patrones, los educadores y administradores pueden implementar estrategias de enseñanza más efectivas y mejorar los servicios de apoyo estudiantil.</p><p>El proceso generalmente implica la recolección de datos de diversas herramientas y plataformas educativas, incluyendo sistemas de gestión del aprendizaje (LMS), sistemas de información estudiantil (SIS) y recursos educativos en línea. Analizar estos datos ayuda a los educadores a comprender los niveles de compromiso de los estudiantes, el progreso en el aprendizaje y la eficacia de los diversos métodos de enseñanza. Las herramientas utilizadas en la analítica educativa pueden incluir software estadístico, plataformas de visualización de datos y técnicas de aprendizaje automático para predecir tasas de éxito estudiantil e identificar a estudiantes en riesgo de manera temprana.</p><p>Además, la analítica educativa puede respaldar el aprendizaje personalizado permitiendo a los educadores adaptar su enfoque a las necesidades de los estudiantes individuales basándose en sus estilos de aprendizaje y datos de rendimiento. Esta intervención dirigida puede ayudar a cerrar brechas de aprendizaje y mejorar el rendimiento estudiantil. En general, la analítica educativa sirve como una herramienta poderosa para tomar decisiones basadas en datos que pueden llevar a mejores prácticas educativas y resultados estudiantiles.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique Éducative?",
+                        "text": "<p><strong>L'Analytique Éducative</strong> se réfère à l'utilisation de techniques d'analyse de données pour améliorer l'apprentissage, l'enseignement et les processus administratifs dans les cadres éducatifs. Ce domaine de l'analytique analyse des données provenant de sources telles que la performance des étudiants, la présence et les retours pour identifier des tendances et des insights qui peuvent améliorer les résultats éducatifs. En comprenant ces modèles, les éducateurs et les administrateurs peuvent mettre en œuvre des stratégies d'enseignement plus efficaces et améliorer les services de soutien aux étudiants.</p><p>Le processus implique généralement la collecte de données provenant de divers outils et plateformes éducatives, y compris des systèmes de gestion de l'apprentissage (LMS), des systèmes d'information étudiant (SIS) et des ressources éducatives en ligne. L'analyse de ces données aide les éducateurs à comprendre les niveaux d'engagement des élèves, les progrès dans l'apprentissage et l'efficacité de différentes méthodes d'enseignement. Les outils utilisés dans l'analytique éducative peuvent inclure des logiciels statistiques, des plateformes de visualisation de données et des techniques d'apprentissage automatique pour prédire les taux de réussite des élèves et identifier rapidement les élèves à risque.</p><p>De plus, l'analytique éducative peut soutenir l'apprentissage personnalisé en permettant aux éducateurs d'adapter leur approche aux besoins des étudiants individuels basés sur leurs styles d'apprentissage et données de performance. Cette intervention ciblée peut aider à combler les lacunes d'apprentissage et améliorer les résultats des élèves. Dans l'ensemble, l'analytique éducative sert d'outil puissant pour prendre des décisions basées sur les données qui peuvent conduire à des pratiques éducatives améliorées et à de meilleurs résultats pour les élèves.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Educatieve Analyse?",
+                        "text": "<p><strong>Educatieve Analyse</strong> verwijst naar het gebruik van data-analysetechnieken om leren, onderwijzen en administratieve processen in onderwijsinstellingen te verbeteren. Dit veld van analyse onderzoekt gegevens van bronnen zoals studentenprestaties, aanwezigheid en feedback om trends en inzichten te identificeren die de onderwijsresultaten kunnen verbeteren. Door deze patronen te begrijpen, kunnen opvoeders en beheerders effectievere onderwijsstrategieën implementeren en de ondersteunende diensten voor studenten verbeteren.</p><p>Het proces omvat typisch het verzamelen van gegevens uit verschillende onderwijstools en -platforms, waaronder leerbeheersystemen (LMS), studentinformatiesystemen (SIS) en online onderwijsbronnen. Het analyseren van deze gegevens helpt opvoeders om het betrokkenheidsniveau van studenten, de voortgang van het leren en de effectiviteit van verschillende onderwijsmethoden te begrijpen. Hulpmiddelen die gebruikt worden in educatieve analyse kunnen statistische software, data visualisatie platforms en machine learning technieken omvatten om de succespercentages van studenten te voorspellen en risicostudenten vroegtijdig te identificeren.</p><p>Daarnaast kan educatieve analyse gepersonaliseerd leren ondersteunen door opvoeders in staat te stellen hun aanpak aan te passen aan de behoeften van individuele studenten op basis van hun leerstijlen en prestatiegegevens. Deze gerichte interventie kan helpen om leerlacunes te dichten en de prestaties van studenten te verbeteren. Over het geheel genomen dient educatieve analyse als een krachtig hulpmiddel voor het nemen van beslissingen op basis van gegevens die kunnen leiden tot verbeterde onderwijspraktijken en studentenresultaten.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Torna a Atlas",
+                        "headline": "Che cos'è l'Analitica Educativa?",
+                        "text": "<p><strong>L'Analitica Educativa</strong> si riferisce all'uso di tecniche di analisi dei dati per migliorare l'apprendimento, l'insegnamento e i processi amministrativi negli ambienti educativi. Questo campo dell'analisi esamina i dati provenienti da fonti quali le prestazioni degli studenti, la presenza e il feedback per identificare tendenze e intuizioni che possono migliorare i risultati educativi. Capendo questi schemi, gli educatori e gli amministratori possono implementare strategie di insegnamento più efficaci e migliorare i servizi di supporto agli studenti.</p><p>Il processo coinvolge tipicamente la raccolta di dati da vari strumenti e piattaforme educative, inclusi sistemi di gestione dell'apprendimento (LMS), sistemi di informazione degli studenti (SIS) e risorse educative online. Analizzando questi dati, gli educatori possono comprendere i livelli di coinvolgimento degli studenti, il progresso nell'apprendimento e l'efficacia di vari metodi di insegnamento. Gli strumenti utilizzati nell'analitica educativa possono includere software statistico, piattaforme di visualizzazione dei dati e tecniche di machine learning per prevedere i tassi di successo degli studenti e identificare precocemente gli studenti a rischio.</p><p>Inoltre, l'analitica educativa può supportare l'apprendimento personalizzato consentendo agli educatori di adattare il loro approccio alle esigenze degli studenti individuali basandosi sui loro stili di apprendimento e sui dati di performance. Questo intervento mirato può aiutare a colmare le lacune di apprendimento e migliorare il rendimento degli studenti. In generale, l'analitica educativa funge da strumento potente per prendere decisioni basate sui dati che possono portare a pratiche educative migliorate e a risultati migliori per gli studenti.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Voltar para o Atlas",
+                        "headline": "O que é Análise Educacional?",
+                        "text": "<p><strong>Análise Educacional</strong> refere-se ao uso de técnicas de análise de dados para melhorar o aprendizado, o ensino e os processos administrativos em ambientes educacionais. Este campo da análise examina dados de fontes como desempenho de alunos, frequência e feedback para identificar tendências e insights que podem melhorar os resultados educacionais. Ao entender esses padrões, educadores e administradores podem implementar estratégias de ensino mais eficazes e melhorar os serviços de apoio ao aluno.</p><p>O processo geralmente envolve a coleta de dados de várias ferramentas e plataformas educacionais, incluindo sistemas de gestão de aprendizagem (LMS), sistemas de informação do aluno (SIS) e recursos educacionais online. Analisar esses dados ajuda os educadores a entender os níveis de engajamento dos alunos, o progresso no aprendizado e a eficácia de vários métodos de ensino. Ferramentas usadas na análise educacional podem incluir software estatístico, plataformas de visualização de dados e técnicas de aprendizado de máquina para prever taxas de sucesso de alunos e identificar precocemente alunos em risco.</p><p>Além disso, a análise educacional pode apoiar o aprendizado personalizado, permitindo que educadores adaptem sua abordagem às necessidades de alunos individuais com base em seus estilos de aprendizagem e dados de desempenho. Esta intervenção direcionada pode ajudar a fechar lacunas de aprendizagem e melhorar o desempenho dos alunos. Em geral, a análise educacional serve como uma ferramenta poderosa para tomar decisões baseadas em dados que podem levar a práticas educacionais melhoradas e melhores resultados para os alunos.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "教育分析とは何ですか？",
+                        "text": "<p><strong>教育分析</strong>は、教育環境における学習、教育、および管理プロセスを改善するためのデータ分析技術の使用を指します。この分析分野では、学生のパフォーマンス、出席状況、フィードバックなどのデータソースからのデータを分析して、教育成果を改善することができるトレンドや洞察を特定します。これらのパターンを理解することで、教育者や管理者はより効果的な指導戦略を実施し、学生サポートサービスを改善することができます。</p><p>このプロセスは通常、学習管理システム（LMS）、学生情報システム（SIS）、オンライン教育リソースなど、さまざまな教育ツールおよびプラットフォームからのデータ収集を含みます。これらのデータを分析することで、教育者は学生のエンゲージメントレベル、学習進捗、さまざまな教育方法の効果を理解するのに役立ちます。教育分析に使用されるツールには、統計ソフトウェア、データ可視化プラットフォーム、学生の成功率を予測し、早期にリスクの高い学生を特定するための機械学習技術が含まれることがあります。</p><p>さらに、教育分析は、教育者が学習スタイルとパフォーマンスデータに基づいて個々の学生のニーズに合わせてアプローチを調整することを可能にすることで、パーソナライズされた学習をサポートします。このターゲットを絞った介入により、学習のギャップを埋め、学生の成果を向上させることができます。全体として、教育分析はデータに基づいた意思決定を行うための強力なツールであり、改善された教育実践と学生の成果につながる可能性があります。</p>"
                     }
                 }
             },

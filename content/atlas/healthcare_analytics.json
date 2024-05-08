@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/healthcare-analytics"
+        "en": "/atlas/healthcare-analytics",
+        "de": "/de/atlas/healthcare-analytics",
+        "es": "/es/atlas/healthcare-analytics",
+        "fr": "/fr/atlas/healthcare-analytics",
+        "nl": "/nl/atlas/healthcare-analytics",
+        "it": "/it/atlas/healthcare-analytics",
+        "pt": "/pt/atlas/healthcare-analytics",
+        "ja": "/ja/atlas/healthcare-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Healthcare Analytics – Pirsch Analytics",
                         "meta_description": "The use of data analysis in healthcare settings to improve patient outcomes, optimize operations, and enhance decision-making."
+                    },
+                    "de": {
+                        "title": "Healthcare Analytics – Pirsch Analytics",
+                        "meta_description": "Die Nutzung der Datenanalyse in Gesundheitseinrichtungen zur Verbesserung der Patientenergebnisse, Optimierung der Betriebsabläufe und Verbesserung der Entscheidungsfindung."
+                    },
+                    "es": {
+                        "title": "Analítica en Salud – Pirsch Analytics",
+                        "meta_description": "El uso del análisis de datos en entornos de salud para mejorar los resultados de los pacientes, optimizar operaciones y mejorar la toma de decisiones."
+                    },
+                    "fr": {
+                        "title": "Analytique de Santé – Pirsch Analytics",
+                        "meta_description": "L'utilisation de l'analyse de données dans les établissements de santé pour améliorer les résultats des patients, optimiser les opérations et améliorer la prise de décision."
+                    },
+                    "nl": {
+                        "title": "Zorganalyse – Pirsch Analytics",
+                        "meta_description": "Het gebruik van data-analyse in de gezondheidszorg om patiëntenuitkomsten te verbeteren, operaties te optimaliseren en besluitvorming te versterken."
+                    },
+                    "it": {
+                        "title": "Analisi Sanitaria – Pirsch Analytics",
+                        "meta_description": "L'utilizzo dell'analisi dei dati negli ambienti sanitari per migliorare i risultati dei pazienti, ottimizzare le operazioni e migliorare il processo decisionale."
+                    },
+                    "pt": {
+                        "title": "Análise de Saúde – Pirsch Analytics",
+                        "meta_description": "O uso da análise de dados em ambientes de saúde para melhorar os resultados dos pacientes, otimizar operações e aprimorar a tomada de decisões."
+                    },
+                    "ja": {
+                        "title": "ヘルスケア分析 – Pirsch Analytics",
+                        "meta_description": "患者のアウトカムの改善、運営の最適化、意思決定の強化を目的とした、医療環境でのデータ分析の使用。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Healthcare Analytics?",
                         "text": "<p><strong>Healthcare Analytics</strong> is the practice of using data analytics to improve healthcare delivery, outcomes, and operational efficiency. This field leverages data from multiple sources, including electronic health records (EHRs), medical imaging, genomic sequencing, and patient-generated data from wearables and other devices. By analyzing this data, healthcare providers can gain insights into patient health trends, treatment outcomes, and operational issues.</p><p>The scope of healthcare analytics includes descriptive analytics, which provides insights into past healthcare operations and patient outcomes; predictive analytics, which forecasts future events based on historical data; and prescriptive analytics, which suggests actions to achieve the best outcomes based on predictive insights. These analytic approaches can help detect disease early, improve patient care, and optimize healthcare processes.</p><p>In addition, healthcare analytics plays a critical role in population health management by identifying risk factors and developing preventive strategies for at-risk populations. It also supports personalized medicine by tailoring treatment plans to individual genetic profiles and health histories. Overall, healthcare analytics is making a significant contribution to improving the quality and efficiency of healthcare services, leading to better patient care and lower healthcare costs.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Healthcare Analytics?",
+                        "text": "<p><strong>Healthcare Analytics</strong> ist die Praxis, Datenanalytik zu verwenden, um die Gesundheitsversorgung, Ergebnisse und betriebliche Effizienz zu verbessern. Dieses Feld nutzt Daten aus verschiedenen Quellen, einschließlich elektronischer Gesundheitsakten (EHRs), medizinischer Bildgebung, genomischer Sequenzierung und von Patienten generierte Daten von Wearables und anderen Geräten. Durch die Analyse dieser Daten können Gesundheitsdienstleister Einblicke in Gesundheitstrends der Patienten, Behandlungsergebnisse und betriebliche Probleme gewinnen.</p><p>Der Bereich der Gesundheitsanalytik umfasst deskriptive Analysen, die Einblicke in vergangene Gesundheitsoperationen und Patientenergebnisse bieten; prädiktive Analysen, die zukünftige Ereignisse auf Basis historischer Daten prognostizieren; und präskriptive Analysen, die Maßnahmen vorschlagen, um die besten Ergebnisse auf Basis von prädiktiven Einsichten zu erreichen. Diese analytischen Ansätze können helfen, Krankheiten früh zu erkennen, die Patientenversorgung zu verbessern und Gesundheitsprozesse zu optimieren.</p><p>Zudem spielt Gesundheitsanalytik eine kritische Rolle im Management der Bevölkerungsgesundheit, indem sie Risikofaktoren identifiziert und präventive Strategien für Risikopopulationen entwickelt. Sie unterstützt auch die personalisierte Medizin, indem sie Behandlungspläne an individuelle genetische Profile und Gesundheitsgeschichten anpasst. Insgesamt leistet die Gesundheitsanalytik einen bedeutenden Beitrag zur Verbesserung der Qualität und Effizienz von Gesundheitsdiensten, was zu besserer Patientenversorgung und niedrigeren Gesundheitskosten führt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica en Salud?",
+                        "text": "<p><strong>La Analítica en Salud</strong> es la práctica de utilizar análisis de datos para mejorar la entrega de servicios de salud, los resultados y la eficiencia operacional. Este campo aprovecha datos de múltiples fuentes, incluyendo registros electrónicos de salud (EHRs), imágenes médicas, secuenciación genómica y datos generados por el paciente de dispositivos portables y otros aparatos. Al analizar estos datos, los proveedores de salud pueden obtener insights sobre tendencias de salud de los pacientes, resultados de tratamientos y problemas operativos.</p><p>El alcance de la analítica en salud incluye la analítica descriptiva, que proporciona insights sobre operaciones de salud pasadas y resultados de pacientes; la analítica predictiva, que pronostica eventos futuros basados en datos históricos; y la analítica prescriptiva, que sugiere acciones para lograr los mejores resultados basados en insights predictivos. Estos enfoques analíticos pueden ayudar a detectar enfermedades tempranamente, mejorar el cuidado del paciente y optimizar los procesos de salud.</p><p>Además, la analítica en salud juega un papel crucial en la gestión de la salud poblacional identificando factores de riesgo y desarrollando estrategias preventivas para poblaciones en riesgo. También apoya la medicina personalizada adaptando planes de tratamiento a perfiles genéticos individuales e historias de salud. En general, la analítica en salud está haciendo una contribución significativa a mejorar la calidad y eficiencia de los servicios de salud, lo que lleva a un mejor cuidado del paciente y a menores costos de salud.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique en Santé?",
+                        "text": "<p><strong>L'Analytique en Santé</strong> est la pratique consistant à utiliser l'analyse de données pour améliorer la prestation des soins de santé, les résultats et l'efficacité opérationnelle. Ce domaine exploite des données provenant de multiples sources, y compris les dossiers de santé électroniques (EHRs), l'imagerie médicale, le séquençage génomique, et les données générées par les patients à partir de dispositifs portables et d'autres appareils. En analysant ces données, les prestataires de soins de santé peuvent obtenir des insights sur les tendances de santé des patients, les résultats des traitements et les problèmes opérationnels.</p><p>Le champ d'application de l'analytique en santé comprend l'analytique descriptive, qui offre des insights sur les opérations de santé passées et les résultats des patients; l'analytique prédictive, qui prévoit les événements futurs sur la base de données historiques; et l'analytique prescriptive, qui suggère des actions pour obtenir les meilleurs résultats basés sur des insights prédictifs. Ces approches analytiques peuvent aider à détecter les maladies tôt, améliorer les soins aux patients et optimiser les processus de santé.</p><p>De plus, l'analytique en santé joue un rôle crucial dans la gestion de la santé de la population en identifiant les facteurs de risque et en développant des stratégies préventives pour les populations à risque. Elle soutient également la médecine personnalisée en adaptant les plans de traitement aux profils génétiques individuels et aux antécédents de santé. En général, l'analytique en santé apporte une contribution significative à l'amélioration de la qualité et de l'efficacité des services de santé, conduisant à de meilleurs soins pour les patients et à des coûts de santé réduits.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Gezondheidszorganalyse?",
+                        "text": "<p><strong>Gezondheidszorganalyse</strong> is het gebruik van data-analyse om de gezondheidszorg, resultaten en operationele efficiëntie te verbeteren. Dit veld maakt gebruik van gegevens uit meerdere bronnen, waaronder elektronische gezondheidsdossiers (EHRs), medische beeldvorming, genomische sequentiëring en door patiënten gegenereerde gegevens van wearables en andere apparaten. Door deze gegevens te analyseren, kunnen zorgverleners inzichten verkrijgen in gezondheidstrends van patiënten, behandelresultaten en operationele problemen.</p><p>De reikwijdte van gezondheidszorganalyse omvat beschrijvende analyse, die inzicht biedt in vroegere gezondheidsoperaties en patiëntenresultaten; voorspellende analyse, die toekomstige gebeurtenissen voorspelt op basis van historische gegevens; en prescriptieve analyse, die acties voorstelt om de beste resultaten te bereiken op basis van voorspellende inzichten. Deze analytische benaderingen kunnen helpen ziekten vroeg te detecteren, de patiëntenzorg te verbeteren en gezondheidsprocessen te optimaliseren.</p><p>Daarnaast speelt gezondheidszorganalyse een cruciale rol in het beheer van de volksgezondheid door risicofactoren te identificeren en preventieve strategieën te ontwikkelen voor risicopopulaties. Het ondersteunt ook gepersonaliseerde geneeskunde door behandelplannen aan te passen aan individuele genetische profielen en gezondheidsgeschiedenissen. Over het algemeen levert gezondheidszorganalyse een significante bijdrage aan de verbetering van de kwaliteit en efficiëntie van gezondheidsdiensten, wat leidt tot betere patiëntenzorg en lagere gezondheidskosten.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Torna a Atlas",
+                        "headline": "Cos'è l'Analitica Sanitaria?",
+                        "text": "<p><strong>L'Analitica Sanitaria</strong> è la pratica di utilizzare l'analisi dei dati per migliorare la consegna dei servizi sanitari, i risultati e l'efficienza operativa. Questo campo sfrutta dati provenienti da molteplici fonti, inclusi i record sanitari elettronici (EHRs), l'imaging medico, la sequenziazione genomica e i dati generati dai pazienti da dispositivi indossabili e altri dispositivi. Analizzando questi dati, i fornitori di assistenza sanitaria possono ottenere informazioni sulle tendenze della salute dei pazienti, sui risultati del trattamento e sulle questioni operative.</p><p>L'ambito dell'analitica sanitaria comprende l'analitica descrittiva, che fornisce informazioni sulle operazioni sanitarie passate e sui risultati dei pazienti; l'analitica predittiva, che prevede eventi futuri basati sui dati storici; e l'analitica prescrittiva, che suggerisce azioni per ottenere i migliori risultati basati su intuizioni predittive. Questi approcci analitici possono aiutare a rilevare malattie in anticipo, migliorare la cura dei pazienti e ottimizzare i processi sanitari.</p><p>Inoltre, l'analitica sanitaria svolge un ruolo critico nella gestione della salute della popolazione identificando fattori di rischio e sviluppando strategie preventive per le popolazioni a rischio. Supporta anche la medicina personalizzata adattando i piani di trattamento ai profili genetici individuali e alle storie di salute. In generale, l'analitica sanitaria sta contribuendo significativamente al miglioramento della qualità e dell'efficienza dei servizi sanitari, portando a una migliore cura del paziente e a costi sanitari più bassi.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar para o Atlas",
+                        "headline": "O que é Análise de Saúde?",
+                        "text": "<p><strong>Análise de Saúde</strong> é a prática de usar análises de dados para melhorar a entrega de cuidados de saúde, resultados e eficiência operacional. Este campo aproveita dados de múltiplas fontes, incluindo registros eletrônicos de saúde (EHRs), imagens médicas, sequenciamento genômico e dados gerados pelo paciente de wearables e outros dispositivos. Ao analisar esses dados, os provedores de saúde podem ganhar insights sobre tendências de saúde dos pacientes, resultados de tratamentos e questões operacionais.</p><p>O escopo da análise de saúde inclui análise descritiva, que fornece insights sobre operações de saúde passadas e resultados de pacientes; análise preditiva, que prevê eventos futuros baseados em dados históricos; e análise prescritiva, que sugere ações para alcançar os melhores resultados baseados em insights preditivos. Essas abordagens analíticas podem ajudar a detectar doenças precocemente, melhorar o cuidado ao paciente e otimizar processos de saúde.</p><p>Além disso, a análise de saúde desempenha um papel crucial na gestão da saúde da população, identificando fatores de risco e desenvolvendo estratégias preventivas para populações em risco. Também suporta a medicina personalizada, adaptando planos de tratamento aos perfis genéticos individuais e históricos de saúde. Em geral, a análise de saúde está fazendo uma contribuição significativa para melhorar a qualidade e eficiência dos serviços de saúde, levando a um melhor cuidado do paciente e a custos de saúde mais baixos.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスへ戻る",
+                        "headline": "ヘルスケア分析とは何か？",
+                        "text": "<p><strong>ヘルスケア分析</strong>は、医療の提供、成果、運営効率の改善のためにデータ分析を使用する実践です。この分野では、電子健康記録（EHRs）、医療画像、ゲノム配列決定、ウェアラブルやその他のデバイスからの患者生成データなど、複数のソースから収集されたデータを利用しています。このデータを分析することで、医療提供者は患者の健康傾向、治療成果、運営上の問題についての洞察を得ることができます。</p><p>ヘルスケア分析の範囲には、過去の医療オペレーションと患者の成果についての洞察を提供する記述的分析、歴史的データに基づいて未来のイベントを予測する予測分析、予測的洞察に基づいて最良の成果を達成するための行動を提案する処方的分析が含まれます。これらの分析アプローチは、病気の早期発見、患者ケアの改善、医療プロセスの最適化に役立ちます。</p><p>さらに、ヘルスケア分析は、リスク要因を特定し、リスクが高い人口に対する予防戦略を開発することで、人口健康管理において重要な役割を果たします。また、個々の遺伝的プロファイルと健康歴に基づいて治療計画を調整することで、パーソナライズドメディシンをサポートします。全体として、ヘルスケア分析は医療サービスの品質と効率の向上に大きく貢献しており、より良い患者ケアと低い医療費を実現しています。</p>"
                     }
                 }
             },
