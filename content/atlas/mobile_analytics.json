@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/mobile-analytics"
+        "en": "/atlas/mobile-analytics",
+        "de": "/de/atlas/mobile-analytics",
+        "es": "/es/atlas/mobile-analytics",
+        "fr": "/fr/atlas/mobile-analytics",
+        "nl": "/nl/atlas/mobile-analytics",
+        "it": "/it/atlas/mobile-analytics",
+        "pt": "/pt/atlas/mobile-analytics",
+        "ja": "/ja/atlas/mobile-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Mobile Analytics – Pirsch Analytics",
                         "meta_description": "The tracking and analysis of data related to mobile app usage, user behavior, and performance to optimize user experience and engagement."
+                    },
+                    "de": {
+                        "title": "Mobile Analytics – Pirsch Analytics",
+                        "meta_description": "Das Tracking und die Analyse von Daten bezüglich der Nutzung von mobilen Apps, Benutzerverhalten und Leistung, um die Benutzererfahrung und das Engagement zu optimieren."
+                    },
+                    "es": {
+                        "title": "Analítica Móvil – Pirsch Analytics",
+                        "meta_description": "El seguimiento y análisis de datos relacionados con el uso de aplicaciones móviles, comportamiento del usuario y rendimiento para optimizar la experiencia y el compromiso del usuario."
+                    },
+                    "fr": {
+                        "title": "Analytique Mobile – Pirsch Analytics",
+                        "meta_description": "Le suivi et l'analyse des données relatives à l'utilisation des applications mobiles, au comportement des utilisateurs et à la performance pour optimiser l'expérience utilisateur et l'engagement."
+                    },
+                    "nl": {
+                        "title": "Mobiele Analyse – Pirsch Analytics",
+                        "meta_description": "Het volgen en analyseren van gegevens gerelateerd aan mobiele app-gebruik, gebruikersgedrag en prestaties om de gebruikerservaring en betrokkenheid te optimaliseren."
+                    },
+                    "it": {
+                        "title": "Analitica Mobile – Pirsch Analytics",
+                        "meta_description": "Il tracciamento e l'analisi dei dati relativi all'uso di app mobili, comportamento degli utenti e performance per ottimizzare l'esperienza e l'impegno degli utenti."
+                    },
+                    "pt": {
+                        "title": "Análise Móvel – Pirsch Analytics",
+                        "meta_description": "O rastreamento e análise de dados relacionados ao uso de aplicativos móveis, comportamento do usuário e desempenho para otimizar a experiência e o engajamento do usuário."
+                    },
+                    "ja": {
+                        "title": "モバイル分析 – Pirsch Analytics",
+                        "meta_description": "モバイルアプリの使用、ユーザー行動、パフォーマンスに関連するデータの追跡と分析を行い、ユーザー体験とエンゲージメントを最適化します。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Mobile Analytics?",
                         "text": "<p><strong>Mobile Analytics</strong> focuses on analyzing data from mobile devices to gain insight into mobile application performance and user behavior. This type of analytics helps developers and marketers understand how users interact with applications, track engagement metrics such as session length and frequency, and identify user preferences and trends. These insights are critical for optimizing app design, improving user experience, and increasing retention rates.</p><p>The tools used in mobile analytics can track a wide range of data points, including app downloads, user demographics, in-app purchases, and ad performance. This data helps fine-tune marketing strategies, tailor content to user preferences, and make informed decisions about app updates and features. Mobile analytics platforms typically offer dashboards and reporting capabilities that provide a clear view of an app's performance across different user segments and devices.</p><p>In addition, mobile analytics is essential for personalizing user experiences and conducting <a href=\"/glossary/ab-testing\">A/B testing</a> to compare different versions of an app. By understanding how users navigate an app and which features they use most, developers can create more intuitive and engaging apps. Ultimately, mobile analytics plays a key role in the success of mobile marketing campaigns and app development, driving better business results through data-driven insights.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Mobile Analytics?",
+                        "text": "<p><strong>Mobile Analytics</strong> konzentriert sich auf die Analyse von Daten aus mobilen Geräten, um Einblicke in die Leistung von mobilen Anwendungen und das Benutzerverhalten zu gewinnen. Diese Art von Analytik hilft Entwicklern und Marketingspezialisten zu verstehen, wie Benutzer mit Anwendungen interagieren, Engagement-Metriken wie Sitzungsdauer und -häufigkeit zu verfolgen und Benutzerpräferenzen und -trends zu identifizieren. Diese Einblicke sind entscheidend für die Optimierung des App-Designs, die Verbesserung der Benutzererfahrung und die Erhöhung der Bindungsraten.</p><p>Die in der mobilen Analytik verwendeten Tools können eine Vielzahl von Datenpunkten verfolgen, einschließlich App-Downloads, Benutzerdemografie, In-App-Käufe und Werbeleistung. Diese Daten helfen, Marketingstrategien zu verfeinern, Inhalte auf Benutzerpräferenzen zuzuschneiden und informierte Entscheidungen über App-Updates und -funktionen zu treffen. Mobile Analyseplattformen bieten in der Regel Dashboards und Berichtsfunktionen, die einen klaren Überblick über die Leistung einer App in verschiedenen Benutzersegmenten und auf verschiedenen Geräten bieten.</p><p>Zusätzlich ist mobile Analytik wesentlich für die Personalisierung von Benutzererfahrungen und die Durchführung von <a href=\"/de/glossary/ab-testing\">A/B-Tests</a>, um verschiedene Versionen einer App zu vergleichen. Indem verstanden wird, wie Benutzer eine App navigieren und welche Funktionen sie am meisten nutzen, können Entwickler intuitivere und ansprechendere Apps erstellen. Letztendlich spielt mobile Analytik eine Schlüsselrolle beim Erfolg von mobilen Marketingkampagnen und der App-Entwicklung, indem sie bessere Geschäftsergebnisse durch datengestützte Einblicke antreibt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Móvil?",
+                        "text": "<p><strong>La Analítica Móvil</strong> se centra en analizar datos de dispositivos móviles para obtener información sobre el rendimiento de las aplicaciones móviles y el comportamiento de los usuarios. Este tipo de análisis ayuda a los desarrolladores y especialistas en marketing a comprender cómo los usuarios interactúan con las aplicaciones, seguir métricas de compromiso como la duración y frecuencia de las sesiones, e identificar preferencias y tendencias de los usuarios. Estos conocimientos son cruciales para optimizar el diseño de la aplicación, mejorar la experiencia del usuario y aumentar las tasas de retención.</p><p>Las herramientas utilizadas en la analítica móvil pueden rastrear una amplia gama de puntos de datos, incluidas descargas de aplicaciones, demografía del usuario, compras dentro de la aplicación y rendimiento de anuncios. Estos datos ayudan a afinar las estrategias de marketing, personalizar el contenido según las preferencias de los usuarios y tomar decisiones informadas sobre actualizaciones y características de la aplicación. Las plataformas de analítica móvil suelen ofrecer cuadros de mando y capacidades de informes que proporcionan una vista clara del rendimiento de una aplicación en diferentes segmentos de usuarios y dispositivos.</p><p>Además, la analítica móvil es esencial para personalizar las experiencias de los usuarios y realizar <a href=\"/es/glossary/ab-testing\">pruebas A/B</a> para comparar diferentes versiones de una aplicación. Al comprender cómo los usuarios navegan en una aplicación y qué características utilizan más, los desarrolladores pueden crear aplicaciones más intuitivas y atractivas. En última instancia, la analítica móvil juega un papel clave en el éxito de las campañas de marketing móvil y el desarrollo de aplicaciones, impulsando mejores resultados comerciales a través de insights basados en datos.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'analytique mobile ?",
+                        "text": "<p><strong>L'analytique mobile</strong> se concentre sur l'analyse des données provenant des dispositifs mobiles pour obtenir des insights sur la performance des applications mobiles et le comportement des utilisateurs. Ce type d'analytique aide les développeurs et les marketeurs à comprendre comment les utilisateurs interagissent avec les applications, à suivre des métriques d'engagement telles que la durée et la fréquence des sessions, et à identifier les préférences et les tendances des utilisateurs. Ces insights sont cruciaux pour optimiser la conception des applications, améliorer l'expérience utilisateur et augmenter les taux de rétention.</p><p>Les outils utilisés en analytique mobile peuvent suivre un large éventail de points de données, y compris les téléchargements d'applications, la démographie des utilisateurs, les achats in-app, et la performance des publicités. Ces données aident à affiner les stratégies de marketing, à personnaliser le contenu selon les préférences des utilisateurs, et à prendre des décisions éclairées concernant les mises à jour et les fonctionnalités des applications. Les plateformes d'analytique mobile offrent généralement des tableaux de bord et des capacités de rapport qui fournissent une vue claire de la performance d'une application à travers différents segments d'utilisateurs et appareils.</p><p>De plus, l'analytique mobile est essentielle pour personnaliser les expériences des utilisateurs et réaliser des <a href=\"/fr/glossary/ab-testing\">tests A/B</a> pour comparer différentes versions d'une application. En comprenant comment les utilisateurs naviguent dans une application et quelles fonctionnalités ils utilisent le plus, les développeurs peuvent créer des applications plus intuitives et engageantes. En fin de compte, l'analytique mobile joue un rôle clé dans le succès des campagnes de marketing mobile et du développement d'applications, en conduisant à de meilleurs résultats commerciaux grâce à des insights basés sur les données.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Mobiele Analyse?",
+                        "text": "<p><strong>Mobiele Analyse</strong> richt zich op het analyseren van gegevens van mobiele apparaten om inzicht te krijgen in de prestaties van mobiele applicaties en gebruikersgedrag. Deze vorm van analyse helpt ontwikkelaars en marketeers te begrijpen hoe gebruikers omgaan met applicaties, betrokkenheidsmetrieken zoals sessielengte en frequentie bijhouden, en gebruikersvoorkeuren en trends identificeren. Deze inzichten zijn cruciaal voor het optimaliseren van het app-ontwerp, het verbeteren van de gebruikerservaring en het verhogen van de retentiepercentages.</p><p>De tools die in mobiele analyse worden gebruikt, kunnen een breed scala aan gegevenspunten volgen, waaronder app-downloads, gebruikersdemografie, in-app aankopen en advertentieprestaties. Deze gegevens helpen marketingstrategieën te verfijnen, inhoud aan te passen aan gebruikersvoorkeuren en geïnformeerde beslissingen te nemen over app-updates en -functies. Mobiele analyseplatforms bieden doorgaans dashboards en rapportagemogelijkheden die een duidelijk beeld geven van de prestaties van een app over verschillende gebruikerssegmenten en apparaten heen.</p><p>Daarnaast is mobiele analyse essentieel voor het personaliseren van gebruikerservaringen en het uitvoeren van <a href=\"/nl/glossary/ab-testing\">A/B-tests</a> om verschillende versies van een app te vergelijken. Door te begrijpen hoe gebruikers een app navigeren en welke functies ze het meest gebruiken, kunnen ontwikkelaars intuïtievere en aantrekkelijkere apps creëren. Uiteindelijk speelt mobiele analyse een sleutelrol in het succes van mobiele marketingcampagnes en app-ontwikkeling, wat leidt tot betere bedrijfsresultaten door datagestuurde inzichten.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Torna ad Atlas",
+                        "headline": "Che cos'è l'analisi mobile?",
+                        "text": "<p><strong>L'analisi mobile</strong> si concentra sull'analisi dei dati provenienti da dispositivi mobili per ottenere informazioni sulle prestazioni delle applicazioni mobili e sul comportamento degli utenti. Questo tipo di analisi aiuta gli sviluppatori e i marketer a comprendere come gli utenti interagiscono con le applicazioni, a tracciare metriche di coinvolgimento come la durata e la frequenza delle sessioni e a identificare le preferenze e le tendenze degli utenti. Questi insight sono fondamentali per ottimizzare il design dell'app, migliorare l'esperienza utente e aumentare i tassi di ritenzione.</p><p>Gli strumenti utilizzati nell'analisi mobile possono monitorare una vasta gamma di punti dati, inclusi download di app, demografia degli utenti, acquisti in-app e performance delle pubblicità. Questi dati aiutano a perfezionare le strategie di marketing, personalizzare i contenuti in base alle preferenze degli utenti e prendere decisioni informate sugli aggiornamenti e le funzionalità dell'app. Le piattaforme di analisi mobile offrono generalmente dashboard e capacità di reporting che forniscono una visione chiara delle prestazioni di un'app tra diversi segmenti di utenti e dispositivi.</p><p>Inoltre, l'analisi mobile è essenziale per personalizzare le esperienze degli utenti e condurre <a href=\"/it/glossary/ab-testing\">test A/B</a> per confrontare diverse versioni di un'app. Comprendendo come gli utenti navigano in un'app e quali funzionalità utilizzano di più, gli sviluppatori possono creare app più intuitive e coinvolgenti. In definitiva, l'analisi mobile gioca un ruolo chiave nel successo delle campagne di marketing mobile e nello sviluppo di app, guidando migliori risultati aziendali attraverso insight basati sui dati.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise Móvel?",
+                        "text": "<p><strong>Análise Móvel</strong> foca na análise de dados de dispositivos móveis para obter insights sobre o desempenho de aplicativos móveis e comportamento do usuário. Este tipo de análise ajuda desenvolvedores e profissionais de marketing a entender como os usuários interagem com os aplicativos, monitorar métricas de engajamento como duração e frequência de sessões, e identificar preferências e tendências dos usuários. Esses insights são cruciais para otimizar o design do aplicativo, melhorar a experiência do usuário e aumentar as taxas de retenção.</p><p>As ferramentas usadas em análise móvel podem rastrear uma ampla gama de pontos de dados, incluindo downloads de aplicativos, demografia do usuário, compras dentro do aplicativo e desempenho de anúncios. Esses dados ajudam a refinar estratégias de marketing, personalizar conteúdo para as preferências do usuário e tomar decisões informadas sobre atualizações e recursos do aplicativo. Plataformas de análise móvel geralmente oferecem painéis e capacidades de relatório que proporcionam uma visão clara do desempenho de um aplicativo em diferentes segmentos de usuários e dispositivos.</p><p>Além disso, a análise móvel é essencial para personalizar as experiências dos usuários e realizar <a href=\"/pt/glossary/ab-testing\">testes A/B</a> para comparar diferentes versões de um aplicativo. Ao entender como os usuários navegam em um aplicativo e quais recursos eles usam mais, os desenvolvedores podem criar aplicativos mais intuitivos e envolventes. Em última análise, a análise móvel desempenha um papel chave no sucesso de campanhas de marketing móvel e no desenvolvimento de aplicativos, impulsionando melhores resultados de negócios através de insights baseados em dados.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "モバイル分析とは何ですか？",
+                        "text": "<p><strong>モバイル分析</strong>は、モバイルアプリのパフォーマンスとユーザー行動に関するデータを分析することに焦点を当てています。このタイプの分析は、開発者とマーケターがアプリケーションとのユーザーのやり取りを理解し、セッションの長さや頻度などのエンゲージメント指標を追跡し、ユーザーの好みとトレンドを特定するのに役立ちます。これらの洞察は、アプリデザインの最適化、ユーザーエクスペリエンスの改善、リテンション率の向上に不可欠です。</p><p>モバイル分析で使用されるツールは、アプリのダウンロード、ユーザーの人口統計、アプリ内購入、広告のパフォーマンスなど、さまざまなデータポイントを追跡することができます。このデータは、マーケティング戦略を微調整し、ユーザーの好みに合わせてコンテンツをカスタマイズし、アプリのアップデートや機能に関する情報に基づいた決定を行うのに役立ちます。モバイル分析プラットフォームは通常、異なるユーザーセグメントとデバイス間でアプリのパフォーマンスを明確に表示するダッシュボードとレポーティング機能を提供します。</p><p>さらに、モバイル分析は、ユーザーのナビゲーションと最も使用している機能を理解することで、より直感的でエンゲージメントの高いアプリを作成するために、ユーザー体験をパーソナライズし、<a href=\"/ja/glossary/ab-testing\">A/Bテス</a>を行うために不可欠です。最終的に、モバイル分析はモバイルマーケティングキャンペーンとアプリ開発の成功において重要な役割を果たし、データに基づく洞察を通じてより良いビジネス成果を推進します。</p>"
                     }
                 }
             },

@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/product-analytics"
+        "en": "/atlas/product-analytics",
+        "de": "/de/atlas/product-analytics",
+        "es": "/es/atlas/product-analytics",
+        "fr": "/fr/atlas/product-analytics",
+        "nl": "/nl/atlas/product-analytics",
+        "it": "/it/atlas/product-analytics",
+        "pt": "/pt/atlas/product-analytics",
+        "ja": "/ja/atlas/product-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Product Analytics – Pirsch Analytics",
                         "meta_description": "The analysis of product-related data to understand user behavior, improve product features, and drive product development decisions."
+                    },
+                    "de": {
+                        "title": "Product Analytics – Pirsch Analytics",
+                        "meta_description": "Die Analyse von produktbezogenen Daten, um das Benutzerverhalten zu verstehen, Produktfunktionen zu verbessern und Produktentwicklungsentscheidungen voranzutreiben."
+                    },
+                    "es": {
+                        "title": "Analítica de Producto – Pirsch Analytics",
+                        "meta_description": "El análisis de datos relacionados con el producto para comprender el comportamiento del usuario, mejorar las características del producto y impulsar las decisiones de desarrollo del producto."
+                    },
+                    "fr": {
+                        "title": "Analytique Produit – Pirsch Analytics",
+                        "meta_description": "L'analyse des données liées aux produits pour comprendre le comportement des utilisateurs, améliorer les caractéristiques du produit et orienter les décisions de développement du produit."
+                    },
+                    "nl": {
+                        "title": "Productanalyse – Pirsch Analytics",
+                        "meta_description": "De analyse van productgerelateerde gegevens om gebruikersgedrag te begrijpen, productfuncties te verbeteren en productontwikkelingsbeslissingen te sturen."
+                    },
+                    "it": {
+                        "title": "Analisi del Prodotto – Pirsch Analytics",
+                        "meta_description": "L'analisi dei dati relativi al prodotto per comprendere il comportamento degli utenti, migliorare le caratteristiche del prodotto e guidare le decisioni di sviluppo del prodotto."
+                    },
+                    "pt": {
+                        "title": "Análise de Produto – Pirsch Analytics",
+                        "meta_description": "A análise de dados relacionados ao produto para entender o comportamento do usuário, melhorar as funcionalidades do produto e direcionar as decisões de desenvolvimento do produto."
+                    },
+                    "ja": {
+                        "title": "プロダクト分析 – Pirsch Analytics",
+                        "meta_description": "ユーザーの行動を理解し、製品の機能を改善し、製品開発の決定を推進するための製品関連データの分析。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Product Analytics?",
                         "text": "<p><strong>Product Analytics</strong> involves the use of data analysis tools to evaluate how users interact with a product in order to improve product development, enhance the user experience, and increase user retention. This type of analysis helps companies understand which features are popular, how they are used, and which areas of the product may need improvement. The insights gained from product analytics are critical for making data-driven decisions that can lead to more successful products.</p><p>Key activities in product analytics include tracking user interactions within the product, such as clicks, scrolls, and time spent on different features. This information is often visualized through heat maps and user journey maps, which help identify common patterns and bottlenecks that may be impacting the user experience. By continuously analyzing these interactions, companies can more effectively iterate on their products and make improvements that are directly informed by user behavior.</p><p>In addition, product analytics is invaluable for <a href=\"/glossary/ab-testing\">A/B testing</a>, allowing companies to compare different versions of a product feature to determine which performs better in terms of user engagement and satisfaction. It also supports the implementation of personalized experiences by customizing the product based on individual user data. Overall, product analytics is a key tool for optimizing product features and marketing strategies, helping companies succeed in competitive markets by closely aligning product offerings with user needs.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Product Analytics?",
+                        "text": "<p><strong>Product Analytics</strong> beinhaltet den Einsatz von Datenanalyse-Tools, um zu bewerten, wie Benutzer mit einem Produkt interagieren, um die Produktentwicklung zu verbessern, das Benutzererlebnis zu erhöhen und die Benutzerbindung zu steigern. Diese Art der Analyse hilft Unternehmen zu verstehen, welche Funktionen beliebt sind, wie sie genutzt werden und welche Bereiche des Produkts verbesserungsbedürftig sein könnten. Die Erkenntnisse aus der Produktanalytik sind entscheidend für datengetriebene Entscheidungen, die zu erfolgreicheren Produkten führen können.</p><p>Zu den Schlüsselaktivitäten in der Produktanalytik gehören das Nachverfolgen von Benutzerinteraktionen innerhalb des Produkts, wie Klicks, Scrollen und die auf verschiedenen Funktionen verbrachte Zeit. Diese Informationen werden oft durch Heatmaps und Nutzerreisekarten visualisiert, die dabei helfen, gemeinsame Muster und Engpässe zu identifizieren, die das Benutzererlebnis beeinflussen können. Durch die kontinuierliche Analyse dieser Interaktionen können Unternehmen ihre Produkte effektiver iterieren und Verbesserungen vornehmen, die direkt durch das Benutzerverhalten informiert sind.</p><p>Zusätzlich ist Produktanalytik unschätzbar für <a href=\"/de/glossary/ab-testing\">A/B-Tests</a>, die es Unternehmen ermöglichen, verschiedene Versionen einer Produktfunktion zu vergleichen, um zu bestimmen, welche hinsichtlich Benutzerengagement und -zufriedenheit besser abschneidet. Sie unterstützt auch die Implementierung personalisierter Erlebnisse, indem das Produkt basierend auf individuellen Benutzerdaten angepasst wird. Insgesamt ist die Produktanalytik ein entscheidendes Werkzeug zur Optimierung von Produktfunktionen und Marketingstrategien und hilft Unternehmen, in wettbewerbsintensiven Märkten erfolgreich zu sein, indem sie Produktangebote eng mit den Bedürfnissen der Benutzer abstimmt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica de Producto?",
+                        "text": "<p><strong>La Analítica de Producto</strong> involucra el uso de herramientas de análisis de datos para evaluar cómo los usuarios interactúan con un producto con el fin de mejorar el desarrollo del producto, mejorar la experiencia del usuario y aumentar la retención de usuarios. Este tipo de análisis ayuda a las empresas a comprender qué características son populares, cómo se utilizan y qué áreas del producto pueden necesitar mejoras. Las percepciones obtenidas de la analítica de productos son críticas para tomar decisiones basadas en datos que pueden llevar a productos más exitosos.</p><p>Las actividades clave en la analítica de productos incluyen el seguimiento de las interacciones de los usuarios dentro del producto, como clics, desplazamientos y tiempo dedicado a diferentes características. Esta información a menudo se visualiza a través de mapas de calor y mapas de viaje del usuario, que ayudan a identificar patrones comunes y cuellos de botella que pueden estar afectando la experiencia del usuario. Al analizar continuamente estas interacciones, las empresas pueden iterar más efectivamente en sus productos y realizar mejoras que están directamente informadas por el comportamiento del usuario.</p><p>Además, la analítica de producto es invaluable para las pruebas <a href=\"/es/glossary/ab-testing\">A/B</a>, permitiendo a las empresas comparar diferentes versiones de una característica del producto para determinar cuál funciona mejor en términos de compromiso y satisfacción del usuario. También apoya la implementación de experiencias personalizadas personalizando el producto basado en datos individuales del usuario. En general, la analítica de producto es una herramienta clave para optimizar las características del producto y las estrategias de marketing, ayudando a las empresas a tener éxito en mercados competitivos al alinear estrechamente las ofertas de productos con las necesidades de los usuarios.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'analytique de produit ?",
+                        "text": "<p><strong>L'analytique de produit</strong> implique l'utilisation d'outils d'analyse de données pour évaluer comment les utilisateurs interagissent avec un produit afin d'améliorer le développement du produit, d'améliorer l'expérience utilisateur et d'augmenter la rétention des utilisateurs. Ce type d'analyse aide les entreprises à comprendre quelles fonctionnalités sont populaires, comment elles sont utilisées et quelles zones du produit peuvent nécessiter des améliorations. Les insights obtenus de l'analytique de produit sont cruciaux pour prendre des décisions basées sur les données qui peuvent mener à des produits plus réussis.</p><p>Les activités clés dans l'analytique de produit incluent le suivi des interactions des utilisateurs à l'intérieur du produit, telles que les clics, les défilements et le temps passé sur différentes fonctionnalités. Ces informations sont souvent visualisées à travers des cartes de chaleur et des cartes de parcours utilisateur, qui aident à identifier des modèles communs et des goulots d'étranglement qui peuvent impacter l'expérience utilisateur. En analysant continuellement ces interactions, les entreprises peuvent itérer plus efficacement sur leurs produits et apporter des améliorations directement informées par le comportement des utilisateurs.</p><p>De plus, l'analytique de produit est inestimable pour les tests <a href=\"/fr/glossary/ab-testing\">A/B</a>, permettant aux entreprises de comparer différentes versions d'une fonctionnalité de produit pour déterminer laquelle est la meilleure en termes d'engagement et de satisfaction des utilisateurs. Elle soutient également la mise en œuvre d'expériences personnalisées en personnalisant le produit en fonction des données individuelles des utilisateurs. En somme, l'analytique de produit est un outil clé pour optimiser les fonctionnalités du produit et les stratégies de marketing, aidant les entreprises à réussir dans des marchés compétitifs en alignant étroitement les offres de produits avec les besoins des utilisateurs.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Productanalyse?",
+                        "text": "<p><strong>Productanalyse</strong> omvat het gebruik van data-analysetools om te evalueren hoe gebruikers omgaan met een product om de productontwikkeling te verbeteren, de gebruikerservaring te versterken en de gebruikersretentie te verhogen. Dit type analyse helpt bedrijven te begrijpen welke functies populair zijn, hoe ze worden gebruikt en welke gebieden van het product verbetering nodig hebben. De inzichten verkregen uit productanalyse zijn cruciaal voor het nemen van datagestuurde beslissingen die kunnen leiden tot succesvollere producten.</p><p>Belangrijke activiteiten binnen productanalyse omvatten het volgen van gebruikersinteracties binnen het product, zoals klikken, scrollen en de tijd die aan verschillende functies wordt besteed. Deze informatie wordt vaak gevisualiseerd via heatmaps en gebruikersreiskaarten, die helpen om gemeenschappelijke patronen en knelpunten te identificeren die de gebruikerservaring kunnen beïnvloeden. Door deze interacties continu te analyseren, kunnen bedrijven effectiever itereren op hun producten en verbeteringen aanbrengen die direct worden geïnformeerd door gebruikersgedrag.</p><p>Daarnaast is productanalyse van onschatbare waarde voor <a href=\"/nl/glossary/ab-testing\">A/B-testen</a>, waardoor bedrijven verschillende versies van een productfunctie kunnen vergelijken om te bepalen welke beter presteert in termen van gebruikersbetrokkenheid en -tevredenheid. Het ondersteunt ook de implementatie van gepersonaliseerde ervaringen door het product aan te passen op basis van individuele gebruikersgegevens. Over het algemeen is productanalyse een essentieel hulpmiddel voor het optimaliseren van productfuncties en marketingstrategieën, waardoor bedrijven succesvol kunnen zijn in concurrerende markten door productaanbiedingen nauw te aligneren met gebruikersbehoeften.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Cos'è l'Analisi del Prodotto?",
+                        "text": "<p><strong>L'Analisi del Prodotto</strong> implica l'uso di strumenti di analisi dei dati per valutare come gli utenti interagiscono con un prodotto al fine di migliorare lo sviluppo del prodotto, potenziare l'esperienza utente e aumentare la ritenzione degli utenti. Questo tipo di analisi aiuta le aziende a comprendere quali funzionalità sono popolari, come vengono utilizzate e quali aree del prodotto possono necessitare di miglioramenti. Le intuizioni ottenute dall'analisi del prodotto sono fondamentali per prendere decisioni basate sui dati che possono portare a prodotti più riusciti.</p><p>Le attività chiave nell'analisi del prodotto includono il tracciamento delle interazioni degli utenti all'interno del prodotto, come clic, scorrimenti e tempo trascorso su diverse funzionalità. Queste informazioni sono spesso visualizzate tramite mappe di calore e mappe del percorso dell'utente, che aiutano a identificare modelli comuni e colli di bottiglia che possono influenzare l'esperienza utente. Analizzando continuamente queste interazioni, le aziende possono iterare più efficacemente sui loro prodotti e apportare miglioramenti che sono direttamente informati dal comportamento degli utenti.</p><p>Inoltre, l'analisi del prodotto è inestimabile per i test <a href=\"/it/glossary/ab-testing\">A/B</a>, consentendo alle aziende di confrontare diverse versioni di una caratteristica del prodotto per determinare quale funzioni meglio in termini di coinvolgimento e soddisfazione dell'utente. Supporta anche l'implementazione di esperienze personalizzate personalizzando il prodotto in base ai dati degli utenti individuali. Nel complesso, l'analisi del prodotto è uno strumento chiave per ottimizzare le funzionalità del prodotto e le strategie di marketing, aiutando le aziende a riuscire in mercati competitivi allineando strettamente le offerte di prodotti con le esigenze degli utenti.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise de Produto?",
+                        "text": "<p><strong>Análise de Produto</strong> envolve o uso de ferramentas de análise de dados para avaliar como os usuários interagem com um produto a fim de melhorar o desenvolvimento do produto, aprimorar a experiência do usuário e aumentar a retenção de usuários. Este tipo de análise ajuda as empresas a entender quais recursos são populares, como eles são usados e quais áreas do produto podem precisar de melhorias. As percepções obtidas da análise de produto são cruciais para tomar decisões baseadas em dados que podem levar a produtos mais bem-sucedidos.</p><p>As atividades principais em análise de produto incluem o rastreamento de interações do usuário dentro do produto, como cliques, rolagens e tempo gasto em diferentes recursos. Essas informações são frequentemente visualizadas por meio de mapas de calor e mapas de jornada do usuário, que ajudam a identificar padrões comuns e gargalos que podem estar afetando a experiência do usuário. Ao analisar continuamente essas interações, as empresas podem iterar mais eficazmente em seus produtos e fazer melhorias que são diretamente informadas pelo comportamento do usuário.</p><p>Além disso, a análise de produto é inestimável para testes <a href=\"/pt/glossary/ab-testing\">A/B</a>, permitindo que as empresas comparem diferentes versões de um recurso do produto para determinar qual funciona melhor em termos de engajamento e satisfação do usuário. Também suporta a implementação de experiências personalizadas personalizando o produto com base nos dados individuais do usuário. Em geral, a análise de produto é uma ferramenta chave para otimizar recursos de produtos e estratégias de marketing, ajudando as empresas a ter sucesso em mercados competitivos ao alinhar as ofertas de produtos com as necessidades dos usuários.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "プロダクトアナリティクスとは何ですか？",
+                        "text": "<p><strong>プロダクトアナリティクス</strong>は、製品とのユーザーの相互作用を評価するためにデータ分析ツールを使用することにより、製品開発を改善し、ユーザーエクスペリエンスを強化し、ユーザー保持を増やすことを目指します。このタイプの分析は、どの機能が人気があるか、それらがどのように使用されているか、どの製品領域が改善を必要としているかを企業が理解するのに役立ちます。プロダクトアナリティクスから得られる洞察は、より成功した製品につながる可能性のあるデータ駆動型の決定を下すために重要です。</p><p>プロダクトアナリティクスの主要な活動には、クリック、スクロール、さまざまな機能に費やされた時間など、製品内のユーザーの相互作用の追跡が含まれます。この情報は、一般的なパターンとユーザーエクスペリエンスに影響を与える可能性のあるボトルネックを特定するのに役立つヒートマップやユーザージャーニーマップを通じて視覚化されることが多いです。これらの相互作用を継続的に分析することにより、企業は製品についてより効果的に反復し、ユーザーの行動によって直接情報提供された改善を行うことができます。</p><p>さらに、プロダクトアナリティクスは、<a href=\"/ja/glossary/ab-testing\">A/Bテス</a>に不可欠で、企業が製品の機能の異なるバージョンを比較し、ユーザーのエンゲージメントと満足度の観点からどちらがより優れているかを判断することができます。また、個々のユーザーデータに基づいて製品をカスタマイズすることにより、パーソナライズされたエクスペリエンスの実装をサポートします。全体として、プロダクトアナリティクスは、製品機能とマーケティング戦略を最適化するための重要なツールであり、製品のオファリングをユーザーのニーズに密接に合わせることで、競争の激しい市場で企業が成功を収めるのを支援します。</p>"
                     }
                 }
             },

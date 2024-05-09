@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/e-commerce-analytics"
+        "en": "/atlas/e-commerce-analytics",
+        "de": "/de/atlas/e-commerce-analytics",
+        "es": "/es/atlas/e-commerce-analytics",
+        "fr": "/fr/atlas/e-commerce-analytics",
+        "nl": "/nl/atlas/e-commerce-analytics",
+        "it": "/it/atlas/e-commerce-analytics",
+        "pt": "/pt/atlas/e-commerce-analytics",
+        "ja": "/ja/atlas/e-commerce-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "E-Commerce Analytics – Pirsch Analytics",
                         "meta_description": "The tracking and analysis of data related to online sales and transactions, including customer behavior, product performance, and revenue."
+                    },
+                    "de": {
+                        "title": "E-Commerce Analytics – Pirsch Analytics",
+                        "meta_description": "Das Tracking und die Analyse von Daten bezüglich Online-Verkäufen und Transaktionen, einschließlich Kundenverhalten, Produktleistung und Umsatz."
+                    },
+                    "es": {
+                        "title": "Analítica de Comercio Electrónico – Pirsch Analytics",
+                        "meta_description": "El seguimiento y análisis de datos relacionados con ventas y transacciones en línea, incluyendo el comportamiento del cliente, el rendimiento del producto y los ingresos."
+                    },
+                    "fr": {
+                        "title": "Analytique E-Commerce – Pirsch Analytics",
+                        "meta_description": "Le suivi et l'analyse des données liées aux ventes en ligne et aux transactions, incluant le comportement des clients, la performance des produits et les revenus."
+                    },
+                    "nl": {
+                        "title": "E-commerce Analytics – Pirsch Analytics",
+                        "meta_description": "Het volgen en analyseren van gegevens gerelateerd aan online verkopen en transacties, inclusief klantgedrag, productprestaties en omzet."
+                    },
+                    "it": {
+                        "title": "Analitica E-Commerce – Pirsch Analytics",
+                        "meta_description": "Il tracciamento e l'analisi dei dati relativi alle vendite e transazioni online, inclusi il comportamento del cliente, le prestazioni del prodotto e i ricavi."
+                    },
+                    "pt": {
+                        "title": "Análise de E-Commerce – Pirsch Analytics",
+                        "meta_description": "O rastreamento e análise de dados relacionados a vendas e transações online, incluindo comportamento do cliente, desempenho do produto e receita."
+                    },
+                    "ja": {
+                        "title": "Eコマースアナリティクス – Pirsch Analytics",
+                        "meta_description": "オンライン販売および取引に関連するデータの追跡および分析。これには、顧客の行動、製品のパフォーマンス、収益が含まれます。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is E-Commerce Analytics?",
                         "text": "<p><strong>E-Commerce Analytics</strong> refers to the systematic analysis of data collected from online shopping platforms to improve business performance and customer experience. This type of analytics focuses on various metrics such as page views, click-through rates, cart abandonment rates, and sales conversions. By understanding these metrics, e-commerce companies can optimize their websites, improve product offerings, and enhance the overall shopping experience for their customers.</p><p>The core activities of e-commerce analytics include tracking visitor behavior on a website, analyzing customer buying patterns, and evaluating the effectiveness of marketing campaigns. Tools such as <a href=\"/\">Pirsch Analytics</a> and specialized e-commerce analytics platforms can help collect and analyze data. This data provides insights into which products are performing well, which promotions are driving sales, and how changes to the user interface can affect customer behavior.</p><p>In addition, e-commerce analytics allows businesses to conduct <a href=\"/glossary/ab-testing\">A/B testing</a> to compare different versions of web pages and determine which performs better in terms of customer engagement and sales. Predictive analytics can also be used to forecast future buying trends and customer needs. Overall, effective use of e-commerce analytics leads to more informed decision-making and can significantly increase an e-commerce business's profitability and customer satisfaction levels.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist E-Commerce Analytics?",
+                        "text": "<p><strong>E-Commerce Analytics</strong> bezieht sich auf die systematische Analyse von Daten, die von Online-Einkaufsplattformen gesammelt wurden, um die Geschäftsleistung und die Kundenerfahrung zu verbessern. Diese Art von Analytik konzentriert sich auf verschiedene Metriken wie Seitenaufrufe, Klickrate, Abbruchraten von Warenkörben und Verkaufskonversionen. Durch das Verständnis dieser Metriken können E-Commerce-Unternehmen ihre Websites optimieren, Produktangebote verbessern und das gesamte Einkaufserlebnis für ihre Kunden verbessern.</p><p>Zu den Kernaktivitäten der E-Commerce-Analytik gehören das Verfolgen des Besucherverhaltens auf einer Website, die Analyse von Kundenkaufmustern und die Bewertung der Wirksamkeit von Marketingkampagnen. Tools wie <a href=\"/de\">Pirsch Analytics</a> und spezialisierte E-Commerce-Analyseplattformen können dabei helfen, Daten zu sammeln und zu analysieren. Diese Daten bieten Einblicke, welche Produkte gut performen, welche Promotionen den Verkauf antreiben und wie Änderungen an der Benutzeroberfläche das Kundenverhalten beeinflussen können.</p><p>Darüber hinaus ermöglicht E-Commerce-Analytics Unternehmen, <a href=\"/de/glossary/ab-testing\">A/B-Tests</a> durchzuführen, um verschiedene Versionen von Webseiten zu vergleichen und zu bestimmen, welche in Bezug auf Kundenbindung und Verkäufe besser abschneidet. Predictive Analytics kann auch verwendet werden, um zukünftige Kauftrends und Kundenbedürfnisse vorherzusagen. Insgesamt führt der effektive Einsatz von E-Commerce-Analytics zu fundierteren Entscheidungen und kann die Rentabilität und Kundenzufriedenheit eines E-Commerce-Unternehmens erheblich steigern.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica de Comercio Electrónico?",
+                        "text": "<p><strong>La Analítica de Comercio Electrónico</strong> se refiere al análisis sistemático de datos recopilados de plataformas de compras en línea para mejorar el rendimiento empresarial y la experiencia del cliente. Este tipo de análisis se centra en diversas métricas como las vistas de página, las tasas de clics, las tasas de abandono de carritos y las conversiones de ventas. Al entender estas métricas, las empresas de comercio electrónico pueden optimizar sus sitios web, mejorar sus ofertas de productos y mejorar la experiencia de compra general para sus clientes.</p><p>Las actividades centrales de la analítica de comercio electrónico incluyen el seguimiento del comportamiento de los visitantes en un sitio web, el análisis de los patrones de compra de los clientes y la evaluación de la efectividad de las campañas de marketing. Herramientas como <a href=\"/es\">Pirsch Analytics</a> y plataformas especializadas en analítica de comercio electrónico pueden ayudar a recopilar y analizar datos. Estos datos proporcionan perspectivas sobre qué productos tienen buen rendimiento, qué promociones están impulsando las ventas y cómo los cambios en la interfaz de usuario pueden afectar el comportamiento del cliente.</p><p>Además, la analítica de comercio electrónico permite a las empresas realizar <a href=\"/es/glossary/ab-testing\">pruebas A/B</a> para comparar diferentes versiones de páginas web y determinar cuál funciona mejor en términos de compromiso del cliente y ventas. La analítica predictiva también puede ser utilizada para prever futuras tendencias de compra y necesidades del cliente. En general, el uso efectivo de la analítica de comercio electrónico conduce a una toma de decisiones más informada y puede aumentar significativamente la rentabilidad y los niveles de satisfacción del cliente de un negocio de comercio electrónico.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique E-Commerce?",
+                        "text": "<p><strong>L'Analytique E-Commerce</strong> fait référence à l'analyse systématique des données collectées à partir de plateformes de shopping en ligne pour améliorer la performance de l'entreprise et l'expérience client. Ce type d'analytique se concentre sur diverses métriques telles que les vues de pages, les taux de clics, les taux d'abandon de panier et les conversions de ventes. En comprenant ces métriques, les entreprises de commerce électronique peuvent optimiser leurs sites Web, améliorer leurs offres de produits et renforcer l'expérience d'achat globale pour leurs clients.</p><p>Les activités principales de l'analytique e-commerce incluent le suivi du comportement des visiteurs sur un site web, l'analyse des motifs d'achat des clients et l'évaluation de l'efficacité des campagnes de marketing. Des outils tels que <a href=\"/fr\">Pirsch Analytics</a> et des plateformes spécialisées en analytique e-commerce peuvent aider à collecter et analyser les données. Ces données fournissent des aperçus sur les produits qui performent bien, les promotions qui stimulent les ventes et comment les modifications de l'interface utilisateur peuvent affecter le comportement des clients.</p><p>De plus, l'analytique e-commerce permet aux entreprises de mener des <a href=\"/fr/glossary/ab-testing\">tests A/B</a> pour comparer différentes versions de pages web et déterminer laquelle est plus performante en termes d'engagement des clients et de ventes. L'analytique prédictive peut également être utilisée pour prévoir les tendances d'achat futures et les besoins des clients. Globalement, l'utilisation efficace de l'analytique e-commerce conduit à une prise de décision plus éclairée et peut augmenter considérablement la rentabilité et les niveaux de satisfaction client d'une entreprise de commerce électronique.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is E-commerce Analytics?",
+                        "text": "<p><strong>E-commerce Analytics</strong> verwijst naar de systematische analyse van gegevens verzameld van online winkelplatforms om de bedrijfsprestaties en de klantenervaring te verbeteren. Dit type analyse focust op verschillende metrics zoals paginaweergaves, doorklikratio's, winkelwagenverlatingspercentages en verkoopconversies. Door deze metrics te begrijpen, kunnen e-commercebedrijven hun websites optimaliseren, productaanbiedingen verbeteren en de algehele winkelervaring voor hun klanten verbeteren.</p><p>De kernactiviteiten van e-commerce analytics omvatten het volgen van bezoekersgedrag op een website, het analyseren van klantkooppatronen en het evalueren van de effectiviteit van marketingcampagnes. Tools zoals <a href=\"/nl\">Pirsch Analytics</a> en gespecialiseerde e-commerce analytics platforms kunnen helpen bij het verzamelen en analyseren van data. Deze data biedt inzichten in welke producten goed presteren, welke promoties de verkoop stimuleren en hoe veranderingen in de gebruikersinterface het gedrag van klanten kunnen beïnvloeden.</p><p>Daarnaast stelt e-commerce analytics bedrijven in staat om <a href=\"/nl/glossary/ab-testing\">A/B-testen</a> uit te voeren om verschillende versies van webpagina's te vergelijken en te bepalen welke beter presteert qua klantenbinding en verkopen. Predictieve analytics kan ook worden gebruikt om toekomstige kooptrends en klantbehoeften te voorspellen. Over het geheel genomen leidt effectief gebruik van e-commerce analytics tot meer geïnformeerde besluitvorming en kan het de winstgevendheid en klanttevredenheid van een e-commercebedrijf aanzienlijk verhogen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Cos'è l'Analitica E-Commerce?",
+                        "text": "<p><strong>L'Analitica E-Commerce</strong> si riferisce all'analisi sistematica dei dati raccolti dalle piattaforme di shopping online per migliorare le prestazioni aziendali e l'esperienza del cliente. Questo tipo di analisi si concentra su vari metriche come visualizzazioni di pagina, tassi di clic, tassi di abbandono del carrello e conversioni di vendita. Comprendendo queste metriche, le aziende di e-commerce possono ottimizzare i loro siti web, migliorare le offerte di prodotti e arricchire l'esperienza di acquisto complessiva per i loro clienti.</p><p>Le attività principali dell'analitica e-commerce includono il monitoraggio del comportamento dei visitatori sul sito web, l'analisi dei modelli di acquisto dei clienti e la valutazione dell'efficacia delle campagne di marketing. Strumenti come <a href=\"/it\">Pirsch Analytics</a> e piattaforme di analitica e-commerce specializzate possono aiutare a raccogliere e analizzare i dati. Questi dati forniscono spunti su quali prodotti stanno andando bene, quali promozioni stanno guidando le vendite e come le modifiche all'interfaccia utente possono influenzare il comportamento del cliente.</p><p>Inoltre, l'analitica e-commerce permette alle aziende di condurre <a href=\"/it/glossary/ab-testing\">test A/B</a> per confrontare diverse versioni di pagine web e determinare quale funziona meglio in termini di coinvolgimento dei clienti e vendite. L'analitica predittiva può anche essere utilizzata per prevedere le tendenze future di acquisto e le necessità dei clienti. Nel complesso, l'uso efficace dell'analitica e-commerce porta a decisioni più informate e può aumentare significativamente la redditività e i livelli di soddisfazione dei clienti di un'azienda di e-commerce.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar para Atlas",
+                        "headline": "O que é Análise de E-Commerce?",
+                        "text": "<p><strong>Análise de E-Commerce</strong> refere-se à análise sistemática de dados coletados de plataformas de compras online para melhorar o desempenho empresarial e a experiência do cliente. Este tipo de análise foca em várias métricas, como visualizações de páginas, taxas de clique, taxas de abandono de carrinhos e conversões de vendas. Ao entender essas métricas, as empresas de e-commerce podem otimizar seus websites, melhorar suas ofertas de produtos e aprimorar a experiência de compras geral para seus clientes.</p><p>As atividades principais da análise de e-commerce incluem o rastreamento do comportamento do visitante em um website, a análise dos padrões de compra dos clientes e a avaliação da eficácia das campanhas de marketing. Ferramentas como <a href=\"/pt\">Pirsch Analytics</a> e plataformas especializadas em análise de e-commerce podem ajudar a coletar e analisar dados. Esses dados fornecem insights sobre quais produtos estão se saindo bem, quais promoções estão impulsionando as vendas e como mudanças na interface do usuário podem afetar o comportamento do cliente.</p><p>Além disso, a análise de e-commerce permite que as empresas realizem <a href=\"/pt/glossary/ab-testing\">testes A/B</a> para comparar diferentes versões de páginas da web e determinar qual apresenta melhor desempenho em termos de envolvimento do cliente e vendas. A análise preditiva também pode ser usada para prever futuras tendências de compra e necessidades dos clientes. Em geral, o uso eficaz da análise de e-commerce leva a uma tomada de decisão mais informada e pode aumentar significativamente a lucratividade e os níveis de satisfação do cliente de uma empresa de e-commerce.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "Eコマースアナリティクスとは何ですか？",
+                        "text": "<p><strong>Eコマースアナリティクス</strong>は、オンラインショッピングプラットフォームから収集されたデータの体系的な分析を指します。これは、ビジネスパフォーマンスと顧客体験の向上を目的としています。このタイプの分析は、ページビュー、クリックスルーレート、カート放棄率、売上転換率などの様々な指標に焦点を当てます。これらの指標を理解することで、Eコマース企業は自社のウェブサイトを最適化し、製品の提供を改善し、顧客のショッピング体験全体を向上させることができます。</p><p>Eコマースアナリティクスの主な活動には、ウェブサイト上の訪問者の行動追跡、顧客の購買パターンの分析、マーケティングキャンペーンの効果評価が含まれます。Pirsch Analyticsおよび特化したEコマース分析プラットフォームなどのツールは、データの収集と分析に役立ちます。このデータは、どの製品がよくパフォーマンスを発揮しているか、どのプロモーションが売上を促進しているか、ユーザーインターフェースの変更が顧客行動にどのような影響を与えるかなどの洞察を提供します。</p><p>さらに、Eコマースアナリティクスは、顧客エンゲージメントと売上の面でどちらが優れているかを判断するために、ウェブページの異なるバージョンを比較する<A/Bテストを行うことができます。予測分析を使用して、将来の購買傾向と顧客のニーズを予測することもできます。全体として、Eコマースアナリティクスの効果的な使用は、より情報に基づいた意思決定につながり、Eコマースビジネスの収益性と顧客満足度を大幅に向上させることができます。</p>"
                     }
                 }
             },

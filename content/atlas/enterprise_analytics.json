@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/enterprise-analytics"
+        "en": "/atlas/enterprise-analytics",
+        "de": "/de/atlas/enterprise-analytics",
+        "es": "/es/atlas/enterprise-analytics",
+        "fr": "/fr/atlas/enterprise-analytics",
+        "nl": "/nl/atlas/enterprise-analytics",
+        "it": "/it/atlas/enterprise-analytics",
+        "pt": "/pt/atlas/enterprise-analytics",
+        "ja": "/ja/atlas/enterprise-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Enterprise Analytics – Pirsch Analytics",
                         "meta_description": "The use of analytics within an organization to support decision-making, improve efficiency, and drive business growth across various departments and functions."
+                    },
+                    "de": {
+                        "title": "Enterprise Analytics – Pirsch Analytics",
+                        "meta_description": "Die Nutzung von Analytik innerhalb einer Organisation zur Unterstützung der Entscheidungsfindung, zur Steigerung der Effizienz und zur Förderung des Geschäftswachstums in verschiedenen Abteilungen und Funktionen."
+                    },
+                    "es": {
+                        "title": "Analítica Empresarial – Pirsch Analytics",
+                        "meta_description": "El uso de analíticas dentro de una organización para apoyar la toma de decisiones, mejorar la eficiencia y impulsar el crecimiento empresarial en varios departamentos y funciones."
+                    },
+                    "fr": {
+                        "title": "Analytique d'Entreprise – Pirsch Analytics",
+                        "meta_description": "L'utilisation de l'analytique au sein d'une organisation pour soutenir la prise de décision, améliorer l'efficacité et stimuler la croissance des affaires à travers divers départements et fonctions."
+                    },
+                    "nl": {
+                        "title": "Bedrijfsanalyse – Pirsch Analytics",
+                        "meta_description": "Het gebruik van analytics binnen een organisatie ter ondersteuning van besluitvorming, het verbeteren van efficiëntie en het stimuleren van bedrijfsgroei in verschillende afdelingen en functies."
+                    },
+                    "it": {
+                        "title": "Analisi Aziendale – Pirsch Analytics",
+                        "meta_description": "L'uso di analitiche all'interno di un'organizzazione per supportare la presa di decisioni, migliorare l'efficienza e guidare la crescita aziendale attraverso vari dipartimenti e funzioni."
+                    },
+                    "pt": {
+                        "title": "Análise Empresarial – Pirsch Analytics",
+                        "meta_description": "O uso de análises dentro de uma organização para apoiar a tomada de decisões, melhorar a eficiência e impulsionar o crescimento do negócio em vários departamentos e funções."
+                    },
+                    "ja": {
+                        "title": "エンタープライズアナリティクス – Pirsch Analytics",
+                        "meta_description": "組織内での分析の使用。これにより、さまざまな部門や機能を通じて意思決定をサポートし、効率を向上させ、ビジネスの成長を促進します。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Enterprise Analytics?",
                         "text": "<p><strong>Enterprise Analytics</strong> involves the application of statistical tools and methods across an organization to improve decision making and operational efficiency. This form of analytics examines data from various business operations, including finance, marketing, sales, and human resources, to identify patterns and insights that can drive strategic business moves. It enables organizations to consolidate data from disparate sources into a cohesive analytical framework.</p><p>The scope of business analytics encompasses both tactical and strategic decision making. Tactical analytics can focus on operational improvements and immediate performance enhancements, while strategic analytics can influence long-term business strategies and corporate planning. Tools such as business intelligence platforms, advanced analytics software, and data visualization technologies are commonly used to handle complex data sets and deliver actionable insights.</p><p>In addition, enterprise analytics supports a data-driven culture within an organization, encouraging decisions based on evidence rather than intuition. By integrating analytics into their core operations, companies can improve visibility, predict future trends, and respond more effectively to market changes. Ultimately, enterprise analytics fosters greater agility, competitiveness, and resilience in a rapidly evolving business environment.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Enterprise Analytics?",
+                        "text": "<p><strong>Enterprise Analytics</strong> umfasst die Anwendung statistischer Werkzeuge und Methoden in einer Organisation, um die Entscheidungsfindung und betriebliche Effizienz zu verbessern. Diese Form der Analytik untersucht Daten aus verschiedenen Geschäftsbereichen, einschließlich Finanzen, Marketing, Vertrieb und Personalwesen, um Muster und Erkenntnisse zu identifizieren, die strategische Geschäftsentscheidungen antreiben können. Sie ermöglicht es Organisationen, Daten aus verschiedenen Quellen in einem kohärenten analytischen Rahmenwerk zu konsolidieren.</p><p>Der Umfang der Unternehmensanalytik umfasst sowohl taktische als auch strategische Entscheidungsfindung. Taktische Analysen können sich auf betriebliche Verbesserungen und sofortige Leistungssteigerungen konzentrieren, während strategische Analysen langfristige Geschäftsstrategien und Unternehmensplanung beeinflussen können. Werkzeuge wie Business-Intelligence-Plattformen, fortschrittliche Analysesoftware und Datenvisualisierungstechnologien werden häufig verwendet, um komplexe Datensätze zu handhaben und handlungsorientierte Erkenntnisse zu liefern.</p><p>Zudem unterstützt die Unternehmensanalytik eine datengesteuerte Kultur innerhalb einer Organisation und fördert Entscheidungen, die auf Beweisen statt auf Intuition basieren. Durch die Integration von Analytik in ihre Kernoperationen können Unternehmen die Sichtbarkeit verbessern, zukünftige Trends vorhersagen und effektiver auf Marktveränderungen reagieren. Letztendlich fördert die Unternehmensanalytik größere Agilität, Wettbewerbsfähigkeit und Resilienz in einem sich schnell entwickelnden Geschäftsumfeld.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Empresarial?",
+                        "text": "<p><strong>La Analítica Empresarial</strong> implica la aplicación de herramientas y métodos estadísticos en toda una organización para mejorar la toma de decisiones y la eficiencia operativa. Esta forma de análisis examina datos de diversas operaciones comerciales, incluidas finanzas, marketing, ventas y recursos humanos, para identificar patrones e insights que pueden impulsar movimientos estratégicos en los negocios. Permite a las organizaciones consolidar datos de fuentes dispares en un marco analítico cohesivo.</p><p>El alcance de la analítica empresarial abarca la toma de decisiones tanto tácticas como estratégicas. La analítica táctica puede centrarse en mejoras operativas y mejoras de rendimiento inmediatas, mientras que la analítica estratégica puede influir en estrategias empresariales a largo plazo y planificación corporativa. Herramientas como plataformas de inteligencia empresarial, software de análisis avanzado y tecnologías de visualización de datos son comúnmente utilizadas para manejar conjuntos de datos complejos y entregar insights accionables.</p><p>Además, la analítica empresarial apoya una cultura basada en datos dentro de una organización, fomentando decisiones basadas en evidencias en lugar de en la intuición. Al integrar la analítica en sus operaciones centrales, las empresas pueden mejorar la visibilidad, predecir tendencias futuras y responder más eficazmente a los cambios del mercado. En última instancia, la analítica empresarial promueve una mayor agilidad, competitividad y resiliencia en un entorno empresarial que evoluciona rápidamente.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique d'Entreprise?",
+                        "text": "<p><strong>L'Analytique d'Entreprise</strong> implique l'application d'outils et de méthodes statistiques à travers une organisation pour améliorer la prise de décision et l'efficacité opérationnelle. Cette forme d'analytique examine les données issues de diverses opérations commerciales, incluant la finance, le marketing, les ventes et les ressources humaines, pour identifier des modèles et des insights qui peuvent orienter les mouvements stratégiques des entreprises. Elle permet aux organisations de consolider les données de sources disparates dans un cadre analytique cohérent.</p><p>Le domaine de l'analytique d'entreprise englobe la prise de décisions tactiques et stratégiques. L'analytique tactique peut se concentrer sur les améliorations opérationnelles et les améliorations de performance immédiates, tandis que l'analytique stratégique peut influencer les stratégies d'affaires à long terme et la planification corporative. Des outils tels que les plateformes d'intelligence d'affaires, le logiciel d'analyse avancée et les technologies de visualisation de données sont couramment utilisés pour gérer des ensembles de données complexes et fournir des insights exploitables.</p><p>De plus, l'analytique d'entreprise soutient une culture orientée données au sein d'une organisation, encourageant les décisions basées sur des preuves plutôt que sur l'intuition. En intégrant l'analytique dans leurs opérations de base, les entreprises peuvent améliorer la visibilité, prédire les tendances futures et répondre plus efficacement aux changements du marché. En définitive, l'analytique d'entreprise favorise une plus grande agilité, compétitivité et résilience dans un environnement commercial en évolution rapide.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Bedrijfsanalyse?",
+                        "text": "<p><strong>Bedrijfsanalyse</strong> betreft het toepassen van statistische hulpmiddelen en methoden over een organisatie om de besluitvorming en operationele efficiëntie te verbeteren. Deze vorm van analyse onderzoekt gegevens van verschillende bedrijfsoperaties, waaronder financiën, marketing, verkoop en personeelszaken, om patronen en inzichten te identificeren die strategische zakelijke bewegingen kunnen aansturen. Het stelt organisaties in staat gegevens uit uiteenlopende bronnen te consolideren in een samenhangend analytisch kader.</p><p>De reikwijdte van bedrijfsanalyse omvat zowel tactische als strategische besluitvorming. Tactische analyse kan zich richten op operationele verbeteringen en directe prestatieverbeteringen, terwijl strategische analyse invloed kan hebben op langetermijnbedrijfsstrategieën en bedrijfsplanning. Hulpmiddelen zoals business intelligence-platforms, geavanceerde analysesoftware en datavisualisatietechnologieën worden vaak gebruikt om complexe gegevenssets te hanteren en actiegerichte inzichten te leveren.</p><p>Daarnaast ondersteunt bedrijfsanalyse een datagedreven cultuur binnen een organisatie, waarbij beslissingen worden genomen op basis van bewijs in plaats van intuïtie. Door analyse te integreren in hun kernoperaties kunnen bedrijven de zichtbaarheid verbeteren, toekomstige trends voorspellen en effectiever reageren op marktveranderingen. Uiteindelijk bevordert bedrijfsanalyse grotere wendbaarheid, concurrentievermogen en veerkracht in een snel evoluerende zakelijke omgeving.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Cos'è l'Analisi Aziendale?",
+                        "text": "<p><strong>L'Analisi Aziendale</strong> implica l'applicazione di strumenti e metodi statistici in un'organizzazione per migliorare la presa di decisioni e l'efficienza operativa. Questa forma di analisi esamina i dati provenienti da varie operazioni aziendali, inclusi finanza, marketing, vendite e risorse umane, per identificare modelli e intuizioni che possono guidare mosse strategiche aziendali. Permette alle organizzazioni di consolidare i dati provenienti da fonti disparate in un quadro analitico coerente.</p><p>L'ambito dell'analisi aziendale comprende la presa di decisioni sia tattiche che strategiche. L'analisi tattica può concentrarsi su miglioramenti operativi e miglioramenti immediati delle prestazioni, mentre l'analisi strategica può influenzare le strategie aziendali a lungo termine e la pianificazione aziendale. Strumenti come piattaforme di business intelligence, software di analisi avanzata e tecnologie di visualizzazione dei dati sono comunemente utilizzati per gestire set di dati complessi e fornire insight azionabili.</p><p>Inoltre, l'analisi aziendale supporta una cultura basata sui dati all'interno di un'organizzazione, incoraggiando decisioni basate su prove anziché su intuizioni. Integrando l'analisi nelle loro operazioni centrali, le aziende possono migliorare la visibilità, prevedere le tendenze future e rispondere più efficacemente ai cambiamenti del mercato. In definitiva, l'analisi aziendale favorisce una maggiore agilità, competitività e resilienza in un ambiente aziendale in rapida evoluzione.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise Empresarial?",
+                        "text": "<p><strong>Análise Empresarial</strong> envolve a aplicação de ferramentas e métodos estatísticos em uma organização para melhorar a tomada de decisões e a eficiência operacional. Esta forma de análise examina dados de várias operações de negócios, incluindo finanças, marketing, vendas e recursos humanos, para identificar padrões e insights que podem direcionar movimentos estratégicos de negócios. Permite que as organizações consolidem dados de fontes diversas em um quadro analítico coeso.</p><p>O escopo da análise empresarial abrange tanto a tomada de decisões táticas quanto estratégicas. Análises táticas podem se concentrar em melhorias operacionais e aprimoramentos de desempenho imediatos, enquanto análises estratégicas podem influenciar estratégias de negócios de longo prazo e planejamento corporativo. Ferramentas como plataformas de inteligência de negócios, software de análise avançada e tecnologias de visualização de dados são comumente usadas para lidar com conjuntos de dados complexos e fornecer insights acionáveis.</p><p>Além disso, a análise empresarial suporta uma cultura orientada por dados dentro de uma organização, incentivando decisões baseadas em evidências ao invés de intuição. Ao integrar a análise em suas operações centrais, as empresas podem melhorar a visibilidade, prever tendências futuras e responder mais eficazmente às mudanças do mercado. Em última análise, a análise empresarial promove maior agilidade, competitividade e resiliência em um ambiente de negócios que evolui rapidamente.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスへ戻る",
+                        "headline": "エンタープライズアナリティクスとは？",
+                        "text": "<p><strong>エンタープライズアナリティクス</strong>は、組織内で統計ツールと方法を適用して意思決定と運営効率を向上させることを指します。この分析形式では、財務、マーケティング、営業、人事などのさまざまなビジネスオペレーションからのデータを調査し、戦略的なビジネス動向を推進するパターンやインサイトを特定します。これにより、組繃は異なるソースからのデータを一貫した分析フレームワークに統合することができます。</p><p>ビジネスアナリティクスの範囲は、戦術的および戦略的な意思決定を含みます。戦術的アナリティクスは、運用の改善や即時のパフォーマンス向上に焦点を当てることができ、戦略的アナリティクスは長期的なビジネス戦略や企業計画に影響を与えることができます。ビジネスインテリジェンスプラットフォーム、高度な分析ソフトウェア、データ視覚化技術などのツールが一般的に使用され、複雑なデータセットを扱い、実行可能な洞察を提供します。</p><p>さらに、エンタープライズアナリティクスは、組織内でデータ駆動型の文化をサポートし、直感ではなく証拠に基づく決定を促進します。分析をコアオペレーションに統合することで、企業は可視性を向上させ、将来のトレンドを予測し、市場の変化に対してより効果的に対応できるようになります。最終的に、エンタープライズアナリティクスは、急速に変化するビジネス環境での企業のより大きな機敏性、競争力、および回復力を促進します。</p>"
                     }
                 }
             },

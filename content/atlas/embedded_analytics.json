@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/embedded-analytics"
+        "en": "/atlas/embedded-analytics",
+        "de": "/de/atlas/embedded-analytics",
+        "es": "/es/atlas/embedded-analytics",
+        "fr": "/fr/atlas/embedded-analytics",
+        "nl": "/nl/atlas/embedded-analytics",
+        "it": "/it/atlas/embedded-analytics",
+        "pt": "/pt/atlas/embedded-analytics",
+        "ja": "/ja/atlas/embedded-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Embedded Analytics – Pirsch Analytics",
                         "meta_description": "Analytics capabilities integrated directly into software applications, allowing users to access and analyze data within their workflows."
+                    },
+                    "de": {
+                        "title": "Embedded Analytics – Pirsch Analytics",
+                        "meta_description": "Analysefunktionen, die direkt in Softwareanwendungen integriert sind, ermöglichen Benutzern den Zugriff auf Daten und deren Analyse innerhalb ihrer Arbeitsabläufe."
+                    },
+                    "es": {
+                        "title": "Analítica Integrada – Pirsch Analytics",
+                        "meta_description": "Capacidades analíticas integradas directamente en aplicaciones de software, permitiendo a los usuarios acceder y analizar datos dentro de sus flujos de trabajo."
+                    },
+                    "fr": {
+                        "title": "Analytique Intégrée – Pirsch Analytics",
+                        "meta_description": "Capacités analytiques intégrées directement dans les applications logicielles, permettant aux utilisateurs d'accéder et d'analyser les données dans leurs processus de travail."
+                    },
+                    "nl": {
+                        "title": "Ingebouwde Analyse – Pirsch Analytics",
+                        "meta_description": "Analysemogelijkheden die direct zijn geïntegreerd in softwaretoepassingen, waardoor gebruikers gegevens kunnen openen en analyseren binnen hun workflows."
+                    },
+                    "it": {
+                        "title": "Analitica Integrata – Pirsch Analytics",
+                        "meta_description": "Capacità analitiche integrate direttamente nelle applicazioni software, permettendo agli utenti di accedere e analizzare i dati all'interno dei loro flussi di lavoro."
+                    },
+                    "pt": {
+                        "title": "Análise Integrada – Pirsch Analytics",
+                        "meta_description": "Capacidades analíticas integradas diretamente em aplicações de software, permitindo aos usuários acessar e analisar dados dentro de seus fluxos de trabalho."
+                    },
+                    "ja": {
+                        "title": "組み込み分析 – Pirsch Analytics",
+                        "meta_description": "ソフトウェアアプリケーションに直接統合された分析機能により、ユーザーはワークフロー内でデータにアクセスし、分析することができます。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Embedded Analytics?",
                         "text": "<p><strong>Embedded Analytics</strong> refers to the integration of analytical capabilities into business applications that users regularly interact with, such as customer relationship management (CRM) or enterprise resource planning (ERP) systems. This approach allows users to access data analysis and visualization tools directly within their everyday software environment, improving decision making without having to switch between applications.</p><p>Embedded analytics can include a range of functionality such as dashboards, reporting tools, and interactive data visualizations embedded within software applications. This enables end users to perform complex data analysis in the context of their specific tasks and workflows. By providing analytics directly within business applications, organizations can improve user adoption of analytic tools and increase the overall impact of data-driven insights on business operations.</p><p>In addition, embedded analytics can be customized to meet the specific needs of different users within an organization, from executives looking for big-picture strategic insights to operational staff who need detailed data to manage day-to-day activities. This customization helps maximize the relevance and utility of the analytics, leading to faster and more effective decision making. Ultimately, embedded analytics help organizations make better use of their data, contributing to increased efficiency, productivity, and competitiveness.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Embedded Analytics?",
+                        "text": "<p><strong>Embedded Analytics</strong> bezieht sich auf die Integration von Analysefähigkeiten in Geschäftsanwendungen, mit denen Benutzer regelmäßig interagieren, wie Customer Relationship Management (CRM) oder Enterprise Resource Planning (ERP)-Systeme. Dieser Ansatz ermöglicht es Benutzern, Datenanalyse- und Visualisierungswerkzeuge direkt in ihrer alltäglichen Softwareumgebung zu nutzen, was die Entscheidungsfindung verbessert, ohne zwischen Anwendungen wechseln zu müssen.</p><p>Eingebettete Analytik kann eine Reihe von Funktionen umfassen, wie Dashboards, Berichtswerkzeuge und interaktive Datenvisualisierungen, die in Softwareanwendungen integriert sind. Dies ermöglicht es Endbenutzern, komplexe Datenanalysen im Kontext ihrer spezifischen Aufgaben und Arbeitsabläufe durchzuführen. Indem Analytik direkt in Geschäftsanwendungen bereitgestellt wird, können Organisationen die Benutzerakzeptanz von Analysewerkzeugen verbessern und die Gesamtauswirkung datengesteuerter Einblicke auf die Geschäftstätigkeit erhöhen.</p><p>Zusätzlich kann eingebettete Analytik an die spezifischen Bedürfnisse verschiedener Benutzer innerhalb einer Organisation angepasst werden, von Führungskräften, die strategische Einblicke auf hoher Ebene suchen, bis hin zu operativem Personal, das detaillierte Daten zur Verwaltung täglicher Aktivitäten benötigt. Diese Anpassung hilft, die Relevanz und den Nutzen der Analysen zu maximieren, was zu schnelleren und effektiveren Entscheidungsprozessen führt. Letztendlich hilft eingebettete Analytik Organisationen, ihre Daten besser zu nutzen, was zu erhöhter Effizienz, Produktivität und Wettbewerbsfähigkeit beiträgt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Integrada?",
+                        "text": "<p><strong>La Analítica Integrada</strong> se refiere a la integración de capacidades analíticas en aplicaciones empresariales con las que los usuarios interactúan regularmente, como los sistemas de gestión de relaciones con clientes (CRM) o de planificación de recursos empresariales (ERP). Este enfoque permite a los usuarios acceder a herramientas de análisis y visualización de datos directamente dentro de su entorno de software habitual, mejorando la toma de decisiones sin necesidad de cambiar entre aplicaciones.</p><p>La analítica integrada puede incluir una gama de funcionalidades como tableros de control, herramientas de informes y visualizaciones de datos interactivas integradas en las aplicaciones de software. Esto permite a los usuarios finales realizar análisis de datos complejos en el contexto de sus tareas y flujos de trabajo específicos. Al proporcionar analítica directamente dentro de las aplicaciones empresariales, las organizaciones pueden mejorar la adopción de herramientas analíticas por parte de los usuarios y aumentar el impacto general de las percepciones basadas en datos en las operaciones comerciales.</p><p>Además, la analítica integrada puede personalizarse para satisfacer las necesidades específicas de diferentes usuarios dentro de una organización, desde ejecutivos que buscan perspectivas estratégicas de alto nivel hasta personal operativo que necesita datos detallados para gestionar actividades diarias. Esta personalización ayuda a maximizar la relevancia y utilidad de la analítica, lo que lleva a una toma de decisiones más rápida y efectiva. En última instancia, la analítica integrada ayuda a las organizaciones a hacer un mejor uso de sus datos, contribuyendo a una mayor eficiencia, productividad y competitividad.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique Intégrée?",
+                        "text": "<p><strong>L'Analytique Intégrée</strong> fait référence à l'intégration des capacités analytiques dans les applications d'affaires avec lesquelles les utilisateurs interagissent régulièrement, telles que la gestion de la relation client (CRM) ou les systèmes de planification des ressources d'entreprise (ERP). Cette approche permet aux utilisateurs d'accéder à des outils d'analyse et de visualisation des données directement dans leur environnement logiciel quotidien, améliorant la prise de décision sans avoir besoin de changer d'application.</p><p>L'analytique intégrée peut inclure une gamme de fonctionnalités telles que des tableaux de bord, des outils de rapport et des visualisations de données interactives intégrées dans les applications logicielles. Cela permet aux utilisateurs finaux de réaliser des analyses de données complexes dans le contexte de leurs tâches et flux de travail spécifiques. En fournissant des outils analytiques directement dans les applications d'affaires, les organisations peuvent améliorer l'adoption des outils analytiques par les utilisateurs et augmenter l'impact global des insights basés sur les données sur les opérations commerciales.</p><p>De plus, l'analytique intégrée peut être personnalisée pour répondre aux besoins spécifiques de différents utilisateurs au sein d'une organisation, des cadres à la recherche de perspectives stratégiques de haut niveau aux membres du personnel opérationnel qui nécessitent des données détaillées pour gérer les activités quotidiennes. Cette personnalisation aide à maximiser la pertinence et l'utilité de l'analytique, conduisant à une prise de décision plus rapide et plus efficace. En définitive, l'analytique intégrée aide les organisations à mieux utiliser leurs données, contribuant ainsi à une augmentation de l'efficacité, de la productivité et de la compétitivité.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Ingebouwde Analyse?",
+                        "text": "<p><strong>Ingebouwde Analyse</strong> verwijst naar de integratie van analytische mogelijkheden in bedrijfsapplicaties waarmee gebruikers regelmatig interageren, zoals customer relationship management (CRM) of enterprise resource planning (ERP)-systemen. Deze aanpak stelt gebruikers in staat om gegevensanalyse- en visualisatietools rechtstreeks binnen hun dagelijkse softwareomgeving te gebruiken, wat de besluitvorming verbetert zonder dat ze tussen applicaties hoeven te schakelen.</p><p>Ingebouwde analyse kan een reeks functionaliteiten omvatten zoals dashboards, rapportagetools en interactieve gegevensvisualisaties die zijn ingebed in softwareapplicaties. Dit stelt eindgebruikers in staat om complexe gegevensanalyses uit te voeren in de context van hun specifieke taken en workflows. Door analyse direct binnen bedrijfsapplicaties aan te bieden, kunnen organisaties de adoptie van analytische tools door gebruikers verbeteren en de algehele impact van datagestuurde inzichten op bedrijfsoperaties vergroten.</p><p>Daarnaast kan ingebouwde analyse worden aangepast aan de specifieke behoeften van verschillende gebruikers binnen een organisatie, van leidinggevenden die op zoek zijn naar strategische inzichten op hoog niveau tot operationeel personeel dat gedetailleerde gegevens nodig heeft om dagelijkse activiteiten te beheren. Deze aanpassing helpt de relevantie en bruikbaarheid van de analyses te maximaliseren, wat leidt tot snellere en effectievere besluitvorming. Uiteindelijk helpt ingebouwde analyse organisaties om hun gegevens beter te gebruiken, wat bijdraagt aan een verhoogde efficiëntie, productiviteit en concurrentievermogen.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Cos'è l'Analisi Integrata?",
+                        "text": "<p><strong>L'Analisi Integrata</strong> si riferisce all'integrazione delle capacità analitiche nelle applicazioni aziendali con cui gli utenti interagiscono regolarmente, come i sistemi di gestione delle relazioni con i clienti (CRM) o di pianificazione delle risorse aziendali (ERP). Questo approccio permette agli utenti di accedere agli strumenti di analisi e visualizzazione dei dati direttamente nel loro ambiente software quotidiano, migliorando la presa di decisioni senza la necessità di passare tra diverse applicazioni.</p><p>L'analisi integrata può includere una gamma di funzionalità come cruscotti, strumenti di reporting e visualizzazioni interattive dei dati incorporati nelle applicazioni software. Ciò consente agli utenti finali di eseguire analisi di dati complesse nel contesto dei loro compiti e flussi di lavoro specifici. Fornendo analisi direttamente all'interno delle applicazioni aziendali, le organizzazioni possono migliorare l'adozione degli strumenti analitici da parte degli utenti e aumentare l'impatto complessivo degli insight basati sui dati sulle operazioni aziendali.</p><p>In aggiunta, l'analisi integrata può essere personalizzata per soddisfare le esigenze specifiche di diversi utenti all'interno di un'organizzazione, da dirigenti che cercano approfondimenti strategici di alto livello a personale operativo che necessita di dati dettagliati per gestire le attività quotidiane. Questa personalizzazione aiuta a massimizzare la rilevanza e l'utilità dell'analisi, portando a decisioni più rapide ed efficaci. In definitiva, l'analisi integrata aiuta le organizzazioni a fare un migliore uso dei loro dati, contribuendo a un aumento dell'efficienza, della produttività e della competitività.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Voltar para o Atlas",
+                        "headline": "O que é Análise Integrada?",
+                        "text": "<p><strong>Análise Integrada</strong> refere-se à integração de capacidades analíticas em aplicações empresariais com as quais os usuários interagem regularmente, como sistemas de gestão de relacionamento com o cliente (CRM) ou de planejamento de recursos empresariais (ERP). Esta abordagem permite que os usuários acessem ferramentas de análise e visualização de dados diretamente no seu ambiente de software diário, melhorando a tomada de decisões sem a necessidade de alternar entre aplicações.</p><p>A análise integrada pode incluir uma variedade de funcionalidades, como painéis de controle, ferramentas de relatório e visualizações interativas de dados incorporadas em aplicações de software. Isso permite que os usuários finais realizem análises de dados complexas no contexto de suas tarefas e fluxos de trabalho específicos. Ao fornecer análises diretamente dentro das aplicações empresariais, as organizações podem melhorar a adoção de ferramentas analíticas pelos usuários e aumentar o impacto geral dos insights baseados em dados nas operações comerciais.</p><p>Além disso, a análise integrada pode ser personalizada para atender às necessidades específicas de diferentes usuários dentro de uma organização, desde executivos em busca de insights estratégicos de alto nível até o pessoal operacional que precisa de dados detalhados para gerenciar atividades diárias. Esta personalização ajuda a maximizar a relevância e utilidade da análise, levando a uma tomada de decisão mais rápida e eficaz. Em última análise, a análise integrada ajuda as organizações a fazer um uso melhor de seus dados, contribuindo para um aumento da eficiência, produtividade e competitividade.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスへ戻る",
+                        "headline": "組み込み分析とは何ですか？",
+                        "text": "<p><strong>組み込み分析</strong>は、顧客関係管理（CRM）や企業資源計画（ERP）システムなど、ユーザーが定期的に利用するビジネスアプリケーションに分析機能を統合することを指します。このアプローチにより、ユーザーは日常のソフトウェア環境内で直接、データ分析および可視化ツールにアクセスし、アプリケーション間で切り替えることなく意思決定を改善することができます。</p><p>組み込み分析には、ソフトウェアアプリケーション内に組み込まれたダッシュボード、報告ツール、インタラクティブなデータビジュアライゼーションなどの機能が含まれる場合があります。これにより、エンドユーザーは特定のタスクとワークフローの文脈で複雑なデータ分析を実行することができます。ビジネスアプリケーション内で直接分析を提供することにより、組織は分析ツールのユーザー採用を改善し、データ主導の洞察のビジネス運営への全体的な影響を増大させることができます。</p><p>また、組み込み分析は組織内の異なるユーザーの特定のニーズに合わせてカスタマイズすることが可能です。高いレベルの戦略的洞察を求める経営陣から、日々の活動を管理するために詳細なデータを必要とする運用スタッフまで、このカスタマイズは分析の関連性と有用性を最大化し、より迅速かつ効果的な意思決定につながります。最終的に、組み込み分析は組織がデータをより効果的に利用するのに役立ち、効率、生産性、競争力の向上に寄与します。</p>"
                     }
                 }
             },

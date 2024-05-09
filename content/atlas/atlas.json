@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas"
+        "en": "/atlas",
+        "de": "/de/atlas",
+        "es": "/es/atlas",
+        "fr": "/fr/atlas",
+        "nl": "/nl/atlas",
+        "it": "/it/atlas",
+        "pt": "/pt/atlas",
+        "ja": "/ja/atlas"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Analytics Atlas – Pirsch Analytics",
                         "meta_description": "A comprehensive list of definitions to help you navigate the world of analytics."
+                    },
+                    "de": {
+                        "title": "Analytik-Atlas – Pirsch Analytics",
+                        "meta_description": "Eine umfassende Liste von Definitionen, die dir hilft, sich in der Welt der Analytik zurechtzufinden."
+                    },
+                    "es": {
+                        "title": "Atlas de Análisis – Pirsch Analytics",
+                        "meta_description": "Una lista completa de definiciones para ayudarte a navegar el mundo de la analítica."
+                    },
+                    "fr": {
+                        "title": "Atlas de l'Analytique – Pirsch Analytics",
+                        "meta_description": "Une liste complète de définitions pour vous aider à naviguer dans le monde de l'analytique."
+                    },
+                    "nl": {
+                        "title": "Analyse Atlas – Pirsch Analytics",
+                        "meta_description": "Een uitgebreide lijst van definities om u te helpen navigeren in de wereld van analytics."
+                    },
+                    "it": {
+                        "title": "Atlante dell'Analitica – Pirsch Analytics",
+                        "meta_description": "Un elenco completo di definizioni per aiutarti a navigare nel mondo dell'analitica."
+                    },
+                    "pt": {
+                        "title": "Atlas de Análise – Pirsch Analytics",
+                        "meta_description": "Uma lista abrangente de definições para ajudá-lo a navegar no mundo da análise."
+                    },
+                    "ja": {
+                        "title": "アナリティクスアトラス – Pirsch Analytics",
+                        "meta_description": "分析の世界をナビゲートするのに役立つ定義の包括的なリスト。"
                     }
                 }
             },
@@ -113,6 +148,678 @@
                                 "title": "Web Analytics",
                                 "description": "The measurement, collection, analysis, and reporting of web data to understand and optimize web usage and performance.",
                                 "slug": "/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "de": {
+                        "headline": "Analytik-Atlas",
+                        "text": "Eine umfassende Liste von Definitionen, die Ihnen hilft, sich in der Welt der Analytik zurechtzufinden. Siehe im <a href=\"/de/glossary\">Glossar</a> nach, um tiefer in die Terminologie von Web Analytics einzutauchen.",
+                        "entries": [
+                            {
+                                "title": "Agency Analytic",
+                                "description": "Analysetools und -techniken, die speziell für Marketingagenturen entwickelt wurden, um Kampagnen und Leistungen von Kunden zu verfolgen und zu messen.",
+                                "slug": "/de/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Customer Analytics",
+                                "description": "Die Analyse von Kundendaten und -verhalten, um Präferenzen, Gewohnheiten und Trends zu verstehen, letztendlich die Kundenzufriedenheit und -bindung zu verbessern.",
+                                "slug": "/de/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Data Analytics",
+                                "description": "Der Prozess der Analyse von Rohdaten, um Einsichten, Trends und Muster zu entdecken, die die Entscheidungsfindung unterstützen und Geschäftsstrategien antreiben können.",
+                                "slug": "/de/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Digital Marketing Analytics",
+                                "description": "Die Messung und Analyse digitaler Marketingbemühungen, um Leistung zu bewerten, Strategien zu optimieren und Geschäftswachstum zu fördern.",
+                                "slug": "/de/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "E-Commerce Analytics",
+                                "description": "Die Verfolgung und Analyse von Daten im Zusammenhang mit Online-Verkäufen und Transaktionen, einschließlich Kundenverhalten, Produktleistung und Umsatz.",
+                                "slug": "/de/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Educational Analytics",
+                                "description": "Die Nutzung von Datenanalyse im Bildungsbereich zur Verbesserung von Lehrmethoden, Schülerleistungen und Verwaltungsprozessen.",
+                                "slug": "/de/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Embedded Analytics",
+                                "description": "Analysefähigkeiten, die direkt in Softwareanwendungen integriert sind, sodass Benutzer Daten innerhalb ihrer Arbeitsabläufe abrufen und analysieren können.",
+                                "slug": "/de/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Enterprise Analytics",
+                                "description": "Die Nutzung von Analytik innerhalb einer Organisation zur Unterstützung der Entscheidungsfindung, Effizienzsteigerung und Förderung des Geschäftswachstums in verschiedenen Abteilungen und Funktionen.",
+                                "slug": "/de/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Environmental Analytics",
+                                "description": "Die Analyse von Umweltdaten zur Überwachung und Verwaltung natürlicher Ressourcen, Bewertung von Umweltauswirkungen und Unterstützung von Nachhaltigkeitsinitiativen.",
+                                "slug": "/de/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Healthcare Analytics",
+                                "description": "Die Nutzung von Datenanalyse im Gesundheitswesen zur Verbesserung der Patientenergebnisse, Optimierung der Abläufe und Verbesserung der Entscheidungsfindung.",
+                                "slug": "/de/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "HR Analytics",
+                                "description": "Die Anwendung von Datenanalyse im Personalmanagement zur Optimierung der Personalplanung, Rekrutierung, Leistungsverwaltung und Mitarbeiterbindung.",
+                                "slug": "/de/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Mobile Analytics",
+                                "description": "Die Verfolgung und Analyse von Daten im Zusammenhang mit der Nutzung mobiler Apps, Benutzerverhalten und Leistung, um die Benutzererfahrung und das Engagement zu optimieren.",
+                                "slug": "/de/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Product Analytics",
+                                "description": "Die Analyse von produktspezifischen Daten, um das Benutzerverhalten zu verstehen, Produktfunktionen zu verbessern und Produktentwicklungsentscheidungen zu treffen.",
+                                "slug": "/de/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Sales Analytics",
+                                "description": "Die Analyse von Verkaufsdaten zur Überwachung der Leistung, Prognose zukünftiger Verkäufe, Identifizierung von Trends und Optimierung von Verkaufsstrategien.",
+                                "slug": "/de/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Social Media Analytics",
+                                "description": "Die Messung und Analyse der Leistung und des Engagements in sozialen Medien zur Bewertung der Effektivität von Social-Media-Marketingbemühungen.",
+                                "slug": "/de/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Supply Chain Analytics",
+                                "description": "Die Nutzung von Datenanalyse zur Optimierung der Lieferkettenoperationen, Verbesserung der Effizienz, Kostenreduzierung und Risikominderung.",
+                                "slug": "/de/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Visual Analytics",
+                                "description": "Der Prozess der Analyse von Daten durch interaktive Visualisierungen, um Einsichten, Muster und Trends effektiver zu entdecken.",
+                                "slug": "/de/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Web Analytics",
+                                "description": "Die Messung, Sammlung, Analyse und Berichterstattung von Webdaten, um die Nutzung und Leistung des Webs zu verstehen und zu optimieren.",
+                                "slug": "/de/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "es": {
+                        "headline": "Atlas de Análisis",
+                        "text": "Una lista completa de definiciones para ayudarte a navegar el mundo de la analítica. Consulta el <a href=\"/es/glossary\">Glosario</a> para profundizar en la terminología de análisis web.",
+                        "entries": [
+                            {
+                                "title": "Análisis para Agencias",
+                                "description": "Herramientas y técnicas de análisis diseñadas para agencias de marketing para rastrear y medir las campañas y el rendimiento de los clientes.",
+                                "slug": "/es/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Análisis del Cliente",
+                                "description": "El análisis de datos y comportamiento del cliente para comprender preferencias, hábitos y tendencias, mejorando finalmente la satisfacción y retención del cliente.",
+                                "slug": "/es/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Análisis de Datos",
+                                "description": "El proceso de analizar datos brutos para descubrir perspectivas, tendencias y patrones que puedan informar la toma de decisiones y orientar estrategias empresariales.",
+                                "slug": "/es/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Análisis de Marketing Digital",
+                                "description": "La medición y análisis de esfuerzos de marketing digital para evaluar el rendimiento, optimizar estrategias y fomentar el crecimiento empresarial.",
+                                "slug": "/es/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "Análisis de E-Commerce",
+                                "description": "El seguimiento y análisis de datos relacionados con ventas y transacciones en línea, incluyendo comportamiento del cliente, rendimiento de productos y ingresos.",
+                                "slug": "/es/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Análisis Educativo",
+                                "description": "El uso de análisis de datos en el sector educativo para mejorar métodos de enseñanza, rendimiento estudiantil y procesos administrativos.",
+                                "slug": "/es/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Análisis Integrado",
+                                "description": "Capacidades analíticas integradas directamente en aplicaciones de software, permitiendo a los usuarios acceder y analizar datos dentro de sus flujos de trabajo.",
+                                "slug": "/es/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Análisis Empresarial",
+                                "description": "El uso de análisis dentro de una organización para apoyar la toma de decisiones, mejorar la eficiencia y fomentar el crecimiento empresarial en varios departamentos y funciones.",
+                                "slug": "/es/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Análisis Ambiental",
+                                "description": "El análisis de datos ambientales para monitorear y gestionar recursos naturales, evaluar impactos ambientales y apoyar iniciativas de sostenibilidad.",
+                                "slug": "/es/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Análisis de Salud",
+                                "description": "El uso de análisis de datos en entornos de atención médica para mejorar resultados de pacientes, optimizar operaciones y mejorar la toma de decisiones.",
+                                "slug": "/es/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "Análisis de Recursos Humanos",
+                                "description": "La aplicación de análisis de datos en la gestión de recursos humanos para optimizar la planificación de la fuerza laboral, reclutamiento, gestión del desempeño y compromiso de los empleados.",
+                                "slug": "/es/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Análisis Móvil",
+                                "description": "El seguimiento y análisis de datos relacionados con el uso de aplicaciones móviles, comportamiento del usuario y rendimiento para optimizar la experiencia y el compromiso del usuario.",
+                                "slug": "/es/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Análisis de Productos",
+                                "description": "El análisis de datos relacionados con productos para entender el comportamiento del usuario, mejorar características de productos y orientar decisiones de desarrollo de productos.",
+                                "slug": "/es/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Análisis de Ventas",
+                                "description": "El análisis de datos de ventas para rastrear el rendimiento, prever futuras ventas, identificar tendencias y optimizar estrategias de ventas.",
+                                "slug": "/es/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Análisis de Redes Sociales",
+                                "description": "La medición y análisis del rendimiento y el compromiso en redes sociales para evaluar la efectividad de los esfuerzos de marketing en redes sociales.",
+                                "slug": "/es/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Análisis de la Cadena de Suministro",
+                                "description": "El uso de análisis de datos para optimizar las operaciones de la cadena de suministro, mejorar la eficiencia, reducir costos y mitigar riesgos.",
+                                "slug": "/es/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Análisis Visual",
+                                "description": "El proceso de analizar datos mediante visualizaciones interactivas para descubrir más eficazmente perspectivas, patrones y tendencias.",
+                                "slug": "/es/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Análisis Web",
+                                "description": "La medición, recolección, análisis y reporte de datos web para entender y optimizar el uso y rendimiento web.",
+                                "slug": "/es/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "fr": {
+                        "headline": "Atlas Analytique",
+                        "text": "Une liste complète de définitions pour vous aider à naviguer dans le monde de l'analytique. Consultez le <a href=\"/fr/glossary\">Glossaire</a> pour approfondir la terminologie de l'analyse web.",
+                        "entries": [
+                            {
+                                "title": "Analytique d'Agence",
+                                "description": "Outils et techniques d'analyse conçus pour les agences de marketing afin de suivre et mesurer les campagnes et les performances des clients.",
+                                "slug": "/fr/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Analytique Client",
+                                "description": "L'analyse des données et comportements des clients pour comprendre les préférences, les habitudes et les tendances, et ultimement améliorer la satisfaction et la rétention des clients.",
+                                "slug": "/fr/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Analytique des Données",
+                                "description": "Le processus d'analyse des données brutes pour découvrir des insights, des tendances et des modèles qui peuvent informer la prise de décisions et orienter les stratégies commerciales.",
+                                "slug": "/fr/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Analytique du Marketing Numérique",
+                                "description": "La mesure et l'analyse des efforts de marketing numérique pour évaluer la performance, optimiser les stratégies et stimuler la croissance commerciale.",
+                                "slug": "/fr/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "Analytique du E-Commerce",
+                                "description": "Le suivi et l'analyse des données liées aux ventes et transactions en ligne, incluant le comportement des clients, la performance des produits et les revenus.",
+                                "slug": "/fr/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Analytique Éducative",
+                                "description": "L'utilisation de l'analyse de données dans le secteur de l'éducation pour améliorer les méthodes d'enseignement, les performances des étudiants et les processus administratifs.",
+                                "slug": "/fr/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Analytique Intégrée",
+                                "description": "Capacités analytiques intégrées directement dans les applications logicielles, permettant aux utilisateurs d'accéder et d'analyser des données dans leurs flux de travail.",
+                                "slug": "/fr/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Analytique d'Entreprise",
+                                "description": "L'utilisation de l'analytique au sein d'une organisation pour soutenir la prise de décisions, améliorer l'efficacité et stimuler la croissance commerciale à travers divers départements et fonctions.",
+                                "slug": "/fr/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Analytique Environnementale",
+                                "description": "L'analyse des données environnementales pour surveiller et gérer les ressources naturelles, évaluer les impacts environnementaux et soutenir les initiatives de durabilité.",
+                                "slug": "/fr/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Analytique de Santé",
+                                "description": "L'utilisation de l'analyse de données dans les milieux de soins de santé pour améliorer les résultats des patients, optimiser les opérations et renforcer la prise de décisions.",
+                                "slug": "/fr/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "Analytique RH",
+                                "description": "L'application de l'analyse de données dans la gestion des ressources humaines pour optimiser la planification de la main-d'œuvre, le recrutement, la gestion de la performance et l'engagement des employés.",
+                                "slug": "/fr/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Analytique Mobile",
+                                "description": "Le suivi et l'analyse des données liées à l'utilisation des applications mobiles, au comportement des utilisateurs et à la performance pour optimiser l'expérience utilisateur et l'engagement.",
+                                "slug": "/fr/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Analytique Produit",
+                                "description": "L'analyse des données relatives aux produits pour comprendre le comportement des utilisateurs, améliorer les fonctionnalités des produits et orienter les décisions de développement de produits.",
+                                "slug": "/fr/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Analytique des Ventes",
+                                "description": "L'analyse des données de vente pour suivre la performance, prévoir les ventes futures, identifier les tendances et optimiser les stratégies de vente.",
+                                "slug": "/fr/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Analytique des Médias Sociaux",
+                                "description": "La mesure et l'analyse de la performance et de l'engagement sur les médias sociaux pour évaluer l'efficacité des efforts de marketing sur les médias sociaux.",
+                                "slug": "/fr/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Analytique de la Chaîne d'Approvisionnement",
+                                "description": "L'utilisation de l'analyse de données pour optimiser les opérations de la chaîne d'approvisionnement, améliorer l'efficacité, réduire les coûts et atténuer les risques.",
+                                "slug": "/fr/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Analytique Visuelle",
+                                "description": "Le processus d'analyse de données à travers des visualisations interactives pour découvrir plus efficacement les insights, les modèles et les tendances.",
+                                "slug": "/fr/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Analytique Web",
+                                "description": "La mesure, la collecte, l'analyse et le rapport des données web pour comprendre et optimiser l'utilisation et la performance du web.",
+                                "slug": "/fr/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "nl": {
+                        "headline": "Analyse Atlas",
+                        "text": "Een uitgebreide lijst van definities om u te helpen navigeren in de wereld van analytics. Bekijk het <a href=\"/nl/glossary\">Glossarium</a> om dieper in te gaan op de terminologie van webanalyse.",
+                        "entries": [
+                            {
+                                "title": "Analyse voor Agentschappen",
+                                "description": "Analysetools en -technieken aangepast voor marketingbureaus om klantencampagnes en prestaties te volgen en te meten.",
+                                "slug": "/nl/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Klantenanalyse",
+                                "description": "De analyse van klantgegevens en -gedrag om voorkeuren, gewoonten en trends te begrijpen, uiteindelijk om klanttevredenheid en -behoud te verbeteren.",
+                                "slug": "/nl/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Data-analyse",
+                                "description": "Het proces van het analyseren van ruwe data om inzichten, trends en patronen te ontdekken die besluitvorming kunnen informeren en bedrijfsstrategieën kunnen sturen.",
+                                "slug": "/nl/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Digitale Marketinganalyse",
+                                "description": "Het meten en analyseren van digitale marketinginspanningen om prestaties te beoordelen, strategieën te optimaliseren en bedrijfsgroei te stimuleren.",
+                                "slug": "/nl/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "E-commerce Analyse",
+                                "description": "Het volgen en analyseren van gegevens gerelateerd aan online verkopen en transacties, inclusief klantgedrag, productprestaties en omzet.",
+                                "slug": "/nl/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Educatieve Analyse",
+                                "description": "Het gebruik van data-analyse in de onderwijssector om onderwijsmethoden, studentenprestaties en administratieve processen te verbeteren.",
+                                "slug": "/nl/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Ingebouwde Analyse",
+                                "description": "Analysemogelijkheden die direct in softwaretoepassingen zijn geïntegreerd, waardoor gebruikers gegevens binnen hun workflows kunnen openen en analyseren.",
+                                "slug": "/nl/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Enterprise Analyse",
+                                "description": "Het gebruik van analytics binnen een organisatie om besluitvorming te ondersteunen, efficiëntie te verbeteren en bedrijfsgroei te stimuleren over verschillende afdelingen en functies heen.",
+                                "slug": "/nl/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Milieuanalyse",
+                                "description": "De analyse van milieugegevens om natuurlijke hulpbronnen te monitoren en te beheren, milieu-impact te beoordelen en duurzaamheidsinitiatieven te ondersteunen.",
+                                "slug": "/nl/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Gezondheidszorganalyse",
+                                "description": "Het gebruik van data-analyse in gezondheidszorginstellingen om patiëntenresultaten te verbeteren, operaties te optimaliseren en besluitvorming te verbeteren.",
+                                "slug": "/nl/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "HR Analyse",
+                                "description": "De toepassing van data-analyse in human resources management om personeelsplanning, werving, prestatiebeheer en werknemersbetrokkenheid te optimaliseren.",
+                                "slug": "/nl/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Mobiele Analyse",
+                                "description": "Het volgen en analyseren van gegevens gerelateerd aan het gebruik van mobiele apps, gebruikersgedrag en prestaties om de gebruikerservaring en betrokkenheid te optimaliseren.",
+                                "slug": "/nl/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Productanalyse",
+                                "description": "De analyse van productgerelateerde gegevens om gebruikersgedrag te begrijpen, productfuncties te verbeteren en productontwikkelingsbeslissingen te sturen.",
+                                "slug": "/nl/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Verkoopanalyse",
+                                "description": "De analyse van verkoopgegevens om prestaties te volgen, toekomstige verkopen te voorspellen, trends te identificeren en verkoopstrategieën te optimaliseren.",
+                                "slug": "/nl/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Social Media Analyse",
+                                "description": "Het meten en analyseren van prestaties en betrokkenheid op sociale media om de effectiviteit van sociale media marketinginspanningen te beoordelen.",
+                                "slug": "/nl/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Supply Chain Analyse",
+                                "description": "Het gebruik van data-analyse om supply chain operaties te optimaliseren, efficiëntie te verbeteren, kosten te verlagen en risico's te mitigeren.",
+                                "slug": "/nl/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Visuele Analyse",
+                                "description": "Het proces van data-analyse via interactieve visualisaties om inzichten, patronen en trends effectiever te ontdekken.",
+                                "slug": "/nl/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Webanalyse",
+                                "description": "De meting, verzameling, analyse en rapportage van webgegevens om het gebruik en de prestaties van het web te begrijpen en te optimaliseren.",
+                                "slug": "/nl/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "it": {
+                        "headline": "Atlante dell'Analitica",
+                        "text": "Un elenco completo di definizioni per aiutarti a navigare nel mondo dell'analitica. Consulta il <a href=\"/it/glossary\">Glossario</a> per approfondire la terminologia dell'analisi web.",
+                        "entries": [
+                            {
+                                "title": "Analisi per Agenzie",
+                                "description": "Strumenti e tecniche di analisi personalizzati per le agenzie di marketing per tracciare e misurare le campagne e le prestazioni dei clienti.",
+                                "slug": "/it/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Analisi dei Clienti",
+                                "description": "L'analisi dei dati e comportamenti dei clienti per comprendere preferenze, abitudini e tendenze, migliorando infine la soddisfazione e la ritenzione dei clienti.",
+                                "slug": "/it/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Analisi dei Dati",
+                                "description": "Il processo di analisi dei dati grezzi per scoprire intuizioni, tendenze e modelli che possono informare la presa di decisioni e guidare le strategie aziendali.",
+                                "slug": "/it/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Analisi del Marketing Digitale",
+                                "description": "La misurazione e analisi degli sforzi di marketing digitale per valutare le prestazioni, ottimizzare le strategie e stimolare la crescita aziendale.",
+                                "slug": "/it/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "Analisi dell'E-commerce",
+                                "description": "Il monitoraggio e l'analisi dei dati relativi alle vendite e transazioni online, inclusi il comportamento dei clienti, le prestazioni dei prodotti e i ricavi.",
+                                "slug": "/it/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Analisi Educativa",
+                                "description": "L'uso dell'analisi dei dati nel settore dell'educazione per migliorare i metodi di insegnamento, le prestazioni degli studenti e i processi amministrativi.",
+                                "slug": "/it/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Analisi Integrata",
+                                "description": "Capacità analitiche integrate direttamente nelle applicazioni software, consentendo agli utenti di accedere e analizzare i dati all'interno dei loro flussi di lavoro.",
+                                "slug": "/it/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Analisi Aziendale",
+                                "description": "L'uso dell'analitica all'interno di un'organizzazione per supportare la presa di decisioni, migliorare l'efficienza e stimolare la crescita aziendale attraverso vari dipartimenti e funzioni.",
+                                "slug": "/it/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Analisi Ambientale",
+                                "description": "L'analisi dei dati ambientali per monitorare e gestire le risorse naturali, valutare l'impatto ambientale e supportare le iniziative di sostenibilità.",
+                                "slug": "/it/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Analisi Sanitaria",
+                                "description": "L'uso dell'analisi dei dati negli ambienti sanitari per migliorare i risultati dei pazienti, ottimizzare le operazioni e migliorare la presa di decisioni.",
+                                "slug": "/it/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "Analisi HR",
+                                "description": "L'applicazione dell'analisi dei dati nella gestione delle risorse umane per ottimizzare la pianificazione della forza lavoro, il reclutamento, la gestione delle prestazioni e il coinvolgimento dei dipendenti.",
+                                "slug": "/it/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Analisi Mobile",
+                                "description": "Il monitoraggio e l'analisi dei dati relativi all'uso di app mobili, al comportamento degli utenti e alle prestazioni per ottimizzare l'esperienza utente e l'engagement.",
+                                "slug": "/it/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Analisi del Prodotto",
+                                "description": "L'analisi dei dati relativi ai prodotti per comprendere il comportamento degli utenti, migliorare le funzionalità dei prodotti e guidare le decisioni di sviluppo del prodotto.",
+                                "slug": "/it/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Analisi delle Vendite",
+                                "description": "L'analisi dei dati di vendita per monitorare le prestazioni, prevedere le vendite future, identificare le tendenze e ottimizzare le strategie di vendita.",
+                                "slug": "/it/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Analisi dei Social Media",
+                                "description": "La misurazione e l'analisi delle prestazioni e dell'engagement sui social media per valutare l'efficacia degli sforzi di marketing sui social media.",
+                                "slug": "/it/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Analisi della Supply Chain",
+                                "description": "L'uso dell'analisi dei dati per ottimizzare le operazioni della catena di approvvigionamento, migliorare l'efficienza, ridurre i costi e mitigare i rischi.",
+                                "slug": "/it/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Analisi Visiva",
+                                "description": "Il processo di analisi dei dati attraverso visualizzazioni interattive per scoprire più efficacemente intuizioni, modelli e tendenze.",
+                                "slug": "/it/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Analisi Web",
+                                "description": "La misurazione, raccolta, analisi e reporting dei dati web per comprendere e ottimizzare l'uso e le prestazioni del web.",
+                                "slug": "/it/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "pt": {
+                        "headline": "Atlas de Análise",
+                        "text": "Uma lista abrangente de definições para ajudá-lo a navegar no mundo da análise. Consulte o <a href=\"/pt/glossary\">Glossário</a> para aprofundar na terminologia de análise web.",
+                        "entries": [
+                            {
+                                "title": "Análise para Agências",
+                                "description": "Ferramentas e técnicas de análise adaptadas para agências de marketing para acompanhar e medir campanhas e desempenho de clientes.",
+                                "slug": "/pt/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "Análise de Clientes",
+                                "description": "A análise de dados e comportamento do cliente para entender preferências, hábitos e tendências, melhorando a satisfação e retenção do cliente.",
+                                "slug": "/pt/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "Análise de Dados",
+                                "description": "O processo de analisar dados brutos para descobrir insights, tendências e padrões que podem informar tomadas de decisão e direcionar estratégias de negócios.",
+                                "slug": "/pt/atlas/data-analytics"
+                            },
+                            {
+                                "title": "Análise de Marketing Digital",
+                                "description": "A medição e análise de esforços de marketing digital para avaliar performance, otimizar estratégias e impulsionar o crescimento do negócio.",
+                                "slug": "/pt/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "Análise de E-Commerce",
+                                "description": "O rastreamento e análise de dados relacionados a vendas e transações online, incluindo comportamento do cliente, desempenho de produtos e receita.",
+                                "slug": "/pt/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "Análise Educacional",
+                                "description": "O uso de análise de dados no setor educacional para melhorar métodos de ensino, desempenho dos alunos e processos administrativos.",
+                                "slug": "/pt/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "Análise Embutida",
+                                "description": "Capacidades analíticas integradas diretamente em aplicações de software, permitindo que os usuários acessem e analisem dados dentro de seus fluxos de trabalho.",
+                                "slug": "/pt/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "Análise Empresarial",
+                                "description": "O uso de análise dentro de uma organização para apoiar a tomada de decisão, melhorar a eficiência e impulsionar o crescimento do negócio em vários departamentos e funções.",
+                                "slug": "/pt/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "Análise Ambiental",
+                                "description": "A análise de dados ambientais para monitorar e gerenciar recursos naturais, avaliar impactos ambientais e apoiar iniciativas de sustentabilidade.",
+                                "slug": "/pt/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "Análise de Saúde",
+                                "description": "O uso de análise de dados em ambientes de saúde para melhorar resultados dos pacientes, otimizar operações e aprimorar a tomada de decisões.",
+                                "slug": "/pt/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "Análise de RH",
+                                "description": "A aplicação de análise de dados no gerenciamento de recursos humanos para otimizar o planejamento da força de trabalho, recrutamento, gestão de desempenho e engajamento dos empregados.",
+                                "slug": "/pt/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "Análise Móvel",
+                                "description": "O rastreamento e análise de dados relacionados ao uso de aplicativos móveis, comportamento do usuário e desempenho para otimizar a experiência do usuário e o engajamento.",
+                                "slug": "/pt/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "Análise de Produto",
+                                "description": "A análise de dados relacionados a produtos para entender o comportamento do usuário, melhorar funcionalidades do produto e guiar decisões de desenvolvimento do produto.",
+                                "slug": "/pt/atlas/product-analytics"
+                            },
+                            {
+                                "title": "Análise de Vendas",
+                                "description": "A análise de dados de vendas para rastrear desempenho, prever vendas futuras, identificar tendências e otimizar estratégias de vendas.",
+                                "slug": "/pt/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "Análise de Mídias Sociais",
+                                "description": "A medição e análise do desempenho e engajamento em mídias sociais para avaliar a eficácia dos esforços de marketing em mídias sociais.",
+                                "slug": "/pt/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "Análise de Cadeia de Suprimentos",
+                                "description": "O uso de análise de dados para otimizar as operações da cadeia de suprimentos, melhorar a eficiência, reduzir custos e mitigar riscos.",
+                                "slug": "/pt/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "Análise Visual",
+                                "description": "O processo de analisar dados através de visualizações interativas para descobrir insights, padrões e tendências mais efetivamente.",
+                                "slug": "/pt/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "Análise Web",
+                                "description": "A medição, coleta, análise e relatório de dados web para entender e otimizar o uso e desempenho da web.",
+                                "slug": "/pt/atlas/web-analytics"
+                            }
+                        ]
+                    },
+                    "ja": {
+                        "headline": "アナリティクスアトラス",
+                        "text": "分析の世界をナビゲートするための定義の包括的なリストです。ウェブ分析の用語を深く掘り下げるには、<a href=\"/ja/glossary\">用語集</a>をチェックしてください。",
+                        "entries": [
+                            {
+                                "title": "エージェンシーアナリティクス",
+                                "description": "マーケティング代理店がクライアントのキャンペーンやパフォーマンスを追跡し測定するために特化した分析ツールや技術。",
+                                "slug": "/ja/atlas/agency-analytics"
+                            },
+                            {
+                                "title": "顧客分析",
+                                "description": "顧客のデータや行動を分析し、好み、習慣、傾向を理解することで、最終的に顧客満足度とリテンションを向上させる。",
+                                "slug": "/ja/atlas/customer-analytics"
+                            },
+                            {
+                                "title": "データ分析",
+                                "description": "生データを分析して洞察、トレンド、パターンを発見し、意思決定を支援しビジネス戦略を導くプロセス。",
+                                "slug": "/ja/atlas/data-analytics"
+                            },
+                            {
+                                "title": "デジタルマーケティング分析",
+                                "description": "デジタルマーケティングの取り組みを評価し、戦略を最適化し、ビジネス成長を促進するための測定と分析。",
+                                "slug": "/ja/atlas/digital-marketing-analytics"
+                            },
+                            {
+                                "title": "Eコマース分析",
+                                "description": "オンライン販売と取引に関連するデータ、顧客行動、製品パフォーマンス、収益などを追跡し分析する。",
+                                "slug": "/ja/atlas/e-commerce-analytics"
+                            },
+                            {
+                                "title": "教育分析",
+                                "description": "教育方法、学生のパフォーマンス、管理プロセスを改善するために教育部門でデータ分析を使用する。",
+                                "slug": "/ja/atlas/educational-analytics"
+                            },
+                            {
+                                "title": "組み込み分析",
+                                "description": "ソフトウェアアプリケーションに直接統合された分析機能で、ユーザーがワークフロー内でデータにアクセスし分析できる。",
+                                "slug": "/ja/atlas/embedded-analytics"
+                            },
+                            {
+                                "title": "エンタープライズ分析",
+                                "description": "組織内で意思決定をサポートし、効率を改善し、様々な部門や機能を通じてビジネス成長を促進するために分析を使用する。",
+                                "slug": "/ja/atlas/enterprise-analytics"
+                            },
+                            {
+                                "title": "環境分析",
+                                "description": "自然資源を監視・管理し、環境影響を評価し、持続可能性イニシアティブをサポートするための環境データの分析。",
+                                "slug": "/ja/atlas/environmental-analytics"
+                            },
+                            {
+                                "title": "ヘルスケア分析",
+                                "description": "患者のアウトカムを改善し、運用を最適化し、意思決定を強化するために、医療設定でデータ分析を使用する。",
+                                "slug": "/ja/atlas/healthcare-analytics"
+                            },
+                            {
+                                "title": "人事分析",
+                                "description": "労働力計画、採用、パフォーマンス管理、従業員エンゲージメントを最適化するために、人材管理でデータ分析を応用する。",
+                                "slug": "/ja/atlas/hr-analytics"
+                            },
+                            {
+                                "title": "モバイル分析",
+                                "description": "モバイルアプリの使用、ユーザー行動、パフォーマンスに関連するデータを追跡し分析し、ユーザー体験とエンゲージメントを最適化する。",
+                                "slug": "/ja/atlas/mobile-analytics"
+                            },
+                            {
+                                "title": "製品分析",
+                                "description": "ユーザー行動を理解し、製品機能を改善し、製品開発の意思決定を導くために、製品関連データを分析する。",
+                                "slug": "/ja/atlas/product-analytics"
+                            },
+                            {
+                                "title": "販売分析",
+                                "description": "パフォーマンスを追跡し、将来の販売を予測し、傾向を特定し、販売戦略を最適化するために販売データを分析する。",
+                                "slug": "/ja/atlas/sales-analytics"
+                            },
+                            {
+                                "title": "ソーシャルメディア分析",
+                                "description": "ソーシャルメディアのマーケティング努力の有効性を評価するために、ソーシャルメディアのパフォーマンスとエンゲージメントを測定し分析する。",
+                                "slug": "/ja/atlas/social-media-analytics"
+                            },
+                            {
+                                "title": "サプライチェーン分析",
+                                "description": "サプライチェーンの運用を最適化し、効率を向上させ、コストを削減し、リスクを軽減するためにデータ分析を使用する。",
+                                "slug": "/ja/atlas/supply-chain-analytics"
+                            },
+                            {
+                                "title": "ビジュアル分析",
+                                "description": "インタラクティブな視覚化を通じてデータを分析し、洞察、パターン、傾向をより効果的に発見するプロセス。",
+                                "slug": "/ja/atlas/visual-analytics"
+                            },
+                            {
+                                "title": "ウェブ分析",
+                                "description": "ウェブの使用とパフォーマンスを理解し最適化するために、ウェブデータの測定、収集、分析、報告を行う。",
+                                "slug": "/ja/atlas/web-analytics"
                             }
                         ]
                     }
