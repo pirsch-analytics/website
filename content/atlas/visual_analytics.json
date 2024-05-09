@@ -20,6 +20,34 @@
                     "en": {
                         "title": "Visual Analytics – Pirsch Analytics",
                         "meta_description": "The process of analyzing data through interactive visualizations to discover insights, patterns, and trends more effectively."
+                    },
+                    "de": {
+                        "title": "Visual Analytics – Pirsch Analytics",
+                        "meta_description": "Der Prozess der Analyse von Daten durch interaktive Visualisierungen, um Einsichten, Muster und Trends effektiver zu entdecken."
+                    },
+                    "es": {
+                        "title": "Analítica Visual – Pirsch Analytics",
+                        "meta_description": "El proceso de analizar datos a través de visualizaciones interactivas para descubrir percepciones, patrones y tendencias de manera más efectiva."
+                    },
+                    "fr": {
+                        "title": "Analytique Visuelle – Pirsch Analytics",
+                        "meta_description": "Le processus d'analyse des données à travers des visualisations interactives pour découvrir des insights, des motifs et des tendances plus efficacement."
+                    },
+                    "nl": {
+                        "title": "Visuele Analyse – Pirsch Analytics",
+                        "meta_description": "Het proces van het analyseren van gegevens via interactieve visualisaties om inzichten, patronen en trends effectiever te ontdekken."
+                    },
+                    "it": {
+                        "title": "Analisi Visiva – Pirsch Analytics",
+                        "meta_description": "Il processo di analisi dei dati attraverso visualizzazioni interattive per scoprire intuizioni, modelli e tendenze in modo più efficace."
+                    },
+                    "pt": {
+                        "title": "Análise Visual – Pirsch Analytics",
+                        "meta_description": "O processo de análise de dados por meio de visualizações interativas para descobrir insights, padrões e tendências de forma mais eficaz."
+                    },
+                    "ja": {
+                        "title": "ビジュアル分析 – Pirsch Analytics",
+                        "meta_description": "インタラクティブな視覚化を通じてデータを分析し、洞察、パターン、トレンドをより効果的に発見するプロセス。"
                     }
                 }
             },
@@ -32,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is Visual Analytics?",
                         "text": "<p><strong>Visual Analytics</strong> combines the science of analytical reasoning with interactive visual interfaces to enable decision making based on complex data sets. This field uses visualization tools to help users understand, analyze, and derive insights from data. By presenting data in graphical form, visual analytics makes complex data more accessible and easier to interpret, enabling faster and more informed decision making.</p><p>The process of visual analytics involves transforming raw data into a visual context, such as charts, graphs, and maps. These visual representations help to highlight trends, patterns, and outliers that may not be as readily apparent using traditional data analysis methods. Visual analytics tools range from basic charting libraries to advanced software platforms that support interactive and real-time data exploration.</p><p>Visual analytics is also critical in areas such as finance, healthcare, and security, where large amounts of data need to be analyzed quickly. It allows analysts and stakeholders to engage more directly with data, explore different scenarios, and manipulate variables to see potential outcomes. This hands-on approach to data analysis not only improves understanding, but also promotes deeper engagement with the data, leading to more effective problem solving and strategic planning.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist Visual Analytics?",
+                        "text": "<p><strong>Visuelle Analytik</strong> kombiniert die Wissenschaft der analytischen Argumentation mit interaktiven visuellen Schnittstellen, um Entscheidungsfindung basierend auf komplexen Datensätzen zu ermöglichen. Dieses Feld verwendet Visualisierungswerkzeuge, um Benutzern zu helfen, Daten zu verstehen, zu analysieren und daraus Einsichten zu gewinnen. Indem Daten in grafischer Form präsentiert werden, macht visuelle Analytik komplexe Daten zugänglicher und leichter zu interpretieren, was schnellere und fundiertere Entscheidungen ermöglicht.</p><p>Der Prozess der visuellen Analytik beinhaltet die Umwandlung von Rohdaten in einen visuellen Kontext, wie Diagramme, Graphen und Karten. Diese visuellen Darstellungen helfen, Trends, Muster und Ausreißer hervorzuheben, die mit traditionellen Methoden der Datenanalyse möglicherweise nicht so leicht erkennbar sind. Werkzeuge der visuellen Analytik reichen von einfachen Diagrammbibliotheken bis zu fortgeschrittenen Softwareplattformen, die interaktive und Echtzeit-Datenexploration unterstützen.</p><p>Visuelle Analytik ist auch in Bereichen wie Finanzen, Gesundheitswesen und Sicherheit kritisch, wo große Datenmengen schnell analysiert werden müssen. Sie ermöglicht es Analysten und Stakeholdern, direkter mit Daten zu interagieren, verschiedene Szenarien zu erkunden und Variablen zu manipulieren, um potenzielle Ergebnisse zu sehen. Dieser praktische Ansatz zur Datenanalyse verbessert nicht nur das Verständnis, sondern fördert auch eine tiefere Auseinandersetzung mit den Daten, was zu effektiverer Problemlösung und strategischer Planung führt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica Visual?",
+                        "text": "<p><strong>La Analítica Visual</strong> combina la ciencia del razonamiento analítico con interfaces visuales interactivas para facilitar la toma de decisiones basada en conjuntos de datos complejos. Este campo utiliza herramientas de visualización para ayudar a los usuarios a comprender, analizar y obtener insights de los datos. Al presentar los datos en forma gráfica, la analítica visual hace que los datos complejos sean más accesibles y fáciles de interpretar, lo que permite tomar decisiones más rápidas e informadas.</p><p>El proceso de analítica visual implica transformar datos en bruto en un contexto visual, como gráficos, diagramas y mapas. Estas representaciones visuales ayudan a destacar tendencias, patrones y anomalías que pueden no ser tan evidentes utilizando métodos tradicionales de análisis de datos. Las herramientas de analítica visual van desde bibliotecas de gráficos básicas hasta plataformas de software avanzadas que admiten la exploración de datos interactiva y en tiempo real.</p><p>La analítica visual también es crítica en áreas como finanzas, atención médica y seguridad, donde se deben analizar grandes cantidades de datos rápidamente. Permite que analistas y partes interesadas interactúen más directamente con los datos, exploren diferentes escenarios y manipulen variables para ver resultados potenciales. Este enfoque práctico del análisis de datos no solo mejora la comprensión, sino que también promueve un mayor compromiso con los datos, lo que lleva a una resolución de problemas más efectiva y una planificación estratégica.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'analytique visuelle ?",
+                        "text": "<p><strong>L'analytique visuelle</strong> combine la science du raisonnement analytique avec des interfaces visuelles interactives pour permettre la prise de décision basée sur des ensembles de données complexes. Ce domaine utilise des outils de visualisation pour aider les utilisateurs à comprendre, analyser et tirer des insights des données. En présentant les données sous forme graphique, l'analytique visuelle rend les données complexes plus accessibles et plus faciles à interpréter, permettant des décisions plus rapides et mieux informées.</p><p>Le processus d'analytique visuelle implique la transformation de données brutes en un contexte visuel, tel que des graphiques, des diagrammes et des cartes. Ces représentations visuelles aident à mettre en évidence les tendances, les motifs et les anomalies qui peuvent ne pas être aussi évidents avec les méthodes traditionnelles d'analyse de données. Les outils d'analytique visuelle vont des bibliothèques de graphiques de base aux plateformes logicielles avancées qui soutiennent l'exploration interactive et en temps réel des données.</p><p>L'analytique visuelle est également critique dans des domaines tels que la finance, la santé et la sécurité, où de grandes quantités de données doivent être analysées rapidement. Elle permet aux analystes et aux parties prenantes d'interagir plus directement avec les données, d'explorer différents scénarios et de manipuler des variables pour voir les résultats potentiels. Cette approche pratique de l'analyse des données améliore non seulement la compréhension, mais encourage également un engagement plus profond avec les données, conduisant à une résolution de problèmes plus efficace et à une planification stratégique.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is Visuele Analyse?",
+                        "text": "<p><strong>Visuele Analyse</strong> combineert de wetenschap van analytisch redeneren met interactieve visuele interfaces om besluitvorming op basis van complexe datasets mogelijk te maken. Dit veld maakt gebruik van visualisatietools om gebruikers te helpen gegevens te begrijpen, te analyseren en inzichten te verkrijgen. Door gegevens grafisch te presenteren, maakt visuele analyse complexe gegevens toegankelijker en gemakkelijker te interpreteren, wat leidt tot snellere en beter geïnformeerde besluitvorming.</p><p>Het proces van visuele analyse omvat het transformeren van ruwe gegevens in een visuele context, zoals grafieken, diagrammen en kaarten. Deze visuele representaties helpen om trends, patronen en afwijkingen te benadrukken die mogelijk niet zo duidelijk zijn met traditionele data-analysemethoden. Tools voor visuele analyse variëren van basis grafiekbibliotheken tot geavanceerde softwareplatforms die interactieve en real-time gegevensverkenning ondersteunen.</p><p>Visuele analyse is ook cruciaal in gebieden zoals financiën, gezondheidszorg en veiligheid, waar grote hoeveelheden gegevens snel geanalyseerd moeten worden. Het stelt analisten en stakeholders in staat om directer met gegevens te interageren, verschillende scenario's te verkennen en variabelen te manipuleren om potentiële uitkomsten te zien. Deze hands-on benadering van gegevensanalyse verbetert niet alleen het begrip, maar bevordert ook een diepere betrokkenheid bij de gegevens, wat leidt tot effectievere probleemoplossing en strategische planning.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Cos'è l'Analisi Visiva?",
+                        "text": "<p><strong>L'Analisi Visiva</strong> combina la scienza del ragionamento analitico con interfacce visive interattive per abilitare la presa di decisioni basate su set di dati complessi. Questo campo utilizza strumenti di visualizzazione per aiutare gli utenti a comprendere, analizzare e trarre intuizioni dai dati. Presentando i dati in forma grafica, l'analisi visiva rende i dati complessi più accessibili e più facili da interpretare, consentendo decisioni più rapide e informate.</p><p>Il processo di analisi visiva implica la trasformazione dei dati grezzi in un contesto visivo, come grafici, diagrammi e mappe. Queste rappresentazioni visive aiutano a evidenziare tendenze, modelli e anomalie che potrebbero non essere così evidenti con i metodi tradizionali di analisi dei dati. Gli strumenti di analisi visiva variano da semplici librerie di grafici a piattaforme software avanzate che supportano l'esplorazione interattiva e in tempo reale dei dati.</p><p>L'analisi visiva è anche critica in settori come finanza, sanità e sicurezza, dove è necessario analizzare rapidamente grandi quantità di dati. Consente agli analisti e agli stakeholder di interagire più direttamente con i dati, esplorare diversi scenari e manipolare le variabili per vedere i risultati potenziali. Questo approccio pratico all'analisi dei dati non solo migliora la comprensione, ma promuove anche un coinvolgimento più profondo con i dati, portando a una risoluzione dei problemi più efficace e una pianificazione strategica.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise Visual?",
+                        "text": "<p><strong>Análise Visual</strong> combina a ciência do raciocínio analítico com interfaces visuais interativas para possibilitar a tomada de decisão com base em conjuntos de dados complexos. Este campo utiliza ferramentas de visualização para ajudar os usuários a compreender, analisar e obter insights a partir de dados. Ao apresentar os dados em forma gráfica, a análise visual torna os dados complexos mais acessíveis e fáceis de interpretar, possibilitando decisões mais rápidas e informadas.</p><p>O processo de análise visual envolve a transformação de dados brutos em um contexto visual, como gráficos, diagramas e mapas. Essas representações visuais ajudam a destacar tendências, padrões e discrepâncias que podem não ser tão aparentes com métodos tradicionais de análise de dados. Ferramentas de análise visual variam de bibliotecas de gráficos básicas a plataformas de software avançadas que suportam a exploração interativa e em tempo real dos dados.</p><p>A análise visual também é crítica em áreas como finanças, saúde e segurança, onde grandes quantidades de dados precisam ser analisadas rapidamente. Ela permite que analistas e partes interessadas interajam mais diretamente com os dados, explorando diferentes cenários e manipulando variáveis para ver resultados potenciais. Essa abordagem prática da análise de dados não só melhora o entendimento, mas também promove um envolvimento mais profundo com os dados, levando a uma resolução de problemas mais eficaz e a um planejamento estratégico.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "ビジュアルアナリティクスとは何ですか？",
+                        "text": "<p><strong>ビジュアルアナリティクス</strong>は、複雑なデータセットに基づいて意思決定を可能にするために、分析的推論の科学とインタラクティブなビジュアルインターフェイスを組み合わせたものです。この分野では、ビジュアライゼーションツールを使用して、ユーザーがデータを理解、分析し、洞察を得るのを助けます。データをグラフィカルな形式で提示することで、ビジュアルアナリティクスは複雑なデータをよりアクセスしやすく、解釈しやすくし、より迅速で情報に基づいた意思決定を可能にします。</p><p>ビジュアルアナリティクスのプロセスには、生データをグラフ、図表、マップなどのビジュアルコンテキストに変換することが含まれます。これらのビジュアル表現は、従来のデータ分析方法では容易には明らかにならないトレンド、パターン、外れ値を浮かび上がらせるのに役立ちます。ビジュアルアナリティクスツールは、基本的なグラフィックライブラリから、インタラクティブでリアルタイムのデータ探索をサポートする高度なソフトウェアプラットフォームに至るまでさまざまです。</p><p>ビジュアルアナリティクスは、金融、医療、セキュリティなど、大量のデータを迅速に分析する必要がある分野でも重要です。これにより、アナリストやステークホルダーはデータとより直接的に対話し、異なるシナリオを探求し、潜在的な結果を確認するために変数を操作することができます。この実践的なデータ分析アプローチは、理解を深めるだけでなく、データへの関与を促進し、より効果的な問題解決と戦略的計画につながります。</p>"
                     }
                 }
             },
