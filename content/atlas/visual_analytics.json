@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/visual-analytics"
+        "en": "/atlas/visual-analytics",
+        "de": "/de/atlas/visual-analytics",
+        "es": "/es/atlas/visual-analytics",
+        "fr": "/fr/atlas/visual-analytics",
+        "nl": "/nl/atlas/visual-analytics",
+        "it": "/it/atlas/visual-analytics",
+        "pt": "/pt/atlas/visual-analytics",
+        "ja": "/ja/atlas/visual-analytics"
     },
     "sitemap": {
         "priority": "0.5"

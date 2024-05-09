@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/web-analytics"
+        "en": "/atlas/web-analytics",
+        "de": "/de/atlas/web-analytics",
+        "es": "/es/atlas/web-analytics",
+        "fr": "/fr/atlas/web-analytics",
+        "nl": "/nl/atlas/web-analytics",
+        "it": "/it/atlas/web-analytics",
+        "pt": "/pt/atlas/web-analytics",
+        "ja": "/ja/atlas/web-analytics"
     },
     "sitemap": {
         "priority": "0.5"

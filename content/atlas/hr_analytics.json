@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/hr-analytics"
+        "en": "/atlas/hr-analytics",
+        "de": "/de/atlas/hr-analytics",
+        "es": "/es/atlas/hr-analytics",
+        "fr": "/fr/atlas/hr-analytics",
+        "nl": "/nl/atlas/hr-analytics",
+        "it": "/it/atlas/hr-analytics",
+        "pt": "/pt/atlas/hr-analytics",
+        "ja": "/ja/atlas/hr-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "HR Analytics – Pirsch Analytics",
                         "meta_description": "The application of data analysis in human resources management to optimize workforce planning, recruitment, performance management, and employee engagement."
+                    },
+                    "de": {
+                        "title": "HR Analytics – Pirsch Analytics",
+                        "meta_description": "Die Anwendung der Datenanalyse im Personalmanagement zur Optimierung der Personalplanung, Rekrutierung, Leistungsverwaltung und Mitarbeiterbindung."
+                    },
+                    "es": {
+                        "title": "Analítica de RRHH – Pirsch Analytics",
+                        "meta_description": "La aplicación del análisis de datos en la gestión de recursos humanos para optimizar la planificación de la fuerza laboral, reclutamiento, gestión del rendimiento y compromiso de los empleados."
+                    },
+                    "fr": {
+                        "title": "Analytique RH – Pirsch Analytics",
+                        "meta_description": "L'application de l'analyse de données dans la gestion des ressources humaines pour optimiser la planification de la main-d'œuvre, le recrutement, la gestion de la performance et l'engagement des employés."
+                    },
+                    "nl": {
+                        "title": "HR Analytics – Pirsch Analytics",
+                        "meta_description": "De toepassing van data-analyse in human resources management om de personeelsplanning, werving, prestatiebeheer en werknemersbetrokkenheid te optimaliseren."
+                    },
+                    "it": {
+                        "title": "Analisi HR – Pirsch Analytics",
+                        "meta_description": "L'applicazione dell'analisi dei dati nella gestione delle risorse umane per ottimizzare la pianificazione della forza lavoro, il reclutamento, la gestione delle prestazioni e l'engagement dei dipendenti."
+                    },
+                    "pt": {
+                        "title": "Análise de RH – Pirsch Analytics",
+                        "meta_description": "A aplicação da análise de dados na gestão de recursos humanos para otimizar o planejamento de força de trabalho, recrutamento, gestão de desempenho e engajamento de funcionários."
+                    },
+                    "ja": {
+                        "title": "HRアナリティクス – Pirsch Analytics",
+                        "meta_description": "労働力計画、採用、パフォーマンス管理、従業員エンゲージメントを最適化するための人事管理におけるデータ分析の適用。"
                     }
                 }
             },
@@ -25,6 +60,48 @@
                         "label": "Return to Atlas",
                         "headline": "What is HR Analytics?",
                         "text": "<p><strong>HR Analytics</strong>, also known as People Analytics, is the application of analytical processes to the human resources function of an organization. This field uses data-driven approaches to inform and enhance HR decisions and improve overall workforce performance. By analyzing data related to employee performance, retention, hiring, and engagement, HR professionals can identify patterns and insights that lead to better HR strategies.</p><p>Key areas within HR analytics include talent acquisition, where data helps refine recruiting processes and optimize hiring strategies; employee performance analysis, which assesses productivity and identifies opportunities for improvement; and attrition analysis, which examines the reasons why employees leave and develops strategies to increase retention. Advanced analytics tools enable HR professionals to predict future trends and the impact of HR initiatives on business performance.</p><p>In addition, HR analytics can improve employee satisfaction and engagement by providing insights into employee behaviors and preferences, enabling more personalized HR policies. The use of analytics in HR not only helps align HR strategies with business goals, but also enhances employee well-being and engagement, contributing to a more dynamic and productive workplace.</p>"
+                    },
+                    "de": {
+                        "link": "/de/atlas",
+                        "label": "Zurück zu Atlas",
+                        "headline": "Was ist HR Analytics?",
+                        "text": "<p><strong>HR Analytics</strong>, auch bekannt als People Analytics, ist die Anwendung von analytischen Prozessen auf die Personalabteilung einer Organisation. Dieses Feld verwendet datengesteuerte Ansätze, um HR-Entscheidungen zu informieren und zu verbessern und die Gesamtleistung der Belegschaft zu steigern. Durch die Analyse von Daten zu Mitarbeiterleistung, -bindung, -einstellung und -engagement können HR-Profis Muster und Einblicke identifizieren, die zu besseren HR-Strategien führen.</p><p>Wichtige Bereiche innerhalb der HR-Analytik umfassen die Talentakquisition, bei der Daten helfen, Rekrutierungsprozesse zu verfeinern und Einstellungsstrategien zu optimieren; die Analyse der Mitarbeiterleistung, die Produktivität bewertet und Möglichkeiten zur Verbesserung identifiziert; sowie die Abwanderungsanalyse, die die Gründe untersucht, warum Mitarbeiter das Unternehmen verlassen und Strategien entwickelt, um die Bindung zu erhöhen. Fortgeschrittene Analysewerkzeuge ermöglichen es HR-Profis, zukünftige Trends und die Auswirkungen von HR-Initiativen auf die Geschäftsleistung vorherzusagen.</p><p>Zudem kann HR-Analytik die Mitarbeiterzufriedenheit und -bindung verbessern, indem sie Einblicke in das Verhalten und die Vorlieben der Mitarbeiter bietet, was eine personalisiertere Gestaltung der HR-Richtlinien ermöglicht. Der Einsatz von Analytik im HR-Bereich hilft nicht nur, HR-Strategien mit den Geschäftszielen in Einklang zu bringen, sondern fördert auch das Wohlbefinden und Engagement der Mitarbeiter, was zu einem dynamischeren und produktiveren Arbeitsplatz beiträgt.</p>"
+                    },
+                    "es": {
+                        "link": "/es/atlas",
+                        "label": "Volver a Atlas",
+                        "headline": "¿Qué es la Analítica de RRHH?",
+                        "text": "<p><strong>La Analítica de RRHH</strong>, también conocida como Analítica de Personas, es la aplicación de procesos analíticos a la función de recursos humanos de una organización. Este campo utiliza enfoques basados en datos para informar y mejorar las decisiones de RRHH y mejorar el rendimiento general de la fuerza laboral. Al analizar datos relacionados con el rendimiento, retención, contratación y compromiso de los empleados, los profesionales de RRHH pueden identificar patrones e insights que conducen a mejores estrategias de RRHH.</p><p>Las áreas clave dentro de la analítica de RRHH incluyen la adquisición de talento, donde los datos ayudan a refinar los procesos de reclutamiento y optimizar las estrategias de contratación; análisis de rendimiento de los empleados, que evalúa la productividad e identifica oportunidades de mejora; y análisis de la rotación, que examina las razones por las cuales los empleados dejan la empresa y desarrolla estrategias para aumentar la retención. Las herramientas avanzadas de analítica permiten a los profesionales de RRHH predecir tendencias futuras y el impacto de las iniciativas de RRHH en el rendimiento empresarial.</p><p>Además, la analítica de RRHH puede mejorar la satisfacción y el compromiso de los empleados al proporcionar insights sobre los comportamientos y preferencias de los empleados, lo que permite políticas de RRHH más personalizadas. El uso de la analítica en RRHH no solo ayuda a alinear las estrategias de RRHH con los objetivos empresariales, sino que también mejora el bienestar y el compromiso de los empleados, contribuyendo a un lugar de trabajo más dinámico y productivo.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/atlas",
+                        "label": "Retour à Atlas",
+                        "headline": "Qu'est-ce que l'Analytique RH?",
+                        "text": "<p><strong>L'Analytique RH</strong>, également connue sous le nom d'Analytique des Personnes, est l'application des processus analytiques à la fonction des ressources humaines d'une organisation. Ce domaine utilise des approches basées sur les données pour informer et améliorer les décisions RH et améliorer la performance globale de la main-d'œuvre. En analysant les données liées à la performance, la rétention, l'embauche et l'engagement des employés, les professionnels des RH peuvent identifier des motifs et des insights qui mènent à de meilleures stratégies RH.</p><p>Les domaines clés de l'analytique RH incluent l'acquisition de talents, où les données aident à affiner les processus de recrutement et à optimiser les stratégies d'embauche; l'analyse des performances des employés, qui évalue la productivité et identifie les opportunités d'amélioration; et l'analyse de l'attrition, qui examine les raisons pour lesquelles les employés quittent l'entreprise et développe des stratégies pour augmenter la rétention. Les outils d'analytique avancés permettent aux professionnels des RH de prédire les tendances futures et l'impact des initiatives RH sur la performance de l'entreprise.</p><p>En outre, l'analytique RH peut améliorer la satisfaction et l'engagement des employés en fournissant des insights sur les comportements et les préférences des employés, permettant des politiques RH plus personnalisées. L'utilisation de l'analytique en RH aide non seulement à aligner les stratégies RH avec les objectifs commerciaux, mais améliore également le bien-être et l'engagement des employés, contribuant à un lieu de travail plus dynamique et productif.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/atlas",
+                        "label": "Terug naar Atlas",
+                        "headline": "Wat is HR-Analytics?",
+                        "text": "<p><strong>HR-Analytics</strong>, ook bekend als People Analytics, is de toepassing van analytische processen op de personeelsfunctie van een organisatie. Dit veld gebruikt datagestuurde benaderingen om HR-beslissingen te informeren en te verbeteren en de algehele prestaties van de werkkracht te verbeteren. Door gegevens te analyseren die gerelateerd zijn aan werknemersprestaties, retentie, werving en betrokkenheid, kunnen HR-professionals patronen en inzichten identificeren die leiden tot betere HR-strategieën.</p><p>Belangrijke gebieden binnen HR-analytics omvatten talentacquisitie, waar gegevens helpen bij het verfijnen van wervingsprocessen en het optimaliseren van wervingsstrategieën; werknemersprestatieanalyse, die productiviteit beoordeelt en mogelijkheden voor verbetering identificeert; en verloopanalyse, die onderzoekt waarom werknemers vertrekken en strategieën ontwikkelt om retentie te verhogen. Geavanceerde analytische tools stellen HR-professionals in staat toekomstige trends en de impact van HR-initiatieven op de bedrijfsprestaties te voorspellen.</p><p>Daarnaast kan HR-analytics de tevredenheid en betrokkenheid van werknemers verbeteren door inzichten te bieden in werknemersgedrag en -voorkeuren, wat meer gepersonaliseerde HR-beleidslijnen mogelijk maakt. Het gebruik van analytics in HR helpt niet alleen HR-strategieën af te stemmen op zakelijke doelen, maar verbetert ook het welzijn en de betrokkenheid van werknemers, wat bijdraagt aan een dynamischere en productievere werkplek.</p>"
+                    },
+                    "it": {
+                        "link": "/it/atlas",
+                        "label": "Ritorna ad Atlas",
+                        "headline": "Che cos'è l'Analisi HR?",
+                        "text": "<p><strong>L'Analisi HR</strong>, nota anche come People Analytics, è l'applicazione di processi analitici alla funzione risorse umane di un'organizzazione. Questo campo utilizza approcci basati sui dati per informare e migliorare le decisioni HR e migliorare le prestazioni complessive della forza lavoro. Analizzando dati relativi alle prestazioni, alla ritenzione, all'assunzione e all'impegno dei dipendenti, i professionisti HR possono identificare modelli e intuizioni che portano a migliori strategie HR.</p><p>Le aree chiave all'interno dell'analisi HR includono l'acquisizione di talenti, dove i dati aiutano a perfezionare i processi di reclutamento e ottimizzare le strategie di assunzione; l'analisi delle prestazioni dei dipendenti, che valuta la produttività e identifica opportunità di miglioramento; e l'analisi dell'attrito, che esamina le ragioni per cui i dipendenti lasciano e sviluppa strategie per aumentare la ritenzione. Gli strumenti di analisi avanzati consentono ai professionisti HR di prevedere tendenze future e l'impatto delle iniziative HR sulle prestazioni aziendali.</p><p>Inoltre, l'analisi HR può migliorare la soddisfazione e l'impegno dei dipendenti fornendo intuizioni sul comportamento e le preferenze dei dipendenti, consentendo politiche HR più personalizzate. L'uso dell'analisi in HR non solo aiuta ad allineare le strategie HR con gli obiettivi aziendali, ma migliora anche il benessere e l'engagement dei dipendenti, contribuendo a creare un luogo di lavoro più dinamico e produttivo.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/atlas",
+                        "label": "Retornar ao Atlas",
+                        "headline": "O que é Análise de RH?",
+                        "text": "<p><strong>Análise de RH</strong>, também conhecida como Análise de Pessoas, é a aplicação de processos analíticos à função de recursos humanos de uma organização. Este campo utiliza abordagens orientadas por dados para informar e melhorar as decisões de RH e melhorar o desempenho geral da força de trabalho. Ao analisar dados relacionados ao desempenho, retenção, contratação e engajamento dos empregados, os profissionais de RH podem identificar padrões e insights que levam a melhores estratégias de RH.</p><p>As áreas chave dentro da análise de RH incluem a aquisição de talentos, onde os dados ajudam a refinar processos de recrutamento e otimizar estratégias de contratação; análise de desempenho de funcionários, que avalia a produtividade e identifica oportunidades para melhoria; e análise de atrito, que examina as razões pelas quais os funcionários deixam a empresa e desenvolve estratégias para aumentar a retenção. Ferramentas avançadas de análise permitem que profissionais de RH prevejam tendências futuras e o impacto das iniciativas de RH no desempenho dos negócios.</p><p>Além disso, a análise de RH pode melhorar a satisfação e o engajamento dos empregados ao fornecer insights sobre comportamentos e preferências dos empregados, possibilitando políticas de RH mais personalizadas. O uso da análise em RH não só ajuda a alinhar as estratégias de RH com os objetivos empresariais, mas também melhora o bem-estar e o engajamento dos empregados, contribuindo para um ambiente de trabalho mais dinâmico e produtivo.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/atlas",
+                        "label": "アトラスに戻る",
+                        "headline": "HRアナリティクスとは何か？",
+                        "text": "<p><strong>HRアナリティクス</strong>（人事分析）、別名ピープルアナリティクスは、組織の人事機能に対する分析プロセスの応用です。この分野はデータ駆動型アプローチを使用してHR決定を促進し、全体の労働力パフォーマンスを改善します。従業員のパフォーマンス、維持、雇用、およびエンゲージメントに関連するデータを分析することにより、HRプロフェッショナルはより良いHR戦略につながるパターンとインサイトを特定することができます。</p><p>HRアナリティクスの主要な領域には、データが採用プロセスを洗練させ、採用戦略を最適化するのに役立つ人材獲得が含まれます。従業員のパフォーマンス分析は、生産性を評価し、改善の機会を特定します。また、従業員が離れる理由を調べ、保持を増やすための戦略を開発する離職分析も含まれます。先進的な分析ツールを使用することで、HRプロフェッショナルは将来の傾向とHRイニシアチブのビジネスパフォーマンスへの影響を予測することができます。</p><p>さらに、HRアナリティクスは従業員の行動と好みに関する洞察を提供することで、従業員の満足度とエンゲージメントを向上させることができ、よりパーソナライズされたHRポリシーを可能にします。HRにおける分析の使用は、HR戦略をビジネス目標と一致させるだけでなく、従業員の幸福とエンゲージメントを向上させ、よりダイナミックで生産的な職場に寄与します。</p>"
                     }
                 }
             },

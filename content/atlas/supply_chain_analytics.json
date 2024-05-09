@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/supply-chain-analytics"
+        "en": "/atlas/supply-chain-analytics",
+        "de": "/de/atlas/supply-chain-analytics",
+        "es": "/es/atlas/supply-chain-analytics",
+        "fr": "/fr/atlas/supply-chain-analytics",
+        "nl": "/nl/atlas/supply-chain-analytics",
+        "it": "/it/atlas/supply-chain-analytics",
+        "pt": "/pt/atlas/supply-chain-analytics",
+        "ja": "/ja/atlas/supply-chain-analytics"
     },
     "sitemap": {
         "priority": "0.5"

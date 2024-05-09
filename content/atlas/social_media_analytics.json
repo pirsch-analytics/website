@@ -1,6 +1,13 @@
 {
     "path": {
-        "en": "/atlas/social-media-analytics"
+        "en": "/atlas/social-media-analytics",
+        "de": "/de/atlas/social-media-analytics",
+        "es": "/es/atlas/social-media-analytics",
+        "fr": "/fr/atlas/social-media-analytics",
+        "nl": "/nl/atlas/social-media-analytics",
+        "it": "/it/atlas/social-media-analytics",
+        "pt": "/pt/atlas/social-media-analytics",
+        "ja": "/ja/atlas/social-media-analytics"
     },
     "sitemap": {
         "priority": "0.5"
@@ -13,6 +20,34 @@
                     "en": {
                         "title": "Social Media Analytics – Pirsch Analytics",
                         "meta_description": "The measurement and analysis of social media performance and engagement to assess the effectiveness of social media marketing efforts."
+                    },
+                    "de": {
+                        "title": "Social Media Analytics – Pirsch Analytics",
+                        "meta_description": "Die Messung und Analyse der Leistung und des Engagements in sozialen Medien, um die Wirksamkeit von Social-Media-Marketingmaßnahmen zu bewerten."
+                    },
+                    "es": {
+                        "title": "Analítica de Redes Sociales – Pirsch Analytics",
+                        "meta_description": "La medición y análisis del rendimiento y compromiso en las redes sociales para evaluar la efectividad de los esfuerzos de marketing en redes sociales."
+                    },
+                    "fr": {
+                        "title": "Analytique des Médias Sociaux – Pirsch Analytics",
+                        "meta_description": "La mesure et l'analyse de la performance et de l'engagement sur les réseaux sociaux pour évaluer l'efficacité des efforts de marketing sur les médias sociaux."
+                    },
+                    "nl": {
+                        "title": "Social Media Analytics – Pirsch Analytics",
+                        "meta_description": "Het meten en analyseren van de prestaties en betrokkenheid op sociale media om de effectiviteit van sociale media marketinginspanningen te beoordelen."
+                    },
+                    "it": {
+                        "title": "Analisi dei Social Media – Pirsch Analytics",
+                        "meta_description": "La misurazione e l'analisi delle prestazioni e dell'engagement sui social media per valutare l'efficacia degli sforzi di marketing sui social media."
+                    },
+                    "pt": {
+                        "title": "Análise de Mídias Sociais – Pirsch Analytics",
+                        "meta_description": "A medição e análise do desempenho e engajamento nas mídias sociais para avaliar a eficácia dos esforços de marketing em mídias sociais."
+                    },
+                    "ja": {
+                        "title": "ソーシャルメディア分析 – Pirsch Analytics",
+                        "meta_description": "ソーシャルメディアマーケティングの効果を評価するために、ソーシャルメディアのパフォーマンスとエンゲージメントを測定し分析します。"
                     }
                 }
             },
