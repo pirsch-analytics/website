@@ -247,35 +247,35 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Seamless Switch",
-                                                            "text": "Migrating from other web analytics solutions? Import your data from Google Analytics or Fathom Analytics in just a few clicks and easily continue where you left off."
+                                                            "text": "Migrating from other web analytics solutions? Import your data from Plausible, Fathom, or Google Analytics in just a few clicks and easily continue where you left off."
                                                         },
                                                         "de": {
                                                             "headline": "Nahtloser Wechsel",
-                                                            "text": "Wechselst du von anderen Webanalyse-Lösungen? Importiere deine Daten von Google Analytics oder Fathom Analytics mit nur wenigen Klicks und setze einfach dort fort, wo du aufgehört hast."
+                                                            "text": "Wechselst du von anderen Webanalyse-Lösungen? Importiere deine Daten von Plausible, Fathom oder Google Analytics mit nur wenigen Klicks und mache da weiter, wo du aufgehört hast."
                                                         },
                                                         "es": {
-                                                            "headline": "Cambio sin interrupciones",
-                                                            "text": "¿Migrando de otras soluciones de análisis web? Importa tus datos de Google Analytics o Fathom Analytics en solo unos clics y continúa fácilmente donde lo dejaste."
+                                                            "headline": "Cambio Sin Esfuerzo",
+                                                            "text": "¿Migrando de otras soluciones de análisis web? Importa tus datos desde Plausible, Fathom o Google Analytics en solo unos pocos clics y continúa fácilmente desde donde lo dejaste."
                                                         },
                                                         "fr": {
-                                                            "headline": "Changement fluide",
-                                                            "text": "Vous migrez d'autres solutions d'analyse web ? Importez vos données depuis Google Analytics ou Fathom Analytics en quelques clics et continuez facilement là où vous vous êtes arrêté."
+                                                            "headline": "Changement Sans Souci",
+                                                            "text": "Vous migrez d'autres solutions d'analytique web ? Importez vos données depuis Plausible, Fathom ou Google Analytics en quelques clics et continuez facilement là où vous vous êtes arrêté."
                                                         },
                                                         "nl": {
                                                             "headline": "Naadloze Overstap",
-                                                            "text": "Overstappen van andere webanalyseoplossingen? Importeer je gegevens van Google Analytics of Fathom Analytics met slechts een paar klikken en ga gemakkelijk verder waar je gebleven was."
+                                                            "text": "Overstappen van andere webanalyse-oplossingen? Importeer je gegevens van Plausible, Fathom of Google Analytics in slechts enkele klikken en ga gemakkelijk verder waar je gebleven was."
                                                         },
                                                         "it": {
                                                             "headline": "Passaggio Senza Interruzioni",
-                                                            "text": "Stai migrando da altre soluzioni di analisi web? Importa i tuoi dati da Google Analytics o Fathom Analytics in pochi clic e continua facilmente da dove avevi lasciato."
+                                                            "text": "Stai migrando da altre soluzioni di analisi web? Importa i tuoi dati da Plausible, Fathom o Google Analytics in pochi clic e continua facilmente da dove avevi lasciato."
                                                         },
                                                         "pt": {
                                                             "headline": "Transição Suave",
-                                                            "text": "Migrando de outras soluções de análise web? Importe seus dados do Google Analytics ou do Fathom Analytics em apenas alguns cliques e continue facilmente de onde parou."
+                                                            "text": "Migrando de outras soluções de análise web? Importe seus dados do Plausible, Fathom ou Google Analytics em apenas alguns cliques e continue facilmente de onde parou."
                                                         },
                                                         "ja": {
                                                             "headline": "シームレスな切り替え",
-                                                            "text": "他のウェブ分析ソリューションからの移行ですか？Google AnalyticsまたはFathom Analyticsからデータを数クリックでインポートし、簡単に前回の続きから始めましょう。"
+                                                            "text": "他のウェブ分析ソリューションから移行しますか？ Plausible、Fathom、またはGoogle Analyticsからデータを数クリックでインポートし、簡単に中断したところから再開できます。"
                                                         }
                                                     }
                                                 }

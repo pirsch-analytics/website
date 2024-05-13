@@ -270,6 +270,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Plausible Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Fathom Analytics Import",
                     "class2": "checked",
                     "class3": "checked",
@@ -592,6 +598,12 @@
                 },
                 {
                     "cell1": "Google Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plausible Analytics Import",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -924,6 +936,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Importación de Plausible Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Importación de Fathom Analytics",
                     "class2": "checked",
                     "class3": "checked",
@@ -1246,6 +1264,12 @@
                 },
                 {
                     "cell1": "Importation de Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importation de Plausible Analytics",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -1578,6 +1602,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Plausible Analytics Import",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Fathom Analytics Import",
                     "class2": "checked",
                     "class3": "checked",
@@ -1900,6 +1930,12 @@
                 },
                 {
                     "cell1": "Importazione Google Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Importazione di Plausible Analytics",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"
@@ -2232,6 +2268,12 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Importação de Plausible Analytics",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Importação do Fathom Analytics",
                     "class2": "checked",
                     "class3": "checked",
@@ -2554,6 +2596,12 @@
                 },
                 {
                     "cell1": "Googleアナリティクスインポート",
+                    "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Plausible Analyticsのインポート",
                     "class2": "checked",
                     "class3": "checked",
                     "class4": "checked"

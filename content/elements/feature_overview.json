@@ -201,6 +201,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Plausible Analytics Import",
+                    "text": "Transfer your existing data from Plausible Analytics with ease and pick up where you left off.",
+                    "standard": true
+                },
+                {
                     "headline": "Fathom Analytics Import",
                     "text": "Import data from Fathom Analytics to consolidate your analytics efforts.",
                     "standard": true
@@ -455,6 +460,11 @@
                 {
                     "headline": "Import von Google Analytics",
                     "text": "Importiere vorhandene Daten aus Google Universal Analytics für einen nahtlosen Übergang.",
+                    "standard": true
+                },
+                {
+                    "headline": "Import von Plausible Analytics",
+                    "text": "Übertrage ganz einfach deine bestehenden Daten von Plausible Analytics und mache da weiter, wo du aufgehört hast.",
                     "standard": true
                 },
                 {
@@ -715,6 +725,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Importación de Plausible Analytics",
+                    "text": "Transfiere tus datos existentes de Plausible Analytics con facilidad y continúa donde lo dejaste.",
+                    "standard": true
+                },
+                {
                     "headline": "Importación de Fathom Analytics",
                     "text": "Importa datos de Fathom Analytics para consolidar tus esfuerzos de análisis.",
                     "standard": true
@@ -969,6 +984,11 @@
                 {
                     "headline": "Importation de Google Analytics",
                     "text": "Importez facilement des données existantes de Google Universal Analytics pour une transition sans heurt.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importation de Plausible Analytics",
+                    "text": "Transférez vos données existantes de Plausible Analytics facilement et reprenez là où vous vous étiez arrêté.",
                     "standard": true
                 },
                 {
@@ -1229,6 +1249,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Plausible Analytics-import",
+                    "text": "Transfer je bestaande gegevens van Plausible Analytics gemakkelijk en ga verder waar je gebleven was.",
+                    "standard": true
+                },
+                {
                     "headline": "Fathom Analytics-import",
                     "text": "Importeer gegevens van Fathom Analytics om uw analytische inspanningen te consolideren.",
                     "standard": true
@@ -1483,6 +1508,11 @@
                 {
                     "headline": "Importazione da Google Analytics",
                     "text": "Importa facilmente dati esistenti da Google Universal Analytics per una transizione senza interruzioni.",
+                    "standard": true
+                },
+                {
+                    "headline": "Importazione di Plausible Analytics",
+                    "text": "Trasferisci i tuoi dati esistenti da Plausible Analytics con facilità e riprendi da dove avevi lasciato.",
                     "standard": true
                 },
                 {
@@ -1743,6 +1773,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Importação de Plausible Analytics",
+                    "text": "Transfira seus dados existentes do Plausible Analytics com facilidade e continue de onde parou.",
+                    "standard": true
+                },
+                {
                     "headline": "Importação do Fathom Analytics",
                     "text": "Importe dados do Fathom Analytics para consolidar seus esforços analíticos.",
                     "standard": true
@@ -1997,6 +2032,11 @@
                 {
                     "headline": "Google Analyticsからのインポート",
                     "text": "Google Universal Analyticsからの既存のデータを簡単にインポートして、スムーズな移行を行います。",
+                    "standard": true
+                },
+                {
+                    "headline": "Plausible Analyticsのインポート",
+                    "text": "Plausible Analyticsから既存のデータを簡単に移行し、中断したところから再開します。",
                     "standard": true
                 },
                 {
