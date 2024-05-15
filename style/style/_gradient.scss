@@ -24,7 +24,7 @@
 
         &.white {
             background: -webkit-radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain, 
                 hsla(0,0%,100%,.15) 0%,
                 hsla(0,0%,100%,.148) 8.1%,
                 hsla(0,0%,100%,.143) 15.5%,
@@ -43,7 +43,7 @@
                 hsla(0,0%,100%,0) 100%
             );
             background: radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain, 
                 hsla(0,0%,100%,.15) 0%,
                 hsla(0,0%,100%,.148) 8.1%,
                 hsla(0,0%,100%,.143) 15.5%,
@@ -65,7 +65,7 @@
 
         &.green {
             background: -webkit-radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain,
                 hsla(149,49%,62%,.15) 0%,
                 hsla(149,49%,62%,.148) 8.1%,
                 hsla(149,49%,62%,.143) 15.5%,
@@ -84,7 +84,7 @@
                 hsla(149,49%,62%,0) 100%
             );
             background: radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain, 
                 hsla(149,49%,62%,.15) 0%,
                 hsla(149,49%,62%,.148) 8.1%,
                 hsla(149,49%,62%,.143) 15.5%,
@@ -106,7 +106,7 @@
 
         &.yellow {
             background: -webkit-radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain, 
                 hsla(45,99%,71%,.15) 0%,
                 hsla(45,99%,71%,.148) 8.1%,
                 hsla(45,99%,71%,.143) 15.5%,
@@ -125,7 +125,7 @@
                 hsla(45,99%,71%,0) 100%
             );
             background: radial-gradient(
-                ellipse closest-side, 
+                center, ellipse contain, 
                 hsla(45,99%,71%,.15) 0%,
                 hsla(45,99%,71%,.148) 8.1%,
                 hsla(45,99%,71%,.143) 15.5%,
