@@ -1131,7 +1131,8 @@ footer .footer-content ul li select option {
   color: var(--black);
 }
 footer .footer-content ul li img {
-  max-width: 384px;
+  width: 384px;
+  max-width: 100%;
   margin: 32px 0 12px;
 }
 @media only screen and (max-width: 1024px) {
