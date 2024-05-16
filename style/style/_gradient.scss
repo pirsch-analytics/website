@@ -33,8 +33,8 @@
         }
 
         &.yellow {
-            background: -webkit-radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 0%);
-            background: radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 0%);
+            background: -webkit-radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%);
+            background: radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%);
         }
     } 
 }
