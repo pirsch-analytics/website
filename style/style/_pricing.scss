@@ -292,7 +292,7 @@ section.tier-comparison {
         gap: 24px;
         color: var(--color-secondary);
         font-size: 16px;
-        mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 2%, rgba(0,0,0, 1) 98%, rgba(0,0,0, 0) 100%);
+        mask: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,1) 2%, rgba(0,0,0,1) 98%, rgba(0,0,0,0) 100%);
 
         @media only screen and (min-width: 513px) {
             &:hover:not(.title):not(.table-header):not(:last-of-type) {
@@ -448,7 +448,7 @@ section.tier-comparison {
 
             tr {
                 grid-template-columns: 1.5fr minmax(224px, 1fr);
-                mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 2%, rgba(0,0,0, 1) 100%);
+                mask: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,1) 2%, rgba(0,0,0,1) 100%);
             }
 
             th,

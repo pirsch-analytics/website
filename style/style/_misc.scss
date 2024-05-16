@@ -160,12 +160,12 @@
 }
 
 .mask-bottom {
-    mask: linear-gradient(to bottom, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
+    mask: linear-gradient(to bottom, rgba(0,0,0,1) 0, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
 }
 
 .mask-radial {
-    mask: -webkit-radial-gradient(center, ellipse contain, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0, .5) 100%);
-    mask: radial-gradient(center, ellipse contain, rgba(0,0,0, 1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0, .5) 100%);
+    mask: -webkit-radial-gradient(center, ellipse contain, rgba(0,0,0,1) 0, rgba(0,0,0,1) 95%, rgba(0,0,0,.5) 100%);
+    mask: radial-gradient(center, ellipse contain, rgba(0,0,0,1) 0, rgba(0,0,0, 1) 95%, rgba(0,0,0,.5) 100%);
 }
 
 .orga {
@@ -175,7 +175,7 @@
     min-height: 400px;
     margin: calc(var(--padding-small)* -1.5);
     overflow: hidden;
-    mask: linear-gradient(to bottom, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 15%, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
+    mask: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
 
     .orga-content {
         display: flex;
@@ -345,7 +345,7 @@
     @media only screen and (max-width: 1024px) {
         min-width: calc(100% + var(--padding-small) * 3);
         min-height: 384px;
-        mask: linear-gradient(to right, rgba(0,0,0, 0) 0, rgba(0,0,0, 1) 15%, rgba(0,0,0, 1) 85%, rgba(0,0,0, 0) 100%);
+        mask: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
 
         .orga-content {
             top: 25%;
