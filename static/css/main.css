@@ -1228,8 +1228,8 @@ section.form .h-captcha-container .h-captcha iframe {
   background: radial-gradient(center, ellipse contain, rgba(111, 206, 157, 0.15) 0%, rgba(111, 206, 157, 0) 100%);
 }
 .gradient-container .gradient.yellow {
-  background: -webkit-radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgb(254, 218, 108) 0%);
-  background: radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgb(254, 218, 108) 0%);
+  background: -webkit-radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgba(254, 218, 108, 0) 0%);
+  background: radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgba(254, 218, 108, 0) 0%);
 }
 
 .grid {
