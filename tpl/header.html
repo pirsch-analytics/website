@@ -13,7 +13,7 @@
             <div class="dropdown">
                 <button class="dropdown-button small">
                     <span>{{copy .Page .Content "label1"}}</span>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='var(--color-primary)'/></svg>
                 </button>
                 <div class="dropdown-content">
                     {{range $dropdown1}}
@@ -27,7 +27,7 @@
             <div class="dropdown show-desktop">
                 <button class="dropdown-button small">
                     <span>{{copy .Page .Content "label2"}}</span>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='var(--color-primary)'/></svg>
                 </button>
                 <div class="dropdown-content">
                     {{range $dropdown2}}
@@ -41,7 +41,7 @@
             <div class="dropdown show-desktop">
                 <button class="dropdown-button small">
                     <span>{{copy .Page .Content "label3"}}</span>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='#fff'/></svg>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'><path d='M4.646 5.646a.5.5 0 0 0 .707 0l3.793-3.793A.5.5 0 0 0 8.793 1H1.207a.5.5 0 0 0-.354.854l3.793 3.793z' fill='var(--color-primary)'/></svg>
                 </button>
                 <div class="dropdown-content">
                     {{range $dropdown3}}
@@ -57,8 +57,8 @@
             {{end}}
             <a href="{{hostnameDashboard}}" class="button small showLoggedIn" style="display: none;">{{copy .Page .Content "dashboard"}}</a>
         </nav>
-        <svg id="headerNavOpen" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18h7m-7-6h14M5 6h14"></path></svg>
-        <svg id="headerNavClose" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" style="display: none;"><path d="M17 7L7 17m10 0L7 7" stroke="#fff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <svg id="headerNavOpen" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18h7m-7-6h14M5 6h14"></path></svg>
+        <svg id="headerNavClose" class="icon show-mobile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" style="display: none;"><path d="M17 7L7 17m10 0L7 7" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
     </div>
 
     <script>

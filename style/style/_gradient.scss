@@ -23,18 +23,18 @@
         }
 
         &.white {
-            background: -webkit-radial-gradient(center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 100%);
-            background: radial-gradient(center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 100%);
+            background: -webkit-radial-gradient(var(--color-gradient-white));
+            background: radial-gradient(var(--color-gradient-white));
         }
 
         &.green {
-            background: -webkit-radial-gradient(center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 100%);
-            background: radial-gradient(center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 100%);
+            background: -webkit-radial-gradient(var(--color-gradient-green));
+            background: radial-gradient(var(--color-gradient-green));
         }
 
         &.yellow {
-            background: -webkit-radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%);
-            background: radial-gradient(center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%);
+            background: -webkit-radial-gradient(var(--color-gradient-yellow));
+            background: radial-gradient(var(--color-gradient-yellow));
         }
     } 
 }

@@ -20,7 +20,8 @@
             </div>
         </div>
         <figure style="margin-top: var(--padding-small);" data-sal="slide-up" data-sal-delay="400">
-            <img src="static/img/dashboard-dark.svg" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
+            <img src="static/img/dashboard-light.svg" class="show-light" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
+            <img src="static/img/dashboard-dark.svg" class="show-dark" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
         </figure>
     </div>
 </section>

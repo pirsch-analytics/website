@@ -3,7 +3,8 @@
         <div class="gradient-container" style="top: calc(var(--padding-extra-large) * -1); --sal-duration: .8s;">
             <div class="gradient green"></div>
         </div>
-        <img src="/static/img/cta.svg" alt="Pirsch Analytics Icon" loading="lazy">
+        <img src="/static/img/cta-light.svg" alt="Pirsch Analytics Icon" class="show-light" loading="lazy">
+        <img src="/static/img/cta-dark.svg" alt="Pirsch Analytics Icon" class="show-dark" loading="lazy">
         <h2>{{html (copy .Page .Content "headline")}}</h2>
         <p>{{html (copy .Page .Content "text")}}</p>
         <div class="actions">

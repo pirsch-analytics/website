@@ -91,6 +91,7 @@ section.text {
 
         & + article {
             border-top: solid 2px var(--color-secondary);
+            padding-top: var(--padding-medium);
         }
         
         h2 {

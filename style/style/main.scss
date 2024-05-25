@@ -11,14 +11,6 @@
     --orange: #f7a66b;
     --red: #e87b7b;
 
-    --color-primary: var(--white);
-    --color-secondary: #adadad;
-    --color-background-primary: #0a0a0a;
-    --color-background-primary-glass: rgba(10,10,10,.4);
-    --color-background-secondary: #141414;
-    --color-background-elevation: rgba(255,255,255,.04);
-    --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
-
     --padding-extra-large: 192px;
     --padding-large: 128px;
     --padding-medium: 64px;
@@ -32,6 +24,48 @@
     --mask: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
 
     --header-height: 88px;
+
+    &.theme-light {
+        --color-primary: var(--black);
+        --color-secondary: #707070;
+        --color-background-primary: var(--white);
+        --color-background-primary-glass: rgba(255,255,255,.4);
+        --color-background-secondary: var(--beige);
+        --color-background-elevation: rgba(0,0,0,.04);
+        --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 0%;
+        --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 0%;
+        --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 0%;
+        --color-gradient-bottom: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+
+        color-scheme: light;
+
+        .show-dark {
+            display: none !important;
+        }
+
+        .inverted {
+            filter: invert(1);
+        }
+    }
+
+    &.theme-dark {
+        --color-primary: var(--white);
+        --color-secondary: #adadad;
+        --color-background-primary: #0a0a0a;
+        --color-background-primary-glass: rgba(10,10,10,.4);
+        --color-background-secondary: #141414;
+        --color-background-elevation: rgba(255,255,255,.04);
+        --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 100%;
+        --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 100%;
+        --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%;
+        --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
+
+        color-scheme: dark;
+
+        .show-light {
+            display: none !important;
+        }
+    }
 }
 
 html {

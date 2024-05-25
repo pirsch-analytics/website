@@ -6,12 +6,12 @@
         <div class="grid" data-sal="slide-up">
             <div class="row">
                 {{range $line1}}
-                    <img src="/static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" style="height: {{index . "height"}}; max-height: {{index . "height"}};" loading="lazy">
+                    <img src="/static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" class="inverted" style="height: {{index . "height"}}; max-height: {{index . "height"}};" loading="lazy">
                 {{end}}
             </div>
             <div class="row">
                 {{range $line2}}
-                    <img src="/static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" style="height: {{index . "height"}}; max-height: {{index . "height"}};" loading="lazy">
+                    <img src="/static/img/{{index . "src"}}" title="{{index . "alt"}}" alt="{{index . "alt"}}" class="inverted" style="height: {{index . "height"}}; max-height: {{index . "height"}};" loading="lazy">
                 {{end}}
             </div>
         </div>

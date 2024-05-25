@@ -202,39 +202,48 @@
                                                                     "images": [
                                                                         {
                                                                             "src": "go.svg",
-                                                                            "alt": "Go"
+                                                                            "alt": "Go",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "vue.svg",
-                                                                            "alt": "Vue"
+                                                                            "alt": "Vue",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "angular.svg",
-                                                                            "alt": "Angular"
+                                                                            "alt": "Angular",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "react.svg",
-                                                                            "alt": "React"
+                                                                            "alt": "React",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "wordpress.svg",
-                                                                            "alt": "Wordpress"
+                                                                            "alt": "Wordpress",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "framer.svg",
-                                                                            "alt": "Framer"
+                                                                            "alt": "Framer",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "webflow.svg",
-                                                                            "alt": "Webflow"
+                                                                            "alt": "Webflow",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "laravel.svg",
-                                                                            "alt": "Laravel"
+                                                                            "alt": "Laravel",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "drupal.svg",
-                                                                            "alt": "Drupal"
+                                                                            "alt": "Drupal",
+                                                                            "class": "inverted"
                                                                         }
                                                                     ]
                                                                 }
@@ -495,8 +504,18 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "data.svg",
+                                                                    "src": "data-light.svg",
                                                                     "alt": "Data",
+                                                                    "class": "show-light",
+                                                                    "max-width": "100%"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "data-dark.svg",
+                                                                    "alt": "Data",
+                                                                    "class": "show-dark",
                                                                     "max-width": "100%"
                                                                 }
                                                             }
@@ -544,9 +563,18 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "filter.svg",
+                                                                    "src": "filter-light.svg",
                                                                     "alt": "Filter",
-                                                                    "class": "mask-bottom",
+                                                                    "class": "show-light mask-bottom",
+                                                                    "max-width": "100%"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "filter-dark.svg",
+                                                                    "alt": "Filter",
+                                                                    "class": "show-dark mask-bottom",
                                                                     "max-width": "100%"
                                                                 }
                                                             }
@@ -671,8 +699,18 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "session.svg",
+                                                                    "src": "session-light.svg",
                                                                     "alt": "Session Analysis with Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "session-dark.svg",
+                                                                    "alt": "Session Analysis with Pirsch Analytics",
+                                                                    "class": "show-dark",
                                                                     "max_width": "282px"
                                                                 }
                                                             }
@@ -720,8 +758,18 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "ab.svg",
+                                                                    "src": "ab-light.svg",
                                                                     "alt": "AB Testing with Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "ab-dark.svg",
+                                                                    "alt": "AB Testing with Pirsch Analytics",
+                                                                    "class": "show-dark",
                                                                     "max_width": "282px"
                                                                 }
                                                             }
@@ -769,8 +817,18 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "webhooks.svg",
+                                                                    "src": "webhooks-light.svg",
                                                                     "alt": "Native Webhooks of Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "webhooks-dark.svg",
+                                                                    "alt": "Native Webhooks of Pirsch Analytics",
+                                                                    "class": "show-dark",
                                                                     "max_width": "282px"
                                                                 }
                                                             }

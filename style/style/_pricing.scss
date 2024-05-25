@@ -157,7 +157,7 @@ section.pricing {
     
                 &.grey {
                     .pricing-tier-features-list li::before {
-                        border-color: var(--color-secondary);
+                        border-color: #adadad;
                     }
                 }
 
@@ -215,7 +215,7 @@ section.pricing {
                         align-items: center;
                         margin-bottom: 0;
                         padding: 12px 0;
-                        color: var(--white);
+                        color: var(--color-primary);
                         font-size: 18px;
                         line-height: 1.2;
             

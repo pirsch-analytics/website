@@ -44,6 +44,50 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("DOMContentLoaded", menu);
 
+    // Dark Mode
+
+    let darkMode = localStorage.getItem("darkMode");
+    let themeColor = document.querySelector("meta[name='theme-color']");
+
+    if(darkMode === null && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        enableDarkMode();
+    }
+
+    function enableDarkMode() {
+        document.documentElement.classList.add("theme-dark");
+        document.documentElement.classList.remove("theme-light");
+        themeColor.setAttribute("content", "#0a0a0a");
+        localStorage.setItem("darkMode", "enabled");
+    }
+
+    function disableDarkMode() {
+        document.documentElement.classList.add("theme-light");
+        document.documentElement.classList.remove("theme-dark");
+        themeColor.setAttribute("content", "#f8f5ed");
+        localStorage.setItem('darkMode', null);
+    }
+    
+    if(darkMode === "enabled") {
+        enableDarkMode();
+    }
+
+    const darkModeToggle = document.querySelector("#darkModeToggle");
+
+    if(darkModeToggle) {
+        darkModeToggle.addEventListener("click", e => {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            darkMode = localStorage.getItem("darkMode"); 
+            
+            if (darkMode !== "enabled") {
+                enableDarkMode();
+            } else {  
+                disableDarkMode(); 
+            }
+        });
+    }
+
     // Header
 
     let header = document.getElementById("header")

@@ -256,39 +256,48 @@
                                                                     "images": [
                                                                         {
                                                                             "src": "go.svg",
-                                                                            "alt": "Go"
+                                                                            "alt": "Go",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "vue.svg",
-                                                                            "alt": "Vue"
+                                                                            "alt": "Vue",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "angular.svg",
-                                                                            "alt": "Angular"
+                                                                            "alt": "Angular",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "react.svg",
-                                                                            "alt": "React"
+                                                                            "alt": "React",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "wordpress.svg",
-                                                                            "alt": "Wordpress"
+                                                                            "alt": "Wordpress",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "framer.svg",
-                                                                            "alt": "Framer"
+                                                                            "alt": "Framer",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "webflow.svg",
-                                                                            "alt": "Webflow"
+                                                                            "alt": "Webflow",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "laravel.svg",
-                                                                            "alt": "Laravel"
+                                                                            "alt": "Laravel",
+                                                                            "class": "inverted"
                                                                         },
                                                                         {
                                                                             "src": "drupal.svg",
-                                                                            "alt": "Drupal"
+                                                                            "alt": "Drupal",
+                                                                            "class": "inverted"
                                                                         }
                                                                     ]
                                                                 }

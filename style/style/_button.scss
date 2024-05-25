@@ -25,7 +25,7 @@ button, .button {
 
     &.secondary {
         background-color: var(--color-background-elevation);
-        color: var(--white);
+        color: var(--color-primary);
     }
 
     &.yellow {
@@ -33,6 +33,6 @@ button, .button {
     }
 
     &.grey {
-        background-color: var(--color-secondary);
+        background-color: #adadad;
     }
 }
