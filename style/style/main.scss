@@ -32,9 +32,6 @@
         --color-background-primary-glass: rgba(255,255,255,.4);
         --color-background-secondary: var(--beige);
         --color-background-elevation: rgba(0,0,0,.04);
-        --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 0%;
-        --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 0%;
-        --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 0%;
         --color-gradient-bottom: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
 
         color-scheme: light;
@@ -53,11 +50,8 @@
         --color-secondary: #adadad;
         --color-background-primary: #0a0a0a;
         --color-background-primary-glass: rgba(10,10,10,.4);
-        --color-background-secondary: #141414;
+        --color-background-secondary: rgba(255,255,255,.04);
         --color-background-elevation: rgba(255,255,255,.04);
-        --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 100%;
-        --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 100%;
-        --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%;
         --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
 
         color-scheme: dark;

@@ -81,7 +81,7 @@ fieldset:not(.file) {
     }
 
     option {
-        background-color: var(--color-background-secondary);
+        background-color: var(--color-background-elevation);
     }
 
     input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="color"]):not([type="range"]) + label,
@@ -212,7 +212,7 @@ fieldset:not(.toggle) {
     }
 }
 
-fieldset:not(#toggleBillingCycle) {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) {
     /* Hide standard radio */
     input[type="radio"] {
         display: none;

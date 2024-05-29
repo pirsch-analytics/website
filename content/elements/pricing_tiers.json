@@ -3,7 +3,7 @@
     "copy": {
         "en": {
             "headline": "Simple Pricing",
-            "text": "Pricing for Pirsch Analytics starts at just $5 per month for 10,000 page views and only $12 per month for up to 100,000 page views paid annually. Discover the benefits of the best Google Analytics alternative with a free 30-day trial — no credit card required.",
+            "text": "Discover the benefits of the best Google Analytics alternative with a free 30-day trial with no credit card required. Starting at only $5 per month for 10,000 monthly page views.",
             "monthly_page_views": "Monthly Page Views",
             "monthly": "Monthly",
             "annually": "Annually",
@@ -102,7 +102,7 @@
         },
         "de": {
             "headline": "Einfache Preisgestaltung",
-            "text": "Die Preise für Pirsch Analytics beginnen bei nur $5 pro Monat für 10.000 Seitenaufrufe und nur $12 pro Monat für bis zu 100.000 Seitenaufrufe bei jährlicher Zahlung. Entdecke die Vorteile mit einer kostenlosen 30-Tage-Testversion — keine Kreditkarte erforderlich.",
+            "text": "Entdecke die Vorteile der besten Google Analytics-Alternative mit einer kostenlosen 30-tägigen Testversion, keine Kreditkarte erforderlich. Ab nur 5$ pro Monat für 10.000 monatliche Seitenaufrufe.",
             "monthly_page_views": "Monatliche Seitenaufrufe",
             "monthly": "Monatlich",
             "annually": "Jährlich",
@@ -201,7 +201,7 @@
         },
         "es": {
             "headline": "Precios Simples",
-            "text": "Los precios de Pirsch Analytics comienzan en sólo 5 dólares al mes para 10.000 páginas vistas y sólo 12 dólares al mes para hasta 100.000 páginas vistas. Descubra las ventajas de la mejor alternativa a Google Analytics con una prueba gratuita de 30 días, sin necesidad de tarjeta de crédito.",
+            "text": "Descubre los beneficios de la mejor alternativa a Google Analytics con una prueba gratuita de 30 días sin necesidad de tarjeta de crédito. A partir de solo $5 por mes por 10,000 vistas de página mensuales.",
             "monthly_page_views": "Vistas de Página Mensuales",
             "monthly": "Mensual",
             "annually": "Anual",
@@ -300,7 +300,7 @@
         },
         "fr": {
             "headline": "Tarification Simple",
-            "text": "La tarification de Pirsch Analytics commence à seulement 5 $ par mois pour 10 000 pages vues et à seulement 12 $ par mois pour 100 000 pages vues. Découvrez les avantages de la meilleure alternative à Google Analytics avec un essai gratuit de 30 jours — sans carte de crédit.",
+            "text": "Découvrez les avantages de la meilleure alternative à Google Analytics avec un essai gratuit de 30 jours sans carte de crédit requise. À partir de seulement 5 $ par mois pour 10 000 vues de page mensuelles.",
             "monthly_page_views": "Vues de Page Mensuelles",
             "monthly": "Mensuel",
             "annually": "Annuel",
@@ -399,7 +399,7 @@
         },
         "nl": {
             "headline": "Eenvoudige Prijzen",
-            "text": "De prijzen voor Pirsch Analytics beginnen bij slechts $5 per maand voor 10.000 paginaweergaves en slechts $12 per maand voor maximaal 100.000 paginaweergaves. Ontdek de voordelen van het beste Google Analytics-alternatief met een gratis proefversie van 30 dagen — geen creditcard vereist.",
+            "text": "Ontdek de voordelen van het beste alternatief voor Google Analytics met een gratis proefperiode van 30 dagen, geen creditcard vereist. Vanaf slechts $5 per maand voor 10.000 maandelijkse paginaweergaven.",
             "monthly_page_views": "Maandelijkse Paginaweergaven",
             "monthly": "Maandelijks",
             "annually": "Jaarlijks",
@@ -498,7 +498,7 @@
         },
         "it": {
             "headline": "Prezzi Semplici",
-            "text": "I prezzi di Pirsch Analytics partono da soli 5 dollari al mese per 10.000 pagine viste e da soli 12 dollari al mese per un massimo di 100.000 pagine viste. Scoprite i vantaggi della migliore alternativa a Google Analytics con una prova gratuita di 30 giorni, senza carta di credito.",
+            "text": "Scopri i vantaggi della migliore alternativa a Google Analytics con una prova gratuita di 30 giorni senza bisogno di carta di credito. A partire da soli 5 $ al mese per 10.000 visualizzazioni di pagina mensili.",
             "monthly_page_views": "Visualizzazioni Mensili della Pagina",
             "monthly": "Mensile",
             "annually": "Annuale",
@@ -597,7 +597,7 @@
         },
         "pt": {
             "headline": "Preços Simples",
-            "text": "Os preços do Pirsch Analytics começam em apenas $5 por mês para 10.000 visualizações de página e apenas $12 por mês para até 100.000 visualizações de página. Descubra as vantagens da melhor alternativa ao Google Analytics com uma avaliação gratuita de 30 dias — não é necessário cartão de crédito.",
+            "text": "Descubra os benefícios da melhor alternativa ao Google Analytics com uma avaliação gratuita de 30 dias sem necessidade de cartão de crédito. A partir de apenas 5 $ por mês para 10.000 visualizações de página mensais.",
             "monthly_page_views": "Visualizações Mensais de Página",
             "monthly": "Mensal",
             "annually": "Anual",
@@ -696,7 +696,7 @@
         },
         "ja": {
             "headline": "シンプルな価格設定",
-            "text": "Pirsch Analyticsの価格は、10,000ページビューで月額わずか5ドル、100,000ページビューまでは月額わずか12ドルです。30日間の無料トライアルで、Googleアナリティクスに代わる最高の機能をお試しください。",
+            "text": "クレジットカード不要の無料30日間トライアルで、最高のGoogle Analytics代替ツールの利点を発見してください。月間10,000ページビューで月額わずか5ドルからご利用いただけます。",
             "monthly_page_views": "月間ページビュー",
             "monthly": "月額",
             "annually": "年額",

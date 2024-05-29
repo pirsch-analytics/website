@@ -11,7 +11,7 @@
     gap: var(--padding-small);
     border-radius: var(--border-radius-large);
     backdrop-filter: blur(24px);
-    background-color: var(--color-background-elevation);
+    background-color: var(--color-background-secondary);
 
     &.columns {
         flex-direction: row;

@@ -90,8 +90,8 @@ section.text {
         margin: 0 auto;
 
         & + article {
-            border-top: solid 2px var(--color-secondary);
             padding-top: var(--padding-medium);
+            border-top: solid 2px var(--color-secondary);
         }
         
         h2 {

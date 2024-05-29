@@ -1308,7 +1308,7 @@
                                                                         {
                                                                             "src": "dashboard-light.svg",
                                                                             "alt": "Dashboard Light",
-                                                                            "class": "border-radius-medium"
+                                                                            "class": "border-radius-medium show-dark"
                                                                         },
                                                                         {
                                                                             "src": "dashboard-green-dark.svg",

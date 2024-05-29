@@ -428,3 +428,58 @@
         font-size: 16px;
     }
 }
+
+.theme-switch {
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    padding: 0;
+    border-radius: 24px;
+    backdrop-filter: blur(24px);
+    backface-visibility: hidden;
+    background-color: var(--color-background-elevation);
+    cursor: default;
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
+
+    fieldset {
+        display: flex;
+        padding: 0 6px;
+        gap: 4px;
+    }
+  
+    input[type="radio"] {
+        position: absolute;
+        width: 0 !important;
+        opacity: 0;
+    }
+  
+    label {
+        @include hover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        min-width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        color: var(--color-primary);
+        cursor: pointer;
+        transition: opacity .1s ease;
+
+    }
+      
+    input[type="radio"]:checked + label {
+        background-color: var(--green);
+    }
+
+    input[type="radio"]:not(:checked) + label svg {
+        stroke: var(--color-primary);
+    }
+}

@@ -5,21 +5,31 @@
             {
                 "src": "globalx.png",
                 "alt": "Global X",
+                "class": "inverted",
                 "height": "36px"
             },
             {
                 "src": "maglr.png",
                 "alt": "Maglr",
+                "class": "inverted",
                 "height": "30px"
             },
             {
                 "src": "superblog.png",
                 "alt": "Superblog",
+                "class": "inverted",
                 "height": "36px"
             },
             {
-                "src": "stillalive.png",
+                "src": "stillalive-light.png",
                 "alt": "Stillalive Studios",
+                "class": "show-light",
+                "height": "34px"
+            },
+            {
+                "src": "stillalive-dark.png",
+                "alt": "Stillalive Studios",
+                "class": "show-dark",
                 "height": "34px"
             }
         ],
@@ -27,21 +37,25 @@
             {
                 "src": "toffolo.png",
                 "alt": "Toffolo",
+                "class": "inverted",
                 "height": "30px"
             },
             {
                 "src": "studiolenzing.png",
                 "alt": "Studio Lenzing",
+                "class": "inverted",
                 "height": "20px"
             },
             {
                 "src": "senja.png",
                 "alt": "Senja",
+                "class": "inverted",
                 "height": "28px"
             },
             {
                 "src": "spectate.png",
                 "alt": "Spectate",
+                "class": "inverted",
                 "height": "24px"
             }
         ]

@@ -117,9 +117,6 @@ img[src$=".svg"] {
   --color-background-primary-glass: rgba(255,255,255,.4);
   --color-background-secondary: var(--beige);
   --color-background-elevation: rgba(0,0,0,.04);
-  --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 0%;
-  --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 0%;
-  --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 0%;
   --color-gradient-bottom: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
   color-scheme: light;
 }
@@ -134,11 +131,8 @@ img[src$=".svg"] {
   --color-secondary: #adadad;
   --color-background-primary: #0a0a0a;
   --color-background-primary-glass: rgba(10,10,10,.4);
-  --color-background-secondary: #141414;
+  --color-background-secondary: rgba(255,255,255,.04);
   --color-background-elevation: rgba(255,255,255,.04);
-  --color-gradient-white: center, ellipse contain, rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 100%;
-  --color-gradient-green: center, ellipse contain,rgba(111,206,157,.15) 0%, rgba(111,206,157,0) 100%;
-  --color-gradient-yellow: center, ellipse contain, rgba(254,218,108,.15) 0%, rgba(254,218,108,0) 100%;
   --color-gradient-bottom: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(10,10,10,0) 100%);
   color-scheme: dark;
 }
@@ -435,8 +429,8 @@ section.text article {
   margin: 0 auto;
 }
 section.text article + article {
-  border-top: solid 2px var(--color-secondary);
   padding-top: var(--padding-medium);
+  border-top: solid 2px var(--color-secondary);
 }
 section.text article h2 {
   align-self: flex-start;
@@ -672,7 +666,7 @@ button.grey, .button.grey {
   gap: var(--padding-small);
   border-radius: var(--border-radius-large);
   backdrop-filter: blur(24px);
-  background-color: var(--color-background-elevation);
+  background-color: var(--color-background-secondary);
 }
 .card.columns {
   flex-direction: row;
@@ -1234,7 +1228,8 @@ section.form .h-captcha-container .h-captcha iframe {
   width: 100%;
   height: 1440px;
 }
-.gradient-container .gradient {
+
+.theme-dark .gradient-container .gradient {
   position: absolute;
   top: 0;
   left: 50%;
@@ -1242,23 +1237,23 @@ section.form .h-captcha-container .h-captcha iframe {
   height: 1440px;
   transform: translate(-50%, 0);
 }
-.gradient-container .gradient.right {
+.theme-dark .gradient-container .gradient.right {
   transform: translate(-25%, 0);
 }
-.gradient-container .gradient.left {
+.theme-dark .gradient-container .gradient.left {
   transform: translate(-75%, 0);
 }
-.gradient-container .gradient.white {
-  background: -webkit-radial-gradient(var(--color-gradient-white));
-  background: radial-gradient(var(--color-gradient-white));
+.theme-dark .gradient-container .gradient.white {
+  background: -webkit-radial-gradient(center, ellipse contain, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(center, ellipse contain, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
 }
-.gradient-container .gradient.green {
-  background: -webkit-radial-gradient(var(--color-gradient-green));
-  background: radial-gradient(var(--color-gradient-green));
+.theme-dark .gradient-container .gradient.green {
+  background: -webkit-radial-gradient(center, ellipse contain, rgba(111, 206, 157, 0.15) 0%, rgba(111, 206, 157, 0) 100%);
+  background: radial-gradient(center, ellipse contain, rgba(111, 206, 157, 0.15) 0%, rgba(111, 206, 157, 0) 100%);
 }
-.gradient-container .gradient.yellow {
-  background: -webkit-radial-gradient(var(--color-gradient-yellow));
-  background: radial-gradient(var(--color-gradient-yellow));
+.theme-dark .gradient-container .gradient.yellow {
+  background: -webkit-radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgba(254, 218, 108, 0) 100%);
+  background: radial-gradient(center, ellipse contain, rgba(254, 218, 108, 0.15) 0%, rgba(254, 218, 108, 0) 100%);
 }
 
 .grid {
@@ -1683,7 +1678,7 @@ fieldset:not(.file) select:-moz-focusring {
   text-shadow: 0 0 0 #000;
 }
 fieldset:not(.file) option {
-  background-color: var(--color-background-secondary);
+  background-color: var(--color-background-elevation);
 }
 fieldset:not(.file) input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]):not([type=range]) + label,
 fieldset:not(.file) textarea + label,
@@ -1798,13 +1793,13 @@ fieldset:not(.toggle) input[type=checkbox]:checked + label::after {
   opacity: 1;
 }
 
-fieldset:not(#toggleBillingCycle) {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) {
   /* Hide standard radio */
   /* Radio focused and unchecked */
   /* Radio focused and checked */
   /* Radio unfocused and checked */
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio] {
   display: none;
   z-index: -1;
   width: 12px;
@@ -1814,13 +1809,13 @@ fieldset:not(#toggleBillingCycle) input[type=radio] {
   /* Radio setup */
   /* Disabled */
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] + label {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio] + label {
   display: flex;
   position: relative;
   margin: 16px 0;
   cursor: pointer;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio] + label::before {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio] + label::before {
   display: flex;
   align-items: center;
   width: 12px;
@@ -1830,35 +1825,35 @@ fieldset:not(#toggleBillingCycle) input[type=radio] + label::before {
   background-color: var(--color-background-elevation);
   content: "";
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:disabled {
   cursor: default;
   opacity: 0.5;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled + label {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:disabled + label {
   color: var(--color-secondary);
   opacity: 0.5;
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:disabled:checked + label::before {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:disabled:checked + label::before {
   box-shadow: inset 0 0 0 3px var(--color-secondary);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:focus + label::before {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:focus + label::before {
   box-shadow: inset 0 0 0 1px var(--color-secondary);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:checked:focus + label::before {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:checked:focus + label::before {
   background-color: var(--color-background-elevation);
   box-shadow: inset 0 0 0 3px var(--green);
 }
-fieldset:not(#toggleBillingCycle) input[type=radio]:checked + label::before {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) input[type=radio]:checked + label::before {
   background-color: var(--color-background-elevation);
   box-shadow: inset 0 0 0 3px var(--green);
 }
-fieldset:not(#toggleBillingCycle) small {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) small {
   display: block;
   margin: 4px 8px 8px;
   font-size: 13px;
   line-height: 18px;
 }
-fieldset:not(#toggleBillingCycle) small.error {
+fieldset:not(#toggleBillingCycle):not(#toggleTheme) small.error {
   color: var(--red);
 }
 
@@ -2236,6 +2231,60 @@ fieldset:not(#toggleBillingCycle) small.error {
 }
 .testimonial p {
   font-size: 16px;
+}
+
+.theme-switch {
+  display: flex;
+  z-index: 10;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  padding: 0;
+  border-radius: 24px;
+  backdrop-filter: blur(24px);
+  backface-visibility: hidden;
+  background-color: var(--color-background-elevation);
+  cursor: default;
+}
+.theme-switch:hover, .theme-switch:focus {
+  opacity: 1;
+}
+.theme-switch fieldset {
+  display: flex;
+  padding: 0 6px;
+  gap: 4px;
+}
+.theme-switch input[type=radio] {
+  position: absolute;
+  width: 0 !important;
+  opacity: 0;
+}
+.theme-switch label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+}
+@media only screen and (min-width: 513px) {
+  .theme-switch label {
+    cursor: pointer;
+    transition: opacity 0.1s ease;
+  }
+  .theme-switch label:hover {
+    opacity: 0.8;
+  }
+}
+.theme-switch input[type=radio]:checked + label {
+  background-color: var(--green);
+}
+.theme-switch input[type=radio]:not(:checked) + label svg {
+  stroke: var(--color-primary);
 }
 
 section.notfound {

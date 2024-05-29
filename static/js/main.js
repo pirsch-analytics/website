@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("DOMContentLoaded", menu);
 
-    // Dark Mode
+    // Theme
 
     let darkMode = localStorage.getItem("darkMode");
     let themeColor = document.querySelector("meta[name='theme-color']");
@@ -63,27 +63,25 @@ document.addEventListener("DOMContentLoaded", () => {
     function disableDarkMode() {
         document.documentElement.classList.add("theme-light");
         document.documentElement.classList.remove("theme-dark");
-        themeColor.setAttribute("content", "#f8f5ed");
+        themeColor.setAttribute("content", "#fff");
         localStorage.setItem('darkMode', null);
     }
     
-    if(darkMode === "enabled") {
+    if (darkMode === "enabled") {
         enableDarkMode();
+        document.getElementById('dark').checked = true;
+    } else {
+        document.getElementById('light').checked = true;
     }
 
-    const darkModeToggle = document.querySelector("#darkModeToggle");
+    const themeToggle = document.querySelector("#toggleTheme");
 
-    if(darkModeToggle) {
-        darkModeToggle.addEventListener("click", e => {
-            e.preventDefault();
-            e.stopPropagation();
-            
-            darkMode = localStorage.getItem("darkMode"); 
-            
-            if (darkMode !== "enabled") {
+    if(themeToggle) {
+        themeToggle.addEventListener("change", (e) => {
+            if (e.target.value === "dark") {
                 enableDarkMode();
-            } else {  
-                disableDarkMode(); 
+            } else {
+                disableDarkMode();
             }
         });
     }
