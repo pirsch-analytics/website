@@ -18,7 +18,7 @@
             <div class="gradient green"></div>
         </div>
         {{if $signup.HCaptchaSiteKey}}
-            <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="max-width: calc(100vw - 32px); display: flex; flex-direction: column; align-items: center;">
                 <h1 class="h3">
                     {{if $signup.SignedUp}}
                         {{copy .Page .Content "title_signed_up"}}
@@ -77,8 +77,11 @@
                         <div style="padding: 0 12px">
                             <img src="/static/img/superblog.png" title="Superblog" alt="Superblog" class="inverted" style="min-width: 149px; height: 36px; max-height: 36px;">
                         </div>
-                        <div style="padding: 0 12px">
-                            <img src="/static/img/stillalive.png" title="Stillalive Studios" alt="Stillalive Studios" class="inverted" style="min-width: 140px; height: 34px; max-height: 34px;">
+                        <div class="show-light" style="padding: 0 12px">
+                            <img src="/static/img/stillalive-light.png" title="Stillalive Studios" alt="Stillalive Studios" style="min-width: 140px; height: 34px; max-height: 34px;">
+                        </div>
+                        <div class="show-dark" style="padding: 0 12px">
+                            <img src="/static/img/stillalive-dark.png" title="Stillalive Studios" alt="Stillalive Studios" style="min-width: 140px; height: 34px; max-height: 34px;">
                         </div>
                         <div style="padding: 0 12px">
                             <img src="/static/img/toffolo.png" title="Toffolo" alt="Toffolo" class="inverted" style="min-width: 75px; height: 30px; max-height: 30px;">
