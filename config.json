@@ -20,5 +20,18 @@
     "cors": {
         "origins": "*",
         "loglevel": "info"
+    },
+    "sass": {
+        "entrypoint": "main.scss",
+        "dir": "assets/scss",
+        "watch": true,
+        "out": "static/css/main.css",
+        "out_source_map": "static/css/main.css.map"
+    },
+    "js": {
+        "entrypoint": "main.js",
+        "dir": "assets/js",
+        "watch": true,
+        "out": "static/js/main.js"
     }
 }
