@@ -1,0 +1,24 @@
+{
+    "dev": true,
+    "server": {
+        "host": "localhost.com",
+        "port": 8080,
+        "shutdown_time": 30,
+        "write_timeout": 5,
+        "read_timeout": 5,
+        "hostname": "localhost.com",
+        "tls_cert_file": "test/certs/cert.pem",
+        "tls_key_file": "test/certs/key.pem",
+        "secure_cookies": true,
+        "cookie_domain_name": "localhost.com"
+    },
+    "content": {
+        "provider": "git",
+        "update_seconds": 30,
+        "repository": "https://github.com/pirsch-analytics/website.git"
+    },
+    "cors": {
+        "origins": "*",
+        "loglevel": "info"
+    }
+}
