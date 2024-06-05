@@ -41,6 +41,10 @@
                     "href": "/white-label-analytics"
                 },
                 {
+                    "label": "Shopify Analytics",
+                    "href": "/shopify-analytics"
+                },
+                {
                     "label": "For Developers",
                     "href": "/for-developers"
                 },
@@ -200,6 +204,10 @@
                 {
                     "label": "White Label Web Analytics",
                     "href": "/de/white-label-analytics"
+                },
+                {
+                    "label": "Shopify Analytics",
+                    "href": "/de/shopify-analytics"
                 },
                 {
                     "label": "Für Entwickler",
@@ -363,6 +371,10 @@
                     "href": "/es/white-label-analytics"
                 },
                 {
+                    "label": "Analítica de Shopify",
+                    "href": "/es/shopify-analytics"
+                },
+                {
                     "label": "Para Desarrolladores",
                     "href": "/es/for-developers"
                 },
@@ -522,6 +534,10 @@
                 {
                     "label": "Analytique Web White Label",
                     "href": "/fr/white-label-analytics"
+                },
+                {
+                    "label": "Analytique Shopify",
+                    "href": "/fr/shopify-analytics"
                 },
                 {
                     "label": "Pour les Développeurs",
@@ -685,6 +701,10 @@
                     "href": "/nl/white-label-analytics"
                 },
                 {
+                    "label": "Shopify-analyses",
+                    "href": "/nl/shopify-analytics"
+                },
+                {
                     "label": "Voor Ontwikkelaars",
                     "href": "/nl/for-developers"
                 },
@@ -844,6 +864,10 @@
                 {
                     "label": "Analisi Web White Label",
                     "href": "/it/white-label-analytics"
+                },
+                {
+                    "label": "Analisi Shopify",
+                    "href": "/it/shopify-analytics"
                 },
                 {
                     "label": "Per Sviluppatori",
@@ -1007,6 +1031,10 @@
                     "href": "/pt/white-label-analytics"
                 },
                 {
+                    "label": "Análise do Shopify",
+                    "href": "/pt/shopify-analytics"
+                },
+                {
                     "label": "Para Desenvolvedores",
                     "href": "/pt/for-developers"
                 },
@@ -1166,6 +1194,10 @@
                 {
                     "label": "ホワイトラベルWeb分析",
                     "href": "/ja/white-label-analytics"
+                },
+                {
+                    "label": "Shopify分析",
+                    "href": "/ja/shopify-analytics"
                 },
                 {
                     "label": "開発者向け",
