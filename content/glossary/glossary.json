@@ -170,6 +170,11 @@
                                 "slug": "/glossary/direct-traffic"
                             },
                             {
+                                "title": "Duplicate Page Content",
+                                "description": "Content that appears on multiple pages of a website or across different websites, which can negatively impact search engine rankings.",
+                                "slug": "/glossary/duplicate-page-content"
+                            },
+                            {
                                 "title": "ePrivacy",
                                 "description": "A European Union directive that regulates the processing of personal data and the protection of privacy in electronic communications.",
                                 "slug": "/glossary/e-privacy"
@@ -521,6 +526,11 @@
                                 "slug": "/de/glossary/direct-traffic"
                             },
                             {
+                                "title": "Doppelter Seiteninhalt",
+                                "description": "Inhalt, der auf mehreren Seiten einer Website oder auf verschiedenen Websites erscheint, was sich negativ auf die Suchmaschinen-Rankings auswirken kann.",
+                                "slug": "/de/glossary/duplicate-page-content"
+                            },
+                            {
                                 "title": "ePrivacy",
                                 "description": "Eine Richtlinie der Europäischen Union, die die Verarbeitung personenbezogener Daten und den Schutz der Privatsphäre in der elektronischen Kommunikation regelt.",
                                 "slug": "/de/glossary/e-privacy"
@@ -865,6 +875,11 @@
                                 "title": "Tráfico Directo",
                                 "description": "Visitantes que llegan a un sitio web escribiendo la URL directamente en su navegador o a través de un marcador.",
                                 "slug": "/es/glossary/direct-traffic"
+                            },
+                            {
+                                "title": "Contenido de Página Duplicado",
+                                "description": "Contenido que aparece en varias páginas de un sitio web o en diferentes sitios web, lo que puede afectar negativamente las clasificaciones de los motores de búsqueda.",
+                                "slug": "/es/glossary/duplicate-page-content"
                             },
                             {
                                 "title": "ePrivacy",
@@ -1213,6 +1228,11 @@
                                 "slug": "/fr/glossary/direct-traffic"
                             },
                             {
+                                "title": "Contenu de Page Dupliqué",
+                                "description": "Contenu qui apparaît sur plusieurs pages d'un site web ou sur différents sites web, ce qui peut avoir un impact négatif sur les classements des moteurs de recherche.",
+                                "slug": "/fr/glossary/duplicate-page-content"
+                            },
+                            {
                                 "title": "ePrivacy",
                                 "description": "Une directive de l'Union européenne qui réglemente le traitement des données personnelles et la protection de la vie privée dans les communications électroniques.",
                                 "slug": "/fr/glossary/e-privacy"
@@ -1557,6 +1577,11 @@
                                 "title": "Direct Verkeer",
                                 "description": "Bezoekers die een website bereiken door het URL direct in hun browser in te typen of via een bladwijzer.",
                                 "slug": "/nl/glossary/direct-traffic"
+                            },
+                            {
+                                "title": "Gedupliceerde Pagina-inhoud",
+                                "description": "Inhoud die op meerdere pagina's van een website of op verschillende websites verschijnt, wat een negatieve invloed kan hebben op de zoekmachine-rangschikkingen.",
+                                "slug": "/nl/glossary/duplicate-page-content"
                             },
                             {
                                 "title": "ePrivacy",
@@ -1905,6 +1930,11 @@
                                 "slug": "/it/glossary/direct-traffic"
                             },
                             {
+                                "title": "Contenuto di Pagina Duplicato",
+                                "description": "Contenuto che appare su più pagine di un sito web o su diversi siti web, il che può influire negativamente sulle classifiche dei motori di ricerca.",
+                                "slug": "/it/glossary/duplicate-page-content"
+                            },
+                            {
                                 "title": "ePrivacy",
                                 "description": "Una direttiva dell'Unione Europea che regola il trattamento dei dati personali e la protezione della privacy nelle comunicazioni elettroniche.",
                                 "slug": "/it/glossary/e-privacy"
@@ -2251,6 +2281,11 @@
                                 "slug": "/pt/glossary/direct-traffic"
                             },
                             {
+                                "title": "Conteúdo de Página Duplicado",
+                                "description": "Conteúdo que aparece em várias páginas de um site ou em diferentes sites, o que pode impactar negativamente os rankings dos motores de busca.",
+                                "slug": "/pt/glossary/duplicate-page-content"
+                            },
+                            {
                                 "title": "ePrivacy",
                                 "description": "Uma diretiva da União Europeia que regula o processamento de dados pessoais e a proteção da privacidade em comunicações eletrônicas.",
                                 "slug": "/pt/glossary/e-privacy"
@@ -2595,6 +2630,11 @@
                                 "title": "直接トラフィック",
                                 "description": "URLを直接ブラウザに入力するか、ブックマークを通じてウェブサイトにアクセスする訪問者。",
                                 "slug": "/ja/glossary/direct-traffic"
+                            },
+                            {
+                                "title": "重複ページコンテンツ",
+                                "description": "ウェブサイトの複数のページまたは異なるウェブサイトに表示されるコンテンツで、検索エンジンのランキングに悪影響を与える可能性があります。",
+                                "slug": "/ja/glossary/duplicate-page-content"
                             },
                             {
                                 "title": "ePrivacy",
