@@ -69,31 +69,31 @@
                     },
                     "es": {
                         "link": "/es/glossary",
-                        "label": "Volver al glosario",
+                        "label": "Volver al Glosario",
                         "headline": "¿Qué es un error 500 de servidor interno?",
                         "text": "<p>El error 500 de servidor interno es un código de estado HTTP genérico que indica un problema con el servidor del sitio web, pero el servidor no puede especificar exactamente cuál es el problema. Este error puede ocurrir por diversas razones, como mala configuración del servidor, conflictos de software o agotamiento de recursos.</p><p>Por ejemplo, si hay un error de sintaxis en un script que se ejecuta cuando se solicita una página, o si una conexión a la base de datos no funciona correctamente, el servidor puede no ser capaz de completar la solicitud y devolverá un error 500 de servidor interno. Esto le dice al usuario que el servidor ha encontrado una condición inesperada que ha impedido cumplir con la solicitud.</p><p>Es importante que los administradores web investiguen estos errores tan pronto como ocurran revisando los registros del servidor, revisando las actualizaciones o cambios recientes y asegurando que todas las configuraciones sean correctas. Esto ayudará a mantener la fiabilidad y el funcionamiento fluido de un sitio web y mejorará la experiencia del usuario minimizando las interrupciones.</p>"
                     },
                     "fr": {
                         "link": "/fr/glossary",
-                        "label": "Retour au glossaire",
+                        "label": "Retour au Glossaire",
                         "headline": "Qu'est-ce qu'une erreur 500 du serveur interne ?",
                         "text": "<p>L'erreur 500 du serveur interne est un code d'état HTTP générique qui indique un problème avec le serveur du site web, mais le serveur ne peut pas être plus précis sur le problème exact. Cette erreur peut survenir pour diverses raisons, telles que la mauvaise configuration du serveur, les conflits logiciels ou l'épuisement des ressources.</p><p>Par exemple, s'il y a une erreur de syntaxe dans un script exécuté lorsqu'une page est demandée, ou si une connexion à la base de données ne fonctionne pas correctement, le serveur peut ne pas être capable de compléter la demande et retournera une erreur 500 du serveur interne. Cela indique à l'utilisateur que le serveur a rencontré une condition inattendue qui l'a empêché de satisfaire la demande.</p><p>Il est important que les administrateurs web enquêtent sur ces erreurs dès qu'elles se produisent en vérifiant les journaux du serveur, en révisant les mises à jour ou les changements récents, et en s'assurant que toutes les configurations sont correctes. Cela aidera à maintenir la fiabilité et le fonctionnement fluide d'un site web et améliorera l'expérience utilisateur en minimisant les interruptions.</p>"
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een 500 Interne Serverfout?",
                         "text": "<p>De 500 interne serverfout is een algemene HTTP-statuscode die wijst op een probleem met de server van de website, maar de server kan niet specifieker zijn over het exacte probleem. Deze fout kan om verschillende redenen optreden, zoals een verkeerde configuratie van de server, softwareconflicten of uitputting van bronnen.</p><p>Bijvoorbeeld, als er een syntaxisfout is in een script dat wordt uitgevoerd wanneer een pagina wordt aangevraagd, of als een databaseverbinding niet goed werkt, kan de server de aanvraag niet voltooien en zal een 500 Interne Serverfout retourneren. Dit vertelt de gebruiker dat de server een onverwachte conditie is tegengekomen die het vervullen van de aanvraag heeft verhinderd.</p><p>Het is belangrijk dat webbeheerders deze fouten onderzoeken zodra ze zich voordoen door serverlogs te controleren, recente updates of wijzigingen te beoordelen, en te zorgen dat alle configuraties correct zijn. Dit zal helpen de betrouwbaarheid en vlotte werking van een website te handhaven en de gebruikerservaring te verbeteren door onderbrekingen te minimaliseren.</p>"
                     },
                     "it": {
                         "link": "/it/glossary",
-                        "label": "Torna al glossario",
+                        "label": "Torna al Glossario",
                         "headline": "Cos'è un errore 500 del server interno?",
                         "text": "<p>L'errore 500 del server interno è un codice di stato HTTP generico che indica un problema con il server del sito web, ma il server non può essere più specifico sul problema esatto. Questo errore può verificarsi per varie ragioni, come una cattiva configurazione del server, conflitti software o esaurimento delle risorse.</p><p>Ad esempio, se c'è un errore di sintassi in uno script eseguito quando viene richiesta una pagina, o se una connessione al database non funziona correttamente, il server potrebbe non essere in grado di completare la richiesta e restituirebbe un errore 500 del server interno. Questo indica all'utente che il server ha incontrato una condizione inaspettata che ha impedito di soddisfare la richiesta.</p><p>È importante che gli amministratori web indaghino su questi errori non appena si verificano controllando i log del server, rivedendo gli aggiornamenti o le modifiche recenti, e assicurandosi che tutte le configurazioni siano corrette. Questo aiuterà a mantenere l'affidabilità e il funzionamento fluido di un sito web e migliorerà l'esperienza dell'utente minimizzando le interruzioni.</p>"
                     },
                     "pt": {
                         "link": "/pt/glossary",
-                        "label": "Voltar ao glossário",
+                        "label": "Voltar ao Glossário",
                         "headline": "O que é um Erro 500 de Servidor Interno?",
                         "text": "<p>O erro 500 de servidor interno é um código de status HTTP genérico que indica um problema com o servidor do site, mas o servidor não pode especificar exatamente qual é o problema. Este erro pode ocorrer por várias razões, como má configuração do servidor, conflitos de software ou esgotamento de recursos.</p><p>Por exemplo, se houver um erro de sintaxe em um script sendo executado quando uma página é solicitada, ou se uma conexão de banco de dados não estiver funcionando corretamente, o servidor pode não ser capaz de completar a solicitação e retornará um erro 500 de servidor interno. Isso informa ao usuário que o servidor encontrou uma condição inesperada que o impediu de cumprir a solicitação.</p><p>É importante que os administradores da web investiguem esses erros assim que ocorrerem, verificando os logs do servidor, revisando atualizações ou mudanças recentes e garantindo que todas as configurações estejam corretas. Isso ajudará a manter a confiabilidade e o funcionamento suave de um site e melhorará a experiência do usuário minimizando interrupções.</p>"
                     },

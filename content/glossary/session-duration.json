@@ -81,7 +81,7 @@
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het Woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is de (gemiddelde) sessieduur?",
                         "text": "<p>De gemiddelde <a href=\"/nl/glossary/session\">sessie</a>duur is een webanalysemetriek die de totale tijd meet die alle gebruikers op uw website doorbrengen, gedeeld door het aantal sessies. Deze metriek biedt informatie over hoe lang bezoekers gemiddeld met uw inhoud bezig zijn tijdens een enkele sessie. Het is een goede indicator van hoe boeiend en relevant uw website is voor uw publiek.</p><p>Om de gemiddelde sessieduur te berekenen, tel je de totale duur van alle sessies binnen een bepaalde periode op en deel je dit door het totale aantal sessies in dezelfde periode.</p><p>Ter illustratie, laten we Pirsch Analytics als voorbeeld nemen: Als uw website op een dag een totale sessieduur van 5000 minuten had en er waren 200 sessies die dag, zou de gemiddelde sessieduur als volgt berekend worden:</p><p>Gemiddelde sessieduur = totale sessieduur / totaal aantal sessies</p><p>Gemiddelde sessieduur = 5000 minuten / 200 sessies = 25 minuten per sessie</p><p>Dit betekent dat elke bezoeker gemiddeld 25 minuten per sessie op uw website doorbrengt. Deze metriek is nuttig voor het begrijpen van de algehele betrokkenheid van uw website en kan u helpen bepalen of wijzigingen in inhoud of structuur een positieve invloed hebben op de gebruikersinteractie.</p>"
                     },

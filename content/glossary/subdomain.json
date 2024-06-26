@@ -81,7 +81,7 @@
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het Woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een Subdomein?",
                         "text": "<p>Een subdomein is een voorvoegsel toegevoegd aan de domeinnaam van een website dat bedrijven in staat stelt om verschillende gebieden van hun website te organiseren of verschillende diensten onder hetzelfde hoofddomein te hosten. Subdomeinen functioneren als aparte entiteiten en kunnen worden gebruikt om inhoud te organiseren, specifieke doelgroepen aan te spreken of een gerelateerde dienst zoals een blog of online winkel apart van de hoofdwebsite te hosten.</p><p>Bijvoorbeeld, een bedrijf zou \"shop.voorbeeld.com\" kunnen gebruiken voor zijn online winkel en \"blog.voorbeeld.com\" voor zijn inspanningen op het gebied van contentmarketing. Dit helpt de website te structureren op een manier die de gebruikersnavigatie verbetert en de <a href=\"/nl/glossary/search-engine-optimization\">zoekmachineoptimalisatie</a> optimaliseert door verschillende soorten content effectief te scheiden. Elk subdomein kan worden uitgerust met zijn eigen gebruikersinterface, aangepaste content en afzonderlijke analysefuncties, die een gedetailleerder inzicht geven in de prestaties van de verschillende gebieden van de website.</p><p>Het gebruik van subdomeinen kan de indexering van websites door zoekmachines beïnvloeden en kan voordelig zijn voor grote organisaties met verschillende contentvereisten of voor het hosten van verschillende taalversies van een website.</p>"
                     },

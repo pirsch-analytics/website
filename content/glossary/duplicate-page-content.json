@@ -1,0 +1,113 @@
+{
+    "path": {
+        "en": "/glossary/duplicate-page-content",
+        "de": "/de/glossary/duplicate-page-content",
+        "es": "/es/glossary/duplicate-page-content",
+        "fr": "/fr/glossary/duplicate-page-content",
+        "nl": "/nl/glossary/duplicate-page-content",
+        "it": "/it/glossary/duplicate-page-content",
+        "pt": "/pt/glossary/duplicate-page-content",
+        "ja": "/ja/glossary/duplicate-page-content"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Duplicate Page Content – Pirsch Analytics",
+                        "meta_description": "Content that appears on multiple pages of a website or across different websites, which can negatively impact search engine rankings."
+                    },
+                    "de": {
+                        "title": "Doppelter Seiteninhalt – Pirsch Analytics",
+                        "meta_description": "Inhalt, der auf mehreren Seiten einer Website oder auf verschiedenen Websites erscheint, was sich negativ auf die Suchmaschinen-Rankings auswirken kann."
+                    },
+                    "es": {
+                        "title": "Contenido de Página Duplicado – Pirsch Analytics",
+                        "meta_description": "Contenido que aparece en varias páginas de un sitio web o en diferentes sitios web, lo que puede afectar negativamente las clasificaciones de los motores de búsqueda."
+                    },
+                    "fr": {
+                        "title": "Contenu de Page Dupliqué – Pirsch Analytics",
+                        "meta_description": "Contenu qui apparaît sur plusieurs pages d'un site web ou sur différents sites web, ce qui peut avoir un impact négatif sur les classements des moteurs de recherche."
+                    },
+                    "nl": {
+                        "title": "Gedupliceerde Pagina-inhoud – Pirsch Analytics",
+                        "meta_description": "Inhoud die op meerdere pagina's van een website of op verschillende websites verschijnt, wat een negatieve invloed kan hebben op de zoekmachine-rangschikkingen."
+                    },
+                    "it": {
+                        "title": "Contenuto di Pagina Duplicato – Pirsch Analytics",
+                        "meta_description": "Contenuto che appare su più pagine di un sito web o su diversi siti web, il che può influire negativamente sulle classifiche dei motori di ricerca."
+                    },
+                    "pt": {
+                        "title": "Conteúdo de Página Duplicado – Pirsch Analytics",
+                        "meta_description": "Conteúdo que aparece em várias páginas de um site ou em diferentes sites, o que pode impactar negativamente os rankings dos motores de busca."
+                    },
+                    "ja": {
+                        "title": "重複ページコンテンツ – Pirsch Analytics",
+                        "meta_description": "ウェブサイトの複数のページまたは異なるウェブサイトに表示されるコンテンツで、検索エンジンのランキングに悪影響を与える可能性があります。"
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "glossary_entry",
+                "copy": {
+                    "en": {
+                        "link": "/glossary",
+                        "label": "Return to Glossary",
+                        "headline": "What is Duplicate Page Content?",
+                        "text": "<p>Duplicate page content refers to substantial blocks of content within or across domains that are either completely identical to or very similar to other content. This can occur when the same content appears in multiple URLs within a single website or across different websites. Duplicate content can confuse search engines, making it difficult for them to determine which version is more relevant to a given search query, potentially negatively impacting the site's search engine ranking.</p><p>For example, if a website has the same product description on multiple pages for different products, or if an article is republished on another website without proper canonicalization, search engines may not know which page to prioritize. This can lead to dilution of page authority and lower search engine rankings.</p><p>Managing duplicate content involves using canonical tags, setting up 301 redirects, and ensuring that each piece of content is unique and valuable to users. By addressing duplicate content issues, websites can improve their SEO performance and provide a better user experience.</p>"
+                    },
+                    "de": {
+                        "link": "/de/glossary",
+                        "label": "Zurück zum Glossar",
+                        "headline": "Was ist doppelter Seiteninhalt?",
+                        "text": "<p>Doppelter Seiteninhalt bezieht sich auf wesentliche Inhaltsblöcke innerhalb oder zwischen Domains, die entweder vollständig identisch oder sehr ähnlich zu anderem Inhalt sind. Dies kann auftreten, wenn derselbe Inhalt in mehreren URLs innerhalb einer einzigen Website oder auf verschiedenen Websites erscheint. Doppelter Inhalt kann Suchmaschinen verwirren, wodurch es für sie schwierig wird zu bestimmen, welche Version für eine bestimmte Suchanfrage relevanter ist, was sich potenziell negativ auf das Suchmaschinen-Ranking der Website auswirken kann.</p><p>Zum Beispiel, wenn eine Website dieselbe Produktbeschreibung auf mehreren Seiten für verschiedene Produkte hat, oder wenn ein Artikel auf einer anderen Website ohne ordnungsgemäße Kanonisierung erneut veröffentlicht wird, wissen Suchmaschinen möglicherweise nicht, welche Seite priorisiert werden soll. Dies kann zu einer Verwässerung der Seitenautorität und zu niedrigeren Suchmaschinen-Rankings führen.</p><p>Das Verwalten von doppeltem Inhalt beinhaltet die Verwendung von kanonischen Tags, das Einrichten von 301-Weiterleitungen und die Sicherstellung, dass jeder Inhalt einzigartig und wertvoll für die Nutzer ist. Durch die Behebung von Problemen mit doppeltem Inhalt können Websites ihre SEO-Leistung verbessern und eine bessere Benutzererfahrung bieten.</p>"
+                    },
+                    "es": {
+                        "link": "/es/glossary",
+                        "label": "Volver al Glosario",
+                        "headline": "¿Qué es el Contenido de Página Duplicado?",
+                        "text": "<p>El contenido de página duplicado se refiere a bloques sustanciales de contenido dentro o entre dominios que son completamente idénticos o muy similares a otros contenidos. Esto puede ocurrir cuando el mismo contenido aparece en varias URL dentro de un solo sitio web o en diferentes sitios web. El contenido duplicado puede confundir a los motores de búsqueda, dificultándoles determinar qué versión es más relevante para una consulta de búsqueda determinada, lo que podría afectar negativamente la clasificación del sitio en los motores de búsqueda.</p><p>Por ejemplo, si un sitio web tiene la misma descripción de producto en varias páginas para diferentes productos, o si un artículo se republica en otro sitio web sin una correcta canonicación, los motores de búsqueda pueden no saber qué página priorizar. Esto puede llevar a una dilución de la autoridad de la página y a clasificaciones más bajas en los motores de búsqueda.</p><p>Gestionar el contenido duplicado implica usar etiquetas canónicas, configurar redireccionamientos 301 y asegurarse de que cada pieza de contenido sea única y valiosa para los usuarios. Al abordar los problemas de contenido duplicado, los sitios web pueden mejorar su rendimiento SEO y proporcionar una mejor experiencia al usuario.</p>"
+                    },
+                    "fr": {
+                        "link": "/fr/glossary",
+                        "label": "Retour au Glossaire",
+                        "headline": "Qu'est-ce que le Contenu de Page Dupliqué?",
+                        "text": "<p>Le contenu de page dupliqué se réfère à des blocs substantiels de contenu au sein ou entre les domaines qui sont soit complètement identiques, soit très similaires à d'autres contenus. Cela peut se produire lorsque le même contenu apparaît dans plusieurs URL au sein d'un même site Web ou sur différents sites Web. Le contenu dupliqué peut confondre les moteurs de recherche, rendant difficile pour eux de déterminer quelle version est la plus pertinente pour une requête de recherche donnée, ce qui peut potentiellement nuire au classement du site dans les moteurs de recherche.</p><p>Par exemple, si un site Web a la même description de produit sur plusieurs pages pour différents produits, ou si un article est republié sur un autre site Web sans une canonicalisation appropriée, les moteurs de recherche peuvent ne pas savoir quelle page prioriser. Cela peut entraîner une dilution de l'autorité de la page et des classements inférieurs dans les moteurs de recherche.</p><p>La gestion du contenu dupliqué implique l'utilisation de balises canoniques, la mise en place de redirections 301 et la garantie que chaque contenu soit unique et précieux pour les utilisateurs. En résolvant les problèmes de contenu dupliqué, les sites Web peuvent améliorer leurs performances SEO et offrir une meilleure expérience utilisateur.</p>"
+                    },
+                    "nl": {
+                        "link": "/nl/glossary",
+                        "label": "Terug naar het Glossarium",
+                        "headline": "Wat is Gedupliceerde Pagina-inhoud?",
+                        "text": "<p>Gedupliceerde pagina-inhoud verwijst naar substantiële blokken inhoud binnen of tussen domeinen die ofwel volledig identiek of zeer vergelijkbaar zijn met andere inhoud. Dit kan gebeuren wanneer dezelfde inhoud op meerdere URL's binnen een enkele website of op verschillende websites verschijnt. Gedupliceerde inhoud kan zoekmachines verwarren, waardoor het moeilijk voor hen is om te bepalen welke versie relevanter is voor een bepaalde zoekopdracht, wat de zoekmachine-rangschikking van de site negatief kan beïnvloeden.</p><p>Bijvoorbeeld, als een website dezelfde productbeschrijving op meerdere pagina's voor verschillende producten heeft, of als een artikel wordt hergepubliceerd op een andere website zonder correcte canonisatie, weten zoekmachines mogelijk niet welke pagina ze moeten prioriteren. Dit kan leiden tot verwatering van de pagina-autoriteit en lagere zoekmachine-rangschikkingen.</p><p>Het beheren van gedupliceerde inhoud omvat het gebruik van canonieke tags, het instellen van 301-omleidingen en ervoor zorgen dat elke inhoud uniek en waardevol is voor gebruikers. Door problemen met gedupliceerde inhoud aan te pakken, kunnen websites hun SEO-prestaties verbeteren en een betere gebruikerservaring bieden.</p>"
+                    },
+                    "it": {
+                        "link": "/it/glossary",
+                        "label": "Torna al Glossario",
+                        "headline": "Cos'è il Contenuto di Pagina Duplicato?",
+                        "text": "<p>Il contenuto di pagina duplicato si riferisce a blocchi sostanziali di contenuto all'interno o tra domini che sono completamente identici o molto simili ad altri contenuti. Questo può verificarsi quando lo stesso contenuto appare in più URL all'interno di un unico sito web o su diversi siti web. Il contenuto duplicato può confondere i motori di ricerca, rendendo difficile per loro determinare quale versione sia più rilevante per una determinata query di ricerca, potenzialmente influenzando negativamente il posizionamento del sito nei motori di ricerca.</p><p>Ad esempio, se un sito web ha la stessa descrizione del prodotto su più pagine per prodotti diversi, o se un articolo viene ripubblicato su un altro sito web senza una corretta canonicalizzazione, i motori di ricerca potrebbero non sapere quale pagina prioritizzare. Ciò può portare a una diluizione dell'autorità della pagina e a un posizionamento inferiore nei motori di ricerca.</p><p>La gestione del contenuto duplicato comporta l'uso di tag canonici, la configurazione di reindirizzamenti 301 e l'assicurarsi che ogni contenuto sia unico e prezioso per gli utenti. Affrontando i problemi di contenuto duplicato, i siti web possono migliorare le loro prestazioni SEO e fornire una migliore esperienza utente.</p>"
+                    },
+                    "pt": {
+                        "link": "/pt/glossary",
+                        "label": "Voltar ao Glossário",
+                        "headline": "O que é Conteúdo de Página Duplicado?",
+                        "text": "<p>Conteúdo de página duplicado refere-se a blocos substanciais de conteúdo dentro ou entre domínios que são completamente idênticos ou muito semelhantes a outros conteúdos. Isso pode ocorrer quando o mesmo conteúdo aparece em várias URLs dentro de um único site ou em diferentes sites. O conteúdo duplicado pode confundir os motores de busca, dificultando para eles determinar qual versão é mais relevante para uma determinada consulta de pesquisa, potencialmente impactando negativamente o ranking do site nos motores de busca.</p><p>Por exemplo, se um site tiver a mesma descrição de produto em várias páginas para produtos diferentes, ou se um artigo for republicado em outro site sem a devida canonicalização, os motores de busca podem não saber qual página priorizar. Isso pode levar à diluição da autoridade da página e a classificações mais baixas nos motores de busca.</p><p>Gerenciar conteúdo duplicado envolve o uso de tags canônicas, configurar redirecionamentos 301 e garantir que cada conteúdo seja único e valioso para os usuários. Ao abordar problemas de conteúdo duplicado, os sites podem melhorar seu desempenho de SEO e proporcionar uma melhor experiência ao usuário.</p>"
+                    },
+                    "ja": {
+                        "link": "/ja/glossary",
+                        "label": "用語集に戻る",
+                        "headline": "重複ページコンテンツとは？",
+                        "text": "<p>重複ページコンテンツは、ドメイン内またはドメイン間で完全に同一か非常に似ている大きなコンテンツブロックを指します。これは、同じコンテンツが単一のウェブサイト内の複数のURLや異なるウェブサイトに表示される場合に発生する可能性があります。重複コンテンツは検索エンジンを混乱させ、特定の検索クエリに対してどのバージョンがより関連性が高いかを判断するのを難しくし、ウェブサイトの検索エンジンランキングに悪影響を与える可能性があります。</p><p>たとえば、ウェブサイトが異なる製品の複数のページに同じ製品説明を持っている場合、または適切な正規化なしに別のウェブサイトで記事が再公開される場合、検索エンジンはどのページを優先するかを判断できないかもしれません。これにより、ページの権威が希薄化し、検索エンジンランキングが低下する可能性があります。</p><p>重複コンテンツを管理するには、正規タグの使用、301リダイレクトの設定、および各コンテンツがユーザーにとって一意で価値のあるものであることを確認することが含まれます。重複コンテンツの問題に対処することで、ウェブサイトはSEOパフォーマンスを向上させ、より良いユーザーエクスペリエンスを提供することができます。</p>"
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

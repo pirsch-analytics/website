@@ -69,31 +69,31 @@
                     },
                     "es": {
                         "link": "/es/glossary",
-                        "label": "Volver al glosario",
+                        "label": "Volver al Glosario",
                         "headline": "¿Qué es la tasa de conversión?",
                         "text": "<p>La tasa de conversión es una métrica importante en análisis web que mide el porcentaje de visitantes que completan una acción deseada en tu sitio web, como realizar una compra, suscribirse a un boletín informativo o llenar un formulario de contacto. Esta tasa se calcula dividiendo el número de conversiones por el número total de visitantes y luego multiplicando por 100 para expresarlo como porcentaje.</p><p>Por ejemplo, si Pirsch Analytics muestra que tu sitio web tuvo 1,000 visitantes en un mes y 50 de esos visitantes completaron una compra, la tasa de conversión se calcularía de la siguiente manera:</p><p>Tasa de conversión = (número de conversiones / visitantes totales) x 100 = (50 / 1,000) x 100 = 5%</p><p>Esta métrica es crucial para evaluar la efectividad de tu sitio web y esfuerzos de marketing. Una alta tasa de conversión indica que tu sitio web tiene éxito en hacer que los visitantes realicen la acción que deseas, mientras que una baja tasa de conversión podría indicar áreas de mejora en el diseño del sitio, usabilidad o claridad de la <a href=\"/es/glossary/call-to-action\">llamada a la acción</a>.</p>"
                     },
                     "fr": {
                         "link": "/fr/glossary",
-                        "label": "Retour au glossaire",
+                        "label": "Retour au Glossaire",
                         "headline": "Qu'est-ce que le taux de conversion ?",
                         "text": "<p>Le taux de conversion est une métrique importante en analyse web qui mesure le pourcentage de visiteurs qui accomplissent une action souhaitée sur votre site web, telle que réaliser un achat, s'inscrire à une newsletter ou remplir un formulaire de contact. Ce taux est calculé en divisant le nombre de conversions par le nombre total de visiteurs puis en multipliant par 100 pour l'exprimer en pourcentage.</p><p>Par exemple, si Pirsch Analytics indique que votre site web a eu 1,000 visiteurs dans un mois et que 50 de ces visiteurs ont effectué un achat, le taux de conversion serait calculé comme suit :</p><p>Taux de conversion = (nombre de conversions / visiteurs totaux) x 100 = (50 / 1,000) x 100 = 5%</p><p>Cette métrique est cruciale pour évaluer l'efficacité de votre site web et de vos efforts marketing. Un taux de conversion élevé indique que votre site web réussit à amener les visiteurs à prendre l'action que vous souhaitez, tandis qu'un faible taux de conversion pourrait indiquer des domaines à améliorer dans la conception du site, l'utilisabilité ou la clarté de l'<a href=\"/fr/glossary/call-to-action\">appel à l'action</a>.</p>"
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is de conversieratio?",
                         "text": "<p>De conversieratio is een belangrijke maatstaf in webanalyse die het percentage bezoekers meet die een gewenste actie op je website voltooien, zoals het maken van een aankoop, zich aanmelden voor een nieuwsbrief of het invullen van een contactformulier. Deze ratio wordt berekend door het aantal conversies te delen door het totaal aantal bezoekers en vervolgens te vermenigvuldigen met 100 om het als een percentage uit te drukken.</p><p>Bijvoorbeeld, als Pirsch Analytics laat zien dat je website in een maand 1.000 bezoekers had en 50 van die bezoekers een aankoop hebben voltooid, zou de conversieratio als volgt berekend worden:</p><p>Conversieratio = (aantal conversies / totaal bezoekers) x 100 = (50 / 1.000) x 100 = 5%</p><p>Deze maatstaf is cruciaal voor het beoordelen van de effectiviteit van je website en marketinginspanningen. Een hoge conversieratio geeft aan dat je website succesvol is in het overhalen van bezoekers om de actie te ondernemen die je wenst, terwijl een lage conversieratio kan wijzen op verbeterpunten in websiteontwerp, gebruiksvriendelijkheid of duidelijkheid van de <a href=\"/nl/glossary/call-to-action\">oproep tot actie</a>.</p>"
                     },
                     "it": {
                         "link": "/it/glossary",
-                        "label": "Torna al glossario",
+                        "label": "Torna al Glossario",
                         "headline": "Cos'è il tasso di conversione?",
                         "text": "<p>Il tasso di conversione è un indicatore importante nell'analisi web che misura la percentuale di visitatori che completano un'azione desiderata sul tuo sito web, come effettuare un acquisto, iscriversi a una newsletter o compilare un modulo di contatto. Questo tasso viene calcolato dividendo il numero di conversioni per il numero totale di visitatori e poi moltiplicando per 100 per esprimerlo come percentuale.</p><p>Ad esempio, se Pirsch Analytics mostra che il tuo sito web ha avuto 1.000 visitatori in un mese e 50 di questi visitatori hanno completato un acquisto, il tasso di conversione sarebbe calcolato come segue:</p><p>Tasso di conversione = (numero di conversioni / visitatori totali) x 100 = (50 / 1.000) x 100 = 5%</p><p>Questa metrica è cruciale per valutare l'efficacia del tuo sito web e degli sforzi di marketing. Un alto tasso di conversione indica che il tuo sito web sta riuscendo a far compiere ai visitatori l'azione che desideri, mentre un basso tasso di conversione potrebbe indicare aree di miglioramento nel design del sito, nell'usabilità o nella chiarezza della <a href=\"/it/glossary/call-to-action\">chiamata all'azione</a>.</p>"
                     },
                     "pt": {
                         "link": "/pt/glossary",
-                        "label": "Voltar ao glossário",
+                        "label": "Voltar ao Glossário",
                         "headline": "O que é taxa de conversão?",
                         "text": "<p>A taxa de conversão é uma métrica importante em análise web que mede a porcentagem de visitantes que completam uma ação desejada no seu site, como fazer uma compra, assinar uma newsletter ou preencher um formulário de contato. Essa taxa é calculada dividindo o número de conversões pelo número total de visitantes e multiplicando por 100 para expressar em porcentagem.</p><p>Por exemplo, se Pirsch Analytics mostra que seu site teve 1.000 visitantes em um mês e 50 desses visitantes completaram uma compra, a taxa de conversão seria calculada da seguinte forma:</p><p>Taxa de conversão = (número de conversões / visitantes totais) x 100 = (50 / 1.000) x 100 = 5%</p><p>Essa métrica é crucial para avaliar a eficácia do seu site e esforços de marketing. Uma alta taxa de conversão indica que seu site está conseguindo fazer com que os visitantes realizem a ação que você deseja, enquanto uma baixa taxa de conversão poderia indicar áreas para melhoria no design do site, usabilidade ou clareza da <a href=\"/pt/glossary/call-to-action\">chamada para ação</a>.</p>"
                     },

@@ -69,31 +69,31 @@
                     },
                     "es": {
                         "link": "/es/glossary",
-                        "label": "Volver al glosario",
+                        "label": "Volver al Glosario",
                         "headline": "¿Qué es un error 404 No Encontrado?",
                         "text": "<p>El error 404 No Encontrado es un código de estado HTTP que indica que el servidor no pudo encontrar el recurso solicitado. Este error ocurre típicamente cuando un usuario intenta acceder a una página web o archivo que no existe en el servidor. El error puede ser resultado de una <a href=\"/es/glossary/uniform-resource-locator\">URL</a> ingresada incorrectamente, un archivo movido o eliminado, o un enlace roto en el sitio web.</p><p>Por ejemplo, si un visitante sigue un enlace a un artículo que ha sido eliminado o movido sin configurar una redirección, el servidor devolverá un error 404 No Encontrado. Este error sirve como retroalimentación de que el camino intentado no llevó a una página web válida.</p><p>Monitorear y gestionar los errores 404 es importante para el mantenimiento del sitio web y la experiencia del usuario. Reparar regularmente enlaces rotos, implementar redirecciones para contenido desplazado y crear una página de error 404 útil pueden mejorar la navegación del sitio y mantener a los usuarios comprometidos incluso cuando han llegado a un callejón sin salida.</p>"
                     },
                     "fr": {
                         "link": "/fr/glossary",
-                        "label": "Retour au glossaire",
+                        "label": "Retour au Glossaire",
                         "headline": "Qu'est-ce qu'une erreur 404 Non Trouvé ?",
                         "text": "<p>L'erreur 404 Non Trouvé est un code d'état HTTP qui indique que le serveur n'a pas pu trouver la ressource demandée. Cette erreur se produit généralement lorsqu'un utilisateur essaie d'accéder à une page Web ou à un fichier qui n'existe pas sur le serveur. L'erreur peut résulter d'une <a href=\"/fr/glossary/uniform-resource-locator\">URL</a> saisie incorrectement, d'un fichier déplacé ou supprimé, ou d'un lien brisé sur le site Web.</p><p>Par exemple, si un visiteur suit un lien vers un article qui a été supprimé ou déplacé sans redirection configurée, le serveur renverra une erreur 404 Non Trouvé. Cette erreur sert de retour d'information indiquant que le chemin tenté n'a pas mené à une page Web valide.</p><p>Surveiller et gérer les erreurs 404 est important pour la maintenance du site et l'expérience utilisateur. Réparer régulièrement les liens brisés, mettre en place des redirections pour le contenu déplacé, et créer une page d'erreur 404 utile peuvent améliorer la navigation sur le site et maintenir l'engagement des utilisateurs même lorsqu'ils atteignent une impasse.</p>"
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het glossarium",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een 404 Niet Gevonden Fout?",
                         "text": "<p>De 404 Niet Gevonden fout is een HTTP-statuscode die aangeeft dat de server de gevraagde bron niet kon vinden. Deze fout treedt typisch op wanneer een gebruiker probeert toegang te krijgen tot een webpagina of bestand dat niet bestaat op de server. De fout kan het gevolg zijn van een onjuist ingevoerde <a href=\"/nl/glossary/uniform-resource-locator\">URL</a>, een verplaatst of verwijderd bestand, of een gebroken link op de website.</p><p>Bijvoorbeeld, als een bezoeker een link volgt naar een artikel dat is verwijderd of verplaatst zonder dat een omleiding is ingesteld, zal de server een 404 Niet Gevonden fout teruggeven. Deze fout dient als feedback dat het geprobeerde pad niet naar een geldige webpagina heeft geleid.</p><p>Het monitoren en beheren van 404 fouten is belangrijk voor het onderhoud van de website en de gebruikerservaring. Regelmatig gebroken links repareren, omleidingen implementeren voor verplaatste content, en het creëren van een nuttige 404 foutpagina kunnen de navigatie op de site verbeteren en gebruikers betrokken houden, zelfs wanneer ze een doodlopende weg hebben bereikt.</p>"
                     },
                     "it": {
                         "link": "/it/glossary",
-                        "label": "Torna al glossario",
+                        "label": "Torna al Glossario",
                         "headline": "Cos'è un errore 404 Non Trovato?",
                         "text": "<p>L'errore 404 Non Trovato è un codice di stato HTTP che indica che il server non è riuscito a trovare la risorsa richiesta. Questo errore si verifica tipicamente quando un utente tenta di accedere a una pagina web o a un file che non esiste sul server. L'errore può essere il risultato di un <a href=\"/it/glossary/uniform-resource-locator\">URL</a> inserito in modo errato, di un file spostato o cancellato, o di un collegamento interrotto sul sito web.</p><p>Ad esempio, se un visitatore segue un link ad un articolo che è stato cancellato o spostato senza impostare un reindirizzamento, il server restituirà un errore 404 Non Trovato. Questo errore funge da feedback che il percorso tentato non ha portato a una pagina web valida.</p><p>Monitorare e gestire gli errori 404 è importante per la manutenzione del sito web e l'esperienza dell'utente. Riparare regolarmente i collegamenti interrotti, implementare reindirizzamenti per contenuti spostati e creare una pagina di errore 404 utile possono migliorare la navigazione del sito e mantenere gli utenti impegnati anche quando hanno raggiunto un vicolo cieco.</p>"
                     },
                     "pt": {
                         "link": "/pt/glossary",
-                        "label": "Voltar ao glossário",
+                        "label": "Voltar ao Glossário",
                         "headline": "O que é um Erro 404 Não Encontrado?",
                         "text": "<p>O erro 404 Não Encontrado é um código de estado HTTP que indica que o servidor não conseguiu encontrar o recurso solicitado. Esse erro ocorre tipicamente quando um usuário tenta acessar uma página da Web ou arquivo que não existe no servidor. O erro pode ser resultado de uma <a href=\"/pt/glossary/uniform-resource-locator\">URL</a> inserida incorretamente, um arquivo movido ou excluído, ou um link quebrado no site.</p><p>Por exemplo, se um visitante segue um link para um artigo que foi excluído ou movido sem uma configuração de redirecionamento, o servidor retornará um erro 404 Não Encontrado. Este erro serve como feedback de que o caminho tentado não levou a uma página web válida.</p><p>Monitorar e gerenciar erros 404 é importante para a manutenção do site e a experiência do usuário. Consertar regularmente links quebrados, implementar redirecionamentos para conteúdo deslocado e criar uma página de erro 404 útil podem melhorar a navegação no site e manter os usuários engajados mesmo quando eles alcançam um beco sem saída.</p>"
                     },

@@ -69,31 +69,31 @@
                     },
                     "es": {
                         "link": "/es/glossary",
-                        "label": "Volver al glosario",
+                        "label": "Volver al Glosario",
                         "headline": "¿Qué es un error 403 Prohibido?",
                         "text": "<p>El error 403 prohibido es un código de estado HTTP que indica que un servidor comprende la solicitud pero niega la autorización. Esto puede ocurrir cuando un usuario intenta acceder a una página o recurso restringido para el cual no tiene los permisos necesarios. El error suele deberse a problemas con los ajustes de autorización de la estructura de archivos o directorios del servidor.</p><p>Por ejemplo, si un sitio web tiene un directorio al que solo ciertos usuarios autenticados tienen acceso, y alguien intenta acceder sin las credenciales adecuadas, el servidor devolverá un error 403 Prohibido. De esta manera, el servidor comunica que la solicitud era válida, pero el acceso al recurso se niega por algún motivo.</p><p>Es importante para los administradores del sitio monitorear estos errores, ya que pueden señalar intentos no autorizados de acceder a áreas seguras del sitio. Para eliminar las causas de los errores 403, es necesario verificar los permisos de los archivos, asegurarse de que los métodos de autenticación funcionen correctamente y revisar los ajustes de seguridad del servidor.</p>"
                     },
                     "fr": {
                         "link": "/fr/glossary",
-                        "label": "Retour au glossaire",
+                        "label": "Retour au Glossaire",
                         "headline": "Qu'est-ce qu'une erreur 403 Interdit ?",
                         "text": "<p>L'erreur 403 interdit est un code d'état HTTP qui indique qu'un serveur comprend la requête mais refuse l'autorisation. Cela peut se produire lorsqu'un utilisateur tente d'accéder à une page ou une ressource restreinte pour laquelle il n'a pas les permissions nécessaires. L'erreur est généralement due à des problèmes avec les paramètres d'autorisation de la structure de fichiers ou de répertoires du serveur.</p><p>Par exemple, si un site Web a un répertoire auquel seuls certains utilisateurs authentifiés sont autorisés à accéder, et que quelqu'un tente d'y accéder sans les informations d'identification appropriées, le serveur renverra une erreur 403 Interdit. De cette façon, le serveur communique que la requête était valide, mais l'accès à la ressource est refusé pour une raison quelconque.</p><p>Il est important pour les administrateurs de site de surveiller ces erreurs, car elles peuvent signaler des tentatives non autorisées d'accéder à des zones sécurisées du site. Pour éliminer les causes des erreurs 403, il est nécessaire de vérifier les permissions des fichiers, de s'assurer que les méthodes d'authentification fonctionnent correctement, et de vérifier les paramètres de sécurité du serveur.</p>"
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een 403 Verboden Fout?",
                         "text": "<p>De 403 verboden fout is een HTTP-statuscode die aangeeft dat een server het verzoek begrijpt maar autorisatie weigert. Dit kan voorkomen wanneer een gebruiker probeert toegang te krijgen tot een beperkte pagina of bron waarvoor hij niet de nodige permissies heeft. De fout is meestal te wijten aan problemen met de autorisatie-instellingen van de bestands- of directorystructuur van de server.</p><p>Bijvoorbeeld, als een website een directory heeft die alleen toegankelijk is voor bepaalde geverifieerde gebruikers, en iemand probeert toegang te krijgen zonder de juiste referenties, zal de server een 403 Verboden fout teruggeven. Op deze manier communiceert de server dat het verzoek geldig was, maar de toegang tot de bron om een bepaalde reden wordt geweigerd.</p><p>Het is belangrijk voor sitebeheerders om deze fouten te monitoren, omdat ze ongeautoriseerde pogingen kunnen signaleren om toegang te krijgen tot beveiligde delen van de site. Om de oorzaken van 403 fouten te elimineren, is het noodzakelijk om bestandsrechten te controleren, te zorgen dat authenticatiemethoden correct werken, en de veiligheidsinstellingen van de server te controleren.</p>"
                     },
                     "it": {
                         "link": "/it/glossary",
-                        "label": "Torna al glossario",
+                        "label": "Torna al Glossario",
                         "headline": "Cos'è un errore 403 Proibito?",
                         "text": "<p>L'errore 403 Proibito è un codice di stato HTTP che indica che un server comprende la richiesta ma nega l'autorizzazione. Questo può verificarsi quando un utente tenta di accedere a una pagina o risorsa ristretta per cui non ha i permessi necessari. L'errore è solitamente dovuto a problemi con le impostazioni di autorizzazione della struttura dei file o delle directory del server.</p><p>Ad esempio, se un sito web ha una directory a cui solo alcuni utenti autenticati sono autorizzati ad accedere, e qualcuno tenta di accedervi senza le credenziali adeguate, il server restituirà un errore 403 Proibito. In questo modo, il server comunica che la richiesta era valida, ma l'accesso alla risorsa è negato per qualche motivo.</p><p>È importante per gli amministratori del sito monitorare questi errori, in quanto possono segnalare tentativi non autorizzati di accedere a aree sicure del sito. Per eliminare le cause degli errori 403, è necessario controllare i permessi dei file, assicurarsi che i metodi di autenticazione funzionino correttamente e verificare le impostazioni di sicurezza del server.</p>"
                     },
                     "pt": {
                         "link": "/pt/glossary",
-                        "label": "Voltar ao glossário",
+                        "label": "Voltar ao Glossário",
                         "headline": "O que é um Erro 403 Proibido?",
                         "text": "<p>O erro 403 Proibido é um código de status HTTP que indica que um servidor entende a solicitação, mas nega autorização. Isso pode ocorrer quando um usuário tenta acessar uma página ou recurso restrito para o qual não possui as permissões necessárias. O erro geralmente é devido a problemas com as configurações de autorização da estrutura de arquivos ou diretórios do servidor.</p><p>Por exemplo, se um site possui um diretório que apenas certos usuários autenticados têm permissão para acessar, e alguém tenta acessá-lo sem as credenciais adequadas, o servidor retornará um erro 403 Proibido. Desta forma, o servidor comunica que a solicitação era válida, mas o acesso ao recurso é negado por algum motivo.</p><p>É importante para os administradores do site monitorar esses erros, pois eles podem sinalizar tentativas não autorizadas de acessar áreas seguras do site. Para eliminar as causas dos erros 403, é necessário verificar as permissões de arquivo, garantir que os métodos de autenticação estejam funcionando corretamente e verificar as configurações de segurança do servidor.</p>"
                     },

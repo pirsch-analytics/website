@@ -81,7 +81,7 @@
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het Woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een sessie?",
                         "text": "<p>Een sessie in webanalyse vertegenwoordigt een enkel bezoek van een gebruiker aan uw website. Het omvat alle interacties die de gebruiker maakt tijdens hun bezoek aan de site. Deze interacties kunnen <a href=\"/nl/glossary/page-view\">pagina weergaven</a>, klikken en transacties omvatten.</p><p>Een sessie begint wanneer een gebruiker de site betreedt en eindigt wanneer ze vertrekken of na een periode van inactiviteit, meestal 30 minuten. Deze tijdslimiet kan worden gereset als de gebruiker blijft interageren met de website.</p><p>Bijvoorbeeld, als iemand Pirsch Analytics gebruikt om hun website te volgen, zouden ze kunnen zien dat een gebruiker een sessie had waarin ze binnen 20 minuten drie verschillende pagina's bezochten. Pirsch zou dit als één sessie registreren, en alle acties binnen dat tijdsbestek zouden onder die ene sessie gegroepeerd worden.</p><p>Sessies helpen website-eigenaren om het gedrag van gebruikers te begrijpen en de effectiviteit van hun content of gebruikersinterface te beoordelen. Ze kunnen kijken naar metrics zoals het aantal sessies per dag, de gemiddelde sessielengte, of het aantal pagina's per sessie om geïnformeerde beslissingen te maken over hun site. Sessies helpen website-eigenaren om het gedrag van gebruikers te begrijpen en de effectiviteit van hun content of interface te beoordelen.</p>"
                     },

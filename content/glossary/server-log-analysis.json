@@ -81,7 +81,7 @@
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar het Woordenboek",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is Server Log Analyse?",
                         "text": "<p>Serverloganalyse onderzoekt de logboeken die door een webserver worden gegenereerd om inzicht te krijgen in het verkeer, de prestaties en de beveiligingsproblemen van de site. Serverlogs zijn bestanden die verschillende gebeurtenissen op de webserver registreren, zoals bezoekersaanvragen, serverreacties, foutmeldingen en andere transactiedetails. Het analyseren van deze logs kan beheerders helpen verkeerspatronen te begrijpen, potentiële beveiligingskwetsbaarheden te identificeren en technische problemen op te lossen.</p><p>Bijvoorbeeld, door serverlogs te beoordelen, kan een sitebeheerder zien welke pagina's het meest worden gevraagd, ongebruikelijke pieken in het verkeer detecteren die kunnen duiden op een bot-aanval, en foutcodes identificeren die kunnen wijzen op problemen met de functionaliteit van de site. Deze analyse is cruciaal voor het handhaven van de gezondheid en veiligheid van een website. Tools zoals Webalizer of AWStats kunnen worden gebruikt om het analyseproces te automatiseren en visuele rapporten te bieden die het gemakkelijker maken om de gegevens in de serverlogs te interpreteren.</p><p>De analyse van serverlogs is een fundamenteel aspect van websitebewaking dat zorgt voor een soepele werking en de algehele beveiliging en efficiëntie van een website verbetert.</p>"
                     },

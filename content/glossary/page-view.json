@@ -69,19 +69,19 @@
                     },
                     "es": {
                         "link": "/es/glossary",
-                        "label": "Regresar al Glosario",
+                        "label": "Volver al Glosario",
                         "headline": "¿Qué es una Vista de Página?",
                         "text": "<p>Una vista de página se refiere a cada vez que una página de su sitio web se carga en el navegador de un usuario. Esta es una de las métricas básicas en el análisis web porque le ayuda a medir la cantidad de tráfico a su sitio. Cada vez que un usuario abre una página web en su navegador, ya sea en la primera visita o en una actualización, cuenta como una vista de página.</p><p>Por ejemplo, si nota con Pirsch Analytics que una publicación de blog en particular tiene un gran número de vistas de página, esto podría indicar que el contenido es popular o se ha promocionado de manera efectiva. Si una página tiene muy pocas vistas, podría indicar que la página es menos atractiva o más difícil de encontrar.</p><p>Las vistas de página se utilizan para comprender el compromiso del usuario, evaluar la efectividad del contenido y optimizar el diseño y la navegación del sitio web. También son útiles para el análisis comparativo, por ejemplo, para ver qué páginas funcionan mejor durante ciertos períodos de tiempo.</p>"
                     },
                     "fr": {
                         "link": "/fr/glossary",
-                        "label": "Retourner au Glossaire",
+                        "label": "Retour au Glossaire",
                         "headline": "Qu'est-ce qu'une Vue de la Page ?",
                         "text": "<p>Une vue de la page fait référence à chaque fois qu'une page de votre site web est chargée par le navigateur d'un utilisateur. C'est l'une des métriques de base en analyse web car elle vous aide à mesurer le volume de trafic vers votre site. Chaque fois qu'un utilisateur ouvre une page web dans son navigateur, que ce soit lors de sa première visite ou lors d'un rafraîchissement, cela compte comme une vue de la page.</p><p>Par exemple, si vous remarquez avec Pirsch Analytics qu'un article de blog en particulier a un nombre élevé de vues de page, cela peut indiquer que le contenu est populaire ou a été efficacement promu. Si une page a très peu de vues, cela peut indiquer que la page est moins attrayante ou plus difficile à trouver.</p><p>Les vues de la page sont utilisées pour comprendre l'engagement des utilisateurs, évaluer l'efficacité du contenu et optimiser la disposition et la navigation du site web. Elles sont également utiles pour l'analyse comparative, par exemple, pour voir quelles pages fonctionnent mieux pendant certaines périodes.</p>"
                     },
                     "nl": {
                         "link": "/nl/glossary",
-                        "label": "Terug naar woordenlijst",
+                        "label": "Terug naar het Glossarium",
                         "headline": "Wat is een Paginaweergave?",
                         "text": "<p>Een paginaweergave verwijst naar elke keer dat een pagina op je website wordt geladen door de browser van een gebruiker. Dit is een van de basisstatistieken in webanalyse, omdat het je helpt de hoeveelheid verkeer naar je site te meten. Elke keer dat een gebruiker een webpagina in zijn browser opent, of het nu een eerste bezoek of een verversing is, telt dit als een paginaweergave.</p><p>Als je bijvoorbeeld met Pirsch Analytics merkt dat een bepaald blogbericht een groot aantal paginaweergaven heeft, kan dit erop wijzen dat de inhoud populair is of effectief is gepromoot. Als een pagina heel weinig weergaven heeft, kan dit erop wijzen dat de pagina minder aantrekkelijk of moeilijker te vinden is.</p><p>Paginaweergaven worden gebruikt om gebruikersbetrokkenheid te begrijpen, de effectiviteit van inhoud te evalueren en de lay-out en navigatie van de website te optimaliseren. Ze zijn ook nuttig voor vergelijkende analyse, bijvoorbeeld om te zien welke pagina's beter presteren tijdens bepaalde perioden.</p>"
                     },
