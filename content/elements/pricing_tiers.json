@@ -27,12 +27,6 @@
                     "label": "Unlimited Data Retention"
                 },
                 {
-                    "label": "GDPR Compliance"
-                },
-                {
-                    "label": "100% Data Ownership"
-                },
-                {
                     "label": "Events & Conversion Goals"
                 },
                 {
@@ -40,6 +34,12 @@
                 },
                 {
                     "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "GDPR Compliance"
+                },
+                {
+                    "label": "100% Data Ownership"
                 },
                 {
                     "label": "Google Analytics Import"
@@ -135,12 +135,6 @@
                     "label": "Unbegrenzte Datenspeicherung"
                 },
                 {
-                    "label": "DSGVO-konform"
-                },
-                {
-                    "label": "100% Datenbesitz"
-                },
-                {
                     "label": "Ereignisse & Konversionsziele"
                 },
                 {
@@ -148,6 +142,12 @@
                 },
                 {
                     "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "DSGVO-konform"
+                },
+                {
+                    "label": "100% Datenbesitz"
                 },
                 {
                     "label": "Google Analytics Import"
@@ -243,12 +243,6 @@
                     "label": "Retención de Datos Ilimitada"
                 },
                 {
-                    "label": "Cumplimiento del GDPR"
-                },
-                {
-                    "label": "100% Propiedad de Datos"
-                },
-                {
                     "label": "Eventos y Metas de Conversión"
                 },
                 {
@@ -256,6 +250,12 @@
                 },
                 {
                     "label": "API RESTful y SDKs"
+                },
+                {
+                    "label": "Cumplimiento del GDPR"
+                },
+                {
+                    "label": "100% Propiedad de Datos"
                 },
                 {
                     "label": "Importación de Google Analytics"
@@ -351,12 +351,6 @@
                     "label": "Conservation des Données Illimitée"
                 },
                 {
-                    "label": "Conformité au RGPD"
-                },
-                {
-                    "label": "100% Propriété des Données"
-                },
-                {
                     "label": "Événements & Objectifs de Conversion"
                 },
                 {
@@ -364,6 +358,12 @@
                 },
                 {
                     "label": "API RESTful & SDKs"
+                },
+                {
+                    "label": "Conformité au RGPD"
+                },
+                {
+                    "label": "100% Propriété des Données"
                 },
                 {
                     "label": "Importation de Google Analytics"
@@ -459,12 +459,6 @@
                     "label": "Onbeperkte Gegevensbehoud"
                 },
                 {
-                    "label": "GDPR-naleving"
-                },
-                {
-                    "label": "100% Gegevenseigendom"
-                },
-                {
                     "label": "Evenementen & Conversiedoelen"
                 },
                 {
@@ -472,6 +466,12 @@
                 },
                 {
                     "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "GDPR-naleving"
+                },
+                {
+                    "label": "100% Gegevenseigendom"
                 },
                 {
                     "label": "Google Analytics Importeren"
@@ -567,12 +567,6 @@
                     "label": "Conservazione Dati Illimitata"
                 },
                 {
-                    "label": "Conformità GDPR"
-                },
-                {
-                    "label": "100% Proprietà dei Dati"
-                },
-                {
                     "label": "Eventi & Obiettivi di Conversione"
                 },
                 {
@@ -580,6 +574,12 @@
                 },
                 {
                     "label": "API RESTful & SDK"
+                },
+                {
+                    "label": "Conformità GDPR"
+                },
+                {
+                    "label": "100% Proprietà dei Dati"
                 },
                 {
                     "label": "Importazione Google Analytics"
@@ -675,12 +675,6 @@
                     "label": "Retenção de Dados Ilimitada"
                 },
                 {
-                    "label": "Conformidade com o GDPR"
-                },
-                {
-                    "label": "100% de Propriedade dos Dados"
-                },
-                {
                     "label": "Eventos & Metas de Conversão"
                 },
                 {
@@ -688,6 +682,12 @@
                 },
                 {
                     "label": "API RESTful & SDKs"
+                },
+                {
+                    "label": "Conformidade com o GDPR"
+                },
+                {
+                    "label": "100% de Propriedade dos Dados"
                 },
                 {
                     "label": "Importação do Google Analytics"
@@ -783,12 +783,6 @@
                     "label": "無制限のデータ保持"
                 },
                 {
-                    "label": "GDPR準拠"
-                },
-                {
-                    "label": "データの100%所有権"
-                },
-                {
                     "label": "イベント＆コンバージョン目標"
                 },
                 {
@@ -796,6 +790,12 @@
                 },
                 {
                     "label": "RESTful API & SDKs"
+                },
+                {
+                    "label": "GDPR準拠"
+                },
+                {
+                    "label": "データの100%所有権"
                 },
                 {
                     "label": "Google Analyticsのインポート"
