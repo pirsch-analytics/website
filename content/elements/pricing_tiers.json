@@ -36,6 +36,9 @@
                     "label": "Events & Conversion Goals"
                 },
                 {
+                    "label": "Session Analysis"
+                },
+                {
                     "label": "RESTful API & SDKs"
                 },
                 {
@@ -49,6 +52,9 @@
                 },
                 {
                     "label": "Unlimited Websites"
+                },
+                {
+                    "label": "Funnels"
                 },
                 {
                     "label": "Organizations"
@@ -82,6 +88,9 @@
                 },
                 {
                     "label": "SAML-based Single Sign-On"
+                },
+                {
+                    "label": "Raw Data Access"
                 },
                 {
                     "label": "Personal Onboarding"
@@ -135,6 +144,9 @@
                     "label": "Ereignisse & Konversionsziele"
                 },
                 {
+                    "label": "Sitzungsanalyse"
+                },
+                {
                     "label": "RESTful API & SDKs"
                 },
                 {
@@ -148,6 +160,9 @@
                 },
                 {
                     "label": "Unbegrenzte Websites"
+                },
+                {
+                    "label": "Funnel"
                 },
                 {
                     "label": "Organisationen"
@@ -178,6 +193,9 @@
                 },
                 {
                     "label": "Vor-Ort-Installation"
+                },
+                {
+                    "label": "Rohdatenzugriff"
                 },
                 {
                     "label": "SAML-basiertes Single Sign-On"
@@ -234,6 +252,9 @@
                     "label": "Eventos y Metas de Conversión"
                 },
                 {
+                    "label": "Análisis de sesión"
+                },
+                {
                     "label": "API RESTful y SDKs"
                 },
                 {
@@ -247,6 +268,9 @@
                 },
                 {
                     "label": "Sitios Web Ilimitados"
+                },
+                {
+                    "label": "Embudo"
                 },
                 {
                     "label": "Organizaciones"
@@ -274,6 +298,9 @@
                 },
                 {
                     "label": "Configuración de Nube Gestionada"
+                },
+                {
+                    "label": "Acceso a datos sin procesar"
                 },
                 {
                     "label": "Instalación Local"
@@ -333,6 +360,9 @@
                     "label": "Événements & Objectifs de Conversion"
                 },
                 {
+                    "label": "Analyse de session"
+                },
+                {
                     "label": "API RESTful & SDKs"
                 },
                 {
@@ -346,6 +376,9 @@
                 },
                 {
                     "label": "Sites Web Illimités"
+                },
+                {
+                    "label": "Entonnoir"
                 },
                 {
                     "label": "Organisations"
@@ -376,6 +409,9 @@
                 },
                 {
                     "label": "Installation sur Site"
+                },
+                {
+                    "label": "Accès aux données brutes"
                 },
                 {
                     "label": "Authentification Unique basée sur SAML"
@@ -432,6 +468,9 @@
                     "label": "Evenementen & Conversiedoelen"
                 },
                 {
+                    "label": "Sessie-analyse"
+                },
+                {
                     "label": "RESTful API & SDKs"
                 },
                 {
@@ -445,6 +484,9 @@
                 },
                 {
                     "label": "Onbeperkt Websites"
+                },
+                {
+                    "label": "Trechter"
                 },
                 {
                     "label": "Organisaties"
@@ -475,6 +517,9 @@
                 },
                 {
                     "label": "Installatie op Locatie"
+                },
+                {
+                    "label": "Toegang tot ruwe data"
                 },
                 {
                     "label": "SAML-gebaseerde Single Sign-On"
@@ -531,6 +576,9 @@
                     "label": "Eventi & Obiettivi di Conversione"
                 },
                 {
+                    "label": "Analisi della sessione"
+                },
+                {
                     "label": "API RESTful & SDK"
                 },
                 {
@@ -544,6 +592,9 @@
                 },
                 {
                     "label": "Siti Web Illimitati"
+                },
+                {
+                    "label": "Imbuto"
                 },
                 {
                     "label": "Organizzazioni"
@@ -574,6 +625,9 @@
                 },
                 {
                     "label": "Installazione On-premise"
+                },
+                {
+                    "label": "Accesso ai dati grezzi"
                 },
                 {
                     "label": "Single Sign-On basato su SAML"
@@ -630,6 +684,9 @@
                     "label": "Eventos & Metas de Conversão"
                 },
                 {
+                    "label": "Análise de sessão"
+                },
+                {
                     "label": "API RESTful & SDKs"
                 },
                 {
@@ -643,6 +700,9 @@
                 },
                 {
                     "label": "Sites Ilimitados"
+                },
+                {
+                    "label": "Funil"
                 },
                 {
                     "label": "Organizações"
@@ -673,6 +733,9 @@
                 },
                 {
                     "label": "Instalação On-premise"
+                },
+                {
+                    "label": "Acesso a dados brutos"
                 },
                 {
                     "label": "Single Sign-On baseado em SAML"
@@ -729,6 +792,9 @@
                     "label": "イベント＆コンバージョン目標"
                 },
                 {
+                    "label": "セッション分析"
+                },
+                {
                     "label": "RESTful API & SDKs"
                 },
                 {
@@ -742,6 +808,9 @@
                 },
                 {
                     "label": "無制限のウェブサイト"
+                },
+                {
+                    "label": "ファネル"
                 },
                 {
                     "label": "組織"
@@ -772,6 +841,9 @@
                 },
                 {
                     "label": "オンプレミスインストール"
+                },
+                {
+                    "label": "生データアクセス"
                 },
                 {
                     "label": "SAMLベースのシングルサインオン"

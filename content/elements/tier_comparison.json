@@ -127,6 +127,11 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Funnels",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "A/B Testing",
                     "class3": "checked",
                     "class4": "checked"
@@ -456,6 +461,11 @@
                 {
                     "cell1": "Client-Hinweise",
                     "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Funnel",
                     "class3": "checked",
                     "class4": "checked"
                 },
@@ -793,6 +803,11 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Embudo",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Pruebas A/B",
                     "class3": "checked",
                     "class4": "checked"
@@ -1122,6 +1137,11 @@
                 {
                     "cell1": "Indications Clients",
                     "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Entonnoir",
                     "class3": "checked",
                     "class4": "checked"
                 },
@@ -1459,6 +1479,11 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Trechter",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "A/B Testen",
                     "class3": "checked",
                     "class4": "checked"
@@ -1788,6 +1813,11 @@
                 {
                     "cell1": "Suggerimenti Clienti",
                     "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "Imbuto",
                     "class3": "checked",
                     "class4": "checked"
                 },
@@ -2125,6 +2155,11 @@
                     "class4": "checked"
                 },
                 {
+                    "cell1": "Funil",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
                     "cell1": "Teste A/B",
                     "class3": "checked",
                     "class4": "checked"
@@ -2454,6 +2489,11 @@
                 {
                     "cell1": "クライアントヒント",
                     "class2": "checked",
+                    "class3": "checked",
+                    "class4": "checked"
+                },
+                {
+                    "cell1": "ファネル",
                     "class3": "checked",
                     "class4": "checked"
                 },

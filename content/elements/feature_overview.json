@@ -79,6 +79,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Funnels",
+                    "text": "Visualize and understand user journeys with intuitive funnel analysis.",
+                    "plus": true
+                },
+                {
                     "headline": "A/B Testing",
                     "text": "Conduct A/B tests to optimize website performance and user experience using tags.",
                     "plus": true
@@ -339,6 +344,11 @@
                     "headline": "Client-Hinweise",
                     "text": "Erhalte genauere Informationen zu Browsern und Betriebssystemen.",
                     "standard": true
+                },
+                {
+                    "headline": "Funnel",
+                    "text": "Visualisiere und verstehe User Journeys mit intuitiver Funnelanalyse.",
+                    "plus": true
                 },
                 {
                     "headline": "A/B-Tests",
@@ -603,6 +613,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Embudos",
+                    "text": "Visualiza y comprende los viajes de los usuarios con un análisis de embudo intuitivo.",
+                    "plus": true
+                },
+                {
                     "headline": "Pruebas A/B",
                     "text": "Realiza pruebas A/B para optimizar el rendimiento del sitio web y la experiencia del usuario utilizando etiquetas.",
                     "plus": true
@@ -863,6 +878,11 @@
                     "headline": "Indications clients",
                     "text": "Recevez des informations plus précises sur les navigateurs et les systèmes d'exploitation.",
                     "standard": true
+                },
+                {
+                    "headline": "Entonnoirs",
+                    "text": "Visualisez et comprenez les parcours des utilisateurs avec une analyse de l'entonnoir intuitive.",
+                    "plus": true
                 },
                 {
                     "headline": "Tests A/B",
@@ -1127,6 +1147,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Trechters",
+                    "text": "Visualiseer en begrijp gebruikersreizen met intuïtieve trechteranalyse.",
+                    "plus": true
+                },
+                {
                     "headline": "A/B-testen",
                     "text": "Voer A/B-tests uit om de prestaties en gebruikerservaring van uw website te optimaliseren.",
                     "plus": true
@@ -1387,6 +1412,11 @@
                     "headline": "Suggerimenti per i clienti",
                     "text": "Ricevi informazioni più accurate su browser e sistemi operativi.",
                     "standard": true
+                },
+                {
+                    "headline": "Imbuti",
+                    "text": "Visualizza e comprendi i percorsi degli utenti con un'analisi dell'imbuto intuitiva.",
+                    "plus": true
                 },
                 {
                     "headline": "Test A/B",
@@ -1651,6 +1681,11 @@
                     "standard": true
                 },
                 {
+                    "headline": "Funis",
+                    "text": "Visualize e compreenda as jornadas dos usuários com uma análise de funil intuitiva.",
+                    "plus": true
+                },
+                {
                     "headline": "Testes A/B",
                     "text": "Conduza testes A/B para otimizar o desempenho e a experiência do usuário no seu site.",
                     "plus": true
@@ -1911,6 +1946,11 @@
                     "headline": "クライアントヒント",
                     "text": "ブラウザやオペレーティングシステムに関するより正確な情報を受け取ります。",
                     "standard": true
+                },
+                {
+                    "headline": "ファネル",
+                    "text": "直感的なファネル分析でユーザーの行動を可視化し、理解します。",
+                    "plus": true
                 },
                 {
                     "headline": "A/Bテスティング",
