@@ -662,6 +662,65 @@
                                                     "tpl": "card",
                                                     "copy": {
                                                         "en": {
+                                                            "headline": "Analyze Funnels",
+                                                            "text": "Effectively visualize and fully understand user journeys in a matter of seconds."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Funnel analysieren",
+                                                            "text": "Visualisiere und verstehe User Journeys effektiv in wenigen Sekunden."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Analizar embudos",
+                                                            "text": "Visualiza y comprende los viajes de los usuarios en cuestión de segundos."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Analyser les entonnoirs",
+                                                            "text": "Visualisez et comprenez les parcours des utilisateurs en quelques secondes."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Trechters analyseren",
+                                                            "text": "Visualiseer en begrijp gebruikersreizen effectief in een paar seconden."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Analizzare gli imbuti",
+                                                            "text": "Visualizza e comprendi i percorsi degli utenti in pochi secondi."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Analisar funis",
+                                                            "text": "Visualize e compreenda efetivamente as jornadas dos usuários em questão de segundos."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "ファネルを分析",
+                                                            "text": "ユーザーの行動を数秒で効果的に可視化し、完全に理解します。"
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "funnels-light.svg",
+                                                                    "alt": "Funnel Analysis with Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "funnels-dark.svg",
+                                                                    "alt": "Funnel Analysis with Pirsch Analytics",
+                                                                    "class": "show-dark",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
                                                             "headline": "Explore Sessions",
                                                             "text": "Learn more about individual user journeys with in-depth session summaries."
                                                         },
@@ -775,6 +834,87 @@
                                                             }
                                                         ]
                                                     }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "row",
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Create Events",
+                                                            "text": "Button clicks, checkouts, signups, and more. Quickly highlight important user activities."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Events erstellen",
+                                                            "text": "Button-Klicks, Checkouts, Anmeldungen und mehr. Markiere schnell wichtige Benutzeraktivitäten."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Crear eventos",
+                                                            "text": "Clics de botones, pagos, registros y más. Destaca rápidamente actividades importantes de los usuarios."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Créer des événements",
+                                                            "text": "Clics de boutons, paiements, inscriptions, et plus encore. Mettez en évidence rapidement les activités importantes des utilisateurs."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Gebeurtenissen maken",
+                                                            "text": "Knopklikken, checkouts, aanmeldingen en meer. Markeer snel belangrijke gebruikersactiviteiten."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Crea eventi",
+                                                            "text": "Clic sui pulsanti, checkout, iscrizioni e altro. Evidenzia rapidamente le attività importanti degli utenti."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Criar eventos",
+                                                            "text": "Cliques em botões, finalizações de compra, inscrições e mais. Destaque rapidamente as atividades importantes dos usuários."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "イベントを作成",
+                                                            "text": "ボタンクリック、チェックアウト、サインアップなど。重要なユーザー活動をすばやくハイライトします。"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Monitor Goals",
+                                                            "text": "Keep an eye on your site's performance and track conversion goals."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Ziele überwachen",
+                                                            "text": "Behalte die Leistung deiner Seite im Auge und verfolge Konversionsziele."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Monitorizar objetivos",
+                                                            "text": "Mantén un ojo en el rendimiento de tu sitio y sigue los objetivos de conversión."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Surveiller les objectifs",
+                                                            "text": "Gardez un œil sur les performances de votre site et suivez les objectifs de conversion."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Doelen monitoren",
+                                                            "text": "Houd de prestaties van je site in de gaten en volg de conversiedoelen."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Monitora obiettivi",
+                                                            "text": "Tieni d'occhio le prestazioni del tuo sito e traccia gli obiettivi di conversione."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Monitorar metas",
+                                                            "text": "Fique de olho no desempenho do seu site e acompanhe as metas de conversão."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "目標をモニター",
+                                                            "text": "サイトのパフォーマンスを監視し、コンバージョン目標を追跡します。"
+                                                        }
+                                                    }
                                                 },
                                                 {
                                                     "tpl": "card",
@@ -833,87 +973,6 @@
                                                                 }
                                                             }
                                                         ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "tpl": "row",
-                                        "content": {
-                                            "children": [
-                                                {
-                                                    "tpl": "card",
-                                                    "copy": {
-                                                        "en": {
-                                                            "headline": "Create Custom Events",
-                                                            "text": "Button clicks, checkouts, signups, and more. Quickly highlight important user activities in your funnel."
-                                                        },
-                                                        "de": {
-                                                            "headline": "Eigene Events erstellen",
-                                                            "text": "Button-Klicks, Checkouts, Anmeldungen und mehr. Hebe schnell wichtige Benutzeraktivitäten in deinem Funnel hervor."
-                                                        },
-                                                        "es": {
-                                                            "headline": "Crear eventos personalizados",
-                                                            "text": "Clics en botones, procesos de pago, registros y más. Destaca rápidamente las actividades importantes de los usuarios en tu embudo."
-                                                        },
-                                                        "fr": {
-                                                            "headline": "Créer des événements personnalisés",
-                                                            "text": "Clics sur les boutons, achats, inscriptions, et plus encore. Mettez rapidement en évidence les activités importantes des utilisateurs dans votre entonnoir."
-                                                        },
-                                                        "nl": {
-                                                            "headline": "Aangepaste gebeurtenissen creëren",
-                                                            "text": "Klikken op knoppen, checkouts, aanmeldingen en meer. Benadruk snel belangrijke gebruikersactiviteiten in je trechter."
-                                                        },
-                                                        "it": {
-                                                            "headline": "Creare eventi personalizzati",
-                                                            "text": "Click sui pulsanti, checkout, registrazioni e altro ancora. Evidenzia rapidamente le attività utente importanti nel tuo funnel."
-                                                        },
-                                                        "pt": {
-                                                            "headline": "Criar eventos personalizados",
-                                                            "text": "Cliques em botões, checkouts, inscrições e mais. Destaque rapidamente as atividades importantes dos usuários no seu funil."
-                                                        },
-                                                        "ja": {
-                                                            "headline": "カスタムイベントを作成",
-                                                            "text": "ボタンクリック、チェックアウト、サインアップなど。あなたのファネルで重要なユーザーアクティビティをすばやく強調表示します。"
-                                                        }
-                                                    }
-                                                },
-                                                {
-                                                    "tpl": "card",
-                                                    "copy": {
-                                                        "en": {
-                                                            "headline": "Monitor Conversion Goals",
-                                                            "text": "Keep an eye on your site's performance and track conversion goals with precision to optimize performance."
-                                                        },
-                                                        "de": {
-                                                            "headline": "Konversionsziele überwachen",
-                                                            "text": "Behalte die Leistung deiner Website im Auge und verfolge Konversionsziele mit Präzision, um die Leistung zu optimieren."
-                                                        },
-                                                        "es": {
-                                                            "headline": "Monitorear objetivos de conversión",
-                                                            "text": "Vigila el rendimiento de tu sitio y rastrea los objetivos de conversión con precisión para optimizar el rendimiento."
-                                                        },
-                                                        "fr": {
-                                                            "headline": "Surveiller les objectifs de conversion",
-                                                            "text": "Gardez un œil sur la performance de votre site et suivez les objectifs de conversion avec précision pour optimiser les performances."
-                                                        },
-                                                        "nl": {
-                                                            "headline": "Conversiedoelen monitoren",
-                                                            "text": "Houd de prestaties van je site in de gaten en volg conversiedoelen nauwkeurig om de prestaties te optimaliseren."
-                                                        },
-                                                        "it": {
-                                                            "headline": "Monitorare gli obiettivi di conversione",
-                                                            "text": "Tieni d'occhio le prestazioni del tuo sito e traccia gli obiettivi di conversione con precisione per ottimizzare le prestazioni."
-                                                        },
-                                                        "pt": {
-                                                            "headline": "Monitorar metas de conversão",
-                                                            "text": "Fique de olho no desempenho do seu site e acompanhe as metas de conversão com precisão para otimizar o desempenho."
-                                                        },
-                                                        "ja": {
-                                                            "headline": "コンバージョン目標を監視",
-                                                            "text": "サイトのパフォーマンスを監視し、コンバージョン目標を精確に追跡してパフォーマンスを最適化します。"
-                                                        }
                                                     }
                                                 }
                                             ]

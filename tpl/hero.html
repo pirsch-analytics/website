@@ -19,9 +19,43 @@
                 <small>{{html (copy .Page .Content "customers_text")}}</small>
             </div>
         </div>
-        <figure style="margin-top: var(--padding-small);" data-sal="slide-up" data-sal-delay="400">
-            <img src="static/img/dashboard-light.svg" class="show-light" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
-            <img src="static/img/dashboard-dark.svg" class="show-dark" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
+        <figure class="image-container" data-sal="slide-up" data-sal-delay="400">
+            <img src="static/img/dashboard-light.svg" class="image image-2 show-light" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
+            <img src="static/img/sessions-light.svg" class="image image-4 show-light" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" style="display: none;">
+
+
+            <img src="static/img/dashboard-dark.svg" class="image image-2 show-dark" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}">
+            <img src="static/img/sessions-dark.svg" class="image image-4 show-dark" alt="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" title="{{html (copy .Page .Content "headline")}} {{if copy .Page .Content "post_headline"}}{{html (copy .Page .Content "post_headline")}}{{end}}" style="display: none;">
+
+            <div class="click-area area-1" onclick="switchImage('image-1')"></div>
+            <div class="click-area area-2" onclick="switchImage('image-2')" style="visibility: hidden;"></div>
+            <div class="click-area area-3" onclick="switchImage('image-3')"></div>
+            <div class="click-area area-4" onclick="switchImage('image-4')"></div>
         </figure>
+
+        <script>
+            function switchImage(imageClass) {
+                const images = document.querySelectorAll('.image-container .image');
+                const clickAreas = document.querySelectorAll('.click-area');
+
+                images.forEach(image => {
+                    if (image.classList.contains(imageClass)) {
+                        image.style.display = 'block';
+                    } else {
+                        image.style.display = 'none';
+                    }
+                });
+
+                clickAreas.forEach(area => {
+                    if (area.classList.contains(`area-${imageClass.slice(-1)}`)) {
+                        area.style.visibility = "hidden";
+                        area.style.userSelect = "none";
+                    } else {
+                        area.style.visibility = "visible";
+                        area.style.userSelect = "auto";
+                    }
+                });
+            }
+        </script>
     </div>
 </section>

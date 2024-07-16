@@ -48,9 +48,62 @@ section.hero {
     }
 
     figure {
+        position: relative;
+        max-width: calc(100vw - 32px);
+        margin-top: var(--padding-small);
         overflow: hidden;
         border-top-right-radius: var(--border-radius-large);
         border-top-left-radius: var(--border-radius-large);
+
+        img {
+            &.hidden {
+                display: none;
+            }
+        }
+
+        .click-area {
+            position: absolute;
+            top: 12.8%;
+            height: 4.3%;
+            border-radius: var(--border-radius-small);
+            animation: pulse 1.5s ease infinite;
+            cursor: pointer;
+
+            &.area-1 {
+                left: 3.6%;
+                width: 10.3%;
+            }
+
+            &.area-2 {
+                left: 14.6%;
+                width: 11.3%;
+            }
+
+            &.area-3 {
+                left: 26.6%;
+                width: 9.2%;
+            }
+
+            &.area-4 {
+                left: 36.5%;
+                width: 9.9%;
+            }
+
+            @keyframes pulse {
+                0% {
+                  box-shadow: 0 0 0 2px var(--green);
+                  opacity: .4;
+                }
+                50% {
+                  box-shadow: 0 0 0 3px var(--green);
+                  opacity: 1;
+                }
+                100% {
+                    box-shadow: 0 0 0 2px var(--green);
+                    opacity: .4;
+                  }
+            }
+        }
     }
 
     @media only screen and (max-width: 1024px) {
