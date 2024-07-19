@@ -699,7 +699,7 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "funnels-light.svg",
+                                                                    "src": "funnel-light.svg",
                                                                     "alt": "Funnel Analysis with Pirsch Analytics",
                                                                     "class": "show-light",
                                                                     "max_width": "282px"
@@ -708,7 +708,7 @@
                                                             {
                                                                 "tpl": "image",
                                                                 "data": {
-                                                                    "src": "funnels-dark.svg",
+                                                                    "src": "funnel-dark.svg",
                                                                     "alt": "Funnel Analysis with Pirsch Analytics",
                                                                     "class": "show-dark",
                                                                     "max_width": "282px"
@@ -726,7 +726,7 @@
                                                         },
                                                         "de": {
                                                             "headline": "Sessions erkunden",
-                                                            "text": "Erfahre mehr über die individuellen User Journeys mit detaillierten Sitzungszusammenfassungen."
+                                                            "text": "Erfahre mehr über die individuellen User Journeys mit Sitzungszusammenfassungen."
                                                         },
                                                         "es": {
                                                             "headline": "Explorar sesiones",
@@ -784,7 +784,7 @@
                                                             "text": "Tags help you leverage your data, whether it's for A/B testing or segmentation."
                                                         },
                                                         "de": {
-                                                            "headline": "Besucher segmentieren",
+                                                            "headline": "Nutzer segmentieren",
                                                             "text": "Tags helfen dir, mehr aus deinen Daten zu machen, egal ob für A/B-Tests oder Segmentierung."
                                                         },
                                                         "es": {
@@ -851,7 +851,7 @@
                                                         },
                                                         "de": {
                                                             "headline": "Events erstellen",
-                                                            "text": "Button-Klicks, Checkouts, Anmeldungen und mehr. Markiere schnell wichtige Benutzeraktivitäten."
+                                                            "text": "Klicks, Checkouts, Anmeldungen und mehr. Markiere schnell wichtige Benutzeraktivitäten."
                                                         },
                                                         "es": {
                                                             "headline": "Crear eventos",
@@ -877,6 +877,28 @@
                                                             "headline": "イベントを作成",
                                                             "text": "ボタンクリック、チェックアウト、サインアップなど。重要なユーザー活動をすばやくハイライトします。"
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "event-light.svg",
+                                                                    "alt": "Event Tracking with Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "event-dark.svg",
+                                                                    "alt": "Event Tracking with Pirsch Analytics",
+                                                                    "class": "show-dark",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 {
@@ -914,6 +936,28 @@
                                                             "headline": "目標をモニター",
                                                             "text": "サイトのパフォーマンスを監視し、コンバージョン目標を追跡します。"
                                                         }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "goal-light.svg",
+                                                                    "alt": "Conversion Goal Tracking with Pirsch Analytics",
+                                                                    "class": "show-light",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            },
+                                                            {
+                                                                "tpl": "image",
+                                                                "data": {
+                                                                    "src": "goal-dark.svg",
+                                                                    "alt": "Conversion Goal Tracking with Pirsch Analytics",
+                                                                    "class": "show-dark",
+                                                                    "max_width": "282px"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 {
@@ -925,7 +969,7 @@
                                                         },
                                                         "de": {
                                                             "headline": "Webhooks nutzen",
-                                                            "text": "Bleib auf dem neuesten Stand oder löse Aktionen in den Anwendungen aus, die du bereits verwendest, mit nativen Webhooks."
+                                                            "text": "Bleib auf dem neuesten Stand oder löse Aktionen in deinen Anwendungen aus."
                                                         },
                                                         "es": {
                                                             "headline": "Utilizar Webhooks",
