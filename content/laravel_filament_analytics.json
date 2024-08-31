@@ -1,0 +1,54 @@
+{
+    "path": {
+        "en": "/laravel-filament-analytics",
+        "de": "/de/laravel-filament-analytics",
+        "es": "/es/laravel-filament-analytics",
+        "fr": "/fr/laravel-filament-analytics",
+        "nl": "/nl/laravel-filament-analytics",
+        "it": "/it/laravel-filament-analytics",
+        "pt": "/pt/laravel-filament-analytics",
+        "ja": "/ja/laravel-filament-analytics"
+    },
+    "sitemap": {
+        "priority": "0.5"
+    },
+    "content": {
+        "content": [
+            {
+                "tpl": "head",
+                "copy": {
+                    "en": {
+                        "title": "Laravel and Filament Analytics – Pirsch Analytics",
+                        "meta_description": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy."
+                    }
+                }
+            },
+            {"ref": "header"},
+            {
+                "tpl": "hero",
+                "copy": {
+                    "en": {
+                        "headline": "Supercharge Your Laravel and Filament PHP Analytics with Pirsch",
+                        "headline_class": "h2",
+                        "text": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy.",
+                        "action_primary": "Start Your Free Trial",
+                        "action_secondary": "View Live Demo",
+                        "customers_text": "Trusted by 500+ Customers"
+                    }
+                }
+            },
+            {"ref": "customers"},
+            {
+                "tpl": "extract",
+                "copy": {
+                    "en": {
+                        "text": ""
+                    }
+                }
+            },
+            {"ref": "cta"},
+            {"ref": "footer"},
+            {"ref": "end"}
+        ]
+    }
+}

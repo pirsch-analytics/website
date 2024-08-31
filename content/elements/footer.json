@@ -45,6 +45,10 @@
                     "href": "/shopify-analytics"
                 },
                 {
+                    "label": "Laravel and Filament Analytics",
+                    "href": "/laravel-filament-analytics"
+                },
+                {
                     "label": "For Developers",
                     "href": "/for-developers"
                 },
@@ -208,6 +212,10 @@
                 {
                     "label": "Shopify Analytics",
                     "href": "/de/shopify-analytics"
+                },
+                {
+                    "label": "Laravel und Filament Analytics",
+                    "href": "/de/laravel-filament-analytics"
                 },
                 {
                     "label": "Für Entwickler",
@@ -375,6 +383,10 @@
                     "href": "/es/shopify-analytics"
                 },
                 {
+                    "label": "Laravel y Filament Analytics",
+                    "href": "/es/laravel-filament-analytics"
+                },
+                {
                     "label": "Para Desarrolladores",
                     "href": "/es/for-developers"
                 },
@@ -538,6 +550,10 @@
                 {
                     "label": "Analytique Shopify",
                     "href": "/fr/shopify-analytics"
+                },
+                {
+                    "label": "Laravel et Filament Analytics",
+                    "href": "/fr/laravel-filament-analytics"
                 },
                 {
                     "label": "Pour les Développeurs",
@@ -705,6 +721,10 @@
                     "href": "/nl/shopify-analytics"
                 },
                 {
+                    "label": "Laravel en Filament Analytics",
+                    "href": "/nl/laravel-filament-analytics"
+                },
+                {
                     "label": "Voor Ontwikkelaars",
                     "href": "/nl/for-developers"
                 },
@@ -868,6 +888,10 @@
                 {
                     "label": "Analisi Shopify",
                     "href": "/it/shopify-analytics"
+                },
+                {
+                    "label": "Laravel e Filament Analytics",
+                    "href": "/it/laravel-filament-analytics"
                 },
                 {
                     "label": "Per Sviluppatori",
@@ -1035,6 +1059,10 @@
                     "href": "/pt/shopify-analytics"
                 },
                 {
+                    "label": "Laravel e Filament Analytics",
+                    "href": "/pt/laravel-filament-analytics"
+                },
+                {
                     "label": "Para Desenvolvedores",
                     "href": "/pt/for-developers"
                 },
@@ -1198,6 +1226,10 @@
                 {
                     "label": "Shopify分析",
                     "href": "/ja/shopify-analytics"
+                },
+                {
+                    "label": "LaravelとFilament Analytics",
+                    "href": "/ja/laravel-filament-analytics"
                 },
                 {
                     "label": "開発者向け",
