@@ -1,0 +1,59 @@
+<div class="code-snippets">
+    <div class="code-tabs">
+        <span id="laravelButton" class="tabmenu active" onclick="switchTab('laravelButton', 'laravelTab')">Laravel</span>
+        <span id="filamentButton" onclick="switchTab('filamentButton', 'filamentTab')">Filament</span>
+        <span id="phpButton" class="tabmenu" onclick="switchTab('phpButton', 'phpTab')">PHP</span>
+    </div>
+    
+    <script src="static/js/prism.js" async></script>
+    <script>
+        function switchTab(langButton, langTab) {
+            var x = document.getElementsByClassName("tabcontent"), i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = 'none';
+            }
+            document.getElementById(langTab).style.display = 'flex';
+        
+            var x = document.getElementsByClassName("tabmenu"), i;
+            for (i = 0; i < x.length; i++) {
+                x[i].className = 'tabmenu'; 
+            }
+            document.getElementById(langButton).className = 'tabmenu active';
+        }
+    </script>
+    
+    <pre id="laravelTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px;">
+    <code class="language-php">// Middleware to track page views
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->web(append: [
+        \Pirsch\Http\Middleware\TrackPageview::class,
+    ]);
+})
+
+// Or track page views manually
+Pirsch::track();
+
+// Send custom events
+Pirsch::track(
+    name: 'Button clicked',
+    meta: [
+        'Label' => 'Get started',
+    ],
+);</code>
+    </pre>
+    <pre id="filamentTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px; display: none;">
+        <code class="language-js">{}</code>
+    </pre>
+    <pre id="phpTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px; display: none;">
+    <code class="language-php">require __DIR__ . '/vendor/autoload.php';
+
+try {
+    // Create the Pirsch client.
+    $client = new Pirsch\Client('client_id', 'client_secret', 'example.com');
+    // Send the page hit to Pirsch.
+    $client->hit();
+} catch(Exception $e) {
+    // Something went wrong...
+}</code>
+    </pre>
+</div>

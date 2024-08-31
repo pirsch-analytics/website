@@ -28,51 +28,49 @@
 client := pirsch.NewClient(clientID, clientSecret, hostname, nil)
 
 http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-// Send the page hit to Pirsch.
-client.Hit(r)
+    // Send the page hit to Pirsch.
+    client.Hit(r)
 
-w.Write([]byte("Hello from Pirsch!"))
+    w.Write([]byte("Hello from Pirsch!"))
 })</code>
     </pre>
     <pre id="jsTab" data-source="prism.js" class="language-js line-numbers tabcontent" style="height: 332px; display: none;">
         <code class="language-js">// Create the Pirsch client.
 var client = new Client({
-hostname: "example.com",
-protocol: "https", // used to parse the request URL, default is http
-clientID: "<client_id>",
-clientSecret: "<client_secret>"
+    hostname: "example.com",
+    protocol: "https", // used to parse the request URL, default is http
+    clientID: "<client_id>",
+    clientSecret: "<client_secret>"
 });
 
 http.createServer((req, res) => {
-// Filter for the root pathname.
-const url = new URL(req.url || "", "https://example.com");
+    // Filter for the root pathname.
+    const url = new URL(req.url || "", "https://example.com");
 
-if(url.pathname === "/") {
-// Send the page hit to Pirsch.
-client.hit(client.hitFromRequest(req)).catch(e => {
-console.log(e);
-});
-}
+    if(url.pathname === "/") {
+        // Send the page hit to Pirsch.
+        client.hit(client.hitFromRequest(req)).catch(e => console.log(e));
+    }
 
-res.end("Hello from Pirsch!");
+    res.end("Hello from Pirsch!");
 }).listen(8080);</code>
     </pre>
     <pre id="phpTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px; display: none;">
     <code class="language-php">require __DIR__ . '/vendor/autoload.php';
 
 try {
-// Create the Pirsch client.
-$client = new Pirsch\Client('client_id', 'client_secret', 'example.com');
-// Send the page hit to Pirsch.
-$client->hit();
+    // Create the Pirsch client.
+    $client = new Pirsch\Client('client_id', 'client_secret', 'example.com');
+    // Send the page hit to Pirsch.
+    $client->hit();
 } catch(Exception $e) {
-// Something went wrong...
-    }</code>
+    // Something went wrong...
+}</code>
     </pre>
     <pre id="apiTab" data-source="prism.js" class="language-go line-numbers tabcontent" style="height: 332px; display: none;">
     <code>curl -X POST \
--H "Content-Type: application/json" \
--d '{"hostname":"example.com","url":"https://example.com/about","ip":"156.102.56.11","user_agent":"...","accept_language":"en-GB, en;q=0.9, fr;q=0.8, de;q=0.7, *;q=0.5","referrer":"https://google.com/"}' \
--L "https://api.pirsch.io/api/v1/hit"</code>
+    -H "Content-Type: application/json" \
+    -d '{"hostname":"example.com","url":"https://example.com/about","ip":"156.102.56.11","user_agent":"...","accept_language":"en-GB, en;q=0.9, fr;q=0.8, de;q=0.7, *;q=0.5","referrer":"https://google.com/"}' \
+    -L "https://api.pirsch.io/api/v1/hit"</code>
     </pre>
 </div>

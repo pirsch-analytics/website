@@ -28,7 +28,7 @@
                 "tpl": "hero",
                 "copy": {
                     "en": {
-                        "headline": "Supercharge Your Laravel and Filament PHP Analytics with Pirsch",
+                        "headline": "Supercharge Your Laravel and Filament Analytics with Pirsch",
                         "headline_class": "h2",
                         "text": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy.",
                         "action_primary": "Start Your Free Trial",
@@ -39,10 +39,55 @@
             },
             {"ref": "customers"},
             {
+                "tpl": "content",
+                "data": {
+                    "gradient_color": "green",
+                    "gradient_position": "right"
+                },
+                "copy": {
+                    "en": {
+                        "headline": "Effortless Laravel and Filament Integration"
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 200
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "card",
+                                        "data": {
+                                            "class": "columns"
+                                        },
+                                        "copy": {
+                                            "en": {
+                                                "headline": "Easy-to-use Plugins and SDK",
+                                                "text": "Integrate Pirsch Analytics seamlessly into your Laravel and Filament PHP applications. Our plugin allows you to track page views and events in a non-blockable way on the server side, no JavaScript snippet or proxy required.<br><br>Leverage our PHP SDK or use an existing Filament dashboard widget to get insights right on your dashboard. The integration only takes a couple of minutes.",
+                                                "cta_label": "Read the Docs",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            }
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {"tpl": "code_tabs_laravel_filament"}
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "tpl": "extract",
                 "copy": {
                     "en": {
-                        "text": ""
+                        "text": "<h2>Uncompromised and privacy-friendly web analytics</h2><p>Pirsch is an uncompromised and privacy friendly web analytics solution hosted in Germany. Fully compliant with GDPR, CCPA and PECR.</p><p>Say goodbye to annoying cookie banners while respecting the privacy of your visitors. We do not store personal information or IP addresses, nor do we sell data to advertisers.</p><a class='button secondary' href='/privacy-friendly-analytics' target='_blank' rel='noreferrer'>Learn more</a><h2>Seamless Switch</h2><p>Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required.</p><a class='button' href='/signup' target='_blank' rel='noreferrer'>Start 30-day Free Trial</a><h2>Open-Source on GitHub</h2><p>A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>See All Demos</a><h2>Detailed Documentation</h2><p>Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Read the Docs</a><h2>Personal Support</h2><p>We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face.</p>"
                     }
                 }
             },
