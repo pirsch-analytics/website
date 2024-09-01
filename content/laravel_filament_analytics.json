@@ -46,7 +46,7 @@
                 },
                 "copy": {
                     "en": {
-                        "headline": "Non-Blockable and Effortless Server-Side Integration"
+                        "headline": "Effortless and Non-Blockable Server-Side Integration"
                     }
                 },
                 "content": {
@@ -128,7 +128,10 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Privacy-friendly by Design",
-                                                            "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
+                                                            "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany.",
+                                                            "cta_label": "Learn more",
+                                                            "cta_link": "/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
                                                         }
                                                     },
                                                     "content": {
@@ -180,7 +183,9 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Keep Your Data",
-                                                            "text": "Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required."
+                                                            "text": "Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required.",
+                                                            "cta_label": "30-day Free Trial",
+                                                            "cta_link": "/signup"
                                                         }
                                                     }
                                                 },
