@@ -18,7 +18,7 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "Privacy-friendly Web Analytics – Pirsch Analytics",
+                        "title": "Privacy-Friendly Web Analytics – Pirsch Analytics",
                         "meta_description": "Pirsch has no-compromise, GDPR-, CCPA-, PECR-, and Schrems II-compliant privacy. Built and hosted in Germany, we operate under strict European privacy laws."
                     },
                     "de": {
@@ -56,7 +56,7 @@
                 "tpl": "hero",
                 "copy": {
                     "en": {
-                        "headline": "Privacy-friendly Website Analytics For Everyone",
+                        "headline": "Privacy-Friendly Website Analytics For Everyone",
                         "headline_class": "h2",
                         "text": "Pirsch has no-compromise, GDPR-, CCPA-, PECR-, and Schrems II-compliant privacy. Built and hosted in Germany, we operate under strict European privacy laws.",
                         "action_primary": "Start Your Free Trial",

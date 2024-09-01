@@ -19,7 +19,35 @@
                 "copy": {
                     "en": {
                         "title": "Analytics for Laravel and Filament – Pirsch Analytics",
-                        "meta_description": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy."
+                        "meta_description": "With Pirsch, you can easily add powerful, unblockable web analytics to your Laravel and Filament PHP applications while protecting your customers' privacy."
+                    },
+                    "de": {
+                        "title": "Analytics für Laravel und Filament – Pirsch Analytics",
+                        "meta_description": "Mit Pirsch kannst du ganz einfach leistungsstarke, unblockbare Web Analytics zu deinen Laravel- und Filament-PHP-Anwendungen hinzufügen, während du die Privatsphäre deiner Kunden schützt."
+                    },
+                    "es": {
+                        "title": "Analytics para Laravel y Filament – Pirsch Analytics",
+                        "meta_description": "Con Pirsch, puedes agregar fácilmente análisis poderosos e imbloqueables a tus aplicaciones PHP de Laravel y Filament mientras proteges la privacidad de tus clientes."
+                    },
+                    "fr": {
+                        "title": "Analytics pour Laravel et Filament – Pirsch Analytics",
+                        "meta_description": "Avec Pirsch, vous pouvez facilement ajouter des analyses puissantes et inblocables à vos applications PHP Laravel et Filament tout en protégeant la vie privée de vos clients."
+                    },
+                    "nl": {
+                        "title": "Analytics voor Laravel en Filament – Pirsch Analytics",
+                        "meta_description": "Met Pirsch kun je eenvoudig krachtige, onblokkeerbare analyses toevoegen aan je Laravel- en Filament-PHP-applicaties terwijl je de privacy van je klanten beschermt."
+                    },
+                    "it": {
+                        "title": "Analytics per Laravel e Filament – Pirsch Analytics",
+                        "meta_description": "Con Pirsch puoi aggiungere facilmente potenti analisi non bloccabili alle tue applicazioni PHP Laravel e Filament proteggendo la privacy dei tuoi clienti."
+                    },
+                    "pt": {
+                        "title": "Analytics para Laravel e Filament – Pirsch Analytics",
+                        "meta_description": "Com o Pirsch, você pode adicionar facilmente análises poderosas e desbloqueáveis às suas aplicações PHP Laravel e Filament, enquanto protege a privacidade dos seus clientes."
+                    },
+                    "ja": {
+                        "title": "LaravelとFilamentのための分析 – Pirsch Analytics",
+                        "meta_description": "Pirschを使用すると、強力でブロックされない分析をLaravelおよびFilamentのPHPアプリケーションに簡単に追加でき、顧客のプライバシーを保護します。"
                     }
                 }
             },
@@ -28,12 +56,68 @@
                 "tpl": "hero",
                 "copy": {
                     "en": {
-                        "headline": "The Analytics Platform for Your Analytics for Laravel and Filament Apps",
+                        "headline": "The Analytics Platform for Your Laravel and Filament Apps",
                         "headline_class": "h2",
-                        "text": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy.",
+                        "text": "With Pirsch, you can easily add powerful, unblockable web analytics to your Laravel and Filament PHP applications while protecting your customers' privacy.",
                         "action_primary": "Start Your Free Trial",
                         "action_secondary": "View Live Demo",
                         "customers_text": "Trusted by 500+ Customers"
+                    },
+                    "de": {
+                        "headline": "Die Analytics-Plattform für deine Laravel- und Filament-Apps",
+                        "headline_class": "h2",
+                        "text": "Mit Pirsch kannst du ganz einfach leistungsstarke, unblockbare Web Analytics zu deinen Laravel- und Filament-PHP-Anwendungen hinzufügen, während du die Privatsphäre deiner Kunden schützt.",
+                        "action_primary": "Starte deine kostenlose Testversion",
+                        "action_secondary": "Live-Demo ansehen",
+                        "customers_text": "Vertraut von über 500 Kunden"
+                    },
+                    "es": {
+                        "headline": "La plataforma de analítica para tus aplicaciones Laravel y Filament",
+                        "headline_class": "h2",
+                        "text": "Con Pirsch, puedes agregar fácilmente análisis poderosos e imbloqueables a tus aplicaciones PHP de Laravel y Filament mientras proteges la privacidad de tus clientes.",
+                        "action_primary": "Inicia tu prueba gratuita",
+                        "action_secondary": "Ver demo en vivo",
+                        "customers_text": "Confiado por más de 500 clientes"
+                    },
+                    "fr": {
+                        "headline": "La plateforme d'analytique pour vos applications Laravel et Filament",
+                        "headline_class": "h2",
+                        "text": "Avec Pirsch, vous pouvez facilement ajouter des analyses puissantes et inblocables à vos applications PHP Laravel et Filament tout en protégeant la vie privée de vos clients.",
+                        "action_primary": "Commencez votre essai gratuit",
+                        "action_secondary": "Voir la démo en direct",
+                        "customers_text": "Fiable par plus de 500 clients"
+                    },
+                    "nl": {
+                        "headline": "Het analyseplatform voor jouw Laravel- en Filament-apps",
+                        "headline_class": "h2",
+                        "text": "Met Pirsch kun je eenvoudig krachtige, onblokkeerbare analyses toevoegen aan je Laravel- en Filament-PHP-applicaties terwijl je de privacy van je klanten beschermt.",
+                        "action_primary": "Start je gratis proefversie",
+                        "action_secondary": "Bekijk live demo",
+                        "customers_text": "Vertrouwd door meer dan 500 klanten"
+                    },
+                    "it": {
+                        "headline": "La piattaforma di analisi per le tue app Laravel e Filament",
+                        "headline_class": "h2",
+                        "text": "Con Pirsch puoi aggiungere facilmente potenti analisi non bloccabili alle tue applicazioni PHP Laravel e Filament proteggendo la privacy dei tuoi clienti.",
+                        "action_primary": "Inizia la tua prova gratuita",
+                        "action_secondary": "Guarda la demo live",
+                        "customers_text": "Fidato da oltre 500 clienti"
+                    },
+                    "pt": {
+                        "headline": "A plataforma de análises para suas aplicações Laravel e Filament",
+                        "headline_class": "h2",
+                        "text": "Com o Pirsch, você pode adicionar facilmente análises poderosas e desbloqueáveis às suas aplicações PHP Laravel e Filament, enquanto protege a privacidade dos seus clientes.",
+                        "action_primary": "Inicie seu teste gratuito",
+                        "action_secondary": "Ver demo ao vivo",
+                        "customers_text": "Confiado por mais de 500 clientes"
+                    },
+                    "ja": {
+                        "headline": "LaravelおよびFilamentアプリ向けの分析プラットフォーム",
+                        "headline_class": "h2",
+                        "text": "Pirschを使用すると、強力でブロックされない分析をLaravelおよびFilamentのPHPアプリケーションに簡単に追加でき、顧客のプライバシーを保護します。",
+                        "action_primary": "無料トライアルを開始",
+                        "action_secondary": "ライブデモを見る",
+                        "customers_text": "500以上の顧客に信頼されています"
                     }
                 }
             },
@@ -46,7 +130,28 @@
                 },
                 "copy": {
                     "en": {
-                        "headline": "Effortless and Non-Blockable Server-Side Integration"
+                        "headline": "Effortless, Unblockable Server-Side Integration"
+                    },
+                    "de": {
+                        "headline": "Mühelose, unblockbare serverseitige Integration"
+                    },
+                    "es": {
+                        "headline": "Integración del lado del servidor sin esfuerzo e imbloqueable"
+                    },
+                    "fr": {
+                        "headline": "Intégration côté serveur sans effort et inblocable"
+                    },
+                    "nl": {
+                        "headline": "Moeiteloze, onblokkeerbare server-side integratie"
+                    },
+                    "it": {
+                        "headline": "Integrazione server-side senza sforzo e non bloccabile"
+                    },
+                    "pt": {
+                        "headline": "Integração do lado do servidor sem esforço e desbloqueável"
+                    },
+                    "ja": {
+                        "headline": "簡単でブロック不可能なサーバーサイド統合"
                     }
                 },
                 "content": {
@@ -66,8 +171,50 @@
                                         "copy": {
                                             "en": {
                                                 "headline": "Easy-to-use Plugins and SDK",
-                                                "text": "Integrate Pirsch Analytics seamlessly into your Laravel and Filament PHP applications. Our plugin allows you to track page views and events in a non-blockable way on the server side, no JavaScript snippet or proxy required.<br><br>Leverage our PHP SDK or use an existing Filament dashboard widget to get insights right on your dashboard. The integration only takes a couple of minutes.",
+                                                "text": "Integrate Pirsch Analytics seamlessly into your Laravel and Filament PHP applications. The plugin allows you to track page views and events in a non-blockable way on the server side, no JavaScript snippet or proxy required.<br><br>Leverage our PHP SDK or use an existing Filament dashboard widget to get insights right on your dashboard. The integration only takes a few minutes.",
                                                 "cta_label": "Read the Docs",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "de": {
+                                                "headline": "Einfach zu bedienende Plugins und SDK",
+                                                "text": "Integriere Pirsch Analytics nahtlos in deine Laravel- und Filament-PHP-Anwendungen. Das Plugin ermöglicht es dir, Seitenaufrufe und Events auf serverseitige, unblockbare Weise zu verfolgen, ohne dass ein JavaScript-Snippet oder Proxy erforderlich ist.<br><br>Nutze unser PHP SDK oder verwende ein vorhandenes Filament-Dashboard-Widget, um Einblicke direkt auf deinem Dashboard zu erhalten. Die Integration dauert nur ein paar Minuten.",
+                                                "cta_label": "Dokumentation lesen",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "es": {
+                                                "headline": "Plugins y SDK fáciles de usar",
+                                                "text": "Integra Pirsch Analytics de manera fluida en tus aplicaciones PHP de Laravel y Filament. El plugin te permite rastrear vistas de páginas y eventos de manera imbloqueable en el lado del servidor, sin necesidad de fragmentos de JavaScript o proxy.<br><br>Aprovecha nuestro SDK de PHP o utiliza un widget de panel de control de Filament existente para obtener información directamente en tu panel de control. La integración solo toma unos minutos.",
+                                                "cta_label": "Leer la documentación",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "fr": {
+                                                "headline": "Plugins et SDK faciles à utiliser",
+                                                "text": "Intégrez Pirsch Analytics de manière transparente dans vos applications PHP Laravel et Filament. Le plugin vous permet de suivre les pages vues et les événements de manière inblocable côté serveur, sans avoir besoin de snippet JavaScript ou de proxy.<br><br>Tirez parti de notre SDK PHP ou utilisez un widget de tableau de bord Filament existant pour obtenir des informations directement sur votre tableau de bord. L'intégration ne prend que quelques minutes.",
+                                                "cta_label": "Lire la documentation",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "nl": {
+                                                "headline": "Gebruiksvriendelijke plugins en SDK",
+                                                "text": "Integreer Pirsch Analytics naadloos in je Laravel- en Filament-PHP-applicaties. Het plugin stelt je in staat om paginaviews en gebeurtenissen op een niet-blokkeerbare manier aan de serverzijde bij te houden, zonder JavaScript-fragment of proxy.<br><br>Maak gebruik van onze PHP SDK of gebruik een bestaande Filament-dashboardwidget om inzichten direct op je dashboard te krijgen. De integratie duurt slechts een paar minuten.",
+                                                "cta_label": "Lees de documentatie",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "it": {
+                                                "headline": "Plugin e SDK facili da usare",
+                                                "text": "Integra Pirsch Analytics senza problemi nelle tue applicazioni PHP Laravel e Filament. Il plugin ti permette di monitorare le visualizzazioni di pagina e gli eventi in modo non bloccabile lato server, senza necessità di snippet JavaScript o proxy.<br><br>Sfrutta il nostro SDK PHP o usa un widget di dashboard Filament esistente per ottenere informazioni direttamente sul tuo dashboard. L'integrazione richiede solo pochi minuti.",
+                                                "cta_label": "Leggi la documentazione",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "pt": {
+                                                "headline": "Plugins e SDK fáceis de usar",
+                                                "text": "Integre o Pirsch Analytics perfeitamente em suas aplicações PHP Laravel e Filament. O plugin permite que você acompanhe visualizações de página e eventos de maneira não bloqueável no lado do servidor, sem necessidade de snippet de JavaScript ou proxy.<br><br>Aproveite nosso SDK PHP ou use um widget de painel Filament existente para obter insights diretamente no seu painel. A integração leva apenas alguns minutos.",
+                                                "cta_label": "Leia a documentação",
+                                                "cta_link": "https://docs.pirsch.io/"
+                                            },
+                                            "ja": {
+                                                "headline": "使いやすいプラグインとSDK",
+                                                "text": "Pirsch AnalyticsをLaravelおよびFilamentのPHPアプリケーションにシームレスに統合します。このプラグインを使用すると、JavaScriptスニペットやプロキシを必要とせずに、サーバーサイドでページビューやイベントをブロック不可能な方法で追跡できます。<br><br>PHP SDKを活用するか、既存のFilamentダッシュボードウィジェットを使用して、ダッシュボード上でインサイトを得ることができます。統合にはわずか数分しかかかりません。",
+                                                "cta_label": "ドキュメントを読む",
                                                 "cta_link": "https://docs.pirsch.io/"
                                             }
                                         },
@@ -91,8 +238,28 @@
                 },
                 "copy": {
                     "en": {
-                        "headline": "Uncompromised and privacy-friendly web analytics",
-                        "text": "Pirsch is an uncompromised and privacy friendly web analytics solution hosted in Germany. Fully compliant with GDPR, CCPA and PECR."
+                        "headline": "Uncompromised, Privacy-Friendly Web Analytics"
+                    },
+                    "de": {
+                        "headline": "Kompromisslose, datenschutzfreundliche Webanalyse"
+                    },
+                    "es": {
+                        "headline": "Analítica Web sin Compromisos y Respetuosa con la Privacidad"
+                    },
+                    "fr": {
+                        "headline": "Analytique Web sans Compromis et Respectueuse de la Vie Privée"
+                    },
+                    "nl": {
+                        "headline": "Ongecompromitteerde, Privacyvriendelijke Webanalyse"
+                    },
+                    "it": {
+                        "headline": "Analisi Web senza Compromessi e Rispettosa della Privacy"
+                    },
+                    "pt": {
+                        "headline": "Análise Web sem Compromissos e Amigável à Privacidade"
+                    },
+                    "ja": {
+                        "headline": "妥協のないプライバシー重視のウェブ分析"
                     }
                 },
                 "content": {
@@ -117,6 +284,34 @@
                                                         "en": {
                                                             "headline": "No Cookie Banner",
                                                             "text": "Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors' personal identifiable information."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Kein Cookie-Banner",
+                                                            "text": "Sag auf Wiedersehen zu Zustimmungsbannern: Pirsch funktioniert ohne Cookies und speichert niemals persönlich identifizierbare Informationen deiner Besucher."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Sin banner de cookies",
+                                                            "text": "Di adiós a los banners de consentimiento: Pirsch funciona sin cookies y nunca almacena información personal identificable de tus visitantes."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Pas de bannière de cookies",
+                                                            "text": "Dites adieu aux bannières de consentement : Pirsch fonctionne sans cookies et ne stocke jamais les informations personnelles identifiables de vos visiteurs."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Geen cookiebanner",
+                                                            "text": "Zeg vaarwel tegen toestemmingsbanners: Pirsch werkt zonder cookies en slaat nooit persoonlijk identificeerbare informatie van je bezoekers op."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Nessun banner dei cookie",
+                                                            "text": "Dì addio ai banner di consenso: Pirsch funziona senza cookie e non memorizza mai le informazioni personali identificabili dei tuoi visitatori."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Sem banner de cookies",
+                                                            "text": "Diga adeus aos banners de consentimento: Pirsch funciona sem cookies e nunca armazena informações pessoais identificáveis dos seus visitantes."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "クッキーバナーなし",
+                                                            "text": "同意バナーにさよならを言いましょう：Pirschはクッキーを使用せず、訪問者の個人識別情報を決して保存しません。"
                                                         }
                                                     }
                                                 },
@@ -127,10 +322,59 @@
                                                     },
                                                     "copy": {
                                                         "en": {
-                                                            "headline": "Privacy-friendly by Design",
+                                                            "headline": "Privacy-Friendly by Design",
                                                             "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany.",
-                                                            "cta_label": "Learn more",
+                                                            "cta_label": "Learn More",
                                                             "cta_link": "/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "de": {
+                                                            "headline": "Datenschutzfreundliches Design",
+                                                            "text": "Von Grund auf mit Datenschutz entwickelt und mit einem Open-Source-Kern bietet Pirsch kompromisslosen Datenschutz, der DSGVO, CCPA, PECR und Schrems II entspricht. Alle Daten werden auf einem sicheren Servercluster in Deutschland gehostet.",
+                                                            "cta_label": "Mehr erfahren",
+                                                            "cta_link": "/de/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "es": {
+                                                            "headline": "Diseño amigable con la privacidad",
+                                                            "text": "Construido desde cero con la privacidad en mente y con un núcleo de código abierto, Pirsch ofrece protección de datos sin concesiones cumpliendo con GDPR, CCPA, PECR y Schrems II. Todos los datos se alojan en un clúster de servidores seguros en Alemania.",
+                                                            "cta_label": "Saber más",
+                                                            "cta_link": "/es/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Respectueux de la vie privée par conception",
+                                                            "text": "Construit dès le départ avec la vie privée en tête et un noyau open-source, Pirsch offre une protection des données sans compromis conforme au RGPD, CCPA, PECR et Schrems II. Toutes les données sont hébergées sur un cluster de serveurs sécurisés en Allemagne.",
+                                                            "cta_label": "Saber más",
+                                                            "cta_link": "/fr/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Privacyvriendelijk door ontwerp",
+                                                            "text": "Vanaf de grond opgebouwd met privacy in gedachten en een open-source kern, biedt Pirsch compromisloze gegevensbescherming conform GDPR, CCPA, PECR en Schrems II. Alle gegevens worden gehost op een veilige servercluster in Duitsland.",
+                                                            "cta_label": "Meer leren",
+                                                            "cta_link": "/nl/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "it": {
+                                                            "headline": "Progettato per la privacy",
+                                                            "text": "Costruito da zero con la privacy in mente e con un nucleo open-source, Pirsch offre una protezione dei dati senza compromessi conforme a GDPR, CCPA, PECR e Schrems II. Tutti i dati sono ospitati su un cluster di server sicuri in Germania.",
+                                                            "cta_label": "Scopri di più",
+                                                            "cta_link": "/it/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Amigável à privacidade por design",
+                                                            "text": "Construído desde o início com a privacidade em mente e com um núcleo de código aberto, a Pirsch oferece proteção de dados sem concessões, compatível com GDPR, CCPA, PECR e Schrems II. Todos os dados são hospedados em um cluster de servidores seguros na Alemanha.",
+                                                            "cta_label": "Saiba mais",
+                                                            "cta_link": "/pt/privacy-friendly-analytics",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "ja": {
+                                                            "headline": "プライバシーに配慮した設計",
+                                                            "text": "プライバシーを念頭に置いて一から構築され、オープンソースのコアを持つPirschは、GDPR、CCPA、PECR、およびSchrems IIに完全に準拠したデータ保護を妥協なく提供します。すべてのデータはドイツの安全なサーバークラスターにホストされています。",
+                                                            "cta_label": "詳しく知る",
+                                                            "cta_link": "/jp/privacy-friendly-analytics",
                                                             "cta_class": "secondary"
                                                         }
                                                     },
@@ -154,12 +398,40 @@
             {
                 "tpl": "content",
                 "data": {
-                    "gradient_position": "left"
+                    "gradient_position": "right"
                 },
                 "copy": {
                     "en": {
-                        "headline": "Seemless Switch and Great Support",
-                        "text": "Pirsch is a web analytics tool designed for developers. Our extensive documentation and great support make the switch easy, and you can bring your data from Google Analytics, Fathom, or Plausible with you."
+                        "headline": "Seemless Switch, Full Support",
+                        "text": "Pirsch is a web analytics tool designed for developers. Its extensive documentation and support make the transition easy. Transfer your data from Google Analytics, Fathom, or Plausible in just a few minutes."
+                    },
+                    "de": {
+                        "headline": "Nahtloser Wechsel, voller Support",
+                        "text": "Pirsch ist ein Webanalyse-Tool, das für Entwickler entwickelt wurde. Die umfangreiche Dokumentation und Unterstützung erleichtern den Übergang. Übertrage deine Daten von Google Analytics, Fathom oder Plausible in nur wenigen Minuten."
+                    },
+                    "es": {
+                        "headline": "Cambio sin problemas, soporte completo",
+                        "text": "Pirsch es una herramienta de análisis web diseñada para desarrolladores. Su amplia documentación y soporte hacen que la transición sea fácil. Transfiere tus datos desde Google Analytics, Fathom o Plausible en solo unos minutos."
+                    },
+                    "fr": {
+                        "headline": "Transition fluide, support complet",
+                        "text": "Pirsch est un outil d'analyse web conçu pour les développeurs. Sa documentation complète et son support rendent la transition facile. Transférez vos données de Google Analytics, Fathom ou Plausible en quelques minutes."
+                    },
+                    "nl": {
+                        "headline": "Naadloze overstap, volledige ondersteuning",
+                        "text": "Pirsch is een webanalysetool ontworpen voor ontwikkelaars. De uitgebreide documentatie en ondersteuning maken de overgang eenvoudig. Breng je gegevens van Google Analytics, Fathom of Plausible over in slechts een paar minuten."
+                    },
+                    "it": {
+                        "headline": "Passaggio senza interruzioni, supporto completo",
+                        "text": "Pirsch è uno strumento di analisi web progettato per gli sviluppatori. La sua documentazione completa e il supporto facilitano la transizione. Trasferisci i tuoi dati da Google Analytics, Fathom o Plausible in pochi minuti."
+                    },
+                    "pt": {
+                        "headline": "Troca sem problemas, suporte completo",
+                        "text": "Pirsch é uma ferramenta de análise web projetada para desenvolvedores. Sua documentação extensa e suporte tornam a transição fácil. Transfira seus dados do Google Analytics, Fathom ou Plausible em apenas alguns minutos."
+                    },
+                    "ja": {
+                        "headline": "シームレスな切り替え、フルサポート",
+                        "text": "Pirschは開発者向けに設計されたウェブ解析ツールです。豊富なドキュメントとサポートにより、移行が容易になります。Google Analytics、Fathom、またはPlausibleからデータを数分で転送できます。"
                     }
                 },
                 "content": {
@@ -183,9 +455,51 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Keep Your Data",
-                                                            "text": "Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required.",
+                                                            "text": "Make a smooth transition from Google Analytics, Fathom, or Plausible by importing your existing data. Try Pirsch Analytics free for 30 days with no credit card required.",
                                                             "cta_label": "30-day Free Trial",
                                                             "cta_link": "/signup"
+                                                        },
+                                                        "de": {
+                                                            "headline": "Behalte deine Daten",
+                                                            "text": "Wechsle reibungslos von Google Analytics, Fathom oder Plausible, indem du deine vorhandenen Daten importierst. Probiere Pirsch Analytics 30 Tage lang kostenlos aus, ohne dass eine Kreditkarte erforderlich ist.",
+                                                            "cta_label": "30-Tage kostenlos testen",
+                                                            "cta_link": "/de/signup"
+                                                        },
+                                                        "es": {
+                                                            "headline": "Mantén tus datos",
+                                                            "text": "Haz una transición suave desde Google Analytics, Fathom o Plausible importando tus datos existentes. Prueba Pirsch Analytics gratis durante 30 días sin necesidad de tarjeta de crédito.",
+                                                            "cta_label": "Prueba gratuita de 30 días",
+                                                            "cta_link": "/es/signup"
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Conservez vos données",
+                                                            "text": "Effectuez une transition en douceur depuis Google Analytics, Fathom ou Plausible en important vos données existantes. Essayez Pirsch Analytics gratuitement pendant 30 jours sans carte de crédit.",
+                                                            "cta_label": "Essai gratuit de 30 jours",
+                                                            "cta_link": "/fr/signup"
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Behoud je data",
+                                                            "text": "Maak een soepele overgang van Google Analytics, Fathom of Plausible door je bestaande gegevens te importeren. Probeer Pirsch Analytics 30 dagen gratis, zonder dat een creditcard nodig is.",
+                                                            "cta_label": "30 dagen gratis proberen",
+                                                            "cta_link": "/nl/signup"
+                                                        },
+                                                        "it": {
+                                                            "headline": "Conserva i tuoi dati",
+                                                            "text": "Fai una transizione fluida da Google Analytics, Fathom o Plausible importando i tuoi dati esistenti. Prova Pirsch Analytics gratuitamente per 30 giorni senza necessità di carta di credito.",
+                                                            "cta_label": "Prova gratuita di 30 giorni",
+                                                            "cta_link": "/it/signup"
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Mantenha seus dados",
+                                                            "text": "Faça uma transição suave do Google Analytics, Fathom ou Plausible importando seus dados existentes. Experimente o Pirsch Analytics gratuitamente por 30 dias, sem necessidade de cartão de crédito.",
+                                                            "cta_label": "Teste gratuito de 30 dias",
+                                                            "cta_link": "/pt/signup"
+                                                        },
+                                                        "ja": {
+                                                            "headline": "データを保持",
+                                                            "text": "既存のデータをインポートして、Google Analytics、Fathom、またはPlausibleからスムーズに移行します。クレジットカード不要で、Pirsch Analyticsを30日間無料でお試しください。",
+                                                            "cta_label": "30日間無料トライアル",
+                                                            "cta_link": "/ja/signup"
                                                         }
                                                     }
                                                 },
@@ -194,7 +508,59 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Detailed Documentation",
-                                                            "text": "Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions."
+                                                            "text": "Pirsch is well documented. The documentation is constantly updated to ensure that you will always find an answer to your questions.",
+                                                            "cta_label": "Read the Docs",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "de": {
+                                                            "headline": "Ausführliche Dokumentation",
+                                                            "text": "Pirsch ist vollständig dokumentiert. Die Dokumentation wird ständig aktualisiert, um sicherzustellen, dass du immer eine Antwort auf deine Fragen findest.",
+                                                            "cta_label": "Dokumentation lesen",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "es": {
+                                                            "headline": "Documentación detallada",
+                                                            "text": "Pirsch está bien documentado. La documentación se actualiza constantemente para asegurarse de que siempre encuentres una respuesta a tus preguntas.",
+                                                            "cta_label": "Leer la documentación",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Documentation détaillée",
+                                                            "text": "Pirsch est bien documenté. La documentation est constamment mise à jour pour garantir que vous trouverez toujours une réponse à vos questions.",
+                                                            "cta_label": "Lire la documentation",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Gedetailleerde documentatie",
+                                                            "text": "Pirsch is goed gedocumenteerd. De documentatie wordt voortdurend bijgewerkt om ervoor te zorgen dat je altijd een antwoord op je vragen vindt.",
+                                                            "cta_label": "Lees de documentatie",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "it": {
+                                                            "headline": "Documentazione dettagliata",
+                                                            "text": "Pirsch è ben documentato. La documentazione viene costantemente aggiornata per garantire che tu possa sempre trovare una risposta alle tue domande.",
+                                                            "cta_label": "Leggi la documentazione",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Documentação detalhada",
+                                                            "text": "O Pirsch é bem documentado. A documentação é constantemente atualizada para garantir que você sempre encontre uma resposta para suas perguntas.",
+                                                            "cta_label": "Leia a documentação",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
+                                                        },
+                                                        "ja": {
+                                                            "headline": "詳細なドキュメント",
+                                                            "text": "Pirschは十分に文書化されています。ドキュメントは常に更新されており、質問に対する回答が常に見つかるようにしています。",
+                                                            "cta_label": "ドキュメントを読む",
+                                                            "cta_link": "https://docs.pirsch.io/",
+                                                            "cta_class": "secondary"
                                                         }
                                                     }
                                                 }
@@ -213,7 +579,35 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Personal Support",
-                                                            "text": "We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face."
+                                                            "text": "We're IT specialists, not salesmen. When you contact us for support, whether you have questions about integration details, networking, or programming, you can be sure to get competent, professional help. We're here to help, and we're here to find solutions to the challenges you face."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Persönlicher Support",
+                                                            "text": "Wir sind IT-Spezialisten, keine Verkäufer. Wenn du uns wegen Support kontaktierst, sei es bei Fragen zu Integrationsdetails, Netzwerk oder Programmierung, kannst du sicher sein, kompetente und professionelle Hilfe zu erhalten. Wir sind hier, um zu helfen, und wir sind hier, um Lösungen für die Herausforderungen zu finden, denen du gegenüberstehst."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Soporte Personalizado",
+                                                            "text": "Somos especialistas en TI, no vendedores. Cuando te pongas en contacto con nosotros para recibir soporte, ya sea por preguntas sobre detalles de integración, redes o programación, puedes estar seguro de que recibirás ayuda competente y profesional. Estamos aquí para ayudar y para encontrar soluciones a los desafíos que enfrentas."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Support personnalisé",
+                                                            "text": "Nous sommes des spécialistes en informatique, pas des vendeurs. Lorsque vous nous contactez pour obtenir de l'assistance, que ce soit pour des questions sur les détails d'intégration, les réseaux ou la programmation, vous pouvez être sûr de recevoir une aide compétente et professionnelle. Nous sommes là pour vous aider et trouver des solutions aux défis que vous rencontrez."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Persoonlijke ondersteuning",
+                                                            "text": "Wij zijn IT-specialisten, geen verkopers. Wanneer je contact met ons opneemt voor ondersteuning, of je nu vragen hebt over integratiedetails, netwerken of programmeren, kun je erop vertrouwen dat je deskundige, professionele hulp krijgt. Wij zijn hier om te helpen en om oplossingen te vinden voor de uitdagingen waarmee je te maken hebt."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Supporto personalizzato",
+                                                            "text": "Siamo specialisti IT, non venditori. Quando ci contatti per assistenza, che si tratti di domande sui dettagli di integrazione, reti o programmazione, puoi essere sicuro di ricevere un aiuto competente e professionale. Siamo qui per aiutarti e per trovare soluzioni alle sfide che affronti."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Suporte Pessoal",
+                                                            "text": "Somos especialistas em TI, não vendedores. Quando você nos contata para suporte, seja com perguntas sobre detalhes de integração, redes ou programação, você pode ter certeza de que receberá ajuda competente e profissional. Estamos aqui para ajudar e encontrar soluções para os desafios que você enfrenta."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "パーソナルサポート",
+                                                            "text": "私たちはITスペシャリストであり、営業マンではありません。統合の詳細、ネットワーキング、またはプログラミングに関する質問がある場合、サポートのために私たちに連絡すると、確実に有能でプロフェッショナルな支援が得られます。私たちはあなたを支援し、直面している課題に対する解決策を見つけるためにここにいます。"
                                                         }
                                                     }
                                                 },
@@ -222,7 +616,35 @@
                                                     "copy": {
                                                         "en": {
                                                             "headline": "Open-Source on GitHub",
-                                                            "text": "A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more."
+                                                            "text": "Much of Pirsch is open-source, including the core, SDKs, and libraries available. So you can see for yourself how Pirsch is developed and run. The code is available on GitHub, including a demo repository with sample applications and more."
+                                                        },
+                                                        "de": {
+                                                            "headline": "Open-Source auf GitHub",
+                                                            "text": "Vieles von Pirsch ist Open-Source, einschließlich des Kerns, der SDKs und verfügbaren Bibliotheken. So kannst du selbst sehen, wie Pirsch entwickelt und betrieben wird. Der Code ist auf GitHub verfügbar, einschließlich eines Demo-Repositorys mit Beispielanwendungen und mehr."
+                                                        },
+                                                        "es": {
+                                                            "headline": "Código Abierto en GitHub",
+                                                            "text": "Gran parte de Pirsch es de código abierto, incluyendo el núcleo, SDKs y bibliotecas disponibles. Así puedes ver por ti mismo cómo se desarrolla y ejecuta Pirsch. El código está disponible en GitHub, incluyendo un repositorio de demostración con aplicaciones de muestra y más."
+                                                        },
+                                                        "fr": {
+                                                            "headline": "Open-Source sur GitHub",
+                                                            "text": "Une grande partie de Pirsch est open-source, y compris le noyau, les SDK et les bibliothèques disponibles. Vous pouvez ainsi voir par vous-même comment Pirsch est développé et fonctionne. Le code est disponible sur GitHub, y compris un dépôt de démonstration avec des applications d'exemple et plus encore."
+                                                        },
+                                                        "nl": {
+                                                            "headline": "Open-Source op GitHub",
+                                                            "text": "Veel van Pirsch is open-source, inclusief de kern, SDK's en beschikbare bibliotheken. Zo kun je zelf zien hoe Pirsch wordt ontwikkeld en beheerd. De code is beschikbaar op GitHub, inclusief een demo-repository met voorbeeldtoepassingen en meer."
+                                                        },
+                                                        "it": {
+                                                            "headline": "Open-Source su GitHub",
+                                                            "text": "Gran parte di Pirsch è open-source, inclusi il core, gli SDK e le librerie disponibili. Così puoi vedere tu stesso come Pirsch viene sviluppato e gestito. Il codice è disponibile su GitHub, incluso un repository demo con applicazioni di esempio e altro ancora."
+                                                        },
+                                                        "pt": {
+                                                            "headline": "Código Aberto no GitHub",
+                                                            "text": "Grande parte do Pirsch é open-source, incluindo o core, SDKs e bibliotecas disponíveis. Assim, você pode ver por si mesmo como o Pirsch é desenvolvido e executado. O código está disponível no GitHub, incluindo um repositório de demonstração com aplicativos de exemplo e muito mais."
+                                                        },
+                                                        "ja": {
+                                                            "headline": "GitHubでのオープンソース",
+                                                            "text": "Pirschの多くはオープンソースであり、コア、SDK、および利用可能なライブラリが含まれています。そのため、Pirschがどのように開発および運用されているかを自分で確認できます。コードはGitHubで利用可能で、サンプルアプリケーションなどが含まれたデモリポジトリもあります。"
                                                         }
                                                     }
                                                 }
