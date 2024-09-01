@@ -18,7 +18,7 @@
                 "tpl": "head",
                 "copy": {
                     "en": {
-                        "title": "Laravel and Filament Analytics – Pirsch Analytics",
+                        "title": "Analytics for Laravel and Filament – Pirsch Analytics",
                         "meta_description": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy."
                     }
                 }
@@ -28,7 +28,7 @@
                 "tpl": "hero",
                 "copy": {
                     "en": {
-                        "headline": "Supercharge Your Laravel and Filament Analytics with Pirsch",
+                        "headline": "The Analytics Platform for Your Analytics for Laravel and Filament Apps",
                         "headline_class": "h2",
                         "text": "Effortlessly add analytics to your Laravel and Filament PHP applications with Pirsch, while protecting your customers' privacy.",
                         "action_primary": "Start Your Free Trial",
@@ -46,7 +46,7 @@
                 },
                 "copy": {
                     "en": {
-                        "headline": "Effortless Laravel and Filament Integration"
+                        "headline": "Non-Blockable and Effortless Server-Side Integration"
                     }
                 },
                 "content": {
@@ -84,11 +84,150 @@
                 }
             },
             {
-                "tpl": "extract",
+                "tpl": "content",
+                "data": {
+                    "gradient_color": "yellow",
+                    "gradient_position": "left"
+                },
                 "copy": {
                     "en": {
-                        "text": "<h2>Uncompromised and privacy-friendly web analytics</h2><p>Pirsch is an uncompromised and privacy friendly web analytics solution hosted in Germany. Fully compliant with GDPR, CCPA and PECR.</p><p>Say goodbye to annoying cookie banners while respecting the privacy of your visitors. We do not store personal information or IP addresses, nor do we sell data to advertisers.</p><a class='button secondary' href='/privacy-friendly-analytics' target='_blank' rel='noreferrer'>Learn more</a><h2>Seamless Switch</h2><p>Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required.</p><a class='button' href='/signup' target='_blank' rel='noreferrer'>Start 30-day Free Trial</a><h2>Open-Source on GitHub</h2><p>A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more.</p><a class='button secondary' href='https://github.com/pirsch-analytics/demo' target='_blank' rel='noreferrer'>See All Demos</a><h2>Detailed Documentation</h2><p>Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions.</p><a class='button secondary' href='https://docs.pirsch.io/' target='_blank' rel='noreferrer'>Read the Docs</a><h2>Personal Support</h2><p>We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face.</p>"
+                        "headline": "Uncompromised and privacy-friendly web analytics",
+                        "text": "Pirsch is an uncompromised and privacy friendly web analytics solution hosted in Germany. Fully compliant with GDPR, CCPA and PECR."
                     }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "one-two"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "No Cookie Banner",
+                                                            "text": "Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors' personal identifiable information."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "data": {
+                                                        "class": "columns"
+                                                    },
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Privacy-friendly by Design",
+                                                            "text": "Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany."
+                                                        }
+                                                    },
+                                                    "content": {
+                                                        "children": [
+                                                            {
+                                                                "tpl": "gdpr_logo"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "tpl": "content",
+                "data": {
+                    "gradient_position": "left"
+                },
+                "copy": {
+                    "en": {
+                        "headline": "Seemless Switch and Great Support",
+                        "text": "Pirsch is a web analytics tool designed for developers. Our extensive documentation and great support make the switch easy, and you can bring your data from Google Analytics, Fathom, or Plausible with you."
+                    }
+                },
+                "content": {
+                    "children": [
+                        {
+                            "tpl": "grid",
+                            "data": {
+                                "delay": 300
+                            },
+                            "content": {
+                                "children": [
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "one-one"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Keep Your Data",
+                                                            "text": "Make the switch from Google Analytics, Fathom, or Plausible seamlessly by importing your existing data. Try Pirsch Analytics free of charge for 30 days with no credit card required."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Detailed Documentation",
+                                                            "text": "Pirsch is well documented. We are constantly updating our documentation to make sure you always find an answer to your questions."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "tpl": "row",
+                                        "data": {
+                                            "class": "one-one"
+                                        },
+                                        "content": {
+                                            "children": [
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Personal Support",
+                                                            "text": "We're IT specialists, not salesmen. When you contact us for support, you can be sure to get competent and professional help, whether you have questions about integration details, networking, or programming. We're here to help, and we're here to find solutions to the challenges you face."
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "tpl": "card",
+                                                    "copy": {
+                                                        "en": {
+                                                            "headline": "Open-Source on GitHub",
+                                                            "text": "A lot of Pirsch is open source, including the core, SDKs, and libraries we have created for our service. So you can see for yourself how we work and how Pirsch functions. The code is available on GitHub, including a demo repository with sample applications and more."
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {"ref": "cta"},

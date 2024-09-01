@@ -42,7 +42,15 @@ Pirsch::track(
 );</code>
     </pre>
     <pre id="filamentTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px; display: none;">
-        <code class="language-js">{}</code>
+        <code class="language-js">// Middleware to track page views
+public function panel(Panel $panel): Panel {
+    return $panel
+        // ...
+        ->middleware([
+            // ...
+            \Pirsch\Http\Middleware\TrackPageview::class
+        ]);
+}</code>
     </pre>
     <pre id="phpTab" data-source="prism.js" class="language-php line-numbers tabcontent" style="height: 332px; display: none;">
     <code class="language-php">require __DIR__ . '/vendor/autoload.php';
