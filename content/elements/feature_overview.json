@@ -162,7 +162,7 @@
                 {
                     "headline": "SAML-based Single Sign-On",
                     "text": "Implement single sign-on for enhanced security and convenience.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Customization",
@@ -429,7 +429,7 @@
                 {
                     "headline": "SAML-basierte Single Sign-On",
                     "text": "Implementiere Single Sign-On für erhöhte Sicherheit und Bequemlichkeit.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Anpassung",
@@ -696,7 +696,7 @@
                 {
                     "headline": "Inicio de Sesión Único basado en SAML",
                     "text": "Implementa el inicio de sesión único para una seguridad y comodidad mejoradas.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Personalización",
@@ -963,7 +963,7 @@
                 {
                     "headline": "Authentification unique basée sur SAML",
                     "text": "Mettez en place une authentification unique pour plus de sécurité et de commodité.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Personnalisation",
@@ -1230,7 +1230,7 @@
                 {
                     "headline": "SAML-gebaseerde Single Sign-On",
                     "text": "Implementeer single sign-on voor verbeterde beveiliging en gemak.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Aanpassing",
@@ -1497,7 +1497,7 @@
                 {
                     "headline": "Single Sign-On basato su SAML",
                     "text": "Implementa il single sign-on per una maggiore sicurezza e comodità.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Personalizzazione",
@@ -1764,7 +1764,7 @@
                 {
                     "headline": "Autenticação Única Baseada em SAML",
                     "text": "Implemente autenticação única para maior segurança e conveniência.",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "Personalização",
@@ -2031,7 +2031,7 @@
                 {
                     "headline": "SAMLベースのシングルサインオン",
                     "text": "セキュリティと利便性を向上させるためにシングルサインオンを実装します。",
-                    "plus": true
+                    "enterprise": true
                 }
             ],
             "customization": "カスタマイズ",
