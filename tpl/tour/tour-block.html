@@ -1,0 +1,22 @@
+{{$left := copy .Page .Content "left"}}
+{{$leftMd := copy .Page .Content "left_md"}}
+{{$right := copy .Page .Content "right"}}
+{{$rightMd := copy .Page .Content "right_md"}}
+
+<article class="tour-block">
+    <div class="tour-block-text">
+        {{if $left}}
+            {{html $left}}
+        {{else if $leftMd}}
+            {{markdown $leftMd .}}
+        {{end}}
+    </div>
+
+    {{if $right}}
+        <div>
+            {{html $right}}
+        </div>
+    {{else if $rightMd}}
+        {{markdown $rightMd .}}
+    {{end}}
+</article>

@@ -1,0 +1,49 @@
+{
+    "path": {
+        "en": "/tour"
+    },
+    "sitemap": {
+        "priority": "0.6"
+    },
+    "content": {
+        "content": [
+            {
+                "ref": "head",
+                "copy": {
+                    "en": {
+                        "title": "Tour of Pirsch – Pirsch Analytics"
+                    }
+                }
+            },
+            {"tpl": "tour-nav"},
+            {
+                "tpl": "tour-block",
+                "copy": {
+                    "en": {
+                        "left": "<h1 class='h3'>Welcome to the Tour of Pirsch Analytics!</h1>"
+                    }
+                }
+            },
+            {
+                "tpl": "tour-block",
+                "copy": {
+                    "en": {
+                        "left_md": "static/tour/welcome.md",
+                        "right_md": "static/tour/welcome_code.md"
+                    }
+                }
+            },
+            {
+                "tpl": "tour-block",
+                "copy": {
+                    "en": {
+                        "left": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
+                        "right": "<img src='https://www.petage.com/wp-content/uploads/2019/09/Depositphotos_74974941_xl-2015-e1569443284386-1024x958.jpg' />"
+                    }
+                }
+            },
+            {"tpl": "tour-footer"},
+            {"ref": "end"}
+        ]
+    }
+}
