@@ -87,6 +87,10 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Tour",
+                    "href": "/tour"
+                },
+                {
                     "label": "Glossary",
                     "href": "/glossary"
                 },
@@ -256,8 +260,12 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Tour",
+                    "href": "/tour"
+                },
+                {
                     "label": "Glossar",
-                    "href": "/glossary"
+                    "href": "/de/glossary"
                 },
                 {
                     "label": "Analytics Atlas",
@@ -425,12 +433,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Visita",
+                    "href": "/es/tour"
+                },
+                {
                     "label": "Glosar",
-                    "href": "/glossary"
+                    "href": "/es/glossary"
                 },
                 {
                     "label": "Atlas de Análisis",
-                    "href": "/atlas"
+                    "href": "/es/atlas"
                 },
                 {
                     "label": "Generador de UTM",
@@ -594,12 +606,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Tour",
+                    "href": "/fr/tour"
+                },
+                {
                     "label": "Glossaire",
-                    "href": "/glossary"
+                    "href": "/fr/glossary"
                 },
                 {
                     "label": "Atlas d'Analyse",
-                    "href": "/atlas"
+                    "href": "/fr/atlas"
                 },
                 {
                     "label": "Générateur UTM",
@@ -763,12 +779,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Tour",
+                    "href": "/nl/tour"
+                },
+                {
                     "label": "Glossar",
-                    "href": "/glossary"
+                    "href": "/nl/glossary"
                 },
                 {
                     "label": "Analytics Atlas",
-                    "href": "/atlas"
+                    "href": "/nl/atlas"
                 },
                 {
                     "label": "UTM Generator",
@@ -932,12 +952,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Tour",
+                    "href": "/it/tour"
+                },
+                {
                     "label": "Glossario",
-                    "href": "/glossary"
+                    "href": "/it/glossary"
                 },
                 {
                     "label": "Atlante dell'Analisi",
-                    "href": "/atlas"
+                    "href": "/it/atlas"
                 },
                 {
                     "label": "Generatore di UTM",
@@ -1101,12 +1125,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "Viagem",
+                    "href": "/pt/tour"
+                },
+                {
                     "label": "Glossário",
-                    "href": "/glossary"
+                    "href": "/pt/glossary"
                 },
                 {
                     "label": "Atlas de Análise",
-                    "href": "/atlas"
+                    "href": "/pt/atlas"
                 },
                 {
                     "label": "Gerador de UTM",
@@ -1270,12 +1298,16 @@
                     "href": "/news"
                 },
                 {
+                    "label": "ツアー",
+                    "href": "/ja/tour"
+                },
+                {
                     "label": "グロッサー",
-                    "href": "/glossary"
+                    "href": "/ja/glossary"
                 },
                 {
                     "label": "分析アトラス",
-                    "href": "/atlas"
+                    "href": "/ja/atlas"
                 },
                 {
                     "label": "UTMジェネレータ",
