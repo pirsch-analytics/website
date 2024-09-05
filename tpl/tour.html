@@ -1,3 +1,99 @@
-<div>
-    <p>WIP</p>
-</div>
+<!-- TODO styling -->
+<style>
+    header {
+        display: block;position: relative;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 16px;
+    }
+
+    .tour-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 16px;
+        margin: 32px 0;
+    }
+
+    .tour-block div:first-child {
+        padding: 0 10%;
+    }
+
+    .tour-block p {
+        margin-bottom: 32px;
+    }
+
+    .tour-block img {
+        max-width: 100%;
+        border-radius: var(--border-radius-medium);
+    }
+</style>
+
+<script src="static/js/prism.js" async></script>
+
+<header class="no-select">
+    <div class="header-content">
+        <a href="/" id="headerLogoLink" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 26 38"><path d="M1 24c6.627 0 12-5.373 12-12S7.627 0 1 0v24zm24-10c-6.627 0-12 5.373-12 12s5.373 12 12 12V14z"></path><circle cx="21" cy="6" r="5"></circle><circle cx="5" cy="32" r="5"></circle></svg>
+            <span>Pirsch</span>
+        </a>
+        <nav id="headerNav">
+            <a href="/">Back to Home</a>
+        </nav>
+    </div>
+</header>
+
+<article class="tour-block">
+    <div class="tour-block-text">
+        <h1 class="h3">Welcome to the Tour of Pirsch Analytics!</h1>
+    </div>
+</article>
+
+<article class="tour-block">
+    <div class="tour-block-text">
+        <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+    <div>
+        <pre>
+            <code class="language-php">// Middleware to track page views
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->web(append: [
+        \Pirsch\Http\Middleware\TrackPageview::class,
+    ]);
+})
+
+// Or track page views manually
+Pirsch::track();
+
+// Send custom events
+Pirsch::track(
+    name: 'Button clicked',
+    meta: [
+        'Label' => 'Get started',
+    ],
+);</code>
+        </pre>
+    </div>
+</article>
+
+<article class="tour-block">
+    <div class="tour-block-text">
+        <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        </p>
+    </div>
+    <div>
+        <img src="https://www.petage.com/wp-content/uploads/2019/09/Depositphotos_74974941_xl-2015-e1569443284386-1024x958.jpg" alt="Kitten" />
+    </div>
+</article>
+
+<footer>
+    <span>© {{year}} <a href="https://emvi.com" target="_blank" style="display: inline;">Emvi Software GmbH</a>.</span>
+    <a href="https://localhost.com:8080/legal">Legal</a>
+    <a href="https://localhost.com:8080/privacy">Privacy Policy</a>
+    <a href="https://localhost.com:8080/terms">Terms and Conditions</a>
+</footer>
