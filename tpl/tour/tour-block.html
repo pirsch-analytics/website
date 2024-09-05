@@ -4,7 +4,7 @@
 {{$rightMd := copy .Page .Content "right_md"}}
 
 <article class="tour-block">
-    <div class="tour-block-text">
+    <div class="tour-block-content">
         {{if $left}}
             {{html $left}}
         {{else if $leftMd}}
@@ -13,10 +13,12 @@
     </div>
 
     {{if $right}}
-        <div>
+        <div class="tour-block-content">
             {{html $right}}
         </div>
     {{else if $rightMd}}
-        {{markdown $rightMd .}}
+        <div class="tour-block-content">
+            {{markdown $rightMd .}}
+        </div>
     {{end}}
 </article>

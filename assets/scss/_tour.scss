@@ -1,0 +1,72 @@
+.tour-blocks {
+    -webkit-backdrop-filter: blur(24px);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 176px);
+    margin: 0 16px;
+    overflow-y: auto;
+    border-radius: var(--border-radius-large);
+    backdrop-filter: blur(24px);
+    background-color: var(--color-background-secondary);
+
+    .tour-switch {
+        display: flex;
+        position: sticky;
+        bottom: 24px;
+        align-items: center;
+        padding: 9px 12px;
+        gap: 12px;
+        border-radius: 24px;
+        background-color: var(--green);
+        cursor: default;
+
+        .page {
+            color: var(--black);
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+}
+
+.tour-block {
+    display: grid;
+    position: relative;
+    grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+    width: 100%;
+    gap: 16px;
+
+    & + .tour-block {
+        margin-top: 16px;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 32px;
+            left: 32px;
+            height: 1px;
+            background-color: var(--color-secondary);
+            content: "";
+            opacity: .5;
+        }
+    }
+
+    .tour-block-content {
+        width: 100%;
+        padding: 32px;
+    }
+}
+
+.tour-footer {
+    display: flex;
+    align-items: center;
+    height: 88px;
+    padding: 0 16px;
+    gap: 16px;
+    cursor: default;
+    
+    a {
+        font-weight: 400;
+    }
+}

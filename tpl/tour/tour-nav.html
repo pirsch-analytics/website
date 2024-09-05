@@ -1,44 +1,6 @@
-<!-- TODO styling -->
-<style>
-    header {
-        display: block;
-        position: relative;
-    }
-
-    footer {
-        display: flex;
-        justify-content: space-between;
-        gap: 16px;
-    }
-
-    .tour-block {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 16px;
-        margin: 32px 0;
-    }
-
-    .tour-block div:first-child {
-        padding: 0 10%;
-    }
-
-    .tour-block div:last-child {
-        max-width: 90%;
-    }
-
-    .tour-block p {
-        margin-bottom: 32px;
-    }
-
-    .tour-block img {
-        max-width: 100%;
-        border-radius: var(--border-radius-medium);
-    }
-</style>
-
 <script src="static/js/prism.js" async></script>
 
-<header class="no-select">
+<header class="no-select" style="position: relative; display: flex;">
     <div class="header-content">
         <a href="/" id="headerLogoLink" class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 26 38"><path d="M1 24c6.627 0 12-5.373 12-12S7.627 0 1 0v24zm24-10c-6.627 0-12 5.373-12 12s5.373 12 12 12V14z"></path><circle cx="21" cy="6" r="5"></circle><circle cx="5" cy="32" r="5"></circle></svg>
@@ -47,8 +9,11 @@
         <nav>
             <a href="https://tour.pirsch.io" target="_blank">View the Demo</a>
             <a href="https://github.com/pirsch-analytics/tour" target="_blank">
-                <svg width="24" height="23.510204" version="1.1" id="svg1" sodipodi:docname="github-mark.svg" inkscape:export-filename="../../github.svg" inkscape:export-xdpi="31.346939" inkscape:export-ydpi="31.346939" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs1" /><sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" /><path fill-rule="evenodd" clip-rule="evenodd" d="M 12.026327,0 C 5.4180472,0 0.07589523,5.381535 0.07589523,12.039228 c 0,5.321849 3.42290087,9.826682 8.17137097,11.421085 0.593682,0.119861 0.811145,-0.259048 0.811145,-0.577782 0,-0.279105 -0.019568,-1.235795 -0.019568,-2.232603 C 5.7145208,21.367629 5.0222597,19.214771 5.0222597,19.214771 4.4880201,17.819485 3.6964452,17.46088 3.6964452,17.46088 c -1.0880485,-0.737516 0.079255,-0.737516 0.079255,-0.737516 1.2069315,0.07974 1.8402404,1.235797 1.8402404,1.235797 1.0682351,1.833635 2.7895915,1.31554 3.4820978,0.996562 0.098824,-0.777387 0.4156013,-1.315541 0.7519468,-1.614461 -2.651384,-0.279105 -5.4409761,-1.31554 -5.4409761,-5.939991 0,-1.315541 0.4745536,-2.3918472 1.2265007,-3.2289208 -0.1186384,-0.2989199 -0.5342397,-1.5349606 0.118883,-3.1892934 0,0 1.0090378,-0.3189783 3.2842036,1.2357961 A 11.489577,11.489577 0 0 1 12.026327,5.82013 c 1.009038,0 2.037645,0.1396754 2.987486,0.3987229 2.275411,-1.5547744 3.284449,-1.2357961 3.284449,-1.2357961 0.653122,1.6543328 0.237277,2.8903735 0.118638,3.1892934 0.771761,0.8370736 1.226745,1.9133798 1.226745,3.2289208 0,4.624451 -2.789592,5.640827 -5.46079,5.939991 0.435416,0.378666 0.811144,1.096122 0.811144,2.232359 0,1.614461 -0.01957,2.910188 -0.01957,3.308666 0,0.318978 0.217707,0.697887 0.811144,0.57827 4.748469,-1.594891 8.17137,-6.09948 8.17137,-11.421329 C 23.976516,5.381535 18.614794,0 12.026327,0 Z" fill="#24292f" id="path1" style="stroke-width:0.244616" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 16 16" fill="var(--color-primary)" style="margin: 7px 4px 0;">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
             </a>
         </nav>
     </div>
 </header>
+<div class="tour-blocks">
